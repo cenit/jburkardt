@@ -1,0 +1,15 @@
+
+GEYSER:
+  C++ version
+  Use DISLIN routines to make a bar chart.
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<                END OF DISLIN / VERSION 10.1                  <<
+ <<  Date    : 30.04.2011  Time    : 08:42:56  Pageformat: USAL  <<
+ <<  Vectors : 1084        Warnings: 0         Fileformat:  PNG  <<
+ <<  Metafile: geyser.png                                        <<
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+GEYSER:
+  Normal end of execution.

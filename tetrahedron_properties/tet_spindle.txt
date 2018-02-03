@@ -1,0 +1,107 @@
+
+09 July 2009 12:05:25 PM
+
+  Read the header of "../../datasets/tetrahedrons/tet_spindle.txt".
+
+  Spatial dimension DIM_NUM = 3
+  Number of points NODE_NUM = 4
+
+TETRAHEDRON_PROPERTIES:
+  C++ version:
+  Determine properties of a tetrahedron.
+
+  Read the data in "../../datasets/tetrahedrons/tet_spindle.txt".
+
+  Node coordinates:
+
+  Row:       1             2             3       
+  Col
+
+    1           -100             0             0
+    2            100             0             0
+    3              0             1         0.015
+    4              0            -1         0.015
+
+  CIRCUM_RADIUS = 333300
+  CIRCUM_CENTER:                0               0         -333300
+
+  CENTROID:                0               0          0.0075
+
+  DIHEDRAL_ANGLES (radians)
+
+         0         3.11159
+         1       0.0149996
+         2       0.0149996
+         3       0.0149996
+         4       0.0149996
+         5         3.14129
+
+  DIHEDRAL_ANGLES (degrees)
+
+         0         178.281
+         1        0.859415
+         2        0.859415
+         3        0.859415
+         4        0.859415
+         5         179.983
+
+  EDGE_LENGTHS
+
+         0             200
+         1         100.005
+         2         100.005
+         3         100.005
+         4         100.005
+         5               2
+
+  FACE_ANGLES (radians)
+
+  Row:       1             2             3       
+  Col
+
+    1      0.0100008     0.0100008       3.12159
+    2      0.0100008     0.0100008       3.12159
+    3      0.0199993        1.5608        1.5608
+    4      0.0199993        1.5608        1.5608
+
+  FACE_ANGLES (degrees)
+
+  Row:       1             2             3       
+  Col
+
+    1       0.573003      0.573003       178.854
+    2       0.573003      0.573003       178.854
+    3        1.14588       89.4271       89.4271
+    4        1.14588       89.4271       89.4271
+
+  FACE_AREAS
+
+         0         100.011
+         1         100.011
+         2             100
+         3             100
+
+  IN_RADIUS = 0.00749958
+  IN_CENTER:                0               0      0.00750042
+
+  QUALITY1 = 6.7503e-08
+
+  QUALITY2 = 0.000183701
+
+  QUALITY3 = 0.000311981
+
+  QUALITY4 = 2.75561e-06
+
+  SOLID_ANGLES (steradians)
+
+         0     1.49996e-06
+         1     1.49996e-06
+         2       0.0296993
+         3       0.0296993
+
+  VOLUME = 1
+
+TETRAHEDRON_PROPERTIES:
+  Normal end of execution.
+
+09 July 2009 12:05:25 PM

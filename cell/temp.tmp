@@ -1,0 +1,239 @@
+<html>
+
+  <head>
+    <title>
+      CELL - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      CELL <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>CELL</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>CELL</b> is available in
+      <a href = "../../cpp_src/cell/cell.html">a C++ version</a>.
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "cell.cpp">cell.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "cell.hpp">cell.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "cell.sh">cell.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "cell_prb.cpp">cell_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "cell_prb.sh">cell_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "cell_prb_output.txt">cell_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>I4_MIN</b> returns the minimum of two I4's.
+        </li>
+        <li>
+          <b>I4CVV_IGET</b> gets item J from row I in an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_IINC</b> increments item J from row I in an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_INDX</b> indexes item J from row I in an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_ISET</b> sets item J from row I in an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_NGET_NEW</b> gets N items JN(*) from rows IN(*) in an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_NINC</b> increments items JN(*) from rows IN(*) in an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_NNDX</b> gets N items JN(*) from rows IN(*) in an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_NSET</b> sets items JN(*) from rows IN(*) in an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_OFFSET</b> determines the row offsets of an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_PRINT</b> prints an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_RGET_NEW</b> gets row I from an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_RINC</b> increments row I in an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_RNDX</b> indexes row I from an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_RSET</b> sets row I from an I4CVV.
+        </li>
+        <li>
+          <b>I4CVV_SIZE</b> determines the size of an I4CVV.
+        </li>
+        <li>
+          <b>I4VEC_MAX</b> returns the value of the maximum element in an I4VEC.
+        </li>
+        <li>
+          <b>I4VEC_PRINT</b> prints an I4VEC.
+        </li>
+        <li>
+          <b>I4VEC_TRANSPOSE_PRINT</b> prints an I4VEC "transposed".
+        </li>
+        <li>
+          <b>R8CVV_IGET</b> gets item J from row I in an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_IINC</b> increments item J from row I in an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_INDX</b> indexes item J from row I in an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_ISET</b> sets item J from row I in an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_NGET_NEW</b> gets N items JN(*) from rows IN(*) in an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_NINC</b> increments items JN(*) from rows IN(*) in an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_NNDX</b> indexes N items JN(*) from rows IN(*) in an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_NSET</b> sets items JN(*) from rows IN(*) in an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_OFFSET</b> determines the row offsets of an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_PRINT</b> prints an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_RGET_NEW</b> gets row I from an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_RINC</b> increments row I in an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_RNDX</b> indexes row I from an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_RSET</b> sets row I from an R8CVV.
+        </li>
+        <li>
+          <b>R8CVV_SIZE</b> determines the size of an R8CVV.
+        </li>
+        <li>
+          <b>R8VEC_PRINT</b> prints an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_TRANSPOSE_PRINT</b> prints an R8VEC "transposed".
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Fri Dec  7 10:07:27 2012
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

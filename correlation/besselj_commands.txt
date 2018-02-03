@@ -1,0 +1,14 @@
+# besselj_commands.txt
+#
+# Usage:
+#  gnuplot < besselj_commands.txt
+#
+set term png
+set output "besselj_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Bessel J correlation'
+set grid
+set style data lines
+plot 'besselj_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

@@ -1,0 +1,11 @@
+double besselj ( double order, double x );
+double *chebyshev_even1 ( int n, double f ( double x ) );
+double *chebyshev_even2 ( int n, double f ( double x ) );
+double gegenbauer_cc1 ( int n, double lambda, double f ( double x ) );
+double gegenbauer_cc2 ( int n, double lambda, double f ( double x ) );
+int i4_uniform_ab ( int a, int b, int &seed );
+double r8_mop ( int i );
+void r8vec_print ( int n, double a[], string title );
+void r8vec2_print ( int n, double a1[], double a2[], string title );
+void rjbesl ( double x, double alpha, int nb, double b[], int &ncalc );
+void timestamp ( );

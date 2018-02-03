@@ -1,0 +1,341 @@
+03 July 2016 08:42:06 PM
+
+R8UT_PRB
+  C++ version
+  Test the R8UT library.
+
+R8GE_TO_R8UT_TEST
+  R8GE_TO_R8UT converts an R8GE matrix to R8UT format.
+
+  The random R8GE matrix:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1      0.218418     0.0661187     0.0617272    0.00183837  
+    2      0.956318      0.257578      0.449539      0.897504  
+    3      0.829509      0.109957      0.401306      0.350752  
+    4      0.561695      0.043829      0.754673     0.0945448  
+    5      0.415307      0.633966      0.797287     0.0136169  
+
+  The R8UT matrix
+
+  Col:       0             1             2             3       
+  Row
+  ---
+   0      0.218418     0.0661187     0.0617272    0.00183837  
+   1                    0.257578      0.449539      0.897504  
+   2                                  0.401306      0.350752  
+   3                                               0.0945448  
+   4                                                          
+
+R8UT_DET_TEST
+  R8UT_DET computes the determinant or an R8UT matrix
+
+  The matrix A:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0      0.218418      0.956318      0.561695      0.257578     0.0617272  
+   1                    0.829509      0.415307      0.109957      0.449539  
+   2                                 0.0661187      0.043829      0.401306  
+   3                                                0.633966      0.754673  
+   4                                                              0.797287  
+
+  Determinant is 0.00605501
+
+R8UT_INDICATOR_TEST
+  R8UT_INDICATOR sets up an indicator matrix in R8UT format.
+
+  The matrix:
+
+  Col:       0             1             2             3       
+  Row
+  ---
+   0            11            12            13            14  
+   1                          22            23            24  
+   2                                        33            34  
+   3                                                      44  
+   4                                                          
+
+R8UT_INVERSE_TEST
+  R8UT_INVERSE computes the inverse of an R8UT matrix
+
+  The matrix A:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0      0.218418      0.956318      0.561695      0.257578     0.0617272  
+   1                    0.829509      0.415307      0.109957      0.449539  
+   2                                 0.0661187      0.043829      0.401306  
+   3                                                0.633966      0.754673  
+   4                                                              0.797287  
+
+  The inverse matrix B:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0       4.57837      -5.27827      -5.74037     -0.547837       6.02953  
+   1                     1.20553      -7.57223      0.314412       2.83407  
+   2                                   15.1243      -1.04561      -6.62294  
+   3                                                 1.57737      -1.49306  
+   4                                                               1.25425  
+
+  The product A * B:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0             1             0             0             0  -2.08167e-16  
+   1                           1             0   2.77556e-17  -1.11022e-16  
+   2                                         1             0             0  
+   3                                                       1             0  
+   4                                                                     1  
+
+R8UT_MM_TEST
+  R8UT_MM computes C=A*B for R8UT matrices.
+
+  The matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0             1             1             1             1             1  
+   1                           1             1             1             1  
+   2                                         1             1             1  
+   3                                                       1             1  
+   4                                                                     1  
+
+  C = A * A:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0             1             2             3             4             5  
+   1                           1             2             3             4  
+   2                                         1             2             3  
+   3                                                       1             2  
+   4                                                                     1  
+
+R8UT_MTM_TEST
+  R8UT_MTM computes C=A'*B for R8UT matrices.
+
+  The matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0             1             1             1             1             1  
+   1                           1             1             1             1  
+   2                                         1             1             1  
+   3                                                       1             1  
+   4                                                                     1  
+
+  C = A' * A:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             1             1             1             1             1  
+    2             1             2             2             2             2  
+    3             1             2             3             3             3  
+    4             1             2             3             4             4  
+    5             1             2             3             4             5  
+
+R8UT_MTV_TEST
+  R8UT_MTV computes a product b=A'*x, where A is an R8UT matrix.
+
+  The matrix:
+
+  Col:       0             1             2             3       
+  Row
+  ---
+   0            11            12            13            14  
+   1                          22            23            24  
+   2                                        33            34  
+   3                                                      44  
+   4                                                          
+
+  Vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Vector b:
+
+     1              11
+     2              56
+     3             158
+     4             340
+
+R8UT_MV_TEST
+  R8UT_MV computes a product b=A*x, where A is an R8UT matrix.
+
+  The matrix:
+
+  Col:       0             1             2             3       
+  Row
+  ---
+   0            11            12            13            14  
+   1                          22            23            24  
+   2                                        33            34  
+   3                                                      44  
+   4                                                          
+
+  Vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+
+  Vector b:
+
+     1             130
+     2             209
+     3             235
+     4             176
+     5               0
+
+R8UT_PRINT_TEST
+  R8UT_PRINT prints a R8UT matrix.
+
+  The matrix:
+
+  Col:       0             1             2             3       
+  Row
+  ---
+   0            11            12            13            14  
+   1                          22            23            24  
+   2                                        33            34  
+   3                                                      44  
+   4                                                          
+   5                                                          
+
+R8UT_PRINT_SOME_TEST
+  R8UT_PRINT_SOME prints some of an R8UT matrix.
+
+  Some of the matrix:
+
+  Col:       3             4             5       
+  Row
+  ---
+   0            14            15            16  
+   1            24            25            26  
+   2            34            35            36  
+
+R8UT_RANDOM_TEST
+  R8UT_RANDOM randomizes an R8UT matrix.
+
+  Matrix order M, N = 5, 4
+
+  Matrix A:
+
+  Col:       0             1             2             3       
+  Row
+  ---
+   0      0.218418      0.956318      0.561695      0.257578  
+   1                    0.829509      0.415307      0.109957  
+   2                                 0.0661187      0.043829  
+   3                                                0.633966  
+   4                                                          
+
+R8UT_SL_TEST
+  R8UT_SL solves a linear system A*x=b with R8UT matrix;
+
+  Matrix order N = 5 
+
+  The upper triangular matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0             1             2             3             4             5  
+   1                           2             3             4             5  
+   2                                         3             4             5  
+   3                                                       4             5  
+   4                                                                     5  
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8UT_SLT
+  R8UT_SLT solves a linear system A'*x=b with R8UT matrix;
+
+  Matrix order N = 5 
+
+  The upper triangular matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0             1             2             3             4             5  
+   1                           2             3             4             5  
+   2                                         3             4             5  
+   3                                                       4             5  
+   4                                                                     5  
+
+  Solution to transposed system:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8UT_TO_R8GE_TEST
+  R8UT_TO_R8GE converts an R8UT matrix to R8GE format.
+
+  The random R8UT matrix:
+
+  Col:       0             1             2             3       
+  Row
+  ---
+   0      0.218418      0.956318      0.561695      0.257578  
+   1                    0.829509      0.415307      0.109957  
+   2                                 0.0661187      0.043829  
+   3                                                0.633966  
+   4                                                          
+
+  The R8GE matrix
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1      0.218418      0.956318      0.561695      0.257578  
+    2             0      0.829509      0.415307      0.109957  
+    3             0             0     0.0661187      0.043829  
+    4             0             0             0      0.633966  
+    5             0             0             0             0  
+
+R8UT_ZEROS_TEST
+  R8UT_ZEROS returns zeroed out space for an R8UT matrix.
+
+  Matrix order M, N = 5, 4
+
+  Matrix A:
+
+  Col:       0             1             2             3       
+  Row
+  ---
+   0             0             0             0             0  
+   1                           0             0             0  
+   2                                         0             0  
+   3                                                       0  
+   4                                                          
+
+R8UT_PRB
+  Normal end of execution.
+
+03 July 2016 08:42:06 PM

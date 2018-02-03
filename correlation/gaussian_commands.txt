@@ -1,0 +1,14 @@
+# gaussian_commands.txt
+#
+# Usage:
+#  gnuplot < gaussian_commands.txt
+#
+set term png
+set output "gaussian_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Gaussian correlation'
+set grid
+set style data lines
+plot 'gaussian_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

@@ -1,0 +1,260 @@
+!            iqpack - fortran subroutines for the weights of
+!                       interpolatory quadratures
+!
+!     for a detailed description of these routines see the paper
+!     with the above title -
+!
+!     given a set of distinct knots, t, and their multiplicities mlt,
+!     this package computes the weights d    of the interpolatory
+!                                        j,i
+!     quadrature formula
+!
+!                                            (i)
+!                 sum       sum        d    f   (t(j)),
+!               j = 1,nt   i=0,mlt(j)-1   j,i
+!
+!            (i)
+!     where f    is the i-th derivative of f, where the quadrature
+!     is to approximate
+!
+!                     integral  f(t)w(t) dt,
+!                      a,b
+!
+!     and where w(t) is a weight function. for certain classical weight
+!     functions, listed below, no other information is needed. however
+!     the package can compute the quadrature weights corresponding to
+!     any w(t) for which the zero-th moment and the (tridiagonal
+!     symmetric) jacobi matrix associated with the polynomials
+!     orthogonal on a,b with respect to w(t), are known. (a utility
+!     routine is supplied to provide this information for classical
+!     weight functions). knots and weights of gauss quadratures
+!     with no multiple knots can also be computed.
+!
+!     the package is an implementation of the method described in
+!
+!     "calculation of the weights of interpolatory quadratures",
+!     j. kautsky and s. elhay,  numer math 40 (1982) 407-422,
+!
+!     together with various utility routines. weights to some or all the
+!     knots can be computed.
+!
+!           table of classical weight functions
+!
+!      kind  interval       weight function               name
+!        1    (a,b)              one                    legendre
+!        2    (a,b)      ((b-x)*(x-a))**(-half)         chebyshev
+!        3    (a,b)      ((b-x)*(x-a))**alpha           gegenbauer
+!        4    (a,b)    (b-x)**alpha*(x-a)**beta          jacobi
+!        5   (a,inf)   (x-a)**alpha*exp(-b*(x-a))      gen laguerre
+!        6  (-inf,inf) abs(x-a)**alfa*exp(-b*(x-a)**2) gen hermite
+!        7    (a,b)      abs(x-(a+b)/two)**alfa         exponential
+!        8   (a,inf)    (x-a)**alfa*(b+x)**beta          rational
+!
+!     the values b = 1 and
+!                         a = -1 for weight functions 1,2,3,4,7
+!                         a =  0  for weight functions 5,6,8
+!     will be referred to as the default values.
+!
+!     we also define del as
+!                         (a+b)/2 for weight functions 1,2,3,4,7
+!                           a     for weight functions 5,6,8
+!
+!   iqpack index
+!   ------------
+!
+!   legend
+!   ------
+!   generally i = this quantity is input to this routine
+!             o = this quantity is output from this routine
+!   knots -   m = multiple knots allowed
+!             s = only simple knots allowed
+!   weights - c = computed
+!   qf -      i = any interpolatory quadrature formula
+!             g = gaussian quadrature formula
+!   eval -    y = the quadrature sum is formed
+!             n = the quadrature sum is not formed
+!   print -   y = the knots and weights of the quadrature formula are
+!                 optionally printed and a check of the moments is
+!                 optionally printed
+!             n = no printing possible
+!   a,b -     a = any valid values of the weight function parameters a,b
+!                 allowed
+!             d = only the default values of a,b allowed
+!
+!   user routines
+!   -------------
+!         name       knots  weights  qf  eval  print  a,b
+!         ------
+!         cegqf      so     c        g   y     n      a
+!         cegqfs     so     c        g   y     n      d
+!         cgqf       so     oc       g   n     y      a
+!         cgqfs      so     oc       g   n     y      d
+!         cdgqf      so     oc       g   n     n      d
+!         sgqf       so     oc       g   n     n      -
+!         cliqf      si     oc       i   n     y      a
+!         cliqfs     si     oc       i   n     y      d
+!         ceiqf      mi     c        i   y     n      a
+!         ceiqfs     mi     c        i   y     n      d
+!         ciqf       mi     co       i   n     y      a
+!         ciqfs      mi     co       i   n     y      d
+!         eiqf       mi     i        i   y     n      -
+!         eiqfs      si     i        i   y     n      -
+!         cawiq      mi     c        i   n     n      d
+!
+!   utility and auxilliary routines
+!   -------------------------------
+!         class      compute the zero-th moment and jacobi matrix for
+!                    a classical weight function
+!         wm         compute the moments of a classical weight function
+!         parchk     check that the parameter values are valid for this
+!                    weight function
+!         chkqfs     check and optionally print a moments check of a qf
+!                    and optionally print the knots and weights. default
+!                    values of a,b only
+!         chkqf      check and optionally print a moments check of a qf
+!                    and optionally print the knots and weights. any
+!                    valid values of a,b allowed
+!         sct        scale the knots of a qf for any valid a,b to those
+!                    for the default values of a,b
+!         scqf       scale a classical weight function qf with default
+!                    values for a,b to those for any valid a,b
+!         scmm       scale the moments of a classical weight function
+!                    with default values for a,b to those for any valid
+!                    a,b
+!         wtfn       compute the values of a classical weight function
+!                    at given points
+!         cwiqd      find all the weights to 1 multiple knot of a qf
+!         imtqlx     orthogonally diagonalize a jacobi matrix
+!         machep     compute machine epsilon
+!         dgamma     compute double precision gamma function
+!
+!     the following is a list of parameters used throughout the package
+!     which always have the same meaning.
+!
+! nt    number of distinct knots. must be  >= 1.
+! t     knot array.
+! mlt   multiplicity array. t(j) has multiplicity mlt(j).
+! nwts  dimension of the array containing the weights.
+! wts   array containing the weights.
+! ndx   flags and pointers array.  the package has been designed to
+!       (1) treat all or only some of the knots supplied as included in
+!           the quadrature,
+!       (2) compute the weights for all or only some of the knots
+!           included in the quadrature,
+!       (3) to pack the weights in the output array in various (possibly
+!           four) different ways.
+!       ndx indicates the status of each knot and points to the location
+!       of that knot in the wts array. its use is described in cawiq.
+!       in most straightforward applications the user will only need to
+!       dimension the array. the package will do the rest.
+! key   weights array structure flag. will usually be set 1. use
+!       described in cawiq.
+! kind  an integer 0 <= kind.le.8 specifying which weight function
+!       is to be used. kind = 0 indicates that the weight function is of a
+!       type not listed in the table below of classical weight
+!       functions. for kind = 0 the user must supply the
+!       jacobi matrix and any moments which are required.
+! alpha
+! beta
+! a
+! b     the weight function and/or interval parameters. any one may
+!       be replaced by a dummy variable if the weight function is
+!       independent of it.
+! nwf   an integer specifying the dimension of the workfield wf.
+!       minimum values for nwf are given in the description of each
+!       routine that uses a workfield.
+! wf    floating point workfield array to be supplied by the user.
+! niwf  an integer specifying the dimension of iwf
+! iwf   integer type workfield array to be supplied by the user.
+! qfsum variable returning the value of the quadrature sum.
+! f     a user supplied function invoked by a statement like y = f(x,i).
+!       it returns the value of the i-th derivative of f at x (zero-th
+!       derivative = function). the function should be capable
+!       of returning derivatives of all orders up to mmax-1 where
+!       mmax is the maximum multiplicity used at the knots. the actual
+!       parameter used in the call to routine eiqf, eiqfs, ceiqf and
+!       ceiqfs must be declared in an external statement in the calling
+!       program
+! lo    integer variable used to control output. if lo is set to zero
+!       then there will be no output printed. if lo is non-zero then
+!       abs(lo) will be the logical unit number to which all output
+!       is directed.  when lo is negative weights only will be printed
+!       and when lo is positive the weights and a check of the moments
+!       will be printed. in some routines lo==0 will cause a moments
+!       check to be computed even though there is no print while in
+!       others lo==0 will cause only the weights to be computed. see
+!       individual routines for details.
+!
+!     throughout the comments in this package
+!          n...is the number of knots counted according to their
+!              multiplicities,
+!          mmax...maximum of the mlt(j)
+!          rmax...maximum of 2*mmax and n+1
+!          nstar...integer part of (n+1)/2
+!
+!     error conditions are indicated by the variable ier being
+!     returned with a non-zero value.
+!
+!     ier =    1        alpha > -1 false
+!              2        for kind<8 beta > -1 is false
+!              3        for kind = 8 need beta<(alpha+beta+2*n).lt.0
+!                           to compute n elements of the jacobi matrix.
+!              4        unknown weight function. cannot generate
+!                           jacobi matrix
+!              5        gamma function and machine parameters are not
+!                           matched in accuracy
+!              6        zero length interval (kind = 1,2,3,4,7)
+!              7        b <= 0 for kind = 5,6
+!              8        a+b <= 0 for kind = 8
+!              9        not enough  integer workfield. niwf = 2*nt will do
+!             10        dimension of weights array too small
+!             11        jacobi matrix not diagonalized successfully
+!             12        size of jacobi matrix too small for number of
+!                           weights
+!             13        zero-th moment of weights function is not > 0
+!             14        knots not distinct
+!             15        some knot has multiplicity < 1
+!             16        pointers for wghts array contradictory
+!             17        0 < abs(key) < 5 false (see cawiq or eiqf)
+!             18        number of knots < 1
+!             -k,k>0    at least k locations are required in the
+!                       floating-point workfield in order to complete
+!                       the current task.
+!
+!                subroutines and their call sequences
+!
+!      call cegqfs(nt,kind,alpha,beta,f,qfsum,nwf,wf,niwf,iwf,ier)
+!      call cegqf(nt,kind,alpha,beta,a,b,f,qfsum,nwf,wf,niwf,iwf,ier)
+!      call cgqf(nt,t,wts,kind,alpha,beta,a,b,lo,nwf,wf,niwf,iwf,ier)
+!      call cgqfs(nt,t,wts,kind,alpha,beta,lo,nwf,wf,niwf,iwf,ier)
+!      call cdgqf(nt,t,wts,kind,alpha,beta,nwf,wf,ier)
+!      call sgqf(nt,t,wts,aj,bj,zemu,ier)
+!      call cliqfs(nt,t,wts,kind,alpha,beta,lo,nwf,wf,niwf,iwf,ier)
+!      call cliqf(nt,t,wts,kind,alpha,beta,a,b,lo,nwf,wf,niwf,iwf,ier)
+!      call ceiqfs(nt,t,mlt,kind,alpha,beta,f,qfsum,nwf,wf,niwf,iwf,ier)
+!      call ceiqf(nt,t,mlt,kind,alpha,beta,a,b,f,qfsum,nwf,wf,niwf,iwf,ier)
+!      call ciqfs(nt,t,mlt,nwts,wts,ndx,key,kind,alpha,beta,lo,nwf,wf,ier)
+!      call ciqf(nt,t,mlt,nwts,wts,ndx,key,kind,alpha,beta,a,b,lo,nwf,wf,ier)
+!      call eiqf(nt,t,mlt,wts,nwts,ndx,key,f,qfsum,ier)
+!      call eiqfs(nt,t,wts,f,qfsum,ier)
+!      call cawiq(nt,t,mlt,nwts,wts,ndx,key,nst,aj,bj,jdf,zemu,nwf,wf,ier)
+!      call cwiqd(m,nm,l,v,xk,nstar,phi,a,wf,y,r,z,d)
+!      call class(kind,m,alpha,beta,bj,aj,zemu,ier)
+!      call wm(w,m,kind,alpha,beta,ier)
+!      call parchk(kind,m,alpha,beta,ier)
+!      call chkqfs(t,wts,mlt,nt,nwts,ndx,key,w,mop,mex,kind,alpha,beta,lo,e,er,qm,ier)
+!      call chkqf(t,wts,mlt,nt,nwts,ndx,key,wf,mop,mex,kind,alpha,beta,lo,e,er,qm,nwf,a,b,ier)
+!      call sct(nt,t,st,kind,a,b,ier)
+!      call scqf(nt,t,mlt,wts,nwts,ndx,swts,st,kind,alpha,beta,a,b,ier)
+!      call scmm(w,m,kind,alpha,beta,a,b,ier)
+!      call wtfn(t,w,nt,kind,alpha,beta,ier)
+!      call imtqlx(n,d,e,z,ier)
+!      call machep (x)
+!      y = dgamma(x)
+!
+!      in the descriptions of the routines below all
+!      the input and output parameters are indicated by
+!      the single letter i or o aligned to each variable in the
+!      calling sequence. a * indicates that the variable is
+!      sometimes set on input and sometimes set by the routine.
+!

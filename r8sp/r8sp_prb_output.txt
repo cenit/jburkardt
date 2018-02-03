@@ -1,0 +1,494 @@
+24 September 2015 10:16:26 AM
+
+R8SP_PRB
+  C++ version
+  Test the R8SP library.
+
+R8SP_CG_TEST
+  R8SP_CG applies CG to an R8SP matrix.
+
+  Number of variables N = 10
+  Norm of residual ||Ax-b|| = 8.47455e-16
+  Norm of error ||x1-x2|| = 4.1616e-16
+
+R8SP_DIAGONAL_TEST
+  R8SP_DIAGONAL rearranges an R8SP matrix
+  so that the diagonal is listed first.
+
+  Matrix order M =         6
+  Matrix order N =         6
+  Matrix nonzeros NZ_NUM = 20
+
+  Before rearrangement:
+       K  ROW(K)  COL(K)      A(K)
+
+         0         0         4              15
+         1         2         5              36
+         2         3         1              42
+         3         5         1              62
+         4         4         1              52
+         5         1         3              24
+         6         5         3              64
+         7         2         4              35
+         8         0         0              11
+         9         1         5              26
+        10         3         3              44
+        11         5         5              66
+        12         4         4              55
+        13         3         0              41
+        14         3         5              46
+        15         2         2              33
+        16         5         0              61
+        17         1         1              22
+        18         2         0              31
+        19         3         2              43
+
+  After rearrangement:
+       K  ROW(K)  COL(K)      A(K)
+
+         0         0         0              11
+         1         1         1              22
+         2         2         2              33
+         3         3         3              44
+         4         4         4              55
+         5         5         5              66
+         6         5         3              64
+         7         2         4              35
+         8         0         4              15
+         9         1         5              26
+        10         5         1              62
+        11         1         3              24
+        12         4         1              52
+        13         3         0              41
+        14         3         5              46
+        15         3         1              42
+        16         5         0              61
+        17         2         5              36
+        18         2         0              31
+        19         3         2              43
+
+R8SP_DIF2_TEST
+  R8SP_DIF2 sets an R8SP matrix to the second difference.
+
+  Matrix order M =         5
+  Matrix order N =         5
+  Matrix nonzeros NZ_NUM = 13
+
+  R8SP matrix A:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0           2            -1             0             0             0  
+     1          -1             2            -1             0             0  
+     2           0            -1             2            -1             0  
+     3           0             0            -1             2            -1  
+     4           0             0             0            -1             2  
+
+
+R8SP_IJ_TO_K_TEST
+  R8SP_IJ_TO_K returns the R8SP index of (I,J).
+
+  Matrix rows M =    7
+  Matrix columns N = 5
+  Matrix nonzeros =  10
+
+         I         J         K
+
+         0         0        -1
+         0         1         0
+         0         2        -1
+         0         3        -1
+         0         4         1
+         1         0         2
+         1         1        -1
+         1         2        -1
+         1         3        -1
+         1         4         3
+         2         0        -1
+         2         1        -1
+         2         2        -1
+         2         3        -1
+         2         4        -1
+         3         0         4
+         3         1         5
+         3         2         6
+         3         3        -1
+         3         4        -1
+         4         0        -1
+         4         1        -1
+         4         2        -1
+         4         3         7
+         4         4        -1
+         5         0        -1
+         5         1        -1
+         5         2        -1
+         5         3         8
+         5         4        -1
+         6         0         9
+         6         1        -1
+         6         2        -1
+         6         3        -1
+         6         4        -1
+
+R8SP_INDICATOR_TEST
+  R8SP_INDICATOR sets up an R8SP indicator matrix;
+
+  Matrix rows M =          7
+  Matrix columns N =       5
+  Matrix nonzeros NZ_NUM = 10
+
+  The R8SP indicator matrix:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0           0            12             0             0            15  
+     1          21             0             0             0            25  
+     3          41            42            43             0             0  
+     4           0             0             0            54             0  
+     5           0             0             0            64             0  
+     6          71             0             0             0             0  
+
+
+R8SP_JAC_SL_TEST
+  R8SP_JAC_SL uses Jacobi iteration to solve a linear system
+  with an R8SP matrix.
+
+  Matrix order M =         10
+  Matrix order N =         10
+  Matrix nonzeros NZ_NUM = 28
+  Iterations per call    = 25
+
+  Current solution estimate:
+
+     1        0.315171
+     2        0.727797
+     3         1.14042
+     4         1.82758
+     5         2.51474
+     6         3.59047
+     7          4.6662
+     8          6.1282
+     9          7.5902
+    10          9.2951
+
+  Current solution estimate:
+
+     1        0.757545
+     2         1.51509
+     3         2.34936
+     4         3.18363
+     5         4.14729
+     6         5.11094
+     7         6.21581
+     8         7.32068
+     9         8.53366
+    10         9.74665
+
+  Current solution estimate:
+
+     1        0.910021
+     2         1.83432
+     3         2.75863
+     4         3.72124
+     5         4.68386
+     6         5.69666
+     7         6.70946
+     8         7.76839
+     9         8.82731
+    10         9.91366
+
+R8SP_MTV_TEST
+  R8SP_MTV multiplies a vector by an R8SP matrix;
+
+  Matrix rows M =          7
+  Matrix columns N =       5
+  Matrix nonzeros NZ_NUM = 10
+
+  The R8SP matrix:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0           0      0.218418             0             0      0.956318  
+     1    0.829509             0             0             0      0.561695  
+     3    0.415307     0.0661187      0.257578             0             0  
+     4           0             0             0      0.109957             0  
+     5           0             0             0      0.043829             0  
+     6    0.633966             0             0             0             0  
+
+
+  The vector x:
+
+     1               1
+     2               0
+     3               0
+     4               0
+     5               0
+     6               0
+     7              -1
+
+  The product A' * x:
+
+     1       -0.633966
+     2        0.218418
+     3               0
+     4               0
+     5        0.956318
+
+R8SP_MV_TEST
+  R8SP_MV multiplies an R8SP matrix by a vector;
+
+  Matrix rows M =          7
+  Matrix columns N =       5
+  Matrix nonzeros NZ_NUM = 10
+
+  The vector x:
+
+     1               1
+     2               0
+     3               0
+     4               0
+     5              -1
+
+  The product A * x:
+
+     1       -0.956318
+     2        0.267814
+     3               0
+     4        0.415307
+     5               0
+     6               0
+     7        0.633966
+
+R8SP_PRINT_TEST
+  R8SP_PRINT prints a R8SP matrix;
+  In this example, we have listed several matrix
+  locations TWICE.  R8SP_PRINT should compute the
+  sum of these values.
+
+  In particular, we want A(1,2) = 112 and A(3,4) = 234;
+
+  Matrix rows M =          5
+  Matrix columns N =       7
+  Matrix nonzeros NZ_NUM = 12
+
+  The R8SP matrix:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0           0           112             0            14             0  
+     1          21             0             0            24             0  
+     2           0             0             0           234             0  
+     3           0             0             0             0            45  
+     4          51            52             0             0             0  
+
+  Col:        5             6       
+  Row
+  ---
+     0           0            17  
+     3          46             0  
+
+
+R8SP_PRINT_SOME_TEST
+  R8SP_PRINT_SOME prints some of an R8SP matrix.
+
+  Matrix order M =         5
+  Matrix order N =         5
+  Matrix nonzeros NZ_NUM = 13
+
+  Rows 1:3, Cols 2:4:
+
+  Col:        2             3             4       
+  Row
+  ---
+     1          -1             0             0  
+     2           2            -1             0  
+     3          -1             2            -1  
+
+
+R8SP_RANDOM_TEST
+  R8SP_RANDOM randomizes an R8SP matrix.
+
+  Matrix order M =         5
+  Matrix order N =         5
+  Matrix nonzeros NZ_NUM = 13
+
+  R8SP matrix:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0    0.218418     0.0661187             0             0             0  
+     1           0      0.956318             0      0.257578             0  
+     2           0      0.109957      0.829509             0      0.043829  
+     3    0.633966             0             0      0.561695     0.0617272  
+     4    0.449539             0      0.401306             0      0.415307  
+
+
+R8SP_READ_TEST
+  R8SP_READ reads an R8SP matrix from a file.
+
+  R8SP_READ_SIZE reports matrix size data:
+
+
+  Matrix number of rows M =    101
+  Matrix number of columns N = 101
+  Matrix nonzeros NZ_NUM =     298
+
+  Initial 10x10 block of R8SP matrix:
+
+  Col:        1             2             3             4             5       
+  Row
+  ---
+     1         101           102             0             0             0  
+     2         201           202           203             0             0  
+     3           0           302           303           304             0  
+     4           0             0           403           404           405  
+     5           0             0             0           504           505  
+     6           0             0             0             0           605  
+
+  Col:        6             7             8             9            10       
+  Row
+  ---
+     5         506             0             0             0             0  
+     6         606           607             0             0             0  
+     7         706           707           708             0             0  
+     8           0           807           808           809             0  
+     9           0             0           908           909           910  
+    10           0             0             0          1009          1010  
+
+
+R8SP_RES_TEST
+  R8SP_RES computes r=b-A*x, where A is an R8SP matrix.
+
+  Matrix order M =         5
+  Matrix order N =         4
+  Matrix nonzeros NZ_NUM = 11
+
+  x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+
+  r=b-A*x:
+
+     1               0
+     2               0
+     3               0
+     4               0
+     5               0
+
+R8SP_TO_R8GE_TEST
+  R8SP_TO_R8GE converts an R8SP matrix to R8GE format.
+
+  Matrix order M =         5
+  Matrix order N =         5
+  Matrix nonzeros NZ_NUM = 13
+
+  R8SP matrix A:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0           2            -1             0             0             0  
+     1          -1             2            -1             0             0  
+     2           0            -1             2            -1             0  
+     3           0             0            -1             2            -1  
+     4           0             0             0            -1             2  
+
+
+  R8GE matrix A:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             2            -1             0             0             0  
+    2            -1             2            -1             0             0  
+    3             0            -1             2            -1             0  
+    4             0             0            -1             2            -1  
+    5             0             0             0            -1             2  
+
+R8SP_TO_R8NCF_TEST
+  R8SP_TO_R8NCF converts an R8SP matrix to R8NCF format.
+
+  Matrix order M =         5
+  Matrix order N =         5
+  Matrix nonzeros NZ_NUM = 13
+
+  R8SP matrix A:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0           2            -1             0             0             0  
+     1          -1             2            -1             0             0  
+     2           0            -1             2            -1             0  
+     3           0             0            -1             2            -1  
+     4           0             0             0            -1             2  
+
+
+  R8NCF matrix A:
+
+  Col:        1             2             3             4             5       
+  Row
+  ---
+     1           2            -1             0             0             0  
+     2          -1             2            -1             0             0  
+     3           0            -1             2            -1             0  
+     4           0             0            -1             2             0  
+
+
+R8SP_WRITE_TEST
+  R8SP_WRITE writes an R8SP matrix to a file.
+
+  Matrix number of rows M =    100
+  Matrix number of columns N = 100
+  Matrix nonzeros NZ_NUM =     298
+
+  Initial 10x10 block of R8SP matrix:
+
+  Col:        1             2             3             4             5       
+  Row
+  ---
+     1         101           102             0             0             0  
+     2         201           202           203             0             0  
+     3           0           302           303           304             0  
+     4           0             0           403           404           405  
+     5           0             0             0           504           505  
+     6           0             0             0             0           605  
+
+  Col:        6             7             8             9            10       
+  Row
+  ---
+     5         506             0             0             0             0  
+     6         606           607             0             0             0  
+     7         706           707           708             0             0  
+     8           0           807           808           809             0  
+     9           0             0           908           909           910  
+    10           0             0             0          1009          1010  
+
+  R8SP_WRITE wrote the matrix data to "r8sp_matrix.txt".
+
+R8SP_ZEROS_TEST
+  R8SP_ZEROS sets an R8SP matrix to zeros.
+
+  Matrix order M =         5
+  Matrix order N =         5
+  Matrix nonzeros NZ_NUM = 13
+
+  R8SP matrix:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+
+
+R8SP_PRB
+  Normal end of execution.
+
+24 September 2015 10:16:26 AM

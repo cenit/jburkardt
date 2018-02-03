@@ -1,0 +1,89 @@
+06 October 2015 09:12:13 PM
+
+BANK_PRB
+  C++ version
+  Test the BANK library.
+
+CH_IS_DIGIT_TEST
+  CH_IS_DIGIT is TRUE if a character represents a digit.
+
+       C  CH_IS_DIGIT(C)
+
+       0 '0'      1
+       1 '1'      1
+       2 '2'      1
+       3 '3'      1
+       4 '4'      1
+       5 '5'      1
+       6 '6'      1
+       7 '7'      1
+       8 '8'      1
+       9 '9'      1
+      10 'X'      0
+      11 '?'      0
+      12 ' '      0
+
+CH_TO_DIGIT_TEST
+  CH_TO_DIGIT: character -> decimal digit
+
+       0  0       0
+       1  1       1
+       2  2       2
+       3  3       3
+       4  4       4
+       5  5       5
+       6  6       6
+       7  7       7
+       8  8       8
+       9  9       9
+      10  X      -1
+      11  ?      -1
+      12         -1
+
+S_TO_DIGITS_TEST
+  S_TO_DIGITS: string -> digit vector
+
+  Test string: '34E94-70.6'
+
+  Extracted 5 digits:
+
+     1         3
+     2         4
+     3         9
+     4         4
+     5         7
+
+  Test string: '34E94-70.6'
+
+  Extracted 7 digits:
+
+     1         3
+     2         4
+     3         9
+     4         4
+     5         7
+     6         0
+     7         6
+
+BANK_CHECK_DIGIT_CALCULATE_TEST
+  BANK_CHECK_DIGIT_CALCULATE calculates the 9-th digit
+  (the check digit) of a bank checksum.
+
+  Check digit of '123-456-780' is 0, expecting 0
+  Check digit of '123 456 78' is 0, expecting 0
+  Check digit of '323-371-076' is 6, expecting 6
+  Check digit of '87654321' is 2, expecting 2
+  Check digit of '13579864' is 3, expecting 3
+
+BANK_IS_VALID_TEST
+  BANK_IS_VALID reports whether a UPC is valid.
+
+  Validity of '323-371-076' is 1, expecting 1
+  Validity of '323-371-576' is 0, expecting 0
+  Validity of '123 456 780' is 1, expecting 1
+  Validity of '123 456 789' is 0, expecting 0
+
+BANK_PRB
+  Normal end of execution.
+
+06 October 2015 09:12:13 PM

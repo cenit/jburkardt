@@ -1,0 +1,271 @@
+<html>
+
+  <head>
+    <title>
+      TEST_OPT_CON - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      TEST_OPT_CON <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>TEST_OPT_CON</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>TEST_OPT_CON</b> is available in...
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "test_opt_con.cpp">test_opt_con.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "test_opt_con.hpp">test_opt_con.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "test_opt_con.sh">test_opt_con.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "test_opt_con_prb.cpp">test_opt_con_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "test_opt_con_prb.sh">test_opt_con_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "test_opt_con_prb_output.txt">test_opt_con_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>P00_AB</b> returns bounds for a problem specified by index.
+        </li>
+        <li>
+          <b>P00_F</b> returns the objective function value for a problem specified by index.
+        </li>
+        <li>
+          <b>P00_M</b> returns the spatial dimension for a problem specified by index.
+        </li>
+        <li>
+          <b>P00_PROBLEM_NUM</b> returns the number of problems.
+        </li>
+        <li>
+          <b>P00_SOL</b> returns known solutions for a problem specified by index.
+        </li>
+        <li>
+          <b>P00_TITLE</b> returns a title for a problem specified by index.
+        </li>
+        <li>
+          <b>P01_AB</b> returns bounds for problem 1.
+        </li>
+        <li>
+          <b>P01_F</b> returns the objective function value for problem 1.
+        </li>
+        <li>
+          <b>P01_M</b> returns the spatial dimension for problem 1.
+        </li>
+        <li>
+          <b>P01_SOL</b> returns known solutions for problem 1.
+        </li>
+        <li>
+          <b>P01_TITLE</b> returns a title for problem 1.
+        </li>
+        <li>
+          <b>P02_AB</b> returns bounds for problem 2.
+        </li>
+        <li>
+          <b>P02_F</b> returns the objective function value for problem 2.
+        </li>
+        <li>
+          <b>P02_M</b> returns the spatial dimension for problem 2.
+        </li>
+        <li>
+          <b>P02_SOL</b> returns known solutions for problem 2.
+        </li>
+        <li>
+          <b>P02_TITLE</b> returns a title for problem 2.
+        </li>
+        <li>
+          <b>P03_AB</b> returns bounds for problem 3.
+        </li>
+        <li>
+          <b>P03_F</b> returns the objective function value for problem 3.
+        </li>
+        <li>
+          <b>P03_M</b> returns the spatial dimension for problem 3.
+        </li>
+        <li>
+          <b>P03_SOL</b> returns known solutions for problem 3.
+        </li>
+        <li>
+          <b>P03_TITLE</b> returns a title for problem 3.
+        </li>
+        <li>
+          <b>P04_AB</b> returns bounds for problem 4.
+        </li>
+        <li>
+          <b>P04_F</b> returns the objective function value for problem 4.
+        </li>
+        <li>
+          <b>P04_M</b> returns the spatial dimension for problem 4.
+        </li>
+        <li>
+          <b>P04_SOL</b> returns known solutions for problem 4.
+        </li>
+        <li>
+          <b>P04_TITLE</b> returns a title for problem 4.
+        </li>
+        <li>
+          <b>P05_AB</b> returns bounds for problem 5.
+        </li>
+        <li>
+          <b>P05_F</b> returns the objective function value for problem 5.
+        </li>
+        <li>
+          <b>P05_M</b> returns the spatial dimension for problem 5.
+        </li>
+        <li>
+          <b>P05_SOL</b> returns known solutions for problem 5.
+        </li>
+        <li>
+          <b>P05_TITLE</b> returns a title for problem 5.
+        </li>
+        <li>
+          <b>P06_AB</b> returns bounds for problem 6.
+        </li>
+        <li>
+          <b>P06_F</b> returns the objective function value for problem 6.
+        </li>
+        <li>
+          <b>P06_M</b> returns the spatial dimension for problem 6.
+        </li>
+        <li>
+          <b>P06_SOL</b> returns known solutions for problem 6.
+        </li>
+        <li>
+          <b>P06_TITLE</b> returns a title for problem 6.
+        </li>
+        <li>
+          <b>P07_AB</b> returns bounds for problem 7.
+        </li>
+        <li>
+          <b>P07_F</b> returns the objective function value for problem 5.
+        </li>
+        <li>
+          <b>P07_M</b> returns the spatial dimension for problem 7.
+        </li>
+        <li>
+          <b>P07_SOL</b> returns known solutions for problem 7.
+        </li>
+        <li>
+          <b>P07_TITLE</b> returns a title for problem 7.
+        </li>
+        <li>
+          <b>P08_AB</b> returns bounds for problem 8.
+        </li>
+        <li>
+          <b>P08_F</b> returns the objective function value for problem 8.
+        </li>
+        <li>
+          <b>P08_M</b> returns the spatial dimension for problem 8.
+        </li>
+        <li>
+          <b>P08_SOL</b> returns known solutions for problem 8.
+        </li>
+        <li>
+          <b>P08_TITLE</b> returns a title for problem 8.
+        </li>
+        <li>
+          <b>R8COL_UNIFORM_NEW</b> fills an R8COL with scaled pseudorandom numbers.
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Thu Feb 16 23:17:31 2012
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

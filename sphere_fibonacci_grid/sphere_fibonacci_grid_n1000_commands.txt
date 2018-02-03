@@ -1,0 +1,18 @@
+# sphere_fibonacci_grid_n1000_commands.txt
+#
+# Usage:
+#  gnuplot < sphere_fibonacci_grid_n1000_commands.txt
+#
+set term png
+set output 'sphere_fibonacci_grid_n1000.png'
+set xlabel '<--- X --->'
+set ylabel '<--- Y --->'
+set zlabel '<--- Z --->'
+set title 'sphere_fibonacci_grid_n1000'
+set grid
+set key off
+set style data points
+set timestamp
+set view equal xyz
+splot 'sphere_fibonacci_grid_n1000_data.txt'
+quit

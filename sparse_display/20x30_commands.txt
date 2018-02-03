@@ -1,0 +1,14 @@
+# 20x30_commands.txt
+#
+# Usage:
+#  gnuplot < 20x30_commands.txt
+#
+unset key
+set term png
+set output '20x30.png'
+set size ratio -1
+set xlabel '<--- J --->'
+set ylabel '<--- I --->'
+set title '101 nonzeros for "20x30"'
+set timestamp
+plot [y=0:29] [x=19:0] '20x30_data.txt' with points pt 5

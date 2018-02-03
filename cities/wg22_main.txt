@@ -1,0 +1,27 @@
+# wg22_main.txt
+#
+#  Discussion:
+#
+#    This data represents the Cartesian (x,y) coordinates of 22 towns
+#    in West Germany.
+#
+#  Modified:
+#
+#    07 November 2002
+#
+#  Author:
+#
+#    John Burkardt
+#
+#  Reference:
+#
+#    Helmut Spaeth,
+#    Cluster Analysis Algorithms 
+#    for Data Reduction and Classification of Objects,
+#    Ellis Horwood, 1980, page 43.
+#
+size  22
+geom  plane
+name  wg22_name.txt
+dist  wg22_dist.txt
+xy    wg22_xy.txt

@@ -1,0 +1,605 @@
+09 November 2015 03:13:43 PM
+
+TRIANGLE_PROPERTIES_PRB
+  C++ version
+  Test the TRIANGLE_PROPERTIES library.
+
+TRIANGLE_ANGLES_TEST
+  TRIANGLE_ANGLES computes the angles in a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             1
+    1:             0             0
+    2:             1             0
+
+      Radians      Degrees
+
+        0.785398  45
+          1.5708  90
+        0.785398  45
+
+TRIANGLE_AREA_TEST
+  TRIANGLE_AREA computes the area of a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             1
+    1:             0             0
+    2:             1             0
+
+  Triangle area is 0.5
+
+TRIANGLE_CENTROID_TEST
+  TRIANGLE_CENTROID computes the centroid of a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:             0             1
+
+  Centroid:
+
+         0:       0.333333
+         1:       0.333333
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:           0.5      0.866025
+
+  Centroid:
+
+         0:            0.5
+         1:       0.288675
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:           0.5            10
+
+  Centroid:
+
+         0:            0.5
+         1:        3.33333
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:            10             2
+
+  Centroid:
+
+         0:        3.66667
+         1:       0.666667
+
+TRIANGLE_CIRCUMCIRCLE_TEST
+  TRIANGLE_CIRCUMCIRCLE computes the circumcircle of a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:             0             1
+
+  Circumcenter
+
+         0:            0.5
+         1:            0.5
+  Circumradius: 0.707107
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:           0.5      0.866025
+
+  Circumcenter
+
+         0:            0.5
+         1:       0.288675
+  Circumradius: 0.57735
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:           0.5            10
+
+  Circumcenter
+
+         0:            0.5
+         1:         4.9875
+  Circumradius: 5.0125
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:            10             2
+
+  Circumcenter
+
+         0:            0.5
+         1:           23.5
+  Circumradius: 23.5053
+
+TRIANGLE_CONTAINS_POINT_TEST
+  TRIANGLE_CONTAINS_POINT reports if a point
+  is inside a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             1
+    1:             0             0
+    2:             1             0
+
+       X       Y     Inside
+
+      0.25      0.25  1
+      0.75      0.25  1
+         1         1  0
+        11       0.5  0
+         0         1  1
+       0.5       -10  0
+       0.6       0.6  0
+
+  Repeat the test, but reverse the triangle vertex
+  ordering.
+
+  Triangle vertices (reversed):
+
+  Row:       0             1       
+  Col
+
+    0:           0.6           0.6
+    1:             0             1
+    2:             0             1
+
+       X       Y     Inside
+
+      0.25      0.25  0
+      0.75      0.25  0
+         1         1  0
+        11       0.5  0
+         0         1  1
+       0.5       -10  0
+       0.6       0.6  1
+
+TRIANGLE_DIAMETER_TEST
+  TRIANGLE_DIAMETER computes the diameter of
+  the SMALLEST circle around the triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             4             2
+    1:             1             5
+    2:            -2             2
+
+  Diameter = 2.56184
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             4             2
+    1:             5             4
+    2:             6             6
+
+  Diameter = 2.11474
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             4             2
+    1:             1             5
+    2:             4             2
+
+  Diameter = 2.05977
+
+TRIANGLE_EDGE_LENGTH_TEST
+  TRIANGLE_EDGE_LENGTH computes the edge lengths of a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             4             2
+    1:             1             5
+    2:            -2             2
+
+  EDGE_LENGTHS:
+
+         0:        4.24264
+         1:        4.24264
+         2:              6
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             4             2
+    1:             5             4
+    2:             6             6
+
+  EDGE_LENGTHS:
+
+         0:        2.23607
+         1:        2.23607
+         2:        4.47214
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             4             2
+    1:             1             5
+    2:             4             2
+
+  EDGE_LENGTHS:
+
+         0:        4.24264
+         1:        4.24264
+         2:              0
+
+TRIANGLE_INCIRCLE_TEST
+  TRIANGLE_INCIRCLE_2D computes the incircle of a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             1
+    1:             0             0
+    2:             1             0
+
+  Incenter
+
+         0:       0.292893
+         1:       0.292893
+
+  Incircle radius is 0.292893
+
+TRIANGLE_ORIENTATION_TEST
+  TRIANGLE_ORIENTATION determines the orientation of a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             4             2
+    1:             1             5
+    2:            -2             2
+  The points are counterclockwise.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             1             5
+    1:             4             2
+    2:             1            -1
+  The points are clockwise.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             1             5
+    1:             2             7
+    2:             3             9
+  The points are colinear.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             1             5
+    1:             4             2
+    2:             1             5
+  The points are not distinct.
+
+TRIANGLE_ORTHOCENTER_TEST
+  TRIANGLE_ORTHOCENTER_2D computes the orthocenter of a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:             0             1
+
+  Orthocenter
+
+         0:             -0
+         1:              0
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:           0.5      0.866025
+
+  Orthocenter
+
+         0:            0.5
+         1:       0.288675
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:           0.5            10
+
+  Orthocenter
+
+         0:            0.5
+         1:          0.025
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:            10             2
+
+  Orthocenter
+
+         0:             10
+         1:            -45
+
+TRIANGLE_POINT_DIST_TEST
+  TRIANGLE_POINT_DIST computes the distance
+  from a point to a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             1
+    1:             0             0
+    2:             1             0
+
+           P            DIST
+
+      0.25      0.25        0.25
+      0.75      0.25           0
+         1         1    0.707107
+        11       0.5     10.0125
+         0         1           0
+       0.5       -10          10
+       0.6       0.6    0.141421
+
+TRIANGLE_POINT_NEAR_TEST
+  TRIANGLE_POINT_NEAR computes the nearest
+  point on a triangle to a given point.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             1
+    1:             0             0
+    2:             1             0
+
+           P                PN
+
+      0.25      0.25           0      0.25
+      0.75      0.25        0.75      0.25
+         1         1         0.5       0.5
+        11       0.5           1         0
+         0         1           0         1
+       0.5       -10         0.5         0
+       0.6       0.6         0.5       0.5
+
+TRIANGLE_QUALITY_TEST
+  TRIANGLE_QUALITY computes the quality of a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:             0             1
+
+  Quality = 0.828427
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:           0.5      0.866025
+
+  Quality = 1
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:           0.5            10
+
+  Quality = 0.189775
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             0             0
+    1:             1             0
+    2:            10             2
+
+  Quality = 0.00833469
+
+TRIANGLE_REFERENCE_SAMPLE_TEST
+  TRIANGLE_REFERENCE_SAMPLE samples the reference triangle.
+
+  Sample points (X,Y) and (XSI1,XSI2,XSI3) coordinates:
+
+  0.0204151  0.446937    0.532648  0.0204151  0.446937
+  0.399196  0.511578    0.089226  0.399196  0.511578
+  0.601833  0.0426098    0.355557  0.601833  0.0426098
+  0.451716  0.0558054    0.492479  0.451716  0.0558054
+  0.0766307  0.132723    0.790646  0.0766307  0.132723
+  0.136762  0.111688     0.75155  0.136762  0.111688
+  0.155411  0.478076    0.366513  0.155411  0.478076
+  0.891268  0.0016415    0.107091  0.891268  0.0016415
+  0.615076  0.332291    0.0526331  0.615076  0.332291
+  0.303294  0.00418694    0.692519  0.303294  0.00418694
+
+TRIANGLE_SAMPLE_TEST
+  TRIANGLE_SAMPLE samples points from a triangle.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             4             2
+    1:             1             5
+    2:            -2             2
+
+  Sample points (X,Y) and (XSI1,XSI2,XSI3) coordinates:
+
+   1.25713   2.06125    0.532648  0.0204151  0.446937
+  -0.267055   3.19759    0.089226  0.399196  0.511578
+   1.93884    3.8055    0.355557  0.601833  0.0426098
+   2.31002   3.35515    0.492479  0.451716  0.0558054
+   2.97377   2.22989    0.790646  0.0766307  0.132723
+   2.91959   2.41029     0.75155  0.136762  0.111688
+  0.665309   2.46623    0.366513  0.155411  0.478076
+   1.31635    4.6738    0.107091  0.891268  0.0016415
+  0.161026   3.84523    0.0526331  0.615076  0.332291
+     3.065   2.90988    0.692519  0.303294  0.00418694
+
+TRIANGLE_XSI_TO_XY_TEST
+  TRIANGLE_XSI_TO_XY converts XSI to XY coordinates.
+
+  We verify that (X,Y) -> (XSI1,XSI2,XSI3) -> (X,Y)
+  works properly.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             4             2
+    1:             1             5
+    2:            -2             2
+
+  Sample points:
+
+         1         3    0.333333  0.333333  0.333333           1         3
+         3         0     1.16667  -0.666667       0.5           3  2.22045e-16
+   1.25713   2.06125    0.532648  0.0204151  0.446937     1.25713   2.06125
+  -0.267055   3.19759    0.089226  0.399196  0.511578    -0.267055   3.19759
+   1.93884    3.8055    0.355557  0.601833  0.0426098     1.93884    3.8055
+   2.31002   3.35515    0.492479  0.451716  0.0558054     2.31002   3.35515
+   2.97377   2.22989    0.790646  0.0766307  0.132723     2.97377   2.22989
+   2.91959   2.41029     0.75155  0.136762  0.111688     2.91959   2.41029
+  0.665309   2.46623    0.366513  0.155411  0.478076    0.665309   2.46623
+   1.31635    4.6738    0.107091  0.891268  0.0016415     1.31635    4.6738
+
+TRIANGLE_XY_TO_XSI_TEST
+  TRIANGLE_XY_TO_XSI converts XY to XSI coordinates.
+
+  We verify that (X,Y) -> (XSI1,XSI2,XSI3) -> (X,Y)
+  works properly.
+
+  Triangle vertices:
+
+  Row:       0             1       
+  Col
+
+    0:             4             2
+    1:             1             5
+    2:            -2             2
+
+  Sample points:
+
+         1         3    0.333333  0.333333  0.333333           1         3
+         3         0     1.16667  -0.666667       0.5           3  2.22045e-16
+   1.25713   2.06125    0.532648  0.0204151  0.446937     1.25713   2.06125
+  -0.267055   3.19759    0.089226  0.399196  0.511578    -0.267055   3.19759
+   1.93884    3.8055    0.355557  0.601833  0.0426098     1.93884    3.8055
+   2.31002   3.35515    0.492479  0.451716  0.0558054     2.31002   3.35515
+   2.97377   2.22989    0.790646  0.0766307  0.132723     2.97377   2.22989
+   2.91959   2.41029     0.75155  0.136762  0.111688     2.91959   2.41029
+  0.665309   2.46623    0.366513  0.155411  0.478076    0.665309   2.46623
+   1.31635    4.6738    0.107091  0.891268  0.0016415     1.31635    4.6738
+
+TRIANGLE_PROPERTIES_PRB
+  Normal end of execution.
+
+09 November 2015 03:13:43 PM

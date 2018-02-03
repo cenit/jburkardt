@@ -1,0 +1,157 @@
+NEAREST\_INTERP\_1D\
+Nearest Neighbor Interpolation in 1D {#nearest_interp_1d-nearest-neighbor-interpolation-in-1d align="center"}
+====================================
+
+------------------------------------------------------------------------
+
+**NEAREST\_INTERP\_1D** is a C++ library which interpolates a set of
+data using a piecewise constant interpolant defined by the nearest
+neighbor criterion, creating graphics files for processing by GNUPLOT.
+
+NEAREST\_INTERP\_1D needs the R8LIB library. The test also needs the
+TEST\_INTERP library.
+
+### Licensing: {#licensing align="center"}
+
+The computer code and data files described and made available on this
+web page are distributed under [the GNU LGPL
+license.](../../txt/gnu_lgpl.txt)
+
+### Languages: {#languages align="center"}
+
+**NEAREST\_INTERP\_1D** is available in [a C
+version](../../c_src/nearest_interp_1d/nearest_interp_1d.html) and [a
+C++ version](../../cpp_src/nearest_interp_1d/nearest_interp_1d.html) and
+[a FORTRAN77
+version](../../f77_src/nearest_interp_1d/nearest_interp_1d.html) and [a
+FORTRAN90 version](../../f_src/nearest_interp_1d/nearest_interp_1d.html)
+and [a MATLAB
+version](../../m_src/nearest_interp_1d/nearest_interp_1d.html) and [a
+Python version](../../py_src/nearest_interp_1d/nearest_interp_1d.html).
+
+### Related Data and Programs: {#related-data-and-programs align="center"}
+
+[BARYCENTRIC\_INTERP\_1D](../../cpp_src/barycentric_interp_1d/barycentric_interp_1d.html),
+a C++ library which defines and evaluates the barycentric Lagrange
+polynomial p(x) which interpolates a set of data, so that p(x(i)) =
+y(i). The barycentric approach means that very high degree polynomials
+can safely be used.
+
+[CHEBYSHEV\_INTERP\_1D](../../cpp_src/chebyshev_interp_1d/chebyshev_interp_1d.html),
+a C++ library which determines the combination of Chebyshev polynomials
+which interpolates a set of data, so that p(x(i)) = y(i).
+
+[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+illustrate the use of the gnuplot graphics program.
+
+[LAGRANGE\_INTERP\_1D](../../cpp_src/lagrange_interp_1d/lagrange_interp_1d.html),
+a C++ library which defines and evaluates the Lagrange polynomial p(x)
+which interpolates a set of data, so that p(x(i)) = y(i).
+
+[NEWTON\_INTERP\_1D](../../cpp_src/newton_interp_1d/newton_interp_1d.html),
+a C++ library which finds a polynomial interpolant to data using Newton
+divided differences.
+
+[PWL\_INTERP\_1D](../../cpp_src/pwl_interp_1d/pwl_interp_1d.html), a C++
+library which interpolates a set of data using a piecewise linear
+function.
+
+[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+many utility routines using double precision real (R8) arithmetic.
+
+[RBF\_INTERP\_1D](../../cpp_src/rbf_interp_1d/rbf_interp_1d.html), a C++
+library which defines and evaluates radial basis function (RBF)
+interpolants to 1D data.
+
+[SHEPARD\_INTERP\_1D](../../cpp_src/shepard_interp_1d/shepard_interp_1d.html),
+a C++ library which defines and evaluates Shepard interpolants to 1D
+data, based on inverse distance weighting.
+
+[TEST\_INTERP](../../cpp_src/test_interp/test_interp.html), a C++
+library which defines a number of test problems for interpolation,
+provided as a set of (x,y) data.
+
+[TEST\_INTERP\_1D](../../cpp_src/test_interp_1d/test_interp_1d.html), a
+C++ library which defines test problems for interpolation of data y(x),
+depending on a 2D argument.
+
+[VANDERMONDE\_INTERP\_1D](../../c_src/vandermonde_interp_1d/vandermonde_interp_1d.html),
+a C library which finds a polynomial interpolant to data y(x) of a 1D
+argument, by setting up and solving a linear system for the polynomial
+coefficients, involving the Vandermonde matrix.
+
+### Reference: {#reference align="center"}
+
+1.  Kendall Atkinson,\
+    An Introduction to Numerical Analysis,\
+    Prentice Hall, 1989,\
+    ISBN: 0471624896,\
+    LC: QA297.A94.1989.
+2.  Philip Davis,\
+    Interpolation and Approximation,\
+    Dover, 1975,\
+    ISBN: 0-486-62495-1,\
+    LC: QA221.D33
+3.  David Kahaner, Cleve Moler, Steven Nash,\
+    Numerical Methods and Software,\
+    Prentice Hall, 1989,\
+    ISBN: 0-13-627258-4,\
+    LC: TA345.K34.
+
+### Source Code: {#source-code align="center"}
+
+-   [nearest\_interp\_1d.cpp](nearest_interp_1d.cpp), the source code.
+-   [nearest\_interp\_1d.hpp](nearest_interp_1d.hpp), the include file.
+
+### Examples and Tests: {#examples-and-tests align="center"}
+
+-   [nearest\_interp\_1d\_prb.cpp](nearest_interp_1d_prb.cpp), a sample
+    calling program.
+-   [nearest\_interp\_1d\_prb\_output.txt](nearest_interp_1d_prb_output.txt),
+    the output file.
+
+The test program makes data files that can be used by GNUPLOT to create
+graphics:
+
+-   [data1.txt](data1.txt)
+-   [interp1.txt](interp1.txt)
+-   [commands1.txt](commands1.txt)
+-   [plot1.png](plot1.png)
+-   [data2.txt](data2.txt)
+-   [interp2.txt](interp2.txt)
+-   [commands2.txt](commands2.txt)
+-   [plot2.png](plot2.png)
+-   [data3.txt](data3.txt)
+-   [interp3.txt](interp3.txt)
+-   [commands3.txt](commands3.txt)
+-   [plot3.png](plot3.png)
+-   [data4.txt](data4.txt)
+-   [interp4.txt](interp4.txt)
+-   [commands4.txt](commands4.txt)
+-   [plot4.png](plot4.png)
+-   [data5.txt](data5.txt)
+-   [interp5.txt](interp5.txt)
+-   [commands5.txt](commands5.txt)
+-   [plot5.png](plot5.png)
+-   [data6.txt](data6.txt)
+-   [interp6.txt](interp6.txt)
+-   [commands6.txt](commands6.txt)
+-   [plot6.png](plot6.png)
+-   [data7.txt](data7.txt)
+-   [interp7.txt](interp7.txt)
+-   [commands7.txt](commands7.txt)
+-   [plot7.png](plot7.png)
+-   [data8.txt](data8.txt)
+-   [interp8.txt](interp8.txt)
+-   [commands8.txt](commands8.txt)
+-   [plot8.png](plot8.png)
+
+### List of Routines: {#list-of-routines align="center"}
+
+-   **NEAREST\_INTERP\_1D** evaluates the nearest neighbor interpolant.
+
+You can go up one level to [the C++ source codes](../cpp_src.html).
+
+------------------------------------------------------------------------
+
+*Last revised on 14 October 2012.*

@@ -1,0 +1,158 @@
+<html>
+
+  <head>
+    <title>
+      TEST_MATRIX_EXPONENTIAL - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      TEST_MATRIX_EXPONENTIAL <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>TEST_MATRIX_EXPONENTIAL</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>TEST_MATRIX_EXPONENTIAL</b> is available in
+      <a href = "../../cpp_src/test_matrix_exponential/test_matrix_exponential.html">a C++ version</a>.
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "test_matrix_exponential.cpp">test_matrix_exponential.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "test_matrix_exponential.hpp">test_matrix_exponential.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "test_matrix_exponential.sh">test_matrix_exponential.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "test_matrix_exponential_prb.cpp">test_matrix_exponential_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "test_matrix_exponential_prb.sh">test_matrix_exponential_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "test_matrix_exponential_prb_output.txt">test_matrix_exponential_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>C8MAT_EXP_A</b> returns the matrix for a given complex test.
+        </li>
+        <li>
+          <b>C8MAT_EXP_EXPA</b> returns the "exact" exponential matrix for a given complex test.
+        </li>
+        <li>
+          <b>C8MAT_EXP_N</b> returns the matrix order for a given complex test.
+        </li>
+        <li>
+          <b>C8MAT_EXP_STORY</b> prints explanatory text for each complex problem.
+        </li>
+        <li>
+          <b>C8MAT_EXP_TEST_NUM</b> returns the number of complex tests.
+        </li>
+        <li>
+          <b>R8MAT_EXP_A</b> returns the matrix for a given real test.
+        </li>
+        <li>
+          <b>R8MAT_EXP_EXPA</b> returns the "exact" exponential matrix for a given real test.
+        </li>
+        <li>
+          <b>R8MAT_EXP_N</b> returns the matrix order for a given real test.
+        </li>
+        <li>
+          <b>R8MAT_EXP_STORY</b> prints explanatory text for each real problem.
+        </li>
+        <li>
+          <b>R8MAT_EXP_TEST_NUM</b> returns the number of real tests.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Mon Mar  4 08:45:51 2013
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

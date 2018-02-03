@@ -1,0 +1,19 @@
+# sphere_llq_grid_commands.txt
+#
+# Usage:
+#  gnuplot < sphere_llq_grid_commands.txt
+#
+set term png
+set output 'sphere_llq_grid.png'
+set xlabel '<--- X --->'
+set ylabel '<--- Y --->'
+set zlabel '<--- Z --->'
+set title 'sphere_llq_grid'
+set grid
+set key off
+set style data points
+set timestamp
+set view equal xyz
+splot 'sphere_llq_grid_lines.txt' with lines lw 3, \
+      'sphere_llq_grid_nodes.txt' with points pt 7 lt 0
+quit

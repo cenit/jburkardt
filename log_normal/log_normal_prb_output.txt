@@ -1,0 +1,48 @@
+26 March 2016 11:17:16 PM
+
+LOG_NORMAL_PRB
+  C++ version.
+  Test the LOG_NORMAL library.
+
+LOG_NORMAL_CDF_TEST
+  LOG_NORMAL_CDF evaluates the Log Normal CDF;
+  LOG_NORMAL_CDF_INV inverts the Log Normal CDF.
+  LOG_NORMAL_PDF evaluates the Log Normal PDF;
+
+  PDF parameter MU =      10
+  PDF parameter SIGMA =   2.25
+
+       X            PDF           CDF            CDF_INV
+
+       3829.62   3.42207e-05      0.218418       3829.62
+   1.03126e+06   3.98836e-08      0.956318   1.03126e+06
+        187683   6.00352e-07      0.829509        187683
+       31236.9   5.60821e-06      0.561695       31236.9
+       13611.8   1.27314e-05      0.415307       13611.8
+       744.708   7.66792e-05     0.0661187       744.708
+       5093.04    2.8169e-05      0.257578       5093.04
+       1393.81   5.99421e-05      0.109957       1393.81
+       472.134   8.73521e-05      0.043829       472.134
+       47588.4   3.51376e-06      0.633966       47588.4
+
+LOG_NORMAL_SAMPLE_TEST
+  LOG_NORMAL_MEAN computes the Log Normal mean;
+  LOG_NORMAL_SAMPLE samples the Log Normal distribution;
+  LOG_NORMAL_VARIANCE computes the Log Normal variance;
+
+  PDF parameter MU =      1
+  PDF parameter SIGMA =   2
+
+  PDF mean =     20.0855
+  PDF variance = 21623
+
+  Sample size =     1000
+  Sample mean =     18.2209
+  Sample variance = 3776.12
+  Sample maximum =  835.466
+  Sample minimum =  0.00815371
+
+LOG_NORMAL_PRB
+  Normal end of execution.
+
+26 March 2016 11:17:16 PM

@@ -1,0 +1,900 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: triangulation_order6_plot.C
+%%Title: fem2d_poisson_elements.eps
+%%Pages: 1
+%%BoundingBox:  36  126  576  666
+%%Document-Fonts: Times-Roman
+%%LanguageLevel: 1
+%%EndComments
+%%BeginProlog
+/inch {72 mul} def
+%%EndProlog
+%%Page:      1     1
+save
+%
+% Set the RGB line color to very light gray.
+%
+ 0.9000 0.9000 0.9000 setrgbcolor
+%
+% Draw a gray border around the page.
+%
+newpath
+36  126  moveto
+576  126  lineto
+576  666  lineto
+36  666  lineto
+36  126  lineto
+stroke
+%
+% Set RGB line color to black.
+%
+ 0.0000 0.0000 0.0000 setrgbcolor
+%
+%  Set the font and its size:
+%
+/Times-Roman findfont
+0.50 inch scalefont
+setfont
+%
+%  Print a title:
+%
+%  210  702 moveto
+%(Pointset) show
+%
+% Define a clipping polygon
+%
+newpath
+18  108  moveto
+594  108  lineto
+594  684  lineto
+18  684  lineto
+18  108  lineto
+clip newpath
+%
+%  Draw filled dots at each node:
+%
+%  Set the color to blue:
+%
+0.000  0.150  0.750  setrgbcolor
+%
+newpath  60  150  5 0 360 arc closepath fill
+newpath  101  150  5 0 360 arc closepath fill
+newpath  142  150  5 0 360 arc closepath fill
+newpath  183  150  5 0 360 arc closepath fill
+newpath  224  150  5 0 360 arc closepath fill
+newpath  265  150  5 0 360 arc closepath fill
+newpath  306  150  5 0 360 arc closepath fill
+newpath  346  150  5 0 360 arc closepath fill
+newpath  387  150  5 0 360 arc closepath fill
+newpath  428  150  5 0 360 arc closepath fill
+newpath  469  150  5 0 360 arc closepath fill
+newpath  510  150  5 0 360 arc closepath fill
+newpath  551  150  5 0 360 arc closepath fill
+newpath  60  191  5 0 360 arc closepath fill
+newpath  101  191  5 0 360 arc closepath fill
+newpath  142  191  5 0 360 arc closepath fill
+newpath  183  191  5 0 360 arc closepath fill
+newpath  224  191  5 0 360 arc closepath fill
+newpath  265  191  5 0 360 arc closepath fill
+newpath  306  191  5 0 360 arc closepath fill
+newpath  346  191  5 0 360 arc closepath fill
+newpath  387  191  5 0 360 arc closepath fill
+newpath  428  191  5 0 360 arc closepath fill
+newpath  469  191  5 0 360 arc closepath fill
+newpath  510  191  5 0 360 arc closepath fill
+newpath  551  191  5 0 360 arc closepath fill
+newpath  60  232  5 0 360 arc closepath fill
+newpath  101  232  5 0 360 arc closepath fill
+newpath  142  232  5 0 360 arc closepath fill
+newpath  183  232  5 0 360 arc closepath fill
+newpath  224  232  5 0 360 arc closepath fill
+newpath  265  232  5 0 360 arc closepath fill
+newpath  306  232  5 0 360 arc closepath fill
+newpath  346  232  5 0 360 arc closepath fill
+newpath  387  232  5 0 360 arc closepath fill
+newpath  428  232  5 0 360 arc closepath fill
+newpath  469  232  5 0 360 arc closepath fill
+newpath  510  232  5 0 360 arc closepath fill
+newpath  551  232  5 0 360 arc closepath fill
+newpath  60  273  5 0 360 arc closepath fill
+newpath  101  273  5 0 360 arc closepath fill
+newpath  142  273  5 0 360 arc closepath fill
+newpath  183  273  5 0 360 arc closepath fill
+newpath  224  273  5 0 360 arc closepath fill
+newpath  265  273  5 0 360 arc closepath fill
+newpath  306  273  5 0 360 arc closepath fill
+newpath  346  273  5 0 360 arc closepath fill
+newpath  387  273  5 0 360 arc closepath fill
+newpath  428  273  5 0 360 arc closepath fill
+newpath  469  273  5 0 360 arc closepath fill
+newpath  510  273  5 0 360 arc closepath fill
+newpath  551  273  5 0 360 arc closepath fill
+newpath  60  314  5 0 360 arc closepath fill
+newpath  101  314  5 0 360 arc closepath fill
+newpath  142  314  5 0 360 arc closepath fill
+newpath  183  314  5 0 360 arc closepath fill
+newpath  224  314  5 0 360 arc closepath fill
+newpath  265  314  5 0 360 arc closepath fill
+newpath  306  314  5 0 360 arc closepath fill
+newpath  346  314  5 0 360 arc closepath fill
+newpath  387  314  5 0 360 arc closepath fill
+newpath  428  314  5 0 360 arc closepath fill
+newpath  469  314  5 0 360 arc closepath fill
+newpath  510  314  5 0 360 arc closepath fill
+newpath  551  314  5 0 360 arc closepath fill
+newpath  60  355  5 0 360 arc closepath fill
+newpath  101  355  5 0 360 arc closepath fill
+newpath  142  355  5 0 360 arc closepath fill
+newpath  183  355  5 0 360 arc closepath fill
+newpath  224  355  5 0 360 arc closepath fill
+newpath  265  355  5 0 360 arc closepath fill
+newpath  306  355  5 0 360 arc closepath fill
+newpath  346  355  5 0 360 arc closepath fill
+newpath  387  355  5 0 360 arc closepath fill
+newpath  428  355  5 0 360 arc closepath fill
+newpath  469  355  5 0 360 arc closepath fill
+newpath  510  355  5 0 360 arc closepath fill
+newpath  551  355  5 0 360 arc closepath fill
+newpath  60  396  5 0 360 arc closepath fill
+newpath  101  396  5 0 360 arc closepath fill
+newpath  142  396  5 0 360 arc closepath fill
+newpath  183  396  5 0 360 arc closepath fill
+newpath  224  396  5 0 360 arc closepath fill
+newpath  265  396  5 0 360 arc closepath fill
+newpath  306  396  5 0 360 arc closepath fill
+newpath  346  396  5 0 360 arc closepath fill
+newpath  387  396  5 0 360 arc closepath fill
+newpath  428  396  5 0 360 arc closepath fill
+newpath  469  396  5 0 360 arc closepath fill
+newpath  510  396  5 0 360 arc closepath fill
+newpath  551  396  5 0 360 arc closepath fill
+newpath  60  436  5 0 360 arc closepath fill
+newpath  101  436  5 0 360 arc closepath fill
+newpath  142  436  5 0 360 arc closepath fill
+newpath  183  436  5 0 360 arc closepath fill
+newpath  224  436  5 0 360 arc closepath fill
+newpath  265  436  5 0 360 arc closepath fill
+newpath  306  436  5 0 360 arc closepath fill
+newpath  346  436  5 0 360 arc closepath fill
+newpath  387  436  5 0 360 arc closepath fill
+newpath  428  436  5 0 360 arc closepath fill
+newpath  469  436  5 0 360 arc closepath fill
+newpath  510  436  5 0 360 arc closepath fill
+newpath  551  436  5 0 360 arc closepath fill
+newpath  60  477  5 0 360 arc closepath fill
+newpath  101  477  5 0 360 arc closepath fill
+newpath  142  477  5 0 360 arc closepath fill
+newpath  183  477  5 0 360 arc closepath fill
+newpath  224  477  5 0 360 arc closepath fill
+newpath  265  477  5 0 360 arc closepath fill
+newpath  306  477  5 0 360 arc closepath fill
+newpath  346  477  5 0 360 arc closepath fill
+newpath  387  477  5 0 360 arc closepath fill
+newpath  428  477  5 0 360 arc closepath fill
+newpath  469  477  5 0 360 arc closepath fill
+newpath  510  477  5 0 360 arc closepath fill
+newpath  551  477  5 0 360 arc closepath fill
+newpath  60  518  5 0 360 arc closepath fill
+newpath  101  518  5 0 360 arc closepath fill
+newpath  142  518  5 0 360 arc closepath fill
+newpath  183  518  5 0 360 arc closepath fill
+newpath  224  518  5 0 360 arc closepath fill
+newpath  265  518  5 0 360 arc closepath fill
+newpath  306  518  5 0 360 arc closepath fill
+newpath  346  518  5 0 360 arc closepath fill
+newpath  387  518  5 0 360 arc closepath fill
+newpath  428  518  5 0 360 arc closepath fill
+newpath  469  518  5 0 360 arc closepath fill
+newpath  510  518  5 0 360 arc closepath fill
+newpath  551  518  5 0 360 arc closepath fill
+newpath  60  559  5 0 360 arc closepath fill
+newpath  101  559  5 0 360 arc closepath fill
+newpath  142  559  5 0 360 arc closepath fill
+newpath  183  559  5 0 360 arc closepath fill
+newpath  224  559  5 0 360 arc closepath fill
+newpath  265  559  5 0 360 arc closepath fill
+newpath  306  559  5 0 360 arc closepath fill
+newpath  346  559  5 0 360 arc closepath fill
+newpath  387  559  5 0 360 arc closepath fill
+newpath  428  559  5 0 360 arc closepath fill
+newpath  469  559  5 0 360 arc closepath fill
+newpath  510  559  5 0 360 arc closepath fill
+newpath  551  559  5 0 360 arc closepath fill
+newpath  60  600  5 0 360 arc closepath fill
+newpath  101  600  5 0 360 arc closepath fill
+newpath  142  600  5 0 360 arc closepath fill
+newpath  183  600  5 0 360 arc closepath fill
+newpath  224  600  5 0 360 arc closepath fill
+newpath  265  600  5 0 360 arc closepath fill
+newpath  306  600  5 0 360 arc closepath fill
+newpath  346  600  5 0 360 arc closepath fill
+newpath  387  600  5 0 360 arc closepath fill
+newpath  428  600  5 0 360 arc closepath fill
+newpath  469  600  5 0 360 arc closepath fill
+newpath  510  600  5 0 360 arc closepath fill
+newpath  551  600  5 0 360 arc closepath fill
+newpath  60  641  5 0 360 arc closepath fill
+newpath  101  641  5 0 360 arc closepath fill
+newpath  142  641  5 0 360 arc closepath fill
+newpath  183  641  5 0 360 arc closepath fill
+newpath  224  641  5 0 360 arc closepath fill
+newpath  265  641  5 0 360 arc closepath fill
+newpath  306  641  5 0 360 arc closepath fill
+newpath  346  641  5 0 360 arc closepath fill
+newpath  387  641  5 0 360 arc closepath fill
+newpath  428  641  5 0 360 arc closepath fill
+newpath  469  641  5 0 360 arc closepath fill
+newpath  510  641  5 0 360 arc closepath fill
+newpath  551  641  5 0 360 arc closepath fill
+%
+%  Set the RGB color to red.
+%
+0.900  0.200  0.100 setrgbcolor
+%
+%  Draw the triangles.
+%
+newpath  60  150  moveto
+60  191  lineto
+60  232  lineto
+101  191  lineto
+142  150  lineto
+101  150  lineto
+60  150  lineto
+stroke
+newpath  142  232  moveto
+142  191  lineto
+142  150  lineto
+101  191  lineto
+60  232  lineto
+101  232  lineto
+142  232  lineto
+stroke
+newpath  142  150  moveto
+142  191  lineto
+142  232  lineto
+183  191  lineto
+224  150  lineto
+183  150  lineto
+142  150  lineto
+stroke
+newpath  224  232  moveto
+224  191  lineto
+224  150  lineto
+183  191  lineto
+142  232  lineto
+183  232  lineto
+224  232  lineto
+stroke
+newpath  224  150  moveto
+224  191  lineto
+224  232  lineto
+265  191  lineto
+306  150  lineto
+265  150  lineto
+224  150  lineto
+stroke
+newpath  306  232  moveto
+306  191  lineto
+306  150  lineto
+265  191  lineto
+224  232  lineto
+265  232  lineto
+306  232  lineto
+stroke
+newpath  306  150  moveto
+306  191  lineto
+306  232  lineto
+346  191  lineto
+387  150  lineto
+346  150  lineto
+306  150  lineto
+stroke
+newpath  387  232  moveto
+387  191  lineto
+387  150  lineto
+346  191  lineto
+306  232  lineto
+346  232  lineto
+387  232  lineto
+stroke
+newpath  387  150  moveto
+387  191  lineto
+387  232  lineto
+428  191  lineto
+469  150  lineto
+428  150  lineto
+387  150  lineto
+stroke
+newpath  469  232  moveto
+469  191  lineto
+469  150  lineto
+428  191  lineto
+387  232  lineto
+428  232  lineto
+469  232  lineto
+stroke
+newpath  469  150  moveto
+469  191  lineto
+469  232  lineto
+510  191  lineto
+551  150  lineto
+510  150  lineto
+469  150  lineto
+stroke
+newpath  551  232  moveto
+551  191  lineto
+551  150  lineto
+510  191  lineto
+469  232  lineto
+510  232  lineto
+551  232  lineto
+stroke
+newpath  60  232  moveto
+60  273  lineto
+60  314  lineto
+101  273  lineto
+142  232  lineto
+101  232  lineto
+60  232  lineto
+stroke
+newpath  142  314  moveto
+142  273  lineto
+142  232  lineto
+101  273  lineto
+60  314  lineto
+101  314  lineto
+142  314  lineto
+stroke
+newpath  142  232  moveto
+142  273  lineto
+142  314  lineto
+183  273  lineto
+224  232  lineto
+183  232  lineto
+142  232  lineto
+stroke
+newpath  224  314  moveto
+224  273  lineto
+224  232  lineto
+183  273  lineto
+142  314  lineto
+183  314  lineto
+224  314  lineto
+stroke
+newpath  224  232  moveto
+224  273  lineto
+224  314  lineto
+265  273  lineto
+306  232  lineto
+265  232  lineto
+224  232  lineto
+stroke
+newpath  306  314  moveto
+306  273  lineto
+306  232  lineto
+265  273  lineto
+224  314  lineto
+265  314  lineto
+306  314  lineto
+stroke
+newpath  306  232  moveto
+306  273  lineto
+306  314  lineto
+346  273  lineto
+387  232  lineto
+346  232  lineto
+306  232  lineto
+stroke
+newpath  387  314  moveto
+387  273  lineto
+387  232  lineto
+346  273  lineto
+306  314  lineto
+346  314  lineto
+387  314  lineto
+stroke
+newpath  387  232  moveto
+387  273  lineto
+387  314  lineto
+428  273  lineto
+469  232  lineto
+428  232  lineto
+387  232  lineto
+stroke
+newpath  469  314  moveto
+469  273  lineto
+469  232  lineto
+428  273  lineto
+387  314  lineto
+428  314  lineto
+469  314  lineto
+stroke
+newpath  469  232  moveto
+469  273  lineto
+469  314  lineto
+510  273  lineto
+551  232  lineto
+510  232  lineto
+469  232  lineto
+stroke
+newpath  551  314  moveto
+551  273  lineto
+551  232  lineto
+510  273  lineto
+469  314  lineto
+510  314  lineto
+551  314  lineto
+stroke
+newpath  60  314  moveto
+60  355  lineto
+60  396  lineto
+101  355  lineto
+142  314  lineto
+101  314  lineto
+60  314  lineto
+stroke
+newpath  142  396  moveto
+142  355  lineto
+142  314  lineto
+101  355  lineto
+60  396  lineto
+101  396  lineto
+142  396  lineto
+stroke
+newpath  142  314  moveto
+142  355  lineto
+142  396  lineto
+183  355  lineto
+224  314  lineto
+183  314  lineto
+142  314  lineto
+stroke
+newpath  224  396  moveto
+224  355  lineto
+224  314  lineto
+183  355  lineto
+142  396  lineto
+183  396  lineto
+224  396  lineto
+stroke
+newpath  224  314  moveto
+224  355  lineto
+224  396  lineto
+265  355  lineto
+306  314  lineto
+265  314  lineto
+224  314  lineto
+stroke
+newpath  306  396  moveto
+306  355  lineto
+306  314  lineto
+265  355  lineto
+224  396  lineto
+265  396  lineto
+306  396  lineto
+stroke
+newpath  306  314  moveto
+306  355  lineto
+306  396  lineto
+346  355  lineto
+387  314  lineto
+346  314  lineto
+306  314  lineto
+stroke
+newpath  387  396  moveto
+387  355  lineto
+387  314  lineto
+346  355  lineto
+306  396  lineto
+346  396  lineto
+387  396  lineto
+stroke
+newpath  387  314  moveto
+387  355  lineto
+387  396  lineto
+428  355  lineto
+469  314  lineto
+428  314  lineto
+387  314  lineto
+stroke
+newpath  469  396  moveto
+469  355  lineto
+469  314  lineto
+428  355  lineto
+387  396  lineto
+428  396  lineto
+469  396  lineto
+stroke
+newpath  469  314  moveto
+469  355  lineto
+469  396  lineto
+510  355  lineto
+551  314  lineto
+510  314  lineto
+469  314  lineto
+stroke
+newpath  551  396  moveto
+551  355  lineto
+551  314  lineto
+510  355  lineto
+469  396  lineto
+510  396  lineto
+551  396  lineto
+stroke
+newpath  60  396  moveto
+60  436  lineto
+60  477  lineto
+101  436  lineto
+142  396  lineto
+101  396  lineto
+60  396  lineto
+stroke
+newpath  142  477  moveto
+142  436  lineto
+142  396  lineto
+101  436  lineto
+60  477  lineto
+101  477  lineto
+142  477  lineto
+stroke
+newpath  142  396  moveto
+142  436  lineto
+142  477  lineto
+183  436  lineto
+224  396  lineto
+183  396  lineto
+142  396  lineto
+stroke
+newpath  224  477  moveto
+224  436  lineto
+224  396  lineto
+183  436  lineto
+142  477  lineto
+183  477  lineto
+224  477  lineto
+stroke
+newpath  224  396  moveto
+224  436  lineto
+224  477  lineto
+265  436  lineto
+306  396  lineto
+265  396  lineto
+224  396  lineto
+stroke
+newpath  306  477  moveto
+306  436  lineto
+306  396  lineto
+265  436  lineto
+224  477  lineto
+265  477  lineto
+306  477  lineto
+stroke
+newpath  306  396  moveto
+306  436  lineto
+306  477  lineto
+346  436  lineto
+387  396  lineto
+346  396  lineto
+306  396  lineto
+stroke
+newpath  387  477  moveto
+387  436  lineto
+387  396  lineto
+346  436  lineto
+306  477  lineto
+346  477  lineto
+387  477  lineto
+stroke
+newpath  387  396  moveto
+387  436  lineto
+387  477  lineto
+428  436  lineto
+469  396  lineto
+428  396  lineto
+387  396  lineto
+stroke
+newpath  469  477  moveto
+469  436  lineto
+469  396  lineto
+428  436  lineto
+387  477  lineto
+428  477  lineto
+469  477  lineto
+stroke
+newpath  469  396  moveto
+469  436  lineto
+469  477  lineto
+510  436  lineto
+551  396  lineto
+510  396  lineto
+469  396  lineto
+stroke
+newpath  551  477  moveto
+551  436  lineto
+551  396  lineto
+510  436  lineto
+469  477  lineto
+510  477  lineto
+551  477  lineto
+stroke
+newpath  60  477  moveto
+60  518  lineto
+60  559  lineto
+101  518  lineto
+142  477  lineto
+101  477  lineto
+60  477  lineto
+stroke
+newpath  142  559  moveto
+142  518  lineto
+142  477  lineto
+101  518  lineto
+60  559  lineto
+101  559  lineto
+142  559  lineto
+stroke
+newpath  142  477  moveto
+142  518  lineto
+142  559  lineto
+183  518  lineto
+224  477  lineto
+183  477  lineto
+142  477  lineto
+stroke
+newpath  224  559  moveto
+224  518  lineto
+224  477  lineto
+183  518  lineto
+142  559  lineto
+183  559  lineto
+224  559  lineto
+stroke
+newpath  224  477  moveto
+224  518  lineto
+224  559  lineto
+265  518  lineto
+306  477  lineto
+265  477  lineto
+224  477  lineto
+stroke
+newpath  306  559  moveto
+306  518  lineto
+306  477  lineto
+265  518  lineto
+224  559  lineto
+265  559  lineto
+306  559  lineto
+stroke
+newpath  306  477  moveto
+306  518  lineto
+306  559  lineto
+346  518  lineto
+387  477  lineto
+346  477  lineto
+306  477  lineto
+stroke
+newpath  387  559  moveto
+387  518  lineto
+387  477  lineto
+346  518  lineto
+306  559  lineto
+346  559  lineto
+387  559  lineto
+stroke
+newpath  387  477  moveto
+387  518  lineto
+387  559  lineto
+428  518  lineto
+469  477  lineto
+428  477  lineto
+387  477  lineto
+stroke
+newpath  469  559  moveto
+469  518  lineto
+469  477  lineto
+428  518  lineto
+387  559  lineto
+428  559  lineto
+469  559  lineto
+stroke
+newpath  469  477  moveto
+469  518  lineto
+469  559  lineto
+510  518  lineto
+551  477  lineto
+510  477  lineto
+469  477  lineto
+stroke
+newpath  551  559  moveto
+551  518  lineto
+551  477  lineto
+510  518  lineto
+469  559  lineto
+510  559  lineto
+551  559  lineto
+stroke
+newpath  60  559  moveto
+60  600  lineto
+60  641  lineto
+101  600  lineto
+142  559  lineto
+101  559  lineto
+60  559  lineto
+stroke
+newpath  142  641  moveto
+142  600  lineto
+142  559  lineto
+101  600  lineto
+60  641  lineto
+101  641  lineto
+142  641  lineto
+stroke
+newpath  142  559  moveto
+142  600  lineto
+142  641  lineto
+183  600  lineto
+224  559  lineto
+183  559  lineto
+142  559  lineto
+stroke
+newpath  224  641  moveto
+224  600  lineto
+224  559  lineto
+183  600  lineto
+142  641  lineto
+183  641  lineto
+224  641  lineto
+stroke
+newpath  224  559  moveto
+224  600  lineto
+224  641  lineto
+265  600  lineto
+306  559  lineto
+265  559  lineto
+224  559  lineto
+stroke
+newpath  306  641  moveto
+306  600  lineto
+306  559  lineto
+265  600  lineto
+224  641  lineto
+265  641  lineto
+306  641  lineto
+stroke
+newpath  306  559  moveto
+306  600  lineto
+306  641  lineto
+346  600  lineto
+387  559  lineto
+346  559  lineto
+306  559  lineto
+stroke
+newpath  387  641  moveto
+387  600  lineto
+387  559  lineto
+346  600  lineto
+306  641  lineto
+346  641  lineto
+387  641  lineto
+stroke
+newpath  387  559  moveto
+387  600  lineto
+387  641  lineto
+428  600  lineto
+469  559  lineto
+428  559  lineto
+387  559  lineto
+stroke
+newpath  469  641  moveto
+469  600  lineto
+469  559  lineto
+428  600  lineto
+387  641  lineto
+428  641  lineto
+469  641  lineto
+stroke
+newpath  469  559  moveto
+469  600  lineto
+469  641  lineto
+510  600  lineto
+551  559  lineto
+510  559  lineto
+469  559  lineto
+stroke
+newpath  551  641  moveto
+551  600  lineto
+551  559  lineto
+510  600  lineto
+469  641  lineto
+510  641  lineto
+551  641  lineto
+stroke
+%
+%  Label the triangles.
+%
+%  Set the RGB color to darker red.
+%
+0.950  0.250  0.150 setrgbcolor
+/Times-Roman findfont
+0.20 inch scalefont
+setfont
+%
+  87   177  moveto (1) show
+ 115   205  moveto (2) show
+ 169   177  moveto (3) show
+ 196   205  moveto (4) show
+ 251   177  moveto (5) show
+ 278   205  moveto (6) show
+ 333   177  moveto (7) show
+ 360   205  moveto (8) show
+ 415   177  moveto (9) show
+ 442   205  moveto (10) show
+ 496   177  moveto (11) show
+ 524   205  moveto (12) show
+  87   259  moveto (13) show
+ 115   286  moveto (14) show
+ 169   259  moveto (15) show
+ 196   286  moveto (16) show
+ 251   259  moveto (17) show
+ 278   286  moveto (18) show
+ 333   259  moveto (19) show
+ 360   286  moveto (20) show
+ 415   259  moveto (21) show
+ 442   286  moveto (22) show
+ 496   259  moveto (23) show
+ 524   286  moveto (24) show
+  87   341  moveto (25) show
+ 115   368  moveto (26) show
+ 169   341  moveto (27) show
+ 196   368  moveto (28) show
+ 251   341  moveto (29) show
+ 278   368  moveto (30) show
+ 333   341  moveto (31) show
+ 360   368  moveto (32) show
+ 415   341  moveto (33) show
+ 442   368  moveto (34) show
+ 496   341  moveto (35) show
+ 524   368  moveto (36) show
+  87   423  moveto (37) show
+ 115   450  moveto (38) show
+ 169   423  moveto (39) show
+ 196   450  moveto (40) show
+ 251   423  moveto (41) show
+ 278   450  moveto (42) show
+ 333   423  moveto (43) show
+ 360   450  moveto (44) show
+ 415   423  moveto (45) show
+ 442   450  moveto (46) show
+ 496   423  moveto (47) show
+ 524   450  moveto (48) show
+  87   505  moveto (49) show
+ 115   532  moveto (50) show
+ 169   505  moveto (51) show
+ 196   532  moveto (52) show
+ 251   505  moveto (53) show
+ 278   532  moveto (54) show
+ 333   505  moveto (55) show
+ 360   532  moveto (56) show
+ 415   505  moveto (57) show
+ 442   532  moveto (58) show
+ 496   505  moveto (59) show
+ 524   532  moveto (60) show
+  87   586  moveto (61) show
+ 115   614  moveto (62) show
+ 169   586  moveto (63) show
+ 196   614  moveto (64) show
+ 251   586  moveto (65) show
+ 278   614  moveto (66) show
+ 333   586  moveto (67) show
+ 360   614  moveto (68) show
+ 415   586  moveto (69) show
+ 442   614  moveto (70) show
+ 496   586  moveto (71) show
+ 524   614  moveto (72) show
+%
+restore showpage
+%
+% End of page
+%
+%%Trailer
+%%EOF

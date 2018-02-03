@@ -1,0 +1,14 @@
+# cubic_commands.txt
+#
+# Usage:
+#  gnuplot < cubic_commands.txt
+#
+set term png
+set output "cubic_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Cubic correlation'
+set grid
+set style data lines
+plot 'cubic_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

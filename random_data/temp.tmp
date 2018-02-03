@@ -1,0 +1,431 @@
+<html>
+
+  <head>
+    <title>
+      RANDOM_DATA - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      RANDOM_DATA <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>RANDOM_DATA</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>RANDOM_DATA</b> is available in
+      <a href = "../../cpp_src/random_data/random_data.html">a C++ version</a>.
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "random_data.cpp">random_data.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "random_data.hpp">random_data.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "random_data.sh">random_data.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "random_data_prb.cpp">random_data_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "random_data_prb.sh">random_data_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "random_data_prb_output.txt">random_data_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>ARC_COSINE</b> computes the arc cosine function, with argument truncation.
+        </li>
+        <li>
+          <b>BAD_IN_SIMPLEX01</b> is a "bad" (nonuniform) sampling of the unit simplex.
+        </li>
+        <li>
+          <b>BROWNIAN</b> creates Brownian motion points.
+        </li>
+        <li>
+          <b>DAXPY</b> computes constant times a vector plus a vector.
+        </li>
+        <li>
+          <b>DDOT</b> forms the dot product of two vectors.
+        </li>
+        <li>
+          <b>DGE_MXV</b> multiplies a DGE matrix times a vector.
+        </li>
+        <li>
+          <b>DIRECTION_UNIFORM_ND</b> generates a random direction vector in ND.
+        </li>
+        <li>
+          <b>DPOFA</b> factors a real symmetric positive definite matrix.
+        </li>
+        <li>
+          <b>DPOSL</b> solves a linear system factored by DPOCO or DPOFA.
+        </li>
+        <li>
+          <b>DUT_MXV</b> multiplies an DUT matrix times a vector.
+        </li>
+        <li>
+          <b>GET_SEED</b> returns a random seed for the random number generator.
+        </li>
+        <li>
+          <b>GRID_IN_CUBE01</b> generates a grid dataset in the unit hypercube.
+        </li>
+        <li>
+          <b>GRID_SIDE</b> finds the smallest DIM_NUM dimensional grid containing at least N points.
+        </li>
+        <li>
+          <b>HALHAM_DIM_NUM_CHECK</b> checks DIM_NUM for a Halton or Hammersley sequence.
+        </li>
+        <li>
+          <b>HALHAM_LEAP_CHECK</b> checks LEAP for a Halton or Hammersley sequence.
+        </li>
+        <li>
+          <b>HALHAM_N_CHECK</b> checks N for a Halton or Hammersley sequence.
+        </li>
+        <li>
+          <b>HALHAM_SEED_CHECK</b> checks SEED for a Halton or Hammersley sequence.
+        </li>
+        <li>
+          <b>HALHAM_STEP_CHECK</b> checks STEP for a Halton or Hammersley sequence.
+        </li>
+        <li>
+          <b>HALTON_BASE_CHECK</b> is TRUE if BASE is legal.
+        </li>
+        <li>
+          <b>HALTON_IN_CIRCLE01_ACCEPT</b> accepts Halton points in a unit circle.
+        </li>
+        <li>
+          <b>HALTON_IN_CIRCLE01_MAP</b> maps Halton points into a unit circle.
+        </li>
+        <li>
+          <b>HALTON_IN_CUBE01</b> generates Halton points in the unit hypercube.
+        </li>
+        <li>
+          <b>HAMMERSLEY_BASE_CHECK</b> is TRUE if BASE is legal.
+        </li>
+        <li>
+          <b>HAMMERSLEY_IN_CUBE01</b> computes Hammersley points in the unit hypercube.
+        </li>
+        <li>
+          <b>I4_FACTORIAL</b> returns N!.
+        </li>
+        <li>
+          <b>I4_MAX</b> returns the maximum of two I4's.
+        </li>
+        <li>
+          <b>I4_MIN</b> returns the smaller of two I4's.
+        </li>
+        <li>
+          <b>I4_MODP</b> returns the nonnegative remainder of I4 division.
+        </li>
+        <li>
+          <b>I4_TO_HALTON</b> computes one element of a leaped Halton subsequence.
+        </li>
+        <li>
+          <b>I4_TO_HALTON_SEQUENCE</b> computes N elements of a leaped Halton subsequence.
+        </li>
+        <li>
+          <b>I4_TO_HAMMERSLEY</b> computes one element of a leaped Hammersley subsequence.
+        </li>
+        <li>
+          <b>I4_TO_HAMMERSLEY_SEQUENCE</b> computes N elements of a leaped Hammersley subsequence.
+        </li>
+        <li>
+          <b>I4_UNIFORM_AB</b> returns a scaled pseudorandom I4 between A and B.
+        </li>
+        <li>
+          <b>I4VEC_TRANSPOSE_PRINT</b> prints an I4VEC "transposed".
+        </li>
+        <li>
+          <b>KSUB_RANDOM2</b> selects a random subset of size K from a set of size N.
+        </li>
+        <li>
+          <b>NORMAL</b> creates normally distributed points in DIM_NUM space.
+        </li>
+        <li>
+          <b>NORMAL_CIRCULAR</b> creates circularly normal points in 2 space.
+        </li>
+        <li>
+          <b>NORMAL_MULTIVARIATE</b> samples a multivariate normal distribution.
+        </li>
+        <li>
+          <b>NORMAL_SIMPLE</b> creates normally distributed points in DIM_NUM space.
+        </li>
+        <li>
+          <b>POLYGON_CENTROID_2D</b> computes the centroid of a polygon in 2D.
+        </li>
+        <li>
+          <b>PRIME</b> returns any of the first PRIME_MAX prime numbers.
+        </li>
+        <li>
+          <b>R4_ABS</b> returns the absolute value of an R4.
+        </li>
+        <li>
+          <b>R4_NINT</b> returns the nearest integer to an R4.
+        </li>
+        <li>
+          <b>R8_EPSILON</b> returns the round off unit for double precision arithmetic.
+        </li>
+        <li>
+          <b>R8_MAX</b> returns the maximum of two R8's.
+        </li>
+        <li>
+          <b>R8_MIN</b> returns the minimum of two R8's.
+        </li>
+        <li>
+          <b>R8_NINT</b> returns the nearest integer to a double precision real value.
+        </li>
+        <li>
+          <b>R8_NORMAL_01</b> samples the standard normal probability distribution.
+        </li>
+        <li>
+          <b>R8_PI</b> returns the value of PI to 16 digits.
+        </li>
+        <li>
+          <b>R8_UNIFORM_01</b> is a portable pseudorandom number generator.
+        </li>
+        <li>
+          <b>R8MAT_NORMAL_01_NEW</b> returns a unit pseudonormal R8MAT.
+        </li>
+        <li>
+          <b>R8MAT_PRINT</b> prints an R8MAT, with an optional title.
+        </li>
+        <li>
+          <b>R8MAT_PRINT_SOME</b> prints some of an R8MAT.
+        </li>
+        <li>
+          <b>R8MAT_UNIFORM_01_NEW</b> returns a new unit pseudorandom R8MAT.
+        </li>
+        <li>
+          <b>R8MAT_WRITE</b> writes an R8MAT file with no header.
+        </li>
+        <li>
+          <b>R8VEC_DOT_PRODUCT</b> computes the dot product of a pair of R8VEC's.
+        </li>
+        <li>
+          <b>R8VEC_NORM</b> returns the L2 norm of an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_NORMAL_01</b> samples the standard normal probability distribution.
+        </li>
+        <li>
+          <b>R8VEC_NORMAL_01_NEW</b> returns a unit pseudonormal R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_PRINT</b> prints an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_SUM</b> returns the sum of an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_UNIFORM_01</b> fills a double precision vector with pseudorandom values.
+        </li>
+        <li>
+          <b>R8VEC_UNIFORM_01_NEW</b> returns a new unit pseudorandom R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_ZERO_NEW</b> creates and zeroes an R8VEC.
+        </li>
+        <li>
+          <b>RANDOM_INITIALIZE</b> initializes the RANDOM random number generator.
+        </li>
+        <li>
+          <b>S_LEN_TRIM</b> returns the length of a string to the last nonblank.
+        </li>
+        <li>
+          <b>SCALE_FROM_SIMPLEX01</b> rescales data from a unit to non-unit simplex.
+        </li>
+        <li>
+          <b>SCALE_TO_BALL01</b> translates and rescales data to fit within the unit ball.
+        </li>
+        <li>
+          <b>SCALE_TO_BLOCK01</b> translates and rescales data to fit in the unit block.
+        </li>
+        <li>
+          <b>SCALE_TO_CUBE01</b> translates and rescales data to the unit hypercube.
+        </li>
+        <li>
+          <b>STRI_ANGLES_TO_AREA</b> computes the area of a spherical triangle.
+        </li>
+        <li>
+          <b>STRI_SIDES_TO_ANGLES</b> computes spherical triangle angles.
+        </li>
+        <li>
+          <b>STRI_VERTICES_TO_SIDES_3D</b> computes spherical triangle sides.
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+        <li>
+          <b>TRIANGLE_AREA_2D</b> computes the area of a triangle in 2D.
+        </li>
+        <li>
+          <b>TUPLE_NEXT_FAST</b> computes the next element of a tuple space, "fast".
+        </li>
+        <li>
+          <b>UNIFORM_IN_ANNULUS</b> samples a circular annulus.
+        </li>
+        <li>
+          <b>UNIFORM_IN_ANNULUS_ACCEPT</b> accepts points in an annulus.
+        </li>
+        <li>
+          <b>UNIFORM_IN_ANNULUS_SECTOR</b> samples an annular sector in 2D.
+        </li>
+        <li>
+          <b>UNIFORM_IN_CIRCLE01_MAP</b> maps uniform points into the unit circle.
+        </li>
+        <li>
+          <b>UNIFORM_IN_CUBE01</b> creates uniform points in the unit hypercube.
+        </li>
+        <li>
+          <b>UNIFORM_IN_ELLIPSOID_MAP</b> maps uniform points into an ellipsoid.
+        </li>
+        <li>
+          <b>UNIFORM_IN_PARALLELOGRAM_MAP</b> maps uniform points into a parallelogram.
+        </li>
+        <li>
+          <b>UNIFORM_IN_POLYGON_MAP</b> maps uniform points into a polygon.
+        </li>
+        <li>
+          <b>UNIFORM_IN_SECTOR_MAP</b> maps uniform points into a circular sector.
+        </li>
+        <li>
+          <b>UNIFORM_IN_SIMPLEX01</b> maps uniform points into the unit simplex.
+        </li>
+        <li>
+          <b>UNIFORM_IN_SPHERE01_MAP</b> maps uniform points into the unit sphere.
+        </li>
+        <li>
+          <b>UNIFORM_IN_TETRAHEDRON</b> returns uniform points in a tetrahedron.
+        </li>
+        <li>
+          <b>UNIFORM_IN_TRIANGLE_MAP1</b> maps uniform points into a triangle.
+        </li>
+        <li>
+          <b>UNIFORM_IN_TRIANGLE_MAP2</b> maps uniform points into a triangle.
+        </li>
+        <li>
+          <b>UNIFORM_IN_TRIANGLE01_MAP</b> maps uniform points into the unit triangle.
+        </li>
+        <li>
+          <b>UNIFORM_ON_CUBE</b> returns random points on the surface of a cube.
+        </li>
+        <li>
+          <b>UNIFORM_ON_CUBE01</b> returns random points on the surface of the unit cube.
+        </li>
+        <li>
+          <b>UNIFORM_ON_ELLIPSOID_MAP</b> maps uniform points onto an ellipsoid.
+        </li>
+        <li>
+          <b>UNIFORM_ON_HEMISPHERE01_PHONG</b> maps uniform points onto the unit hemisphere.
+        </li>
+        <li>
+          <b>UNIFORM_ON_SIMPLEX01_MAP</b> maps uniform points onto the unit simplex.
+        </li>
+        <li>
+          <b>UNIFORM_ON_SPHERE01_MAP</b> maps uniform points onto the unit sphere.
+        </li>
+        <li>
+          <b>UNIFORM_ON_SPHERE01_PATCH_TP</b> maps uniform points to a spherical TP patch.
+        </li>
+        <li>
+          <b>UNIFORM_ON_SPHERE01_PATCH_XYZ</b> maps uniform points to a spherical XYZ patch.
+        </li>
+        <li>
+          <b>UNIFORM_ON_SPHERE01_TRIANGLE_XYZ:</b> sample spherical triangle, XYZ coordinates.
+        </li>
+        <li>
+          <b>UNIFORM_WALK</b> generates points on a uniform random walk.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Sat Apr 20 12:06:05 2013
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

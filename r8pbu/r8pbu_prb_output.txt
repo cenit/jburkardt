@@ -1,0 +1,454 @@
+05 June 2016 08:53:36 PM
+
+R8PBU_PRB
+  C++ version
+  Test the R8PBU library.
+
+R8PBU_CG_TEST
+  R8PBU_CG applies the conjugate gradient method
+  to a symmetric positive definite banded
+  linear system.
+
+  Matrix order N = 50
+  Upper bandwidth MU = 1
+
+The symmetric banded matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1             2            -1                                            
+   2            -1             2            -1                              
+   3                          -1             2            -1                
+   4                                        -1             2            -1  
+   5                                                      -1             2  
+   6                                                                    -1  
+
+  Col:       6             7             8             9            10       
+  Row
+  ---
+   5            -1                                                          
+   6             2            -1                                            
+   7            -1             2            -1                              
+   8                          -1             2            -1                
+   9                                        -1             2            -1  
+  10                                                      -1             2  
+
+  Solution:
+
+         0:              1
+         1:              2
+         2:              3
+         3:              4
+         4:              5
+         5:              6
+         6:              7
+         7:              8
+  ........  ..............
+        49:             50
+
+  Maximum residual = 5.68434e-14
+ 
+R8PBU_DET_TEST
+  R8PBU_DET, determinant of a positive definite
+  symmetric banded matrix.
+
+  Matrix order N = 10
+  Upper bandwidth MU = 3
+
+  The R8PBU matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1       2.53856      0.218418      0.956318      0.829509                
+   2      0.218418        2.4318      0.561695      0.415307     0.0661187  
+   3      0.956318      0.561695       2.15981      0.257578      0.109957  
+   4      0.829509      0.415307      0.257578       3.59212      0.633966  
+   5                   0.0661187      0.109957      0.633966       5.05543  
+   6                                  0.043829     0.0617272      0.401306  
+   7                                                0.449539      0.754673  
+   8                                                              0.797287  
+
+  Col:       6             7             8             9            10       
+  Row
+  ---
+   3      0.043829                                                          
+   4     0.0617272      0.449539                                            
+   5      0.401306      0.754673      0.797287                              
+   6       2.23897    0.00183837      0.897504      0.350752                
+   7    0.00183837        3.6943     0.0945448     0.0136169      0.859097  
+   8      0.897504     0.0945448       4.31532      0.840847      0.123104  
+   9      0.350752     0.0136169      0.840847       2.27576    0.00751236  
+  10                    0.859097      0.123104    0.00751236       1.45338  
+
+  The factored R8PBU matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1       1.59329      0.137087      0.600217      0.520628                
+   2      0.137087       1.55339      0.308625      0.221411     0.0425643  
+   3      0.600217      0.308625       1.30549    -0.0944052      0.074164  
+   4      0.520628      0.221411    -0.0944052       1.80641      0.349611  
+   5                   0.0425643      0.074164      0.349611       2.21943  
+   6                                 0.0335728     0.0359257      0.174034  
+   7                                                0.248857      0.300829  
+   8                                                               0.35923  
+
+  Col:       6             7             8             9            10       
+  Row
+  ---
+   3     0.0335728                                                          
+   4     0.0359257      0.248857                                            
+   5      0.174034      0.300829       0.35923                              
+   6       1.48535    -0.0400285      0.562148      0.236141                
+   7    -0.0400285       1.88156     0.0047726     0.0122607      0.456587  
+   8      0.562148     0.0047726       1.96729      0.359907     0.0614676  
+   9      0.236141     0.0122607      0.359907       1.44579    -0.0139773  
+  10                    0.456587     0.0614676    -0.0139773       1.11397  
+
+  R8PBU_DET computes the determinant = 13158.4
+  R8GE_DET computes the determinant =  13158.4
+ 
+R8PBU_DIF2_TEST
+  R8PBU_DIF2 sets up an R8PBU second difference matrix.
+
+  Matrix order N = 5
+  Bandwidth MU = 1
+
+  The R8PBU second difference matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1             2            -1                                            
+   2            -1             2            -1                              
+   3                          -1             2            -1                
+   4                                        -1             2            -1  
+   5                                                      -1             2  
+
+R8PBU_FA_TEST
+  R8PBU_FA factors an R8PBU matrix.
+
+  Matrix order N = 50
+  Upper bandwidth MU = 1
+
+
+  Solution:
+
+         0:              1
+         1:              2
+         2:              3
+         3:              4
+         4:              5
+         5:              6
+         6:              7
+         7:              8
+  ........  ..............
+        49:             50
+ 
+R8PBU_INDICATOR_TEST
+  R8PBU_INDICATOR sets up an R8PBU indicator matrix.
+
+  Matrix order N = 5
+  Bandwidth MU = 3
+
+  The R8PBU indicator matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12            13            14                
+   2            12            22            23            24            25  
+   3            13            23            33            34            35  
+   4            14            24            34            44            45  
+   5                          25            35            45            55  
+
+R8PBU_ML_TEST
+  R8PBU_ML computes A*x 
+  where A has been factored by R8PBU_FA.
+
+  Matrix order N = 10
+  Upper bandwidth MU = 3
+
+  A*x and PLU*x
+
+     1         9.16239         9.16239
+     2         8.75892         8.75892
+     3         10.4022         10.4022
+     4         23.4883         23.4883
+     5          42.344          42.344
+     6         26.1684         26.1684
+     7         40.9126         40.9126
+     8         53.3545         53.3545
+     9         29.4836         29.4836
+    10         21.5999         21.5999
+
+R8PBU_MV_TEST
+  R8PBU_MV computes A*x where A is an R8PBU matrix.
+
+  Matrix order N = 5
+  Upper bandwidth MU = 2
+
+  Matrix A:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1       1.31501      0.218418      0.956318                              
+   2      0.218418       1.69061      0.829509      0.561695                
+   3      0.956318      0.829509       3.72095      0.415307     0.0661187  
+   4                    0.561695      0.415307        1.3214      0.257578  
+   5                                 0.0661187      0.257578      0.483706  
+
+  Vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Product b=A*x:
+
+     1         4.62079
+     2         8.33495
+     3           15.77
+     4         8.94282
+     5          3.6472
+ 
+R8PBU_PRINT_TEST
+  R8PBU_PRINT prints an R8PBU matrix.
+
+  Matrix order N = 5
+  Bandwidth MU = 3
+
+  The R8PBU matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12            13            14                
+   2            12            22            23            24            25  
+   3            13            23            33            34            35  
+   4            14            24            34            44            45  
+   5                          25            35            45            55  
+ 
+R8PBU_PRINT_SOME_TEST
+  R8PBU_PRINT_SOME prints some of an R8PBU matrix.
+
+  Matrix order N = 9
+  Bandwidth MU = 4
+
+  Row(3:7), Col(4:8):
+
+  Col:       4             5             6             7             8       
+  Row
+  ---
+   3            34            35            36            37                
+   4            44            45            46            47            48  
+   5            45            55            56            57            58  
+   6            46            56            66            67            68  
+   7            47            57            67            77            78  
+
+R8PBU_RANDOM_TEST
+  R8PBU_RANDOM returns a random banded positive definite symmetric matrix.
+
+  Matrix order N = 5
+  Upper bandwidth MU = 3
+
+
+  The R8PBU matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1       3.29121      0.218418      0.956318      0.829509                
+   2      0.218418       1.35003      0.561695      0.415307     0.0661187  
+   3      0.956318      0.561695       2.74767      0.257578      0.109957  
+   4      0.829509      0.415307      0.257578       2.18075      0.043829  
+   5                   0.0661187      0.109957      0.043829      0.403407  
+
+R8PBU_RES_TEST
+  R8PBU_RES computes the residual b-A*x where A is an R8PBU matrix.
+
+  Matrix order N = 5
+  Upper bandwidth MU = 2
+
+  Matrix A:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1       1.31501      0.218418      0.956318                              
+   2      0.218418       1.69061      0.829509      0.561695                
+   3      0.956318      0.829509       3.72095      0.415307     0.0661187  
+   4                    0.561695      0.415307        1.3214      0.257578  
+   5                                 0.0661187      0.257578      0.483706  
+
+  Vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Product b=A*x:
+
+     1         4.62079
+     2         8.33495
+     3           15.77
+     4         8.94282
+     5          3.6472
+
+  Approximate solution x2:
+
+     1         1.00401
+     2         2.00755
+     3         3.00797
+     4         4.00002
+     5         5.00898
+
+  Residual r = b-A*x2:
+
+     1      -0.0145501
+     2       -0.020259
+     3      -0.0403656
+     4     -0.00988622
+     5     -0.00487317
+
+R8PBU_SL_TEST
+  R8PBU_SL solves a linear system factored by R8PBU_FA.
+
+  Matrix order N = 50
+  Upper bandwidth MU = 1
+
+
+  Solution:
+
+         0:              1
+         1:              2
+         2:              3
+         3:              4
+         4:              5
+         5:              6
+         6:              7
+         7:              8
+  ........  ..............
+        49:             50
+
+R8PBU_SOR_TEST
+  R8PBU_SOR, SOR routine for iterative
+  solution of A*x=b.
+
+  Matrix order N = 50
+  Upper bandwidth MU = 1
+
+SOR iteration.
+
+  Relaxation factor OMEGA = 0.25
+
+  Solution:
+
+         0:     0.00162299
+         1:        0.06731
+         2:       0.132722
+         3:       0.197589
+         4:       0.261647
+         5:       0.324632
+         6:       0.386286
+         7:       0.446356
+  ........  ..............
+        49:       0.001623
+
+  Maximum error = 9.99603e-05
+
+SOR iteration.
+
+  Relaxation factor OMEGA = 0.75
+
+  Solution:
+
+         0:     0.00162268
+         1:      0.0673094
+         2:       0.132721
+         3:       0.197588
+         4:       0.261645
+         5:        0.32463
+         6:       0.386284
+         7:       0.446354
+  ........  ..............
+        49:     0.00162268
+
+  Maximum error = 9.99408e-05
+
+SOR iteration.
+
+  Relaxation factor OMEGA = 1
+
+  Solution:
+
+         0:     0.00162404
+         1:      0.0673122
+         2:       0.132725
+         3:       0.197593
+         4:       0.261652
+         5:       0.324638
+         6:       0.386293
+         7:       0.446365
+  ........  ..............
+        49:     0.00162404
+
+  Maximum error = 9.99855e-05
+ 
+R8PBU_TO_R8GE_TEST
+  R8PBU_TO_R8GE converts an R8PBU  matrix to R8GE format.
+
+  Matrix order N = 5
+  Bandwidth MU = 3
+
+  The R8PBU matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12            13            14                
+   2            12            22            23            24            25  
+   3            13            23            33            34            35  
+   4            14            24            34            44            45  
+   5                          25            35            45            55  
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            12            13            14             0  
+    2            12            22            23            24            25  
+    3            13            23            33            34            35  
+    4            14            24            34            44            45  
+    5             0            25            35            45            55  
+ 
+R8PBU_ZEROS_TEST
+  R8PBU_ZEROS sets up an R8PBU zero matrix.
+
+  Matrix order N = 5
+  Bandwidth MU = 3
+
+  The R8PBU zero matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12            13            14                
+   2            12            22            23            24            25  
+   3            13            23            33            34            35  
+   4            14            24            34            44            45  
+   5                          25            35            45            55  
+
+R8PBU_PRB
+  Normal end of execution.
+
+05 June 2016 08:53:36 PM

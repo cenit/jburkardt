@@ -1,0 +1,203 @@
+03 July 2016 08:42:13 PM
+
+R8VM_PRB
+  C++ version
+  Test the R8VM library.
+
+R8GE_TO_R8VM_TEST
+  R8GE_TO_R8VM converts an R8GE matrix to R8VM format.
+
+  The random R8GE matrix:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1      0.218418     0.0661187     0.0617272    0.00183837  
+    2      0.956318      0.257578      0.449539      0.897504  
+    3      0.829509      0.109957      0.401306      0.350752  
+    4      0.561695      0.043829      0.754673     0.0945448  
+    5      0.415307      0.633966      0.797287     0.0136169  
+
+  The R8VM matrix
+
+  Col:       1             2             3             4       
+  Row
+  ---
+           1             1             1             1  
+    0.956318      0.257578      0.449539      0.897504  
+    0.914543     0.0663463      0.202085      0.805514  
+    0.874594     0.0170893     0.0908452      0.722952  
+    0.836389    0.00440183     0.0408385      0.648852  
+
+
+R8VM_DET_TEST
+  R8VM_DET, determinant of an R8VM matrix.
+
+  Matrix order N = 5
+
+  The R8VM matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+           1             1             1             1             1  
+           1             2             3             4             5  
+           1             4             9            16            25  
+           1             8            27            64           125  
+           1            16            81           256           625  
+
+
+  R8VM_DET    = 288
+  Exact value = 288
+
+R8VM_INDICATOR_TEST
+  R8VM_INDICATOR sets an R8VM indicator matrix.
+
+  The R8VM matrix:
+
+  Col:       1             2             3             4       
+  Row
+  ---
+           1             1             1             1  
+           1             2             3             4  
+           1             4             9            16  
+           1             8            27            64  
+           1            16            81           256  
+
+
+R8VM_MTV_TEST
+  R8VM_MTV computes a product b=A'*x where A is in R8VM format.
+
+  Vector b=A'*x:
+
+     1         1.63302
+     2         13.3366
+     3         9.37368
+     4         4.27647
+
+R8VM_MV_TEST
+  R8VM_MV computes a product b=A*x where A is in R8VM format.
+
+  Vector b=A*x:
+
+     1              10
+     2         6.86636
+     3         5.20306
+     4         4.18079
+     5         3.49361
+
+R8VM_PRINT_TEST
+  R8VM_PRINT prints an R8VM marix.
+
+  The matrix:
+
+  Col:       1             2             3             4       
+  Row
+  ---
+           1             1             1             1  
+           1             2             3             4  
+           1             4             9            16  
+           1             8            27            64  
+           1            16            81           256  
+
+
+R8VM_PRINT_SOME_TEST
+  R8VM_PRINT_SOME prints some of an R8VM marix.
+
+  Rows 2-5, Cols 2:4
+
+  Col:       2             3             4       
+  Row
+  ---
+           2             3             4  
+           4             9            16  
+           8            27            64  
+          16            81           256  
+
+
+R8VM_RANDOM_TEST
+  R8VM_RANDOM randomizes an R8VM matrix.
+
+  The R8VM matrix:
+
+  Col:       1             2             3             4       
+  Row
+  ---
+           1             1             1             1  
+    0.218418      0.956318      0.829509      0.561695  
+   0.0477066      0.914543      0.688086      0.315502  
+     0.01042      0.874594      0.570773      0.177216  
+  0.00227592      0.836389      0.473462     0.0995414  
+
+
+R8VM_SL_NEW_TEST
+  R8VM_SL_NEW solves a Vandermonde system.
+
+  Matrix order N = 5
+
+  Solution:
+
+         1:              1
+         2:              2
+         3:              3
+         4:              4
+         5:              5
+
+R8VM_SLT_NEW_TEST
+  R8VM_SLT_NEW solves a transposed Vandermonde system.
+
+  Matrix order N = 5
+
+  Solution to transposed system:
+
+         1:              1
+         2:              2
+         3:              3
+         4:              4
+         5:              5
+
+R8VM_TO_R8GE_TEST
+  R8VM_TO_R8GE converts an R8VM matrix to R8GE format.
+
+  R8VM matrix:
+
+  Col:       1             2             3             4       
+  Row
+  ---
+           1             1             1             1  
+    0.218418      0.956318      0.829509      0.561695  
+   0.0477066      0.914543      0.688086      0.315502  
+     0.01042      0.874594      0.570773      0.177216  
+  0.00227592      0.836389      0.473462     0.0995414  
+
+
+  R8GE matrix
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1             1             1             1             1  
+    2      0.218418      0.956318      0.829509      0.561695  
+    3     0.0477066      0.914543      0.688086      0.315502  
+    4       0.01042      0.874594      0.570773      0.177216  
+    5    0.00227592      0.836389      0.473462     0.0995414  
+
+R8VM_ZEROS_TEST
+  R8VM_ZEROS zeros an R8VM matrix.
+
+  The R8VM matrix:
+
+  Col:       1             2             3             4       
+  Row
+  ---
+           1             1             1             1  
+           0             0             0             0  
+           0             0             0             0  
+           0             0             0             0  
+           0             0             0             0  
+
+
+R8VM_PRB
+  Normal end of execution.
+
+03 July 2016 08:42:13 PM

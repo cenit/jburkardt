@@ -1,0 +1,182 @@
+<html>
+
+  <head>
+    <title>
+      TETRAHEDRON_NCC_RULE - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      TETRAHEDRON_NCC_RULE <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>TETRAHEDRON_NCC_RULE</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>TETRAHEDRON_NCC_RULE</b> is available in
+      <a href = "../../cpp_src/tetrahedron_ncc_rule/tetrahedron_ncc_rule.html">a C++ version</a>.
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "tetrahedron_ncc_rule.cpp">tetrahedron_ncc_rule.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "tetrahedron_ncc_rule.hpp">tetrahedron_ncc_rule.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "tetrahedron_ncc_rule.sh">tetrahedron_ncc_rule.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "tetrahedron_ncc_rule_prb.cpp">tetrahedron_ncc_rule_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "tetrahedron_ncc_rule_prb.sh">tetrahedron_ncc_rule_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "tetrahedron_ncc_rule_prb_output.txt">tetrahedron_ncc_rule_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>R8MAT_DET_4D</b> computes the determinant of a 4 by 4 R8MAT.
+        </li>
+        <li>
+          <b>REFERENCE_TO_PHYSICAL_T4</b> maps T4 reference points to physical points.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_DEGREE:</b> degree of an NCC rule for the tetrahedron.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_ORDER_NUM:</b> order of an NCC rule for the tetrahedron.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_RULE</b> returns the points and weights of an NCC rule.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_RULE_NUM</b> returns the number of NCC rules available.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_SUBORDER</b> returns the suborders for an NCC rule.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_SUBORDER_NUM</b> returns the number of suborders for an NCC rule.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_SUBRULE</b> returns a compressed NCC rule.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_SUBRULE_01</b> returns a compressed NCC rule 1.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_SUBRULE_02</b> returns a compressed NCC rule 2.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_SUBRULE_03</b> returns a compressed NCC rule 3.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_SUBRULE_04</b> returns a compressed NCC rule 4.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_SUBRULE_05</b> returns a compressed NCC rule 5.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_SUBRULE_06</b> returns a compressed NCC rule 6.
+        </li>
+        <li>
+          <b>TETRAHEDRON_NCC_SUBRULE_07</b> returns a compressed NCC rule 7.
+        </li>
+        <li>
+          <b>TETRAHEDRON_VOLUME</b>  computes the volume of a tetrahedron.
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Sat Jun 14 14:31:47 2014
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

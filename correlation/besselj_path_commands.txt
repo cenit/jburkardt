@@ -1,0 +1,17 @@
+# besselj_path_commands.txt
+#
+# Usage:
+#  gnuplot < besselj_path_commands.txt
+#
+set term png
+set output "besselj_paths.png"
+set xlabel 'Rho'
+set ylabel 'X(Rho)'
+set title 'Bessel J correlation'
+set grid
+set style data lines
+set key off
+plot 'besselj_path_data.txt' using 1:2, \
+     'besselj_path_data.txt' using 1:3, \
+     'besselj_path_data.txt' using 1:4
+quit

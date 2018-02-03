@@ -1,0 +1,197 @@
+17 May 2016 10:25:44 PM
+
+TOMS917_PRB
+  C++ version
+  Test the TOMS917 library.
+
+DRIVER:
+  Demonstrate simple and extended Wright Omega evaluators.
+
+  Calling:
+    w = wrightomega(z);
+  returns:
+    w = omega(0, 0) =  ( 0.567143, 0)
+
+  Calling:
+    wrightomega_ext ( z, w, e, r, condest );
+  returns:
+    w = omega(0, 0) =  ( 0.567143, 0)
+  e = last update step = ( -4.92506e-05, 0)
+  r = penultimate residual = ( -7.71854e-05, 0)
+  condest = condition number estimate = ( 0, 0)
+
+  ultimate residual = ( -1.17257e-17, 0)
+
+DRIVER:
+  Demonstrate simple and extended Wright Omega evaluators.
+
+  Calling:
+    w = wrightomega(z);
+  returns:
+    w = omega(1, 0) =  ( 1, 0)
+
+  Calling:
+    wrightomega_ext ( z, w, e, r, condest );
+  returns:
+    w = omega(1, 0) =  ( 1, 0)
+  e = last update step = ( 0, 0)
+  r = penultimate residual = ( 0, 0)
+  condest = condition number estimate = ( 0.5, 0)
+
+  ultimate residual = ( -0, 0)
+
+DRIVER:
+  Demonstrate simple and extended Wright Omega evaluators.
+
+  Calling:
+    w = wrightomega(z);
+  returns:
+    w = omega(3.71828, 0) =  ( 2.71828, 0)
+
+  Calling:
+    wrightomega_ext ( z, w, e, r, condest );
+  returns:
+    w = omega(3.71828, 0) =  ( 2.71828, 0)
+  e = last update step = ( -7.24546e-13, 0)
+  r = penultimate residual = ( -2.69407e-12, 0)
+  condest = condition number estimate = ( 1, 0)
+
+  ultimate residual = ( -1.58832e-49, 0)
+
+DRIVER:
+  Demonstrate simple and extended Wright Omega evaluators.
+
+  Calling:
+    w = wrightomega(z);
+  returns:
+    w = omega(-1, 3.14159) =  ( -1, 0)
+
+  Calling:
+    wrightomega_ext ( z, w, e, r, condest );
+  returns:
+    w = omega(-1, 3.14159) =  ( -1, 0)
+  e = last update step = ( 0, 0)
+  r = penultimate residual = ( 0, 0)
+  condest = condition number estimate = ( 0, 0)
+
+  ultimate residual = ( nan, nan)
+
+DRIVER:
+  Demonstrate simple and extended Wright Omega evaluators.
+
+  Calling:
+    w = wrightomega(z);
+  returns:
+    w = omega(-1, -3.14159) =  ( -1, 0)
+
+  Calling:
+    wrightomega_ext ( z, w, e, r, condest );
+  returns:
+    w = omega(-1, -3.14159) =  ( -1, 0)
+  e = last update step = ( 0, 0)
+  r = penultimate residual = ( 0, 0)
+  condest = condition number estimate = ( 0, 0)
+
+  ultimate residual = ( nan, nan)
+
+DRIVER:
+  Demonstrate simple and extended Wright Omega evaluators.
+
+  Calling:
+    w = wrightomega(z);
+  returns:
+    w = omega(-1.30685, 3.14159) =  ( -2, 1.2326e-32)
+
+  Calling:
+    wrightomega_ext ( z, w, e, r, condest );
+  returns:
+    w = omega(-1.30685, 3.14159) =  ( -2, 1.2326e-32)
+  e = last update step = ( 4.81044e-06, 3.75773e-17)
+  r = penultimate residual = ( -4.8104e-06, -3.75768e-17)
+  condest = condition number estimate = ( 1.30685, 1.61082e-32)
+
+  ultimate residual = ( 1.23156e-20, 3.84824e-31)
+
+DRIVER:
+  Demonstrate simple and extended Wright Omega evaluators.
+
+  Calling:
+    w = wrightomega(z);
+  returns:
+    w = omega(-1.30685, -3.14159) =  ( -0.406376, -1.77802e-30)
+
+  Calling:
+    wrightomega_ext ( z, w, e, r, condest );
+  returns:
+    w = omega(-1.30685, -3.14159) =  ( -0.406376, -1.77802e-30)
+  e = last update step = ( 4.65417e-05, -6.33276e-17)
+  r = penultimate residual = ( 2.76281e-05, -3.75923e-17)
+  condest = condition number estimate = ( -2.20148, -6.59386e-30)
+
+  ultimate residual = ( 3.43693e-17, -1.87059e-28)
+
+DRIVER:
+  Demonstrate simple and extended Wright Omega evaluators.
+
+  Calling:
+    w = wrightomega(z);
+  returns:
+    w = omega(0, 2.5708) =  ( -3.87602e-17, 1)
+
+  Calling:
+    wrightomega_ext ( z, w, e, r, condest );
+  returns:
+    w = omega(0, 2.5708) =  ( -3.87602e-17, 1)
+  e = last update step = ( -1.95964e-15, -2.42416e-14)
+  r = penultimate residual = ( 2.2282e-14, -2.62013e-14)
+  condest = condition number estimate = ( 1.2854, 1.2854)
+
+  ultimate residual = ( -1.16085e-54, 9.41467e-55)
+
+DRIVER:
+  Demonstrate simple and extended Wright Omega evaluators.
+
+  Calling:
+    w = wrightomega(z);
+  returns:
+    w = omega(0, 3.14159) =  ( -0.318132, 1.33724)
+
+  Calling:
+    wrightomega_ext ( z, w, e, r, condest );
+  returns:
+    w = omega(0, 3.14159) =  ( -0.318132, 1.33724)
+  e = last update step = ( -7.62322e-16, 1.92451e-16)
+  r = penultimate residual = ( -7.77156e-16, -8.88178e-16)
+  condest = condition number estimate = ( 1.86453, 0.95074)
+
+  ultimate residual = ( 4.06691e-61, 2.08648e-60)
+
+DRIVER:
+  Demonstrate simple and extended Wright Omega evaluators.
+
+  Calling:
+    w = wrightomega(z);
+  returns:
+    w = omega(1, 1) =  ( 0.937208, 0.505421)
+
+  Calling:
+    wrightomega_ext ( z, w, e, r, condest );
+  returns:
+    w = omega(1, 1) =  ( 0.937208, 0.505421)
+  e = last update step = ( 2.85027e-05, -1.38839e-05)
+  r = penultimate residual = ( 6.22316e-05, -1.24894e-05)
+  condest = condition number estimate = ( 0.609404, 0.357212)
+
+  ultimate residual = ( 8.54308e-19, 1.70422e-18)
+
+TEST_BOUNDARY:
+  Test wrightomega_ext() near approximation region boundaries.
+  Store results in a file for comparison with benchmark data.
+
+TEST_BOUNDARY:
+  Results saved in file 'results.txt'
+
+TOMS917_PRB
+  Normal end of execution.
+
+17 May 2016 10:25:44 PM

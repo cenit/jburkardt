@@ -1,0 +1,38 @@
+ranlib.cpp: In function ‘float genbet(float, float)’:
+ranlib.cpp:148: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp:193: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp: In function ‘float genunf(float, float)’:
+ranlib.cpp:1006: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp: In function ‘int ignbin(int, float)’:
+ranlib.cpp:1208: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp:1253: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp: In function ‘int ignpoi(float)’:
+ranlib.cpp:1581: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp:1628: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp:1705: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp: In function ‘int ignuin(int, int)’:
+ranlib.cpp:1857: error: ‘i4_uniform’ was not declared in this scope
+ranlib.cpp: In function ‘float r4_exponential_sample(float)’:
+ranlib.cpp:2202: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp: In function ‘float r8_exponential_sample(float)’:
+ranlib.cpp:2387: error: ‘r8_uniform_01’ was not declared in this scope
+ranlib.cpp: In function ‘float sexpo()’:
+ranlib.cpp:2954: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp: In function ‘float sgamma(float)’:
+ranlib.cpp:3094: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp:3236: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp: In function ‘float snorm()’:
+ranlib.cpp:3344: error: ‘r4_uniform_01’ was not declared in this scope
+ranlib.cpp: In function ‘void trstat(char*, float*, float&, float&)’:
+ranlib.cpp:3728: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3734: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3741: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3746: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3751: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3772: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3779: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3786: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3793: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3817: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3822: warning: deprecated conversion from string constant to ‘char*’
+ranlib.cpp:3827: warning: deprecated conversion from string constant to ‘char*’

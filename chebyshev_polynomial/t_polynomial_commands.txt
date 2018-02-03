@@ -1,0 +1,19 @@
+# t_polynomial_commands.txt
+#
+# Usage:
+#  gnuplot < t_polynomial_commands.txt
+#
+set term png
+set nokey
+set output 't_polynomial_plot.png'
+set xlabel '<---X--->'
+set ylabel '<---T(n,x)--->'
+set title 'Chebyshev Polynomials T(n,x)'
+set grid
+set style data lines
+plot 't_polynomial_data.txt' using 1:1 lw 3 linecolor rgb 'red', \
+     't_polynomial_data.txt' using 1:2 lw 3 linecolor rgb 'red', \
+     't_polynomial_data.txt' using 1:3 lw 3 linecolor rgb 'red', \
+     't_polynomial_data.txt' using 1:4 lw 3 linecolor rgb 'red', \
+     't_polynomial_data.txt' using 1:5 lw 3 linecolor rgb 'red', \
+     't_polynomial_data.txt' using 1:6 lw 3 linecolor rgb 'red'

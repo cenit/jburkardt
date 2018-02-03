@@ -1,0 +1,148 @@
+07 August 2013 04:37:18 PM
+
+DREAM
+  C++ version
+  MCMC acceleration by Differential Evolution.
+
+INPUT_PRINT:
+
+  Number of parameters
+  PAR_NUM = 5
+
+  LIMITS: Lower and upper limits for each parameter:
+
+  Index           Lower           Upper
+
+      0             9.9              10
+      1             9.9              10
+      2             9.9              10
+      3             9.9              10
+      4             9.9              10
+
+  Number of generations:
+  GEN_NUM = 10
+
+  Number of simultaneous chains:
+  CHAIN_NUM = 10
+
+  Chain filename (base):
+  CHAIN_FILENAME = "problem1_chain00.txt".
+
+  Number of pairs of chains for crossover:
+  PAIR_NUM = 3
+
+  Number of crossover values:
+  CR_NUM = 3
+
+  Number of steps til a long jump:
+  JUMPSTEP = 5
+
+  Interval between Gelman-Rubin computations:
+  PRINTSTEP = 10
+
+  Gelman-Rubin data filename:
+  GR_FILENAME = "problem1_gr.txt".
+  GR_THRESHOLD = 1.2
+
+  Restart read filename:
+  RESTART_READ_FILENAME = "(Null)".
+
+  Restart write filename:
+  RESTART_WRITE_FILENAME = "problem1_restart.txt".
+
+JUMPRATE_TABLE_PRINT
+
+   I        Jumprate
+
+   0        0.971631
+   1        0.687047
+   2        0.560971
+   3        0.485815
+   4        0.434527
+
+GR_PRINT:
+  GR_CONV  = 0
+  GR_COUNT = 0
+  GR_NUM   = 1
+
+R8_UNI_01 - Note:
+  Initializing RNGLIB package.
+
+INITIALIZE - Note:
+  The RNGLIB package has been initialized.
+
+CHAIN_INIT_PRINT
+  Display initial values of Markov chains.
+  Initialization by sampling prior density.
+
+  Chain 0
+  Fitness -7.83314
+       -0.676747        -0.71726        0.956674        0.595613        -1.97832
+
+  Chain 1
+  Fitness -8.54696
+       -0.243616        -2.21732        0.749095        -1.57456       -0.467975
+
+  Chain 2
+  Fitness -8.39199
+        0.372028         1.96577       -0.643574       -0.502558          1.9916
+
+  Chain 3
+  Fitness -9.92618
+         1.18151         0.59913         -1.5181         1.68819         4.10552
+
+  Chain 4
+  Fitness -7.90721
+       -0.132487       -0.201767       -0.408183         2.03326        -2.05554
+
+  Chain 5
+  Fitness -8.77385
+        0.999534        -1.18125         1.44592        -1.08133         1.37814
+
+  Chain 6
+  Fitness -8.46847
+        -1.23955        -1.05248        -1.24496        -2.97841        -1.82543
+
+  Chain 7
+  Fitness -12.1268
+         0.75951        0.517211        -4.81239        0.376824        0.298391
+
+  Chain 8
+  Fitness -8.43723
+      -0.0733337       -0.640712        -2.20946        -1.70685         1.70406
+
+  Chain 9
+  Fitness -10.0109
+         1.83744         2.26756         3.01259         2.70586        0.620021
+
+CHAIN_OUTLIERS:
+  At iteration 9 found 1 outlier chains,
+  whose indices appear below, and for which samples
+  from the chain with the largest log likelihood function,
+  index number 0 will be substituted.
+  7
+
+  The acceptance rate is 0
+
+GR_WRITE:
+  Created the file "problem1_gr.txt".
+
+RESTART_WRITE:
+  Created restart file "problem1_restart.txt".
+
+CHAIN_WRITE:
+  Created file "problem1_chain00.txt".
+  Created file "problem1_chain01.txt".
+  Created file "problem1_chain02.txt".
+  Created file "problem1_chain03.txt".
+  Created file "problem1_chain04.txt".
+  Created file "problem1_chain05.txt".
+  Created file "problem1_chain06.txt".
+  Created file "problem1_chain07.txt".
+  Created file "problem1_chain08.txt".
+  Created file "problem1_chain09.txt".
+
+DREAM
+  Normal end of execution.
+
+07 August 2013 04:37:18 PM

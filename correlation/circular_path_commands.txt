@@ -1,0 +1,17 @@
+# circular_path_commands.txt
+#
+# Usage:
+#  gnuplot < circular_path_commands.txt
+#
+set term png
+set output "circular_paths.png"
+set xlabel 'Rho'
+set ylabel 'X(Rho)'
+set title 'Circular correlation'
+set grid
+set style data lines
+set key off
+plot 'circular_path_data.txt' using 1:2, \
+     'circular_path_data.txt' using 1:3, \
+     'circular_path_data.txt' using 1:4
+quit

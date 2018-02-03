@@ -1,0 +1,44 @@
+#  cvt.txt
+#  created by routine CVT_WRITE.F90
+#  at September 23 2004   3:14:14.971 PM
+#
+#  Spatial dimension NDIM =              2
+#  Number of points N =                 25
+#  Initial SEED_INIT =           123456789
+#  Current SEED =                810642687
+#  INIT =                    "random".
+#  Max iterations IT_MAX =              50
+#  IT_FIXED (fixed samples) =           20
+#  Iterations IT_NUM =                  50
+#  Tolerance IT_TOL =           0.100000E-03
+#  Difference IT_DIFF =         0.459368E-01
+#  SAMPLE =                  "uniform".
+#  Samples SAMPLE_NUM    =           10000
+#  Sampling BATCH size   =            1000
+#  EPSILON (unit roundoff) =    0.222045E-15
+#
+  0.121793  0.423465
+  0.882147  0.912149
+  0.892364  0.721386
+  0.295431  0.758822
+  0.085483  0.800772
+  0.262999  0.099120
+  0.166577  0.932913
+  0.710910  0.416541
+  0.707652  0.646969
+  0.311740  0.546367
+  0.621737  0.076681
+  0.103437  0.252346
+  0.338577  0.321744
+  0.519518  0.503919
+  0.085479  0.083108
+  0.545112  0.291946
+  0.902740  0.095026
+  0.664139  0.885788
+  0.435148  0.914142
+  0.513988  0.711374
+  0.104188  0.611638
+  0.898809  0.530537
+  0.425355  0.102566
+  0.735147  0.199169
+  0.903247  0.325625

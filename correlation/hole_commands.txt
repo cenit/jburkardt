@@ -1,0 +1,14 @@
+# hole_commands.txt
+#
+# Usage:
+#  gnuplot < hole_commands.txt
+#
+set term png
+set output "hole_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Hole correlation'
+set grid
+set style data lines
+plot 'hole_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

@@ -1,0 +1,25 @@
+04 December 2016 05:16:51 PM
+
+ROOT_RC_PRB:
+  C++ version
+  ROOT_RC searches for an
+  approximate solution of F(X) = 0, using reverse communication.
+
+       X              XERR            FX              FERR
+
+            -2.1                         1.59515
+       -0.504846           1e+30          1.3801         1.59515
+         9.73172           1e+30         -10.685          1.3801
+         2.18582         10.2366         -2.7628          10.685
+        0.342921         2.69067        0.598856          2.7628
+        0.649905          1.8429        0.146236        0.598856
+        0.743313         1.53592     -0.00708192        0.146236
+        0.739094       0.0934077    -1.43746e-05      0.00708192
+        0.739085       0.0891887     3.54947e-10     1.43746e-05
+
+  Uncertainty in F(X) less than tolerance
+
+ROOT_RC_PRB:
+  Normal end of execution.
+
+04 December 2016 05:16:51 PM

@@ -1,0 +1,1358 @@
+25 June 2016 12:30:53 PM
+
+CHEBYSHEV_POLYNOMIAL_PRB
+  C++ version
+  Test the CHEBYSHEV_POLYNOMIAL library.
+
+CHEBYSHEV_POLYNOMIAL_TEST01:
+  T_PROJECT_COEFFICIENTS_DATA estimates the Chebyshev polynomial
+  coefficients for a function given as data (x,fx).
+
+  Here, we use fx = f(x) = x^2 for the data.
+
+  Since T(0,x) = 1 and T(2,x) = 2*x^2 - 1, the correct expansion is
+  f(x) = 1/2 T(0,x) + 0 T(1,x) + 1/2 T(2,x) + 0 * all other polys,
+  if Chebyshev polynomials are based in [-1,+1].
+
+  Chebyshev polynomial will be based in [0,1]
+
+  Data ( X, D ):
+
+     0:       0.218418       0.0477066
+     1:       0.956318        0.914543
+     2:       0.829509        0.688086
+     3:       0.561695        0.315502
+     4:       0.415307         0.17248
+     5:      0.0661187      0.00437169
+     6:       0.257578       0.0663463
+     7:       0.109957       0.0120905
+     8:       0.043829      0.00192098
+     9:       0.633966        0.401913
+    10:      0.0617272      0.00381025
+    11:       0.449539        0.202085
+    12:       0.401306        0.161047
+    13:       0.754673        0.569532
+    14:       0.797287        0.635666
+    15:     0.00183837     3.37961e-06
+    16:       0.897504        0.805514
+    17:       0.350752        0.123027
+    18:      0.0945448      0.00893871
+    19:      0.0136169      0.00018542
+
+  Coefficients of Chebyshev expansion of degree 4.
+
+         0:          0.375
+         1:            0.5
+         2:          0.125
+         3:    1.11022e-16
+
+   I      X(I)     Data(I)      Chebyshev(X(I))
+
+   0      0.218418     0.0477066     0.0477066
+   1      0.956318      0.914543      0.914543
+   2      0.829509      0.688086      0.688086
+   3      0.561695      0.315502      0.315502
+   4      0.415307       0.17248       0.17248
+   5     0.0661187    0.00437169    0.00437169
+   6      0.257578     0.0663463     0.0663463
+   7      0.109957     0.0120905     0.0120905
+   8      0.043829    0.00192098    0.00192098
+   9      0.633966      0.401913      0.401913
+  10     0.0617272    0.00381025    0.00381025
+  11      0.449539      0.202085      0.202085
+  12      0.401306      0.161047      0.161047
+  13      0.754673      0.569532      0.569532
+  14      0.797287      0.635666      0.635666
+  15    0.00183837   3.37961e-06   3.37961e-06
+  16      0.897504      0.805514      0.805514
+  17      0.350752      0.123027      0.123027
+  18     0.0945448    0.00893871    0.00893871
+  19     0.0136169    0.00018542    0.00018542
+
+T_MASS_MATRIX_TEST:
+  T_MASS_MATRIX computes the mass matrix for the
+  Chebyshev polynomials T(i,x).
+  A(I,J) = integral ( -1 <=x <= +1 ) T(i,x) T(j,x) / sqrt ( 1 - x^2 ) dx
+  0    if i is not equal to j;
+  pi   if i = j = 0;
+  pi/2 if i = j =/= 0.
+
+  T mass matrix:
+
+  Col:          0             1             2             3       
+  Row
+
+    0:      3.14159   7.77156e-16  -5.55112e-16  -2.22045e-16  
+    1:  7.77156e-16        1.5708   1.11022e-16   3.33067e-16  
+    2: -5.55112e-16   3.33067e-16        1.5708   6.10623e-16  
+    3: -2.22045e-16   3.33067e-16   6.38378e-16        1.5708  
+
+T_MOMENT_TEST:
+  T_MOMENT returns the value of
+  integral ( -1 <=x <= +1 ) x^e / sqrt ( 1 - x^2 ) dx
+
+   E       Integral
+
+   0         3.14159
+   1               0
+   2          1.5708
+   3               0
+   4          1.1781
+   5               0
+   6        0.981748
+   7               0
+   8        0.859029
+   9               0
+  10        0.773126
+
+T_POLYNOMIAL_TEST:
+  T_POLYNOMIAL evaluates the Chebyshev polynomial T(n,x).
+
+                   Tabulated      Computed
+     N      X        T(n,x)        T(n,x)
+
+         0       0.8               1               1
+         1       0.8             0.8             0.8
+         2       0.8            0.28            0.28
+         3       0.8          -0.352          -0.352
+         4       0.8         -0.8432         -0.8432
+         5       0.8        -0.99712        -0.99712
+         6       0.8       -0.752192       -0.752192
+         7       0.8       -0.206387       -0.206387
+         8       0.8        0.421972        0.421972
+         9       0.8        0.881543        0.881543
+        10       0.8        0.988497        0.988497
+        11       0.8        0.700051        0.700051
+        12       0.8        0.131586        0.131586
+
+T_POLYNOMIAL_AB_TEST:
+  T_POLYNOMIAL_AB evaluates Chebyshev polynomials TAB(n,x)
+  shifted from [-1,+1] to the domain [A,B].
+
+  Here, we will use the new domain [0,1]
+  and the desired maximum polynomial degree will be N = 5.
+
+  Tables of T values:
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:            1            -1             1            -1             1  
+    1:            1          -0.8          0.28         0.352       -0.8432  
+    2:            1          -0.6         -0.28         0.936       -0.8432  
+    3:            1          -0.4         -0.68         0.944       -0.0752  
+    4:            1          -0.2         -0.92         0.568        0.6928  
+    5:            1             0            -1            -0             1  
+    6:            1           0.2         -0.92        -0.568        0.6928  
+    7:            1           0.4         -0.68        -0.944       -0.0752  
+    8:            1           0.6         -0.28        -0.936       -0.8432  
+    9:            1           0.8          0.28        -0.352       -0.8432  
+   10:            1             1             1             1             1  
+
+  Col:          5       
+  Row
+
+    0:           -1  
+    1:      0.99712  
+    2:      0.07584  
+    3:     -0.88384  
+    4:     -0.84512  
+    5:            0  
+    6:      0.84512  
+    7:      0.88384  
+    8:     -0.07584  
+    9:     -0.99712  
+   10:            1  
+
+T_POLYNOMIAL_AB_VALUE_TEST:
+  T_POLYNOMIAL_AB_VALUE evaluates Chebyshev polynomials TAB(n,x)
+  shifted from [-1,+1] to the domain [A,B].
+
+  Here, we will use the new domain [0,1].
+
+                   Tabulated      Computed
+     N      X01    T01(n,x)       T01(n,x)
+
+        -1      0.85               0               0
+         0      0.85               1               1
+         1      0.85             0.7             0.7
+         2      0.85           -0.02           -0.02
+         3      0.85          -0.728          -0.728
+         4      0.85         -0.9992         -0.9992
+         5      0.85        -0.67088        -0.67088
+         6      0.85        0.059968        0.059968
+         7      0.85        0.754835        0.754835
+         8      0.85        0.996801        0.996801
+         9      0.85        0.640687        0.640687
+        10      0.85      -0.0998401      -0.0998401
+        11      0.85       -0.780463       -0.780463
+        12      0.85       -0.992808       -0.992808
+         7         0              -1              -1
+         7       0.1        0.206387        0.206387
+         7       0.2        -0.97847        -0.97847
+         7       0.3        0.258022        0.258022
+         7       0.4        0.987021        0.987021
+         7       0.5               0              -0
+         7       0.6       -0.987021       -0.987021
+         7       0.7       -0.258022       -0.258022
+         7       0.8         0.97847         0.97847
+         7       0.9       -0.206387       -0.206387
+         7         1               1               1
+
+T_POLYNOMIAL_COEFFICIENTS_TEST
+  T_POLYNOMIAL_COEFFICIENTS determines the polynomial coefficients 
+  of T(n,x).
+
+  p(x) =               1
+
+  p(x) =               1 * x
+
+  p(x) =               2 * x ^ 2
+         -             1
+
+  p(x) =               4 * x ^ 3
+         -             3 * x
+
+  p(x) =               8 * x ^ 4
+         -             8 * x ^ 2
+         +             1
+
+  p(x) =              16 * x ^ 5
+         -            20 * x ^ 3
+         +             5 * x
+
+T_POLYNOMIAL_PLOT_TEST
+  T_POLYNOMIAL_PLOT plots selected
+  Chebyshev polynomials T(n,x).
+
+  Created graphics data file 't_polynomial_data.txt'.
+  Created graphics command file 't_polynomial_commands.txt'.
+
+T_POLYNOMIAL_VALUE_TEST:
+  T_POLYNOMIAL_VALUE evaluates the Chebyshev polynomial T(n,x).
+
+                   Tabulated      Computed
+     N      X        T(n,x)        T(n,x)
+
+        -1       0.8               0               0
+         0       0.8               1               1
+         1       0.8             0.8             0.8
+         2       0.8            0.28            0.28
+         3       0.8          -0.352          -0.352
+         4       0.8         -0.8432         -0.8432
+         5       0.8        -0.99712        -0.99712
+         6       0.8       -0.752192       -0.752192
+         7       0.8       -0.206387       -0.206387
+         8       0.8        0.421972        0.421972
+         9       0.8        0.881543        0.881543
+        10       0.8        0.988497        0.988497
+        11       0.8        0.700051        0.700051
+        12       0.8        0.131586        0.131586
+
+T_POLYNOMIAL_ZEROS_TEST:
+  T_POLYNOMIAL_ZEROS returns zeroes of T(n,x).
+
+       N      X        T(n,x)
+
+         1  6.12323e-17     6.12323e-17
+
+         2  0.707107     2.22045e-16
+         2  -0.707107    -2.22045e-16
+
+         3  0.866025     3.33067e-16
+         3  6.12323e-17    -1.83697e-16
+         3  -0.866025    -3.33067e-16
+
+         4   0.92388    -2.22045e-16
+         4  0.382683    -2.22045e-16
+         4  -0.382683     1.11022e-16
+         4  -0.92388    -2.22045e-16
+
+         5  0.951057    -4.44089e-16
+         5  0.587785               0
+         5  6.12323e-17     3.06162e-16
+         5  -0.587785    -7.77156e-16
+         5  -0.951057     4.44089e-16
+
+
+T_QUADRATURE_RULE_TEST:
+  T_QUADRATURE_RULE computes the quadrature rule
+  associated with T(n,x);
+
+    N      X            W
+
+     0:      -0.974928        0.448799
+     1:      -0.781831        0.448799
+     2:      -0.433884        0.448799
+     3:    2.19909e-16        0.448799
+     4:       0.433884        0.448799
+     5:       0.781831        0.448799
+     6:       0.974928        0.448799
+
+  Use the quadrature rule to estimate:
+
+    Q = Integral ( -1 <= X <= +1 ) X^E / sqrt ( 1-x^2) dx
+
+   E       Q_Estimate      Q_Exact
+
+   0         3.14159         3.14159
+   1    -1.11022e-16               0
+   2          1.5708          1.5708
+   3    -1.11022e-16               0
+   4          1.1781          1.1781
+   5               0               0
+   6        0.981748        0.981748
+   7     5.55112e-17               0
+   8        0.859029        0.859029
+   9     1.11022e-16               0
+  10        0.773126        0.773126
+  11     1.66533e-16               0
+  12        0.708699        0.708699
+  13     2.77556e-16               0
+
+TEST07:
+  T_PROJECT_COEFFICIENTS computes the Chebyshev coefficients
+  of a function defined over [-1,+1].
+  T_PROJECT_COEFFICIENTS_AB works in [A,B].
+
+  Chebyshev coefficients for exp(x) in [-1,+1]
+
+         0:        1.26607
+         1:        1.13031
+         2:        0.27145
+         3:      0.0437939
+
+  Chebyshev coefficients for exp(x) in [-1,+1]
+
+         0:        1.26607
+         1:        1.13032
+         2:       0.271495
+         3:      0.0443368
+         4:     0.00547404
+         5:    0.000539728
+
+  Chebyshev coefficients for sin(x) in [-1,+1]
+
+         0:    1.85037e-17
+         1:       0.880101
+         2:    1.11022e-16
+         3:     -0.0391267
+         4:    2.77556e-16
+         5:     0.00050252
+
+  Chebyshev coefficients for sin(x) in [-1,+1]
+
+         0:    1.85037e-17
+         1:       0.880101
+         2:    1.11022e-16
+         3:     -0.0391267
+         4:    3.14563e-16
+         5:     0.00050252
+
+  Chebyshev coefficients for sqrt(x) in [0,+1]
+
+         0:       0.638441
+         1:       0.420681
+         2:     -0.0808705
+         3:      0.0318506
+         4:       -0.01484
+         5:     0.00614694
+
+TEST08:
+  T_PROJECT_COEFFICIENTS_DATA computes the Chebyshev
+  coefficients of a function defined by data.
+
+  We are looking for an approximation that is good in [-1,+1].
+
+  Begin by using equally spaced points in [-1,+1].
+
+  Chebyshev coefficients for exp(x) on [-1,+1]
+
+         0:        1.26667
+         1:        1.13052
+         2:       0.271785
+         3:      0.0443939
+
+  Chebyshev coefficients for exp(x) on [-1,+1]
+
+         0:        1.26608
+         1:        1.13032
+         2:       0.271515
+         3:      0.0443381
+         4:     0.00547599
+         5:    0.000542394
+
+  Chebyshev coefficients for sin(x) on [-1,+1]
+
+         0:    7.22005e-17
+         1:       0.880099
+         2:    8.89365e-17
+         3:     -0.0391279
+         4:    6.32399e-17
+         5:    0.000500014
+
+  Now sample equally spaced points in [0,+1].
+  The approximation still applies to the interval [-1,+1].
+
+  Chebyshev coefficients for sin(x) on [0,+1]
+
+         0:       0.449926
+         1:       0.425221
+         2:     -0.0293448
+         3:    -0.00449978
+         4:     0.00015411
+         5:    1.41389e-05
+
+  Chebyshev coefficients for sqrt(x) on [0,+1]
+
+         0:       0.627654
+         1:       0.439083
+         2:     -0.0996074
+         3:      0.0460427
+         4:     -0.0260146
+         5:       0.014499
+
+  Now random points in [-1,+1].
+
+  Chebyshev coefficients for sin(x) on [-1,+1]
+
+         0:   -2.30327e-07
+         1:       0.880106
+         2:   -8.76709e-07
+         3:     -0.0391223
+         4:    2.87075e-09
+         5:    0.000503295
+
+TEST09:
+  T_PROJECT_COEFFICIENTS computes the Chebyshev interpolant C(F)(n,x)
+  of a function F(x) defined over [-1,+1].
+  T_PROJECT_VALUE evaluates that projection.
+
+  Compute projections of order N to exp(x) over [-1,+1],
+
+   N   Max||F(x)-C(F)(n,x)||
+
+   0         1.71828
+   1        0.372248
+   2       0.0564679
+   3      0.00665687
+   4     0.000639699
+   5     5.17958e-05
+   6     3.62009e-06
+   7     2.22439e-07
+   8     1.21901e-08
+   9      6.0271e-10
+  10     2.71396e-11
+
+TEST10:
+  T_PROJECT_COEFFICIENTS_AB computes the Chebyshev interpolant C(F)(n,x)
+  of a function F(x) defined over [A,B].
+  T_PROJECT_VALUE_AB evaluates that projection.
+
+  Compute projections of order N to exp(x) over [0,1.5]
+
+   N   Max||F(x)-C(F)(n,x)||
+
+   0         2.36469
+   1        0.396713
+   2       0.0462866
+   3      0.00415892
+   4     0.000303087
+   5      1.8555e-05
+   6      9.7862e-07
+   7     4.53171e-08
+   8     1.86984e-09
+   9     6.95577e-11
+  10     2.35367e-12
+
+TT_PRODUCT_TEST:
+  TT_PRODUCT(I,J;X) = T(I,X) * T(J,X)
+
+   I   J      X               TI              TJ              TI*TJ       TT_PRODUCT
+
+   6   3       -0.563163        0.901462        0.975054        0.878974        0.878974
+   2  -1        0.123391       -0.969549               0              -0               0
+   0  -1       -0.484844               1               0               0               0
+   0   1        0.267931               1        0.267931        0.267931        0.267931
+   5   3       -0.197387        -0.83792          0.5614       -0.470408       -0.470408
+   6   1       -0.996323        0.870454       -0.996323       -0.867254       -0.867254
+   0   4        -0.81091               1       -0.801359       -0.801359       -0.801359
+   0  -1        0.681695               1               0               0               0
+   6  -1       -0.479394        0.989962               0               0               0
+   5   0       -0.296743       -0.997927               1       -0.997927       -0.997927
+
+TT_PRODUCT_INTEGRAL_TEST:
+  TT_PRODUCT_INTEGRAL computes the product integral
+  of a pair of Chebyshev T polynomials T(i,x) and T(j,x).
+  A(I,J) = integral ( -1 <=x <= +1 ) T(i,x) T(j,x) / sqrt ( 1 - x^2 ) dx
+  0    if i is not equal to j;
+  pi   if i = j = 0;
+  pi/2 if i = j =/= 0.
+
+  T(i,x)*T(j,x) integral matrix:
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:      3.14159             0             0             0             0  
+    1:            0        1.5708             0             0             0  
+    2:            0             0        1.5708             0             0  
+    3:            0             0             0        1.5708             0  
+    4:            0             0             0             0        1.5708  
+
+TTT_PRODUCT_INTEGRAL_TEST:
+  TTT_PRODUCT_INTEGRAL computes the triple integral
+  Tijk = integral ( -1 <= x <= 1 ) T(i,x) T(j,x) T(k,x) / sqrt ( 1-x^2) dx
+
+   I   J   K     Tijk           Tijk
+                 computed       exact
+
+   3   3   4               0    -6.27276e-15
+   4   2   0               0    -4.60743e-15
+   3   1   0               0     -4.2466e-15
+   5   1   2               0    -5.55112e-15
+   4   3   3               0    -6.27276e-15
+   2   3   1        0.785398        0.785398
+   2   1   4               0    -3.91354e-15
+   6   1   0               0    -6.68909e-15
+   3   3   0          1.5708          1.5708
+   3   3   1               0     -2.7478e-15
+   5   2   4               0    -4.38538e-15
+   4   3   2               0    -3.21965e-15
+   2   3   1        0.785398        0.785398
+   2   2   1               0    -1.77636e-15
+   5   2   1               0    -5.55112e-15
+   5   1   1               0    -5.66214e-15
+   6   3   0               0    -4.02456e-15
+   5   1   3               0    -3.66374e-15
+   5   1   4        0.785398        0.785398
+   5   3   2        0.785398        0.785398
+
+TU_PRODUCT_TEST:
+  TU_PRODUCT(I,J;X) = T(I,X) * U(J,X)
+
+   I   J      X               TI              UJ              TI*UJ       TU_PRODUCT
+
+   6   3       -0.563163        0.901462        0.823782        0.742608        0.742608
+   2  -1        0.123391       -0.969549               0              -0               0
+   0  -1       -0.484844               1               0               0               0
+   0   1        0.267931               1        0.535863        0.535863        0.535863
+   5   3       -0.197387        -0.83792        0.728025       -0.610027       -0.610027
+   6   1       -0.996323        0.870454        -1.99265        -1.73451        -1.73451
+   0   4        -0.81091               1       0.0275857       0.0275857       0.0275857
+   0  -1        0.681695               1               0               0               0
+   6  -1       -0.479394        0.989962               0               0               0
+   5   0       -0.296743       -0.997927               1       -0.997927       -0.997927
+
+U_MASS_MATRIX_TEST:
+  U_MASS_MATRIX computes the mass matrix for the
+  Chebyshev U polynomials U(i,x).
+  A(I,J) = integral ( -1 <=x <= +1 ) U(i,x) U(j,x) * sqrt ( 1 - x^2 ) dx
+  0    if i is not equal to j;
+  pi/2 if i = j.
+
+  U mass matrix:
+
+  Col:          0             1             2             3       
+  Row
+
+    0:       1.5708   6.66134e-16   5.55112e-17   2.77556e-16  
+    1:  6.66134e-16        1.5708   1.11022e-15   1.77636e-15  
+    2:  5.55112e-17   9.99201e-16        1.5708   2.33147e-15  
+    3:  2.77556e-16   1.77636e-15   2.27596e-15        1.5708  
+
+U_MOMENT_TEST:
+  U_MOMENT returns the value of
+  integral ( -1 <=x <= +1 ) x^e * sqrt ( 1 - x^2 ) dx
+
+   E       Integral
+
+   0          1.5708
+   1               0
+   2        0.392699
+   3               0
+   4         0.19635
+   5               0
+   6        0.122718
+   7               0
+   8       0.0859029
+   9               0
+  10       0.0644272
+
+U_POLYNOMIAL_TEST:
+  U_POLYNOMIAL evaluates the Chebyshev polynomial U(n,x).
+
+                   Tabulated      Computed
+     N      X        U(n,x)        U(n,x)
+
+         0       0.8               1               1
+         1       0.8             1.6             1.6
+         2       0.8            1.56            1.56
+         3       0.8           0.896           0.896
+         4       0.8         -0.1264         -0.1264
+         5       0.8        -1.09824        -1.09824
+         6       0.8        -1.63078        -1.63078
+         7       0.8        -1.51101        -1.51101
+         8       0.8       -0.786839       -0.786839
+         9       0.8        0.252072        0.252072
+        10       0.8         1.19015         1.19015
+        11       0.8         1.65217         1.65217
+        12       0.8         1.45333         1.45333
+
+U_POLYNOMIAL_AB_TEST:
+  U_POLYNOMIAL_AB evaluates Chebyshev polynomials UAB(n,x)
+  shifted from [-1,+1] to the domain [A,B].
+
+  Here, we will use the new domain [0,1]
+  and the desired maximum polynomial degree will be N = 5.
+
+  Tables of U values:
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:            1            -2             3            -4             5  
+    1:            1          -1.6          1.56        -0.896       -0.1264  
+    2:            1          -1.2          0.44         0.672       -1.2464  
+    3:            1          -0.8         -0.36         1.088       -0.5104  
+    4:            1          -0.4         -0.84         0.736        0.5456  
+    5:            1             0            -1            -0             1  
+    6:            1           0.4         -0.84        -0.736        0.5456  
+    7:            1           0.8         -0.36        -1.088       -0.5104  
+    8:            1           1.2          0.44        -0.672       -1.2464  
+    9:            1           1.6          1.56         0.896       -0.1264  
+   10:            1             2             3             4             5  
+
+  Col:          5       
+  Row
+
+    0:           -6  
+    1:      1.09824  
+    2:      0.82368  
+    3:     -0.67968  
+    4:     -0.95424  
+    5:            0  
+    6:      0.95424  
+    7:      0.67968  
+    8:     -0.82368  
+    9:     -1.09824  
+   10:            6  
+
+U_POLYNOMIAL_AB_VALUE_TEST:
+  U_POLYNOMIAL_AB_VALUE evaluates Chebyshev polynomials UAB(n,x)
+  shifted from [-1,+1] to the domain [A,B].
+
+  Here, we will use the new domain [0,1].
+
+                   Tabulated      Computed
+     N      X01    U01(n,x)       U01(n,x)
+
+        -1      0.85               0               0
+         0      0.85               1               1
+         1      0.85             1.4             1.4
+         2      0.85            0.96            0.96
+         3      0.85          -0.056          -0.056
+         4      0.85         -1.0384         -1.0384
+         5      0.85        -1.39776        -1.39776
+         6      0.85       -0.918464       -0.918464
+         7      0.85         0.11191         0.11191
+         8      0.85         1.07514         1.07514
+         9      0.85         1.39328         1.39328
+        10      0.85        0.875458        0.875458
+        11      0.85       -0.167642       -0.167642
+        12      0.85        -1.11016        -1.11016
+         7         0              -8              -8
+         7       0.1         1.51101         1.51101
+         7       0.2        -1.13326        -1.13326
+         7       0.3       -0.163635       -0.163635
+         7       0.4          1.0198          1.0198
+         7       0.5               0              -0
+         7       0.6         -1.0198         -1.0198
+         7       0.7        0.163635        0.163635
+         7       0.8         1.13326         1.13326
+         7       0.9        -1.51101        -1.51101
+         7         1               8               8
+
+U_POLYNOMIAL_COEFFICIENTS_TEST
+  U_POLYNOMIAL_COEFFICIENTS determines the polynomial coefficients 
+  of U(n,x).
+
+  p(x) =               1
+
+  p(x) =               2 * x
+
+  p(x) =               4 * x ^ 2
+         -             1
+
+  p(x) =               8 * x ^ 3
+         -             4 * x
+
+  p(x) =              16 * x ^ 4
+         -            12 * x ^ 2
+         +             1
+
+  p(x) =              32 * x ^ 5
+         -            32 * x ^ 3
+         +             6 * x
+
+U_POLYNOMIAL_PLOT_TEST
+  U_POLYNOMIAL_PLOT plots selected
+  Chebyshev polynomials U(n,x).
+
+  Created graphics data file 'u_polynomial_data.txt'.
+  Created graphics command file 'u_polynomial_commands.txt'.
+
+U_POLYNOMIAL_VALUE_TEST:
+  U_POLYNOMIAL_VALUE evaluates the Chebyshev polynomial U(n,x).
+
+                   Tabulated      Computed
+     N      X        U(n,x)        U(n,x)
+
+        -1       0.8               0               0
+         0       0.8               1               1
+         1       0.8             1.6             1.6
+         2       0.8            1.56            1.56
+         3       0.8           0.896           0.896
+         4       0.8         -0.1264         -0.1264
+         5       0.8        -1.09824        -1.09824
+         6       0.8        -1.63078        -1.63078
+         7       0.8        -1.51101        -1.51101
+         8       0.8       -0.786839       -0.786839
+         9       0.8        0.252072        0.252072
+        10       0.8         1.19015         1.19015
+        11       0.8         1.65217         1.65217
+        12       0.8         1.45333         1.45333
+
+U_POLYNOMIAL_ZEROS_TEST:
+  U_POLYNOMIAL_ZEROS returns zeroes of U(n,x).
+
+       N      X        U(n,x)
+
+         1  6.12323e-17     1.22465e-16
+
+         2       0.5     4.44089e-16
+         2      -0.5    -8.88178e-16
+
+         3  0.707107     6.66134e-16
+         3  6.12323e-17    -2.44929e-16
+         3  -0.707107     6.66134e-16
+
+         4  0.809017               0
+         4  0.309017    -1.11022e-16
+         4  -0.309017     5.55112e-16
+         4  -0.809017    -8.88178e-16
+
+         5  0.866025     1.33227e-15
+         5       0.5    -8.88178e-16
+         5  6.12323e-17     3.67394e-16
+         5      -0.5    -1.77636e-15
+         5  -0.866025    -1.33227e-15
+
+
+U_QUADRATURE_RULE_TEST:
+  U_QUADRATURE_RULE computes the quadrature rule
+  associated with U(n,x);
+
+    N      X            W
+
+     0:       -0.92388       0.0575094
+     1:      -0.707107         0.19635
+     2:      -0.382683         0.33519
+     3:    7.90193e-18        0.392699
+     4:       0.382683         0.33519
+     5:       0.707107         0.19635
+     6:        0.92388       0.0575094
+
+  Use the quadrature rule to estimate:
+
+    Q = Integral ( -1 <= X <= +1 ) X^E * sqrt ( 1-x^2) dx
+
+   E       Q_Estimate      Q_Exact
+
+   0          1.5708          1.5708
+   1     8.32667e-17               0
+   2        0.392699        0.392699
+   3    -5.55112e-17               0
+   4         0.19635         0.19635
+   5    -1.38778e-16               0
+   6        0.122718        0.122718
+   7    -1.66533e-16               0
+   8       0.0859029       0.0859029
+   9    -1.73472e-16               0
+  10       0.0644272       0.0644272
+  11    -1.73472e-16               0
+  12       0.0506214       0.0506214
+  13    -1.73472e-16               0
+
+UU_PRODUCT_TEST:
+  UU_PRODUCT(I,J;X) = U(I,X) * U(J,X)
+
+   I   J      X               UI              UJ              UI*UJ       UU_PRODUCT
+
+   6   3       -0.563163        0.606464        0.823782        0.499594        0.499594
+   2  -1        0.123391       -0.939099               0              -0               0
+   0  -1       -0.484844               1               0               0               0
+   0   1        0.267931               1        0.535863        0.535863        0.535863
+   5   3       -0.197387       -0.947815        0.728025       -0.690033       -0.690033
+   6   1       -0.996323         6.59497        -1.99265        -13.1414        -13.1414
+   0   4        -0.81091               1       0.0275857       0.0275857       0.0275857
+   0  -1        0.681695               1               0               0               0
+   6  -1       -0.479394         1.06717               0               0               0
+   5   0       -0.296743        -1.01792               1        -1.01792        -1.01792
+
+UU_PRODUCT_INTEGRAL_TEST:
+  UU_PRODUCT_INTEGRAL computes the product integral
+  of a pair of Chebyshev U polynomials U(i,x) and U(j,x).
+  A(I,J) = integral ( -1 <=x <= +1 ) U(i,x) U(j,x) * sqrt ( 1 - x^2 ) dx
+  0    if i is not equal to j;
+  pi/2 if i = j.
+
+  U(i,x)*U(j,x) integral matrix:
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:       1.5708             0             0             0             0  
+    1:            0        1.5708             0             0             0  
+    2:            0             0        1.5708             0             0  
+    3:            0             0             0        1.5708             0  
+    4:            0             0             0             0        1.5708  
+
+V_MASS_MATRIX_TEST:
+  V_MASS_MATRIX computes the mass matrix for the
+  Chebyshev polynomials V(i,x).
+  A(I,J) = integral ( -1 <=x <= +1 ) V(i,x) V(j,x) sqrt(1+x)/sqrt(1-x) dx
+  0  if i is not equal to j;
+  pi if i = j.
+
+  V mass matrix:
+
+  Col:          0             1             2             3       
+  Row
+
+    0:      3.14159  -4.44089e-16   1.77636e-15   1.66533e-15  
+    1: -4.44089e-16       3.14159  -3.33067e-16  -1.77636e-15  
+    2:  1.77636e-15  -2.22045e-16       3.14159   5.10703e-15  
+    3:  1.66533e-15  -1.77636e-15   4.88498e-15       3.14159  
+
+V_MOMENT_TEST:
+  V_MOMENT returns the value of
+  integral ( -1 <=x <= +1 ) x^e * sqrt(1+x)/sqrt(1-x) dx
+
+   E       Integral
+
+   0         3.14159
+   1          1.5708
+   2          1.5708
+   3          1.1781
+   4          1.1781
+   5        0.981748
+   6        0.981748
+   7        0.859029
+   8        0.859029
+   9        0.773126
+  10        0.773126
+
+V_POLYNOMIAL_TEST:
+  V_POLYNOMIAL evaluates the Chebyshev polynomial V(n,x).
+
+                   Tabulated      Computed
+     N      X        V(n,x)        V(n,x)
+
+         0       0.8               1               1
+         1       0.8             0.6             0.6
+         2       0.8           -0.04           -0.04
+         3       0.8          -0.664          -0.664
+         4       0.8         -1.0224         -1.0224
+         5       0.8        -0.97184        -0.97184
+         6       0.8       -0.532544       -0.532544
+         7       0.8         0.11977         0.11977
+         8       0.8        0.724175        0.724175
+         9       0.8         1.03891         1.03891
+        10       0.8        0.938082        0.938082
+        11       0.8        0.462021        0.462021
+        12       0.8       -0.198849       -0.198849
+
+V_POLYNOMIAL_AB_TEST:
+  V_POLYNOMIAL_AB evaluates Chebyshev polynomials VAB(n,x)
+  shifted from [-1,+1] to the domain [A,B].
+
+  Here, we will use the new domain [0,1]
+  and the desired maximum polynomial degree will be N = 5.
+
+  Tables of V values:
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:            1            -3             5            -7             9  
+    1:            1          -2.6          3.16        -2.456        0.7696  
+    2:            1          -2.2          1.64         0.232       -1.9184  
+    3:            1          -1.8          0.44         1.448       -1.5984  
+    4:            1          -1.4         -0.44         1.576       -0.1904  
+    5:            1            -1            -1             1             1  
+    6:            1          -0.6         -1.24         0.104        1.2816  
+    7:            1          -0.2         -1.16        -0.728        0.5776  
+    8:            1           0.2         -0.76        -1.112       -0.5744  
+    9:            1           0.6         -0.04        -0.664       -1.0224  
+   10:            1             1             1             1             1  
+
+  Col:          5       
+  Row
+
+    0:          -11  
+    1:      1.22464  
+    2:      2.07008  
+    3:     -0.16928  
+    4:     -1.49984  
+    5:           -1  
+    6:      0.40864  
+    7:      1.19008  
+    8:      0.42272  
+    9:     -0.97184  
+   10:            1  
+
+V_POLYNOMIAL_AB_VALUE_TEST:
+  V_POLYNOMIAL_AB_VALUE evaluates Chebyshev polynomials VAB(n,x)
+  shifted from [-1,+1] to the domain [A,B].
+
+  Here, we will use the new domain [0,1].
+
+                   Tabulated      Computed
+     N      X01    V01(n,x)       V01(n,x)
+
+        -1      0.85               0               0
+         0      0.85               1               1
+         1      0.85             0.4             0.4
+         2      0.85           -0.44           -0.44
+         3      0.85          -1.016          -1.016
+         4      0.85         -0.9824         -0.9824
+         5      0.85        -0.35936        -0.35936
+         6      0.85        0.479296        0.479296
+         7      0.85         1.03037         1.03037
+         8      0.85        0.963228        0.963228
+         9      0.85        0.318145        0.318145
+        10      0.85       -0.517825       -0.517825
+        11      0.85         -1.0431         -1.0431
+        12      0.85       -0.942515       -0.942515
+         7         0             -15             -15
+         7       0.1          3.1418          3.1418
+         7       0.2        -1.39124        -1.39124
+         7       0.3        -1.21778        -1.21778
+         7       0.4         1.18371         1.18371
+         7       0.5               1               1
+         7       0.6       -0.855898       -0.855898
+         7       0.7       -0.890509       -0.890509
+         7       0.8        0.875277        0.875277
+         7       0.9         0.11977         0.11977
+         7         1               1               1
+
+V_POLYNOMIAL_COEFFICIENTS_TEST
+  V_POLYNOMIAL_COEFFICIENTS determines the polynomial coefficients 
+  of V(n,x).
+
+  p(x) =               1
+
+  p(x) =               2 * x
+         -             1
+
+  p(x) =               4 * x ^ 2
+         -             2 * x
+         -             1
+
+  p(x) =               8 * x ^ 3
+         -             4 * x ^ 2
+         -             4 * x
+         +             1
+
+  p(x) =              16 * x ^ 4
+         -             8 * x ^ 3
+         -            12 * x ^ 2
+         +             4 * x
+         +             1
+
+  p(x) =              32 * x ^ 5
+         -            16 * x ^ 4
+         -            32 * x ^ 3
+         +            12 * x ^ 2
+         +             6 * x
+         -             1
+
+V_POLYNOMIAL_PLOT_TEST
+  V_POLYNOMIAL_PLOT plots selected
+  Chebyshev polynomials V(n,x).
+
+  Created graphics data file 'v_polynomial_data.txt'.
+  Created graphics command file 'v_polynomial_commands.txt'.
+
+V_POLYNOMIAL_VALUE_TEST:
+  V_POLYNOMIAL_VALUE evaluates the Chebyshev polynomial V(n,x).
+
+                   Tabulated      Computed
+     N      X        V(n,x)        V(n,x)
+
+        -1       0.8               0               0
+         0       0.8               1               1
+         1       0.8             0.6             0.6
+         2       0.8           -0.04           -0.04
+         3       0.8          -0.664          -0.664
+         4       0.8         -1.0224         -1.0224
+         5       0.8        -0.97184        -0.97184
+         6       0.8       -0.532544       -0.532544
+         7       0.8         0.11977         0.11977
+         8       0.8        0.724175        0.724175
+         9       0.8         1.03891         1.03891
+        10       0.8        0.938082        0.938082
+        11       0.8        0.462021        0.462021
+        12       0.8       -0.198849       -0.198849
+
+V_POLYNOMIAL_ZEROS_TEST:
+  V_POLYNOMIAL_ZEROS returns zeroes of V(n,x).
+
+       N      X        V(n,x)
+
+         1       0.5     2.22045e-16
+
+         2  -0.309017    -3.33067e-16
+         2  0.809017     2.22045e-16
+
+         3  -0.62349     4.44089e-16
+         3  0.222521    -2.22045e-16
+         3  0.900969     1.11022e-16
+
+         4  -0.766044    -3.10862e-15
+         4  -0.173648     3.33067e-16
+         4       0.5    -6.66134e-16
+         4  0.939693     7.77156e-16
+
+         5  -0.841254     3.55271e-15
+         5  -0.415415    -1.11022e-15
+         5  0.142315    -1.66533e-16
+         5  0.654861    -2.22045e-16
+         5  0.959493    -4.44089e-16
+
+
+V_QUADRATURE_RULE_TEST:
+  V_QUADRATURE_RULE computes the quadrature rule
+  associated with V(n,x);
+
+    N      X            W
+
+     0:      -0.913545        0.036214
+     1:      -0.669131        0.138594
+     2:      -0.309017        0.289438
+     3:       0.104528        0.462664
+     4:            0.5        0.628319
+     5:       0.809017        0.757759
+     6:       0.978148        0.828605
+
+  Use the quadrature rule to estimate:
+
+    Q = Integral ( -1 <= X <= +1 ) X^E * sqrt(1+x)/sqrt(1-x) dx
+
+   E       Q_Estimate      Q_Exact
+
+   0         3.14159         3.14159
+   1          1.5708          1.5708
+   2          1.5708          1.5708
+   3          1.1781          1.1781
+   4          1.1781          1.1781
+   5        0.981748        0.981748
+   6        0.981748        0.981748
+   7        0.859029        0.859029
+   8        0.859029        0.859029
+   9        0.773126        0.773126
+  10        0.773126        0.773126
+  11        0.708699        0.708699
+  12        0.708699        0.708699
+  13        0.658078        0.658078
+
+VV_PRODUCT_INTEGRAL_TEST:
+  VV_PRODUCT_INTEGRAL computes the product integral
+  of a pair of Chebyshev V polynomials V(i,x) and V(j,x).
+  A(I,J) = integral ( -1 <=x <= +1 ) V(i,x) V(j,x) * sqrt ( 1 + x ) / sqrt ( 1 - x ) dx
+  0  if i is not equal to j;
+  pi if i = j.
+
+  V(i,x)*V(j,x) integral matrix:
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:      3.14159             0             0             0             0  
+    1:            0       3.14159             0             0             0  
+    2:            0             0       3.14159             0             0  
+    3:            0             0             0       3.14159             0  
+    4:            0             0             0             0       3.14159  
+
+W_MASS_MATRIX_TEST:
+  W_MASS_MATRIX computes the mass matrix for the
+  Chebyshev polynomials W(i,x).
+  A(I,J) = integral ( -1 <=x <= +1 ) W(i,x) W(j,x) sqrt(1-x)/sqrt(1+x) dx
+  0  if i is not equal to j;
+  pi if i = j.
+
+  W mass matrix:
+
+  Col:          0             1             2             3       
+  Row
+
+    0:      3.14159   4.44089e-16   1.77636e-15  -1.66533e-15  
+    1:  4.44089e-16       3.14159   4.44089e-16  -1.77636e-15  
+    2:  1.77636e-15   2.22045e-16       3.14159  -5.10703e-15  
+    3: -1.66533e-15  -1.77636e-15    -4.996e-15       3.14159  
+
+W_MOMENT_TEST:
+  W_MOMENT returns the value of
+  integral ( -1 <=x <= +1 ) x^e * sqrt(1-x)/sqrt(1+x) dx
+
+   E       Integral
+
+   0         3.14159
+   1         -1.5708
+   2          1.5708
+   3         -1.1781
+   4          1.1781
+   5       -0.981748
+   6        0.981748
+   7       -0.859029
+   8        0.859029
+   9       -0.773126
+  10        0.773126
+
+W_POLYNOMIAL_TEST:
+  W_POLYNOMIAL evaluates the Chebyshev polynomial W(n,x).
+
+                   Tabulated      Computed
+     N      X        W(n,x)        W(n,x)
+
+         0       0.8               1               1
+         1       0.8             2.6             2.6
+         2       0.8            3.16            3.16
+         3       0.8           2.456           2.456
+         4       0.8          0.7696          0.7696
+         5       0.8        -1.22464        -1.22464
+         6       0.8        -2.72902        -2.72902
+         7       0.8         -3.1418         -3.1418
+         8       0.8        -2.29785        -2.29785
+         9       0.8       -0.534767       -0.534767
+        10       0.8         1.44223         1.44223
+        11       0.8         2.84233         2.84233
+        12       0.8          3.1055          3.1055
+
+W_POLYNOMIAL_AB_TEST:
+  W_POLYNOMIAL_AB evaluates Chebyshev polynomials WAB(n,x)
+  shifted from [-1,+1] to the domain [A,B].
+
+  Here, we will use the new domain [0,1]
+  and the desired maximum polynomial degree will be N = 5.
+
+  Tables of W values:
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:            1            -1             1            -1             1  
+    1:            1          -0.6         -0.04         0.664       -1.0224  
+    2:            1          -0.2         -0.76         1.112       -0.5744  
+    3:            1           0.2         -1.16         0.728        0.5776  
+    4:            1           0.6         -1.24        -0.104        1.2816  
+    5:            1             1            -1            -1             1  
+    6:            1           1.4         -0.44        -1.576       -0.1904  
+    7:            1           1.8          0.44        -1.448       -1.5984  
+    8:            1           2.2          1.64        -0.232       -1.9184  
+    9:            1           2.6          3.16         2.456        0.7696  
+   10:            1             3             5             7             9  
+
+  Col:          5       
+  Row
+
+    0:           -1  
+    1:      0.97184  
+    2:     -0.42272  
+    3:     -1.19008  
+    4:     -0.40864  
+    5:            1  
+    6:      1.49984  
+    7:      0.16928  
+    8:     -2.07008  
+    9:     -1.22464  
+   10:           11  
+
+W_POLYNOMIAL_AB_VALUE_TEST:
+  W_POLYNOMIAL_AB_VALUE evaluates Chebyshev polynomials WAB(n,x)
+  shifted from [-1,+1] to the domain [A,B].
+
+  Here, we will use the new domain [0,1].
+
+                   Tabulated      Computed
+     N      X01    W01(n,x)       W01(n,x)
+
+        -1      0.85               0               0
+         0      0.85               1               1
+         1      0.85             2.4             2.4
+         2      0.85            2.36            2.36
+         3      0.85           0.904           0.904
+         4      0.85         -1.0944         -1.0944
+         5      0.85        -2.43616        -2.43616
+         6      0.85        -2.31622        -2.31622
+         7      0.85       -0.806554       -0.806554
+         8      0.85         1.18705         1.18705
+         9      0.85         2.46842         2.46842
+        10      0.85         2.26874         2.26874
+        11      0.85        0.707817        0.707817
+        12      0.85         -1.2778         -1.2778
+         7         0              -1              -1
+         7       0.1        -0.11977        -0.11977
+         7       0.2       -0.875277       -0.875277
+         7       0.3        0.890509        0.890509
+         7       0.4        0.855898        0.855898
+         7       0.5              -1              -1
+         7       0.6        -1.18371        -1.18371
+         7       0.7         1.21778         1.21778
+         7       0.8         1.39124         1.39124
+         7       0.9         -3.1418         -3.1418
+         7         1              15              15
+
+W_POLYNOMIAL_COEFFICIENTS_TEST
+  W_POLYNOMIAL_COEFFICIENTS determines the polynomial coefficients 
+  of W(n,x).
+
+  p(x) =               1
+
+  p(x) =               2 * x
+         +             1
+
+  p(x) =               4 * x ^ 2
+         +             2 * x
+         -             1
+
+  p(x) =               8 * x ^ 3
+         +             4 * x ^ 2
+         -             4 * x
+         -             1
+
+  p(x) =              16 * x ^ 4
+         +             8 * x ^ 3
+         -            12 * x ^ 2
+         -             4 * x
+         +             1
+
+  p(x) =              32 * x ^ 5
+         +            16 * x ^ 4
+         -            32 * x ^ 3
+         -            12 * x ^ 2
+         +             6 * x
+         +             1
+
+W_POLYNOMIAL_PLOT_TEST
+  W_POLYNOMIAL_PLOT plots selected
+  Chebyshev polynomials W(n,x).
+
+  Created graphics data file 'w_polynomial_data.txt'.
+  Created graphics command file 'w_polynomial_commands.txt'.
+
+W_POLYNOMIAL_VALUE_TEST:
+  W_POLYNOMIAL_VALUE evaluates the Chebyshev polynomial W(n,x).
+
+                   Tabulated      Computed
+     N      X        W(n,x)        W(n,x)
+
+        -1       0.8               0               0
+         0       0.8               1               1
+         1       0.8             2.6             2.6
+         2       0.8            3.16            3.16
+         3       0.8           2.456           2.456
+         4       0.8          0.7696          0.7696
+         5       0.8        -1.22464        -1.22464
+         6       0.8        -2.72902        -2.72902
+         7       0.8         -3.1418         -3.1418
+         8       0.8        -2.29785        -2.29785
+         9       0.8       -0.534767       -0.534767
+        10       0.8         1.44223         1.44223
+        11       0.8         2.84233         2.84233
+        12       0.8          3.1055          3.1055
+
+W_POLYNOMIAL_ZEROS_TEST:
+  W_POLYNOMIAL_ZEROS returns zeroes of W(n,x).
+
+       N      X        W(n,x)
+
+         1      -0.5     4.44089e-16
+
+         2  -0.809017    -3.33067e-16
+         2  0.309017     2.22045e-16
+
+         3  -0.900969     8.88178e-16
+         3  -0.222521    -3.33067e-16
+         3   0.62349     4.44089e-16
+
+         4  -0.939693    -6.66134e-16
+         4      -0.5     1.33227e-15
+         4  0.173648    -5.55112e-16
+         4  0.766044    -8.88178e-16
+
+         5  -0.959493     4.44089e-16
+         5  -0.654861    -6.66134e-16
+         5  -0.142315     1.05471e-15
+         5  0.415415               0
+         5  0.841254     3.10862e-15
+
+
+W_QUADRATURE_RULE_TEST:
+  W_QUADRATURE_RULE computes the quadrature rule
+  associated with W(n,x);
+
+    N      X            W
+
+     0:      -0.978148        0.828605
+     1:      -0.809017        0.757759
+     2:           -0.5        0.628319
+     3:      -0.104528        0.462664
+     4:       0.309017        0.289438
+     5:       0.669131        0.138594
+     6:       0.913545        0.036214
+
+  Use the quadrature rule to estimate:
+
+    Q = Integral ( -1 <= X <= +1 ) X^E * sqrt(1-x)/sqrt(1+x) dx
+
+   E       Q_Estimate      Q_Exact
+
+   0         3.14159         3.14159
+   1         -1.5708         -1.5708
+   2          1.5708          1.5708
+   3         -1.1781         -1.1781
+   4          1.1781          1.1781
+   5       -0.981748       -0.981748
+   6        0.981748        0.981748
+   7       -0.859029       -0.859029
+   8        0.859029        0.859029
+   9       -0.773126       -0.773126
+  10        0.773126        0.773126
+  11       -0.708699       -0.708699
+  12        0.708699        0.708699
+  13       -0.658078       -0.658078
+
+WW_PRODUCT_INTEGRAL_TEST:
+  WW_PRODUCT_INTEGRAL computes the product integral
+  of a pair of Chebyshev W polynomials W(i,x) and W(j,x).
+  A(I,J) = integral ( -1 <=x <= +1 ) W(i,x) W(j,x) * sqrt ( 1 - x ) / sqrt ( 1 + x ) dx
+  0  if i is not equal to j;
+  pi if i = j.
+
+  W(i,x)*W(j,x) integral matrix:
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:      3.14159             0             0             0             0  
+    1:            0       3.14159             0             0             0  
+    2:            0             0       3.14159             0             0  
+    3:            0             0             0       3.14159             0  
+    4:            0             0             0             0       3.14159  
+
+CHEBYSHEV_POLYNOMIAL_PRB
+  Normal end of execution.
+
+25 June 2016 12:30:53 PM

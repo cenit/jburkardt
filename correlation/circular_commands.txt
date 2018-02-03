@@ -1,0 +1,14 @@
+# circular_commands.txt
+#
+# Usage:
+#  gnuplot < circular_commands.txt
+#
+set term png
+set output "circular_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Circular correlation'
+set grid
+set style data lines
+plot 'circular_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

@@ -1,0 +1,17 @@
+# damped_sine_path_commands.txt
+#
+# Usage:
+#  gnuplot < damped_sine_path_commands.txt
+#
+set term png
+set output "damped_sine_paths.png"
+set xlabel 'Rho'
+set ylabel 'X(Rho)'
+set title 'Damped sine correlation'
+set grid
+set style data lines
+set key off
+plot 'damped_sine_path_data.txt' using 1:2, \
+     'damped_sine_path_data.txt' using 1:3, \
+     'damped_sine_path_data.txt' using 1:4
+quit

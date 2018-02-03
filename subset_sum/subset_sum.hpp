@@ -1,0 +1,24 @@
+int backup_one ( int n, int u[], int told );
+int i4_max ( int i1, int i2 );
+int i4_min ( int i1, int i2 );
+int i4_power ( int i, int j );
+int *i4_to_digits_binary ( int i, int n );
+int *i4vec_copy_new ( int n, int a1[] );
+int i4vec_dot_product ( int n, int x[], int y[] );
+void i4vec_print ( int n, int a[], string title );
+int subset_sum_count ( int n, int w[], int t, int ind_min, int ind_max );
+void subset_sum_count_test ( int n, int w[], int t, int ind_min, int ind_max );
+void subset_sum_count_tests ( );
+int *subset_sum_find ( int n, int w[], int t, int ind_min, int ind_max, 
+  int &ind );
+int subset_sum_find_test ( int n, int w[], int t, int ind_min, int ind_max );
+void subset_sum_find_tests ( );
+void subset_sum_next ( int s, int n, int v[], bool &more, int u[], int &t );
+void subset_sum_next_test ( int s, int n, int v[] );
+void subset_sum_next_tests ( );
+int *subset_sum_table ( int t, int n, int w[] );
+void subset_sum_table_tests ( );
+void subset_sum_table_test ( int t, int n, int w[] );
+int *subset_sum_table_to_list ( int t, int table[], int m );
+int subset_sum_table_to_list_length ( int t, int table[] );
+void timestamp ( );

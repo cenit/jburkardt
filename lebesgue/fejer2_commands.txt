@@ -1,0 +1,14 @@
+# fejer2_commands.txt
+#
+# Usage:
+#  gnuplot < fejer2_commands.txt
+#
+set term png
+set output 'fejer2.png'
+set xlabel '<--- X --->'
+set ylabel '<--- Lebesgue(X) --->'
+set title 'Fejer2 points for N = 11'
+set grid
+set style data lines
+set timestamp
+plot 'fejer2_data.txt' using 1:2 lw 3 linecolor rgb 'red'

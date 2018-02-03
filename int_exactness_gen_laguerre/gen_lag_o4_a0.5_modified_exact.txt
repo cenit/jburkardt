@@ -1,0 +1,74 @@
+03 February 2008 11:43:48 AM
+
+INT_EXACTNESS_GEN_LAGUERRE
+  C++ version
+
+  Investigate the polynomial exactness of a generalized Gauss-Laguerre
+  quadrature rule by integrating exponentially weighted
+  monomials up to a given degree over the [0,+oo) interval.
+
+  The rule may be defined on another interval [A,+oo)
+  in which case it is adjusted to the [0,+oo) interval.
+
+INT_EXACTNESS_GEN_LAGUERRE: User input:
+  Quadrature rule X file = "gen_lag_o4_a0.5_modified_x.txt".
+  Quadrature rule W file = "gen_lag_o4_a0.5_modified_w.txt".
+  Quadrature rule R file = "gen_lag_o4_a0.5_modified_r.txt".
+  Maximum degree to check = 10
+  Weighting exponent ALPHA = 0.5
+  OPTION = 1, integrate                 f(x)
+
+  Spatial dimension = 1
+  Number of points  = 4
+
+  The quadrature rule to be tested is
+  a generalized Gauss-Laguerre rule
+  ORDER = 4
+  with A =     0
+  and  ALPHA = 0.5
+
+  Modified rule:
+    Integral ( A <= x < +oo )         f(x) dx
+    is to be approximated by
+    sum ( 1 <= I <= ORDER ) w(i) * f(x(i)).
+
+  Weights W:
+
+  w[ 0] =        1.056822167362815
+  w[ 1] =        2.245735554138782
+  w[ 2] =        3.815800660297564
+  w[ 3] =        6.681962618275016
+
+  Abscissas X:
+
+  x[ 0] =       0.5235260767382691
+  x[ 1] =        2.156648763269094
+  x[ 2] =        5.137387546176711
+  x[ 3] =        10.18243761381592
+
+  Region R:
+
+  r[ 0] =                        0
+  r[ 1] =                    1e+30
+
+  A generalized Gauss-Laguerre rule would be able to exactly
+  integrate monomials up to and including degree = 7
+
+          Error          Degree
+
+                         0   0
+      1.67033670908906e-16   1
+                         0   2
+     3.054329982334281e-16   3
+     5.429919968594276e-16   4
+     7.898065408864402e-16   5
+     9.720695887833111e-16   6
+     7.776556710266489e-16   7
+         0.010530645824763   8
+       0.05043625105544623   9
+         0.133097861890432  10
+
+INT_EXACTNESS_GEN_LAGUERRE:
+  Normal end of execution.
+
+03 February 2008 11:43:48 AM

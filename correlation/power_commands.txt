@@ -1,0 +1,14 @@
+# power_commands.txt
+#
+# Usage:
+#  gnuplot < power_commands.txt
+#
+set term png
+set output "power_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Power correlation'
+set grid
+set style data lines
+plot 'power_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

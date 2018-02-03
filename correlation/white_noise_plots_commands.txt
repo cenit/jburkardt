@@ -1,0 +1,15 @@
+# white_noise_plots_commands.txt
+#
+# Usage:
+#  gnuplot < white_noise_plots_commands.txt
+#
+set term png
+set output "white_noise_plots.png"
+set xlabel 'Rho'
+set ylabel 'Correlation(Rho)'
+set title 'White noise correlation'
+set grid
+set style data lines
+set key off
+plot 'white_noise_plots_data.txt' using 1:2 lw 3
+quit

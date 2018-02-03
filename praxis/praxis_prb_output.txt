@@ -1,0 +1,319 @@
+04 August 2016 10:40:48 PM
+
+PRAXIS_PRB
+  C++ version
+  Test the PRAXIS library.
+
+BEALE_TEST
+  The Beale function.
+
+  Initial point:
+
+         0:            0.1
+         1:            0.1
+  Function value = 12.991
+
+  Computed minimizer:
+
+         0:              3
+         1:            0.5
+  Function value = 3.69857e-26
+
+BOX_TEST
+  The Box function.
+
+  Initial point:
+
+         0:              0
+         1:             10
+         2:             20
+  Function value = 1031.15
+
+  Computed minimizer:
+
+         0:              1
+         1:             10
+         2:              1
+  Function value = 1.94198e-26
+
+CHEBYQUAD_TEST
+  The Chebyquad function.
+
+  Initial point:
+
+         0:       0.111111
+         1:       0.222222
+         2:       0.333333
+         3:       0.444444
+         4:       0.555556
+         5:       0.666667
+         6:       0.777778
+         7:       0.888889
+  Function value = 0.0386177
+
+  Computed minimizer:
+
+         0:      0.0431527
+         1:       0.193091
+         2:       0.266329
+         3:            0.5
+         4:            0.5
+         5:       0.733671
+         6:       0.806909
+         7:       0.956847
+  Function value = 0.00351687
+
+CUBE_TEST
+  The Cube function.
+
+  Initial point:
+
+         0:           -1.2
+         1:             -1
+  Function value = 57.8384
+
+  Computed minimizer:
+
+         0:              1
+         1:              1
+  Function value = 8.68265e-22
+
+HELIX_TEST
+  The Fletcher-Powell Helix function.
+
+  Initial point:
+
+         0:             -1
+         1:              0
+         2:              0
+  Function value = 10000
+
+  Computed minimizer:
+
+         0:              1
+         1:    2.73789e-10
+         2:    4.33792e-10
+  Function value = 1.99308e-19
+
+HILBERT_TEST
+  The Hilbert function.
+
+  Initial point:
+
+         0:              1
+         1:              1
+         2:              1
+         3:              1
+         4:              1
+         5:              1
+         6:              1
+         7:              1
+         8:              1
+         9:              1
+  Function value = 13.3754
+
+  Computed minimizer:
+
+         0:   -1.34882e-10
+         1:    8.82905e-09
+         2:   -1.26442e-07
+         3:    7.14152e-07
+         4:   -1.86151e-06
+         5:    1.94693e-06
+         6:    7.24941e-07
+         7:   -3.57163e-06
+         8:    3.01855e-06
+         9:   -8.53612e-07
+  Function value = 1.1713e-21
+
+POWELL3D_TEST
+  The Powell 3D function.
+
+  Initial point:
+
+         0:              0
+         1:              1
+         2:              2
+  Function value = 1.5
+
+  Computed minimizer:
+
+         0:              1
+         1:              1
+         2:              1
+  Function value = 0
+
+ROSENBROCK_TEST
+  The Rosenbrock function.
+
+  Initial point:
+
+         0:           -1.2
+         1:              1
+  Function value = 24.2
+
+  Computed minimizer:
+
+         0:              1
+         1:              1
+  Function value = 4.46274e-24
+
+SINGULAR_TEST
+  The Powell Singular function.
+
+  Initial point:
+
+         0:              3
+         1:             -1
+         2:              0
+         3:              1
+  Function value = 215
+
+  Computed minimizer:
+
+         0:    1.49669e-06
+         1:   -1.49669e-07
+         2:    1.36454e-06
+         3:    1.36454e-06
+  Function value = 6.95697e-23
+
+TRIDIAGONAL_TEST
+  The Tridiagonal function.
+
+  Initial point:
+
+         0:              0
+         1:              0
+         2:              0
+         3:              0
+  Function value = 0
+
+  Computed minimizer:
+
+         0:              4
+         1:              3
+         2:              2
+         3:              1
+  Function value = -4
+
+WATSON_TEST
+  The Watson function.
+
+  Initial point:
+
+         0:              0
+         1:              0
+         2:              0
+         3:              0
+         4:              0
+         5:              0
+  Function value = 30
+
+  Computed minimizer:
+
+         0:     -0.0157251
+         1:        1.01243
+         2:      -0.232992
+         3:        1.26043
+         4:       -1.51373
+         5:       0.992996
+  Function value = 0.00228767
+
+WOOD_TEST
+  The Wood function.
+
+  Initial point:
+
+         0:             -3
+         1:             -1
+         2:             -3
+         3:             -1
+  Function value = 19192
+
+  Computed minimizer:
+
+         0:              1
+         1:              1
+         2:              1
+         3:              1
+  Function value = 2.14612e-19
+
+MINFIT_TEST
+  MINFIT computes part of the SVD of a matrix A.
+    SVD: A = U * D * V'
+  MINFIT is given A, and returns the diagonal D
+  and the orthogonal matrix V.
+
+  The matrix A:
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:            2            -1             0             0             0  
+    1:           -1             2            -1             0             0  
+    2:            0            -1             2            -1             0  
+    3:            0             0            -1             2            -1  
+    4:            0             0             0            -1             2  
+
+  The vector V:
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:    -0.288675           0.5      -0.57735           0.5     -0.288675  
+    1:          0.5          -0.5   2.40746e-16           0.5          -0.5  
+    2:     -0.57735    1.9082e-16       0.57735   -3.5911e-16      -0.57735  
+    3:          0.5           0.5   6.07563e-17          -0.5          -0.5  
+    4:    -0.288675          -0.5      -0.57735          -0.5     -0.288675  
+
+  The singular values D:
+
+         0:        3.73205
+         1:              3
+         2:              2
+         3:              1
+         4:       0.267949
+
+  Because A is positive definite symmetric,
+  we can reconstruct it as A = V * D * V'
+
+  The product A2 = V * D * V'
+
+  Col:          0             1             2             3             4       
+  Row
+
+    0:            2            -1  -4.92661e-16   -9.4369e-16  -1.63064e-16  
+    1:           -1             2            -1             0  -7.35523e-16  
+    2: -3.88578e-16            -1             2            -1  -4.02456e-16  
+    3:  -9.4369e-16  -1.11022e-16            -1             2            -1  
+    4: -1.66533e-16  -7.35523e-16  -2.91434e-16            -1             2  
+
+SVSORT_TEST
+  SVSORT sorts a vector D, and the corresponding columns
+  of a matrix V.
+
+  First row = entries of D.
+  Corresponding columns of V below.
+
+      0.218418      0.956318      0.829509      0.561695      0.415307
+
+            11            12            13            14            15
+            21            22            23            24            25
+            31            32            33            34            35
+            41            42            43            44            45
+            51            52            53            54            55
+
+  After sorting D and rearranging V:
+
+      0.956318      0.829509      0.561695      0.415307      0.218418
+
+            12            13            14            15            11
+            22            23            24            25            21
+            32            33            34            35            31
+            42            43            44            45            41
+            52            53            54            55            51
+
+PRAXIS_PRB
+  Normal end of execution.
+
+04 August 2016 10:40:48 PM

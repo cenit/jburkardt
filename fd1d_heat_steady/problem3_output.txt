@@ -1,0 +1,28 @@
+18 May 2009 08:37:51 AM
+
+PROBLEM3:
+  A test problem for FD1D_HEAT_STEADY.
+  Interior source term.
+
+FD1D_HEAT_STEADY
+  C++ version
+
+  Finite difference solution of
+  the steady 1D heat equation
+
+    - d/dx ( k(x) dUdx ) = F(x)
+
+  for space interval A <= X <= B with boundary conditions
+
+    U(A) = UA
+    U(B) = UB
+
+  A second order difference approximation is used.
+
+  X data written to "problem3_x.txt".
+  U data written to "problem3_u.txt".
+
+PROBLEM1:
+  Normal end of execution.
+
+18 May 2009 08:37:51 AM

@@ -1,0 +1,17 @@
+# matern_path_commands.txt
+#
+# Usage:
+#  gnuplot < matern_path_commands.txt
+#
+set term png
+set output "matern_paths.png"
+set xlabel 'Rho'
+set ylabel 'X(Rho)'
+set title 'Matern correlation (nu=2.5)'
+set grid
+set style data lines
+set key off
+plot 'matern_path_data.txt' using 1:2, \
+     'matern_path_data.txt' using 1:3, \
+     'matern_path_data.txt' using 1:4
+quit

@@ -1,0 +1,182 @@
+<html>
+
+  <head>
+    <title>
+      CONDITION - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      CONDITION <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>CONDITION</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>CONDITION</b> is available in
+      <a href = "../../cpp_src/condition/condition.html">a C++ version</a>.
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "condition.cpp">condition.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "condition.hpp">condition.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "condition.sh">condition.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "condition_prb.cpp">condition_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "condition_prb.sh">condition_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "condition_prb_output.txt">condition_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>COMBIN</b> returns the COMBIN matrix.
+        </li>
+        <li>
+          <b>COMBIN_INVERSE</b> returns the inverse of the COMBIN matrix.
+        </li>
+        <li>
+          <b>CONDITION_HAGER</b> estimates the L1 condition number of a matrix.
+        </li>
+        <li>
+          <b>CONDITION_LINPACK</b> estimates the L1 condition number.
+        </li>
+        <li>
+          <b>CONDITION_SAMPLE1</b> estimates the L1 condition number of a matrix.
+        </li>
+        <li>
+          <b>CONEX1</b> returns the CONEX1 matrix.
+        </li>
+        <li>
+          <b>CONEX1_INVERSE</b> returns the inverse of the CONEX1 matrix.
+        </li>
+        <li>
+          <b>CONEX2</b> returns the CONEX2 matrix.
+        </li>
+        <li>
+          <b>CONEX2_INVERSE</b> returns the inverse of the CONEX2 matrix.
+        </li>
+        <li>
+          <b>CONEX3</b> returns the CONEX3 matrix.
+        </li>
+        <li>
+          <b>CONEX3_INVERSE</b> returns the inverse of the CONEX3 matrix.
+        </li>
+        <li>
+          <b>CONEX4</b> returns the CONEX4 matrix.
+        </li>
+        <li>
+          <b>CONEX4_INVERSE</b> returns the inverse of the CONEX4 matrix.
+        </li>
+        <li>
+          <b>KAHAN</b> returns the KAHAN matrix.
+        </li>
+        <li>
+          <b>KAHAN_INVERSE</b> returns the inverse of the KAHAN matrix.
+        </li>
+        <li>
+          <b>R8GE_FA</b> performs a LINPACK-style PLU factorization of a R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_INVERSE</b> computes the inverse of a R8GE matrix factored by R8GE_FA.
+        </li>
+        <li>
+          <b>R8GE_SL</b> solves a R8GE system factored by R8GE_FA.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Thu Oct  4 11:17:27 2012
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

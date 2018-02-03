@@ -1,0 +1,14 @@
+# matern_commands.txt
+#
+# Usage:
+#  gnuplot < matern_commands.txt
+#
+set term png
+set output "matern_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Matern correlation (NU = 2.5)'
+set grid
+set style data lines
+plot 'matern_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

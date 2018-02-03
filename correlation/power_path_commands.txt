@@ -1,0 +1,17 @@
+# power_path_commands.txt
+#
+# Usage:
+#  gnuplot < power_path_commands.txt
+#
+set term png
+set output "power_paths.png"
+set xlabel 'Rho'
+set ylabel 'X(Rho)'
+set title 'Power correlation (e=2.0)'
+set grid
+set style data lines
+set key off
+plot 'power_path_data.txt' using 1:2, \
+     'power_path_data.txt' using 1:3, \
+     'power_path_data.txt' using 1:4
+quit

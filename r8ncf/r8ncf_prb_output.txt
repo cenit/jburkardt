@@ -1,0 +1,300 @@
+23 July 2016 09:10:19 AM
+
+LINPLUS_PRB
+  C++ version
+  Test the LINPLUS library.
+
+R8NCF_DIF2_TEST
+  R8NCF_DIF2 sets up a R8NCF second difference matrix;
+
+  Matrix rows M = 5
+  Matrix columns N = 7
+  Matrix nonzeros NZ_NUM = 14
+
+  The R8NCF second difference matrix:
+
+  Col:          0             1             2             3             4       
+  Row
+  ---
+    0             2            -1             0             0             0
+    1            -1             2            -1             0             0
+    2             0            -1             2            -1             0
+    3             0             0            -1             2            -1
+    4             0             0             0            -1             2
+
+  Col:          5             6       
+  Row
+  ---
+    0             0             0
+    1             0             0
+    2             0             0
+    3             0             0
+    4            -1             0
+
+R8NCF_INDICATOR_TEST
+  R8NCF_INDICATOR sets up an R8NCF indicator matrix;
+
+  Matrix rows M =    5
+  Matrix columns N = 7
+  Matrix nonzeros =  15
+
+  The R8NCF indicator matrix:
+
+  Col:          0             1             2             3             4       
+  Row
+  ---
+    0            11            12             0            14             0
+    1            21            22             0            24             0
+    2             0             0            33            34             0
+    3             0             0             0            44            45
+    4            51            52             0             0            55
+
+  Col:          5             6       
+  Row
+  ---
+    0             0            17
+    1             0             0
+    2             0             0
+    3            46             0
+    4             0             0
+
+R8NCF_MTV_TEST
+  R8NCF_MTV computes b=A'*x, where A is an R8NCF matrix;
+
+  Matrix rows M =    5
+  Matrix columns N = 7
+  Matrix nonzeros =  15
+
+  The matrix A:
+
+  Col:          0             1             2             3             4       
+  Row
+  ---
+    0            11            12             0            14             0
+    1            21            22             0            24             0
+    2             0             0            33            34             0
+    3             0             0             0            44            45
+    4            51            52             0             0            55
+
+  Col:          5             6       
+  Row
+  ---
+    0             0            17
+    1             0             0
+    2             0             0
+    3            46             0
+    4             0             0
+
+  The vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  The product b=A'*x:
+
+     1             308
+     2             316
+     3              99
+     4             340
+     5             455
+     6             184
+     7              17
+
+R8NCF_MV_TEST
+  R8NCF_MV computes b=A*x, where A is an R8NCF matrix;
+
+  Matrix rows M =    5
+  Matrix columns N = 7
+  Matrix nonzeros =  15
+
+  The matrix A:
+
+  Col:          0             1             2             3             4       
+  Row
+  ---
+    0            11            12             0            14             0
+    1            21            22             0            24             0
+    2             0             0            33            34             0
+    3             0             0             0            44            45
+    4            51            52             0             0            55
+
+  Col:          5             6       
+  Row
+  ---
+    0             0            17
+    1             0             0
+    2             0             0
+    3            46             0
+    4             0             0
+
+  The vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+
+  The product b=A*x:
+
+     1             210
+     2             161
+     3             235
+     4             677
+     5             430
+
+R8NCF_PRINT_TEST
+  R8NCF_PRINT prints an R8NCF indicator matrix;
+
+  Matrix rows M =    5
+  Matrix columns N = 7
+  Matrix nonzeros =  15
+
+  The R8NCF matrix:
+
+  Col:          0             1             2             3             4       
+  Row
+  ---
+    0            11            12             0            14             0
+    1            21            22             0            24             0
+    2             0             0            33            34             0
+    3             0             0             0            44            45
+    4            51            52             0             0            55
+
+  Col:          5             6       
+  Row
+  ---
+    0             0            17
+    1             0             0
+    2             0             0
+    3            46             0
+    4             0             0
+
+R8NCF_PRINT_SOME_TEST
+  R8NCF_PRINT_SOME prints some of an R8NCF matrix;
+
+  Matrix rows M =    5
+  Matrix columns N = 7
+  Matrix nonzeros =  15
+
+  Rows 0-4, Cols 1-3:
+
+  Col:          1             2             3       
+  Row
+  ---
+    0            12             0            14
+    1            22             0            24
+    2             0            33            34
+    3             0             0            44
+    4            52             0             0
+
+R8NCF_RANDOM_TEST
+  R8NCF_RANDOM randomizes an R8NCF  matrix;
+
+  Matrix rows M =    5
+  Matrix columns N = 7
+  Matrix nonzeros =  15
+
+  The R8NCF random matrix:
+
+  Col:          0             1             2             3             4       
+  Row
+  ---
+    0      0.218418      0.109957             0      0.633966             0
+    1     0.0661187      0.956318             0     0.0617272             0
+    2             0             0      0.829509      0.449539             0
+    3             0             0             0      0.561695      0.401306
+    4      0.257578      0.043829             0             0      0.415307
+
+  Col:          5             6       
+  Row
+  ---
+    0             0      0.797287
+    1             0             0
+    2             0             0
+    3      0.754673             0
+    4             0             0
+
+R8NCF_TO_R8GE_TEST
+  R8NCF_TO_R8GE converts an R8NCF matrix to R8GE format;
+
+  Matrix rows M =    5
+  Matrix columns N = 7
+  Matrix nonzeros =  15
+
+  The R8NCF matrix:
+
+  Col:          0             1             2             3             4       
+  Row
+  ---
+    0            11            12             0            14             0
+    1            21            22             0            24             0
+    2             0             0            33            34             0
+    3             0             0             0            44            45
+    4            51            52             0             0            55
+
+  Col:          5             6       
+  Row
+  ---
+    0             0            17
+    1             0             0
+    2             0             0
+    3            46             0
+    4             0             0
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            12             0            14             0  
+    2            21            22             0            24             0  
+    3             0             0            33            34             0  
+    4             0             0             0            44            45  
+    5            51            52             0             0            55  
+
+  Col:          6             7       
+  Row
+  ---
+    1             0            17  
+    2             0             0  
+    3             0             0  
+    4            46             0  
+    5             0             0  
+
+R8NCF_ZEROS_TEST
+  R8NCF_ZEROS zeros an R8NCF matrix;
+
+  Matrix rows M =    5
+  Matrix columns N = 7
+  Matrix nonzeros NZ_NUM = 14
+
+  The R8NCF zero matrix:
+
+  Col:          0             1             2             3             4       
+  Row
+  ---
+    0             0             0             0             0             0
+    1             0             0             0             0             0
+    2             0             0             0             0             0
+    3             0             0             0             0             0
+    4             0             0             0             0             0
+
+  Col:          5             6       
+  Row
+  ---
+    0             0             0
+    1             0             0
+    2             0             0
+    3             0             0
+    4             0             0
+
+LINPLUS_PRB
+  Normal end of execution.
+
+23 July 2016 09:10:19 AM

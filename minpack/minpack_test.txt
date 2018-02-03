@@ -1,0 +1,188 @@
+02 January 2018 09:38:02 PM
+
+MINPACK_TEST
+  C++ version:
+  Test the MINPACK library.
+
+CHKDER_TEST
+  CHKDER compares a user supplied jacobian
+  and a finite difference approximation to it
+  and judges whether the jacobian is correct.
+
+  On the first test, use a correct jacobian.
+
+  Evaluation point X:
+
+        0.218418
+        0.956318
+        0.829509
+        0.561695
+        0.415307
+
+  Sampled function values F(X) and F(XP)
+
+         0        -2.80033        -2.80033
+         1        -2.06243        -2.06243
+         2        -2.18924        -2.18924
+         3        -2.45706        -2.45706
+         4       -0.959581       -0.959581
+
+  Computed jacobian:
+
+             2             1             1             1             1
+             1             2             1             1             1
+             1             1             2             1             1
+             1             1             1             2             1
+      0.185052      0.042265     0.0487261     0.0719584     0.0973225
+
+  CHKDER gradient component error estimates:
+     > 0.5, the component is probably correct.
+     < 0.5, the component is probably incorrect.
+
+         0               1
+         1               1
+         2               1
+         3               1
+         4               1
+
+  Repeat the test, but use a bad jacobian
+  and see if the routine notices.
+
+  Evaluation point X:
+
+        0.218418
+        0.956318
+        0.829509
+        0.561695
+        0.415307
+
+  Sampled function values F(X) and F(XP)
+
+         0        -2.80033        -2.80033
+         1        -2.06243        -2.06243
+         2        -2.18924        -2.18924
+         3        -2.45706        -2.45706
+         4       -0.959581       -0.959581
+
+  Computed jacobian:
+
+          2.02             1             1             1             1
+             1             2            -1             1             1
+             1             1             2             1             1
+             1             1             1             2             1
+      0.185052      0.042265     0.0487261     0.0719584     0.0973225
+
+  CHKDER gradient component error estimates:
+     > 0.5, the component is probably correct.
+     < 0.5, the component is probably incorrect.
+
+         0        0.397087
+         1       0.0505392
+         2               1
+         3               1
+         4               1
+
+HYBRD1_TEST
+  HYBRD1 solves a nonlinear system of equations.
+
+  Initial X
+
+         0               3
+         1               0
+
+  F(X)
+
+         0             -13
+         1              11
+
+  Returned value of INFO = 1
+
+  X
+
+         0               1
+         1               1
+
+  F(X)
+
+         0    -9.61951e-11
+         1    -1.23539e-10
+
+QFORM_TEST:
+  QFORM constructs the Q factor explicitly
+  after the use of QRFAC.
+
+  Matrix A:
+
+  Col:          1             2             3             4             5       
+  Row
+
+    1      0.218418     0.0661187     0.0617272    0.00183837      0.859097  
+    2      0.956318      0.257578      0.449539      0.897504      0.840847  
+    3      0.829509      0.109957      0.401306      0.350752      0.123104  
+    4      0.561695      0.043829      0.754673     0.0945448    0.00751236  
+    5      0.415307      0.633966      0.797287     0.0136169      0.260303  
+
+  Col:          6             7       
+  Row
+
+    1      0.912484      0.692066  
+    2      0.113664      0.561662  
+    3      0.351629      0.861216  
+    4      0.822887      0.453794  
+    5      0.267132      0.911977  
+
+  Matrix R:
+
+  Col:          1             2             3             4             5       
+  Row
+
+    1       -1.4623      -0.43759      -1.04718     -0.826379     -0.824866  
+    2             0      0.543284      0.449661     -0.145361      0.168092  
+    3             0             0     -0.522842      0.331765      0.469999  
+    4             0             0             0     -0.351522     0.0269413  
+    5             0             0             0             0      0.773147  
+
+  Col:          6             7       
+  Row
+
+    1     -0.802049      -1.39255  
+    2     -0.031799      0.503999  
+    3      -0.49142     -0.048811  
+    4      0.557348       0.56484  
+    5      0.721989      0.243141  
+
+  Matrix Q:
+
+  Col:          1             2             3             4             5       
+  Row
+
+    1     -0.149366    0.00139434      0.182298      0.517385      0.822659  
+    2     -0.653982    -0.0526396      0.404763     -0.611992      0.176547  
+    3     -0.567264     -0.254512      0.149713      0.582292     -0.501954  
+    4     -0.384118     -0.228715     -0.870775    -0.0932054      0.182224  
+    5      -0.28401      0.938158     -0.149232      0.100139    -0.0830665  
+
+  Matrix A2 = Q * R:
+
+  Col:          1             2             3             4             5       
+  Row
+
+    1      0.218418     0.0661187     0.0617272    0.00183837      0.859097  
+    2      0.956318      0.257578      0.449539      0.897504      0.840847  
+    3      0.829509      0.109957      0.401306      0.350752      0.123104  
+    4      0.561695      0.043829      0.754673     0.0945448    0.00751236  
+    5      0.415307      0.633966      0.797287     0.0136169      0.260303  
+
+  Col:          6             7       
+  Row
+
+    1      0.912484      0.692066  
+    2      0.113664      0.561662  
+    3      0.351629      0.861216  
+    4      0.822887      0.453794  
+    5      0.267132      0.911977  
+
+MINPACK_TEST
+  Normal end of execution.
+
+02 January 2018 09:38:02 PM

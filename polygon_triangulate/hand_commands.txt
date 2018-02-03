@@ -1,0 +1,18 @@
+# hand_commands.txt
+#
+# Usage:
+#  gnuplot < hand_commands.txt
+#
+set term png
+set output "hand.png"
+set nokey
+set size ratio 1
+set timestamp
+set xlabel "<---X--->"
+set ylabel "<---Y--->
+set title "Edges (green) and Diagonals (red)"
+set grid
+set style data lines
+plot "hand_edges.txt" using 1:2 lw 3 linecolor rgb "green",\
+     "hand_diagonals.txt" using 1:2 lw 3 linecolor rgb "red",\
+     "hand_nodes.txt" using 1:2 with points pt 7 ps 2 lc rgb "black"

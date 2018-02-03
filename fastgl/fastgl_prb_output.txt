@@ -1,0 +1,53 @@
+02 January 2016 09:06:38 AM
+
+FASTGL_PRB
+  C++ version.
+  Test the FASTGL library.
+
+This program shows usage examples for the Gauss-Legendre quadrature rules, computed with fastgl::GLPair(l, k)
+	--> l is the number of nodes in the rule, k is the index of the node that will be computed.
+
+The computation of the nodes and weights is based on the following paper:
+	Ignace Bogaert, 'Iteration-Free Computation of Gauss-Legendre Quadrature Nodes and Weights',
+	to appear in the SIAM Journal of Scientific Computing.
+
+The main features of this software are:
+	- Speed: due to the simple formulas and the O(1) complexity computation of individual
+	  Gauss-Legendre quadrature nodes and weights. This also makes it perfectly compatible
+	  with parallel computing paradigms such as multithreading and MPI.
+	- Accuracy: the error on the nodes and weights is within a few ulps (see the paper for details).
+
+First test-case: int(exp(x), x = -1..1):
+
+Gauss-Legendre 5-node result = 2.350402386462826
+Gauss-Legendre 6-node result = 2.350402387286034
+Gauss-Legendre 7-node result = 2.350402387287601
+Gauss-Legendre 8-node result = 2.350402387287603
+Gauss-Legendre 9-node result = 2.350402387287603
+Exact result                 = 2.350402387287603
+
+Second test-case: int(cos(1000x), x = -1..1):
+
+Gauss-Legendre 500-node result = -0.253881633242287
+Gauss-Legendre 520-node result = 0.00159212099201716
+Gauss-Legendre 540-node result = 0.001653759028181709
+Gauss-Legendre 560-node result = 0.001653759081051668
+Gauss-Legendre 580-node result = 0.001653759081050975
+Gauss-Legendre 600-node result = 0.001653759081065249
+Exact result                   = 0.001653759081064005
+
+Third test-case: int(ln(x), x = 0..1):
+
+Gauss-Legendre 1-node result = -0.6931471805599453
+Gauss-Legendre 10-node result = -0.9942637022162133
+Gauss-Legendre 100-node result = -0.999937487322451
+Gauss-Legendre 1000-node result = -0.9999993692484898
+Gauss-Legendre 10000-node result = -0.9999999936868078
+Gauss-Legendre 100000-node result = -0.9999999999368618
+Gauss-Legendre 1000000-node result = -0.9999999999993812
+Exact result                       = -1
+
+FASTGL_PRB:
+  Normal end of execution.
+
+02 January 2016 09:06:38 AM

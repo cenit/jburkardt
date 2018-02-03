@@ -1,0 +1,14 @@
+# constant_commands.txt
+#
+# Usage:
+#  gnuplot < constant_commands.txt
+#
+set term png
+set output "constant_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Constant correlation'
+set grid
+set style data lines
+plot 'constant_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

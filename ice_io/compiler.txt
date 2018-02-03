@@ -1,0 +1,79 @@
+ice_io.cpp:9:21: error: ice_io.h: No such file or directory
+ice_io.cpp:10:23: error: netcdf.hpp: No such file or directory
+ice_io.cpp: In function ‘void cyl248_data(int, int, int, int, int, int, int, double*, int*, int*, int*, int*, int*, int*, int*, int*, int*, int*, int*)’:
+ice_io.cpp:628: error: ‘r8vec_copy’ was not declared in this scope
+ice_io.cpp:630: error: ‘i4vec_copy’ was not declared in this scope
+ice_io.cpp: In function ‘void data_read(std::string, int, int, int, int, int, int, int, double*, int*, int*, int*, int*, int*, int*, int*, int*, int*, int*, int*)’:
+ice_io.cpp:974: error: ‘NcFile’ was not declared in this scope
+ice_io.cpp:974: error: expected ‘;’ before ‘dataFile’
+ice_io.cpp:976: error: ‘dataFile’ was not declared in this scope
+ice_io.cpp:986: error: ‘NcVar’ was not declared in this scope
+ice_io.cpp:986: error: ‘var_vertex_coordinate’ was not declared in this scope
+ice_io.cpp:986: error: ‘dataFile’ was not declared in this scope
+ice_io.cpp:989: error: ‘var_vertex_label’ was not declared in this scope
+ice_io.cpp:996: error: ‘var_edge_vertex’ was not declared in this scope
+ice_io.cpp:999: error: ‘var_edge_label’ was not declared in this scope
+ice_io.cpp:1007: error: ‘var_triangle_vertex’ was not declared in this scope
+ice_io.cpp:1010: error: ‘var_triangle_label’ was not declared in this scope
+ice_io.cpp:1018: error: ‘var_quadrilateral_vertex’ was not declared in this scope
+ice_io.cpp:1021: error: ‘var_quadrilateral_label’ was not declared in this scope
+ice_io.cpp:1029: error: ‘var_tetrahedron_vertex’ was not declared in this scope
+ice_io.cpp:1032: error: ‘var_tetrahedron_label’ was not declared in this scope
+ice_io.cpp:1040: error: ‘var_hexahedron_vertex’ was not declared in this scope
+ice_io.cpp:1043: error: ‘var_hexahedron_label’ was not declared in this scope
+ice_io.cpp: In function ‘void hexahexa_2x2x2_data(int, int, int, int, int, int, int, double*, int*, int*, int*, int*, int*, int*, int*, int*, int*, int*, int*)’:
+ice_io.cpp:1214: error: ‘r8vec_copy’ was not declared in this scope
+ice_io.cpp:1215: error: ‘i4vec_copy’ was not declared in this scope
+ice_io.cpp: In function ‘void ice_write(std::string, int, int, int, int, int, int, int, double*, int*, int*, int*, int*, int*, int*, int*, int*, int*, int*, int*)’:
+ice_io.cpp:1414: error: ‘NcDim’ was not declared in this scope
+ice_io.cpp:1414: error: ‘dim_dimension’ was not declared in this scope
+ice_io.cpp:1415: error: ‘dim_edges’ was not declared in this scope
+ice_io.cpp:1416: error: ‘dim_eight’ was not declared in this scope
+ice_io.cpp:1417: error: ‘dim_four’ was not declared in this scope
+ice_io.cpp:1418: error: ‘dim_hexahedrons’ was not declared in this scope
+ice_io.cpp:1419: error: ‘dim_quadrilaterals’ was not declared in this scope
+ice_io.cpp:1420: error: ‘dim_tetrahedrons’ was not declared in this scope
+ice_io.cpp:1421: error: ‘dim_three’ was not declared in this scope
+ice_io.cpp:1422: error: ‘dim_triangles’ was not declared in this scope
+ice_io.cpp:1423: error: ‘dim_two’ was not declared in this scope
+ice_io.cpp:1424: error: ‘dim_vertices’ was not declared in this scope
+ice_io.cpp:1425: error: ‘NcVar’ was not declared in this scope
+ice_io.cpp:1425: error: ‘var_edge_vertex’ was not declared in this scope
+ice_io.cpp:1426: error: ‘var_edge_label’ was not declared in this scope
+ice_io.cpp:1427: error: ‘var_hexahedron_vertex’ was not declared in this scope
+ice_io.cpp:1428: error: ‘var_hexahedron_label’ was not declared in this scope
+ice_io.cpp:1429: error: ‘var_quadrilateral_vertex’ was not declared in this scope
+ice_io.cpp:1430: error: ‘var_quadrilateral_label’ was not declared in this scope
+ice_io.cpp:1431: error: ‘var_tetrahedron_vertex’ was not declared in this scope
+ice_io.cpp:1432: error: ‘var_tetrahedron_label’ was not declared in this scope
+ice_io.cpp:1433: error: ‘var_triangle_vertex’ was not declared in this scope
+ice_io.cpp:1434: error: ‘var_triangle_label’ was not declared in this scope
+ice_io.cpp:1435: error: ‘var_vertex_coordinate’ was not declared in this scope
+ice_io.cpp:1436: error: ‘var_vertex_label’ was not declared in this scope
+ice_io.cpp:1440: error: ‘NcFile’ was not declared in this scope
+ice_io.cpp:1440: error: expected ‘;’ before ‘dataFile’
+ice_io.cpp:1442: error: ‘dataFile’ was not declared in this scope
+ice_io.cpp:1452: error: ‘dataFile’ was not declared in this scope
+ice_io.cpp:1487: error: ‘ncDouble’ was not declared in this scope
+ice_io.cpp:1488: error: ‘ncInt’ was not declared in this scope
+ice_io.cpp: In function ‘void size_read(std::string, int*, int*, int*, int*, int*, int*, int*)’:
+ice_io.cpp:1709: error: ‘NcDim’ was not declared in this scope
+ice_io.cpp:1709: error: ‘dim_dimension’ was not declared in this scope
+ice_io.cpp:1710: error: ‘dim_edges’ was not declared in this scope
+ice_io.cpp:1711: error: ‘dim_eight’ was not declared in this scope
+ice_io.cpp:1712: error: ‘dim_four’ was not declared in this scope
+ice_io.cpp:1713: error: ‘dim_hexahedrons’ was not declared in this scope
+ice_io.cpp:1714: error: ‘NcToken’ was not declared in this scope
+ice_io.cpp:1714: error: expected ‘;’ before ‘dim_name’
+ice_io.cpp:1716: error: ‘dim_quadrilaterals’ was not declared in this scope
+ice_io.cpp:1717: error: ‘dim_tetrahedrons’ was not declared in this scope
+ice_io.cpp:1718: error: ‘dim_three’ was not declared in this scope
+ice_io.cpp:1719: error: ‘dim_triangles’ was not declared in this scope
+ice_io.cpp:1720: error: ‘dim_two’ was not declared in this scope
+ice_io.cpp:1721: error: ‘dim_vertices’ was not declared in this scope
+ice_io.cpp:1722: error: ‘dim_pointer’ was not declared in this scope
+ice_io.cpp:1737: error: ‘NcFile’ was not declared in this scope
+ice_io.cpp:1737: error: expected ‘;’ before ‘dataFile’
+ice_io.cpp:1739: error: ‘dataFile’ was not declared in this scope
+ice_io.cpp:1759: error: ‘dataFile’ was not declared in this scope
+ice_io.cpp:1764: error: ‘dim_name’ was not declared in this scope

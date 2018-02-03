@@ -1,0 +1,281 @@
+18 June 2016 04:51:12 PM
+
+LINPLUS_PRB
+  C++ version
+  Test the LINPLUS library.
+
+R8PP_DET_TEST
+  R8PP_DET computes the determinant of an R8PP matrix
+  that was factored by R8PP_FA.
+
+  Matrix order N = 5
+
+  The R8PP second difference matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1             2            -1             0             0             0  
+     2            -1             2            -1             0             0  
+     3             0            -1             2            -1             0  
+     4             0             0            -1             2            -1  
+     5             0             0             0            -1             2  
+
+  Computed determinant = 6
+  Exact determinant = 6
+
+R8PP_DIF2_TEST
+  R8PP_DIF2 sets up an R8PP second difference matrix.
+
+  Matrix order N = 5
+
+  The R8PP second difference matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1             2            -1             0             0             0  
+     2            -1             2            -1             0             0  
+     3             0            -1             2            -1             0  
+     4             0             0            -1             2            -1  
+     5             0             0             0            -1             2  
+
+R8PP_FA_TEST
+  R8PP_FA factors an R8PP system,
+
+  Matrix order N = 5
+
+  The R8PP matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1    0.00381025     0.0277488     0.0247715     0.0465839     0.0492143  
+     2     0.0277488      0.268432      0.208725      0.350545      0.521707  
+     3     0.0247715      0.208725      0.488639      0.540951      0.426804  
+     4     0.0465839      0.350545      0.540951       1.65848       1.45021  
+     5     0.0492143      0.521707      0.426804       1.45021       1.77774  
+
+  The desired solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  The right hand side:
+
+     1         0.56603
+     2          5.2015
+     3         6.20596
+     4         16.2555
+     5         17.0626
+
+  The R8PP matrix has been factored.
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8PP_INDICATOR_TEST
+  R8PP_INDICATOR sets up an R8PP indicator matrix.
+
+  Matrix order N = 5
+
+  The R8PP indicator matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1            11            12            13            14            15  
+     2            12            22            23            24            25  
+     3            13            23            33            34            35  
+     4            14            24            34            44            45  
+     5            15            25            35            45            55  
+
+R8PP_MV_TEST
+  R8PP_MV computes b=A*x, where A is an R8PP matrix.
+
+  Matrix order N = 5
+
+  The R8PP matrix A:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1            11            12            13            14            15  
+     2            12            22            23            24            25  
+     3            13            23            33            34            35  
+     4            14            24            34            44            45  
+     5            15            25            35            45            55  
+
+  The vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  The product b=A*x:
+
+     1             205
+     2             346
+     3             469
+     4             565
+     5             625
+
+R8PP_PRINT_TEST
+  R8PP_PRINT prints an R8PP matrix.
+
+  Matrix order N = 5
+
+  The R8PP matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1            11            12            13            14            15  
+     2            12            22            23            24            25  
+     3            13            23            33            34            35  
+     4            14            24            34            44            45  
+     5            15            25            35            45            55  
+
+R8PP_PRINT_SOME_TEST
+  R8PP_PRINT_SOME prints some of an R8PP matrix.
+
+  Matrix order N = 10
+
+  Rows 1-5, Cols 2-4:
+
+  Col:       2             3             4       
+  Row
+  ---
+     1           102           103           104  
+     2           202           203           204  
+     3           203           303           304  
+     4           204           304           404  
+     5           205           305           405  
+
+R8PP_RANDOM_TEST
+  R8PP_RANDOM, compute a random positive definite
+  symmetric packed matrix.
+
+  Matrix order N = 5
+
+  The matrix (printed by R8PP_PRINT):
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1    0.00381025     0.0277488     0.0247715     0.0465839     0.0492143  
+     2     0.0277488      0.268432      0.208725      0.350545      0.521707  
+     3     0.0247715      0.208725      0.488639      0.540951      0.426804  
+     4     0.0465839      0.350545      0.540951       1.65848       1.45021  
+     5     0.0492143      0.521707      0.426804       1.45021       1.77774  
+
+  The random R8PP matrix (printed by R8GE_PRINT):
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1    0.00381025     0.0277488     0.0247715     0.0465839     0.0492143  
+    2     0.0277488      0.268432      0.208725      0.350545      0.521707  
+    3     0.0247715      0.208725      0.488639      0.540951      0.426804  
+    4     0.0465839      0.350545      0.540951       1.65848       1.45021  
+    5     0.0492143      0.521707      0.426804       1.45021       1.77774  
+
+R8PP_SL_TEST
+  R8PP_SL solves a linear system factored by R8PP_FA.
+
+  Matrix order N = 5
+
+  The R8PP matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1    0.00381025     0.0277488     0.0247715     0.0465839     0.0492143  
+     2     0.0277488      0.268432      0.208725      0.350545      0.521707  
+     3     0.0247715      0.208725      0.488639      0.540951      0.426804  
+     4     0.0465839      0.350545      0.540951       1.65848       1.45021  
+     5     0.0492143      0.521707      0.426804       1.45021       1.77774  
+
+  The desired solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  The right hand side:
+
+     1         0.56603
+     2          5.2015
+     3         6.20596
+     4         16.2555
+     5         17.0626
+
+  The R8PP matrix has been factored.
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8PP_TO_R8GE_TEST
+  R8PP_TO_R8GE converts an R8PP matrix to R8GE format.
+
+  Matrix order N = 5
+
+  The R8PP matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1            11            12            13            14            15  
+     2            12            22            23            24            25  
+     3            13            23            33            34            35  
+     4            14            24            34            44            45  
+     5            15            25            35            45            55  
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            12            13            14            15  
+    2            12            22            23            24            25  
+    3            13            23            33            34            35  
+    4            14            24            34            44            45  
+    5            15            25            35            45            55  
+
+R8PP_ZEROS_TEST
+  R8PP_ZEROS sets up a zero R8PP matrix.
+
+  Matrix order N = 5
+
+  The R8PP zero matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1             0             0             0             0             0  
+     2             0             0             0             0             0  
+     3             0             0             0             0             0  
+     4             0             0             0             0             0  
+     5             0             0             0             0             0  
+
+LINPLUS_PRB
+  Normal end of execution.
+
+18 June 2016 04:51:12 PM

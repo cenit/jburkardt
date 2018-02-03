@@ -1,0 +1,14 @@
+# linear_commands.txt
+#
+# Usage:
+#  gnuplot < linear_commands.txt
+#
+set term png
+set output "linear_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Linear correlation'
+set grid
+set style data lines
+plot 'linear_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

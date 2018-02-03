@@ -1,0 +1,260 @@
+23 July 2016 09:06:26 PM
+
+R8PBL_PRB
+  C++ version
+  Test the R8PBL library.
+
+R8PBL_DIF2_TEST
+  R8PBL_DIF2 sets up an R8PBL second difference matrix.
+
+  Matrix order N = 9
+  Bandwidth ML = 3
+
+  The R8PBL second difference matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0             2            -1             0             0                
+   1            -1             2            -1             0             0  
+   2             0            -1             2            -1             0  
+   3             0             0            -1             2            -1  
+   4                           0             0            -1             2  
+   5                                         0             0            -1  
+   6                                                       0             0  
+   7                                                                     0  
+
+  Col:       5             6             7             8       
+  Row
+  ---
+   2             0                                            
+   3             0             0                              
+   4            -1             0             0                
+   5             2            -1             0             0  
+   6            -1             2            -1             0  
+   7             0            -1             2            -1  
+   8             0             0            -1             2  
+
+R8PBL_INDICATOR_TEST
+  R8PBL_INDICATOR sets up an R8PBL indicator matrix.
+
+  Matrix order N = 9
+  Bandwidth ML = 3
+
+  The R8PBL indicator matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0            22            32            42            52                
+   1            32            33            43            53            63  
+   2            42            43            44            54            64  
+   3            52            53            54            55            65  
+   4                          63            64            65            66  
+   5                                        74            75            76  
+   6                                                      85            86  
+   7                                                                    96  
+
+  Col:       5             6             7             8       
+  Row
+  ---
+   2            74                                            
+   3            75            85                              
+   4            76            86            96                
+   5            77            87            97           107  
+   6            87            88            98           108  
+   7            97            98            99           109  
+   8           107           108           109           110  
+
+R8PBL_MV_TEST
+  R8PBL_MV computes A*x, where A is an R8PBL matrix.
+
+  Matrix order N = 5
+  Bandwidth ML = 2
+
+  Matrix A:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0       1.31501      0.218418      0.956318                              
+   1      0.218418       1.69061      0.829509      0.561695                
+   2      0.956318      0.829509       3.72095      0.415307     0.0661187  
+   3                    0.561695      0.415307        1.3214      0.257578  
+   4                                 0.0661187      0.257578      0.483706  
+
+  Vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Product b=A*x
+
+     1         3.66448
+     2         9.34066
+     3         15.0426
+     4          7.5446
+     5         2.41853
+
+R8PBL_PRINT_TEST
+  R8PBL_PRINT prints an R8PBL  matrix.
+
+  Matrix order N = 9
+  Bandwidth ML = 3
+
+  The R8PBL matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0            22            32            42            52                
+   1            32            33            43            53            63  
+   2            42            43            44            54            64  
+   3            52            53            54            55            65  
+   4                          63            64            65            66  
+   5                                        74            75            76  
+   6                                                      85            86  
+   7                                                                    96  
+
+  Col:       5             6             7             8       
+  Row
+  ---
+   2            74                                            
+   3            75            85                              
+   4            76            86            96                
+   5            77            87            97           107  
+   6            87            88            98           108  
+   7            97            98            99           109  
+   8           107           108           109           110  
+
+R8PBL_PRINT_SOME_TEST
+  R8PBL_PRINT_SOME prints soem of an R8PBL matrix.
+
+  Matrix order N = 9
+  Bandwidth ML = 4
+
+  Row(3:7), Col(4:8):
+
+  Col:       4             5             6             7             8       
+  Row
+  ---
+   3            65            75            85            95                
+   4            66            76            86            96           106  
+   5            76            77            87            97           107  
+   6            86            87            88            98           108  
+   7            96            97            98            99           109  
+
+R8PBL_RANDOM_TEST
+  R8PBL_RANDOM randomizes an R8PBL matrix.
+
+  Matrix order N = 9
+  Bandwidth ML = 3
+
+  The R8PBL random matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0       3.21491      0.218418      0.956318      0.561695                
+   1      0.218418       1.94388      0.829509      0.415307      0.257578  
+   2      0.956318      0.829509       2.62544     0.0661187      0.109957  
+   3      0.561695      0.415307     0.0661187       1.96605      0.043829  
+   4                    0.257578      0.109957      0.043829        3.1124  
+   5                                  0.633966     0.0617272      0.449539  
+   6                                                0.401306      0.754673  
+   7                                                            0.00183837  
+
+  Col:       5             6             7             8       
+  Row
+  ---
+   2      0.633966                                            
+   3     0.0617272      0.401306                              
+   4      0.449539      0.754673    0.00183837                
+   5       3.27926      0.797287      0.897504     0.0945448  
+   6      0.797287        3.1461      0.350752     0.0136169  
+   7      0.897504      0.350752       3.86305      0.859097  
+   8     0.0945448     0.0136169      0.859097       1.23832  
+
+R8PBL_TO_R8GE_TEST
+  R8PBL_TO_R8GE converts an R8PBL matrix to R8GE format.
+
+  Matrix order N = 9
+  Bandwidth ML = 3
+
+  The R8PBL matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0            22            32            42            52                
+   1            32            33            43            53            63  
+   2            42            43            44            54            64  
+   3            52            53            54            55            65  
+   4                          63            64            65            66  
+   5                                        74            75            76  
+   6                                                      85            86  
+   7                                                                    96  
+
+  Col:       5             6             7             8       
+  Row
+  ---
+   2            74                                            
+   3            75            85                              
+   4            76            86            96                
+   5            77            87            97           107  
+   6            87            88            98           108  
+   7            97            98            99           109  
+   8           107           108           109           110  
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            22            32            42            52             0  
+    2            32            33            43            53            63  
+    3            42            43            44            54            64  
+    4            52            53            54            55            65  
+    5             0            63            64            65            66  
+    6             0             0            74            75            76  
+    7             0             0             0            85            86  
+    8             0             0             0             0            96  
+    9             0             0             0             0             0  
+
+  Col:          6             7             8             9       
+  Row
+  ---
+    1             0             0             0             0  
+    2             0             0             0             0  
+    3            74             0             0             0  
+    4            75            85             0             0  
+    5            76            86            96             0  
+    6            77            87            97           107  
+    7            87            88            98           108  
+    8            97            98            99           109  
+    9           107           108           109           110  
+
+R8PBL_ZEROS_TEST
+  R8PBL_ZEROS zeros an R8PBL matrix.
+
+  Matrix order N = 5
+  Bandwidth ML = 3
+
+  The R8PBL zero matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+   0             0             0             0             0                
+   1             0             0             0             0             0  
+   2             0             0             0             0             0  
+   3             0             0             0             0             0  
+   4                           0             0             0             0  
+
+R8PBL_PRB
+  Normal end of execution.
+
+23 July 2016 09:06:26 PM

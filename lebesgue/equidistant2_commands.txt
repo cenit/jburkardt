@@ -1,0 +1,14 @@
+# equidistant2_commands.txt
+#
+# Usage:
+#  gnuplot < equidistant2_commands.txt
+#
+set term png
+set output 'equidistant2.png'
+set xlabel '<--- X --->'
+set ylabel '<--- Lebesgue(X) --->'
+set title 'Equidistant2 points for N = 11'
+set grid
+set style data lines
+set timestamp
+plot 'equidistant2_data.txt' using 1:2 lw 3 linecolor rgb 'red'

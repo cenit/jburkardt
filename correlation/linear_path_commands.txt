@@ -1,0 +1,17 @@
+# linear_path_commands.txt
+#
+# Usage:
+#  gnuplot < linear_path_commands.txt
+#
+set term png
+set output "linear_paths.png"
+set xlabel 'Rho'
+set ylabel 'X(Rho)'
+set title 'Linear correlation'
+set grid
+set style data lines
+set key off
+plot 'linear_path_data.txt' using 1:2, \
+     'linear_path_data.txt' using 1:3, \
+     'linear_path_data.txt' using 1:4
+quit

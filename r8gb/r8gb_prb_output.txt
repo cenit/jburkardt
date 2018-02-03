@@ -1,0 +1,700 @@
+24 June 2016 07:58:59 AM
+
+R8GB_PRB
+  C++ version
+  Test the R8GB library.
+
+R8GB_DET_TEST
+  R8GB_DET computes the determinant of a general banded matrix.
+
+  Matrix rows M =    10
+  Matrix columns N = 10
+  Lower bandwidth ML  = 3
+  Upper bandwidth MU  = 2
+
+  The banded matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.415307      0.633966             0             0  
+    2      0.956318     0.0661187     0.0617272    0.00183837             0  
+    3      0.829509      0.257578      0.449539      0.897504      0.840847  
+    4      0.561695      0.109957      0.401306      0.350752      0.123104  
+    5             0      0.043829      0.754673     0.0945448    0.00751236  
+    6             0             0      0.797287     0.0136169      0.260303  
+    7             0             0             0      0.859097      0.912484  
+    8             0             0             0             0      0.113664  
+    9             0             0             0             0             0  
+   10             0             0             0             0             0  
+
+  Col:          6             7             8             9            10       
+  Row
+  ---
+    1             0             0             0             0             0  
+    2             0             0             0             0             0  
+    3             0             0             0             0             0  
+    4      0.351629             0             0             0             0  
+    5      0.822887      0.453794             0             0             0  
+    6      0.267132      0.911977      0.185314             0             0  
+    7      0.692066      0.597917      0.574366       0.21293             0  
+    8      0.561662      0.188955      0.367027      0.714471      0.825003  
+    9      0.861216      0.761492      0.617205      0.117707       0.82466  
+   10             0      0.396988      0.361529      0.299329     0.0618618  
+
+  R8GB_DET computes the determinant = 0.00240436
+  R8GE_DET computes the determinant = 0.00240436
+
+R8GB_DIF2_TEST
+  R8GB_DIF2 sets up an R8GB second difference matrix .
+
+  Matrix rows M =    5
+  Matrix columns N = 5
+  Lower bandwidth ML  = 1
+  Upper bandwidth MU  = 1
+
+  The R8GB second difference matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1           2          -1                                      
+     2          -1           2          -1                          
+     3                      -1           2          -1              
+     4                                  -1           2          -1  
+     5                                              -1           2  
+
+R8GB_FA_TEST
+  R8GB_FA computes the PLU factors of an R8GB matrix.
+
+  Matrix rows M =    5
+  Matrix columns N = 5
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 2
+
+  The banded matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1    0.218418    0.829509   0.0661187                          
+     2    0.956318    0.561695    0.257578    0.633966              
+     3                0.415307    0.109957   0.0617272    0.754673  
+     4                            0.043829    0.449539    0.797287  
+     5                                        0.401306  0.00183837  
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Right hand side of transposed system:
+
+     1         2.13105
+     2         3.19882
+     3         1.08646
+     4          5.2578
+     5         5.46236
+
+  Solution to transposed system:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8GB_INDICATOR_TEST
+  For a general banded matrix,
+  R8GB_INDICATOR sets up an indicator matrix.
+
+  Matrix rows M =    10
+  Matrix columns N = 8
+  Lower bandwidth ML = 3
+  Upper bandwidth MU = 2
+
+  The banded matrix in R8GE format:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            -1            -6           -10           -13           -15  
+    2            -2            -7           -11           -14             0  
+    3            -3            -8           -12             0             0  
+    4            -4            -9            13            24            35  
+    5            -5            12            23            34            45  
+    6            11            22            33            44            55  
+    7            21            32            43            54            65  
+    8            31            42            53            64            75  
+    9            41            52            63            74            85  
+
+  Col:          6             7             8       
+  Row
+  ---
+    1             0             0             0  
+    2             0             0             0  
+    3             0             0             0  
+    4            46            57            68  
+    5            56            67            78  
+    6            66            77            88  
+    7            76            87            98  
+    8            86            97           108  
+    9            96           107           -16  
+
+  The R8GB indicator matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1          11          12          13                          
+     2          21          22          23          24              
+     3          31          32          33          34          35  
+     4          41          42          43          44          45  
+     5                      52          53          54          55  
+     6                                  63          64          65  
+     7                                              74          75  
+     8                                                          85  
+
+  Col:       6             7             8       
+  Row
+  ---
+     4          46                          
+     5          56          57              
+     6          66          67          68  
+     7          76          77          78  
+     8          86          87          88  
+     9          96          97          98  
+    10                     107         108  
+
+R8GB_ML_TEST
+  For a general banded matrix,
+  R8GB_ML computes A*x or A'*X
+  where A has been factored by R8GB_FA.
+
+  Matrix rows M =    10
+  Matrix columns N = 10
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 2
+
+  A*x and PLU*x
+
+     0:        2.07579         2.07579
+     1:         5.3883          5.3883
+     2:        5.18076         5.18076
+     3:        8.02059         8.02059
+     4:        8.06762         8.06762
+     5:        12.7308         12.7308
+     6:        8.52067         8.52067
+     7:        15.4017         15.4017
+     8:        20.7578         20.7578
+     9:        13.7301         13.7301
+
+  A'*x and (PLU)'*x
+
+     0:        1.71194         1.71194
+     1:        2.49071         2.49071
+     2:        3.53774         3.53774
+     3:        7.10439         7.10439
+     4:        6.80503         6.80503
+     5:        14.9862         14.9862
+     6:        18.7469         18.7469
+     7:        7.88328         7.88328
+     8:        12.7733         12.7733
+     9:        2.65418         2.65418
+
+R8GB_MTV_TEST
+  R8GB_MTV computes b=A'*x where A is an R8GB matrix.
+
+  Matrix rows M =    5
+  Matrix columns N = 5
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 2
+
+  Matrix A:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1    0.218418    0.829509   0.0661187                          
+     2    0.956318    0.561695    0.257578    0.633966              
+     3                0.415307    0.109957   0.0617272    0.754673  
+     4                            0.043829    0.449539    0.797287  
+     5                                        0.401306  0.00183837  
+
+  Vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Product b=A'*x:
+
+     1         2.13105
+     2         3.19882
+     3         1.08646
+     4          5.2578
+     5         5.46236
+
+R8GB_MU_TEST
+  R8GB_MU computes A*x or A'*X
+  where the R8GB matrix A has been factored by R8GB_TRF.
+
+  Matrix rows M =    10
+  Matrix columns N = 10
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 2
+
+  A*x and PLU*x
+
+     0:        2.07579         2.07579
+     1:         5.3883          5.3883
+     2:        5.18076         5.18076
+     3:        8.02059         8.02059
+     4:        8.06762         8.06762
+     5:        12.7308         12.7308
+     6:        8.52067         8.52067
+     7:        15.4017         15.4017
+     8:        20.7578         20.7578
+     9:        13.7301         13.7301
+
+  A'*x and (PLU)'*x
+
+     0:        1.71194         1.71194
+     1:        2.49071         2.49071
+     2:        3.53774         3.53774
+     3:        7.10439         7.10439
+     4:        6.80503         6.80503
+     5:        14.9862         14.9862
+     6:        18.7469         18.7469
+     7:        7.88328         7.88328
+     8:        12.7733         12.7733
+     9:        2.65418         2.65418
+
+R8GB_MV_TEST
+  R8GB_MV computes b=A*x where A is an R8GB matrix.
+
+  Matrix rows M =    5
+  Matrix columns N = 5
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 2
+
+  Matrix A:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1    0.218418    0.829509   0.0661187                          
+     2    0.956318    0.561695    0.257578    0.633966              
+     3                0.415307    0.109957   0.0617272    0.754673  
+     4                            0.043829    0.449539    0.797287  
+     5                                        0.401306  0.00183837  
+
+  Vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Product b=A*x:
+
+     1         2.07579
+     2          5.3883
+     3         5.18076
+     4         5.91608
+     5         1.61442
+
+R8GB_NZ_NUM_TEST
+  For a general banded matrix,
+  R8GB_NZ_NUM counts the nonzero entries.
+
+  Matrix rows M =    10
+  Matrix columns N = 10
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 2
+
+  The R8GB matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1           0    0.829509           0                          
+     2    0.956318    0.561695           0    0.633966              
+     3                0.415307           0           0    0.754673  
+     4                                   0    0.449539    0.797287  
+     5                                        0.401306           0  
+     6                                                    0.897504  
+
+  Col:       6             7             8             9            10       
+  Row
+  ---
+     4    0.350752                                                  
+     5           0    0.840847                                      
+     6           0           0    0.912484                          
+     7    0.859097           0           0           0              
+     8                       0    0.351629    0.692066    0.453794  
+     9                            0.822887    0.561662    0.911977  
+    10                                        0.861216    0.597917  
+
+  Nonzero entries = 22
+
+R8GB_PRINT_TEST
+  R8GB_PRINT prints a general band matrix.
+
+  Matrix rows M =    8
+  Matrix columns N = 10
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 3
+
+  The banded matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1         101         102         103         104              
+     2         201         202         203         204         205  
+     3                     302         303         304         305  
+     4                                 403         404         405  
+     5                                             504         505  
+     6                                                         605  
+
+  Col:       6             7             8             9            10       
+  Row
+  ---
+     3         306                                                  
+     4         406         407                                      
+     5         506         507         508                          
+     6         606         607         608         609              
+     7         706         707         708         709         710  
+     8                     807         808         809         810  
+
+R8GB_PRINT_SOME_TEST
+  R8GB_PRINT_SOME prints some of a general band matrix.
+
+  Matrix rows M =    8
+  Matrix columns N = 10
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 3
+
+  Rows(4-6), Cols (3-9)
+
+  Col:       3             4             5             6             7       
+  Row
+  ---
+     4         403         404         405         406         407  
+     5                     504         505         506         507  
+     6                                 605         606         607  
+
+  Col:       8             9       
+  Row
+  ---
+     5         508              
+     6         608         609  
+
+R8GB_RANDOM_TEST
+  R8GB_RANDOM sets up a random R8GB matrix.
+
+  Matrix rows M =    5
+  Matrix columns N = 5
+  Lower bandwidth ML = 2
+  Upper bandwidth MU = 1
+
+  The random R8GB matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1    0.218418    0.561695                                      
+     2    0.956318    0.415307    0.109957                          
+     3    0.829509   0.0661187    0.043829    0.449539              
+     4                0.257578    0.633966    0.401306    0.797287  
+     5                           0.0617272    0.754673  0.00183837  
+
+R8GB_SL_TEST
+  R8GB_SL solves a linear system factored by R8GB_FA.
+
+  Matrix rows M =    5
+  Matrix columns N = 5
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 2
+
+  The banded matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1    0.218418    0.829509   0.0661187                          
+     2    0.956318    0.561695    0.257578    0.633966              
+     3                0.415307    0.109957   0.0617272    0.754673  
+     4                            0.043829    0.449539    0.797287  
+     5                                        0.401306  0.00183837  
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Right hand side of transposed system:
+
+     1         2.13105
+     2         3.19882
+     3         1.08646
+     4          5.2578
+     5         5.46236
+
+  Solution to transposed system:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8GB_TO_R8GE_TEST
+  R8GB_TO_R8GE copies a R8GB matrix to a R8GE matrix.
+
+  Matrix rows M =    5
+  Matrix columns N = 8
+  Lower bandwidth ML = 2
+  Upper bandwidth MU = 1
+
+  The R8GB matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1          11          12                                      
+     2          21          22          23                          
+     3          31          32          33          34              
+     4                      42          43          44          45  
+     5                                  53          54          55  
+
+  Col:       6             7             8       
+  Row
+  ---
+     5          56                          
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            12             0             0             0  
+    2            21            22            23             0             0  
+    3            31            32            33            34             0  
+    4             0            42            43            44            45  
+    5             0             0            53            54            55  
+
+  Col:          6             7             8       
+  Row
+  ---
+    1             0             0             0  
+    2             0             0             0  
+    3             0             0             0  
+    4             0             0             0  
+    5            56             0             0  
+
+  The recovered R8GB matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1          11          12                                      
+     2          21          22          23                          
+     3          31          32          33          34              
+     4                      42          43          44          45  
+     5                                  53          54          55  
+
+  Col:       6             7             8       
+  Row
+  ---
+     5          56                          
+
+R8GB_TO_R8VEC_TEST
+  R8GB_TO_R8VEC converts an R8GB matrix to an R8VEC.
+
+  Matrix rows M =       5
+  Matrix columns N =    8
+  Lower bandwidth ML  = 2
+  Upper bandwidth MU  = 1
+
+  The R8GB indicator matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1          11          12                                      
+     2          21          22          23                          
+     3          31          32          33          34              
+     4                      42          43          44          45  
+     5                                  53          54          55  
+
+  Col:       6             7             8       
+  Row
+  ---
+     5          56                          
+     1       1       1             0
+     2       1       2             0
+     3       1       3             0
+     4       1       4            11
+     5       1       5            21
+     6       1       6            31
+     1       2       7             0
+     2       2       8             0
+     3       2       9            12
+     4       2      10            22
+     5       2      11            32
+     6       2      12            42
+     1       3      13             0
+     2       3      14             0
+     3       3      15            23
+     4       3      16            33
+     5       3      17            43
+     6       3      18            53
+     1       4      19             0
+     2       4      20             0
+     3       4      21            34
+     4       4      22            44
+     5       4      23            54
+     6       4      24             0
+     1       5      25             0
+     2       5      26             0
+     3       5      27            45
+     4       5      28            55
+     5       5      29             0
+     6       5      30             0
+     1       6      31             0
+     2       6      32             0
+     3       6      33            56
+     4       6      34             0
+     5       6      35             0
+     6       6      36             0
+     1       7      37             0
+     2       7      38             0
+     3       7      39             0
+     4       7      40             0
+     5       7      41             0
+     6       7      42             0
+     1       8      43             0
+     2       8      44             0
+     3       8      45             0
+     4       8      46             0
+     5       8      47             0
+     6       8      48             0
+
+  The recovered R8GB indicator matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1          11          12                                      
+     2          21          22          23                          
+     3          31          32          33          34              
+     4                      42          43          44          45  
+     5                                  53          54          55  
+
+  Col:       6             7             8       
+  Row
+  ---
+     5          56                          
+
+R8GB_TRF_TEST
+  R8GB_TRF computes the PLU factors of an R8GB matrix.
+
+  Matrix rows M =    10
+  Matrix columns N = 10
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 2
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+     8               8
+     9               9
+    10              10
+
+  Solution to transposed system:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+     8               8
+     9               9
+    10              10
+
+R8GB_TRS_TEST
+  R8GB_TRS solves a linear system factored by R8GB_TRF.
+
+  Matrix rows M =    10
+  Matrix columns N = 10
+  Lower bandwidth ML = 1
+  Upper bandwidth MU = 2
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+     8               8
+     9               9
+    10              10
+
+  Solution to transposed system:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+     8               8
+     9               9
+    10              10
+
+R8GB_ZEROS_TEST
+  R8GB_ZEROS sets up an R8GB zero matrix .
+
+  Matrix rows M =    5
+  Matrix columns N = 5
+  Lower bandwidth ML  = 1
+  Upper bandwidth MU  = 1
+
+  The R8GB zero matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1           0           0                                      
+     2           0           0           0                          
+     3                       0           0           0              
+     4                                   0           0           0  
+     5                                               0           0  
+
+R8GB_PRB
+  Normal end of execution.
+
+24 June 2016 07:58:59 AM

@@ -1,0 +1,65 @@
+
+CIRCLE_INOUT:
+  C++ version
+  Use DISLIN routines to make a scatterplot.
+ <<<< (-0.015866 / 0.999874) out of axis scaling!
+ <<<< (-0.047582 / 0.998867) out of axis scaling!
+ <<<< (-0.079250 / 0.996855) out of axis scaling!
+ <<<< (-0.110838 / 0.993838) out of axis scaling!
+ <<<< (-0.142315 / 0.989821) out of axis scaling!
+ <<<< (-0.173648 / 0.984808) out of axis scaling!
+ <<<< (-0.204807 / 0.978802) out of axis scaling!
+ <<<< (-0.235759 / 0.971812) out of axis scaling!
+ <<<< (-0.266474 / 0.963842) out of axis scaling!
+ <<<< (-0.296920 / 0.954902) out of axis scaling!
+ <<<< (-0.327068 / 0.945001) out of axis scaling!
+ <<<< (-0.356886 / 0.934148) out of axis scaling!
+ <<<< (-0.386345 / 0.922354) out of axis scaling!
+ <<<< (-0.415415 / 0.909632) out of axis scaling!
+ <<<< (-0.444067 / 0.895994) out of axis scaling!
+ <<<< (-0.472271 / 0.881453) out of axis scaling!
+ <<<< (-0.500000 / 0.866025) out of axis scaling!
+ <<<< (-0.527226 / 0.849725) out of axis scaling!
+ <<<< (-0.553920 / 0.832570) out of axis scaling!
+ <<<< (-0.580057 / 0.814576) out of axis scaling!
+ <<<< (-0.605610 / 0.795762) out of axis scaling!
+ <<<< (-0.630553 / 0.776146) out of axis scaling!
+ <<<< (-0.654861 / 0.755750) out of axis scaling!
+ <<<< (-0.678510 / 0.734592) out of axis scaling!
+ <<<< (-0.701475 / 0.712694) out of axis scaling!
+ <<<< (-0.723734 / 0.690079) out of axis scaling!
+ <<<< (-0.745264 / 0.666769) out of axis scaling!
+ <<<< (-0.766044 / 0.642788) out of axis scaling!
+ <<<< (-0.786053 / 0.618159) out of axis scaling!
+ <<<< (-0.805270 / 0.592908) out of axis scaling!
+ <<<< (-0.823677 / 0.567060) out of axis scaling!
+ <<<< (-0.841254 / 0.540641) out of axis scaling!
+ <<<< (-0.857983 / 0.513677) out of axis scaling!
+ <<<< (-0.873849 / 0.486197) out of axis scaling!
+ <<<< (-0.888835 / 0.458226) out of axis scaling!
+ <<<< (-0.902926 / 0.429795) out of axis scaling!
+ <<<< (-0.916108 / 0.400930) out of axis scaling!
+ <<<< (-0.928368 / 0.371662) out of axis scaling!
+ <<<< (-0.939693 / 0.342020) out of axis scaling!
+ <<<< (-0.950071 / 0.312034) out of axis scaling!
+ <<<< (-0.959493 / 0.281732) out of axis scaling!
+ <<<< (-0.967949 / 0.251148) out of axis scaling!
+ <<<< (-0.975430 / 0.220311) out of axis scaling!
+ <<<< (-0.981929 / 0.189251) out of axis scaling!
+ <<<< (-0.987439 / 0.158001) out of axis scaling!
+ <<<< (-0.991955 / 0.126592) out of axis scaling!
+ <<<< (-0.995472 / 0.095056) out of axis scaling!
+ <<<< (-0.997987 / 0.063424) out of axis scaling!
+ <<<< (-0.999497 / 0.031728) out of axis scaling!
+ <<<< (-1.000000 / -8.7423e-08) out of axis scaling!
+
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+ <<                END OF DISLIN / VERSION 10.1                  <<
+ <<  Date    : 01.05.2011  Time    : 19:37:10  Pageformat: USAP  <<
+ <<  Vectors : 8761        Warnings: 0         Fileformat:  PNG  <<
+ <<  Metafile: circle_inout.png                                  <<
+ <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+CIRCLE_INOUT:
+  Normal end of execution.

@@ -1,0 +1,13 @@
+09 October 2013 08:46:27 AM
+
+SPRING_ODE2
+  C++ version
+  Approximate the solution of a spring equation.
+  Write data to a file for use by gnuplot.
+  Created data file "spring_ode2_data.txt".
+  Created command file 'spring_ode2_commands.txt'
+
+SPRING_ODE2:
+  Normal end of execution.
+
+09 October 2013 08:46:27 AM

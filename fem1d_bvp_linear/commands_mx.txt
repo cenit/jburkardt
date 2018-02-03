@@ -1,0 +1,16 @@
+# commands_mx.txt
+#
+# Usage:
+#  gnuplot < commands_mx.txt
+#
+set term png
+set output 'mx.png'
+set xlabel '<---NE--->'
+set ylabel '<---MX(NE)--->'
+set title 'Max error versus number of elements NE'
+set logscale xy
+set size ratio -1
+set grid
+set style data lines
+plot 'data.txt' using 1:4 with points pt 7 ps 2 lc rgb 'blue',\
+     'data.txt' using 1:4 lw 3 linecolor rgb 'red'

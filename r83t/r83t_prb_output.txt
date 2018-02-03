@@ -1,0 +1,400 @@
+29 May 2016 06:57:12 PM
+
+R83T_PRB
+  C version
+  Test the R83T library.
+
+R83T_CG_TEST
+  R83T_CG applies CG to an R83 matrix.
+
+  Number of variables N = 10
+  Norm of residual ||Ax-b|| = 8.47455e-16
+  Norm of error ||x1-x2|| = 4.1616e-16
+
+R83T_DIF2_TEST
+  R83T_DIF2 sets up the second difference matrix.
+  We check three cases, M<N, M=N, M>N.
+
+  The R83T matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+     0             2            -1                                          
+     1            -1             2            -1                            
+     2                          -1             2            -1              
+
+  The R83T matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+     0             2            -1                                          
+     1            -1             2            -1                            
+     2                          -1             2            -1              
+     3                                        -1             2            -1
+     4                                                      -1             2
+
+  The R83T matrix:
+
+  Col:       0             1             2       
+  Row
+  ---
+     0             2            -1              
+     1            -1             2            -1
+     2                          -1             2
+     3                                        -1
+
+R83T_GS_SL_TEST
+  R83T_GS_SL solves a linear system using Gauss-Seidel iteration.
+
+  Matrix order N = 10
+  Iterations per call = 25
+
+  Right hand side b:
+
+         0:              0
+         1:              0
+         2:              0
+         3:              0
+         4:              0
+         5:              0
+         6:              0
+         7:              0
+         8:              0
+         9:             11
+
+  Current estimated solution:
+
+         0:       0.634606
+         1:         1.3265
+         2:        2.09566
+         3:        2.95451
+         4:        3.90741
+         5:        4.95088
+         6:        6.07442
+         7:         7.2619
+         8:         8.4933
+         9:        9.74665
+
+  Current estimated solution:
+
+         0:       0.953567
+         1:         1.9145
+         2:        2.88533
+         3:        3.86757
+         4:        4.86173
+         5:        5.86733
+         6:        6.88302
+         7:        7.90675
+         8:        8.93599
+         9:          9.968
+
+  Current estimated solution:
+
+         0:       0.994126
+         1:        1.98918
+         2:        2.98549
+         3:        3.98325
+         4:        4.98251
+         5:        5.98322
+         6:         6.9852
+         7:         7.9882
+         8:         8.9919
+         9:        9.99595
+
+R83T_INDICATOR_TEST
+  R83T_INDICATOR sets up an R83T indicator matrix.
+  We check three cases, M<N, M=N, M>N.
+
+  The R83T indicator matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+     0            11            12                                          
+     1            21            22            23                            
+     2                          32            33            34              
+
+  The R83T indicator matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+     0            11            12                                          
+     1            21            22            23                            
+     2                          32            33            34              
+     3                                        43            44            45
+     4                                                      54            55
+
+  The R83T indicator matrix:
+
+  Col:       0             1             2       
+  Row
+  ---
+     0            11            12              
+     1            21            22            23
+     2                          32            33
+     3                                        43
+
+R83T_JAC_SL_TEST
+  R83T_JAC_SL solves a linear system using Jacobi iteration,
+  for an R83T matrix.
+
+  Matrix order N = 10
+  Iterations per call = 25
+
+  The right hand side b:
+
+         0:              0
+         1:              0
+         2:              0
+         3:              0
+         4:              0
+         5:              0
+         6:              0
+         7:              0
+         8:              0
+         9:             11
+
+  Current estimated solution:
+
+         0:       0.315171
+         1:       0.727797
+         2:        1.14042
+         3:        1.82758
+         4:        2.51474
+         5:        3.59047
+         6:         4.6662
+         7:         6.1282
+         8:         7.5902
+         9:         9.2951
+
+  Current estimated solution:
+
+         0:       0.757545
+         1:        1.51509
+         2:        2.34936
+         3:        3.18363
+         4:        4.14729
+         5:        5.11094
+         6:        6.21581
+         7:        7.32068
+         8:        8.53366
+         9:        9.74665
+
+  Current estimated solution:
+
+         0:       0.910021
+         1:        1.83432
+         2:        2.75863
+         3:        3.72124
+         4:        4.68386
+         5:        5.69666
+         6:        6.70946
+         7:        7.76839
+         8:        8.82731
+         9:        9.91366
+
+R83T_MTV_TEST
+  R83T_MTV computes b=A'*x, where A is an R83T matrix.
+  We check three cases, M<N, M=N, M>N.
+
+  Product comparison:
+
+     0:        1.87744         1.87744
+     1:        2.27806         2.27806
+     2:        1.60335         1.60335
+     3:        0.32987         0.32987
+     4:              0               0
+
+  Product comparison:
+
+     0:        1.87744         1.87744
+     1:        2.27806         2.27806
+     2:        1.77866         1.77866
+     3:        5.11343         5.11343
+     4:        2.25344         2.25344
+
+  Product comparison:
+
+     0:        1.87744         1.87744
+     1:        2.27806         2.27806
+     2:        2.04317         2.04317
+
+R83T_MV_TEST
+  R83T_MV computes b=A*x, where A is an R83T matrix.
+  We check three cases, M<N, M=N, M>N.
+
+  Product comparison:
+
+     0:        2.13105         2.13105
+     1:        3.19882         3.19882
+     2:         1.3448          1.3448
+
+  Product comparison:
+
+     0:        2.13105         2.13105
+     1:        3.19882         3.19882
+     2:         1.3448          1.3448
+     3:        2.97599         2.97599
+     4:        3.80469         3.80469
+
+  Product comparison:
+
+     0:        2.13105         2.13105
+     1:        3.19882         3.19882
+     2:       0.904971        0.904971
+     3:        0.32987         0.32987
+     4:              0               0
+
+R83T_PRINT_TEST
+  R83T_PRINT prints an R83T matrix.
+
+  The R83T matrix:
+
+  Col:       0             1             2             3       
+  Row
+  ---
+     0            11            12                            
+     1            21            22            23              
+     2                          32            33            34
+     3                                        43            44
+     4                                                      54
+
+R83T_PRINT_SOME_TEST
+  R83T_PRINT_SOME prints some of an R83T matrix.
+
+  Rows 1-4, Cols 1-3:
+
+  Col:       1             2             3       
+  Row
+  ---
+     1            22            23              
+     2            32            33            34
+     3                          43            44
+     4                                        54
+
+R83T_RANDOM_TEST
+  R83T_RANDOM randomizes an R83T matrix.
+
+  The R83T matrix:
+
+  Col:       0             1             2             3       
+  Row
+  ---
+     0      0.218418      0.956318                            
+     1      0.829509      0.561695      0.415307              
+     2                   0.0661187      0.257578      0.109957
+     3                                  0.043829      0.633966
+     4                                               0.0617272
+
+R83T_RES_TEST
+  R83T_RES computes b-A*x, where A is an R83T matrix.
+  We check three cases, M<N, M=N, M>N.
+
+  Residual A*x-b:
+
+         0:              0
+         1:              0
+         2:              0
+
+  Residual A*x-b:
+
+         0:              0
+         1:              0
+         2:              0
+         3:              0
+         4:              0
+
+  Residual A*x-b:
+
+         0:              0
+         1:              0
+         2:              0
+         3:              0
+         4:              0
+
+R83T_TO_R8GE_TEST
+  R83T_TO_R8GE converts an R83T matrix to R8GE format.
+  We check three cases, M<N, M=N, M>N.
+
+  The R83T matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+     0      0.218418      0.956318                                          
+     1      0.829509      0.561695      0.415307                            
+     2                   0.0661187      0.257578      0.109957              
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.956318             0             0             0  
+    2      0.829509      0.561695      0.415307             0             0  
+    3             0     0.0661187      0.257578      0.109957             0  
+
+  The R83T matrix:
+
+  Col:       0             1             2             3             4       
+  Row
+  ---
+     0      0.218418      0.956318                                          
+     1      0.829509      0.561695      0.415307                            
+     2                   0.0661187      0.257578      0.109957              
+     3                                  0.043829      0.633966     0.0617272
+     4                                                0.449539      0.401306
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.956318             0             0             0  
+    2      0.829509      0.561695      0.415307             0             0  
+    3             0     0.0661187      0.257578      0.109957             0  
+    4             0             0      0.043829      0.633966     0.0617272  
+    5             0             0             0      0.449539      0.401306  
+
+  The R83T matrix:
+
+  Col:       0             1             2       
+  Row
+  ---
+     0      0.218418      0.956318              
+     1      0.829509      0.561695      0.415307
+     2                   0.0661187      0.257578
+     3                                  0.109957
+
+  The R8GE matrix:
+
+  Col:          1             2             3       
+  Row
+  ---
+    1      0.218418      0.956318             0  
+    2      0.829509      0.561695      0.415307  
+    3             0     0.0661187      0.257578  
+    4             0             0      0.109957  
+    5             0             0             0  
+
+R83T_ZEROS_TEST
+  R83T_ZEROS zeros an R83T matrix.
+
+  The R83T matrix:
+
+  Col:       0             1             2             3       
+  Row
+  ---
+     0             0             0                            
+     1             0             0             0              
+     2                           0             0             0
+     3                                         0             0
+     4                                                       0
+
+R83T_PRB
+  Normal end of execution.
+
+29 May 2016 06:57:12 PM

@@ -1,0 +1,209 @@
+<html>
+
+  <head>
+    <title>
+      FEM1D_PROJECT - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      FEM1D_PROJECT <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>FEM1D_PROJECT</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>FEM1D_PROJECT</b> is available in
+      <a href = "../../cpp_src/fem1d_project/fem1d_project.html">a C++ version</a>.
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "fem1d_project.cpp">fem1d_project.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "fem1d_project.hpp">fem1d_project.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "fem1d_project.sh">fem1d_project.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "fem1d_project_prb.cpp">fem1d_project_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "fem1d_project_prb.sh">fem1d_project_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "fem1d_project_prb_output.txt">fem1d_project_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>MAIN</b> is the main program for FEM1D_PROJECT.
+        </li>
+        <li>
+          <b>CH_CAP</b> capitalizes a single character.
+        </li>
+        <li>
+          <b>CH_EQI</b> is true if two characters are equal, disregarding case.
+        </li>
+        <li>
+          <b>CH_TO_DIGIT</b> returns the integer value of a base 10 digit.
+        </li>
+        <li>
+          <b>FEM1D_APPROXIMATE</b> approximates data at sample points with an FEM function.
+        </li>
+        <li>
+          <b>FILE_COLUMN_COUNT</b> counts the number of columns in the first line of a file.
+        </li>
+        <li>
+          <b>FILE_ROW_COUNT</b> counts the number of row records in a file.
+        </li>
+        <li>
+          <b>I4MAT_DATA_READ</b> reads data from an I4MAT file.
+        </li>
+        <li>
+          <b>I4MAT_HEADER_READ</b> reads the header from an I4MAT file.
+        </li>
+        <li>
+          <b>PIECEWISE_LINEAR_PRODUCT_QUAD:</b> piecewise linear product integral.
+        </li>
+        <li>
+          <b>R8_ABS</b> returns the absolute value of an R8.
+        </li>
+        <li>
+          <b>R8_EPSILON</b> returns the R8 roundoff unit.
+        </li>
+        <li>
+          <b>R8_MIN</b> returns the minimum of two R8's.
+        </li>
+        <li>
+          <b>R83_NP_FA</b> factors a R83 system without pivoting.
+        </li>
+        <li>
+          <b>R83_NP_SL</b> solves a R83 system factored by R83_NP_FA.
+        </li>
+        <li>
+          <b>R8MAT_DATA_READ</b> reads the data from an R8MAT file.
+        </li>
+        <li>
+          <b>R8MAT_HEADER_READ</b> reads the header from an R8MAT file.
+        </li>
+        <li>
+          <b>R8MAT_WRITE</b> writes an R8MAT file.
+        </li>
+        <li>
+          <b>R8MAT_ZERO_NEW</b> returns a new zeroed R8MAT.
+        </li>
+        <li>
+          <b>R8VEC_BRACKET3</b> finds the interval containing or nearest a given value.
+        </li>
+        <li>
+          <b>S_LEN_TRIM</b> returns the length of a string to the last nonblank.
+        </li>
+        <li>
+          <b>S_TO_I4</b> reads an I4 from a string.
+        </li>
+        <li>
+          <b>S_TO_I4VEC</b> reads an I4VEC from a string.
+        </li>
+        <li>
+          <b>S_TO_R8</b> reads an R8 from a string.
+        </li>
+        <li>
+          <b>S_TO_R8VEC</b> reads an R8VEC from a string.
+        </li>
+        <li>
+          <b>S_WORD_COUNT</b> counts the number of "words" in a string.
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Fri Jul  5 08:41:05 2013
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

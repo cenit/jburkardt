@@ -1,0 +1,748 @@
+15 July 2017 07:08:33 PM
+
+SUBSET_SUM_PRB:
+  C++ version
+  Test the SUBSET_SUM library.
+
+SUBSET_SUM_COUNT_TESTS:
+  SUBSET_SUM_COUNT_TEST calls SUBSET_SUM_COUNT
+  with particular problem data.
+
+SUBSET_SUM_COUNT_TEST:
+  SUBSET_SUM_COUNT counts solutions to the subset sum problem.
+
+  Target value T = 53
+
+  Weight vector W:
+
+         0:       15
+         1:       22
+         2:       14
+         3:       26
+         4:       32
+         5:        9
+         6:       16
+         7:        8
+
+  Searching from IND_MIN = 0  through IND_MAX = 255
+
+  Number of solutions = 3
+
+SUBSET_SUM_COUNT_TEST:
+  SUBSET_SUM_COUNT counts solutions to the subset sum problem.
+
+  Target value T = 53
+
+  Weight vector W:
+
+         0:       15
+         1:       22
+         2:       14
+         3:       26
+         4:       32
+         5:        9
+         6:       16
+         7:        8
+
+  Searching from IND_MIN = 68  through IND_MAX = 255
+
+  Number of solutions = 2
+
+SUBSET_SUM_COUNT_TEST:
+  SUBSET_SUM_COUNT counts solutions to the subset sum problem.
+
+  Target value T = 53
+
+  Weight vector W:
+
+         0:       15
+         1:       22
+         2:       14
+         3:       26
+         4:       32
+         5:        9
+         6:       16
+         7:        8
+
+  Searching from IND_MIN = 167  through IND_MAX = 255
+
+  Number of solutions = 1
+
+SUBSET_SUM_COUNT_TEST:
+  SUBSET_SUM_COUNT counts solutions to the subset sum problem.
+
+  Target value T = 5842
+
+  Weight vector W:
+
+         0:      267
+         1:      493
+         2:      869
+         3:      961
+         4:     1000
+         5:     1153
+         6:     1246
+         7:     1598
+         8:     1766
+         9:     1922
+
+  Searching from IND_MIN = 0  through IND_MAX = 1023
+
+  Number of solutions = 1
+
+SUBSET_SUM_COUNT_TEST:
+  SUBSET_SUM_COUNT counts solutions to the subset sum problem.
+
+  Target value T = 2463098
+
+  Weight vector W:
+
+         0:   518533
+         1:  1037066
+         2:  2074132
+         3:  1648264
+         4:   796528
+         5:  1593056
+         6:   686112
+         7:  1372224
+         8:   244448
+         9:   488896
+        10:   977792
+        11:  1955584
+        12:  1411168
+        13:   322336
+        14:   644672
+        15:  1289344
+        16:    78688
+        17:   157376
+        18:   314752
+        19:   629504
+        20:  1259008
+
+  Searching from IND_MIN = 0  through IND_MAX = 2097151
+
+  Number of solutions = 1
+
+SUBSET_SUM_COUNT_TEST:
+  SUBSET_SUM_COUNT counts solutions to the subset sum problem.
+
+  Target value T = 50
+
+  Weight vector W:
+
+         0:       41
+         1:       34
+         2:       21
+         3:       20
+         4:        8
+         5:        7
+         6:        7
+         7:        4
+         8:        3
+         9:        3
+
+  Searching from IND_MIN = 0  through IND_MAX = 1023
+
+  Number of solutions = 2
+
+SUBSET_SUM_COUNT_TEST:
+  SUBSET_SUM_COUNT counts solutions to the subset sum problem.
+
+  Target value T = 100
+
+  Weight vector W:
+
+         0:       81
+         1:       80
+         2:       43
+         3:       40
+         4:       30
+         5:       26
+         6:       12
+         7:       11
+         8:        9
+
+  Searching from IND_MIN = 0  through IND_MAX = 511
+
+  Number of solutions = 1
+
+SUBSET_SUM_COUNT_TEST:
+  SUBSET_SUM_COUNT counts solutions to the subset sum problem.
+
+  Target value T = 22
+
+  Weight vector W:
+
+         0:        1
+         1:        2
+         2:        4
+         3:        8
+         4:       16
+         5:       32
+
+  Searching from IND_MIN = 0  through IND_MAX = 63
+
+  Number of solutions = 1
+
+SUBSET_SUM_COUNT_TEST:
+  SUBSET_SUM_COUNT counts solutions to the subset sum problem.
+
+  Target value T = 50
+
+  Weight vector W:
+
+         0:       25
+         1:       27
+         2:        3
+         3:       12
+         4:        6
+         5:       15
+         6:        9
+         7:       30
+         8:       21
+         9:       19
+
+  Searching from IND_MIN = 0  through IND_MAX = 1023
+
+  Number of solutions = 1
+
+SUBSET_SUM_FIND_TESTS:
+  SUBSET_SUM_FIND_TEST calls SUBSET_SUM_FIND
+  with particular problem data.
+
+SUBSET_SUM_FIND_TEST:
+  SUBSET_SUM_FIND seeks a subset of W that sums to T.
+
+  Target value T = 53
+
+  Weight vector W:
+
+         0:       15
+         1:       22
+         2:       14
+         3:       26
+         4:       32
+         5:        9
+         6:       16
+         7:        8
+
+  Searching from IND_MIN = 0  through IND_MAX = 255
+
+  Solution index = 67
+
+  Solution:
+
+         0:        1
+         1:        1
+         2:        0
+         3:        0
+         4:        0
+         5:        0
+         6:        1
+         7:        0
+
+SUBSET_SUM_FIND_TEST:
+  SUBSET_SUM_FIND seeks a subset of W that sums to T.
+
+  Target value T = 53
+
+  Weight vector W:
+
+         0:       15
+         1:       22
+         2:       14
+         3:       26
+         4:       32
+         5:        9
+         6:       16
+         7:        8
+
+  Searching from IND_MIN = 68  through IND_MAX = 255
+
+  Solution index = 166
+
+  Solution:
+
+         0:        0
+         1:        1
+         2:        1
+         3:        0
+         4:        0
+         5:        1
+         6:        0
+         7:        1
+
+SUBSET_SUM_FIND_TEST:
+  SUBSET_SUM_FIND seeks a subset of W that sums to T.
+
+  Target value T = 53
+
+  Weight vector W:
+
+         0:       15
+         1:       22
+         2:       14
+         3:       26
+         4:       32
+         5:        9
+         6:       16
+         7:        8
+
+  Searching from IND_MIN = 167  through IND_MAX = 255
+
+  Solution index = 197
+
+  Solution:
+
+         0:        1
+         1:        0
+         2:        1
+         3:        0
+         4:        0
+         5:        0
+         6:        1
+         7:        1
+
+SUBSET_SUM_FIND_TEST:
+  SUBSET_SUM_FIND seeks a subset of W that sums to T.
+
+  Target value T = 5842
+
+  Weight vector W:
+
+         0:      267
+         1:      493
+         2:      869
+         3:      961
+         4:     1000
+         5:     1153
+         6:     1246
+         7:     1598
+         8:     1766
+         9:     1922
+
+  Searching from IND_MIN = 0  through IND_MAX = 1023
+
+  Solution index = 348
+
+  Solution:
+
+         0:        0
+         1:        0
+         2:        1
+         3:        1
+         4:        1
+         5:        0
+         6:        1
+         7:        0
+         8:        1
+         9:        0
+
+SUBSET_SUM_FIND_TEST:
+  SUBSET_SUM_FIND seeks a subset of W that sums to T.
+
+  Target value T = 2463098
+
+  Weight vector W:
+
+         0:   518533
+         1:  1037066
+         2:  2074132
+         3:  1648264
+         4:   796528
+         5:  1593056
+         6:   686112
+         7:  1372224
+         8:   244448
+         9:   488896
+        10:   977792
+        11:  1955584
+        12:  1411168
+        13:   322336
+        14:   644672
+        15:  1289344
+        16:    78688
+        17:   157376
+        18:   314752
+        19:   629504
+        20:  1259008
+
+  Searching from IND_MIN = 0  through IND_MAX = 2097151
+
+  Solution index = 524306
+
+  Solution:
+
+         0:        0
+         1:        1
+         2:        0
+         3:        0
+         4:        1
+         5:        0
+         6:        0
+         7:        0
+         8:        0
+         9:        0
+        10:        0
+        11:        0
+        12:        0
+        13:        0
+        14:        0
+        15:        0
+        16:        0
+        17:        0
+        18:        0
+        19:        1
+        20:        0
+
+SUBSET_SUM_FIND_TEST:
+  SUBSET_SUM_FIND seeks a subset of W that sums to T.
+
+  Target value T = 50
+
+  Weight vector W:
+
+         0:       41
+         1:       34
+         2:       21
+         3:       20
+         4:        8
+         5:        7
+         6:        7
+         7:        4
+         8:        3
+         9:        3
+
+  Searching from IND_MIN = 0  through IND_MAX = 1023
+
+  Solution index = 500
+
+  Solution:
+
+         0:        0
+         1:        0
+         2:        1
+         3:        0
+         4:        1
+         5:        1
+         6:        1
+         7:        1
+         8:        1
+         9:        0
+
+SUBSET_SUM_FIND_TEST:
+  SUBSET_SUM_FIND seeks a subset of W that sums to T.
+
+  Target value T = 100
+
+  Weight vector W:
+
+         0:       81
+         1:       80
+         2:       43
+         3:       40
+         4:       30
+         5:       26
+         6:       12
+         7:       11
+         8:        9
+
+  Searching from IND_MIN = 0  through IND_MAX = 511
+
+  Solution index = 386
+
+  Solution:
+
+         0:        0
+         1:        1
+         2:        0
+         3:        0
+         4:        0
+         5:        0
+         6:        0
+         7:        1
+         8:        1
+
+SUBSET_SUM_FIND_TEST:
+  SUBSET_SUM_FIND seeks a subset of W that sums to T.
+
+  Target value T = 22
+
+  Weight vector W:
+
+         0:        1
+         1:        2
+         2:        4
+         3:        8
+         4:       16
+         5:       32
+
+  Searching from IND_MIN = 0  through IND_MAX = 63
+
+  Solution index = 22
+
+  Solution:
+
+         0:        0
+         1:        1
+         2:        1
+         3:        0
+         4:        1
+         5:        0
+
+SUBSET_SUM_FIND_TEST:
+  SUBSET_SUM_FIND seeks a subset of W that sums to T.
+
+  Target value T = 50
+
+  Weight vector W:
+
+         0:       25
+         1:       27
+         2:        3
+         3:       12
+         4:        6
+         5:       15
+         6:        9
+         7:       30
+         8:       21
+         9:       19
+
+  Searching from IND_MIN = 0  through IND_MAX = 1023
+
+  Solution index = 529
+
+  Solution:
+
+         0:        1
+         1:        0
+         2:        0
+         3:        0
+         4:        1
+         5:        0
+         6:        0
+         7:        0
+         8:        0
+         9:        1
+
+SUBSET_SUM_NEXT_TESTS:
+  SUBSET_SUM_NEXT_TEST solves the subset sum problem
+  for specific values of S, N and V.
+
+SUBSET_SUM_NEXT_TEST:
+  SUBSET_SUM_NEXT finds the next subset of the values V
+  which sum to the desired total S.
+
+  Desired sum S = 9
+  Number of targets = 5
+  Targets: 1 2 3 5 7
+
+  1:  9 = 1 + 3 + 5
+  2:  9 = 2 + 7
+
+SUBSET_SUM_NEXT_TEST:
+  SUBSET_SUM_NEXT finds the next subset of the values V
+  which sum to the desired total S.
+
+  Desired sum S = 8
+  Number of targets = 9
+  Targets: 1 2 3 4 5 6 7 8 9
+
+  1:  8 = 1 + 2 + 5
+  2:  8 = 1 + 3 + 4
+  3:  8 = 1 + 7
+  4:  8 = 2 + 6
+  5:  8 = 3 + 5
+  6:  8 = 8
+
+SUBSET_SUM_NEXT_TEST:
+  SUBSET_SUM_NEXT finds the next subset of the values V
+  which sum to the desired total S.
+
+  Desired sum S = 8
+  Number of targets = 9
+  Targets: 1 2 3 3 5 6 7 8 9
+
+  1:  8 = 1 + 2 + 5
+  2:  8 = 1 + 7
+  3:  8 = 2 + 3 + 3
+  4:  8 = 2 + 6
+  5:  8 = 3 + 5
+  6:  8 = 3 + 5
+  7:  8 = 8
+
+SUBSET_SUM_NEXT_TEST:
+  SUBSET_SUM_NEXT finds the next subset of the values V
+  which sum to the desired total S.
+
+  Desired sum S = 18
+  Number of targets = 5
+  Targets: 1 2 3 5 7
+
+  1:  18 = 1 + 2 + 3 + 5 + 7
+
+SUBSET_SUM_NEXT_TEST:
+  SUBSET_SUM_NEXT finds the next subset of the values V
+  which sum to the desired total S.
+
+  Desired sum S = 5842
+  Number of targets = 10
+  Targets: 267 493 869 961 1000 1153 1246 1598 1766 1922
+
+  1:  5842 = 869 + 961 + 1000 + 1246 + 1766
+
+SUBSET_SUM_NEXT_TESTS:
+  Normal end of execution.
+
+SUBSET_SUM_TABLE_TESTS:
+  SUBSET_SUM_TABLE_TEST calls SUBSET_SUM_TABLE
+  with particular problem data.
+
+SUBSET_SUM_TABLE_TEST:
+  SUBSET_SUM_TABLE seeks a subset of W that sums to T.
+
+  Target value T = 53
+
+  Weight vector W:
+
+         0:       15
+         1:       22
+         2:       14
+         3:       26
+         4:       32
+         5:        9
+         6:       16
+         7:        8
+
+  53 = 16 + 22 + 15
+
+SUBSET_SUM_TABLE_TEST:
+  SUBSET_SUM_TABLE seeks a subset of W that sums to T.
+
+  Target value T = 5842
+
+  Weight vector W:
+
+         0:      267
+         1:      493
+         2:      869
+         3:      961
+         4:     1000
+         5:     1153
+         6:     1246
+         7:     1598
+         8:     1766
+         9:     1922
+
+  5842 = 1766 + 1246 + 1000 + 961 + 869
+
+SUBSET_SUM_TABLE_TEST:
+  SUBSET_SUM_TABLE seeks a subset of W that sums to T.
+
+  Target value T = 2463098
+
+  Weight vector W:
+
+         0:   518533
+         1:  1037066
+         2:  2074132
+         3:  1648264
+         4:   796528
+         5:  1593056
+         6:   686112
+         7:  1372224
+         8:   244448
+         9:   488896
+        10:   977792
+        11:  1955584
+        12:  1411168
+        13:   322336
+        14:   644672
+        15:  1289344
+        16:    78688
+        17:   157376
+        18:   314752
+        19:   629504
+        20:  1259008
+
+  2463098 = 629504 + 796528 + 1037066
+
+SUBSET_SUM_TABLE_TEST:
+  SUBSET_SUM_TABLE seeks a subset of W that sums to T.
+
+  Target value T = 50
+
+  Weight vector W:
+
+         0:       41
+         1:       34
+         2:       21
+         3:       20
+         4:        8
+         5:        7
+         6:        7
+         7:        4
+         8:        3
+         9:        3
+
+  50 = 3 + 4 + 7 + 7 + 8 + 21
+
+SUBSET_SUM_TABLE_TEST:
+  SUBSET_SUM_TABLE seeks a subset of W that sums to T.
+
+  Target value T = 100
+
+  Weight vector W:
+
+         0:       81
+         1:       80
+         2:       43
+         3:       40
+         4:       30
+         5:       26
+         6:       12
+         7:       11
+         8:        9
+
+  100 = 9 + 11 + 80
+
+SUBSET_SUM_TABLE_TEST:
+  SUBSET_SUM_TABLE seeks a subset of W that sums to T.
+
+  Target value T = 22
+
+  Weight vector W:
+
+         0:        1
+         1:        2
+         2:        4
+         3:        8
+         4:       16
+         5:       32
+
+  22 = 16 + 4 + 2
+
+SUBSET_SUM_TABLE_TEST:
+  SUBSET_SUM_TABLE seeks a subset of W that sums to T.
+
+  Target value T = 50
+
+  Weight vector W:
+
+         0:       25
+         1:       27
+         2:        3
+         3:       12
+         4:        6
+         5:       15
+         6:        9
+         7:       30
+         8:       21
+         9:       19
+
+  50 = 19 + 6 + 25
+
+SUBSET_SUM_PRB
+  Normal end of execution.
+
+15 July 2017 07:08:34 PM

@@ -1,0 +1,60 @@
+23 September 2016 08:18:08 AM
+
+POLYGON_TRIANGULATE_PRB
+  C++ version.
+  Test the POLYGON_TRIANGULATE library.
+
+TEST01
+  Triangulate the comb_10 polygon.
+
+  Triangles
+
+  Row:      0       1       2  
+  Col
+
+    0:     2       0       1  
+    1:     4       2       3  
+    2:     6       4       5  
+    3:     8       6       7  
+    4:     9       6       8  
+    5:     2       9       0  
+    6:     4       9       2  
+    7:     6       9       4  
+
+TEST02
+  Read polygon coordinates in "comb_nodes.txt"
+  Write triangulation to "comb_elements.txt"
+
+TEST02
+  Read polygon coordinates in "hand_nodes.txt"
+  Write triangulation to "hand_elements.txt"
+
+TEST02
+  Read polygon coordinates in "i18_nodes.txt"
+  Write triangulation to "i18_elements.txt"
+
+TEST03
+  Read node coordinates in "comb_nodes.txt"
+
+  Write edges to "comb_edges.txt"
+  Write diagonals to "comb_diagonals.txt"
+  Write gnuplot commands to "comb_commands.txt"
+
+TEST03
+  Read node coordinates in "hand_nodes.txt"
+
+  Write edges to "hand_edges.txt"
+  Write diagonals to "hand_diagonals.txt"
+  Write gnuplot commands to "hand_commands.txt"
+
+TEST03
+  Read node coordinates in "i18_nodes.txt"
+
+  Write edges to "i18_edges.txt"
+  Write diagonals to "i18_diagonals.txt"
+  Write gnuplot commands to "i18_commands.txt"
+
+POLYGON_TRIANGULATE_PRB
+  Normal end of execution.
+
+23 September 2016 08:18:08 AM

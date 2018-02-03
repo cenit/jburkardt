@@ -1,0 +1,14 @@
+# besselk_commands.txt
+#
+# Usage:
+#  gnuplot < besselk_commands.txt
+#
+set term png
+set output "besselk_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Bessel K correlation'
+set grid
+set style data lines
+plot 'besselk_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

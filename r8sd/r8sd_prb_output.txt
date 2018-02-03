@@ -1,0 +1,333 @@
+18 July 2016 03:21:29 PM
+
+R8SD_PRB
+  C++ version
+  Test the R8SD library.
+
+R8SD_CG_TEST
+  R8SD_CG applies the conjugate gradient method
+  to a symmetric positive definite linear
+  system stored by diagonals.
+
+  Matrix order N = 100
+  Matrix diagonals NDIAG = 3
+
+
+  First 10 rows and columns of matrix.
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1             4            -1             0             0             0  
+   2            -1             4            -1             0             0  
+   3             0            -1             4            -1             0  
+   4             0             0            -1             4            -1  
+   5             0             0             0            -1             4  
+   6             0             0             0             0            -1  
+   7             0             0             0             0             0  
+   8             0             0             0             0             0  
+   9             0             0             0             0             0  
+  10             0             0             0             0             0  
+  Col:       6             7             8             9            10       
+  Row
+  ---
+   1             0             0             0             0             0  
+   2             0             0             0             0             0  
+   3             0             0             0             0             0  
+   4             0             0             0             0             0  
+   5            -1             0             0             0             0  
+   6             4            -1             0             0             0  
+   7            -1             4            -1             0             0  
+   8             0            -1             4            -1             0  
+   9             0             0            -1             4            -1  
+  10             0             0             0            -1             4  
+
+  Right hand side:
+
+         0:             11
+         1:             20
+         2:             30
+         3:             40
+         4:             50
+         5:             60
+         6:             70
+         7:             80
+  ........  ..............
+        99:            231
+
+  Solution:
+
+         0:             11
+         1:             21
+         2:             31
+         3:             41
+         4:             51
+         5:             61
+         6:             71
+         7:             81
+  ........  ..............
+        99:            110
+
+  Maximum residual = 2.84217e-13
+
+  Second attempt at solution:
+
+         0:             11
+         1:             21
+         2:             31
+         3:             41
+         4:             51
+         5:             61
+         6:             71
+         7:             81
+  ........  ..............
+        99:            110
+
+  Maximum residual of second attempt = 5.68434e-14
+
+R8SD_DIF2_TEST
+  R8SD_DIF2 sets up an R8SD second difference matrix.
+
+  Matrix order N = 5
+  Matrix diagonals NDIAG = 2
+
+  The R8SD second difference matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1             2            -1             0             0             0  
+   2            -1             2            -1             0             0  
+   3             0            -1             2            -1             0  
+   4             0             0            -1             2            -1  
+   5             0             0             0            -1             2  
+
+R8SD_INDICATOR_TEST
+  R8SD_INDICATOR sets up an R8SD indicator matrix.
+
+  Matrix order N = 5
+  Matrix diagonals NDIAG = 3
+
+  The R8SD indicator matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12             0            14             0  
+   2            12            22            23             0            25  
+   3             0            23            33            34             0  
+   4            14             0            34            44            45  
+   5             0            25             0            45            55  
+
+R8SD_MV_TEST
+  R8SD_MV computes b=A*x, where A is an R8SD matrix.
+
+  Matrix order N = 5
+  Matrix diagonals NDIAG = 3
+
+  The R8SD indicator matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12             0            14             0  
+   2            12            22            23             0            25  
+   3             0            23            33            34             0  
+   4            14             0            34            44            45  
+   5             0            25             0            45            55  
+
+  The vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  The product b=A*x:
+
+     1              91
+     2             250
+     3             281
+     4             517
+     5             505
+
+R8SD_PRINT_TEST
+  R8SD_PRINT prints an R8SD matrix.
+
+  Matrix order N = 5
+  Matrix diagonals NDIAG = 3
+
+  The R8SD  matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12             0            14             0  
+   2            12            22            23             0            25  
+   3             0            23            33            34             0  
+   4            14             0            34            44            45  
+   5             0            25             0            45            55  
+
+R8SD_PRINT_SOME_TEST
+  R8SD_PRINT_SOME prints some of an R8SD matrix.
+
+  Matrix order N = 10
+  Matrix diagonals NDIAG = 3
+
+  Rows 1-7, Cols 2-6:
+  Col:       2             3             4             5             6       
+  Row
+  ---
+   1           102             0           104             0             0  
+   2           202           203             0           205             0  
+   3           203           303           304             0           306  
+   4             0           304           404           405             0  
+   5           205             0           405           505           506  
+   6             0           306             0           506           606  
+   7             0             0           407             0           607  
+
+R8SD_RANDOM_TEST
+  R8SD_RANDOM randomizes an R8SD matrix.
+
+  Matrix order N = 5
+  Matrix diagonals NDIAG = 3
+
+  The random R8SD matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1      0.218418      0.956318             0      0.829509             0  
+   2      0.956318      0.561695      0.415307             0     0.0661187  
+   3             0      0.415307      0.257578      0.109957             0  
+   4      0.829509             0      0.109957      0.043829      0.633966  
+   5             0     0.0661187             0      0.633966     0.0617272  
+
+R8SD_RES_TEST
+  R8SD_RES computes a residual R=b-A*x
+
+  Matrix order N = 10
+  Matrix diagonals NDIAG = 2
+
+  The R8SD matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1      0.218418      0.956318             0             0             0  
+   2      0.956318      0.829509      0.561695             0             0  
+   3             0      0.561695      0.415307     0.0661187             0  
+   4             0             0     0.0661187      0.257578      0.109957  
+   5             0             0             0      0.109957      0.043829  
+   6             0             0             0             0      0.633966  
+   7             0             0             0             0             0  
+   8             0             0             0             0             0  
+   9             0             0             0             0             0  
+  10             0             0             0             0             0  
+  Col:       6             7             8             9            10       
+  Row
+  ---
+   1             0             0             0             0             0  
+   2             0             0             0             0             0  
+   3             0             0             0             0             0  
+   4             0             0             0             0             0  
+   5      0.633966             0             0             0             0  
+   6     0.0617272      0.449539             0             0             0  
+   7      0.449539      0.401306      0.754673             0             0  
+   8             0      0.754673      0.797287    0.00183837             0  
+   9             0             0    0.00183837      0.897504      0.350752  
+  10             0             0             0      0.350752     0.0945448  
+
+  The vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+     8               8
+     9               9
+    10              10
+
+  The product b=A*x
+
+     1         2.13105
+     2         4.30042
+     3         2.63379
+     4         1.77845
+     5         4.46277
+     6         6.68696
+     7         11.5438
+     8         11.6776
+     9         11.5998
+    10         4.10222
+
+  The defective vector X2:
+
+     1         1.00136
+     2         2.08591
+     3         3.08408
+     4         4.01231
+     5         5.00075
+     6         6.02603
+     7         7.09125
+     8         8.01137
+     9         9.03516
+    10         10.0823
+
+  Residual b-A*x2:
+
+     1      -0.0824544
+     2       -0.119795
+     3        -0.08399
+     4     -0.00881306
+     5      -0.0178889
+     6      -0.0431027
+     7      -0.0568981
+     8      -0.0779897
+     9      -0.0604427
+    10      -0.0201134
+
+R8SD_TO_R8GE_TEST
+  R8SD_TO_R8GE converts an R8SD matrix to R8GE format.
+
+  Matrix order N = 5
+  Matrix diagonals NDIAG = 3
+
+  The R8SD matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12             0            14             0  
+   2            12            22            23             0            25  
+   3             0            23            33            34             0  
+   4            14             0            34            44            45  
+   5             0            25             0            45            55  
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            12             0            14             0  
+    2            12            22            23             0            25  
+    3             0            23            33            34             0  
+    4            14             0            34            44            45  
+    5             0            25             0            45            55  
+
+R8SD_ZEROS_TEST
+  R8SD_ZEROS zeros an R8SD matrix.
+
+  Matrix order N = 5
+  Matrix diagonals NDIAG = 3
+
+  The R8SD zero matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1             0             0             0             0             0  
+   2             0             0             0             0             0  
+   3             0             0             0             0             0  
+   4             0             0             0             0             0  
+   5             0             0             0             0             0  
+
+R8SD_PRB
+  Normal end of execution.
+
+18 July 2016 03:21:29 PM

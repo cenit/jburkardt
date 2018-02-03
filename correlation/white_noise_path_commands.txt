@@ -1,0 +1,17 @@
+# white_noise_path_commands.txt
+#
+# Usage:
+#  gnuplot < white_noise_path_commands.txt
+#
+set term png
+set output "white_noise_paths.png"
+set xlabel 'Rho'
+set ylabel 'X(Rho)'
+set title 'White noise correlation'
+set grid
+set style data lines
+set key off
+plot 'white_noise_path_data.txt' using 1:2, \
+     'white_noise_path_data.txt' using 1:3, \
+     'white_noise_path_data.txt' using 1:4
+quit

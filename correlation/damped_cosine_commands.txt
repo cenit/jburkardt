@@ -1,0 +1,14 @@
+# damped_cosine_commands.txt
+#
+# Usage:
+#  gnuplot < damped_cosine_commands.txt
+#
+set term png
+set output "damped_cosine_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Damped cosine correlation'
+set grid
+set style data lines
+plot 'damped_cosine_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

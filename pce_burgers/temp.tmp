@@ -1,0 +1,142 @@
+<html>
+
+  <head>
+    <title>
+      PCE_BURGERS - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      PCE_BURGERS <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>PCE_BURGERS</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>PCE_BURGERS</b> is available in...
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "pce_burgers.cpp">pce_burgers.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "pce_burgers.hpp">pce_burgers.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "pce_burgers.sh">pce_burgers.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "pce_burgers_prb.cpp">pce_burgers_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "pce_burgers_prb.sh">pce_burgers_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "pce_burgers_prb_output.txt">pce_burgers_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>MAIN</b> is the main program for PCE_BURGERS.
+        </li>
+        <li>
+          <b>HE_DOUBLE_PRODUCT_INTEGRAL:</b> integral of He(i,x)*He(j,x)*e^(-x^2/2).
+        </li>
+        <li>
+          <b>HE_TRIPLE_PRODUCT_INTEGRAL:</b> integral of He(i,x)*He(j,x)*He(k,x)*e^(-x^2/2).
+        </li>
+        <li>
+          <b>R8_FACTORIAL</b> computes the factorial of N.
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Sun Mar 18 11:48:19 2012
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

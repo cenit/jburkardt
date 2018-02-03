@@ -1,0 +1,14 @@
+02 March 2008 04:59:57 PM
+
+INT_EXACTNESS_CHEBYSHEV1
+  C++ version
+
+  Investigate the polynomial exactness of a Gauss-Chebyshev
+  type 1 quadrature rule by integrating weighted
+  monomials up to a given degree over the [-1,+1] interval.
+
+INT_EXACTNESS_CHEBYSHEV1: User input:
+  Quadrature rule X file = "cheby_o2_x.txt".
+  Quadrature rule W file = "cheby_o2_w.txt".
+  Quadrature rule R file = "cheby_o2_r.txt".
+  Maximum degree to check = 5

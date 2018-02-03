@@ -1,0 +1,61 @@
+30 January 2005 11:18:52 AM
+
+UNIFORM_DATASET (C++ version)
+  Generate a uniform pseudorandom dataset.
+
+  This program is meant to be used interactively.
+  It is also possible to prepare a simple input
+  file beforehand and use it in batch mode.
+
+  The program requests input values from the user:
+
+  * M, the spatial dimension,
+  * N, the number of points to generate,
+  * SEED, a positive integer.
+
+  The program generates the data, writes it to the file
+
+    uniform_M_N.txt
+
+  where M and N are the numeric values specified
+  by the user, and then asks the user for more input.
+
+  To indicate that no further computations are
+  desired, it is enough to input a nonsensical value,
+  such as -1.
+  *
+ *
+*  Ready to generate a new dataset:
+ *
+  *
+
+  Enter M, the spatial dimension:
+  (Try '2' if you don't have a preference.)
+  (0 or any negative value terminates execution).
+
+  Enter N, the number of points to generate:
+  (Try '25' if you don't have a preference.)
+  (0 or any negative value terminates execution).
+
+  Enter SEED, which is 0 or a positive integer.
+  ('0' will cause the program to pick a value for you.)
+  (Try '0' or '123456789' if you don't have a preference.)
+  (Any negative value terminates execution).
+
+  The data was written to the file "uniform_2_100.txt".
+  *
+ *
+*  Ready to generate a new dataset:
+ *
+  *
+
+  Enter M, the spatial dimension:
+  (Try '2' if you don't have a preference.)
+  (0 or any negative value terminates execution).
+
+UNIFORM_DATASET
+  The input value of M = -1
+  is interpreted as a request for termination.
+  Normal end of execution.
+
+30 January 2005 11:18:52 AM

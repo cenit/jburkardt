@@ -1,0 +1,14 @@
+# pentaspherical_commands.txt
+#
+# Usage:
+#  gnuplot < pentaspherical_commands.txt
+#
+set term png
+set output "pentaspherical_plot.png"
+set xlabel 'Distance Rho'
+set ylabel 'Correlation C(Rho)'
+set title 'Pentaspherical correlation'
+set grid
+set style data lines
+plot 'pentaspherical_data.txt' using 1:2 lw 3 linecolor rgb 'blue'
+quit

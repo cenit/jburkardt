@@ -1,0 +1,14 @@
+# chebyshev1_commands.txt
+#
+# Usage:
+#  gnuplot < chebyshev1_commands.txt
+#
+set term png
+set output 'chebyshev1.png'
+set xlabel '<--- X --->'
+set ylabel '<--- Lebesgue(X) --->'
+set title 'Chebyshev1 points for N = 11'
+set grid
+set style data lines
+set timestamp
+plot 'chebyshev1_data.txt' using 1:2 lw 3 linecolor rgb 'red'

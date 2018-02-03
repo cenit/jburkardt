@@ -1,0 +1,17 @@
+# brownian_path_commands.txt
+#
+# Usage:
+#  gnuplot < brownian_path_commands.txt
+#
+set term png
+set output "brownian_paths.png"
+set xlabel 'Rho'
+set ylabel 'X(Rho)'
+set title 'Brownian correlation'
+set grid
+set style data lines
+set key off
+plot 'brownian_path_data.txt' using 1:2, \
+     'brownian_path_data.txt' using 1:3, \
+     'brownian_path_data.txt' using 1:4
+quit

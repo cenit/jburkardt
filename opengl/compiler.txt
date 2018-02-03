@@ -1,0 +1,52 @@
+yellow_window.cpp:18:3: error: ‘GLX_RGBA’ was not declared in this scope
+yellow_window.cpp:19:3: error: ‘GLX_RED_SIZE’ was not declared in this scope
+yellow_window.cpp:20:3: error: ‘GLX_GREEN_SIZE’ was not declared in this scope
+yellow_window.cpp:21:3: error: ‘GLX_BLUE_SIZE’ was not declared in this scope
+yellow_window.cpp:22:3: error: ‘None’ was not declared in this scope
+yellow_window.cpp:29:3: error: ‘GLX_RGBA’ was not declared in this scope
+yellow_window.cpp:30:3: error: ‘GLX_DOUBLEBUFFER’ was not declared in this scope
+yellow_window.cpp:31:3: error: ‘GLX_RED_SIZE’ was not declared in this scope
+yellow_window.cpp:32:3: error: ‘GLX_GREEN_SIZE’ was not declared in this scope
+yellow_window.cpp:33:3: error: ‘GLX_BLUE_SIZE’ was not declared in this scope
+yellow_window.cpp:34:3: error: ‘None’ was not declared in this scope
+yellow_window.cpp:38:8: error: ‘Bool’ does not name a type
+yellow_window.cpp: In function ‘int main(int, char**)’:
+yellow_window.cpp:58:3: error: ‘Display’ was not declared in this scope
+yellow_window.cpp:58:12: error: ‘dpy’ was not declared in this scope
+yellow_window.cpp:59:3: error: ‘XVisualInfo’ was not declared in this scope
+yellow_window.cpp:59:16: error: ‘vi’ was not declared in this scope
+yellow_window.cpp:60:3: error: ‘Colormap’ was not declared in this scope
+yellow_window.cpp:60:12: error: expected ‘;’ before ‘cmap’
+yellow_window.cpp:61:3: error: ‘XSetWindowAttributes’ was not declared in this scope
+yellow_window.cpp:61:24: error: expected ‘;’ before ‘swa’
+yellow_window.cpp:62:3: error: ‘Window’ was not declared in this scope
+yellow_window.cpp:62:10: error: expected ‘;’ before ‘win’
+yellow_window.cpp:63:3: error: ‘GLXContext’ was not declared in this scope
+yellow_window.cpp:63:14: error: expected ‘;’ before ‘cx’
+yellow_window.cpp:64:3: error: ‘XEvent’ was not declared in this scope
+yellow_window.cpp:64:10: error: expected ‘;’ before ‘event’
+yellow_window.cpp:69:26: error: ‘XOpenDisplay’ was not declared in this scope
+yellow_window.cpp:73:48: error: ‘DefaultScreen’ was not declared in this scope
+yellow_window.cpp:73:68: error: ‘glXChooseVisual’ was not declared in this scope
+yellow_window.cpp:83:3: error: ‘cx’ was not declared in this scope
+yellow_window.cpp:83:48: error: ‘glXCreateContext’ was not declared in this scope
+yellow_window.cpp:87:3: error: ‘cmap’ was not declared in this scope
+yellow_window.cpp:87:60: error: ‘RootWindow’ was not declared in this scope
+yellow_window.cpp:88:18: error: ‘AllocNone’ was not declared in this scope
+yellow_window.cpp:88:28: error: ‘XCreateColormap’ was not declared in this scope
+yellow_window.cpp:92:3: error: ‘swa’ was not declared in this scope
+yellow_window.cpp:95:20: error: ‘StructureNotifyMask’ was not declared in this scope
+yellow_window.cpp:97:3: error: ‘win’ was not declared in this scope
+yellow_window.cpp:98:20: error: ‘InputOutput’ was not declared in this scope
+yellow_window.cpp:99:5: error: ‘CWBorderPixel’ was not declared in this scope
+yellow_window.cpp:99:19: error: ‘CWColormap’ was not declared in this scope
+yellow_window.cpp:99:30: error: ‘CWEventMask’ was not declared in this scope
+yellow_window.cpp:99:49: error: ‘XCreateWindow’ was not declared in this scope
+yellow_window.cpp:101:25: error: ‘XMapWindow’ was not declared in this scope
+yellow_window.cpp:102:20: error: ‘event’ was not declared in this scope
+yellow_window.cpp:102:27: error: ‘WaitForNotify’ was not declared in this scope
+yellow_window.cpp:102:53: error: ‘XIfEvent’ was not declared in this scope
+yellow_window.cpp:106:33: error: ‘glXMakeCurrent’ was not declared in this scope
+yellow_window.cpp:116:31: error: ‘glXSwapBuffers’ was not declared in this scope
+yellow_window.cpp: At global scope:
+yellow_window.cpp:125:8: error: ‘Bool’ does not name a type

@@ -1,0 +1,133 @@
+XYZ\_DISPLAY\_OPENGL\
+Display 3D Points Using OpenGL {#xyz_display_opengl-display-3d-points-using-opengl align="center"}
+==============================
+
+------------------------------------------------------------------------
+
+**XYZ\_DISPLAY\_OPENGL** is a C++ program which reads the name of a data
+file containing a list of 3D point coordinates, reads the data, and
+displays the points using OPENGL.
+
+The program displays the data, and slowly rotates it.
+
+### Usage: {#usage align="center"}
+
+> **xyz\_display\_opengl** *data.txt*
+
+where
+
+-   *data.txt* is a file containing a list of the XYZ coordinates of the
+    points to plot.
+
+The program will open a window and display a plot of the points. The
+image will slowly rotate. Successive mouse clicks alternate the axis of
+rotation from the X, to the Y, to the Z axis and back again.
+
+### Licensing: {#licensing align="center"}
+
+The computer code and data files described and made available on this
+web page are distributed under [the GNU LGPL
+license.](../../txt/gnu_lgpl.txt)
+
+### Languages: {#languages align="center"}
+
+**XYZ\_DISPLAY\_OPENGL** is available in [a C++
+version](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html).
+
+### Related Data and Programs: {#related-data-and-programs align="center"}
+
+[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+program which uses OpenGL to display the Barnsley fractal fern.
+
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+a C++ program which reads XYZ information defining points in 3D, and
+displays a unit sphere and the points, using OpenGL.
+
+[XY\_DISPLAY\_OPENGL](../../cpp_src/xy_display_opengl/xy_display_opengl.html),
+a C++ program which reads an XY file of 2D point coordinates, and
+displays an image of those points using OpenGL.
+
+[XYZ](../../data/xyz/xyz.html), a data directory which contains some
+examples of 3D pointsets.
+
+[XYZ\_DISPLAY](../../m_src/xyz_display/xyz_display.html), a MATLAB
+program which reads XYZ information defining points in 3D, and displays
+an image in the MATLAB graphics window.
+
+[XYZF\_DISPLAY\_OPENGL](../../cpp_src/xyzf_display_opengl/xyzf_display_opengl.html),
+a C++ program which reads XYZF information defining points and faces in
+3D, and displays an image using OpenGL.
+
+[XYZL\_DISPLAY\_OPENGL](../../cpp_src/xyzl_display_opengl/xyzl_display_opengl.html),
+a C++ program which reads XYZL information defining points and lines in
+3D, and displays an image using OpenGL.
+
+### Reference: {#reference align="center"}
+
+1.  Edward Angel,\
+    Interactive Computer Graphics, a Top-Down Approach with OpenGL,\
+    Addison-Wesley, 2000,\
+    ISBN: 0-201-38597-X,\
+    LC: T385.A514.
+2.  Renate Kempf, Chris Frazier, editors,\
+    OpenGL Reference Manual,\
+    Fourth Edition,\
+    Addison-Wesley, 2004,\
+    ISBN: 032117383X,\
+    LC: T385.O642
+3.  Mason Woo, Jackie Neider, Tom Davis,\
+    OpenGL Programming Guide,\
+    Addison-Wesley, 1997,\
+    ISBN: 0-201-46138-2,\
+    LC: T385.N435
+4.  Richard Wright, Michael Sweet,\
+    OpenGL Superbible,\
+    Third Edition,\
+    Sams, 2004,\
+    ISBN: 0672326019,\
+    LC: T385.W73
+5.  <http://www.opengl.org/>\
+    The official OpenGL site.
+
+### Source Code: {#source-code align="center"}
+
+-   [xyz\_display\_opengl.cpp](xyz_display_opengl.cpp), the source code.
+
+### Examples and Tests: {#examples-and-tests align="center"}
+
+-   [helix\_201.xyz](helix_201.xyz), 201 points that lie on a helix.
+-   [helix\_201.png](helix_201.png), a PNG image of the screen generated
+    by Open GL.
+
+### List of Routines: {#list-of-routines align="center"}
+
+-   **MAIN** is the main program for XYZ\_DISPLAY\_OPENGL.
+-   **CH\_EQI** is true if two characters are equal, disregarding case.
+-   **CH\_TO\_DIGIT** returns the integer value of a base 10 digit.
+-   **DISPLAY** generates the graphics output.
+-   **MOUSE** determines the response to mouse input.
+-   **MYINIT** initializes OpenGL state variables dealing with viewing
+    and attributes.
+-   **MYRESHAPE** determines the window mapping.
+-   **R8\_MAX** returns the maximum of two R8's.
+-   **R8\_MIN** returns the minimum of two R8's.
+-   **R83VEC\_MAX** returns the maximum value in an R83VEC.
+-   **R83VEC\_MIN** returns the minimum value in an R83VEC.
+-   **S\_LEN\_TRIM** returns the length of a string to the last
+    nonblank.
+-   **S\_TO\_R8** reads an R8 from a string.
+-   **S\_TO\_R8VEC** reads an R8VEC from a string.
+-   **SPIN\_IMAGE** adjusts the angle of rotation and redisplays the
+    picture.
+-   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
+-   **TIMESTRING** returns the current YMDHMS date as a string.
+-   **XYZ\_DATA\_PRINT** prints the data for an XYZ file.
+-   **XYZ\_DATA\_READ** reads the data in an XYZ file.
+-   **XYZ\_HEADER\_PRINT** prints the header of an XYZ file.
+-   **XYZ\_HEADER\_READ** reads the header of an XYZ file.
+
+You can go up one level to [the C++ source codes](../cpp_src.html).
+
+------------------------------------------------------------------------
+
+*Last revised on 24 August 2010.*

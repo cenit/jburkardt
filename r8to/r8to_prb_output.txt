@@ -1,0 +1,244 @@
+27 September 2015 08:57:21 AM
+
+R8TO_PRB
+  C++ version
+  Test the R8TO library.
+
+R8TO_DIF2_TEST
+  R8TO_DIF2 sets the second difference as an R8TO matrix.
+
+  Matrix order N = 5
+
+  The R8TO matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1             2            -1             0             0             0  
+   2            -1             2            -1             0             0  
+   3             0            -1             2            -1             0  
+   4             0             0            -1             2            -1  
+   5             0             0             0            -1             2  
+
+
+R8TO_INDICATOR_TEST
+  R8TO_INDICATOR sets up an R8TO indicator matrix.
+
+  Matrix order N = 5
+
+  The R8TO indicator matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12            13            14            15  
+   2            21            11            12            13            14  
+   3            31            21            11            12            13  
+   4            41            31            21            11            12  
+   5            51            41            31            21            11  
+
+
+R8TO_MTV_TEST
+  R8TO_MTV computes b=A'*x=b, where A is an R8TO matrix.
+
+  Matrix order N = 5
+
+  The Toeplitz matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12            13            14            15  
+   2            21            11            12            13            14  
+   3            31            21            11            12            13  
+   4            41            31            21            11            12  
+   5            51            41            31            21            11  
+
+
+  x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  b=A'*x:
+
+     1             565
+     2             426
+     3             309
+     4             225
+     5             185
+
+R8TO_MV_TEST
+  R8TO_MV computes b=A*x=b, where A is an R8TO matrix.
+
+  Matrix order N = 5
+
+  The Toeplitz matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12            13            14            15  
+   2            21            11            12            13            14  
+   3            31            21            11            12            13  
+   4            41            31            21            11            12  
+   5            51            41            31            21            11  
+
+
+  x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  b=A*x:
+
+     1             205
+     2             201
+     3             219
+     4             270
+     5             365
+
+R8TO_PRINT_TEST
+  R8TO_PRINT prints an R8TO matrix.
+
+  Matrix order N = 5
+
+  The R8TO indicator matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1            11            12            13            14            15  
+   2            21            11            12            13            14  
+   3            31            21            11            12            13  
+   4            41            31            21            11            12  
+   5            51            41            31            21            11  
+
+
+R8TO_PRINT_SOME_TEST
+  R8TO_PRINT_SOME prints some of an R8TO matrix.
+
+  Matrix order N = 5
+
+  Rows 1:4, Cols 0:2
+  Col:       0             1             2       
+  Row
+  ---
+   1            21            11            12  
+   2            31            21            11  
+   3            41            31            21  
+   4            51            41            31  
+
+
+R8TO_RANDOM_TEST
+  R8TO_RANDOM randomizes an R8TO matrix.
+
+  Matrix order N = 5
+
+  The R8TO matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1      0.218418      0.956318      0.829509      0.561695      0.415307  
+   2     0.0661187      0.218418      0.956318      0.829509      0.561695  
+   3      0.257578     0.0661187      0.218418      0.956318      0.829509  
+   4      0.109957      0.257578     0.0661187      0.218418      0.956318  
+   5      0.043829      0.109957      0.257578     0.0661187      0.218418  
+
+
+R8TO_SL_TEST
+  R8TO_SL solves a Toeplitz system.
+
+  Matrix order N = 5
+
+  The Toeplitz matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1      0.218418      0.956318      0.829509      0.561695      0.415307  
+   2     0.0661187      0.218418      0.956318      0.829509      0.561695  
+   3      0.257578     0.0661187      0.218418      0.956318      0.829509  
+   4      0.109957      0.257578     0.0661187      0.218418      0.956318  
+   5      0.043829      0.109957      0.257578     0.0661187      0.218418  
+
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8TO_SLT_TEST
+  R8TO_SLT solves A'*x=b, where A is an R8TO matrix.
+
+  Matrix order N = 5
+
+  The Toeplitz matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1      0.218418      0.956318      0.829509      0.561695      0.415307  
+   2     0.0661187      0.218418      0.956318      0.829509      0.561695  
+   3      0.257578     0.0661187      0.218418      0.956318      0.829509  
+   4      0.109957      0.257578     0.0661187      0.218418      0.956318  
+   5      0.043829      0.109957      0.257578     0.0661187      0.218418  
+
+
+  Solution to transposed system:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8TO_TO_R8GE_TEST
+  R8TO_TO_R8GE converts a matrix from R8TO to R8GE format.
+
+  Matrix order N = 0
+
+  The R8TO matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1      0.218418      0.956318      0.829509      0.561695      0.415307  
+   2     0.0661187      0.218418      0.956318      0.829509      0.561695  
+   3      0.257578     0.0661187      0.218418      0.956318      0.829509  
+   4      0.109957      0.257578     0.0661187      0.218418      0.956318  
+   5      0.043829      0.109957      0.257578     0.0661187      0.218418  
+
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.956318      0.829509      0.561695      0.415307  
+    2     0.0661187      0.218418      0.956318      0.829509      0.561695  
+    3      0.257578     0.0661187      0.218418      0.956318      0.829509  
+    4      0.109957      0.257578     0.0661187      0.218418      0.956318  
+    5      0.043829      0.109957      0.257578     0.0661187      0.218418  
+
+R8TO_ZEROS_TEST
+  R8TO_SEROS zeros an R8TO matrix.
+
+  Matrix order N = 5
+
+  The R8TO matrix:
+  Col:       1             2             3             4             5       
+  Row
+  ---
+   1             0             0             0             0             0  
+   2             0             0             0             0             0  
+   3             0             0             0             0             0  
+   4             0             0             0             0             0  
+   5             0             0             0             0             0  
+
+
+R8TO_PRB
+  Normal end of execution.
+
+27 September 2015 08:57:21 AM

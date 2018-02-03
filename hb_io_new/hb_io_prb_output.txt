@@ -1,0 +1,51 @@
+08 November 2016 09:41:25 AM
+
+HB_IO_PRB
+  C++ version
+  Test the HB_IO library.
+ 
+TEST01
+  HB_HEADER_READ reads the header of an HB file.
+
+  Reading the file 'rua_32.txt'.
+
+1Real unsymmetric assembled matrix based on IBM32
+
+  TOTCRD = 36
+  PTRCRD = 3
+  INDCRD = 8
+  VALCRD = 13
+  RHSCRD = 12
+
+  KEY =    'RUA_32'.
+  MXTYPE = 'RUA'.
+  RHSTYP = 'FGX'.
+
+  NROW =   32
+  NCOL =   32
+  NNZERO = 126
+  NELTVL = 0
+  NRHS =   1
+  NRHSIX = 0
+
+  PTRFMT = '(16I5)'.
+  INDFMT = '(16I5)'.
+  VALFMT = '(10F7.1)'.
+  RHSFMT = '(10F7.1)'.
+ 
+TEST01
+  HB_HEADER_READ reads the header of an HB file.
+
+  Reading the file 'rse_5.txt'.
+
+1Real symmetic unassembled finite element matrix
+
+  TOTCRD = 4
+  PTRCRD = 1
+  INDCRD = 1
+  VALCRD = 2
+  RHSCRD = 0
+
+  KEY =    'RSE_5'.
+  MXTYPE = 'RSE'.
+  RHSTYP = '

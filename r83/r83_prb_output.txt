@@ -1,0 +1,453 @@
+08 September 2015 10:50:58 PM
+
+LINPLUS_PRB
+  C++ version
+  Test the LINPLUS library.
+
+R83_CG_TEST
+  R83_CG applies CG to an R83 matrix.
+  Matrix order is 10 by 10
+
+  Number of variables N = 10
+  Norm of residual ||Ax-b|| = 8.47455e-16
+  Norm of error ||x1-x2|| = 4.1616e-16
+
+R83_CR_FA_TEST:
+  R83_CR_FA factors an R83 matrix via cyclic reduction;
+  Matrix order is 10 by 10
+  The matrix is NOT symmetric.
+
+  The matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1:              4             2                                          
+     2:              1             8             3                            
+     3:                            2            12             4              
+     4:                                          3            16             5
+     5:                                                        4            20
+     6:                                                                      5
+
+  Col:       6             7             8             9            10       
+  Row
+  ---
+     5:              6                                                        
+     6:             24             7                                          
+     7:              6            28             8                            
+     8:                            7            32             9              
+     9:                                          8            36            10
+    10:                                                        9            40
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+     8               8
+     9               9
+    10              10
+
+R83_CR_SL_TEST:
+  R83_CR_SL solves an linear system with R83 matrix
+  that has been factored by R83_CR_FA.
+  Matrix order is 10 by 10
+  The matrix is NOT symmetric.
+
+  The matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1:              4             2                                          
+     2:              1             8             3                            
+     3:                            2            12             4              
+     4:                                          3            16             5
+     5:                                                        4            20
+     6:                                                                      5
+
+  Col:       6             7             8             9            10       
+  Row
+  ---
+     5:              6                                                        
+     6:             24             7                                          
+     7:              6            28             8                            
+     8:                            7            32             9              
+     9:                                          8            36            10
+    10:                                                        9            40
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+     8               8
+     9               9
+    10              10
+
+R83_CR_SLS_TEST
+  R83_CR_SLS solves multiple linear systems with R83 matrix
+  after the matrix has been factored by R83_CR_FA.
+  Matrix order is 5 by 5
+  Demonstrate multiple system solution method.
+
+  Solutions:
+
+  Col:          1             2       
+  Row
+  ---
+    1             1             1  
+    2             2             1  
+    3             3             1  
+    4             4             1  
+    5             5             1  
+
+R83_DIF2_TEST
+  R83_DIF2 sets up the second difference matrix.
+  Matrix order is 5 by 4
+
+  The R83 matrix:
+
+  Col:       1             2             3             4       
+  Row
+  ---
+     1:              2            -1                            
+     2:             -1             2            -1              
+     3:                           -1             2            -1
+     4:                                         -1             2
+     5:                                                       -1
+
+R83_GS_SL_TEST
+  R83_GS_SL solves a linear system using Gauss-Seidel iteration
+  for an R83 matrix.
+  Matrix order is 10 by 10
+  Iterations per call = 25
+
+
+  Current estimated solution:
+
+     1        0.634606
+     2          1.3265
+     3         2.09566
+     4         2.95451
+     5         3.90741
+     6         4.95088
+     7         6.07442
+     8          7.2619
+     9          8.4933
+    10         9.74665
+
+  Current estimated solution:
+
+     1        0.953567
+     2          1.9145
+     3         2.88533
+     4         3.86757
+     5         4.86173
+     6         5.86733
+     7         6.88302
+     8         7.90675
+     9         8.93599
+    10           9.968
+
+  Current estimated solution:
+
+     1        0.994126
+     2         1.98918
+     3         2.98549
+     4         3.98325
+     5         4.98251
+     6         5.98322
+     7          6.9852
+     8          7.9882
+     9          8.9919
+    10         9.99595
+
+R83_INDICATOR_TEST
+  R83_INDICATOR sets up an R83 indicator matrix.
+  Matrix order is 5 by 4
+
+  The R83 indicator matrix:
+
+  Col:       1             2             3             4       
+  Row
+  ---
+     1:             11            12                            
+     2:             21            22            23              
+     3:                           32            33            34
+     4:                                         43            44
+     5:                                                       54
+
+R83_JAC_SL_TEST
+  R83_JAC_SL solves a linear system using Jacobi iteration
+  for an R83 matrix.
+  Matrix order is 10 by 10
+  Iterations per call = 25
+
+
+  The right hand side:
+
+     1               0
+     2               0
+     3               0
+     4               0
+     5               0
+     6               0
+     7               0
+     8               0
+     9               0
+    10              11
+
+  Current estimated solution:
+
+     1        0.315171
+     2        0.727797
+     3         1.14042
+     4         1.82758
+     5         2.51474
+     6         3.59047
+     7          4.6662
+     8          6.1282
+     9          7.5902
+    10          9.2951
+
+  Current estimated solution:
+
+     1        0.757545
+     2         1.51509
+     3         2.34936
+     4         3.18363
+     5         4.14729
+     6         5.11094
+     7         6.21581
+     8         7.32068
+     9         8.53366
+    10         9.74665
+
+  Current estimated solution:
+
+     1        0.910021
+     2         1.83432
+     3         2.75863
+     4         3.72124
+     5         4.68386
+     6         5.69666
+     7         6.70946
+     8         7.76839
+     9         8.82731
+    10         9.91366
+
+R83_MTV_TEST
+  R83_MTV computes b=A'*x, where A is an R83 matrix.
+  We check three cases, M<N, M=N, M>N.
+
+  Product comparison:
+
+     0:        2.13105         2.13105
+     1:        3.19882         3.19882
+     2:       0.904971        0.904971
+     3:        0.32987         0.32987
+     4:              0               0
+
+  Product comparison:
+
+     0:        2.13105         2.13105
+     1:        3.19882         3.19882
+     2:         1.3448          1.3448
+     3:        2.97599         2.97599
+     4:        3.80469         3.80469
+
+  Product comparison:
+
+     0:        2.13105         2.13105
+     1:        3.19882         3.19882
+     2:         1.3448          1.3448
+
+R83_MV_TEST
+  R83_MV computes b=A*x, where A is an R83 matrix.
+  We check three cases, M<N, M=N, M>N.
+
+  Product comparison:
+
+     0:        1.87744         1.87744
+     1:        2.27806         2.27806
+     2:        2.04317         2.04317
+
+  Product comparison:
+
+     0:        1.87744         1.87744
+     1:        2.27806         2.27806
+     2:        1.77866         1.77866
+     3:        5.11343         5.11343
+     4:        2.25344         2.25344
+
+  Product comparison:
+
+     0:        1.87744         1.87744
+     1:        2.27806         2.27806
+     2:        1.60335         1.60335
+     3:        0.32987         0.32987
+     4:              0               0
+
+R83_PRINT_TEST
+  R83_PRINT prints an R83 matrix.
+  Matrix order is 5 by 4
+
+  The R83 matrix:
+
+  Col:       1             2             3             4       
+  Row
+  ---
+     1:             11            12                            
+     2:             21            22            23              
+     3:                           32            33            34
+     4:                                         43            44
+     5:                                                       54
+
+R83_PRINT_SOME_TEST
+  R83_PRINT prints some of an R83 matrix.
+  Matrix order is 5 by 5
+
+  Rows 1-4, Cols 1-3:
+
+  Col:       1             2             3       
+  Row
+  ---
+     1:             11            12              
+     2:             21            22            23
+     3:                           32            33
+     4:                                         43
+
+R83_RANDOM_TEST
+  R83_RANDOM randomizes an R83 matrix.
+  Matrix order is 4 by 4
+
+  The R83 matrix:
+
+  Col:       1             2             3             4       
+  Row
+  ---
+     1:       0.218418      0.829509                            
+     2:       0.956318      0.561695     0.0661187              
+     3:                     0.415307      0.257578      0.043829
+     4:                                   0.109957      0.633966
+     5:                                                0.0617272
+
+R83_RES_TEST
+  R83_RES computes b-A*x, where A is an R83 matrix.
+  We check three cases, M<N, M=N, M>N.
+
+  Residual A*x-b:
+
+     1               0
+     2               0
+     3               0
+
+  Residual A*x-b:
+
+     1               0
+     2               0
+     3               0
+     4               0
+     5               0
+
+  Residual A*x-b:
+
+     1               0
+     2               0
+     3               0
+     4               0
+     5               0
+
+R83_TO_R8GE_TEST
+  R83_TO_R8GE converts an R83 matrix to R8GE format.
+  We check three cases, M<N, M=N, M>N.
+
+  The R83 matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1:       0.218418      0.829509                                          
+     2:       0.956318      0.561695     0.0661187                            
+     3:                     0.415307      0.257578      0.109957              
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.829509             0             0             0  
+    2      0.956318      0.561695     0.0661187             0             0  
+    3             0      0.415307      0.257578      0.109957             0  
+
+  The R83 matrix:
+
+  Col:       1             2             3             4             5       
+  Row
+  ---
+     1:       0.218418      0.829509                                          
+     2:       0.956318      0.561695     0.0661187                            
+     3:                     0.415307      0.257578      0.043829              
+     4:                                   0.109957      0.633966      0.449539
+     5:                                                0.0617272      0.401306
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.829509             0             0             0  
+    2      0.956318      0.561695     0.0661187             0             0  
+    3             0      0.415307      0.257578      0.043829             0  
+    4             0             0      0.109957      0.633966      0.449539  
+    5             0             0             0     0.0617272      0.401306  
+
+  The R83 matrix:
+
+  Col:       1             2             3       
+  Row
+  ---
+     1:       0.218418      0.829509              
+     2:       0.956318      0.561695     0.0661187
+     3:                     0.415307      0.257578
+     4:                                   0.109957
+
+  The R8GE matrix:
+
+  Col:          1             2             3       
+  Row
+  ---
+    1      0.218418      0.829509             0  
+    2      0.956318      0.561695     0.0661187  
+    3             0      0.415307      0.257578  
+    4             0             0      0.109957  
+    5             0             0             0  
+
+R83_ZEROS_TEST
+  R83_ZEROS zeros an R83 matrix.
+  Matrix order is 4 by 4
+
+  The R83 matrix:
+
+  Col:       1             2             3             4       
+  Row
+  ---
+     1:              0             0                            
+     2:              0             0             0              
+     3:                            0             0             0
+     4:                                          0             0
+     5:                                                        0
+
+LINPLUS_PRB
+  Normal end of execution.
+
+08 September 2015 10:50:58 PM

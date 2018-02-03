@@ -1,0 +1,223 @@
+<html>
+
+  <head>
+    <title>
+      NINT_EXACTNESS_MIXED - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      NINT_EXACTNESS_MIXED <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>NINT_EXACTNESS_MIXED</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>NINT_EXACTNESS_MIXED</b> is available in...
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "nint_exactness_mixed.cpp">nint_exactness_mixed.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "nint_exactness_mixed.hpp">nint_exactness_mixed.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "nint_exactness_mixed.sh">nint_exactness_mixed.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "nint_exactness_mixed_prb.cpp">nint_exactness_mixed_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "nint_exactness_mixed_prb.sh">nint_exactness_mixed_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "nint_exactness_mixed_prb_output.txt">nint_exactness_mixed_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>MAIN</b> is the main program for NINT_EXACTNESS_MIXED.
+        </li>
+        <li>
+          <b>CH_CAP</b> capitalizes a single character.
+        </li>
+        <li>
+          <b>CH_EQI</b> is true if two characters are equal, disregarding case.
+        </li>
+        <li>
+          <b>CH_TO_DIGIT</b> returns the integer value of a base 10 digit.
+        </li>
+        <li>
+          <b>COMP_NEXT</b> computes the compositions of the integer N into K parts.
+        </li>
+        <li>
+          <b>FILE_COLUMN_COUNT</b> counts the columns in the first line of a file.
+        </li>
+        <li>
+          <b>FILE_ROW_COUNT</b> counts the number of row records in a file.
+        </li>
+        <li>
+          <b>MONOMIAL_INTEGRAL_GENERALIZED_HERMITE</b> evaluates a 1D monomial generalized Hermite integral.
+        </li>
+        <li>
+          <b>MONOMIAL_INTEGRAL_GENERALIZED_LAGUERRE</b> evaluates a 1D monomial generalized Laguerre integral.
+        </li>
+        <li>
+          <b>MONOMIAL_INTEGRAL_HERMITE</b> evaluates a 1D monomial Hermite integral.
+        </li>
+        <li>
+          <b>MONOMIAL_INTEGRAL_JACOBI</b> evaluates the integral of a monomial with Jacobi weight.
+        </li>
+        <li>
+          <b>MONOMIAL_INTEGRAL_LAGUERRE</b> evaluates a 1D monomial Laguerre integral.
+        </li>
+        <li>
+          <b>MONOMIAL_INTEGRAL_LEGENDRE</b> evaluates a 1D monomial Legendre integral.
+        </li>
+        <li>
+          <b>MONOMIAL_INTEGRAL_MIXED</b> evaluates a multi-D monomial mixed integral.
+        </li>
+        <li>
+          <b>MONOMIAL_QUADRATURE</b> applies a quadrature rule to a monomial.
+        </li>
+        <li>
+          <b>MONOMIAL_VALUE</b> evaluates a monomial.
+        </li>
+        <li>
+          <b>R8_ABS</b> returns the absolute value of an R8.
+        </li>
+        <li>
+          <b>R8_FACTORIAL</b> computes the factorial of N.
+        </li>
+        <li>
+          <b>R8_FACTORIAL2</b> computes the double factorial function.
+        </li>
+        <li>
+          <b>R8_GAMMA</b> evaluates Gamma(X) for a real argument.
+        </li>
+        <li>
+          <b>R8_HUGE</b> returns a "huge" R8.
+        </li>
+        <li>
+          <b>R8_HYPER_2F1</b> evaluates the hypergeometric function F(A,B,C,X).
+        </li>
+        <li>
+          <b>R8_PSI</b> evaluates the function Psi(X).
+        </li>
+        <li>
+          <b>R8MAT_DATA_READ</b> reads the data from an R8MAT file.
+        </li>
+        <li>
+          <b>R8MAT_HEADER_READ</b> reads the header from an R8MAT file.
+        </li>
+        <li>
+          <b>R8VEC_DOT</b> computes the dot product of a pair of R8VEC's.
+        </li>
+        <li>
+          <b>S_LEN_TRIM</b> returns the length of a string to the last nonblank.
+        </li>
+        <li>
+          <b>S_TO_I4</b> reads an I4 from a string.
+        </li>
+        <li>
+          <b>S_TO_R8</b> reads an R8 from a string.
+        </li>
+        <li>
+          <b>S_TO_R8VEC</b> reads an R8VEC from a string.
+        </li>
+        <li>
+          <b>S_WORD_COUNT</b> counts the number of "words" in a string.
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Sun Aug 26 12:01:25 2012
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

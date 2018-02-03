@@ -1,0 +1,333 @@
+<html>
+
+  <head>
+    <title>
+      R8GE - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      R8GE <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>R8GE</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>R8GE</b> is available in
+      <a href = "../../cpp_src/r8ge/r8ge.html">a C++ version</a>.
+    </p>
+
+    <h3 align = "center">
+      Related Software and Data:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "r8ge.cpp">r8ge.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "r8ge.hpp">r8ge.hpp</a>, the include file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "r8ge_prb.cpp">r8ge_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "r8ge_prb_output.txt">r8ge_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>I4_LOG_10</b> returns the integer part of the logarithm base 10 of ABS(X).
+        </li>
+        <li>
+          <b>I4_MAX</b> returns the maximum of two I4's.
+        </li>
+        <li>
+          <b>I4_MIN</b> returns the minimum of two I4's.
+        </li>
+        <li>
+          <b>I4_POWER</b> returns the value of I^J.
+        </li>
+        <li>
+          <b>I4_UNIFORM_AB</b> returns a scaled pseudorandom I4 between A and B.
+        </li>
+        <li>
+          <b>I4VEC_PRINT</b> prints an I4VEC.
+        </li>
+        <li>
+          <b>R8_MAX</b> returns the maximum of two R8s.
+        </li>
+        <li>
+          <b>R8_SIGN</b> returns the sign of an R8.
+        </li>
+        <li>
+          <b>R8_UNIFORM_01</b> returns a unit pseudorandom R8.
+        </li>
+        <li>
+          <b>R8_UNIFORM_AB</b> returns a scaled pseudorandom R8.
+        </li>
+        <li>
+          <b>R8GE_CG</b> uses the conjugate gradient method on an R8GE system.
+        </li>
+        <li>
+          <b>R8GE_CO</b> factors an R8GE matrix and estimates its condition number.
+        </li>
+        <li>
+          <b>R8GE_COPY</b> copies one R8GE to a "new" R8GE.
+        </li>
+        <li>
+          <b>R8GE_COPY_NEW</b> copies one R8GE to a "new" R8GE.
+        </li>
+        <li>
+          <b>R8GE_DET</b> computes the determinant of a matrix factored by R8GE_FA or R8GE_TRF.
+        </li>
+        <li>
+          <b>R8GE_DIF2</b> returns the DIF2 matrix in R8GE format.
+        </li>
+        <li>
+          <b>R8GE_DILU</b> produces the diagonal incomplete LU factor of an R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_FA</b> performs a LINPACK-style PLU factorization of an R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_FS</b> factors and solves an R8GE system.
+        </li>
+        <li>
+          <b>R8GE_FS_NEW</b> factors and solves an R8GE system.
+        </li>
+        <li>
+          <b>R8GE_FSS</b> factors and solves multiple R8GE systems.
+        </li>
+        <li>
+          <b>R8GE_FSS_NEW</b> factors and solves multiple R8GE systems.
+        </li>
+        <li>
+          <b>R8GE_HILBERT</b> returns the Hilbert matrix.
+        </li>
+        <li>
+          <b>R8GE_HILBERT_INVERSE</b> returns the inverse of the HILBERT matrix.
+        </li>
+        <li>
+          <b>R8GE_IDENTITY</b> sets an R8GE matrix to the identity.
+        </li>
+        <li>
+          <b>R8GE_IDENTITY_NEW</b> sets an R8GE matrix to the identity.
+        </li>
+        <li>
+          <b>R8GE_ILU</b> produces the incomplete LU factors of an R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_INDICATOR</b> sets up an R8GE indicator matrix.
+        </li>
+        <li>
+          <b>R8GE_INVERSE</b> computes the inverse of an R8GE matrix factored by R8GE_FA.
+        </li>
+        <li>
+          <b>R8GE_ML</b> computes A * x or A' * x, using R8GE_FA factors.
+        </li>
+        <li>
+          <b>R8GE_MU</b> computes A * x or A' * x, using R8GE_TRF factors.
+        </li>
+        <li>
+          <b>R8GE_MM_NEW</b> multiplies two matrices.
+        </li>
+        <li>
+          <b>R8GE_MTM_NEW</b> computes C = A' * B.
+        </li>
+        <li>
+          <b>R8GE_MTV</b> multiplies a vector times an R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_MV</b> multiplies an R8GE matrix times a vector.
+        </li>
+        <li>
+          <b>R8GE_PLU</b> produces the PLU factors of an R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_POLY</b> computes the characteristic polynomial of an R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_PRINT</b> prints an R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_PRINT_SOME</b> prints some of an R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_RANDOM</b> randomizes an R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_RES</b> computes the residual for an R8GE system.
+        </li>
+        <li>
+          <b>R8GE_SL</b> solves an R8GE system factored by R8GE_FA.
+        </li>
+        <li>
+          <b>R8GE_SL_IT</b> applies one step of iterative refinement following R8GE_SL.
+        </li>
+        <li>
+          <b>R8GE_SL_NEW</b> solves an R8GE system factored by R8GE_FA.
+        </li>
+        <li>
+          <b>R8GE_TO_R8GB</b> copies an R8GE matrix to an R8GB matrix.
+        </li>
+        <li>
+          <b>R8GE_TO_R8LT</b> copies an R8GE matrix to an R8LT matrix.
+        </li>
+        <li>
+          <b>R8GE_TO_R8PO</b> copies an R8GE matrix to an R8PO matrix.
+        </li>
+        <li>
+          <b>R8GE_TO_R8RI</b> converts an R8GE matrix to R8RI form.
+        </li>
+        <li>
+          <b>R8GE_TO_R8RI_SIZE</b> determines the size of an R8RI matrix.
+        </li>
+        <li>
+          <b>R8GE_TO_R8UT</b> copies an R8GE matrix to an R8UT matrix.
+        </li>
+        <li>
+          <b>R8GE_TO_R8VEC</b> copies an R8GE matrix to a real vector.
+        </li>
+        <li>
+          <b>R8GE_TO_R8VM</b> converts an R8GE matrix to an R8VM matrix.
+        </li>
+        <li>
+          <b>R8GE_TRANSPOSE_NEW</b> returns the transpose of an R8GE.
+        </li>
+        <li>
+          <b>R8GE_TRANSPOSE_PRINT</b> prints an R8GE, transposed.
+        </li>
+        <li>
+          <b>R8GE_TRANSPOSE_PRINT_SOME</b> prints some of an R8GE, transposed.
+        </li>
+        <li>
+          <b>R8GE_TRF</b> performs a LAPACK-style PLU factorization of an R8GE matrix.
+        </li>
+        <li>
+          <b>R8GE_TRS</b> solves a system of linear equations factored by R8GE_TRF.
+        </li>
+        <li>
+          <b>R8GE_ZEROS</b> zeros an R8GE matrix.
+        </li>
+        <li>
+          <b>R8VEC_DOT_PRODUCT</b> computes the dot product of two R8VEC's.
+        </li>
+        <li>
+          <b>R8VEC_INDICATOR1_NEW</b> sets an R8VEC to the indicator1 vector {1,2,3...}.
+        </li>
+        <li>
+          <b>R8VEC_NORM</b> returns the L2 norm of an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_NORM_AFFINE</b> returns the affine L2 norm of an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_PRINT</b> prints an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_PRINT_SOME</b> prints "some" of an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_TO_R8GE</b> copies an R8VEC into an R8GE matrix.
+        </li>
+        <li>
+          <b>R8VEC_UNIFORM_01_NEW</b> returns a new unit pseudorandom R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_UNIFORM_AB_NEW</b> returns a scaled pseudorandom R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_ZEROS_NEW</b> creates and zeroes an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC2_PRINT</b> prints an R8VEC2.
+        </li>
+        <li>
+          <b>R8VEC2_PRINT_SOME</b> prints "some" of two real vectors.
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Tue Feb  9 15:12:33 2016
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

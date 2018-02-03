@@ -1,0 +1,31 @@
+20 January 2016 08:44:49 PM
+
+TRIANGLE_INTERPOLATE_TEST
+  C++ version
+  Test the TRIANGLE_INTERPOLATE library.
+
+TRIANGLE_INTERPOLATE_LINEAR_TEST
+  TRIANGLE_INTERPOLATE_LINEAR uses linear interpolation
+  on vertex data to estimate values in the interior.
+
+       X               Y               V(1)            V(2)            V(3)
+
+               0               1               1               0               0
+               5               0               0               1               0
+               4               4               0               0               1
+
+         4.67598        0.876463       0.0220851         0.76432        0.213595
+         2.73728         1.17889        0.250537        0.127777        0.621687
+         1.57257         1.01005        0.742864        0.150345         0.10679
+         0.34337           3.311        0.668403        0.246185       0.0854121
+         3.99497         1.52577         0.20378        0.761322       0.0348975
+         1.09386         2.42968        0.329523         0.62909       0.0413867
+        0.572425        0.927439        0.131281        0.520097        0.348623
+         0.76432        0.213595        0.957124      0.00869157       0.0341847
+        0.127777        0.621687        0.407757       0.0607026        0.531541
+        0.150345         0.10679        0.883309        0.105659       0.0110326
+
+TRIANGLE_INTERPOLATE_TEST:
+  Normal end of execution.
+
+20 January 2016 08:44:49 PM

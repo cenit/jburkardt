@@ -1,0 +1,1530 @@
+09 February 2016 03:11:31 PM
+
+LINPLUS_PRB
+  C++ version
+  Test the LINPLUS library.
+
+I4_LOG_10_TEST
+  I4_LOG_10: whole part of log base 10,
+
+     X     I4_LOG_10(X)
+
+       0       0
+       1       0
+       2       0
+       3       0
+       9       0
+      10       1
+      11       1
+      99       1
+     101       2
+      -1       0
+      -2       0
+      -3       0
+      -9       0
+
+I4_MAX_TEST
+  I4_MAX returns the maximum of two I4's.
+
+       A       B      C=I4_MAX(A,B)
+
+       -57        92        92
+        66        12        66
+       -17       -87       -17
+       -49       -78       -49
+       -92        27        27
+       -88       -10       -10
+       -20        51        51
+        60      -100        60
+        80       -30        80
+       -81       -98       -81
+
+I4_MIN_TEST
+  I4_MIN returns the minimum of two I4's.
+
+       A       B      C=I4_MIN(A,B)
+
+       -57        92       -57
+        66        12        12
+       -17       -87       -87
+       -49       -78       -78
+       -92        27       -92
+       -88       -10       -88
+       -20        51       -20
+        60      -100      -100
+        80       -30       -30
+       -81       -98       -98
+
+I4_POWER_TEST
+  I4_POWER computes I^J
+
+         I       J  I4_POWER(I,J)
+
+         0         1         0
+         1         2         1
+         2         3         8
+         3         3        27
+        10         3      1000
+        -1         4         1
+        -2         5       -32
+
+I4_UNIFORM_AB_TEST
+  I4_UNIFORM_AB computes pseudorandom values
+  in an interval [A,B].
+
+  The lower endpoint A = -100
+  The upper endpoint B = 200
+  The initial seed is 123456789
+
+         1       -35
+         2       187
+         3       149
+         4        69
+         5        25
+         6       -81
+         7       -23
+         8       -67
+         9       -87
+        10        90
+        11       -82
+        12        35
+        13        20
+        14       127
+        15       139
+        16      -100
+        17       170
+        18         5
+        19       -72
+        20       -96
+
+I4VEC_PRINT_TEST
+  I4VEC_PRINT prints an I4VEC
+
+  Here is the I4VEC:
+
+     1      91
+     2      92
+     3      93
+     4      94
+
+R8_MAX_TEST
+  R8_MAX returns the maximum of two R8's.
+
+       A       B      C=R8_MAX(A,B)
+
+  -2.81582   4.56318   4.56318
+   3.29509  0.616954   3.29509
+  -0.846929  -4.33881  -0.846929
+  -2.42422  -3.90043  -2.42422
+  -4.56171   1.33966   1.33966
+  -4.38273  -0.50461  -0.50461
+  -0.986937   2.54673   2.54673
+   2.97287  -4.98162   2.97287
+   3.97504  -1.49248   3.97504
+  -4.05455  -4.86383  -4.05455
+
+R8_SIGN_TEST
+  R8_SIGN returns the sign of an R8.
+
+      R8      R8_SIGN(R8)
+
+     -1.25          -1
+     -0.25          -1
+         0           1
+       0.5           1
+         9           1
+
+R8_UNIFORM_01_TEST
+  R8_UNIFORM_01 samples a uniform random distribution in [0,1].
+  distributed random numbers.
+  Using initial random number seed = 123456789
+
+  First few values:
+
+       0        0.218418
+       1        0.956318
+       2        0.829509
+       3        0.561695
+       4        0.415307
+       5       0.0661187
+       6        0.257578
+       7        0.109957
+       8        0.043829
+       9        0.633966
+
+R8_UNIFORM_AB_TEST
+  R8_UNIFORM_AB produces a random real in a given range.
+
+  Using range 10 <= A <= 25.
+
+
+      I       A
+
+     0     10.002
+     1    13.5421
+     2    22.6794
+     3    21.9558
+     4    10.8556
+     5    20.8346
+     6    21.9964
+     7    18.1105
+     8    18.2206
+     9    23.3467
+
+R8GE_CG_TEST:
+  R8GE_CG applies CG to an R8GE matrix.
+
+  Number of variables N = 10
+  Norm of residual ||Ax-b|| = 369096
+  Norm of error ||x1-x2|| = 198685
+
+R8GE_CO_TEST
+  For a matrix in general storage,
+  R8GE_CO estimates the condition number.
+
+  Matrix order N = 4
+
+  The L1 condition number is 10
+
+  The R8GE_CO estimate is     7
+
+R8GE_COPY_NEW_TEST
+  R8GE_COPY_NEW makes a copy of an R8GE.
+
+  Matrix rows M =    7
+  Matrix columns N = 5
+
+  The matrix A:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            12            13            14            15  
+    2            21            22            23            24            25  
+    3            31            32            33            34            35  
+    4            41            42            43            44            45  
+    5            51            52            53            54            55  
+    6            61            62            63            64            65  
+    7            71            72            73            74            75  
+
+  The copied matrix B:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            12            13            14            15  
+    2            21            22            23            24            25  
+    3            31            32            33            34            35  
+    4            41            42            43            44            45  
+    5            51            52            53            54            55  
+    6            61            62            63            64            65  
+    7            71            72            73            74            75  
+
+R8GE_DET_TEST
+  R8GE_DET, determinant of an R8GE matrix.
+
+  R8GE_DET computes the determinant = 112
+  Correct determinant =               112
+
+R8GE_DIF2_TEST
+  R8GE_DIF2 sets up a second difference matrix.
+
+  Matrix rows M =    7
+  Matrix columns N = 5
+
+  The second difference matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             2             2             0             0             0  
+    2            -1            22            -1             0             0  
+    3             0            -1            33            -1             0  
+    4             0             0            -1            44            -1  
+    5             0             0             0            -1            55  
+    6             0             0             0             0            -1  
+    7             0             0             0             0             0  
+
+R89GE_DILU_TEST
+  R8GE_DILU returns the DILU factors of an R8GE matrix.
+
+  Matrix rows M =    9
+  Matrix columns N = 9
+
+  Matrix A:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             4            -1             0            -1             0  
+    2            -1             4            -1             0            -1  
+    3             0            -1             4            -1             0  
+    4            -1             0            -1             4            -1  
+    5             0            -1             0            -1             4  
+    6             0             0            -1             0            -1  
+    7             0             0             0            -1             0  
+    8             0             0             0             0            -1  
+    9             0             0             0             0             0  
+
+  Col:          6             7             8             9       
+  Row
+  ---
+    1             0             0             0             0  
+    2             0             0             0             0  
+    3            -1             0             0             0  
+    4             0            -1             0             0  
+    5            -1             0            -1             0  
+    6             4            -1             0            -1  
+    7            -1             4            -1             0  
+    8             0            -1             4            -1  
+    9            -1             0            -1             4  
+
+  DILU factor of A:
+
+     1            0.25
+     2        0.266667
+     3        0.267857
+     4        0.287179
+     5        0.290179
+     6        0.290532
+     7        0.292202
+     8        0.292601
+     9        0.292666
+
+R8GE_FA_TEST
+  R8GE_FA factors a general linear system so that it can be
+  solved by R8GE_SL.
+
+  Matrix order N = 5
+
+  Random matrix A:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418     0.0661187     0.0617272    0.00183837      0.859097  
+    2      0.956318      0.257578      0.449539      0.897504      0.840847  
+    3      0.829509      0.109957      0.401306      0.350752      0.123104  
+    4      0.561695      0.043829      0.754673     0.0945448    0.00751236  
+    5      0.415307      0.633966      0.797287     0.0136169      0.260303  
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Solution:
+
+     1               1
+     2               1
+     3               1
+     4               1
+     5               1
+
+  Solution of transposed system:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8GE_FS_NEW_TESST
+  R8GE_FS_NEW factors and solves a linear system.
+
+  Matrix order N = 10
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+     8               8
+     9               9
+    10              10
+
+R8GE_FSS_NEW_TEST
+  R8GE_FSS_NEW factors and solves multiple linear systems.
+
+  Matrix order N = 10
+  Number of systems NB = 3
+
+  Solutions:
+
+  Col:          1             2             3       
+  Row
+  ---
+    1             1             1             1  
+    2             1             2             2  
+    3             1             3             3  
+    4             1             4             1  
+    5             1             5             2  
+    6             1             6             3  
+    7             1             7             1  
+    8             1             8             2  
+    9             1             9             3  
+   10             1            10             1  
+
+R8GE_HILBERT_TEST
+  R8GE_HILBERT sets up a Hilbert matrix.
+
+  Matrix rows M =    7
+  Matrix columns N = 5
+
+  The Hilbert matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             1           0.5      0.333333          0.25           0.2  
+    2           0.5      0.333333          0.25           0.2      0.166667  
+    3      0.333333          0.25           0.2      0.166667      0.142857  
+    4          0.25           0.2      0.166667      0.142857         0.125  
+    5           0.2      0.166667      0.142857         0.125      0.111111  
+    6      0.166667      0.142857         0.125      0.111111           0.1  
+    7      0.142857         0.125      0.111111           0.1     0.0909091  
+
+R8GE_HILBERT_INVERSE_TEST
+  R8GE_HILBERT_INVERSE sets up the Hilbert matrix inverse.
+
+  The Hilbert matrix A:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1             1           0.5      0.333333          0.25  
+    2           0.5      0.333333          0.25           0.2  
+    3      0.333333          0.25           0.2      0.166667  
+    4          0.25           0.2      0.166667      0.142857  
+
+  The inverse Hilbert matrix B:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1            16          -120           240          -140  
+    2          -120          1200         -2700          1680  
+    3           240         -2700          6480         -4200  
+    4          -140          1680         -4200          2800  
+
+  C = A * B:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1             1             0             0             0  
+    2             0             1             0             0  
+    3             0             0             1  -5.68434e-14  
+    4             0             0             0             1  
+
+R8GE_IDENTITY_NEW_TEST
+  R8GE_IDENTITY_NEW sets up an identity matrix.
+
+  Matrix rows M =    7
+  Matrix columns N = 5
+
+  The identity matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             1             0             0             0             0  
+    2             0             1             0             0             0  
+    3             0             0             1             0             0  
+    4             0             0             0             1             0  
+    5             0             0             0             0             1  
+    6             0             0             0             0             0  
+    7             0             0             0             0             0  
+
+R8GE_ILU_TEST
+  R8GE_ILU returns the ILU factors of an R8GE matrix.
+
+  Matrix rows M =    9
+  Matrix columns N = 9
+
+  Matrix A:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             4            -1             0            -1             0  
+    2            -1             4            -1             0            -1  
+    3             0            -1             4            -1             0  
+    4            -1             0            -1             4            -1  
+    5             0            -1             0            -1             4  
+    6             0             0            -1             0            -1  
+    7             0             0             0            -1             0  
+    8             0             0             0             0            -1  
+    9             0             0             0             0             0  
+
+  Col:          6             7             8             9       
+  Row
+  ---
+    1             0             0             0             0  
+    2             0             0             0             0  
+    3            -1             0             0             0  
+    4             0            -1             0             0  
+    5            -1             0            -1             0  
+    6             4            -1             0            -1  
+    7            -1             4            -1             0  
+    8             0            -1             4            -1  
+    9            -1             0            -1             4  
+
+  Factor L:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             1             0             0             0             0  
+    2         -0.25             1             0             0             0  
+    3             0     -0.266667             1             0             0  
+    4         -0.25             0     -0.267857             1             0  
+    5             0     -0.266667             0     -0.287179             1  
+    6             0             0     -0.267857             0     -0.290179  
+    7             0             0             0     -0.287179             0  
+    8             0             0             0             0     -0.290179  
+    9             0             0             0             0             0  
+
+  Col:          6             7             8             9       
+  Row
+  ---
+    1             0             0             0             0  
+    2             0             0             0             0  
+    3             0             0             0             0  
+    4             0             0             0             0  
+    5             0             0             0             0  
+    6             1             0             0             0  
+    7     -0.290532             1             0             0  
+    8             0     -0.292202             1             0  
+    9     -0.290532             0     -0.292601             1  
+
+  Factor U:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             4            -1             0            -1             0  
+    2             0          3.75            -1             0            -1  
+    3             0             0       3.73333            -1             0  
+    4             0             0             0       3.48214            -1  
+    5             0             0             0             0       3.44615  
+    6             0             0             0             0             0  
+    7             0             0             0             0             0  
+    8             0             0             0             0             0  
+    9             0             0             0             0             0  
+
+  Col:          6             7             8             9       
+  Row
+  ---
+    1             0             0             0             0  
+    2             0             0             0             0  
+    3            -1             0             0             0  
+    4             0            -1             0             0  
+    5            -1             0            -1             0  
+    6       3.44196            -1             0            -1  
+    7             0       3.42229            -1             0  
+    8             0             0       3.41762            -1  
+    9             0             0             0       3.41687  
+
+  Product L*U:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             4            -1             0            -1             0  
+    2            -1             4            -1          0.25            -1  
+    3             0            -1             4            -1      0.266667  
+    4            -1          0.25            -1             4            -1  
+    5             0            -1      0.266667            -1             4  
+    6             0             0            -1      0.267857            -1  
+    7             0             0             0            -1      0.287179  
+    8             0             0             0             0            -1  
+    9             0             0             0             0             0  
+
+  Col:          6             7             8             9       
+  Row
+  ---
+    1             0             0             0             0  
+    2             0             0             0             0  
+    3            -1             0             0             0  
+    4      0.267857            -1             0             0  
+    5            -1      0.287179            -1             0  
+    6             4            -1      0.290179            -1  
+    7            -1             4            -1      0.290532  
+    8      0.290179            -1             4            -1  
+    9            -1      0.290532            -1             4  
+
+R8GE_INDICATOR_TEST
+  R8GE_INDICATOR sets up an indicator matrix.
+
+  Matrix rows M =    7
+  Matrix columns N = 5
+
+  The R8GE indicator matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            12            13            14            15  
+    2            21            22            23            24            25  
+    3            31            32            33            34            35  
+    4            41            42            43            44            45  
+    5            51            52            53            54            55  
+    6            61            62            63            64            65  
+    7            71            72            73            74            75  
+
+R8GE_INVERSE_TEST
+  R8GE_INVERSE inverts an R8GE matrix.
+
+  Matrix order N = 4
+
+  Matrix A:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1             5             3             3             3  
+    2             3             5             3             3  
+    3             3             3             5             3  
+    4             3             3             3             5  
+
+  Inverse matrix B:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1      0.392857     -0.107143     -0.107143     -0.107143  
+    2     -0.107143      0.392857     -0.107143     -0.107143  
+    3     -0.107143     -0.107143      0.392857     -0.107143  
+    4     -0.107143     -0.107143     -0.107143      0.392857  
+
+  Product matrix:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1             1  -1.11022e-16             0             0  
+    2   3.33067e-16             1             0             0  
+    3   4.44089e-16  -1.11022e-16             1             0  
+    4   4.44089e-16  -1.11022e-16   1.11022e-16             1  
+
+R8GE_ML_TEST
+  R8GE_ML computes A*x or A'*X
+  where A has been factored by R8GE_FA.
+
+  Matrix order N = 10
+
+  A*x and PLU*x
+
+     1         32.6597         32.6597
+     2         30.7617         30.7617
+     3          20.173          20.173
+     4         24.1126         24.1126
+     5         30.7597         30.7597
+     6         32.7342         32.7342
+     7         28.0252         28.0252
+     8         28.3091         28.3091
+     9         28.7501         28.7501
+    10         17.3141         17.3141
+
+  A'*x and (PLU)'*x
+
+     1          29.518          29.518
+     2         34.2533         34.2533
+     3         29.9813         29.9813
+     4         25.9818         25.9818
+     5         28.7133         28.7133
+     6          28.373          28.373
+     7         33.4872         33.4872
+     8         26.6124         26.6124
+     9         24.8414         24.8414
+    10          26.539          26.539
+
+R8GE_MM_NEW_TEST
+  R8GE_MM_NEW computes a matrix-matrix product C = A * B.
+
+  A:
+
+  Col:          1             2             3       
+  Row
+  ---
+    1             1             0             0  
+    2             1             1             0  
+    3             1             2             1  
+    4             1             3             3  
+
+  B:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1             1             1             1             1  
+    2             0             1             2             3  
+    3             0             0             1             3  
+
+  C = A*B:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1             1             1             1             1  
+    2             1             2             3             4  
+    3             1             3             6            10  
+    4             1             4            10            19  
+
+R8GE_MTM_NEW_TEST
+  R8GE_MTM_NEW computes a matrix-transpose-matrix product C = A' * B.
+
+  A:
+
+  Col:          1             2             3       
+  Row
+  ---
+    1             1             0             0  
+    2             1             1             0  
+    3             1             2             1  
+    4             1             3             3  
+
+  B:
+
+  Col:          1             2             3       
+  Row
+  ---
+    1             1             0             0  
+    2             1             1             0  
+    3             1             2             1  
+    4             1             3             3  
+
+  C = A'*B:
+
+  Col:          1             2             3       
+  Row
+  ---
+    1             4             6             4  
+    2             6            14            11  
+    3             4            11            10  
+
+R8GE_MTV_TEST
+  R8GE_MTV computes a product b=A'*x for an R8GE matrix.
+
+  The R8GE matrix A:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1            11            12            13            14  
+    2            21            22            23            24  
+    3            31            32            33            34  
+    4            41            42            43            44  
+    5            51            52            53            54  
+
+  Vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Vector b = A'*x:
+
+     1             565
+     2             580
+     3             595
+     4             610
+
+R8GE_MU_TEST
+  R8GE_MU computes A*x or A'*X
+  where A has been factored by R8GE_TRF.
+
+  Matrix rows M =    5
+  Matrix columns N = 3
+
+  A*x and PLU*x
+
+     1        0.535837        0.535837
+     2         2.82009         2.82009
+     3         2.25334         2.25334
+     4         2.91337         2.91337
+     5          4.0751          4.0751
+
+  Matrix rows M =    5
+  Matrix columns N = 3
+
+  A'*x and (PLU)'*x
+
+     1         3.29537         3.29537
+     2         4.24167         4.24167
+     3         6.82191         6.82191
+
+  Matrix rows M =    3
+  Matrix columns N = 5
+
+  A*x and PLU*x
+
+     1          5.9938          5.9938
+     2          8.7752          8.7752
+     3         5.78077         5.78077
+
+  Matrix rows M =    3
+  Matrix columns N = 5
+
+  A'*x and (PLU)'*x
+
+     1         1.84787         1.84787
+     2         2.65991         2.65991
+     3         3.22133         3.22133
+     4         4.06077         4.06077
+     5         3.50791         3.50791
+
+R8GE_MV_TEST
+  R8GE_MV computes a product b=A*x for an R8GE matrix.
+
+  The R8GE matrix A:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1            11            12            13            14  
+    2            21            22            23            24  
+    3            31            32            33            34  
+    4            41            42            43            44  
+    5            51            52            53            54  
+
+  Vector x:
+
+     1               1
+     2               2
+     3               3
+     4               4
+
+  Vector b = A*x:
+
+     1             130
+     2             230
+     3             330
+     4             430
+     5             530
+
+R8GE_PLU_TEST
+  For a matrix in general storage,
+  R8GE_PLU returns the PLU factors of a matrix.
+
+  Matrix rows M =    5
+  Matrix columns N = 4
+
+  Matrix A:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1      0.218418     0.0661187     0.0617272    0.00183837  
+    2      0.956318      0.257578      0.449539      0.897504  
+    3      0.829509      0.109957      0.401306      0.350752  
+    4      0.561695      0.043829      0.754673     0.0945448  
+    5      0.415307      0.633966      0.797287     0.0136169  
+
+  Factor P:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             0             0             0             0             1  
+    2             1             0             0             0             0  
+    3             0             0             0             1             0  
+    4             0             0             1             0             0  
+    5             0             1             0             0             0  
+
+  Factor L:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             1             0             0             0             0  
+    2      0.434277             1             0             0             0  
+    3      0.587352      -0.20582             1             0             0  
+    4      0.867399     -0.217324      0.231419             1             0  
+    5      0.228395     0.0139612    -0.0803036             0             1  
+
+  Factor U:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1      0.956318      0.257578      0.449539      0.897504  
+    2             0      0.522106      0.602062     -0.376149  
+    3             0             0      0.614552     -0.510026  
+    4             0             0             0     -0.391459  
+    5             0             0             0     -0.238853  
+
+  Product P*L*U:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1      0.218418     0.0661187     0.0617272    0.00183837  
+    2      0.956318      0.257578      0.449539      0.897504  
+    3      0.829509      0.109957      0.401306      0.350752  
+    4      0.561695      0.043829      0.754673     0.0945448  
+    5      0.415307      0.633966      0.797287     0.0136169  
+
+R8GE_POLY_TEST
+  R8GE_POLY computes the characteristic polynomial
+  for a matrix in general storage.
+
+  Matrix order N = 12
+
+I, P(I), True P(I)
+
+     1               1               1
+     2             -23             -23
+     3             231             231
+     4           -1330           -1330
+     5            4845            4845
+     6          -11628          -11628
+     7           18564           18564
+     8          -19448          -19448
+......  ..............  ..............
+    13               1               1
+
+R8GE_PRINT_TEST
+  R8GE_PRINT prints an R8GE.
+
+  The R8GE:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1            11            12            13            14  
+    2            21            22            23            24  
+    3            31            32            33            34  
+    4            41            42            43            44  
+    5            51            52            53            54  
+    6            61            62            63            64  
+
+R8GE_PRINT_SOME_TEST
+  R8GE_PRINT_SOME prints some of an R8GE.
+
+  The R8GE, rows 2:4, cols 1:2:
+
+  Col:          1             2       
+  Row
+  ---
+    2            21            22  
+    3            31            32  
+    4            41            42  
+
+R8GE_RANDOM_TEST
+  R8GE_RANDOM sets up a random matrix.
+
+  Matrix rows M =    7
+  Matrix columns N = 5
+
+  A random matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.109957      0.797287      0.840847      0.822887  
+    2      0.956318      0.043829    0.00183837      0.123104      0.267132  
+    3      0.829509      0.633966      0.897504    0.00751236      0.692066  
+    4      0.561695     0.0617272      0.350752      0.260303      0.561662  
+    5      0.415307      0.449539     0.0945448      0.912484      0.861216  
+    6     0.0661187      0.401306     0.0136169      0.113664      0.453794  
+    7      0.257578      0.754673      0.859097      0.351629      0.911977  
+
+R8GE_RES_TEST
+  R8GE_RES computes b-A*x, where A is an R8GE matrix.
+  We check three cases, M<N, M=N, M>N.
+
+  Residual A*x-b:
+
+     1               0
+     2               0
+     3               0
+
+  Residual A*x-b:
+
+     1               0
+     2               0
+     3               0
+     4               0
+     5               0
+
+  Residual A*x-b:
+
+     1               0
+     2               0
+     3               0
+     4               0
+     5               0
+
+R8GE_SL_TEST
+  R8GE_SL solves a linear system factored by R8GE_FA.
+
+  Matrix order N = 5
+
+  Random matrix A:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418     0.0661187     0.0617272    0.00183837      0.859097  
+    2      0.956318      0.257578      0.449539      0.897504      0.840847  
+    3      0.829509      0.109957      0.401306      0.350752      0.123104  
+    4      0.561695      0.043829      0.754673     0.0945448    0.00751236  
+    5      0.415307      0.633966      0.797287     0.0136169      0.260303  
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Solution:
+
+     1               1
+     2               1
+     3               1
+     4               1
+     5               1
+
+  Solution of transposed system:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8GE_SL_IT_TEST
+  R8GE_SL_IT applies one step of iterative 
+  refinement to an R8GE_SL solution, for an R8GE matrix.
+
+  Matrix order N = 6
+
+  i, x, b-A*x
+
+     1        0.166667     1.13687e-13
+     2        0.142857    -6.36646e-12
+     3           0.125     1.45519e-11
+     4        0.111111               0
+     5             0.1     5.82077e-11
+     6       0.0909091    -1.45519e-11
+
+Iterative refinement step 1
+
+
+  i, x, b-A*x
+
+     1        0.166667     2.27374e-13
+     2        0.142857    -7.27596e-12
+     3           0.125     3.63798e-11
+     4        0.111111     2.91038e-11
+     5             0.1     2.91038e-11
+     6       0.0909091    -7.27596e-12
+
+Iterative refinement step 2
+
+
+  i, x, b-A*x
+
+     1        0.166667     4.26326e-13
+     2        0.142857    -1.18234e-11
+     3           0.125     5.82077e-11
+     4        0.111111               0
+     5             0.1     1.16415e-10
+     6       0.0909091    -2.18279e-11
+
+Iterative refinement step 3
+
+
+  i, x, b-A*x
+
+     1        0.166667     9.66338e-13
+     2        0.142857    -2.91038e-11
+     3           0.125     1.38243e-10
+     4        0.111111     2.91038e-11
+     5             0.1     2.32831e-10
+     6       0.0909091    -7.27596e-11
+
+Iterative refinement step 4
+
+
+  i, x, b-A*x
+
+     1        0.166667     1.87583e-12
+     2        0.142857    -6.00267e-11
+     3           0.125     2.83762e-10
+     4        0.111111    -2.91038e-11
+     5             0.1     5.52973e-10
+     6       0.0909091    -1.23691e-10
+
+Iterative refinement step 5
+
+
+  i, x, b-A*x
+
+     1        0.166667     3.72324e-12
+     2        0.142857    -1.18234e-10
+     3           0.125     5.67525e-10
+     4        0.111111               0
+     5             0.1     1.01863e-09
+     6       0.0909091    -2.61934e-10
+
+R8GE_TO_R8VEC
+  R8GE_TO_R8VEC converts an R8GE matrix to an R8VEC.
+
+  Matrix rows M =    4
+  Matrix columns N = 6
+
+ The R8GE indicator matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            12            13            14            15  
+    2            21            22            23            24            25  
+    3            31            32            33            34            35  
+    4            41            42            43            44            45  
+
+  Col:          6       
+  Row
+  ---
+    1            16  
+    2            26  
+    3            36  
+    4            46  
+
+  The R8VEC:
+
+     1              11
+     2              21
+     3              31
+     4              41
+     5              12
+     6              22
+     7              32
+     8              42
+     9              13
+    10              23
+    11              33
+    12              43
+    13              14
+    14              24
+    15              34
+    16              44
+    17              15
+    18              25
+    19              35
+    20              45
+    21              16
+    22              26
+    23              36
+    24              46
+
+R8GE_TRANSPOSE_NEW_TEST
+  R8GE_TRANSPOSE_NEW makes a transposed copy of an R8GE.
+
+  Matrix rows M =    7
+  Matrix columns N = 5
+
+  The matrix A:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            12            13            14            15  
+    2            21            22            23            24            25  
+    3            31            32            33            34            35  
+    4            41            42            43            44            45  
+    5            51            52            53            54            55  
+    6            61            62            63            64            65  
+    7            71            72            73            74            75  
+
+  The transposed copy matrix B:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1            11            21            31            41            51  
+    2            12            22            32            42            52  
+    3            13            23            33            43            53  
+    4            14            24            34            44            54  
+    5            15            25            35            45            55  
+
+  Col:          6             7       
+  Row
+  ---
+    1            61            71  
+    2            62            72  
+    3            63            73  
+    4            64            74  
+    5            65            75  
+
+R8GE_TRANSPOSE_PRINT_TEST
+  R8GE_TRANSPOSE_PRINT prints an R8GE,
+  transposed.
+
+  Matrix row order M =    7
+  Matrix column order N = 12
+
+  The transposed matrix A:
+
+  Row:       0             1             2             3             4       
+  Col
+
+    0:           101           201           301           401           501
+    1:           102           202           302           402           502
+    2:           103           203           303           403           503
+    3:           104           204           304           404           504
+    4:           105           205           305           405           505
+    5:           106           206           306           406           506
+    6:           107           207           307           407           507
+    7:           108           208           308           408           508
+    8:           109           209           309           409           509
+    9:           110           210           310           410           510
+   10:           111           211           311           411           511
+   11:           112           212           312           412           512
+
+  Row:       5             6       
+  Col
+
+    0:           601           701
+    1:           602           702
+    2:           603           703
+    3:           604           704
+    4:           605           705
+    5:           606           706
+    6:           607           707
+    7:           608           708
+    8:           609           709
+    9:           610           710
+   10:           611           711
+   11:           612           712
+
+R8GE_TRANSPOSE_PRINT_SOME_TEST
+  R8GE_TRANSPOSE_PRINT_SOME prints some of an R8GE,
+  transposed.
+
+  Matrix row order M =    7
+  Matrix column order N = 12
+
+  Rows 3:5, Cols 4:8:
+
+  Row:       2             3             4       
+  Col
+
+    3:           304           404           504
+    4:           305           405           505
+    5:           306           406           506
+    6:           307           407           507
+    7:           308           408           508
+
+R8GE_TRF_TEST
+  R8GE_TRF computes the LU factors of an R8GE matrix, so that
+  R8GE_TRS can solve a factored system.
+
+  Matrix rows M =    5
+  Matrix columns N = 5
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Solution to transposed system:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8GE_TRS_TEST
+  R8GE_TRS solves a linear system that was factored by R8GE_TRF.
+
+  Matrix rows M =    5
+  Matrix columns N = 5
+
+  Solution:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+  Solution to transposed system:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+
+R8GE_ZEROS_TEST
+  R8GE_ZEROS returns zeroed out space for an R8GE matrix.
+
+  Matrix order M, N = 5, 4
+
+  Matrix A:
+
+  Col:          1             2             3             4       
+  Row
+  ---
+    1             0             0             0             0  
+    2             0             0             0             0  
+    3             0             0             0             0  
+    4             0             0             0             0  
+    5             0             0             0             0  
+
+R8VEC_DOT_PRODUCT_TEST
+  R8VEC_DOT_PRODUCT computes the dot product of two R8VEC's.
+
+  V1 and V2:
+
+     0:       0.218418       0.0617272
+     1:       0.956318        0.449539
+     2:       0.829509        0.401306
+     3:       0.561695        0.754673
+     4:       0.415307        0.797287
+     5:      0.0661187      0.00183837
+     6:       0.257578        0.897504
+     7:       0.109957        0.350752
+     8:       0.043829       0.0945448
+     9:       0.633966       0.0136169
+
+  V1 dot V2 = 1.81393
+
+R8VEC_INDICATOR1_NEW_TEST
+  R8VEC_INDICATOR1_NEW returns an indicator1 vector.
+
+  Indicator1 vector:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+     8               8
+     9               9
+    10              10
+
+R8VEC_NORM_TEST
+  R8VEC_NORM computes the L2 norm of an R8VEC.
+
+  Input vector:
+
+     1        0.218418
+     2        0.956318
+     3        0.829509
+     4        0.561695
+     5        0.415307
+     6       0.0661187
+     7        0.257578
+     8        0.109957
+     9        0.043829
+    10        0.633966
+
+  L2 norm: 1.62017
+
+R8VEC_NORM_AFFINE_TEST
+  R8VEC_NORM_AFFINE computes the L2 norm of
+  the difference of two R8VECs.
+
+  R8VEC_NORM_AFFINE(X,Y) = 1.22756
+  R8VEC_NORM(X-Y) =        1.22756
+
+R8VEC_PRINT_TEST
+  R8VEC_PRINT prints an R8VEC.
+
+  The R8VEC:
+
+     1         123.456
+     2           5e-06
+     3          -1e+06
+     4         3.14159
+
+R8VEC_PRINT_SOME
+  R8VEC_PRINT_SOME prints some of an R8VEC.
+
+  No more than 10 lines of R8VEC:
+
+         0:              1
+         1:              2
+         2:              3
+         3:              4
+         4:              5
+         5:              6
+         6:              7
+         7:              8
+  ........  ..............
+        99:            100
+
+R8VEC_TO_R8GE_TEST
+  R8VEC_TO_R8GE converts an R8VEC to an R8GE matrix.
+
+  Matrix rows M =    4
+  Matrix columns N = 6
+
+  The vector:
+
+     1               1
+     2               2
+     3               3
+     4               4
+     5               5
+     6               6
+     7               7
+     8               8
+     9               9
+    10              10
+    11              11
+    12              12
+    13              13
+    14              14
+    15              15
+    16              16
+    17              17
+    18              18
+    19              19
+    20              20
+    21              21
+    22              22
+    23              23
+    24              24
+
+ The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1             1             5             9            13            17  
+    2             2             6            10            14            18  
+    3             3             7            11            15            19  
+    4             4             8            12            16            20  
+
+  Col:          6       
+  Row
+  ---
+    1            21  
+    2            22  
+    3            23  
+    4            24  
+
+R8VEC_UNIFORM_01_NEW_TEST
+  R8VEC_UNIFORM returns a random R8VEC
+  with entries in [ 0.0, 1.0 ]
+
+
+  Input SEED = 123456789
+
+
+  Random R8VEC:
+
+     1        0.218418
+     2        0.956318
+     3        0.829509
+     4        0.561695
+     5        0.415307
+     6       0.0661187
+     7        0.257578
+     8        0.109957
+     9        0.043829
+    10        0.633966
+
+  Input SEED = 1361431000
+
+
+  Random R8VEC:
+
+     1       0.0617272
+     2        0.449539
+     3        0.401306
+     4        0.754673
+     5        0.797287
+     6      0.00183837
+     7        0.897504
+     8        0.350752
+     9       0.0945448
+    10       0.0136169
+
+  Input SEED = 29242052
+
+
+  Random R8VEC:
+
+     1        0.859097
+     2        0.840847
+     3        0.123104
+     4      0.00751236
+     5        0.260303
+     6        0.912484
+     7        0.113664
+     8        0.351629
+     9        0.822887
+    10        0.267132
+
+R8VEC_ZEROS_NEW_TEST
+  R8VEC_ZEROS returns a zero R8VEC
+
+
+  Random R8VEC:
+
+     1               0
+     2               0
+     3               0
+     4               0
+     5               0
+     6               0
+     7               0
+     8               0
+     9               0
+    10               0
+
+R8VEC2_PRINT_TEST
+  R8VEC2_PRINT prints a pair of R8VEC's.
+
+  Squares and square roots:
+
+     0:              1               1
+     1:              4         1.41421
+     2:              9         1.73205
+     3:             16               2
+     4:             25         2.23607
+
+R8VEC2_PRINT_SOME_TEST
+  R8VEC2_PRINT_SOME prints some of a pair of R8VEC's.
+
+  No more than 10 lines of two vectors:
+
+     1               1               1
+     2               4         1.41421
+     3               9         1.73205
+     4              16               2
+     5              25         2.23607
+     6              36         2.44949
+     7              49         2.64575
+     8              64         2.82843
+......  ..............  ..............
+   100           10000              10
+
+LINPLUS_PRB
+  Normal end of execution.
+
+09 February 2016 03:11:31 PM

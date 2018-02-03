@@ -1,0 +1,17 @@
+# rational_quadratic_path_commands.txt
+#
+# Usage:
+#  gnuplot < rational_quadratic_path_commands.txt
+#
+set term png
+set output "rational_quadratic_paths.png"
+set xlabel 'Rho'
+set ylabel 'X(Rho)'
+set title 'Rational quadratic correlation'
+set grid
+set style data lines
+set key off
+plot 'rational_quadratic_path_data.txt' using 1:2, \
+     'rational_quadratic_path_data.txt' using 1:3, \
+     'rational_quadratic_path_data.txt' using 1:4
+quit

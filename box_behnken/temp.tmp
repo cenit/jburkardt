@@ -1,0 +1,154 @@
+<html>
+
+  <head>
+    <title>
+      BOX_BEHNKEN - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      BOX_BEHNKEN <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>BOX_BEHNKEN</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files described and made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>BOX_BEHNKEN</b> is available in...
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "box_behnken.cpp">box_behnken.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "box_behnken.hpp">box_behnken.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "box_behnken.sh">box_behnken.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "box_behnken_prb.cpp">box_behnken_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "box_behnken_prb.sh">box_behnken_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "box_behnken_prb_output.txt">box_behnken_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>BOX_BEHNKEN</b> returns a Box-Behnken design for the given number of factors.
+        </li>
+        <li>
+          <b>BOX_BEHNKEN_SIZE</b> returns the size of a Box-Behnken design.
+        </li>
+        <li>
+          <b>I4_MAX</b> returns the maximum of two I4's.
+        </li>
+        <li>
+          <b>I4_MIN</b> returns the minimum of two I4's.
+        </li>
+        <li>
+          <b>I4_POWER</b> returns the value of I^J.
+        </li>
+        <li>
+          <b>R8MAT_TRANSPOSE_PRINT</b> prints an R8MAT, transposed.
+        </li>
+        <li>
+          <b>R8MAT_TRANSPOSE_PRINT_SOME</b> prints some of an R8MAT, transposed.
+        </li>
+        <li>
+          <b>R8MAT_WRITE</b> writes an R8MAT file.
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Sun Feb  5 09:41:40 2012
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

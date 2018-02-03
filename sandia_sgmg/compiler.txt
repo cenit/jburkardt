@@ -1,0 +1,2 @@
+sandia_sgmg.cpp:2:28: fatal error: sandia_sgmg.hpp: No such file or directory
+compilation terminated.

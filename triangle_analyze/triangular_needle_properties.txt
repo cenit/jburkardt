@@ -1,0 +1,13 @@
+08 November 2015 11:07:00 PM
+
+TRIANGLE_ANALYZE:
+  C++ version:
+  Determine properties of a triangle.
+
+  Read the header of "triangle_needle.txt".
+
+  Spatial dimension DIM_NUM = 2
+  Number of points NODE_NUM = 2
+
+TRIANGLE_ANALYZE - Fatal error!
+  Dataset must have 3 nodes.

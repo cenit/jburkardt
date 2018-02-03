@@ -1,0 +1,13 @@
+int main ( );
+bool find_distances ( int l_length, int l[], int x_length, int x[], int y );
+void find_distances_test ( );
+int i4_uniform_ab ( int a, int b, int &seed );
+void i4_uniform_ab_test ( );
+int i4vec_max_last ( int l_length, int l[] );
+void i4vec_max_last_test ( );
+void i4vec_print ( int n, int a[], string title );
+void i4vec_print_test ( );
+void partial_digest_recur ( int n, int l[] );
+void partial_digest_recur_test01 ( );
+void place ( int &l_length, int l[], int &x_length, int x[] );
+void timestamp ( );

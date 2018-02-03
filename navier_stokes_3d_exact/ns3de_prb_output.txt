@@ -1,0 +1,67 @@
+30 July 2015 01:12:01 PM
+
+NS3DE_PRB
+  C++ version
+  Test the NS3DE library.
+
+UVWP_BURGERS_TEST
+  UVWP_BURGERS evaluates the Burgers solution.
+  Estimate the range of velocity and pressure
+  at the initial time T = 0, in a region that is the
+  cube centered at (0,0,0) with 'radius' 1.0.
+  Viscosity = 0.25
+
+           Minimum       Maximum
+
+  U:        0.00227401         1.99265
+  V:         0.0041681         1.98972
+  W:        0.00470317        0.995105
+  P:        0.00134687         3.91927
+
+RESID_BURGERS_TEST
+  RESID_BURGERS evaluates the Burgers residual.
+  Sample the Navier-Stokes residuals
+  at the initial time T = 0, using a region that is
+  the cube centered at (0,0,0) with 'radius' 1.0,
+  Viscosity = 0.25
+
+           Minimum       Maximum
+
+  Ur:                 0               0
+  Vr:                 0               0
+  Wr:                 0     2.22045e-16
+  Pr:                 0               0
+
+UVWP_ETHIER_TEST
+  UVWP_ETHIER evaluates the Ethier solution.
+  Estimate the range of velocity and pressure
+  at the initial time T = 0, in a region that is the
+  cube centered at (0,0,0) with 'radius' 1.0.
+  Parameter A = 0.785398
+  Parameter D = 1.5708
+
+           Minimum       Maximum
+
+  U:        0.00257472         2.96676
+  V:        0.00646353         3.10466
+  W:        0.00166943         3.00826
+  P:        0.00587719         5.50593
+
+RESID_ETHIER_TEST
+  RESID_ETHIER evaluates the Ethier residual.
+  Sample the Navier-Stokes residuals
+  at the initial time T = 0, using a region that is
+  the cube centered at (0,0,0) with 'radius' 1.0,
+  Parameter A = 0.785398
+  Parameter D = 1.5708
+
+           Minimum       Maximum
+
+  Ur:                 0     3.55271e-15
+  Vr:                 0     3.55271e-15
+  Wr:                 0     3.55271e-15
+  Pr:                 0     3.33067e-16
+
+NS3DE_PRB
+  Normal end of execution.
+30 July 2015 01:12:01 PM

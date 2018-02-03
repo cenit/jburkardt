@@ -1,0 +1,19 @@
+# v_polynomial_commands.txt
+#
+# Usage:
+#  gnuplot < v_polynomial_commands.txt
+#
+set term png
+set nokey
+set output 'v_polynomial_plot.png'
+set xlabel '<---X--->'
+set ylabel '<---V(n,x)--->'
+set title 'Chebyshev Polynomials V(n,x)'
+set grid
+set style data lines
+plot 'v_polynomial_data.txt' using 1:1 lw 3 linecolor rgb 'red', \
+     'v_polynomial_data.txt' using 1:2 lw 3 linecolor rgb 'red', \
+     'v_polynomial_data.txt' using 1:3 lw 3 linecolor rgb 'red', \
+     'v_polynomial_data.txt' using 1:4 lw 3 linecolor rgb 'red', \
+     'v_polynomial_data.txt' using 1:5 lw 3 linecolor rgb 'red', \
+     'v_polynomial_data.txt' using 1:6 lw 3 linecolor rgb 'red'

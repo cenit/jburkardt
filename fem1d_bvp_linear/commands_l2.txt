@@ -1,0 +1,16 @@
+# commands_l2.txt
+#
+# Usage:
+#  gnuplot < commands_l2.txt
+#
+set term png
+set output 'l2.png'
+set xlabel '<---NE--->'
+set ylabel '<---L2(NE)--->'
+set title 'L2 error versus number of elements NE'
+set logscale xy
+set size ratio -1
+set grid
+set style data lines
+plot 'data.txt' using 1:2 with points pt 7 ps 2 lc rgb 'blue',\
+     'data.txt' using 1:2 lw 3 linecolor rgb 'red'

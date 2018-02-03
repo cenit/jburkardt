@@ -1,0 +1,17 @@
+# cubic_path_commands.txt
+#
+# Usage:
+#  gnuplot < cubic_path_commands.txt
+#
+set term png
+set output "cubic_paths.png"
+set xlabel 'Rho'
+set ylabel 'X(Rho)'
+set title 'Cubic correlation'
+set grid
+set style data lines
+set key off
+plot 'cubic_path_data.txt' using 1:2, \
+     'cubic_path_data.txt' using 1:3, \
+     'cubic_path_data.txt' using 1:4
+quit

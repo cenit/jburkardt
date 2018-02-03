@@ -1,0 +1,203 @@
+<html>
+
+  <head>
+    <title>
+      NS2DE - title goes here.
+    </title>
+  </head>
+
+  <body bgcolor="#EEEEEE" link="#CC0000" alink="#FF3300" vlink="#000055">
+
+    <h1 align = "center">
+      NS2DE <br> heading goes here.
+    </h1>
+
+    <hr>
+
+    <p>
+      <b>NS2DE</b>
+      is a C++ (program/library) which
+      (description goes here).
+    </p>
+
+    <h3 align = "center">
+      Usage:
+    </h3>
+
+    <h3 align = "center">
+      Licensing:
+    </h3>
+
+    <p>
+      The computer code and data files made available on this
+      web page are distributed under
+      <a href = "../../txt/gnu_lgpl.txt">the GNU LGPL license.</a>
+    </p>
+
+    <h3 align = "center">
+      Languages:
+    </h3>
+
+    <p>
+      <b>NS2DE</b> is available in
+      <a href = "../../cpp_src/ns2de/ns2de.html">a C++ version</a>.
+    </p>
+
+    <h3 align = "center">
+      Related Data and Programs:
+    </h3>
+
+    <h3 align = "center">
+      Reference:
+    </h3>
+
+    <p>
+      <ol>
+        <li>
+          
+        </li>
+      </ol>
+    </p>
+
+    <h3 align = "center">
+      Source Code:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "ns2de.cpp">ns2de.cpp</a>, the source code.
+        </li>
+        <li>
+          <a href = "ns2de.hpp">ns2de.hpp</a>, the include file.
+        </li>
+        <li>
+          <a href = "ns2de.sh">ns2de.sh</a>,
+          BASH commands to compile the source code.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      Examples and Tests:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <a href = "ns2de_prb.cpp">ns2de_prb.cpp</a>,
+          a sample calling program.
+        </li>
+        <li>
+          <a href = "ns2de_prb.sh">ns2de_prb.sh</a>,
+          BASH commands to compile and run the sample program.
+        </li>
+        <li>
+          <a href = "ns2de_prb_output.txt">ns2de_prb_output.txt</a>,
+          the output file.
+        </li>
+      </ul>
+    </p>
+
+    <h3 align = "center">
+      List of Routines:
+    </h3>
+
+    <p>
+      <ul>
+        <li>
+          <b>GRID_2D</b> returns a regular 2D grid.
+        </li>
+        <li>
+          <b>NS2DE_GNUPLOT</b> writes the Navier-Stokes solution to files for GNUPLOT.
+        </li>
+        <li>
+          <b>R8VEC_AMAX</b> returns the maximum absolute value in an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_AMIN</b> returns the minimum absolute value in an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_LINSPACE</b> creates a vector of linearly spaced values.
+        </li>
+        <li>
+          <b>R8VEC_MAX</b> returns the value of the maximum element in an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_MIN</b> returns the value of the minimum element in an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_NORM_L2</b> returns the L2 norm of an R8VEC.
+        </li>
+        <li>
+          <b>R8VEC_UNIFORM_AB_NEW</b> returns a scaled pseudorandom R8VEC.
+        </li>
+        <li>
+          <b>RESID_LUCAS</b> returns Lucas Bystricky residuals.
+        </li>
+        <li>
+          <b>RESID_POISEUILLE</b> returns Poiseuille residuals.
+        </li>
+        <li>
+          <b>RESID_SPIRAL</b> evaluates Spiral residuals.
+        </li>
+        <li>
+          <b>RESID_TAYLOR</b> returns Taylor residuals.
+        </li>
+        <li>
+          <b>RESID_VORTEX</b> returns Vortex residuals.
+        </li>
+        <li>
+          <b>RHS_LUCAS</b> evaluates Lucas Bystricky right hand sides.
+        </li>
+        <li>
+          <b>RHS_POISEUILLE</b> evaluates Poiseuille right hand sides.
+        </li>
+        <li>
+          <b>RHS_SPIRAL</b> evaluates Spiral right hand sides.
+        </li>
+        <li>
+          <b>RHS_TAYLOR</b> returns Taylor right hand sides.
+        </li>
+        <li>
+          <b>RHS_VORTEX</b> returns Vortex right hand sides.
+        </li>
+        <li>
+          <b>TIMESTAMP</b> prints the current YMDHMS date as a time stamp.
+        </li>
+        <li>
+          <b>UVP_LUCAS</b> evaluates Lucas Bystricky's solution.
+        </li>
+        <li>
+          <b>UVP_POISEUILLE</b> evaluate Poiseuille solutions.
+        </li>
+        <li>
+          <b>UVP_SPIRAL</b> evaluates Spiral solutions.
+        </li>
+        <li>
+          <b>UVP_TAYLOR</b> evaluates Taylor solutions.
+        </li>
+        <li>
+          <b>UVP_VORTEX</b> evaluates Vortex solutions.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+      You can go up one level to <a href = "../cpp_src.html">
+      the C++ source codes</a>.
+    </p>
+
+    <hr>
+
+    <i>
+      Last revised on Sun Jul 26 08:30:14 2015
+    </i>
+
+    <!-- John Burkardt -->
+
+  </body>
+
+  <!-- Initial HTML skeleton created by HTMLINDEX. -->
+
+</html>

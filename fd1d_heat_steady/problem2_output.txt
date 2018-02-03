@@ -1,0 +1,28 @@
+18 May 2009 08:33:47 AM
+
+PROBLEM2:
+  A test problem for FD1D_HEAT_STEADY.
+  Low K, then high K, then moderate K.
+
+FD1D_HEAT_STEADY
+  C++ version
+
+  Finite difference solution of
+  the steady 1D heat equation
+
+    - d/dx ( k(x) dUdx ) = F(x)
+
+  for space interval A <= X <= B with boundary conditions
+
+    U(A) = UA
+    U(B) = UB
+
+  A second order difference approximation is used.
+
+  X data written to "problem2_x.txt".
+  U data written to "problem2_u.txt".
+
+PROBLEM1:
+  Normal end of execution.
+
+18 May 2009 08:33:47 AM

@@ -1,0 +1,88 @@
+July  7 2008   2:56:10.882 PM
+ 
+TRIANGULATION_CORNER
+  FORTRAN90 version
+ 
+  Read a node file of NODE_NUM point coordinates in 2 dimensions.
+  Read an associated triangle file of 
+  TRIANGLE_NUM triangles, listing 3 or 6 node indices.
+ 
+  Any triangle which has exactly two sides on the boundary
+  is a corner triangle.
+ 
+  If there are any corner triangles this program tries to
+  eliminate them.
+ 
+  The "repaired" triangle file is written out.
+ 
+  Read the header of "p03_nodes.txt".
+ 
+  Spatial dimension DIM_NUM =        2
+  Number of nodes NODE_NUM  =      274
+ 
+  Read the data in "p03_nodes.txt".
+ 
+  Coordinates of first 5 nodes:
+ 
+  Row         1             2       
+  Col
+ 
+    1   -1.00000      -1.00000    
+    2   -1.00000       1.00000    
+    3    1.00000      -1.00000    
+    4    1.00000       1.00000    
+    5   -1.00000     -0.720632    
+ 
+ 
+  Read the header of "p03_triangles.txt".
+ 
+  Triangle order TRIANGLE_ORDER =        3
+  Number of triangles TRIANGLE_NUM  =      452
+ 
+  Read the data in "p03_triangles.txt".
+ 
+  First 5 triangles:
+ 
+  Row       1      2      3
+  Col
+ 
+    1     263      3    267
+    2     263    262      3
+    3       7      6     36
+    4      20     11     10
+    5      13     15      2
+ 
+ 
+  Number of boundary sides     Number of triangles
+ 
+                   0                 357
+                   1                  94
+                   2                   1
+                   3                   0
+ 
+TRIANGULATION_CORNER:
+  Reoriented      224 triangles.
+ 
+  Adjusting triangle        5 using triangle       95
+  
+   Before:
+   T1 =           13           2          15
+   N1 =           -1          -1          95
+   T2 =           29          13          15
+   N2 =           96           5          97
+  
+   After:
+   T1 =           29           2          15
+   N1 =           95          -1          97
+   T2 =           29          13           2
+   N2 =           96          -1           5
+  
+ 
+TRIANGULATION_CORNER:
+  New triangle file with repaired corners written to 
+  "p03_triangles.corner.txt".
+ 
+TRIANGULATION_CORNER:
+  Normal end of execution.
+ 
+July  7 2008   2:56:10.960 PM

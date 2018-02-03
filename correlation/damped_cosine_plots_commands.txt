@@ -1,0 +1,20 @@
+# damped_cosine_plots_commands.txt
+#
+# Usage:
+#  gnuplot < damped_cosine_plots_commands.txt
+#
+set term png
+set output "damped_cosine_plots.png"
+set xlabel 'Rho'
+set ylabel 'Correlation(Rho)'
+set title 'Damped cosine correlation'
+set grid
+set style data lines
+set key off
+plot 'damped_cosine_plots_data.txt' using 1:2 lw 3, \
+     'damped_cosine_plots_data.txt' using 1:3 lw 3, \
+     'damped_cosine_plots_data.txt' using 1:4 lw 3, \
+     'damped_cosine_plots_data.txt' using 1:5 lw 3, \
+     'damped_cosine_plots_data.txt' using 1:6 lw 3, \
+     'damped_cosine_plots_data.txt' using 1:7 lw 3
+quit

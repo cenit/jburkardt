@@ -1,0 +1,11 @@
+double *newton_coef_1d ( int nd, double xd[], double yd[] );
+double *newton_value_1d ( int nd, double xd[], double cd[], int ni, double xi[] );
+double *r8mat_copy_new ( int m, int n, double a1[] );
+double *r8vec_copy_new ( int n, double a1[] );
+double *r8vec_linspace_new ( int n, double a, double b );
+double r8vec_max ( int n, double r8vec[] );
+double r8vec_min ( int n, double r8vec[] );
+double r8vec_norm_affine ( int n, double v0[], double v1[] );
+void r8vec_print ( int n, double a[], string title );
+void r8vec2_print ( int n, double a1[], double a2[], string title );
+void timestamp ( );

@@ -1,0 +1,86 @@
+20 February 2016 10:11:31 AM
+
+WALKER_SAMPLE_PRB:
+  C++ version.
+  Test the WALKER_SAMPLE library.
+
+WALKER_SAMPLER_TEST:
+  WALKER_SAMPLER creates Walker sample vectors Y and A
+  for efficient sampling of a discrete probability vector.
+  Test the Walker sampler with a Zipf-type probability.
+  Use seed = 123456789 to initialize srand48():
+
+  After 100 warmup calls, next 3 values of drand48():
+  0.689429
+  0.0974186
+  0.811735
+
+  Zipf probabilities
+  for N = 10
+  and parameter P = 2
+
+     I     X[I]
+
+     1          0.645258
+     2          0.161314
+     3         0.0716953
+     4         0.0403286
+     5         0.0258103
+     6         0.0179238
+     7         0.0131685
+     8         0.0100822
+     9        0.00796615
+    10        0.00645258
+
+  Randomly permuted X:
+
+     I     X[I]
+
+     1         0.0716953
+     2        0.00645258
+     3        0.00796615
+     4         0.0131685
+     5         0.0403286
+     6         0.0179238
+     7         0.0100822
+     8         0.0258103
+     9          0.645258
+    10          0.161314
+
+  Built the sampler
+  i Y[i] A[i]:
+
+    1          0.716953    10
+    2         0.0645258     9
+    3         0.0796615     9
+    4          0.131685     9
+    5          0.403286     9
+    6          0.179238     9
+    7          0.100822     9
+    8          0.258103     9
+    9          0.669902    10
+   10                 1    10
+
+  100000 samples:
+  prob   #samples:
+
+  0.0716953  7268
+  0.00645258  658
+  0.00796615  804
+  0.0131685  1329
+  0.0403286  3991
+  0.0179238  1772
+  0.0100822  1032
+  0.0258103  2626
+  0.645258  64468
+  0.161314  16052
+
+  sumvar = 0.423845 (should be about 1)
+
+  Verification sum: 1.11022e-16
+  (Should be close to 0.)
+
+WALKER_SAMPLE_PRB:
+  Normal end of execution.
+
+20 February 2016 10:11:31 AM

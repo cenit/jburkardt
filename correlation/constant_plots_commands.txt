@@ -1,0 +1,15 @@
+# constant_plots_commands.txt
+#
+# Usage:
+#  gnuplot < constant_plots_commands.txt
+#
+set term png
+set output "constant_plots.png"
+set xlabel 'Rho'
+set ylabel 'Correlation(Rho)'
+set title 'Constant correlation'
+set grid
+set style data lines
+set key off
+plot 'constant_plots_data.txt' using 1:2 lw 3
+quit

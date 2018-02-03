@@ -1,0 +1,197 @@
+16 June 2016 10:01:22 AM
+
+R8SR_PRB
+  C++ version
+  Test the R8SR library.
+
+R8SR_DIF2_TEST
+  R8SR_DIF2 sets an R8SR second difference matrix;
+
+  Matrix order N = 5
+
+  The R8SR second difference matrix:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0            -2             1             0             0             0  
+     1             1            -2             1             0             0  
+     2             0             1            -2             1             0  
+     3             0             0             1            -2             1  
+     4             0             0             0             1            -2  
+
+R8SR_INDICATOR_TEST
+  R8SR_INDICATOR sets up an R8SR indicator matrix;
+
+  Matrix order N = 5
+
+  The R8SR indicator matrix:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0            11            12             0             0            15  
+     1             0            22             0             0            25  
+     2            31             0            33             0             0  
+     3            41             0             0            44             0  
+     4             0            52            53             0            55  
+
+R8SR_MTV_TEST
+  R8SR_MTV multiplies a vector by an R8SR matrix;
+
+  Matrix order N = 5
+
+  The R8SR matrix, in R8GE form:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.956318             0             0      0.829509  
+    2             0      0.561695             0             0      0.415307  
+    3      0.257578             0     0.0661187             0             0  
+    4      0.043829             0             0      0.109957             0  
+    5             0     0.0617272      0.449539             0      0.633966  
+
+  The vector x:
+
+     1               1
+     2               0
+     3               0
+     4               0
+     5              -1
+
+  The product A' * x:
+
+     1        0.218418
+     2         0.89459
+     3       -0.449539
+     4               0
+     5        0.195544
+
+R8SR_MV_TEST
+  R8SR_MV multiplies an R8SR matrix by a vector;
+
+  Matrix order N = 5
+
+  The R8SR matrix, in R8GE form:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.956318             0             0      0.829509  
+    2             0      0.561695             0             0      0.415307  
+    3      0.257578             0     0.0661187             0             0  
+    4      0.043829             0             0      0.109957             0  
+    5             0     0.0617272      0.449539             0      0.633966  
+
+  The vector x:
+
+     1               1
+     2               0
+     3               0
+     4               0
+     5              -1
+
+  The product A * x:
+
+     1       -0.611091
+     2       -0.415307
+     3        0.257578
+     4        0.043829
+     5       -0.633966
+
+R8SR_PRINT_TEST
+  R8SR_PRINT prints an R8SR matrix.
+
+  Matrix order N = 5
+
+  The R8SR matrix:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0      0.218418      0.956318             0             0      0.829509  
+     1             0      0.561695             0             0      0.415307  
+     2      0.257578             0     0.0661187             0             0  
+     3      0.043829             0             0      0.109957             0  
+     4             0     0.0617272      0.449539             0      0.633966  
+
+R8SR_PRINT_SOME_TEST
+  R8SR_PRINT_SOME prints some of an R8SR matrix.
+
+  Matrix order N = 5
+
+  Rows 0:N-1, column 4
+
+  Col:        4       
+  Row
+  ---
+     0      0.829509  
+     1      0.415307  
+     2             0  
+     3             0  
+     4      0.633966  
+
+R8SR_RANDOM_TEST
+  R8SR_RANDOM randomizes an R8SR matrix
+
+  Matrix order N = 5
+
+  The R8SR matrix, in R8GE form:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.956318             0             0      0.829509  
+    2             0      0.561695             0             0      0.415307  
+    3      0.257578             0     0.0661187             0             0  
+    4      0.043829             0             0      0.109957             0  
+    5             0     0.0617272      0.449539             0      0.633966  
+
+R8SR_TO_R8GE_TEST
+  R8SR_TO_R8GE converts a matrix from R8SR to R8GE format.
+
+  Matrix order N = 5
+
+  The R8SR matrix:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0      0.218418      0.956318             0             0      0.829509  
+     1             0      0.561695             0             0      0.415307  
+     2      0.257578             0     0.0661187             0             0  
+     3      0.043829             0             0      0.109957             0  
+     4             0     0.0617272      0.449539             0      0.633966  
+
+  The R8GE matrix:
+
+  Col:          1             2             3             4             5       
+  Row
+  ---
+    1      0.218418      0.956318             0             0      0.829509  
+    2             0      0.561695             0             0      0.415307  
+    3      0.257578             0     0.0661187             0             0  
+    4      0.043829             0             0      0.109957             0  
+    5             0     0.0617272      0.449539             0      0.633966  
+
+R8SR_ZEROS_TEST
+  R8SR_ZEROS sets up a zero R8SR matrix;
+
+  Matrix order N = 5
+
+  The R8SR zero matrix:
+
+  Col:        0             1             2             3             4       
+  Row
+  ---
+     0             0             0             0             0             0  
+     1             0             0             0             0             0  
+     2             0             0             0             0             0  
+     3             0             0             0             0             0  
+     4             0             0             0             0             0  
+
+R8SR_PRB
+  Normal end of execution.
+
+16 June 2016 10:01:22 AM

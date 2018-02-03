@@ -1,0 +1,33 @@
+27 August 2015 07:55:38 PM
+
+COSINE_TRANSFORM_PRB
+  C++ version.
+  Test the COSINE_TRANSFORM library.
+
+COSINE_TRANSFORM_TEST01:
+  COSINE_TRANSFORM_DATA does a cosine transform of data
+  defined by a vector.
+
+  Apply the transform, then its inverse.
+  Let R be a random N vector.
+  Let S be the transform of D.
+  Let T be the transform of E.
+  Then R and T will be equal.
+
+     I      R(I)        S(I)        T(I)
+
+     0    0.218418     1.83031    0.218418
+     1    0.956318    0.493766    0.956318
+     2    0.829509    0.205323    0.829509
+     3    0.561695   -0.534515    0.561695
+     4    0.415307   -0.189003    0.415307
+     5   0.0661187   -0.440911   0.0661187
+     6    0.257578   0.0205821    0.257578
+     7    0.109957   -0.377745    0.109957
+     8    0.043829  -0.0538023    0.043829
+     9    0.633966    0.046265    0.633966
+
+COSINE_TRANSFORM_PRB
+  Normal end of execution.
+
+27 August 2015 07:55:38 PM
