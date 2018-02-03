@@ -33,75 +33,75 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LATTICE\_RULE** is available in [a C++
-version](../../cpp_src/lattice_rule/lattice_rule.html) and [a FORTRAN90
-version](../../f_src/lattice_rule/lattice_rule.html) and [a MATLAB
-version](../../m_src/lattice_rule/lattice_rule.html).
+version](../../master/lattice_rule/lattice_rule.md) and [a FORTRAN90
+version](../../f_src/lattice_rule/lattice_rule.md) and [a MATLAB
+version](../../m_src/lattice_rule/lattice_rule.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 elements of a Faure quasirandom sequence.
 
-[GRID](../../cpp_src/grid/grid.html), a C++ library which computes
+[GRID](../../master/grid/grid.md), a C++ library which computes
 elements of a grid dataset.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton quasirandom sequence.
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley quasirandom sequence.
 
-[HEX\_GRID](../../cpp_src/hex_grid/hex_grid.html), a C++ library which
+[HEX\_GRID](../../master/hex_grid/hex_grid.md), a C++ library which
 computes elements of a hexagonal grid dataset.
 
-[IHS](../../cpp_src/ihs/ihs.html), a C++ library which computes elements
+[IHS](../../master/ihs/ihs.md), a C++ library which computes elements
 of an improved distributed Latin hypercube dataset.
 
-[LATIN\_CENTER](../../cpp_src/latin_center/latin_center.html), a C++
+[LATIN\_CENTER](../../master/latin_center/latin_center.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 center points.
 
-[LATIN\_EDGE](../../cpp_src/latin_edge/latin_edge.html), a C++ library
+[LATIN\_EDGE](../../master/latin_edge/latin_edge.md), a C++ library
 which computes elements of a Latin Hypercube dataset, choosing edge
 points.
 
-[LATIN\_RANDOM](../../cpp_src/latin_random/latin_random.html), a C++
+[LATIN\_RANDOM](../../master/latin_random/latin_random.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 points at random.
 
-[LCVT](../../cpp_src/lcvt/lcvt.html), a C++ library which computes a
+[LCVT](../../master/lcvt/lcvt.md), a C++ library which computes a
 latinized Centroidal Voronoi Tessellation.
 
-[NIEDERREITER2](../../cpp_src/niederreiter2/niederreiter2.html), a C++
+[NIEDERREITER2](../../master/niederreiter2/niederreiter2.md), a C++
 library which computes elements of a Niederreiter quasirandom sequence
 with base 2.
 
-[NINT\_EXACTNESS](../../cpp_src/nint_exactness/nint_exactness.html), a
+[NINT\_EXACTNESS](../../master/nint_exactness/nint_exactness.md), a
 C++ program which measures the polynomial exactness of a
 multidimensional quadrature rule.
 
-[NINTLIB](../../cpp_src/nintlib/nintlib.html), a C++ library which
+[NINTLIB](../../master/nintlib/nintlib.md), a C++ library which
 contains routines for numerical estimation of integrals in multiple
 dimensions.
 
-[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.html),
+[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.md),
 a dataset directory which contains sets of files that define quadrature
 rules over various 1D intervals or multidimensional hypercubes.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines a number of quadrature rules.
 
-[SOBOL](../../cpp_src/sobol/sobol.html), a C++ library which computes
+[SOBOL](../../master/sobol/sobol.md), a C++ library which computes
 elements of a Sobol quasirandom sequence.
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which contains
+[STROUD](../../master/stroud/stroud.md), a C++ library which contains
 quadrature rules for a variety of unusual areas, surfaces and volumes in
 2D, 3D and N-dimensions.
 
-[TEST\_NINT](../../cpp_src/test_nint/test_nint.html), a C++ library
+[TEST\_NINT](../../master/test_nint/test_nint.md), a C++ library
 which defines test functions for multi-dimensional quadrature routines.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of a uniform pseudorandom sequence.
 
 ### Reference: {#reference align="center"}
@@ -188,7 +188,7 @@ computes elements of a uniform pseudorandom sequence.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TUPLE\_NEXT** computes the next element of a tuple space.
 
-You can go up one level to [the C++ source codes](../fcpp_src.html).
+You can go up one level to [the C++ source codes](../fcpp_src.md).
 
 ------------------------------------------------------------------------
 

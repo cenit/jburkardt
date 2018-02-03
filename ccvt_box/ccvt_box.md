@@ -25,19 +25,19 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CCVT\_BOX** is available in [a C++
-version](../../cpp_src/ccvt_box/ccvt_box.html) and [a FORTRAN90
-version](../../f_src/ccvt_box/ccvt_box.html) and [a MATLAB
-version.](../../m_src/ccvt_box/ccvt_box.html)
+version](../../master/ccvt_box/ccvt_box.md) and [a FORTRAN90
+version](../../f_src/ccvt_box/ccvt_box.md) and [a MATLAB
+version.](../../m_src/ccvt_box/ccvt_box.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CVT](../../cpp_src/cvt/cvt.html), a C++ library which can compute
+[CVT](../../master/cvt/cvt.md), a C++ library which can compute
 CVT's.
 
-[CVT](../../datasets/cvt/cvt.html), a dataset directory which contains
+[CVT](../../datasets/cvt/cvt.md), a dataset directory which contains
 files describing a number of CVT's.
 
-[CVT\_DATASET](../../cpp_src/cvt_dataset/cvt_dataset.html), a C++
+[CVT\_DATASET](../../master/cvt_dataset/cvt_dataset.md), a C++
 program which creates a CVT dataset.
 
 ### Reference: {#reference align="center"}
@@ -141,7 +141,7 @@ program which creates a CVT dataset.
 -   **TUPLE\_NEXT\_FAST** computes the next element of a tuple space,
     "fast".
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

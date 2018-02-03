@@ -19,37 +19,37 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_EIGEN** is available in [a C
-version](../../c_src/test_eigen/test_eigen.html) and [a C++
-version](../../cpp_src/test_eigen/test_eigen.html) and [a FORTRAN77
-version](../../f77_src/test_eigen/test_eigen.html) and [a FORTRAN90
-version](../../f_src/test_eigen/test_eigen.html) and [a MATLAB
-version](../../m_src/test_eigen/test_eigen.html) and [a Python
-version](../../py_src/test_eigen/test_eigen.html).
+version](../../c_src/test_eigen/test_eigen.md) and [a C++
+version](../../master/test_eigen/test_eigen.md) and [a FORTRAN77
+version](../../f77_src/test_eigen/test_eigen.md) and [a FORTRAN90
+version](../../f_src/test_eigen/test_eigen.md) and [a MATLAB
+version](../../m_src/test_eigen/test_eigen.md) and [a Python
+version](../../py_src/test_eigen/test_eigen.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[EISPACK](../../cpp_src/eispack/eispack.html), a C++ library which
+[EISPACK](../../master/eispack/eispack.md), a C++ library which
 carries out eigenvalue computations. It includes a function to compute
 the singular value decomposition (SVD) of a rectangular matrix.
 superseded by LAPACK;
 
-[JACOBI\_EIGENVALUE](../../cpp_src/jacobi_eigenvalue/jacobi_eigenvalue.html),
+[JACOBI\_EIGENVALUE](../../master/jacobi_eigenvalue/jacobi_eigenvalue.md),
 a C++ library which implements the Jacobi iteration for the iterative
 determination of the eigenvalues and eigenvectors of a real symmetric
 matrix.
 
-[POWER\_METHOD](../../cpp_src/power_method/power_method.html), a C++
+[POWER\_METHOD](../../master/power_method/power_method.md), a C++
 library which carries out the power method for finding a dominant
 eigenvalue and its eigenvector.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices.
 
-[TOMS343](../../f77_src/toms343/toms343.html), a FORTRAN77 library which
+[TOMS343](../../f77_src/toms343/toms343.md), a FORTRAN77 library which
 computes the eigenvalues and eigenvectors of a general real matrix;\
 this is a FORTRAN77 version of ACM TOMS algorithm 343.
 
-[TOMS384](../../f77_src/toms384/toms384.html), a FORTRAN77 library which
+[TOMS384](../../f77_src/toms384/toms384.md), a FORTRAN77 library which
 computes the eigenvalues and eigenvectors of a symmetric matrix;\
 this is a FORTRAN77 version of ACM TOMS algorithm 384.
 
@@ -110,7 +110,7 @@ this is a FORTRAN77 version of ACM TOMS algorithm 384.
 -   **R8VEC2\_PRINT** prints an R8VEC2.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

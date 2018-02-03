@@ -34,24 +34,24 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **DIAPHONY** is available in [a C
-version](../../c_src/diaphony/diaphony.html) and [a C++
-version](../../cpp_src/diaphony/diaphony.html) and [a FORTRAN77
-version](../../f77_src/diaphony/diaphony.html) and [a FORTRAN90
-version](../../f_src/diaphony/diaphony.html) and [a MATLAB
-version](../../m_src/diaphony/diaphony.html).
+version](../../c_src/diaphony/diaphony.md) and [a C++
+version](../../master/diaphony/diaphony.md) and [a FORTRAN77
+version](../../f77_src/diaphony/diaphony.md) and [a FORTRAN90
+version](../../f_src/diaphony/diaphony.md) and [a MATLAB
+version](../../m_src/diaphony/diaphony.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[STAR\_DISCREPANCY](../../cpp_src/star_discrepancy/star_discrepancy.html),
+[STAR\_DISCREPANCY](../../master/star_discrepancy/star_discrepancy.md),
 a C++ program which reads a **TABLE file** of points (presumed to lie in
 the unit hypercube) and computes bounds on the star discrepancy, a
 measure of dispersion, by Eric Thiemard.
 
-[TABLE\_LATINIZE](../../cpp_src/table_latinize/table_latinize.html), a
+[TABLE\_LATINIZE](../../master/table_latinize/table_latinize.md), a
 C++ program which reads a file of points and creates a "latinized"
 version by adjusting the data.
 
-[TABLE\_QUALITY](../../cpp_src/table_quality/table_quality.html), a C++
+[TABLE\_QUALITY](../../master/table_quality/table_quality.md), a C++
 program which reads a file of points and computes the quality of
 dispersion.
 
@@ -102,7 +102,7 @@ dispersion.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

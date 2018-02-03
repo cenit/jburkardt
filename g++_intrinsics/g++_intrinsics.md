@@ -16,47 +16,47 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **G++\_INTRINSICS** is available in [a C++
-version](../../cpp_src/g++_intrinsics/g++_intrinsics.html).
+version](../../master/g++_intrinsics/g++_intrinsics.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[C\_INTRINSICS](../../c_src/c_intrinsics/c_intrinsics.html), a C program
+[C\_INTRINSICS](../../c_src/c_intrinsics/c_intrinsics.md), a C program
 which illustrates the use of intrinsic functions supplied by the C
 language.
 
-[CPP\_INTRINSICS](../../cpp_src/cpp_intrinsics/cpp_intrinsics.html), a
+[CPP\_INTRINSICS](../../master/cpp_intrinsics/cpp_intrinsics.md), a
 C++ program which illustrates the use of intrinsic functions supplied by
 the C++ language.
 
-[F77\_INTRINSICS](../../f77_src/f77_intrinsics/f77_intrinsics.html),
+[F77\_INTRINSICS](../../f77_src/f77_intrinsics/f77_intrinsics.md),
 FORTRAN77 programs which includes some examples of the use of intrinsic
 functions included with the FORTRAN77 standard language.
 
-[F90\_INTRINSICS](../../f_src/f90_intrinsics/f90_intrinsics.html),
+[F90\_INTRINSICS](../../f_src/f90_intrinsics/f90_intrinsics.md),
 FORTRAN90 programs which includes some examples of the use of intrinsic
 functions included with the FORTRAN90 standard language.
 
-[G77\_INTRINSICS](../../f77_src/g77_intrinsics/g77_intrinsics.html),
+[G77\_INTRINSICS](../../f77_src/g77_intrinsics/g77_intrinsics.md),
 FORTRAN77 programs which includes some examples of the use of intrinsic
 functions included with the G77 compiler.
 
-[G95\_INTRINSICS](../../f_src/g95_intrinsics/g95_intrinsics.html),
+[G95\_INTRINSICS](../../f_src/g95_intrinsics/g95_intrinsics.md),
 FORTRAN90 programs which includes some examples of the use of intrinsic
 functions peculiar to the GNU G95 FORTRAN compiler.
 
-[GCC\_INTRINSICS](../../c_src/gcc_intrinsics/gcc_intrinsics.html), a C
+[GCC\_INTRINSICS](../../c_src/gcc_intrinsics/gcc_intrinsics.md), a C
 program which demonstrates the use of some of the intrinsic functions
 included with the GCC compiler.
 
-[GFORTRAN\_INTRINSICS](../../f_src/gfortran_intrinsics/gfortran_intrinsics.html),
+[GFORTRAN\_INTRINSICS](../../f_src/gfortran_intrinsics/gfortran_intrinsics.md),
 a FORTRAN90 program which demonstrates the use of some of the intrinsic
 functions included with the GFORTRAN compiler.
 
-[MATH\_INTRINSICS](../../java_src/math_intrinsics/math_intrinsics.html),
+[MATH\_INTRINSICS](../../java_src/math_intrinsics/math_intrinsics.md),
 a JAVA program which illustrates the use of the intrinsic functions in
 the Java Math package.
 
-[XLF\_INTRINSICS](../../f_src/xlf_intrinsics/xlf_intrinsics.html),
+[XLF\_INTRINSICS](../../f_src/xlf_intrinsics/xlf_intrinsics.md),
 FORTRAN90 programs which includes some examples of the use of intrinsic
 functions peculiar to the IBM XLF FORTRAN compiler.
 
@@ -94,7 +94,7 @@ functions peculiar to the IBM XLF FORTRAN compiler.
 -   **R8\_ABS** returns the absolute value of an R8.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

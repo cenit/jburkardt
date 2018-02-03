@@ -23,24 +23,24 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PPMB\_TO\_PPMA** is available in [a C++
-version](../../cpp_src/ppmb_to_ppma/ppmb_to_ppma.html).
+version](../../master/ppmb_to_ppma/ppmb_to_ppma.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[I2\_BINARY\_TO\_ASCII](../../cpp_src/i2_binary_to_ascii/i2_binary_to_ascii.html)
+[I2\_BINARY\_TO\_ASCII](../../master/i2_binary_to_ascii/i2_binary_to_ascii.md)
 a C++ program which converts a file of short int (I2) data from binary
 to ASCII format.
 
-[PPMA](../../data/ppma/ppma.html), a data directory which contains a
+[PPMA](../../data/ppma/ppma.md), a data directory which contains a
 description and examples of the ASCII PPM format.
 
-[PPMA\_IO](../../cpp_src/ppma_io/ppma_io.html), a C++ library which
+[PPMA\_IO](../../master/ppma_io/ppma_io.md), a C++ library which
 reads and writes files in the ASCII PPM format.
 
-[PPMB](../../data/ppmb/ppmb.html), a data directory which contains a
+[PPMB](../../data/ppmb/ppmb.md), a data directory which contains a
 description and examples of the binary PPM format.
 
-[PPMB\_IO](../../cpp_src/ppmb_io/ppmb_io.html), a C++ library which
+[PPMB\_IO](../../master/ppmb_io/ppmb_io.md), a C++ library which
 reads and writes files in the binary PPM format.
 
 ### Reference: {#reference align="center"}
@@ -74,7 +74,7 @@ reads and writes files in the binary PPM format.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **UCMAT\_TO\_I4MAT** converts a UCMAT to an I4MAT.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

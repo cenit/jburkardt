@@ -92,21 +92,21 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **COMPLEX\_NUMBERS** is available in [a C
-version](../../c_src/complex_numbers/complex_numbers.html) and [a C++
-version](../../cpp_src/complex_numbers/complex_numbers.html) and [a
-FORTRAN77 version](../../f77_src/complex_numbers/complex_numbers.html)
+version](../../c_src/complex_numbers/complex_numbers.md) and [a C++
+version](../../master/complex_numbers/complex_numbers.md) and [a
+FORTRAN77 version](../../f77_src/complex_numbers/complex_numbers.md)
 and [a FORTRAN90
-version](../../f_src/complex_numbers/complex_numbers.html) and [a MATLAB
-version](../../m_src/complex_numbers/complex_numbers.html) and [a Python
-version](../../py_src/complex_numbers/complex_numbers.html).
+version](../../f_src/complex_numbers/complex_numbers.md) and [a MATLAB
+version](../../m_src/complex_numbers/complex_numbers.md) and [a Python
+version](../../py_src/complex_numbers/complex_numbers.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[C4LIB](../../cpp_src/c4lib/c4lib.html), a C++ library which implements
+[C4LIB](../../master/c4lib/c4lib.md), a C++ library which implements
 certain elementary functions for "C4" or single precision complex
 variables;
 
-[C8LIB](../../cpp_src/c8lib/c8lib.html), a C++ library which implements
+[C8LIB](../../master/c8lib/c8lib.md), a C++ library which implements
 certain elementary functions for "C8" or double precision complex
 variables;
 
@@ -119,7 +119,7 @@ variables;
 -   [complex\_numbers\_output.txt](complex_numbers_output.txt), the
     output file;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

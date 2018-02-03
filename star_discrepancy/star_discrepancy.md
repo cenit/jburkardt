@@ -65,7 +65,7 @@ datafile.
         the allowable error in the estimate;
     -   *n* is the number of points to be read from the file;
     -   *table\_file* is a file in [table
-        format](../../data/table/table.html) containing at least *n*
+        format](../../data/table/table.md) containing at least *n*
         points. The dimensionality of the pointset is inferred from the
         file.
 
@@ -77,20 +77,20 @@ datafile.
 ### Languages: {#languages align="center"}
 
 **STAR\_DISCREPANCY** is available in [a C
-version](../../c_src/star_discrepancy/star_discrepancy.html) and [a C++
-version](../../cpp_src/star_discrepancy/star_discrepancy.html).
+version](../../c_src/star_discrepancy/star_discrepancy.md) and [a C++
+version](../../master/star_discrepancy/star_discrepancy.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DIAPHONY](../../cpp_src/diaphony/diaphony.html), a C++ program which
+[DIAPHONY](../../master/diaphony/diaphony.md), a C++ program which
 reads a file of N points in M dimensions and computes its diaphony, a
 measure of point dispersion.
 
-[TABLE\_LATINIZE](../../cpp_src/table_latinize/table_latinize.html), a
+[TABLE\_LATINIZE](../../master/table_latinize/table_latinize.md), a
 C++ program which can read a TABLE file and write out a "latinized"
 version.
 
-[TABLE\_QUALITY](../../cpp_src/table_quality/table_quality.html), a C++
+[TABLE\_QUALITY](../../master/table_quality/table_quality.md), a C++
 program which can read a TABLE file and print out measures of the
 quality of dispersion of the points.
 
@@ -154,7 +154,7 @@ Eric Thiemard
 -   **TRAITER** ???
 -   **USAGE** prints usage information for the program.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

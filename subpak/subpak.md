@@ -14,44 +14,44 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**SUBPAK** is available in [a C version](../../c_src/subpak/subpak.html)
-and [a C++ version](../../cpp_src/subpak/subpak.html) and [a FORTRAN77
-version](../../f77_src/subpak/subpak.html) and [a FORTRAN90
-version](../../f_src/subpak/subpak.html) and [a MATLAB
-version.](../../m_src/subpak/subpak.html)
+**SUBPAK** is available in [a C version](../../c_src/subpak/subpak.md)
+and [a C++ version](../../master/subpak/subpak.md) and [a FORTRAN77
+version](../../f77_src/subpak/subpak.md) and [a FORTRAN90
+version](../../f_src/subpak/subpak.md) and [a MATLAB
+version.](../../m_src/subpak/subpak.md)
 
 ### Related Programs: {#related-programs align="center"}
 
-[C4LIB](../../cpp_src/c4lib/c4lib.html), a C++ library which implements
+[C4LIB](../../master/c4lib/c4lib.md), a C++ library which implements
 certain elementary functions for "C4" or single precision complex
 variables;
 
-[C8LIB](../../cpp_src/c8lib/c8lib.html), a C++ library which implements
+[C8LIB](../../master/c8lib/c8lib.md), a C++ library which implements
 certain elementary functions for "C8" or double precision complex
 variables;
 
-[CELL](../../cpp_src/cell/cell.html), a C++ library which defines a cell
+[CELL](../../master/cell/cell.md), a C++ library which defines a cell
 array, a generalization of an array which can compactly store and
 retrieve vector or matrix data of varying size, such as the rows of a
 triangular matrix.
 
-[I4LIB](../../cpp_src/i4lib/i4lib.html), a C++ library which contains
+[I4LIB](../../master/i4lib/i4lib.md), a C++ library which contains
 many utility routines, using "I4" or "single precision integer"
 arithmetic.
 
-[I8LIB](../../cpp_src/i8lib/i8lib.html), a C++ library which contains
+[I8LIB](../../master/i8lib/i8lib.md), a C++ library which contains
 many utility routines, using "I8" or "double precision integer"
 arithmetic.
 
-[INDEX](../../cpp_src/index/index.html), a C++ library which converts a
+[INDEX](../../master/index/index.md), a C++ library which converts a
 multidimensional vector index to a one-dimensional vector index; it can
 handle zero and one based indexing schemes, as well as column major and
 row major conventions.
 
-[R4LIB](../../cpp_src/r4lib/r4lib.html), a C++ library which contains
+[R4LIB](../../master/r4lib/r4lib.md), a C++ library which contains
 many utility routines, using "R4" or "single precision real" arithmetic.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines, using "R8" or "double precision real" arithmetic.
 
 ### Reference: {#reference align="center"}
@@ -290,7 +290,7 @@ many utility routines, using "R8" or "double precision real" arithmetic.
 -   **UPC\_CHECK\_DIGIT** returns the check digit of a UPC.
 -   **VERSINE\_PULSE** adds a versine pulse to a constant.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -15,27 +15,27 @@ distributed under [the BSD license.](../../txt/bsd_license.txt)
 
 ### Languages: {#languages align="center"}
 
-**FASTGL** is available in [a C version](../../c_src/fastgl/fastgl.html)
-and [a C++ version](../../cpp_src/fastgl/fastgl.html) and [a FORTRAN90
-version](../../f_src/fastgl/fastgl.html) and [a MATLAB
-version](../../m_src/fastgl/fastgl.html) and [a Python
-version](../../py_src/fastgl/fastgl.html).
+**FASTGL** is available in [a C version](../../c_src/fastgl/fastgl.md)
+and [a C++ version](../../master/fastgl/fastgl.md) and [a FORTRAN90
+version](../../f_src/fastgl/fastgl.md) and [a MATLAB
+version](../../m_src/fastgl/fastgl.md) and [a Python
+version](../../py_src/fastgl/fastgl.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LEGENDRE\_RULE](../../cpp_src/legendre_rule/legendre_rule.html), a C++
+[LEGENDRE\_RULE](../../master/legendre_rule/legendre_rule.md), a C++
 program which computes a Gauss-Legendre quadrature rule.
 
-[QUADMOM](../../cpp_src/quadmom/quadmom.html), a C++ library which
+[QUADMOM](../../master/quadmom/quadmom.md), a C++ library which
 computes a Gaussian quadrature rule for a weight function rho(x) based
 on the Golub-Welsch procedure that only requires knowledge of the
 moments of rho(x).
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 contains information about quadrature rules, both as tabulated values,
 and as computational procedures.
 
-[TOMS655](../../cpp_src/toms655/toms655.html), a C++ library which
+[TOMS655](../../master/toms655/toms655.md), a C++ library which
 computes the weights for interpolatory quadrature rules; this library is
 commonly called IQPACK, by Sylvan Elhay and Jaroslav Kautsky.
 
@@ -61,7 +61,7 @@ commonly called IQPACK, by Sylvan Elhay and Jaroslav Kautsky.
 
 -   **GLPair** computes the kth GL pair of an n-point rule.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

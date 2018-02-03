@@ -17,23 +17,23 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **IMAGE\_COMPONENTS** is available in [a C
-version](../../c_src/image_components/image_components.html) and [a C++
-version](../../cpp_src/image_components/image_components.html) and [a
-FORTRAN77 version](../../f77_src/image_components/image_components.html)
+version](../../c_src/image_components/image_components.md) and [a C++
+version](../../master/image_components/image_components.md) and [a
+FORTRAN77 version](../../f77_src/image_components/image_components.md)
 and [a FORTRAN90
-version](../../f_src/image_components/image_components.html) and [a
-MATLAB version](../../m_src/image_components/image_components.html).
+version](../../f_src/image_components/image_components.md) and [a
+MATLAB version](../../m_src/image_components/image_components.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[IMAGE\_DENOISE](../../cpp_src/image_denoise/image_denoise.html), a C++
+[IMAGE\_DENOISE](../../master/image_denoise/image_denoise.md), a C++
 library which applies simple filtering techniques to remove noise from
 an image.
 
-[IMAGE\_EDGE](../../cpp_src/image_edge/image_edge.html), a C++ library
+[IMAGE\_EDGE](../../master/image_edge/image_edge.md), a C++ library
 which demonstrates a simple procedure for edge detection in images.
 
-[REGION](../../f_src/region/region.html), a FORTRAN90 library which
+[REGION](../../f_src/region/region.md), a FORTRAN90 library which
 reads 3D MRI voxel data, and groups the voxels into connected regions;
 
 ### Reference: {#reference align="center"}
@@ -84,7 +84,7 @@ reads 3D MRI voxel data, and groups the voxels into connected regions;
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

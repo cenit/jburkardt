@@ -32,29 +32,29 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUADMOM** is available in [a C
-version](../../c_src/quadmom/quadmom.html) and [a C++
-version](../../cpp_src/quadmom/quadmom.html) and [a FORTRAN77
-version](../../f77_src/quadmom/quadmom.html) and [a FORTRAN90
-version](../../f_src/quadmom/quadmom.html) and [a MATLAB
-version](../../m_src/quadmom/quadmom.html).
+version](../../c_src/quadmom/quadmom.md) and [a C++
+version](../../master/quadmom/quadmom.md) and [a FORTRAN77
+version](../../f77_src/quadmom/quadmom.md) and [a FORTRAN90
+version](../../f_src/quadmom/quadmom.md) and [a MATLAB
+version](../../m_src/quadmom/quadmom.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[QUADRATURE\_GOLUB\_WELSCH](../../cpp_src/quadrature_golub_welsch/quadrature_golub_welsch.html),
+[QUADRATURE\_GOLUB\_WELSCH](../../master/quadrature_golub_welsch/quadrature_golub_welsch.md),
 a C++ library which computes the points and weights of a Gaussian
 quadrature rule using the Golub-Welsch procedure, assuming that the
 points have been specified.
 
-[QUADRATURE\_LEAST\_SQUARES](../../cpp_src/quadrature_least_squares/quadrature_least_squares.html),
+[QUADRATURE\_LEAST\_SQUARES](../../master/quadrature_least_squares/quadrature_least_squares.md),
 a C++ library which computes weights for "sub-interpolatory" quadrature
 rules, that is, it estimates integrals by integrating a polynomial that
 approximates the function data in a least squares sense.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 contains information about quadrature rules, both as tabulated values,
 and as computational procedures.
 
-[TOMS655](../../cpp_src/toms655/toms655.html), a C++ library which
+[TOMS655](../../master/toms655/toms655.md), a C++ library which
 computes the weights for interpolatory quadrature rules; this library is
 commonly called IQPACK, by Sylvan Elhay and Jaroslav Kautsky.
 
@@ -126,7 +126,7 @@ commonly called IQPACK, by Sylvan Elhay and Jaroslav Kautsky.
 -   **TRUNCATED\_NORMAL\_B\_MOMENT:** moments of the upper truncated
     Normal PDF.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

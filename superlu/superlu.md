@@ -66,34 +66,34 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ### Languages: {#languages align="center"}
 
 **SUPERLU** is available in [a C
-version](../../c_src/superlu/superlu.html) and [a C++
-version](../../cpp_src/superlu/superlu.html) and [a FORTRAN77
-version](../../f77_src/superlu/superlu.html) and [a FORTRAN90
-version](../../f_src/superlu/superlu.html).
+version](../../c_src/superlu/superlu.md) and [a C++
+version](../../master/superlu/superlu.md) and [a FORTRAN77
+version](../../f77_src/superlu/superlu.md) and [a FORTRAN90
+version](../../f_src/superlu/superlu.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CC](../../data/cc/cc.html), a data directory which contains a
+[CC](../../data/cc/cc.md), a data directory which contains a
 description and examples of the CC format, ("compressed column") for
 storing a sparse matrix, including a way to write the matrix as a set of
 three files.
 
-[CG\_RC](../../cpp_src/cg_rc/cg_rc.html), a C++ library which implements
+[CG\_RC](../../master/cg_rc/cg_rc.md), a C++ library which implements
 the conjugate gradient method for solving a positive definite sparse
 linear system A\*x=b, using reverse communication.
 
-[HB](../../data/hb/hb.html), a data directory which contains examples of
+[HB](../../data/hb/hb.md), a data directory which contains examples of
 Harwell Boeing (HB) files, a sparse matrix file format;
 
-[MGMRES](../../cpp_src/mgmres/mgmres.html), a C++ library which applies
+[MGMRES](../../master/mgmres/mgmres.md), a C++ library which applies
 the restarted GMRES algorithm to solve a sparse linear system, by Lili
 Ju.
 
-[ST\_TO\_CC](../../c_src/st_to_cc/st_to_cc.html), a C library which
+[ST\_TO\_CC](../../c_src/st_to_cc/st_to_cc.md), a C library which
 converts sparse matrix data from Sparse Triplet (ST) format to
 Compressed Column (CC) format.
 
-[SUPERLU\_OPENMP](../../cpp_src/superlu_openmp/superlu_openmp.html), C++
+[SUPERLU\_OPENMP](../../master/superlu_openmp/superlu_openmp.md), C++
 programs which illustrate how to use the SUPERLU library with the OpenMP
 parallel programming interface, which applies a fast direct solution
 method to solve sparse linear systems, by James Demmel, John Gilbert,
@@ -212,7 +212,7 @@ the linear system. Double precision complex arithmetic is used.
 -   [z\_sample\_st\_output.txt](z_sample_st_output.txt), the sample
     output.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

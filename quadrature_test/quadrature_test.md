@@ -87,43 +87,43 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUADRATURE\_TEST** is available in [a C++
-version](../../cpp_src/quadrature_test/quadrature_test.html) and [a
-FORTRAN90 version](../../f_src/quadrature_test/quadrature_test.html) and
-[a MATLAB version](../../m_src/quadrature_test/quadrature_test.html).
+version](../../master/quadrature_test/quadrature_test.md) and [a
+FORTRAN90 version](../../f_src/quadrature_test/quadrature_test.md) and
+[a MATLAB version](../../m_src/quadrature_test/quadrature_test.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GSL](../../cpp_src/gsl/gsl.html), a C++ library which includes routines
+[GSL](../../master/gsl/gsl.md), a C++ library which includes routines
 for estimating multidimensional integrals.
 
-[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.html), a
+[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.md), a
 FORTRAN90 program which uses test integrals to evaluate sets of
 quadrature points.
 
-[NINT\_EXACTNESS](../../cpp_src/nint_exactness/nint_exactness.html), a
+[NINT\_EXACTNESS](../../master/nint_exactness/nint_exactness.md), a
 C++ program which demonstrates how to measure the polynomial exactness
 of a multidimensional quadrature rule.
 
-[NINTLIB](../../cpp_src/nintlib/nintlib.html), a C++ library which
+[NINTLIB](../../master/nintlib/nintlib.md), a C++ library which
 numerically estimates integrals in multiple dimensions.
 
-[PRODUCT\_RULE](../../cpp_src/product_rule/product_rule.html), a C++
+[PRODUCT\_RULE](../../master/product_rule/product_rule.md), a C++
 program which creates a multidimensional quadrature rule as a product of
 one dimensional rules.
 
-[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.html),
+[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.md),
 a dataset directory which contains a description and examples of
 quadrature rules defined by a set of "X", "W" and "R" files.
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which contains
+[STROUD](../../master/stroud/stroud.md), a C++ library which contains
 quadrature rules for a variety of unusual areas, surfaces and volumes in
 2D, 3D and N-dimensions.
 
-[TEST\_NINT](../../cpp_src/test_nint/test_nint.html), a C++ library
+[TEST\_NINT](../../master/test_nint/test_nint.md), a C++ library
 which defines a set of integrand functions to be used for testing
 multidimensional quadrature rules and routines.
 
-[TESTPACK](../../cpp_src/testpack/testpack.html), a C++ library which
+[TESTPACK](../../master/testpack/testpack.md), a C++ library which
 defines a set of integrands used to test multidimensional quadrature.
 
 ### Reference: {#reference align="center"}
@@ -345,7 +345,7 @@ dimension 6 of level 5, 4865 points.
 -   **S\_TO\_R8VEC** reads an R8VEC from a string.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

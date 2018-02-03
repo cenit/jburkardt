@@ -57,72 +57,72 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SANDIA\_RULES2** is available in [a C++
-version](../../cpp_src/sandia_rules2/sandia_rules2.html).
+version](../../master/sandia_rules2/sandia_rules2.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CHEBYSHEV1\_RULE](../../cpp_src/chebyshev1_rule/chebyshev1_rule.html),
+[CHEBYSHEV1\_RULE](../../master/chebyshev1_rule/chebyshev1_rule.md),
 a C++ program which can compute and print a Gauss-Chebyshev type 1
 quadrature rule.
 
-[CHEBYSHEV2\_RULE](../../cpp_src/chebyshev2_rule/chebyshev2_rule.html),
+[CHEBYSHEV2\_RULE](../../master/chebyshev2_rule/chebyshev2_rule.md),
 a C++ program which can compute and print a Gauss-Chebyshev type 2
 quadrature rule.
 
-[GEGENBAUER\_RULE](../../cpp_src/gegenbauer_rule/gegenbauer_rule.html),
+[GEGENBAUER\_RULE](../../master/gegenbauer_rule/gegenbauer_rule.md),
 a C++ program which can compute and print a Gauss-Gegenbauer quadrature
 rule.
 
-[GEN\_HERMITE\_RULE](../../cpp_src/gen_hermite_rule/gen_hermite_rule.html),
+[GEN\_HERMITE\_RULE](../../master/gen_hermite_rule/gen_hermite_rule.md),
 a C++ program which can compute and print a generalized Gauss-Hermite
 quadrature rule.
 
-[GEN\_LAGUERRE\_RULE](../../cpp_src/gen_laguerre_rule/gen_laguerre_rule.html),
+[GEN\_LAGUERRE\_RULE](../../master/gen_laguerre_rule/gen_laguerre_rule.md),
 a C++ program which can compute and print a generalized Gauss-Laguerre
 quadrature rule.
 
-[HERMITE\_RULE](../../cpp_src/hermite_rule/hermite_rule.html), a C++
+[HERMITE\_RULE](../../master/hermite_rule/hermite_rule.md), a C++
 program which can compute and print a Gauss-Hermite quadrature rule.
 
-[JACOBI\_RULE](../../cpp_src/jacobi_rule/jacobi_rule.html), a C++
+[JACOBI\_RULE](../../master/jacobi_rule/jacobi_rule.md), a C++
 program which can compute and print a Gauss-Jacobi quadrature rule.
 
-[LAGUERRE\_RULE](../../cpp_src/laguerre_rule/laguerre_rule.html), a C++
+[LAGUERRE\_RULE](../../master/laguerre_rule/laguerre_rule.md), a C++
 program which can compute and print a Gauss-Laguerre quadrature rule.
 
-[LEGENDRE\_RULE](../../cpp_src/legendre_rule/legendre_rule.html), a C++
+[LEGENDRE\_RULE](../../master/legendre_rule/legendre_rule.md), a C++
 program which can compute and print a Gauss-Legendre quadrature rule.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines 1-dimensional quadrature rules.
 
-[SANDIA\_RULES](../../cpp_src/sandia_rules/sandia_rules.html), a C++
+[SANDIA\_RULES](../../master/sandia_rules/sandia_rules.md), a C++
 library which produces 1D quadrature rules of Chebyshev, Clenshaw
 Curtis, Fejer 2, Gegenbauer, generalized Hermite, generalized Laguerre,
 Hermite, Jacobi, Laguerre, Legendre and Patterson types.
 
-[SANDIA\_SGMG](../../cpp_src/sandia_sgmg/sandia_sgmg.html), a C++
+[SANDIA\_SGMG](../../master/sandia_sgmg/sandia_sgmg.md), a C++
 library which creates a sparse grid dataset based on a mixed set of 1D
 factor rules, and experiments with the use of a linear growth rate for
 the quadrature rules. This is a version of SPARSE\_GRID\_MIXED\_GROWTH
 that uses a different procedure for supplying the parameters needed to
 evaluate certain quadrature rules.
 
-[SANDIA\_SGMGA](../../cpp_src/sandia_sgmga/sandia_sgmga.html), a C++
+[SANDIA\_SGMGA](../../master/sandia_sgmga/sandia_sgmga.md), a C++
 library which creates sparse grids based on a mixture of 1D quadrature
 rules, allowing anisotropic weights for each dimension. This is a
 version of SGMGA that uses a different procedure for supplying the
 parameters needed to evaluate certain quadrature rules.
 
-[SGMGA](../../cpp_src/sgmga/sgmga.html), a C++ library which creates
+[SGMGA](../../master/sgmga/sgmga.md), a C++ library which creates
 sparse grids based on a mixture of 1D quadrature rules, allowing
 anisotropic weights for each dimension.
 
-[SPARSE\_GRID\_MIXED](../../cpp_src/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../master/sparse_grid_mixed/sparse_grid_mixed.md),
 a C++ library which creates a sparse grid dataset based on a mixed set
 of 1D factor rules.
 
-[SPARSE\_GRID\_MIXED\_GROWTH](../../cpp_src/sparse_grid_mixed_growth/sparse_grid_mixed_growth.html),
+[SPARSE\_GRID\_MIXED\_GROWTH](../../master/sparse_grid_mixed_growth/sparse_grid_mixed_growth.md),
 a C++ library which creates a sparse grid dataset based on a mixed set
 of 1D factor rules, and experiments with the use of a linear growth rate
 for the quadrature rules.
@@ -224,7 +224,7 @@ for the quadrature rules.
 -   **PATTERSON\_POINTS** looks up Patterson quadrature points.
 -   **PATTERSON\_WEIGHTS** looks up Patterson quadrature weights.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

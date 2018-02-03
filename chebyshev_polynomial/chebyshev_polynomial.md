@@ -76,102 +76,102 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CHEBYSHEV\_POLYNOMIAL** is available in [a C
-version](../../c_src/chebyshev_polynomial/chebyshev_polynomial.html) and
+version](../../c_src/chebyshev_polynomial/chebyshev_polynomial.md) and
 [a C++
-version](../../cpp_src/chebyshev_polynomial/chebyshev_polynomial.html)
+version](../../master/chebyshev_polynomial/chebyshev_polynomial.md)
 and [a FORTRAN77
-version](../../f77_src/chebyshev_polynomial/chebyshev_polynomial.html)
+version](../../f77_src/chebyshev_polynomial/chebyshev_polynomial.md)
 and [a FORTRAN90
-version](../../f_src/chebyshev_polynomial/chebyshev_polynomial.html) and
+version](../../f_src/chebyshev_polynomial/chebyshev_polynomial.md) and
 [a MATLAB
-version](../../m_src/chebyshev_polynomial/chebyshev_polynomial.html) and
+version](../../m_src/chebyshev_polynomial/chebyshev_polynomial.md) and
 [a Python
-version](../../py_src/chebyshev_polynomial/chebyshev_polynomial.html).
+version](../../py_src/chebyshev_polynomial/chebyshev_polynomial.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[CHEBYSHEV](../../cpp_src/chebyshev/chebyshev.html), a C++ library which
+[CHEBYSHEV](../../master/chebyshev/chebyshev.md), a C++ library which
 computes the Chebyshev interpolant/approximant to a given function over
 an interval.
 
-[CHEBYSHEV\_SERIES](../../cpp_src/chebyshev_series/chebyshev_series.html),
+[CHEBYSHEV\_SERIES](../../master/chebyshev_series/chebyshev_series.md),
 a C++ library which can evaluate a Chebyshev series approximating a
 function f(x), while efficiently computing one, two or three derivatives
 of the series, which approximate f'(x), f''(x), and f'''(x), by Manfred
 Zimmer.
 
-[CHEBYSHEV1\_RULE](../../cpp_src/chebyshev1_rule/chebyshev1_rule.html),
+[CHEBYSHEV1\_RULE](../../master/chebyshev1_rule/chebyshev1_rule.md),
 a C++ program which computes and prints a Gauss-Chebyshev type 1
 quadrature rule.
 
-[CHEBYSHEV2\_RULE](../../cpp_src/chebyshev2_rule/chebyshev2_rule.html),
+[CHEBYSHEV2\_RULE](../../master/chebyshev2_rule/chebyshev2_rule.md),
 a C++ program which compute and print a Gauss-Chebyshev type 2
 quadrature rule.
 
-[CLAUSEN](../../cpp_src/clausen/clausen.html), a C++ library which
+[CLAUSEN](../../master/clausen/clausen.md), a C++ library which
 evaluates a Chebyshev interpolant to the Clausen function Cl2(x).
 
-[GEGENBAUER\_POLYNOMIAL](../../cpp_src/gegenbauer_polynomial/gegenbauer_polynomial.html),
+[GEGENBAUER\_POLYNOMIAL](../../master/gegenbauer_polynomial/gegenbauer_polynomial.md),
 a C++ library which evaluates the Gegenbauer polynomial and associated
 functions.
 
-[HERMITE\_POLYNOMIAL](../../cpp_src/hermite_polynomial/hermite_polynomial.html),
+[HERMITE\_POLYNOMIAL](../../master/hermite_polynomial/hermite_polynomial.md),
 a C++ library which evaluates the physicist's Hermite polynomial, the
 probabilist's Hermite polynomial, the Hermite function, and related
 functions.
 
-[INT\_EXACTNESS\_CHEBYSHEV1](../../cpp_src/int_exactness_chebyshev1/int_exactness_chebyshev1.html),
+[INT\_EXACTNESS\_CHEBYSHEV1](../../master/int_exactness_chebyshev1/int_exactness_chebyshev1.md),
 a C++ program which tests the polynomial exactness of Gauss-Chebyshev
 type 1 quadrature rules.
 
-[INT\_EXACTNESS\_CHEBYSHEV2](../../cpp_src/int_exactness_chebyshev2/int_exactness_chebyshev2.html),
+[INT\_EXACTNESS\_CHEBYSHEV2](../../master/int_exactness_chebyshev2/int_exactness_chebyshev2.md),
 a C++ program which tests the polynomial exactness of Gauss-Chebyshev
 type 2 quadrature rules.
 
-[JACOBI\_POLYNOMIAL](../../cpp_src/jacobi_polynomial/jacobi_polynomial.html),
+[JACOBI\_POLYNOMIAL](../../master/jacobi_polynomial/jacobi_polynomial.md),
 a C++ library which evaluates the Jacobi polynomial and associated
 functions.
 
-[LAGUERRE\_POLYNOMIAL](../../cpp_src/laguerre_polynomial/laguerre_polynomial.html),
+[LAGUERRE\_POLYNOMIAL](../../master/laguerre_polynomial/laguerre_polynomial.md),
 a C++ library which evaluates the Laguerre polynomial, the generalized
 Laguerre polynomial, and the Laguerre function.
 
-[LEGENDRE\_POLYNOMIAL](../../cpp_src/legendre_polynomial/legendre_polynomial.html),
+[LEGENDRE\_POLYNOMIAL](../../master/legendre_polynomial/legendre_polynomial.md),
 a C++ library which evaluates the Legendre polynomial and associated
 functions.
 
-[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../cpp_src/legendre_shifted_polynomial/legendre_shifted_polynomial.html),
+[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../master/legendre_shifted_polynomial/legendre_shifted_polynomial.md),
 a C++ library which evaluates the shifted Legendre polynomial, with
 domain \[0,1\].
 
-[JACOBI\_POLYNOMIAL](../../cpp_src/jacobi_polynomial/jacobi_polynomial.html),
+[JACOBI\_POLYNOMIAL](../../master/jacobi_polynomial/jacobi_polynomial.md),
 a C++ library which evaluates the Jacobi polynomial and associated
 functions.
 
-[LAGUERRE\_POLYNOMIAL](../../cpp_src/laguerre_polynomial/laguerre_polynomial.html),
+[LAGUERRE\_POLYNOMIAL](../../master/laguerre_polynomial/laguerre_polynomial.md),
 a C++ library which evaluates the Laguerre polynomial, the generalized
 Laguerre polynomial, and the Laguerre function.
 
-[LEGENDRE\_POLYNOMIAL](../../cpp_src/legendre_polynomial/legendre_polynomial.html),
+[LEGENDRE\_POLYNOMIAL](../../master/legendre_polynomial/legendre_polynomial.md),
 a C++ library which evaluates the Legendre polynomial and associated
 functions.
 
-[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../cpp_src/legendre_shifted_polynomial/legendre_shifted_polynomial.html),
+[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../master/legendre_shifted_polynomial/legendre_shifted_polynomial.md),
 a C++ library which evaluates the shifted Legendre polynomial, with
 domain \[0,1\].
 
-[LOBATTO\_POLYNOMIAL](../../cpp_src/lobatto_polynomial/lobatto_polynomial.html),
+[LOBATTO\_POLYNOMIAL](../../master/lobatto_polynomial/lobatto_polynomial.md),
 a C++ library which evaluates Lobatto polynomials, similar to Legendre
 polynomials except that they are zero at both endpoints.
 
-[POLPAK](../../cpp_src/polpak/polpak.html), a C++ library which
+[POLPAK](../../master/polpak/polpak.md), a C++ library which
 evaluates a variety of mathematical functions.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which supplies test values of various mathematical functions.
 
 ### Reference: {#reference align="center"}
@@ -362,7 +362,7 @@ library which supplies test values of various mathematical functions.
 -   **WW\_PRODUCT\_INTEGRAL:** integral (-1&lt;=x&lt;=1)
     W(i,x)\*W(j,x)\*sqrt(1-x)/sqrt(1+x) dx
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

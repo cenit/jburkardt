@@ -45,29 +45,29 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **POLYGON\_TRIANGULATE** is available in [a C
-version](../../c_src/polygon_triangulate/polygon_triangulate.html) and
+version](../../c_src/polygon_triangulate/polygon_triangulate.md) and
 [a C++
-version](../../cpp_src/polygon_triangulate/polygon_triangulate.html) and
+version](../../master/polygon_triangulate/polygon_triangulate.md) and
 [a FORTRAN77
-version](../../f77_src/polygon_triangulate/polygon_triangulate.html) and
+version](../../f77_src/polygon_triangulate/polygon_triangulate.md) and
 [a FORTRAN90
-version](../../f_src/polygon_triangulate/polygon_triangulate.html) and
+version](../../f_src/polygon_triangulate/polygon_triangulate.md) and
 [a MATLAB
-version](../../m_src/polygon_triangulate/polygon_triangulate.html) and
+version](../../m_src/polygon_triangulate/polygon_triangulate.md) and
 [a Python
-version](../../py_src/polygon_triangulate/polygon_triangulate.html).
+version](../../py_src/polygon_triangulate/polygon_triangulate.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[POLYGON\_INTEGRALS](../../cpp_src/polygon_integrals/polygon_integrals.html),
+[POLYGON\_INTEGRALS](../../master/polygon_integrals/polygon_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of a polygon in 2D.
 
-[POLYGON\_MONTE\_CARLO](../../cpp_src/polygon_monte_carlo/polygon_monte_carlo.html),
+[POLYGON\_MONTE\_CARLO](../../master/polygon_monte_carlo/polygon_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the interior of a polygon in 2D.
 
-[POLYGON\_PROPERTIES](../../cpp_src/polygon_properties/polygon_properties.html),
+[POLYGON\_PROPERTIES](../../master/polygon_properties/polygon_properties.md),
 a C++ library which computes properties of an arbitrary polygon in the
 plane, defined by a sequence of vertices, including interior angles,
 area, centroid, containment of a point, convexity, diameter, distance to
@@ -169,7 +169,7 @@ vertices.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TRIANGLE\_AREA** computes the signed area of a triangle.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

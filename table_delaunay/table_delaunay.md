@@ -29,45 +29,45 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TABLE\_DELAUNAY** is available in [a C++
-version](../../cpp_src/table_delaunay/table_delaunay.html) and [a
-FORTRAN90 version](../../f_src/table_delaunay/table_delaunay.html) and
-[a MATLAB version](../../m_src/table_delaunay/table_delaunay.html).
+version](../../master/table_delaunay/table_delaunay.md) and [a
+FORTRAN90 version](../../f_src/table_delaunay/table_delaunay.md) and
+[a MATLAB version](../../m_src/table_delaunay/table_delaunay.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[DELAUNAY\_LMAP\_2D](../../f_src/delaunay_lmap_2d/delaunay_lmap_2d.html),
+[DELAUNAY\_LMAP\_2D](../../f_src/delaunay_lmap_2d/delaunay_lmap_2d.md),
 a FORTRAN90 program that computes the Delaunay triangulation of points
 in the plane under a linear mapping.
 
-[GEOMPACK](../../cpp_src/geompack/geompack.html), a C++ library which
+[GEOMPACK](../../master/geompack/geompack.md), a C++ library which
 computes the Delaunay triangulation.
 
-[STRIPACK](../../f_src/stripack/stripack.html), a FORTRAN90 library
+[STRIPACK](../../f_src/stripack/stripack.md), a FORTRAN90 library
 which computes the Delaunay triangulation or Voronoi diagram of points
 on a sphere.
 
-[TABLE](../../data/table/table.html), a file format which is used for
+[TABLE](../../data/table/table.md), a file format which is used for
 the input to this program.
 
-[TABLE\_IO](../../cpp_src/table_io/table_io.html), a C++ library which
+[TABLE\_IO](../../master/table_io/table_io.md), a C++ library which
 supplies the routines used to read the TABLE file.
 
-[TABLE\_TET\_MESH](../../f_src/table_tet_mesh/table_tet_mesh.html), a
+[TABLE\_TET\_MESH](../../f_src/table_tet_mesh/table_tet_mesh.md), a
 FORTRAN90 program which can read a table file of 3D data, and compute a
 tetrahedral mesh.
 
-[TABLE\_VORONOI](../../cpp_src/table_voronoi/table_voronoi.html), a C++
+[TABLE\_VORONOI](../../master/table_voronoi/table_voronoi.md), a C++
 program which can be used to compute information about the Voronoi
 diagram of the points.
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[TRIANGULATION\_PLOT](../../cpp_src/triangulation_plot/triangulation_plot.html),
+[TRIANGULATION\_PLOT](../../master/triangulation_plot/triangulation_plot.md),
 a C++ program which may be used to visualize the triangulation.
 
-[TRIPACK](../../f_src/tripack/tripack.html), a FORTRAN90 library which
+[TRIPACK](../../f_src/tripack/tripack.md), a FORTRAN90 library which
 computes the Delaunay triangulation of points in the plane.
 
 ### Reference: {#reference align="center"}
@@ -164,7 +164,7 @@ region using CVT techniques.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **VBEDG** determines which boundary edges are visible to a point.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

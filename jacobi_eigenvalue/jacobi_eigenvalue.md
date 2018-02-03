@@ -24,21 +24,21 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **JACOBI\_EIGENVALUE** is available in [a C
-version](../../c_src/jacobi_eigenvalue/jacobi_eigenvalue.html) and [a
-C++ version](../../cpp_src/jacobi_eigenvalue/jacobi_eigenvalue.html) and
+version](../../c_src/jacobi_eigenvalue/jacobi_eigenvalue.md) and [a
+C++ version](../../master/jacobi_eigenvalue/jacobi_eigenvalue.md) and
 [a FORTRAN77
-version](../../f77_src/jacobi_eigenvalue/jacobi_eigenvalue.html) and [a
-FORTRAN90 version](../../f_src/jacobi_eigenvalue/jacobi_eigenvalue.html)
+version](../../f77_src/jacobi_eigenvalue/jacobi_eigenvalue.md) and [a
+FORTRAN90 version](../../f_src/jacobi_eigenvalue/jacobi_eigenvalue.md)
 and [a MATLAB
-version](../../m_src/jacobi_eigenvalue/jacobi_eigenvalue.html) and [a
-Python version](../../py_src/jacobi_eigenvalue/jacobi_eigenvalue.html).
+version](../../m_src/jacobi_eigenvalue/jacobi_eigenvalue.md) and [a
+Python version](../../py_src/jacobi_eigenvalue/jacobi_eigenvalue.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TEST\_EIGEN](../../cpp_src/test_eigen/test_eigen.html), a C++ library
+[TEST\_EIGEN](../../master/test_eigen/test_eigen.md), a C++ library
 which implements test matrices for eigenvalue analysis.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices, some of which have known determinants,
 eigenvalues and eigenvectors, inverses and so on.
 
@@ -76,7 +76,7 @@ eigenvalues and eigenvectors, inverses and so on.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

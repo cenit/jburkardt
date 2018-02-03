@@ -30,26 +30,26 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **STOKES\_2D\_EXACT** is available in [a C
-version](../../c_src/stokes_2d_exact/stokes_2d_exact.html) and [a C++
-version](../../cpp_src/stokes_2d_exact/stokes_2d_exact.html) and [a
-FORTRAN77 version](../../f77_src/stokes_2d_exact/stokes_2d_exact.html)
+version](../../c_src/stokes_2d_exact/stokes_2d_exact.md) and [a C++
+version](../../master/stokes_2d_exact/stokes_2d_exact.md) and [a
+FORTRAN77 version](../../f77_src/stokes_2d_exact/stokes_2d_exact.md)
 and [a FORTRAN90
-version](../../f_src/stokes_2d_exact/stokes_2d_exact.html) and [a MATLAB
-version](../../m_src/stokes_2d_exact/stokes_2d_exact.html) and [a Python
-version](../../py_src/stokes_2d_exact/stokes_2d_exact.html).
+version](../../f_src/stokes_2d_exact/stokes_2d_exact.md) and [a MATLAB
+version](../../m_src/stokes_2d_exact/stokes_2d_exact.md) and [a Python
+version](../../py_src/stokes_2d_exact/stokes_2d_exact.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[NAVIER\_STOKES\_2D\_EXACT](../../cpp_src/navier_stokes_2d_exact/navier_stokes_2d_exact.html),
+[NAVIER\_STOKES\_2D\_EXACT](../../master/navier_stokes_2d_exact/navier_stokes_2d_exact.md),
 a C++ library which evaluates an exact solution to the incompressible
 time-dependent Navier-Stokes equations over an arbitrary domain in 2D.
 
-[NAVIER\_STOKES\_MESH2D](../../m_src/navier_stokes_mesh2d/navier_stokes_mesh2d.html),
+[NAVIER\_STOKES\_MESH2D](../../m_src/navier_stokes_mesh2d/navier_stokes_mesh2d.md),
 MATLAB data files which define triangular meshes for several 2D test
 problems involving the Navier Stokes equations for fluid flow, provided
 by Leo Rebholz.
 
-[SPIRAL\_DATA](../../cpp_src/spiral_data/spiral_data.html), a C++
+[SPIRAL\_DATA](../../master/spiral_data/spiral_data.md), a C++
 library which computes a velocity vector field that satisfies the
 continuity equation, writing the data to a file that can be plotted by
 gnuplot.
@@ -121,7 +121,7 @@ Graphics files:
 -   **UVP\_STOKES2** evaluates the exact Stokes solution \#2.
 -   **UVP\_STOKES3** evaluates the exact Stokes solution \#3.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

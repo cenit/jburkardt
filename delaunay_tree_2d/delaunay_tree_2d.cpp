@@ -15,7 +15,7 @@ using namespace std;
 //  Olivier.Devillers@sophia.inria.fr
 //  (33) 93 65 77 63
 //  Fax (33) 93 65 76 43
-//  http://www.inria.fr:/prisme/personnel/devillers/devillers.html
+//  http://www.inria.fr:/prisme/personnel/devillers/devillers.md
 // 
 //
 //  GEOMETRIC OBJECT :

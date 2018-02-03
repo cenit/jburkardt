@@ -38,65 +38,65 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PYRAMID\_EXACTNESS** is available in [a C
-version](../../c_src/pyramid_exactness/pyramid_exactness.html) and [a
-C++ version](../../cpp_src/pyramid_exactness/pyramid_exactness.html) and
+version](../../c_src/pyramid_exactness/pyramid_exactness.md) and [a
+C++ version](../../master/pyramid_exactness/pyramid_exactness.md) and
 [a FORTRAN77
-version](../../f77_src/pyramid_exactness/pyramid_exactness.html) and [a
-FORTRAN90 version](../../f_src/pyramid_exactness/pyramid_exactness.html)
+version](../../f77_src/pyramid_exactness/pyramid_exactness.md) and [a
+FORTRAN90 version](../../f_src/pyramid_exactness/pyramid_exactness.md)
 and [a MATLAB
-version.](../../m_src/pyramid_exactness/pyramid_exactness.html)
+version.](../../m_src/pyramid_exactness/pyramid_exactness.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CUBE\_EXACTNESS](../../cpp_src/cube_exactness/cube_exactness.html), a
+[CUBE\_EXACTNESS](../../master/cube_exactness/cube_exactness.md), a
 C++ library which investigates the polynomial exactness of quadrature
 rules over the interior of a cube in 3D.
 
-[HYPERCUBE\_EXACTNESS](../../cpp_src/hypercube_exactness/hypercube_exactness.html),
+[HYPERCUBE\_EXACTNESS](../../master/hypercube_exactness/hypercube_exactness.md),
 a C++ program which measures the monomial exactness of an M-dimensional
 quadrature rule over the interior of the unit hypercube in M dimensions.
 
-[PYRAMID\_FELIPPA\_RULE](../../cpp_src/pyramid_felippa_rule/pyramid_felippa_rule.html),
+[PYRAMID\_FELIPPA\_RULE](../../master/pyramid_felippa_rule/pyramid_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a pyramid in 3D.
 
-[PYRAMID\_GRID](../../cpp_src/pyramid_grid/pyramid_grid.html), a C++
+[PYRAMID\_GRID](../../master/pyramid_grid/pyramid_grid.md), a C++
 library which computes a grid of points over the interior of the unit
 pyramid in 3D;
 
-[PYRAMID\_INTEGRALS](../../cpp_src/pyramid_integrals/pyramid_integrals.html),
+[PYRAMID\_INTEGRALS](../../master/pyramid_integrals/pyramid_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit pyramid in 3D.
 
-[PYRAMID\_MONTE\_CARLO](../../cpp_src/pyramid_monte_carlo/pyramid_monte_carlo.html),
+[PYRAMID\_MONTE\_CARLO](../../master/pyramid_monte_carlo/pyramid_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate integrals
 of a function over the interior of the unit pyramid in 3D;
 
-[PYRAMID\_RULE](../../cpp_src/pyramid_rule/pyramid_rule.html), a C++
+[PYRAMID\_RULE](../../master/pyramid_rule/pyramid_rule.md), a C++
 program which can compute a quadrature rule over the interior of the
 unit pyramid in 3D.
 
-[QUADRATURE\_RULES\_PYRAMID](../../datasets/quadrature_rules_pyramid/quadrature_rules_pyramid.html),
+[QUADRATURE\_RULES\_PYRAMID](../../datasets/quadrature_rules_pyramid/quadrature_rules_pyramid.md),
 a dataset directory which contains quadrature rules over the interior of
 the unit pyramid in 3D.
 
-[SPHERE\_EXACTNESS](../../cpp_src/sphere_exactness/sphere_exactness.html),
+[SPHERE\_EXACTNESS](../../master/sphere_exactness/sphere_exactness.md),
 a C++ program which tests the monomial exactness of a quadrature rule on
 the surface of the unit sphere in 3D.
 
-[SQUARE\_EXACTNESS](../../cpp_src/square_exactness/square_exactness.html),
+[SQUARE\_EXACTNESS](../../master/square_exactness/square_exactness.md),
 a C++ library which investigates the polynomial exactness of quadrature
 rules for f(x,y) over the interior of a rectangle in 2D.
 
-[TETRAHEDRON\_EXACTNESS](../../cpp_src/tetrahedron_exactness/tetrahedron_exactness.html),
+[TETRAHEDRON\_EXACTNESS](../../master/tetrahedron_exactness/tetrahedron_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of a tetrahedron in 3D.
 
-[TRIANGLE\_EXACTNESS](../../cpp_src/triangle_exactness/triangle_exactness.html),
+[TRIANGLE\_EXACTNESS](../../master/triangle_exactness/triangle_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of a triangle in 2D.
 
-[WEDGE\_EXACTNESS](../../cpp_src/wedge_exactness/wedge_exactness.html),
+[WEDGE\_EXACTNESS](../../master/wedge_exactness/wedge_exactness.md),
 a C++ program which investigates the monomial exactness of a quadrature
 rule over the interior of the unit wedge in 3D.
 
@@ -158,7 +158,7 @@ rule over the interior of the unit wedge in 3D.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

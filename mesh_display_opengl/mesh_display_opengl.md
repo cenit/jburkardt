@@ -33,98 +33,98 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CAUSTIC\_OPENGL](../../cpp_src/caustic_opengl/caustic_opengl.html), a
+[CAUSTIC\_OPENGL](../../master/caustic_opengl/caustic_opengl.md), a
 C++ program which computes a caustic curve and displays it using OpenGL.
 
-[FEM\_BASIS\_T3\_DISPLAY](../../m_src/fem_basis_t3_display/fem_basis_t3_display.html),
+[FEM\_BASIS\_T3\_DISPLAY](../../m_src/fem_basis_t3_display/fem_basis_t3_display.md),
 a MATLAB program which displays a basis function associated with a
 linear triangle ("T3") mesh.
 
-[FEM\_BASIS\_T6\_DISPLAY](../../m_src/fem_basis_t6_display/fem_basis_t6_display.html),
+[FEM\_BASIS\_T6\_DISPLAY](../../m_src/fem_basis_t6_display/fem_basis_t6_display.md),
 a MATLAB program which reads a quadratic triangle mesh and displays any
 associated basis function.
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[FLOOD\_OPENGL](../../c_src/flood_opengl/flood_opengl.html), a C program
+[FLOOD\_OPENGL](../../c_src/flood_opengl/flood_opengl.md), a C program
 which allows a user to select a region and flood it with color, using
 OpenGL, by Art Wetzel.
 
-[LIFE\_OPENGL](../../c_src/life_opengl/life_opengl.html), a C program
+[LIFE\_OPENGL](../../c_src/life_opengl/life_opengl.md), a C program
 which simulates a version of John Conway's "Game of Life", displaying
 the results using OpenGL.
 
-[LIGHTS\_OUT\_OPENGL](../../cpp_src/lights_out_opengl/lights_out_opengl.html),
+[LIGHTS\_OUT\_OPENGL](../../master/lights_out_opengl/lights_out_opengl.md),
 a C++ program which sets up a "Lights Out" game and allows the user to
 solve it, using the OpenGL graphics window.
 
-[LISSAJOUS\_OPENGL](../../cpp_src/lissajous_opengl/lissajous_opengl.html),
+[LISSAJOUS\_OPENGL](../../master/lissajous_opengl/lissajous_opengl.md),
 a C++ program which computes a Lissajous figure and displays it using
 OpenGL.
 
-[MESH\_DISPLAY](../../m_src/mesh_display/mesh_display.html), a MATLAB
+[MESH\_DISPLAY](../../m_src/mesh_display/mesh_display.md), a MATLAB
 program which reads data defining a polygonal mesh and displays it, with
 optional numbering.
 
-[OPENGL](../../cpp_src/opengl/opengl.html), C++ programs which
+[OPENGL](../../master/opengl/opengl.md), C++ programs which
 illustrate the use of the OpenGL graphics library;
 
-[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../cpp_src/polygonal_surface_display_opengl/polygonal_surface_display_opengl.html),
+[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../master/polygonal_surface_display_opengl/polygonal_surface_display_opengl.md),
 a C++ program which displays a surface in 3D described as a set of
 polygons, using OpenGL.
 
-[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../cpp_src/rotating_cube_display_opengl/rotating_cube_display_opengl.html),
+[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../master/rotating_cube_display_opengl/rotating_cube_display_opengl.md),
 a C++ program which displays a rotating color cube in 3D, using OpenGL;
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[TABLE\_DELAUNAY](../../cpp_src/table_delaunay/table_delaunay.html), a
+[TABLE\_DELAUNAY](../../master/table_delaunay/table_delaunay.md), a
 C++ program which computes the Delaunay triangulation of a set of
 points.
 
-[TABLE\_IO](../../cpp_src/table_io/table_io.html), a C++ library which
+[TABLE\_IO](../../master/table_io/table_io.md), a C++ library which
 supplies the routines used to read the TABLE file.
 
-[TABLE\_VORONOI](../../cpp_src/table_voronoi/table_voronoi.html), a C++
+[TABLE\_VORONOI](../../master/table_voronoi/table_voronoi.md), a C++
 program which computes information about the Voronoi diagram of the
 points.
 
-[TRI\_SURFACE\_DISPLAY\_OPENGL](../../cpp_src/tri_surface_display_opengl/tri_surface_display_opengl.html),
+[TRI\_SURFACE\_DISPLAY\_OPENGL](../../master/tri_surface_display_opengl/tri_surface_display_opengl.md),
 a C++ program which displays the 3D graphics information in a
 TRI\_SURFACE file using OpenGL.
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads data defining a triangulation and creates an
 image using OpenGL.
 
-[TRIANGULATION\_MASK](../../cpp_src/triangulation_mask/triangulation_mask.html),
+[TRIANGULATION\_MASK](../../master/triangulation_mask/triangulation_mask.md),
 a C++ program which takes an existing triangulation and deletes
 triangles and their corresponding nodes as requested by the user.
 
-[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.html),
+[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.md),
 a directory which contains a description and examples of order 3
 triangulations.
 
-[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.html),
+[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.md),
 a directory which contains a description and examples of order 6
 triangulations.
 
-[TRIANGULATION\_PLOT](../../cpp_src/triangulation_plot/triangulation_plot.html),
+[TRIANGULATION\_PLOT](../../master/triangulation_plot/triangulation_plot.md),
 a C++ program which reads data defining a triangulation and creates a
 PostScript image of the nodes and triangles.
 
-[XY\_DISPLAY\_OPENGL](../../cpp_src/xy_display_opengl/xy_display_opengl.html),
+[XY\_DISPLAY\_OPENGL](../../master/xy_display_opengl/xy_display_opengl.md),
 is a C++ program which reads an XY file of 2D point coordinates, and
 displays an image of those points using OpenGL.
 
-[XYL\_DISPLAY\_OPENGL](../../cpp_src/xyl_display_opengl/xyl_display_opengl.html),
+[XYL\_DISPLAY\_OPENGL](../../master/xyl_display_opengl/xyl_display_opengl.md),
 a C++ program which reads XYL information defining points and lines in
 2D, and displays an image using OpenGL.
 
-[XYZ\_DISPLAY\_OPENGL](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html),
+[XYZ\_DISPLAY\_OPENGL](../../master/xyz_display_opengl/xyz_display_opengl.md),
 a C++ program which reads an XYZ file of 3D point coordinates, and
 displays an image of those points using OpenGL.
 
@@ -167,7 +167,7 @@ displays an image of those points using OpenGL.
 -   [rect\_nodes.txt](rect_nodes.txt), the node coordinates.
 -   [rect\_elements.txt](rect_elements.txt), the nodes that form each
     element.
--   [rect.png](rect.png), a [PNG](../../data/png/png.html) image of the
+-   [rect.png](rect.png), a [PNG](../../data/png/png.md) image of the
     mesh.
 
 **Q4** is a rectangular region covered by quadrilaterals, with a hole.
@@ -175,7 +175,7 @@ displays an image of those points using OpenGL.
 -   [q4\_nodes.txt](q4_nodes.txt), the node coordinates.
 -   [q4\_elements.txt](q4_elements.txt), the nodes that form each
     element.
--   [q4.png](q4.png), a [PNG](../../data/png/png.html) image of the
+-   [q4.png](q4.png), a [PNG](../../data/png/png.md) image of the
     mesh.
 
 **HEX** is a mesh of hexagons.
@@ -183,7 +183,7 @@ displays an image of those points using OpenGL.
 -   [hex\_nodes.txt](hex_nodes.txt), the node coordinates.
 -   [hex\_elements.txt](hex_elements.txt), the nodes that form each
     element.
--   [hex.png](hex.png), a [PNG](../../data/png/png.html) image of the
+-   [hex.png](hex.png), a [PNG](../../data/png/png.md) image of the
     mesh.
 
 ### List of Routines: {#list-of-routines align="center"}
@@ -217,7 +217,7 @@ displays an image of those points using OpenGL.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

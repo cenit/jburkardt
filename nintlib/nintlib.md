@@ -22,44 +22,44 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **NINTLIB** is available in [a C
-version](../../c_src/nintlib/nintlib.html) and [a C++
-version](../../cpp_src/nintlib/nintlib.html) and [a FORTRAN77
-version](../../f77_src/nintlib/nintlib.html) and [a FORTRAN90
-version](../../f_src/nintlib/nintlib.html) and [a MATLAB
-version](../../m_src/nintlib/nintlib.html).
+version](../../c_src/nintlib/nintlib.md) and [a C++
+version](../../master/nintlib/nintlib.md) and [a FORTRAN77
+version](../../f77_src/nintlib/nintlib.md) and [a FORTRAN90
+version](../../f_src/nintlib/nintlib.md) and [a MATLAB
+version](../../m_src/nintlib/nintlib.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEKETE](../../cpp_src/fekete/fekete.html), a C++ library which defines
+[FEKETE](../../master/fekete/fekete.md), a C++ library which defines
 a Fekete rule for quadrature or interpolation over a triangle.
 
-[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.html), a
+[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.md), a
 FORTRAN90 program which tests the suitability of a set of N points for
 use in an equal-weight quadrature rule over the multi-dimensional unit
 hypercube.
 
-[INTLIB](../../f_src/intlib/intlib.html), a FORTRAN90 library which
+[INTLIB](../../f_src/intlib/intlib.md), a FORTRAN90 library which
 estimates the integral of a function over a one-dimensional interval.
 
-[NINT\_EXACTNESS](../../cpp_src/nint_exactness/nint_exactness.html), a
+[NINT\_EXACTNESS](../../master/nint_exactness/nint_exactness.md), a
 C++ program which demonstrates how to measure the polynomial exactness
 of a multidimensional quadrature rule.
 
-[PRODUCT\_RULE](../../cpp_src/product_rule/product_rule.html), a C++
+[PRODUCT\_RULE](../../master/product_rule/product_rule.md), a C++
 program which can create a multidimensional quadrature rule as a product
 of one dimensional rules.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines a variety of (mostly 1-dimensional) quadrature rules.
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which defines
+[STROUD](../../master/stroud/stroud.md), a C++ library which defines
 a variety of quadrature rules over various "interesting" geometric
 shapes.
 
-[TEST\_INT\_2D](../../cpp_src/test_int_2d/test_int_2d.html), a C++
+[TEST\_INT\_2D](../../master/test_int_2d/test_int_2d.md), a C++
 library which defines test integrands for 2D quadrature rules.
 
-[TEST\_NINT](../../cpp_src/test_nint/test_nint.html), a C++ library
+[TEST\_NINT](../../master/test_nint/test_nint.md), a C++ library
 which tests multi-dimensional quadrature routines.
 
 ### Reference: {#reference align="center"}
@@ -103,7 +103,7 @@ which tests multi-dimensional quadrature routines.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TUPLE\_NEXT** computes the next element of a tuple space.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

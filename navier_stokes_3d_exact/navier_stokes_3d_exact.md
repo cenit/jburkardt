@@ -29,25 +29,25 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **NAVIER\_STOKES\_3D\_EXACT** is available in [a C
-version](../../c_src/navier_stokes_3d_exact/navier_stokes_3d_exact.html)
+version](../../c_src/navier_stokes_3d_exact/navier_stokes_3d_exact.md)
 and [a C++
-version](../../cpp_src/navier_stokes_3d_exact/navier_stokes_3d_exact.html)
+version](../../master/navier_stokes_3d_exact/navier_stokes_3d_exact.md)
 and [a FORTRAN77
-version](../../f77_src/navier_stokes_3d_exact/navier_stokes_3d_exact.html)
+version](../../f77_src/navier_stokes_3d_exact/navier_stokes_3d_exact.md)
 and [a FORTRAN90
-version](../../f_src/navier_stokes_3d_exact/navier_stokes_3d_exact.html)
+version](../../f_src/navier_stokes_3d_exact/navier_stokes_3d_exact.md)
 and [a MATLAB
-version](../../m_src/navier_stokes_3d_exact/navier_stokes_3d_exact.html)
+version](../../m_src/navier_stokes_3d_exact/navier_stokes_3d_exact.md)
 and [a Python
-version](../../py_src/navier_stokes_3d_exact/navier_stokes_3d_exact.html).
+version](../../py_src/navier_stokes_3d_exact/navier_stokes_3d_exact.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[NAVIER\_STOKES\_2D\_EXACT](../../cpp_src/navier_stokes_2d_exact/navier_stokes_2d_exact.html),
+[NAVIER\_STOKES\_2D\_EXACT](../../master/navier_stokes_2d_exact/navier_stokes_2d_exact.md),
 a C++ library which evaluates exact solutions to the incompressible
 time-dependent Navier-Stokes equations over an arbitrary domain in 2D.
 
-[NAVIER\_STOKES\_MESH3D](../../m_src/navier_stokes_mesh3d/navier_stokes_mesh3d.html),
+[NAVIER\_STOKES\_MESH3D](../../m_src/navier_stokes_mesh3d/navier_stokes_mesh3d.md),
 MATLAB data files which define meshes for several 3D test problems
 involving the Navier Stokes equations for flow flow, provided by Leo
 Rebholz.
@@ -90,7 +90,7 @@ Rebholz.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **UVWP\_ETHIER** evaluates the Ethier exact Navier Stokes solution.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -25,35 +25,35 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TILER\_3D** is available in [a C++
-version](../../cpp_src/tiler_3d/tiler_3d.html) and [a FORTRAN90
-version.](../../f_src/tiler_3d/tiler_3d.html)
+version](../../master/tiler_3d/tiler_3d.md) and [a FORTRAN90
+version.](../../f_src/tiler_3d/tiler_3d.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLEND](../../cpp_src/blend/blend.html), a C++ library which carries out
+[BLEND](../../master/blend/blend.md), a C++ library which carries out
 the blending demonstrated byTILER\_3D.
 
-[IV](../../data/iv/iv.html), a data directory which contains a
+[IV](../../data/iv/iv.md), a data directory which contains a
 description and examples of the IV (Inventor) 3D graphics format.
 
-[IVCON](../../cpp_src/ivcon/ivcon.html), a C++ program which can convert
+[IVCON](../../master/ivcon/ivcon.md), a C++ program which can convert
 the **TRI** file output by TILER\_3D into various other formats.
 
-[IVREAD](../../f_src/ivread/ivread.html), a FORTRAN90 program which can
+[IVREAD](../../f_src/ivread/ivread.md), a FORTRAN90 program which can
 convert the **TRI** file output by TILER\_3D into various other formats.
 
-[STLA](../../data/stla/stla.html), a data directory which contains a
+[STLA](../../data/stla/stla.md), a data directory which contains a
 description and examples of the ASCII STL (stereolithography) 3D
 graphics format.
 
-[STLA\_DISPLAY](../../m_src/stla_display/stla_display.html), a MATLAB
+[STLA\_DISPLAY](../../m_src/stla_display/stla_display.md), a MATLAB
 program which reads in an ASCII STL file and displays the 3D graphics
 image it describes.
 
-[TILER\_2D](../../f_src/tiler_2d/tiler_2d.html), a FORTRAN90 program
+[TILER\_2D](../../f_src/tiler_2d/tiler_2d.md), a FORTRAN90 program
 which is a 2D version of TILER\_3D.
 
-[TRIA](../../data/tria/tria.html), a data directory which contains a
+[TRIA](../../data/tria/tria.md), a data directory which contains a
 description and examples of TRIA, the ASCII TRIANGLE 3D graphics format.
 
 ### Reference: {#reference align="center"}
@@ -89,7 +89,7 @@ description and examples of TRIA, the ASCII TRIANGLE 3D graphics format.
 -   **SUB\_BOX\_TILER\_3D** "tiles" a 3D sub-box with a given pattern.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

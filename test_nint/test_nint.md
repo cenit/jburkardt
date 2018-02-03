@@ -112,43 +112,43 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_NINT** is available in [a C++
-version](../../cpp_src/test_nint/test_nint.html) and [a FORTRAN90
-version](../../f_src/test_nint/test_nint.html) and [a MATLAB
-version](../../m_src/test_nint/test_nint.html).
+version](../../master/test_nint/test_nint.md) and [a FORTRAN90
+version](../../f_src/test_nint/test_nint.md) and [a MATLAB
+version](../../m_src/test_nint/test_nint.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CLENSHAW\_CURTIS\_RULE](../../cpp_src/clenshaw_curtis_rule/clenshaw_curtis_rule.html),
+[CLENSHAW\_CURTIS\_RULE](../../master/clenshaw_curtis_rule/clenshaw_curtis_rule.md),
 a C++ library which sets a Clenshaw Curtis quadrature grid in multiple
 dimensions.
 
-[GSL](../../cpp_src/gsl/gsl.html), a C++ library which includes routines
+[GSL](../../master/gsl/gsl.md), a C++ library which includes routines
 for estimating multidimensional integrals.
 
-[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.html), a
+[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.md), a
 FORTRAN90 program which uses some of these test integrals to evaluate
 sets of quadrature points.
 
-[NINT\_EXACTNESS](../../cpp_src/nint_exactness/nint_exactness.html), a
+[NINT\_EXACTNESS](../../master/nint_exactness/nint_exactness.md), a
 C++ program which measures the polynomial exactness of a
 multidimensional quadrature rule.
 
-[NINTLIB](../../cpp_src/nintlib/nintlib.html), a C++ library which
+[NINTLIB](../../master/nintlib/nintlib.md), a C++ library which
 numerically estimates integrals in multiple dimensions.
 
-[PRODUCT\_RULE](../../cpp_src/product_rule/product_rule.html), a C++
+[PRODUCT\_RULE](../../master/product_rule/product_rule.md), a C++
 program which creates a multidimensional quadrature rule as a product of
 one dimensional rules.
 
-[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.html),
+[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.md),
 a dataset directory which contains a description and examples of
 quadrature rules defined by a set of "X", "W" and "R" files.
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which defines
+[STROUD](../../master/stroud/stroud.md), a C++ library which defines
 quadrature rules for a variety of unusual areas, surfaces and volumes in
 2D, 3D and N-dimensions.
 
-[TESTPACK](../../cpp_src/testpack/testpack.html), a C++ library which
+[TESTPACK](../../master/testpack/testpack.md), a C++ library which
 defines a set of integrands used to test multidimensional quadrature.
 
 ### Reference: {#reference align="center"}
@@ -671,7 +671,7 @@ defines a set of integrands used to test multidimensional quadrature.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TUPLE\_NEXT** computes the next element of a tuple space.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -28,32 +28,32 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **POWER\_METHOD** is available in [a C
-version](../../c_src/power_method/power_method.html) and [a C++
-version](../../cpp_src/power_method/power_method.html) and [a FORTRAN77
-version](../../f77_src/power_method/power_method.html) and [a FORTRAN90
-version](../../f_src/power_method/power_method.html) and [a MATLAB
-version](../../m_src/power_method/power_method.html).
+version](../../c_src/power_method/power_method.md) and [a C++
+version](../../master/power_method/power_method.md) and [a FORTRAN77
+version](../../f77_src/power_method/power_method.md) and [a FORTRAN90
+version](../../f_src/power_method/power_method.md) and [a MATLAB
+version](../../m_src/power_method/power_method.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ARPACK](../../f_src/arpack/arpack.html), a FORTRAN90 library which
+[ARPACK](../../f_src/arpack/arpack.md), a FORTRAN90 library which
 computes eigenvalues for large matrices;
 
-[EISPACK](../../f77_src/eispack/eispack.html), a FORTRAN77 library which
+[EISPACK](../../f77_src/eispack/eispack.md), a FORTRAN77 library which
 carries out eigenvalue computations; superseded by
-[LAPACK](../../f77_src/lapack/lapack.html);
+[LAPACK](../../f77_src/lapack/lapack.md);
 
-[TEST\_EIGEN](../../cpp_src/test_eigen/test_eigen.html), a C++ library
+[TEST\_EIGEN](../../master/test_eigen/test_eigen.md), a C++ library
 which implements test matrices for eigenvalue analysis.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices.
 
-[TOMS343](../../f77_src/toms343/toms343.html), a FORTRAN77 library which
+[TOMS343](../../f77_src/toms343/toms343.md), a FORTRAN77 library which
 computes the eigenvalues and eigenvectors of a general real matrix;\
 this is a FORTRAN77 version of ACM TOMS algorithm 343.
 
-[TOMS384](../../f77_src/toms384/toms384.html), a FORTRAN77 library which
+[TOMS384](../../f77_src/toms384/toms384.md), a FORTRAN77 library which
 computes the eigenvalues and eigenvectors of a symmetric matrix;\
 this is a FORTRAN77 version of ACM TOMS algorithm 384.
 
@@ -110,7 +110,7 @@ this is a FORTRAN77 version of ACM TOMS algorithm 384.
 -   **TRIS** returns the TRIS matrix.
 -   **TRIS\_EIGENVALUES** returns the eigenvalues of the TRIS matrix.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

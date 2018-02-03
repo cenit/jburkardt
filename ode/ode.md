@@ -24,28 +24,28 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**ODE** is available in [a C version](../../c_src/ode/ode.html) and [a
-C++ version](../../cpp_src/ode/ode.html) and [a FORTRAN77
-version](../../f77_src/ode/ode.html) and [a FORTRAN90
-version.](../../f_src/ode/ode.html).
+**ODE** is available in [a C version](../../c_src/ode/ode.md) and [a
+C++ version](../../master/ode/ode.md) and [a FORTRAN77
+version](../../f77_src/ode/ode.md) and [a FORTRAN90
+version.](../../f_src/ode/ode.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[NMS](../../f_src/nms/nms.html), a FORTRAN90 library which includes the
+[NMS](../../f_src/nms/nms.md), a FORTRAN90 library which includes the
 ddriv package of ODE solvers.
 
-[ODEPACK](../../f77_src/odepack/odepack.html), a FORTRAN77 library which
+[ODEPACK](../../f77_src/odepack/odepack.md), a FORTRAN77 library which
 contains nine ODE solvers, including LSODE, LSODES, LSODA, LSODAR,
 LSODPK, LSODKR, LSODI, LSOIBT, and LSODIS, by Alan Hindmarsh.
 
-[RK4](../../cpp_src/rk4/rk4.html), a C++ library which applies the
+[RK4](../../master/rk4/rk4.md), a C++ library which applies the
 fourth order Runge-Kutta algorithm to estimate the solution of an
 ordinary differential equation at the next time step.
 
-[RKF45](../../cpp_src/rkf45/rkf45.html), a C++ library which implements
+[RKF45](../../master/rkf45/rkf45.md), a C++ library which implements
 the Runge-Kutta-Fehlberg ODE solver.
 
-[TEST\_ODE](../../f_src/test_ode/test_ode.html), a FORTRAN90 library
+[TEST\_ODE](../../f_src/test_ode/test_ode.md), a FORTRAN90 library
 which defines test problems for ODE solvers.
 
 ### Author: {#author align="center"}
@@ -88,7 +88,7 @@ Lawrence Shampine, Marilyn Gordon.
 -   **STEP** integrates the system of ODEs one step, from X to X+H.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

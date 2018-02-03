@@ -29,46 +29,46 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGLE\_PROPERTIES** is available in [a C
-version](../../c_src/triangle_properties/triangle_properties.html) and
+version](../../c_src/triangle_properties/triangle_properties.md) and
 [a C++
-version](../../cpp_src/triangle_properties/triangle_properties.html) and
+version](../../master/triangle_properties/triangle_properties.md) and
 [a FORTRAN90
-version](../../f_src/triangle_properties/triangle_properties.html) and
+version](../../f_src/triangle_properties/triangle_properties.md) and
 [a MATLAB
-version](../../m_src/triangle_properties/triangle_properties.html) and
+version](../../m_src/triangle_properties/triangle_properties.md) and
 [a Python
-version](../../py_src/triangle_properties/triangle_properties.html).
+version](../../py_src/triangle_properties/triangle_properties.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GEOMETRY](../../cpp_src/geometry/geometry.html), a C++ library which
+[GEOMETRY](../../master/geometry/geometry.md), a C++ library which
 performs geometric calculations in 2, 3 and N dimensional space.
 
-[HYPERSPHERE\_PROPERTIES](../../cpp_src/hypersphere_properties/hypersphere_properties.html),
+[HYPERSPHERE\_PROPERTIES](../../master/hypersphere_properties/hypersphere_properties.md),
 a C++ library which carries out various operations for an M-dimensional
 hypersphere, including converting between Cartesian and spherical
 coordinates, stereographic projection, sampling the surface of the
 sphere, and computing the surface area and volume.
 
-[POLYGON\_PROPERTIES](../../cpp_src/polygon_properties/polygon_properties.html),
+[POLYGON\_PROPERTIES](../../master/polygon_properties/polygon_properties.md),
 a C++ library which computes properties of an arbitrary polygon in the
 plane, defined by a sequence of vertices, including interior angles,
 area, centroid, containment of a point, convexity, diameter, distance to
 a point, inradius, lattice area, nearest point in set, outradius,
 uniform sampling.
 
-[TETRAHEDRON\_PROPERTIES](../../cpp_src/tetrahedron_properties/tetrahedron_properties.html),
+[TETRAHEDRON\_PROPERTIES](../../master/tetrahedron_properties/tetrahedron_properties.md),
 a C++ program which computes properties of a given tetrahedron.
 
-[TRIANGLE\_ANALYZE](../../cpp_src/triangle_analyze/triangle_analyze.html),
+[TRIANGLE\_ANALYZE](../../master/triangle_analyze/triangle_analyze.md),
 a C++ program which reads a triangle from a file, and then reports
 various properties.
 
-[TRIANGLE\_INTERPOLATE](../../cpp_src/triangle_interpolate/triangle_interpolate.html),
+[TRIANGLE\_INTERPOLATE](../../master/triangle_interpolate/triangle_interpolate.md),
 a C++ library which shows how vertex data can be interpolated at any
 point in the interior of a triangle.
 
-[TRIANGLES](../../datasets/triangles/triangles.html), a dataset
+[TRIANGLES](../../datasets/triangles/triangles.md), a dataset
 directory which contains examples of triangles;
 
 ### Source Code: {#source-code align="center"}
@@ -146,7 +146,7 @@ directory which contains examples of triangles;
     coordinates in 2D.
 -   **TRIANGLE\_XY\_TO\_XSI** converts from XY to barycentric in 2D.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

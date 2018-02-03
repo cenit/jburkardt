@@ -17,15 +17,15 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGLE\_SVG** is available in [a C
-version](../../c_src/triangle_svg/triangle_svg.html) and [a C++
-version](../../cpp_src/triangle_svg/triangle_svg.html) and [a FORTRAN77
-version](../../f77_src/triangle_svg/triangle_svg.html) and [a FORTRAN90
-version](../../f_src/triangle_svg/triangle_svg.html) and [a MATLAB
-version](../../m_src/triangle_svg/triangle_svg.html).
+version](../../c_src/triangle_svg/triangle_svg.md) and [a C++
+version](../../master/triangle_svg/triangle_svg.md) and [a FORTRAN77
+version](../../f77_src/triangle_svg/triangle_svg.md) and [a FORTRAN90
+version](../../f_src/triangle_svg/triangle_svg.md) and [a MATLAB
+version](../../m_src/triangle_svg/triangle_svg.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TRIANGULATION\_SVG](../../cpp_src/triangulation_svg/triangulation_svg.html),
+[TRIANGULATION\_SVG](../../master/triangulation_svg/triangulation_svg.md),
 a C++ program which creates a Scalable Vector Graphics (SVG) image of a
 triangulation, which can be displayed by a web browser.
 
@@ -53,7 +53,7 @@ triangulation, which can be displayed by a web browser.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TRIANGLE\_SVG** plots a triangle and points in SVG format.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

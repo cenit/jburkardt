@@ -56,62 +56,62 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ISING\_2D\_SIMULATION** is available in [a C
-version](../../c_src/ising_2d_simulation/ising_2d_simulation.html) and
+version](../../c_src/ising_2d_simulation/ising_2d_simulation.md) and
 [a C++
-version](../../cpp_src/ising_2d_simulation/ising_2d_simulation.html) and
+version](../../master/ising_2d_simulation/ising_2d_simulation.md) and
 [a FORTRAN77
-version](../../f77_src/ising_2d_simulation/ising_2d_simulation.html) and
+version](../../f77_src/ising_2d_simulation/ising_2d_simulation.md) and
 [a FORTRAN90
-version](../../f_src/ising_2d_simulation/ising_2d_simulation.html) and
+version](../../f_src/ising_2d_simulation/ising_2d_simulation.md) and
 [a MATLAB
-version](../../m_src/ising_2d_simulation/ising_2d_simulation.html).
+version](../../m_src/ising_2d_simulation/ising_2d_simulation.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BROWNIAN\_MOTION\_SIMULATION](../../cpp_src/brownian_motion_simulation/brownian_motion_simulation.html),
+[BROWNIAN\_MOTION\_SIMULATION](../../master/brownian_motion_simulation/brownian_motion_simulation.md),
 a C++ library which simulates Brownian motion in an M-dimensional
 region.
 
-[DUEL\_SIMULATION](../../cpp_src/duel_simulation/duel_simulation.html),
+[DUEL\_SIMULATION](../../master/duel_simulation/duel_simulation.md),
 a C++ program which simulates N repetitions of a duel between two
 players, each of whom has a known firing accuracy.
 
-[FAIR\_DICE\_SIMULATION](../../cpp_src/fair_dice_simulation/fair_dice_simulation.html),
+[FAIR\_DICE\_SIMULATION](../../master/fair_dice_simulation/fair_dice_simulation.md),
 a C++ program which simulates N tosses of 2 dice, making a histogram of
 the results.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[HIGH\_CARD\_SIMULATION](../../cpp_src/high_card_simulation/high_card_simulation.html),
+[HIGH\_CARD\_SIMULATION](../../master/high_card_simulation/high_card_simulation.md),
 a C++ program which simulates a situation in which you see the cards in
 a deck one by one, and must select the one you think is the highest and
 stop; the program uses GNUPLOT for graphics.
 
-[ISING\_2D\_SIMULATION](../../cpp_src/ising_2d_simulation/ising_2d_simulation.html),
+[ISING\_2D\_SIMULATION](../../master/ising_2d_simulation/ising_2d_simulation.md),
 a C++ program which carries out a Monte Carlo simulation of an Ising
 model. a 2D array of positive and negative charges, each of which is
 likely to "flip" to be in agreement with neighbors.
 
-[LIFE\_OPENGL](../../cpp_src/life_opengl/life_opengl.html), a C++
+[LIFE\_OPENGL](../../master/life_opengl/life_opengl.md), a C++
 program which uses OpenGL to display the evolution of John Conway's
 "Game of Life".
 
-[MANDELBROT](../../cpp_src/mandelbrot/mandelbrot.html), a C++ program
+[MANDELBROT](../../master/mandelbrot/mandelbrot.md), a C++ program
 which generates an ASCII PPM image of the Mandelbrot set;
 
-[POISSON\_SIMULATION](../../cpp_src/poisson_simulation/poisson_simulation.html),
+[POISSON\_SIMULATION](../../master/poisson_simulation/poisson_simulation.md),
 a C++ library which simulates a Poisson process in which events randomly
 occur with an average waiting time of Lambda.
 
-[REACTOR\_SIMULATION](../../cpp_src/reactor_simulation/reactor_simulation.html),
+[REACTOR\_SIMULATION](../../master/reactor_simulation/reactor_simulation.md),
 a C++ program which a simple Monte Carlo simulation of the shielding
 effect of a slab of a certain thickness in front of a neutron source.
 This program was provided as an example with the book "Numerical Methods
 and Software."
 
-[THREE\_BODY\_SIMULATION](../../cpp_src/three_body_simulation/three_body_simulation.html),
+[THREE\_BODY\_SIMULATION](../../master/three_body_simulation/three_body_simulation.md),
 a C++ program which simulates the behavior of three planets, constrained
 to lie in a plane, and moving under the influence of gravity, by Walter
 Gander and Jiri Hrebicek.
@@ -152,7 +152,7 @@ Gander and Jiri Hrebicek.
 -   **TRANSITION** carries out a Monte Carlo simulation of a 3D Ising
     model.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -44,23 +44,23 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPIRAL\_DATA** is available in [a C
-version](../../c_src/spiral_data/spiral_data.html) and [a C++
-version](../../cpp_src/spiral_data/spiral_data.html) and [a FORTRAN77
-version](../../f77_src/spiral_data/spiral_data.html) and [a FORTRAN90
-version](../../f_src/spiral_data/spiral_data.html) and [a MATLAB
-version](../../m_src/spiral_data/spiral_data.html) and [a Python
-version](../../py_src/spiral_data/spiral_data.html)..
+version](../../c_src/spiral_data/spiral_data.md) and [a C++
+version](../../master/spiral_data/spiral_data.md) and [a FORTRAN77
+version](../../f77_src/spiral_data/spiral_data.md) and [a FORTRAN90
+version](../../f_src/spiral_data/spiral_data.md) and [a MATLAB
+version](../../m_src/spiral_data/spiral_data.md) and [a Python
+version](../../py_src/spiral_data/spiral_data.md)..
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate the use of the gnuplot graphics program.
 
-[NAVIER\_STOKES\_2D\_EXACT](../../cpp_src/navier_stokes_2d_exact/navier_stokes_2d_exact.html),
+[NAVIER\_STOKES\_2D\_EXACT](../../master/navier_stokes_2d_exact/navier_stokes_2d_exact.md),
 a C++ library which evaluates an exact solution to the incompressible
 time-dependent Navier-Stokes equations over an arbitrary domain in 2D.
 
-[STOKES\_2D\_EXACT](../../cpp_src/stokes_2d_exact/stokes_2d_exact.html),
+[STOKES\_2D\_EXACT](../../master/stokes_2d_exact/stokes_2d_exact.md),
 a C++ library which evaluates exact solutions to the incompressible
 steady Stokes equations over the unit square in 2D.
 
@@ -97,7 +97,7 @@ GNUPLOT:
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **UV\_SPIRAL** computes a spiral velocity vector field.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

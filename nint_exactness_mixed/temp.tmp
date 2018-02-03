@@ -1,4 +1,4 @@
-<html>
+.md>
 
   <head>
     <title>
@@ -204,7 +204,7 @@
     </p>
 
     <p>
-      You can go up one level to <a href = "../cpp_src.html">
+      You can go up one level to <a href = "../cpp_src.md">
       the C++ source codes</a>.
     </p>
 
@@ -220,4 +220,4 @@
 
   <!-- Initial HTML skeleton created by HTMLINDEX. -->
 
-</html>
+<.md>

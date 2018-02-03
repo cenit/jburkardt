@@ -71,57 +71,57 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **XY\_IO** is available in [a C++
-version](../../cpp_src/xy_io/xy_io.html) and [a FORTRAN90
-version](../../f_src/xy_io/xy_io.html) and [a MATLAB
-version](../../m_src/xy_io/xy_io.html).
+version](../../master/xy_io/xy_io.md) and [a FORTRAN90
+version](../../f_src/xy_io/xy_io.md) and [a MATLAB
+version](../../m_src/xy_io/xy_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CIRCLE\_POINTS](../../f_src/circle_points/circle_points.html), a
+[CIRCLE\_POINTS](../../f_src/circle_points/circle_points.md), a
 FORTRAN90 program which computes points equally spaced on a circular
 arc, and writes them to an XY file;
 
-[GRF\_TO\_XYL](../../f_src/grf_to_xyl/grf_to_xyl.html), a FORTRAN90
+[GRF\_TO\_XYL](../../f_src/grf_to_xyl/grf_to_xyl.md), a FORTRAN90
 program which converts information describing the adjacency and
 embedding of an abstract graph from GRF to XYL format.
 
-[TABLE](../../data/table/table.html), a data directory which contains
+[TABLE](../../data/table/table.md), a data directory which contains
 examples of TABLE files, a simple format for N points in M dimensions;
 
-[XY](../../data/xy/xy.html), a data directory which contains examples of
+[XY](../../data/xy/xy.md), a data directory which contains examples of
 XY files, a simple 2D graphics point format;
 
-[XY\_DISPLAY](../../m_src/xy_display/xy_display.html), a MATLAB program
+[XY\_DISPLAY](../../m_src/xy_display/xy_display.md), a MATLAB program
 which reads an XY file containing the coordinates of points in 2D, and
 displays a plot of the points in a MATLAB graphics window;
 
-[XY\_DISPLAY\_OPENGL](../../cpp_src/xy_display_opengl/xy_display_opengl.html),
+[XY\_DISPLAY\_OPENGL](../../master/xy_display_opengl/xy_display_opengl.md),
 a C++ program which reads an XY file of 2D point coordinates, and
 displays an image of those points using OpenGL.
 
-[XYF](../../data/xyf/xyf.html), a data directory which contains examples
+[XYF](../../data/xyf/xyf.md), a data directory which contains examples
 of XYF files, a simple 2D graphics point and face format;
 
-[XYF\_DISPLAY](../../m_src/xyf_display/xyf_display.html), a MATLAB
+[XYF\_DISPLAY](../../m_src/xyf_display/xyf_display.md), a MATLAB
 program which reads XYF information defining points and faces in 2D, and
 displays an image using MATLAB.
 
-[XYF\_DISPLAY\_OPENGL](../../cpp_src/xyf_display_opengl/xyf_display_opengl.html),
+[XYF\_DISPLAY\_OPENGL](../../master/xyf_display_opengl/xyf_display_opengl.md),
 a C++ program which reads XYF information defining points and faces in
 2D, and displays an image using OpenGL.
 
-[XYL](../../data/xyl/xyl.html), a data directory which contains examples
+[XYL](../../data/xyl/xyl.md), a data directory which contains examples
 of XYL files, a simple 2D graphics point and line format;
 
-[XYL\_DISPLAY](../../m_src/xyl_display/xyl_display.html), a MATLAB
+[XYL\_DISPLAY](../../m_src/xyl_display/xyl_display.md), a MATLAB
 program which reads XYL information defining points and lines in 2D, and
 displays an image using MATLAB.
 
-[XYL\_DISPLAY\_OPENGL](../../cpp_src/xyl_display_opengl/xyl_display_opengl.html),
+[XYL\_DISPLAY\_OPENGL](../../master/xyl_display_opengl/xyl_display_opengl.md),
 a C++ program which reads XYL information defining points and lines in
 2D, and displays an image using OpenGL.
 
-[XYZ\_IO](../../cpp_src/xyz_io/xyz_io.html), a C++ library which reads
+[XYZ\_IO](../../master/xyz_io/xyz_io.md), a C++ library which reads
 and writes XYZ files, a simple 3D graphics point format.
 
 ### Source Code: {#source-code align="center"}
@@ -192,7 +192,7 @@ and writes XYZ files, a simple 3D graphics point format.
 -   **XYL\_HEADER\_WRITE** writes the header of an XYL file.
 -   **XYL\_WRITE** writes the header and data for an XYL file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -18,15 +18,15 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**BLAS2** is available in [a C version](../../c_src/blas/blas.html) and
-[a C++ version](../../cpp_src/blas/blas.html) and [a FORTRAN77
-version](../../f77_src/blas/blas.html) and [a FORTRAN90
-version](../../f_src/blas/blas.html) and [a MATLAB
-version.](../../m_src/blas/blas.html)
+**BLAS2** is available in [a C version](../../c_src/blas/blas.md) and
+[a C++ version](../../master/blas/blas.md) and [a FORTRAN77
+version](../../f77_src/blas/blas.md) and [a FORTRAN90
+version](../../f_src/blas/blas.md) and [a MATLAB
+version.](../../m_src/blas/blas.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLAS](../../cpp_src/blas/blas.html), a C++ library which contains the
+[BLAS](../../master/blas/blas.md), a C++ library which contains the
 Basic Linear Algebra Subprograms (BLAS) for level 1 (vector-vector
 operations), level 2 (matrix-vector operations) and level 3
 (matrix-matrix operations), for single precision real arithmetic, double
@@ -74,7 +74,7 @@ double precision complex arithmetic.
 -   **SGER** computes A := alpha\*x\*y' + A.
 -   **STRMV** computes x: = A\*x or x = A'\*x for a triangular matrix A.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

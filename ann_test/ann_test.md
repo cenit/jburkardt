@@ -273,15 +273,15 @@ later:
 ### Languages: {#languages align="center"}
 
 **ANN\_TEST** is available in [a C++
-version](../../cpp_src/ann_test/ann_test.html).
+version](../../master/ann_test/ann_test.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ANN](../../cpp_src/ann/ann.html), a C++ library which creates and
+[ANN](../../master/ann/ann.md), a C++ library which creates and
 manipulates the data structures necessary to carry out the approximate
 nearest neighbor computations.
 
-[ANN\_TO\_FIG](../../cpp_src/ann_to_fig/ann_to_fig.html), a C++ program
+[ANN\_TO\_FIG](../../master/ann_to_fig/ann_to_fig.md), a C++ program
 which can convert the record of a search carried out by ANN\_TEST into a
 graphical image in the **FIG** format.
 
@@ -334,7 +334,7 @@ David Mount, Sunil Arya.
 -   [test3.dmp](test3.dmp), a dump file containing information about the
     search tree, which can be plotted by **ANN\_TO\_FIG**.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

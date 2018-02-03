@@ -18,17 +18,17 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ALLOCATABLE\_ARRAY** is available in [a C
-version](../../c_src/allocatable_array/allocatable_array.html) and [a
-C++ version](../../cpp_src/allocatable_array/allocatable_array.html) and
+version](../../c_src/allocatable_array/allocatable_array.md) and [a
+C++ version](../../master/allocatable_array/allocatable_array.md) and
 [a FORTRAN90
-version](../../f_src/allocatable_array/allocatable_array.html).
+version](../../f_src/allocatable_array/allocatable_array.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CPP](../../cpp_src/c/c.html), C++ programs which illustrate some of the
+[CPP](../../master/c/c.md), C++ programs which illustrate some of the
 features of the C programming language.
 
-[CPP\_ARRAYS](../../cpp_src/c_arrays/cpp_arrays.html), C++ programs
+[CPP\_ARRAYS](../../master/c_arrays/cpp_arrays.md), C++ programs
 which illustrate the use of vectors, matrices and tensors.
 
 ### Examples and Tests: {#examples-and-tests align="center"}
@@ -36,7 +36,7 @@ which illustrate the use of vectors, matrices and tensors.
 -   [allocatable.cpp](allocatable.cpp), the source code;
 -   [allocatable\_output.txt](allocatable_output.txt), the output file;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

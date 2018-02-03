@@ -9,7 +9,7 @@ for the manipulation of Chebyshev series, by Roger Broucke.
 
 While the text of many ACM TOMS algorithms is available online through
 ACM: [http://www.acm.org/pubs/calgo](http://www.acm.org/pubs/calgo/) or
-NETLIB: <http://www.netlib.org/toms/index.html>, most of the early
+NETLIB: <http://www.netlib.org/toms/index.md>, most of the early
 algorithms are not available. This is one of them. I typed it in.
 
 ### Licensing: {#licensing align="center"}
@@ -21,39 +21,39 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS446** is available in [a C
-version](../../c_src/toms446/toms446.html) and [a C++
-version](../../cpp_src/toms446/toms446.html) and [a FORTRAN77
-version](../../f77_src/toms446/toms446.html) and [a FORTRAN90
-version](../../f_src/toms446/toms446.html) and [a MATLAB
-version](../../m_src/toms446/toms446.html).
+version](../../c_src/toms446/toms446.md) and [a C++
+version](../../master/toms446/toms446.md) and [a FORTRAN77
+version](../../f77_src/toms446/toms446.md) and [a FORTRAN90
+version](../../f_src/toms446/toms446.md) and [a MATLAB
+version](../../m_src/toms446/toms446.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN](../../cpp_src/bernstein/bernstein.html), a C++ library which
+[BERNSTEIN](../../master/bernstein/bernstein.md), a C++ library which
 evaluates the Bernstein polynomials, useful for uniform approximation of
 functions;
 
-[CHEBYSHEV](../../cpp_src/chebyshev/chebyshev.html), a C++ library which
+[CHEBYSHEV](../../master/chebyshev/chebyshev.md), a C++ library which
 computes the Chebyshev interpolant/approximant to a given function over
 an interval.
 
-[CHEBYSHEV\_SERIES](../../cpp_src/chebyshev_series/chebyshev_series.html),
+[CHEBYSHEV\_SERIES](../../master/chebyshev_series/chebyshev_series.md),
 a C++ library which can evaluate a Chebyshev series approximating a
 function f(x), while efficiently computing one, two or three derivatives
 of the series, which approximate f'(x), f''(x), and f'''(x), by Manfred
 Zimmer.
 
-[DIVDIF](../../cpp_src/divdif/divdif.html), a C++ library which computes
+[DIVDIF](../../master/divdif/divdif.md), a C++ library which computes
 interpolants by divided differences.
 
-[HERMITE](../../cpp_src/hermite/hermite.html), a C++ library which
+[HERMITE](../../master/hermite/hermite.md), a C++ library which
 computes the Hermite interpolant, a polynomial that matches function
 values and derivatives.
 
-[SPLINE](../../cpp_src/spline/spline.html), a C++ library which can
+[SPLINE](../../master/spline/spline.md), a C++ library which can
 construct and evaluate spline interpolants and approximants.
 
-[TEST\_APPROX](../../cpp_src/test_approx/test_approx.html), a C++
+[TEST\_APPROX](../../master/test_approx/test_approx.md), a C++
 library which defines test functions for approximation and
 interpolation.
 
@@ -105,7 +105,7 @@ Burkardt.
 -   **XALFA2** computes a Chebyshev series raised to the (-1/M) power.
 -   **XALFA3** computes a Chebyshev series raised to the (-1/M) power.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

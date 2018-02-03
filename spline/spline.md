@@ -50,39 +50,39 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**SPLINE** is available in [a C version](../../c_src/spline/spline.html)
-and [a C++ version](../../cpp_src/spline/spline.html) and [a FORTRAN77
-version](../../f77_src/spline/spline.html) and [a FORTRAN90
-version](../../f_src/spline/spline.html) and [a MATLAB
-version.](../../m_src/spline/spline.html)
+**SPLINE** is available in [a C version](../../c_src/spline/spline.md)
+and [a C++ version](../../master/spline/spline.md) and [a FORTRAN77
+version](../../f77_src/spline/spline.md) and [a FORTRAN90
+version](../../f_src/spline/spline.md) and [a MATLAB
+version.](../../m_src/spline/spline.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[CHEBYSHEV](../../cpp_src/chebyshev/chebyshev.html), a C++ library which
+[CHEBYSHEV](../../master/chebyshev/chebyshev.md), a C++ library which
 computes the Chebyshev interpolant/approximant to a given function over
 an interval.
 
-[DIVDIF](../../cpp_src/divdif/divdif.html), a C++ library which uses
+[DIVDIF](../../master/divdif/divdif.md), a C++ library which uses
 divided differences to interpolate data.
 
-[HERMITE\_CUBIC](../../cpp_src/hermite_cubic/hermite_cubic.html), a C++
+[HERMITE\_CUBIC](../../master/hermite_cubic/hermite_cubic.md), a C++
 library which can compute the value, derivatives or integral of a
 Hermite cubic polynomial, or manipulate an interpolating function made
 up of piecewise Hermite cubic polynomials.
 
-[LAGRANGE\_INTERP\_1D](../../cpp_src/lagrange_interp_1d/lagrange_interp_1d.html),
+[LAGRANGE\_INTERP\_1D](../../master/lagrange_interp_1d/lagrange_interp_1d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data, so that p(x(i)) = y(i).
 
-[TEST\_APPROX](../../cpp_src/test_approx/test_approx.html), a C++
+[TEST\_APPROX](../../master/test_approx/test_approx.md), a C++
 library which defines test problems for approximation, provided as a set
 of (x,y) data.
 
-[TEST\_INTERP\_1D](../../cpp_src/test_interp_1d/test_interp_1d.html), a
+[TEST\_INTERP\_1D](../../master/test_interp_1d/test_interp_1d.md), a
 C++ library which defines test problems for interpolation of data y(x),
 depending on a 1D argument.
 
@@ -263,7 +263,7 @@ depending on a 1D argument.
     a point.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

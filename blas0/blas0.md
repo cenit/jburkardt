@@ -14,38 +14,38 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**BLAS0** is available in [a C version](../../c_src/blas0/blas0.html)
-and [a C++ version](../../cpp_src/blas0/blas0.html) and [a FORTRAN77
-version](../../f77_src/blas0/blas0.html) and [a FORTRAN90
-version](../../f_src/blas0/blas0.html) and [a MATLAB
-version](../../m_src/blas0/blas0.html)
+**BLAS0** is available in [a C version](../../c_src/blas0/blas0.md)
+and [a C++ version](../../master/blas0/blas0.md) and [a FORTRAN77
+version](../../f77_src/blas0/blas0.md) and [a FORTRAN90
+version](../../f_src/blas0/blas0.md) and [a MATLAB
+version](../../m_src/blas0/blas0.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLAS1\_C](../../cpp_src/blas1_c/blas1_c.html), a C++ library which
+[BLAS1\_C](../../master/blas1_c/blas1_c.md), a C++ library which
 contains basic linear algebra subprograms (BLAS) for vector-vector
 operations, using single precision complex arithmetic, by Charles
 Lawson, Richard Hanson, David Kincaid, Fred Krogh.
 
-[BLAS1\_D](../../cpp_src/blas1_d/blas1_d.html), a C++ library which
+[BLAS1\_D](../../master/blas1_d/blas1_d.md), a C++ library which
 contains basic linear algebra subprograms (BLAS) for vector-vector
 operations, using double precision real arithmetic, by Charles Lawson,
 Richard Hanson, David Kincaid, Fred Krogh.
 
-[BLAS1\_S](../../cpp_src/blas1_s/blas1_s.html), a C++ library which
+[BLAS1\_S](../../master/blas1_s/blas1_s.md), a C++ library which
 contains basic linear algebra subprograms (BLAS) for vector-vector
 operations, using single precision real arithmetic, by Charles Lawson,
 Richard Hanson, David Kincaid, Fred Krogh.
 
-[BLAS1\_Z](../../cpp_src/blas1_z/blas1_z.html), a C++ library which
+[BLAS1\_Z](../../master/blas1_z/blas1_z.md), a C++ library which
 contains basic linear algebra subprograms (BLAS) for vector-vector
 operations, using double precision complex arithmetic, by Charles
 Lawson, Richard Hanson, David Kincaid, Fred Krogh.
 
-[BLAS2](../../cpp_src/blas2/blas2.html), a C++ library which contains
+[BLAS2](../../master/blas2/blas2.md), a C++ library which contains
 basic linear algebra subprograms (BLAS) for matrix-vector operations;
 
-[BLAS3](../../cpp_src/blas3/blas3.html), a C++ library which contains
+[BLAS3](../../master/blas3/blas3.md), a C++ library which contains
 basic linear algebra subprograms (BLAS) for matrix-matrix operations;
 
 ### Reference: {#reference align="center"}
@@ -107,7 +107,7 @@ basic linear algebra subprograms (BLAS) for matrix-matrix operations;
 -   **ZSIGN1** is a complex transfer-of-sign function.
 -   **ZSIGN2** is a complex transfer-of-sign function.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

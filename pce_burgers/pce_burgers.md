@@ -60,25 +60,25 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PCE\_BURGERS** is available in [a C
-version](../../c_src/pce_burgers/pce_burgers.html) and [a C++
-version](../../cpp_src/pce_burgers/pce_burgers.html) and [a FORTRAN77
-version](../../f77_src/pce_burgers/pce_burgers.html) and [a FORTRAN90
-version](../../f_src/pce_burgers/pce_burgers.html) and [a MATLAB
-version](../../m_src/pce_burgers/pce_burgers.html).
+version](../../c_src/pce_burgers/pce_burgers.md) and [a C++
+version](../../master/pce_burgers/pce_burgers.md) and [a FORTRAN77
+version](../../f77_src/pce_burgers/pce_burgers.md) and [a FORTRAN90
+version](../../f_src/pce_burgers/pce_burgers.md) and [a MATLAB
+version](../../m_src/pce_burgers/pce_burgers.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[HERMITE\_POLYNOMIAL](../../cpp_src/hermite_polynomial/hermite_polynomial.html),
+[HERMITE\_POLYNOMIAL](../../master/hermite_polynomial/hermite_polynomial.md),
 a C++ library which evaluates the physicist's Hermite polynomial, the
 probabilist's Hermite polynomial, the Hermite function, and related
 functions.
 
-[PCE\_ODE\_HERMITE](../../cpp_src/pce_ode_hermite/pce_ode_hermite.html),
+[PCE\_ODE\_HERMITE](../../master/pce_ode_hermite/pce_ode_hermite.md),
 a C++ program which sets up a simple scalar ODE for exponential decay
 with an uncertain decay rate, using a polynomial chaos expansion in
 terms of Hermite polynomials.
 
-[SDE](../../cpp_src/sde/sde.html), a C++ library which illustrates the
+[SDE](../../master/sde/sde.md), a C++ library which illustrates the
 properties of stochastic differential equations (SDE's), and common
 algorithms for their analysis, by Desmond Higham;
 
@@ -126,7 +126,7 @@ Iaccarino.
 -   **R8\_FACTORIAL** computes the factorial of N.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

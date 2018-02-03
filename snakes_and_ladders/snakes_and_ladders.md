@@ -45,41 +45,41 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SNAKES\_AND\_LADDERS** is available in [a C
-version](../../c_src/snakes_and_ladders/snakes_and_ladders.html) and [a
-C++ version](../../cpp_src/snakes_and_ladders/snakes_and_ladders.html)
+version](../../c_src/snakes_and_ladders/snakes_and_ladders.md) and [a
+C++ version](../../master/snakes_and_ladders/snakes_and_ladders.md)
 and [a FORTRAN77
-version](../../f77_src/snakes_and_ladders/snakes_and_ladders.html) and
+version](../../f77_src/snakes_and_ladders/snakes_and_ladders.md) and
 [a FORTRAN90
-version](../../f_src/snakes_and_ladders/snakes_and_ladders.html) and [a
-MATLAB version](../../m_src/snakes_and_ladders/snakes_and_ladders.html)
+version](../../f_src/snakes_and_ladders/snakes_and_ladders.md) and [a
+MATLAB version](../../m_src/snakes_and_ladders/snakes_and_ladders.md)
 and [a Python
-version](../../py_src/snakes_and_ladders/snakes_and_ladders.html).
+version](../../py_src/snakes_and_ladders/snakes_and_ladders.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DUEL\_SIMULATION](../../cpp_src/duel_simulation/duel_simulation.html),
+[DUEL\_SIMULATION](../../master/duel_simulation/duel_simulation.md),
 a C++ program which simulates N repetitions of a duel between two
 players, each of whom has a known firing accuracy.
 
-[FAIR\_DICE\_SIMULATION](../../cpp_src/fair_dice_simulation/fair_dice_simulation.html),
+[FAIR\_DICE\_SIMULATION](../../master/fair_dice_simulation/fair_dice_simulation.md),
 a C++ program which simulates N tosses of 2 dice, making a histogram of
 the results.
 
-[HIGH\_CARD\_SIMULATION](../../cpp_src/high_card_simulation/high_card_simulation.html),
+[HIGH\_CARD\_SIMULATION](../../master/high_card_simulation/high_card_simulation.md),
 a C++ program which simulates a situation in which you see the cards in
 a deck one by one, and must select the one you think is the highest and
 stop.
 
-[ISING\_2D\_SIMULATION](../../cpp_src/ising_2d_simulation/ising_2d_simulation.html),
+[ISING\_2D\_SIMULATION](../../master/ising_2d_simulation/ising_2d_simulation.md),
 a C++ program which carries out a Monte Carlo simulation of an Ising
 model, a 2D array of positive and negative charges, each of which is
 likely to flip to be in agreement with neighbors.
 
-[POISSON\_SIMULATION](../../cpp_src/poisson_simulation/poisson_simulation.html),
+[POISSON\_SIMULATION](../../master/poisson_simulation/poisson_simulation.md),
 a C++ library which simulates a Poisson process in which events randomly
 occur with an average waiting time of Lambda.
 
-[REACTOR\_SIMULATION](../../cpp_src/reactor_simulation/reactor_simulation.html),
+[REACTOR\_SIMULATION](../../master/reactor_simulation/reactor_simulation.md),
 a C++ program which is a simple Monte Carlo simulation of the shielding
 effect of a slab of a certain thickness in front of a neutron source.
 This program was provided as an example with the book "Numerical Methods
@@ -93,7 +93,7 @@ and Software."
     Volume 77, Number 478, March 1993, pages 71-76.
 2.  Nick Berry,\
     A Mathematical Analysis of Snakes and Ladders,\
-    http://www.datagenetics.com/blog/november12011/index.html
+    http://www.datagenetics.com/blog/november12011/index.md
 3.  Desmond Higham, Nicholas Higham,\
     MATLAB Guide,\
     SIAM, 2005,\
@@ -123,7 +123,7 @@ Some graphics files are created.
     matrix.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

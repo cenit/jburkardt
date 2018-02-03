@@ -35,65 +35,65 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**POLPAK** is available in [a C version](../../c_src/polpak/polpak.html)
-and [a C++ version](../../cpp_src/polpak/polpak.html) and [a FORTRAN77
-version](../../f77_src/polpak/polpak.html) and [a FORTRAN90
-version](../../f_src/polpak/polpak.html) and [a MATLAB
-version](../../m_src/polpak/polpak.html) and [a Python
-version](../../py_src/polpak/polpak.html)
+**POLPAK** is available in [a C version](../../c_src/polpak/polpak.md)
+and [a C++ version](../../master/polpak/polpak.md) and [a FORTRAN77
+version](../../f77_src/polpak/polpak.md) and [a FORTRAN90
+version](../../f_src/polpak/polpak.md) and [a MATLAB
+version](../../m_src/polpak/polpak.md) and [a Python
+version](../../py_src/polpak/polpak.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[BESSELJ](../../cpp_src/besselj/besselj.html), a C++ library which
+[BESSELJ](../../master/besselj/besselj.md), a C++ library which
 evaluates Bessel J functions of noninteger order.
 
-[CHEBYSHEV\_POLYNOMIAL](../../cpp_src/chebyshev_polynomial/chebyshev_polynomial.html),
+[CHEBYSHEV\_POLYNOMIAL](../../master/chebyshev_polynomial/chebyshev_polynomial.md),
 a C++ library which evaluates the Chebyshev polynomial and associated
 functions.
 
-[CLAUSEN](../../cpp_src/clausen/clausen.html), a C++ library which
+[CLAUSEN](../../master/clausen/clausen.md), a C++ library which
 evaluates a Chebyshev interpolant to the Clausen function Cl2(x).
 
-[CORDIC](../../cpp_src/cordic/cordic.html), a C++ library which uses the
+[CORDIC](../../master/cordic/cordic.md), a C++ library which uses the
 CORDIC method to compute certain elementary functions.
 
-[FN](../../cpp_src/fn/fn.html), a C++ library which evaluates elementary
+[FN](../../master/fn/fn.md), a C++ library which evaluates elementary
 and special functions, by Wayne Fullerton.
 
-[GSL](../../cpp_src/gsl/gsl.html) a C++ library which evaluates many
+[GSL](../../master/gsl/gsl.md) a C++ library which evaluates many
 special functions.
 
-[HERMITE\_POLYNOMIAL](../../cpp_src/hermite_polynomial/hermite_polynomial.html),
+[HERMITE\_POLYNOMIAL](../../master/hermite_polynomial/hermite_polynomial.md),
 a C++ library which evaluates the physicist's Hermite polynomial, the
 probabilist's Hermite polynomial, the Hermite function, and related
 functions.
 
-[JACOBI\_POLYNOMIAL](../../cpp_src/jacobi_polynomial/jacobi_polynomial.html),
+[JACOBI\_POLYNOMIAL](../../master/jacobi_polynomial/jacobi_polynomial.md),
 a C++ library which evaluates the Jacobi polynomial and associated
 functions.
 
-[LAGUERRE\_POLYNOMIAL](../../cpp_src/laguerre_polynomial/laguerre_polynomial.html),
+[LAGUERRE\_POLYNOMIAL](../../master/laguerre_polynomial/laguerre_polynomial.md),
 a C++ library which evaluates the Laguerre polynomial, the generalized
 Laguerre polynomial, and the Laguerre function.
 
-[LEGENDRE\_POLYNOMIAL](../../cpp_src/legendre_polynomial/legendre_polynomial.html),
+[LEGENDRE\_POLYNOMIAL](../../master/legendre_polynomial/legendre_polynomial.md),
 a C++ library which evaluates the Legendre polynomial and associated
 functions.
 
-[LEGENDRE\_PRODUCT\_POLYNOMIAL](../../cpp_src/legendre_product_polynomial/legendre_product_polynomial.html),
+[LEGENDRE\_PRODUCT\_POLYNOMIAL](../../master/legendre_product_polynomial/legendre_product_polynomial.md),
 a C++ library which defines Legendre product polynomials, creating a
 multivariate polynomial as the product of univariate Legendre
 polynomials.
 
-[LOBATTO\_POLYNOMIAL](../../cpp_src/lobatto_polynomial/lobatto_polynomial.html),
+[LOBATTO\_POLYNOMIAL](../../master/lobatto_polynomial/lobatto_polynomial.md),
 a C++ library which evaluates Lobatto polynomials, similar to Legendre
 polynomials except that they are zero at both endpoints.
 
-[TEST\_VALUES](%20../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](%20../../master/test_values/test_values.md), a C++
 library which stores values of many mathematical functions, and can be
 used for testing.
 
@@ -524,7 +524,7 @@ used for testing.
 -   **ZETA** estimates the Riemann Zeta function.
 -   **ZETA\_VALUES** returns some values of the Riemann Zeta function.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -68,37 +68,37 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPARSE\_INTERP\_ND** is available in [a C
-version](../../c_src/sparse_interp_nd/sparse_interp_nd.html) and [a C++
-version](../../cpp_src/sparse_interp_nd/sparse_interp_nd.html) and [a
-FORTRAN77 version](../../f77_src/sparse_interp_nd/sparse_interp_nd.html)
+version](../../c_src/sparse_interp_nd/sparse_interp_nd.md) and [a C++
+version](../../master/sparse_interp_nd/sparse_interp_nd.md) and [a
+FORTRAN77 version](../../f77_src/sparse_interp_nd/sparse_interp_nd.md)
 and [a FORTRAN90
-version](../../f_src/sparse_interp_nd/sparse_interp_nd.html) and [a
-MATLAB version](../../m_src/sparse_interp_nd/sparse_interp_nd.html).
+version](../../f_src/sparse_interp_nd/sparse_interp_nd.md) and [a
+MATLAB version](../../m_src/sparse_interp_nd/sparse_interp_nd.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LAGRANGE\_INTERP\_ND](../../cpp_src/lagrange_interp_nd/lagrange_interp_nd.html),
+[LAGRANGE\_INTERP\_ND](../../master/lagrange_interp_nd/lagrange_interp_nd.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data depending on a multidimensional
 argument x that was evaluated on a product grid, so that p(x(i)) = z(i).
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[RBF\_INTERP\_ND](../../cpp_src/rbf_interp_nd/rbf_interp_nd.html), a C++
+[RBF\_INTERP\_ND](../../master/rbf_interp_nd/rbf_interp_nd.md), a C++
 library which defines and evaluates radial basis interpolants to
 multidimensional data.
 
-[SHEPARD\_INTERP\_ND](../../cpp_src/shepard_interp_nd/shepard_interp_nd.html),
+[SHEPARD\_INTERP\_ND](../../master/shepard_interp_nd/shepard_interp_nd.md),
 a C++ library which defines and evaluates Shepard interpolants to
 multidimensional data, based on inverse distance weighting.
 
-[SPINTERP](../../m_src/spinterp/spinterp.html), a MATLAB library which
+[SPINTERP](../../m_src/spinterp/spinterp.md), a MATLAB library which
 carries out piecewise multilinear hierarchical sparse grid
 interpolation; an earlier version of this software is ACM TOMS Algorithm
 847, by Andreas Klimke;
 
-[TEST\_INTERP\_ND](../../cpp_src/test_interp_nd/test_interp_nd.html), a
+[TEST\_INTERP\_ND](../../master/test_interp_nd/test_interp_nd.md), a
 C++ library which defines test problems for interpolation of data z(x),
 depending on an M-dimensional argument.
 
@@ -150,7 +150,7 @@ depending on an M-dimensional argument.
 -   **SMOLYAK\_COEFFICIENTS** returns the Smolyak coefficients and
     counts.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

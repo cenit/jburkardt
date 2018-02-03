@@ -50,7 +50,7 @@ int main ( int argc, char *argv[] )
   int dmy[3];
   bool error;
   ifstream file_in;
-  string file_in_name = "/Users/jburkardt/public_html/calendar";
+  string file_in_name = "/Users/jburkardt/public.md/calendar";
   int i;
   char line[255];
   struct tm *loctim;

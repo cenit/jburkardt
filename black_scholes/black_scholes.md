@@ -17,39 +17,39 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BLACK\_SCHOLES** is available in [a C
-version](../../c_src/black_scholes/black_scholes.html) and [a C++
-version](../../cpp_src/black_scholes/black_scholes.html) and [a
-FORTRAN77 version](../../f77_src/black_scholes/black_scholes.html) and
-[a FORTRAN90 version](../../f_src/black_scholes/black_scholes.html) and
-[a MATLAB version](../../m_src/black_scholes/black_scholes.html).
+version](../../c_src/black_scholes/black_scholes.md) and [a C++
+version](../../master/black_scholes/black_scholes.md) and [a
+FORTRAN77 version](../../f77_src/black_scholes/black_scholes.md) and
+[a FORTRAN90 version](../../f_src/black_scholes/black_scholes.md) and
+[a MATLAB version](../../m_src/black_scholes/black_scholes.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[COLORED\_NOISE](../../cpp_src/colored_noise/colored_noise.html), a C++
+[COLORED\_NOISE](../../master/colored_noise/colored_noise.md), a C++
 library which generates samples of noise obeying a 1/f\^alpha power law.
 
-[ORNSTEIN\_UHLENBECK](../../cpp_src/ornstein_uhlenbeck/ornstein_uhlenbeck.html),
+[ORNSTEIN\_UHLENBECK](../../master/ornstein_uhlenbeck/ornstein_uhlenbeck.md),
 a C++ library which approximates solutions of the Ornstein-Uhlenbeck
 stochastic differential equation (SDE) using the Euler method and the
 Euler-Maruyama method.
 
-[PCE\_ODE\_HERMITE](../../cpp_src/pce_ode_hermite/pce_ode_hermite.html),
+[PCE\_ODE\_HERMITE](../../master/pce_ode_hermite/pce_ode_hermite.md),
 a C++ program which sets up a simple scalar ODE for exponential decay
 with an uncertain decay rate, using a polynomial chaos expansion in
 terms of Hermite polynomials.
 
-[PINK\_NOISE](../../cpp_src/pink_noise/pink_noise.html), a C++ library
+[PINK\_NOISE](../../master/pink_noise/pink_noise.md), a C++ library
 which computes a "pink noise" signal obeying a 1/f power law.
 
-[SDE](../../cpp_src/sde/sde.html), a C++ library which illustrates the
+[SDE](../../master/sde/sde.md), a C++ library which illustrates the
 properties of stochastic differential equations (SDE's), and common
 algorithms for their analysis, by Desmond Higham;
 
-[STOCHASTIC\_DIFFUSION](../../cpp_src/stochastic_diffusion/stochastic_diffusion.html),
+[STOCHASTIC\_DIFFUSION](../../master/stochastic_diffusion/stochastic_diffusion.md),
 a C++ library which implements several versions of a stochastic
 diffusivity coefficient.
 
-[STOCHASTIC\_RK](../../cpp_src/stochastic_rk/stochastic_rk.html), a C++
+[STOCHASTIC\_RK](../../master/stochastic_rk/stochastic_rk.md), a C++
 library which applies a Runge-Kutta scheme to a stochastic differential
 equation.
 
@@ -93,7 +93,7 @@ C++ version by John Burkardt.
 -   **R8VEC\_WRITE** writes an R8VEC file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

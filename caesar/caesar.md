@@ -15,21 +15,21 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**CAESAR** is available in [a C version](../../c_src/caesar/caesar.html)
-and [a C++ version](../../cpp_src/caesar/caesar.html) and [a FORTRAN90
-version](../../f_src/caesar/caesar.html) and [a MATLAB
-version](../../m_src/caesar/caesar.html) and [a Python
-version](../../py_src/caesar/caesar.html).
+**CAESAR** is available in [a C version](../../c_src/caesar/caesar.md)
+and [a C++ version](../../master/caesar/caesar.md) and [a FORTRAN90
+version](../../f_src/caesar/caesar.md) and [a MATLAB
+version](../../m_src/caesar/caesar.md) and [a Python
+version](../../py_src/caesar/caesar.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[CHRPAK](../../cpp_src/chrpak/chrpak.html), a C++ library which works
+[CHRPAK](../../master/chrpak/chrpak.md), a C++ library which works
 with characters and strings.
 
-[FILUM](../../cpp_src/filum/filum.html), a C++ library which can work
+[FILUM](../../master/filum/filum.md), a C++ library which can work
 with information in text files.
 
-[ROT13](../../cpp_src/rot13/rot13.html), a C++ library which can
+[ROT13](../../master/rot13/rot13.md), a C++ library which can
 encipher a string using the ROT13 cipher for letters, and the ROT5
 cipher for digits.
 
@@ -49,7 +49,7 @@ cipher for digits.
 -   **S\_TO\_CAESAR** applies a Caesar shift cipher to a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

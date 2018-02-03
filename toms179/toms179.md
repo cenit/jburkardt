@@ -9,7 +9,7 @@ for evaluating the modified Beta function.
 
 While the text of many ACM TOMS algorithms is available online through
 ACM: [http://www.acm.org/pubs/calgo](http://www.acm.org/pubs/calgo/) or
-NETLIB: <http://www.netlib.org/toms/index.html>, many of the early
+NETLIB: <http://www.netlib.org/toms/index.md>, many of the early
 algorithms are not available. This is one of them. I typed it in.
 
 The original algorithm was published in the Algol language. Shortly
@@ -37,44 +37,44 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS179** is available in [a C
-version](../../c_src/toms179/toms179.html) and [a C++
-version](../../cpp_src/toms179/toms179.html) and [a FORTRAN77
-version](../../f77_src/toms179/toms179.html) and [a FORTRAN90
-version](../../f_src/toms179/toms179.html) and [a MATLAB
-version](../../m_src/toms179/toms179.html) and [a Python
-version](../../py_src/toms179/toms179.html).
+version](../../c_src/toms179/toms179.md) and [a C++
+version](../../master/toms179/toms179.md) and [a FORTRAN77
+version](../../f77_src/toms179/toms179.md) and [a FORTRAN90
+version](../../f_src/toms179/toms179.md) and [a MATLAB
+version](../../m_src/toms179/toms179.md) and [a Python
+version](../../py_src/toms179/toms179.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA063](../../cpp_src/asa063/asa063.html), a C++ library which
+[ASA063](../../master/asa063/asa063.md), a C++ library which
 evaluates the incomplete Beta function.
 
-[ASA109](../../cpp_src/asa109/asa109.html), a C++ library which inverts
+[ASA109](../../master/asa109/asa109.md), a C++ library which inverts
 the incomplete Beta function.
 
-[ASA226](../../cpp_src/asa226/asa226.html), a C++ library which
+[ASA226](../../master/asa226/asa226.md), a C++ library which
 evaluates the CDF of the noncentral Beta distribution.
 
-[ASA310](../../cpp_src/asa310/asa310.html), a C++ library which computes
+[ASA310](../../master/asa310/asa310.md), a C++ library which computes
 the CDF of the noncentral Beta distribution.
 
-[BETA\_NC](../../cpp_src/beta_nc/beta_nc.html), a C++ library which
+[BETA\_NC](../../master/beta_nc/beta_nc.md), a C++ library which
 evaluates the CDF of the noncentral Beta distribution.
 
-[DCDFLIB](../../cpp_src/dcdflib/dcdflib.html), a C++ library which
+[DCDFLIB](../../master/dcdflib/dcdflib.md), a C++ library which
 contains routines which evaluate a number of probability density
 functions, including one based on the Beta function.
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which contains
+[PROB](../../master/prob/prob.md), a C++ library which contains
 routines which evaluate a number of probability density functions,
 including one based on the Beta function.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which contains routines which return sample values of various
 functions, including the modified beta function, and the logarithm of
 the gamma function.
 
-[TOMS708](../../f_src/toms708/toms708.html), a FORTRAN90 library which
+[TOMS708](../../f_src/toms708/toms708.md), a FORTRAN90 library which
 evaluates the incomplete beta function.
 
 ### Reference: {#reference align="center"}
@@ -122,7 +122,7 @@ evaluates the incomplete beta function.
 -   **MDBETA** evaluates the incomplete beta function.
 -   **TIMESTAMP** prints out the current YMDHMS date as a timestamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -28,26 +28,26 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **WALKER\_SAMPLE** is available in [a C
-version](../../c_src/walker_sample/walker_sample.html) and [a C++
-version](../../cpp_src/walker_sample/walker_sample.html) and [a
-FORTRAN90 version](../../f_src/walker_sample/walker_sample.html) and [a
-Matlab version](../../m_src/walker_sample/walker_sample.html) and [a
-Python version](../../py_src/walker_sample/walker_sample.html).
+version](../../c_src/walker_sample/walker_sample.md) and [a C++
+version](../../master/walker_sample/walker_sample.md) and [a
+FORTRAN90 version](../../f_src/walker_sample/walker_sample.md) and [a
+Matlab version](../../m_src/walker_sample/walker_sample.md) and [a
+Python version](../../py_src/walker_sample/walker_sample.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[HISTOGRAM\_DATA\_2D\_SAMPLE](../../cpp_src/histogram_data_2d_sample/histogram_data_2d_sample.html),
+[HISTOGRAM\_DATA\_2D\_SAMPLE](../../master/histogram_data_2d_sample/histogram_data_2d_sample.md),
 a C++ program which demonstrates how to construct a Probability Density
 Function (PDF) from a frequency table over a 2D domain, and then to use
 that PDF to create new samples.
 
-[PDFLIB](../../cpp_src/pdflib/pdflib.html), a C++ library which
+[PDFLIB](../../master/pdflib/pdflib.md), a C++ library which
 evaluates Probability Density Functions (PDF's) and produces random
 samples from them, including beta, binomial, chi, exponential, gamma,
 inverse chi, inverse gamma, multinomial, normal, scaled inverse chi, and
 uniform.
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which evaluates,
+[PROB](../../master/prob/prob.md), a C++ library which evaluates,
 samples, inverts, and characterizes a number of Probability Density
 Functions (PDF's) and Cumulative Density Functions (CDF's), including
 anglit, arcsin, benford, birthday, bernoulli, beta\_binomial, beta,
@@ -62,7 +62,7 @@ planck, poisson, power, quasigeometric, rayleigh, reciprocal, runs,
 sech, semicircular, student t, triangle, uniform, von mises, weibull,
 zipf.
 
-[RANLIB](../../cpp_src/ranlib/ranlib.html), a C++ library which produces
+[RANLIB](../../master/ranlib/ranlib.md), a C++ library which produces
 random samples from Probability Density Functions (PDF's), including
 Beta, Chi-square Exponential, F, Gamma, Multivariate normal, Noncentral
 chi-square, Noncentral F, Univariate normal, random permutations, Real
@@ -107,7 +107,7 @@ uniform, by Barry Brown and James Lovato.
 -   **WALKER\_VERIFY** verifies a Walker Sampler structure.
 -   **ZIPF\_PROBABILITY** sets up a Zipf probability vector.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

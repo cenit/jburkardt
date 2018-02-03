@@ -53,10 +53,10 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **GPROF** examples are available in [a C
-version](../../c_src/gprof/gprof.html) and [a C++
-version](../../cpp_src/gprof/gprof.html) and [a FORTRAN77
-version](../../f77_src/gprof/gprof.html) and [a FORTRAN90
-version](../../f_src/gprof/gprof.html).
+version](../../c_src/gprof/gprof.md) and [a C++
+version](../../master/gprof/gprof.md) and [a FORTRAN77
+version](../../f77_src/gprof/gprof.md) and [a FORTRAN90
+version](../../f_src/gprof/gprof.md).
 
 ### Examples and Tests: {#examples-and-tests align="center"}
 
@@ -70,7 +70,7 @@ Files you may copy include:
 -   [linpack\_bench\_gprof\_output.txt](linpack_bench_gprof_output.txt),
     the performance report produced by **GPROF**.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -35,38 +35,38 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TABLE\_IO** is available in [a C
-version](../../c_src/table_io/table_io.html) and [a C++
-version](../../cpp_src/table_io/table_io.html) and [a FORTRAN77
-version](../../f77_src/table_io/table_io.html) and [a FORTRAN90
-version](../../f_src/table_io/table_io.html) and [a MATLAB
-version](../../m_src/table_io/table_io.html) and [a Python
-version](../../py_src/table_io/table_io.html) and
+version](../../c_src/table_io/table_io.md) and [a C++
+version](../../master/table_io/table_io.md) and [a FORTRAN77
+version](../../f77_src/table_io/table_io.md) and [a FORTRAN90
+version](../../f_src/table_io/table_io.md) and [a MATLAB
+version](../../m_src/table_io/table_io.md) and [a Python
+version](../../py_src/table_io/table_io.md) and
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TABLE](../../data/table/table.html), a file format which is used for
+[TABLE](../../data/table/table.md), a file format which is used for
 the storage of table files.
 
-[TABLE\_BORDER](../../cpp_src/table_border/table_border.html), a C++
+[TABLE\_BORDER](../../master/table_border/table_border.md), a C++
 program which can read a TABLE file and add zero entries corresponding
 to a single layer of boundary data.
 
-[TABLE\_DELAUNAY](../../cpp_src/table_delaunay/table_delaunay.html), a
+[TABLE\_DELAUNAY](../../master/table_delaunay/table_delaunay.md), a
 C++ program which reads a file of 2d point coordinates and computes the
 Delaunay triangulation.
 
-[TABLE\_LATINIZE](../../cpp_src/table_latinize/table_latinize.html), a
+[TABLE\_LATINIZE](../../master/table_latinize/table_latinize.md), a
 C++ program which can read a TABLE file and write out a "latinized"
 version.
 
-[TABLE\_QUALITY](../../cpp_src/table_quality/table_quality.html), a C++
+[TABLE\_QUALITY](../../master/table_quality/table_quality.md), a C++
 program which can read a TABLE file and print out measures of the
 quality of dispersion of the points.
 
-[TABLE\_UNBORDER](../../cpp_src/table_unborder/table_unborder.html), a
+[TABLE\_UNBORDER](../../master/table_unborder/table_unborder.md), a
 C++ program which can be used to remove the border from a table file.
 
-[TABLE\_VORONOI](../../cpp_src/table_voronoi/table_voronoi.html), a C++
+[TABLE\_VORONOI](../../master/table_voronoi/table_voronoi.md), a C++
 program which reads a TABLE file describing a set of 2D points, and
 print out information describing the Voronoi diagram of those points.
 
@@ -153,7 +153,7 @@ print out information describing the Voronoi diagram of those points.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

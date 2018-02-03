@@ -26,25 +26,25 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**NETCDF** is available in [a C version](../../c_src/netcdf/netcdf.html)
-and [a C++ version](../../cpp_src/netcdf/netcdf.html) and [a FORTRAN77
-version](../../f77_src/netcdf/netcdf.html) and [a FORTRAN90
-version](../../f_src/netcdf/netcdf.html) and [a MATLAB
-version](../../m_src/netcdf/netcdf.html).
+**NETCDF** is available in [a C version](../../c_src/netcdf/netcdf.md)
+and [a C++ version](../../master/netcdf/netcdf.md) and [a FORTRAN77
+version](../../f77_src/netcdf/netcdf.md) and [a FORTRAN90
+version](../../f_src/netcdf/netcdf.md) and [a MATLAB
+version](../../m_src/netcdf/netcdf.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[CDL](../../data/cdl/cdl.html), a data directory which contains examples
+[CDL](../../data/cdl/cdl.md), a data directory which contains examples
 of CDL files, a text version of NETCDF files created by the NCDUMP
 program;
 
-[GFD2](../../datasets/gfd2/gfd2.html), a dataset directory which
+[GFD2](../../datasets/gfd2/gfd2.md), a dataset directory which
 contains geophysical data, stored in NetCDF format.
 
-[GFD2](../../m_src/gfd2/gfd2.html), MATLAB programs which simulate
+[GFD2](../../m_src/gfd2/gfd2.md), MATLAB programs which simulate
 geophysical fluid dynamics.
 
-[NETCDF](../../data/netcdf/netcdf.html), a data directory which contains
+[NETCDF](../../data/netcdf/netcdf.md), a data directory which contains
 examples of NETCDF files, a format for the interchange of scientific
 data.
 
@@ -113,7 +113,7 @@ four-dimensional and use a record dimension.
 -   [pres\_temp\_4D\_rd\_output.txt](pres_temp_4D_rd_output.txt), the
     output file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

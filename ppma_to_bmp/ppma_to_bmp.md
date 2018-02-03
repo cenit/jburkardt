@@ -22,23 +22,23 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PPMA\_TO\_BMP** is available in [a C++
-version](../../cpp_src/ppma_to_bmp/ppma_to_bmp.html).
+version](../../master/ppma_to_bmp/ppma_to_bmp.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BMP](../../data/bmp/bmp.html), a data directory which contains a
+[BMP](../../data/bmp/bmp.md), a data directory which contains a
 description and examples of BMP files.
 
-[BMP\_TO\_PPMA](../../cpp_src/bmp_to_ppma/bmp_to_ppma.html), a C++
+[BMP\_TO\_PPMA](../../master/bmp_to_ppma/bmp_to_ppma.md), a C++
 program which converts BMP files to ASCII PPM files.
 
-[BMP\_IO](../../cpp_src/bmp_io/bmp_io.html), a C++ library which
+[BMP\_IO](../../master/bmp_io/bmp_io.md), a C++ library which
 contains many routines required by PPMA\_TO\_BMP.
 
-[PPMA](../../data/ppma/ppma.html), a data directory which contains a
+[PPMA](../../data/ppma/ppma.md), a data directory which contains a
 description and examples of ASCII PPM files.
 
-[PPMA\_IO](../../cpp_src/ppma_io/ppma_io.html), a C++ library which
+[PPMA\_IO](../../master/ppma_io/ppma_io.md), a C++ library which
 contains many routines required by PPMA\_TO\_BMP.
 
 ### Reference: {#reference align="center"}
@@ -63,7 +63,7 @@ contains many routines required by PPMA\_TO\_BMP.
 -   **I4MAT\_TO\_UCMAT** converts an I4MAT to a UCMAT.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

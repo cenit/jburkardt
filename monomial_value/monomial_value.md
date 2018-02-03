@@ -29,12 +29,12 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MONOMIAL\_VALUE** is available in [a C
-version](../../c_src/monomial_value/monomial_value.html) and [a C++
-version](../../cpp_src/monomial_value/monomial_value.html) and [a
-FORTRAN77 version](../../f77_src/monomial_value/monomial_value.html) and
-[a FORTRAN90 version](../../f_src/monomial_value/monomial_value.html)
-and [a MATLAB version](../../m_src/monomial_value/monomial_value.html)
-and [a Python version](../../py_src/monomial_value/monomial_value.html).
+version](../../c_src/monomial_value/monomial_value.md) and [a C++
+version](../../master/monomial_value/monomial_value.md) and [a
+FORTRAN77 version](../../f77_src/monomial_value/monomial_value.md) and
+[a FORTRAN90 version](../../f_src/monomial_value/monomial_value.md)
+and [a MATLAB version](../../m_src/monomial_value/monomial_value.md)
+and [a Python version](../../py_src/monomial_value/monomial_value.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
@@ -60,7 +60,7 @@ and [a Python version](../../py_src/monomial_value/monomial_value.html).
 -   **R8VEC\_ONES\_NEW** creates a vector of 1's.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

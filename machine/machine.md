@@ -85,16 +85,16 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MACHINE** is available in [a C
-version](../../c_src/machine/machine.html) and [a C++
-version](../../cpp_src/machine/machine.html) and [a FORTRAN77
-version](../../f77_src/machine/machine.html) and [a FORTRAN90
-version](../../f_src/machine/machine.html) and [a MATLAB
-version](../../m_src/machine/machine.html) and [a Python
-version](../../py_src/machine/machine.html).
+version](../../c_src/machine/machine.md) and [a C++
+version](../../master/machine/machine.md) and [a FORTRAN77
+version](../../f77_src/machine/machine.md) and [a FORTRAN90
+version](../../f_src/machine/machine.md) and [a MATLAB
+version](../../m_src/machine/machine.md) and [a Python
+version](../../py_src/machine/machine.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MACHAR](../../cpp_src/machar/machar.html), a C++ library which can
+[MACHAR](../../master/machar/machar.md), a C++ library which can
 compute machine arithmetic quantities dynamically.
 
 ### Reference: {#reference align="center"}
@@ -123,7 +123,7 @@ compute machine arithmetic quantities dynamically.
 -   **I1MACH** returns integer machine constants.
 -   **R1MACH** returns single precision machine constants.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

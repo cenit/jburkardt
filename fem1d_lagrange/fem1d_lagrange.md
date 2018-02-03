@@ -17,19 +17,19 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM1D\_LAGRANGE** is available in [a C
-version](../../c_src/r8lib/r8lib.html) and [a C++
-version](../../cpp_src/r8lib/r8lib.html) and [a FORTRAN77
-version](../../f77_src/r8lib/r8lib.html) and [a FORTRAN90
-version](../../f_src/r8lib/r8lib.html) and [a MATLAB
-version](../../m_src/r8lib/r8lib.html).
+version](../../c_src/r8lib/r8lib.md) and [a C++
+version](../../master/r8lib/r8lib.md) and [a FORTRAN77
+version](../../f77_src/r8lib/r8lib.md) and [a FORTRAN90
+version](../../f_src/r8lib/r8lib.md) and [a MATLAB
+version](../../m_src/r8lib/r8lib.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[FEM1D](../../cpp_src/fem1d/fem1d.html), a C++ program which applies the
+[FEM1D](../../master/fem1d/fem1d.md), a C++ program which applies the
 finite element method (FEM) to a 1D linear two point boundary value
 problem (BVP).
 
-[LAGRANGE\_INTERP\_1D](../../cpp_src/lagrange_interp_1d/lagrange_interp_1d.html),
+[LAGRANGE\_INTERP\_1D](../../master/lagrange_interp_1d/lagrange_interp_1d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data, so that p(x(i)) = y(i).
 
@@ -58,7 +58,7 @@ which interpolates a set of data, so that p(x(i)) = y(i).
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

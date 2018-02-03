@@ -28,49 +28,49 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LINE\_FEKETE\_RULE** is available in [a C
-version](../../c_src/line_fekete_rule/line_fekete_rule.html) and [a C++
-version](../../cpp_src/line_fekete_rule/line_fekete_rule.html) and [a
-FORTRAN77 version](../../f77_src/line_fekete_rule/line_fekete_rule.html)
+version](../../c_src/line_fekete_rule/line_fekete_rule.md) and [a C++
+version](../../master/line_fekete_rule/line_fekete_rule.md) and [a
+FORTRAN77 version](../../f77_src/line_fekete_rule/line_fekete_rule.md)
 and [a FORTRAN90
-version](../../f_src/line_fekete_rule/line_fekete_rule.html) and [a
-MATLAB version](../../m_src/line_fekete_rule/line_fekete_rule.html).
+version](../../f_src/line_fekete_rule/line_fekete_rule.md) and [a
+MATLAB version](../../m_src/line_fekete_rule/line_fekete_rule.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LEBESGUE](../../cpp_src/lebesgue/lebesgue.html), a C++ library which is
+[LEBESGUE](../../master/lebesgue/lebesgue.md), a C++ library which is
 given a set of nodes in 1D, and plots the Lebesgue function, and
 estimates the Lebesgue constant, which measures the maximum magnitude of
 the potential error of Lagrange polynomial interpolation.
 
-[LINE\_FELIPPA\_RULE](../../cpp_src/line_felippa_rule/line_felippa_rule.html),
+[LINE\_FELIPPA\_RULE](../../master/line_felippa_rule/line_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a line segment in 1D.
 
-[LINE\_GRID](../../cpp_src/line_grid/line_grid.html), a C++ library
+[LINE\_GRID](../../master/line_grid/line_grid.md), a C++ library
 which computes a grid of points over the interior of a line segment in
 1D.
 
-[LINE\_NCC\_RULE](../../cpp_src/line_ncc_rule/line_ncc_rule.html), a C++
+[LINE\_NCC\_RULE](../../master/line_ncc_rule/line_ncc_rule.md), a C++
 library which computes a Newton Cotes Closed (NCC) quadrature rule for
 the line, that is, for an interval of the form \[A,B\], using equally
 spaced points which include the endpoints.
 
-[LINE\_NCO\_RULE](../../cpp_src/line_nco_rule/line_nco_rule.html), a C++
+[LINE\_NCO\_RULE](../../master/line_nco_rule/line_nco_rule.md), a C++
 library which computes a Newton Cotes Open (NCO) quadrature rule, using
 equally spaced points, over the interior of a line segment in 1D.
 
-[QR\_SOLVE](../../cpp_src/qr_solve/qr_solve.html), a C++ library which
+[QR\_SOLVE](../../master/qr_solve/qr_solve.md), a C++ library which
 computes the least squares solution of a linear system A\*x=b.
 
-[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../cpp_src/quadrature_weights_vandermonde/quadrature_weights_vandermonde.html),
+[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../master/quadrature_weights_vandermonde/quadrature_weights_vandermonde.md),
 a C++ library which computes the weights of a quadrature rule using the
 Vandermonde matrix, assuming that the points have been specified.
 
-[TRIANGLE\_FEKETE\_RULE](../../cpp_src/triangle_fekete_rule/triangle_fekete_rule.html),
+[TRIANGLE\_FEKETE\_RULE](../../master/triangle_fekete_rule/triangle_fekete_rule.md),
 a C++ library which defines Fekete rules for quadrature or interpolation
 over the interior of a triangle in 2D.
 
-[VANDERMONDE](../../cpp_src/vandermonde/vandermonde.html), a C++ library
+[VANDERMONDE](../../master/vandermonde/vandermonde.md), a C++ library
 which carries out certain operations associated with the Vandermonde
 matrix.
 
@@ -117,7 +117,7 @@ matrix.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

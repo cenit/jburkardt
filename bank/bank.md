@@ -15,22 +15,22 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**BANK** is available in [a C version](../../c_src/bank/bank.html) and
-[a C++ version](../../cpp_src/bank/bank.html) and [a FORTRAN90
-version](../../f_src/bank/bank.html) and [a MATLAB
-version](../../m_src/bank/bank.html) and [a Python
-version](../../py_src/bank/bank.html).
+**BANK** is available in [a C version](../../c_src/bank/bank.md) and
+[a C++ version](../../master/bank/bank.md) and [a FORTRAN90
+version](../../f_src/bank/bank.md) and [a MATLAB
+version](../../m_src/bank/bank.md) and [a Python
+version](../../py_src/bank/bank.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ISBN](../../cpp_src/isbn/isbn.html), a C++ library which can determine
+[ISBN](../../master/isbn/isbn.md), a C++ library which can determine
 the check digit for an International Standard Book Number or report
 whether a given ISBN is valid.
 
-[LUHN](../../cpp_src/luhn/luhn.html), a C++ program which computes the
+[LUHN](../../master/luhn/luhn.md), a C++ program which computes the
 Luhn check digit for a string, and can validate a string.
 
-[UPC](../../cpp_src/upc/upc.html), a C++ library which can determine the
+[UPC](../../master/upc/upc.md), a C++ library which can determine the
 check digit for a Uniform Product Code (UPC) or report whether a given
 UPC is valid.
 
@@ -55,7 +55,7 @@ UPC is valid.
 -   **S\_TO\_DIGITS** extracts N digits from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

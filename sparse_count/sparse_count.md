@@ -20,13 +20,13 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPARSE\_COUNT** is available in [a C++
-version](../../cpp_src/sparse_count/sparse_count.html) and [a FORTRAN90
-version](../../f_src/sparse_count/sparse_count.html) and [a MATLAB
-version](../../m_src/sparse_count/sparse_count.html).
+version](../../master/sparse_count/sparse_count.md) and [a FORTRAN90
+version](../../f_src/sparse_count/sparse_count.md) and [a MATLAB
+version](../../m_src/sparse_count/sparse_count.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MIXED](../../cpp_src/sparse_grid_mixed/sparse_grid_mixed.html), a
+[MIXED](../../master/sparse_grid_mixed/sparse_grid_mixed.md), a
 library which creates a sparse grid dataset based on a mixed set of 1D
 factor rules.
 
@@ -90,7 +90,7 @@ factor rules.
 -   **OWN\_L2\_SIZE:** Open Weakly Nested, Linear 2 Growth.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

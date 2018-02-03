@@ -37,49 +37,49 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPHERE\_VORONOI\_DISPLAY\_OPENGL** is available in [a C++
-version](../../cpp_src/sphere_voronoi_display_opengl/sphere_voronoi_display_opengl.html).
+version](../../master/sphere_voronoi_display_opengl/sphere_voronoi_display_opengl.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../cpp_src/rotating_cube_display_opengl/rotating_cube_display_opengl.html),
+[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../master/rotating_cube_display_opengl/rotating_cube_display_opengl.md),
 a C++ program which displays a rotating color cube in 3D, using OpenGL;
 
-[SPHERE\_CVT](../../f_src/sphere_cvt/sphere_cvt.html), a FORTRAN90
+[SPHERE\_CVT](../../f_src/sphere_cvt/sphere_cvt.md), a FORTRAN90
 library which creates a mesh of well-separated points on a unit sphere
 using Centroidal Voronoi Tessellations.
 
-[SPHERE\_CVT](../../m_src/sphere_cvt/sphere_cvt.html), a MATLAB library
+[SPHERE\_CVT](../../m_src/sphere_cvt/sphere_cvt.md), a MATLAB library
 which creates a mesh of well-separated points on a unit sphere by
 applying the Centroidal Voronoi Tessellation (CVT) iteration.
 
-[SPHERE\_DELAUNAY](../../m_src/sphere_delaunay/sphere_delaunay.html), a
+[SPHERE\_DELAUNAY](../../m_src/sphere_delaunay/sphere_delaunay.md), a
 MATLAB program which computes the Delaunay triangulation of points on a
 sphere.
 
-[SPHERE\_DESIGN\_RULE](../../f_src/sphere_design_rule/sphere_design_rule.html),
+[SPHERE\_DESIGN\_RULE](../../f_src/sphere_design_rule/sphere_design_rule.md),
 a FORTRAN90 library which returns point sets on the surface of the unit
 sphere, known as "designs", which can be useful for estimating integrals
 on the surface, among other uses.
 
-[SPHERE\_VORONOI](../../m_src/sphere_voronoi/sphere_voronoi.html), a
+[SPHERE\_VORONOI](../../m_src/sphere_voronoi/sphere_voronoi.md), a
 MATLAB program which computes the Voronoi diagram of points on a sphere.
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[STRIPACK\_VORONOI](../../f_src/stripack_voronoi/stripack_voronoi.html),
+[STRIPACK\_VORONOI](../../f_src/stripack_voronoi/stripack_voronoi.md),
 a FORTRAN90 program which reads an XYZ file of 3D points on the unit
 sphere, computes the Voronoi diagram, and writes it to a file.
 
-[SXYZ\_VORONOI](../../f_src/sxyz_voronoi/sxyz_voronoi.html), a FORTRAN90
+[SXYZ\_VORONOI](../../f_src/sxyz_voronoi/sxyz_voronoi.md), a FORTRAN90
 library which reads an XYZ file of 3D points on the sphere, and computes
 and plots Delaunay triangulations and Voronoi diagrams.
 
-[XYZ\_DISPLAY\_OPENGL](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html),
+[XYZ\_DISPLAY\_OPENGL](../../master/xyz_display_opengl/xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays an image using OpenGL.
 
@@ -114,7 +114,7 @@ displays an image using OpenGL.
 -   **UNIFORM\_ON\_SPHERE01\_MAP** maps uniform points onto the unit
     sphere.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

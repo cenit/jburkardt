@@ -119,75 +119,75 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MPI** examples are available in [a C
-version](../../c_src/mpi/mpi.html) and [a C++
-version](../../cpp_src/mpi/mpi.html) and [a FORTRAN77
-version](../../f77_src/mpi/mpi.html) and [a FORTRAN90
-version](../../f_src/mpi/mpi.html).
+version](../../c_src/mpi/mpi.md) and [a C++
+version](../../master/mpi/mpi.md) and [a FORTRAN77
+version](../../f77_src/mpi/mpi.md) and [a FORTRAN90
+version](../../f_src/mpi/mpi.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[COMMUNICATOR\_MPI](../../cpp_src/communicator_mpi/communicator_mpi.html),
+[COMMUNICATOR\_MPI](../../master/communicator_mpi/communicator_mpi.md),
 a C++ program which creates new communicators involving a subset of
 initial set of MPI processes in the default communicator
 MPI\_COMM\_WORLD.
 
-[HEAT\_MPI](../../cpp_src/heat_mpi/heat_mpi.html), a C++ program which
+[HEAT\_MPI](../../master/heat_mpi/heat_mpi.md), a C++ program which
 solves the 1D Time Dependent Heat Equation using MPI.
 
-[HELLO\_MPI](../../cpp_src/hello_mpi/hello_mpi.html), a C++ program
+[HELLO\_MPI](../../master/hello_mpi/hello_mpi.md), a C++ program
 which prints out "Hello, world!" using the MPI parallel programming
 environment.
 
-[MPI\_STUBS](../../cpp_src/mpi_stubs/mpi_stubs.html), a C++ library
+[MPI\_STUBS](../../master/mpi_stubs/mpi_stubs.md), a C++ library
 which contains "stub" MPI routines which allow a user to compile, load,
 and possibly run an MPI program on a serial machine.
 
-[MULTITASK\_MPI](../../cpp_src/multitask_mpi/multitask_mpi.html), a C++
+[MULTITASK\_MPI](../../master/multitask_mpi/multitask_mpi.md), a C++
 program which demonstrates how to "multitask", that is, to execute
 several unrelated and distinct tasks simultaneously, using MPI for
 parallel execution.
 
-[POISSON\_SERIAL](../../cpp_src/poisson_serial/poisson_serial.html), a
+[POISSON\_SERIAL](../../master/poisson_serial/poisson_serial.md), a
 C++ program which computes an approximate solution to the Poisson
 equation in a rectangle, and is intended as the starting point for the
 creation of a parallel version.
 
-[PRIME\_MPI](../../cpp_src/prime_mpi/prime_mpi.html), a C++ program
+[PRIME\_MPI](../../master/prime_mpi/prime_mpi.md), a C++ program
 which counts the number of primes between 1 and N, using MPI for
 parallel execution.
 
-[PTHREADS](../../c_src/pthreads/pthreads.html), C programs which
+[PTHREADS](../../c_src/pthreads/pthreads.md), C programs which
 illustrate the use of the POSIX thread library to carry out parallel
 program execution.
 
-[QUAD\_MPI](../../cpp_src/quad_mpi/quad_mpi.html), a C++ program which
+[QUAD\_MPI](../../master/quad_mpi/quad_mpi.md), a C++ program which
 approximates an integral using a quadrature rule, and carries out the
 computation in parallel using MPI.
 
-[RANDOM\_MPI](../../cpp_src/random_mpi/random_mpi.html), a C++ program
+[RANDOM\_MPI](../../master/random_mpi/random_mpi.md), a C++ program
 which demonstrates one way to generate the same sequence of random
 numbers for both sequential execution and parallel execution under MPI.
 
-[RING\_MPI](../../cpp_src/ring_mpi/ring_mpi.html), a C++ program which
+[RING\_MPI](../../master/ring_mpi/ring_mpi.md), a C++ program which
 uses the MPI parallel programming environment, and measures the time
 necessary to copy a set of data around a ring of processes.
 
-[SATISFY\_MPI](../../cpp_src/satisfy_mpi/satisfy_mpi.html), a C++
+[SATISFY\_MPI](../../master/satisfy_mpi/satisfy_mpi.md), a C++
 program which demonstrates, for a particular circuit, an exhaustive
 search for solutions of the circuit satisfiability problem, using MPI to
 carry out the calculation in parallel.
 
-[SEARCH\_MPI](../../cpp_src/search_mpi/search_mpi.html), a C++ program
+[SEARCH\_MPI](../../master/search_mpi/search_mpi.md), a C++ program
 which searches integers between A and B for a value J such that F(J) =
 C, using MPI for parallel execution.
 
-[TASK\_DIVISION](../../cpp_src/task_division/task_division.html), a C++
+[TASK\_DIVISION](../../master/task_division/task_division.md), a C++
 library which implements a simple procedure for smoothly dividing T
 tasks among P processors; such a method can be useful in MPI and other
 parallel environments, particularly when T is not an exact multiple of
 P, and when the processors can be indexed starting from 0 or from 1.
 
-[WAVE\_MPI](../../cpp_src/wave_mpi/wave_mpi.html), a C++ program which
+[WAVE\_MPI](../../master/wave_mpi/wave_mpi.md), a C++ program which
 uses finite differences and MPI to estimate a solution to the wave
 equation.
 
@@ -322,7 +322,7 @@ this form.
 -   [type\_output.txt](type_output.txt), the output file;
 -   [type\_fsu\_output.txt](type_fsu_output.txt), the output file;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

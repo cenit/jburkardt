@@ -23,39 +23,39 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **GRF\_IO** is available in [a C++
-version](../../cpp_src/grf_io/grf_io.html) and [a FORTRAN90
-version](../../f_src/grf_io/grf_io.html) and [a MATLAB
-version](../../m_src/grf_io/grf_io.html).
+version](../../master/grf_io/grf_io.md) and [a FORTRAN90
+version](../../f_src/grf_io/grf_io.md) and [a MATLAB
+version](../../m_src/grf_io/grf_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FLOYD](../../cpp_src/floyd/floyd.html), a C++ library which implements
+[FLOYD](../../master/floyd/floyd.md), a C++ library which implements
 Floyd's algorithm for finding the shortest distance between pairs of
 nodes on a directed graph.
 
-[GRAFFITI](../../datasets/graffiti/graffiti.html), a dataset directory
+[GRAFFITI](../../datasets/graffiti/graffiti.md), a dataset directory
 which contains 195 abstract graphs, with adjacency and embedding
 information, stored in the GRF format.
 
-[GRAPH\_REPRESENTATION](../../data/graph_representation/graph_representation.html),
+[GRAPH\_REPRESENTATION](../../data/graph_representation/graph_representation.md),
 a data directory which contains examples of ways of representing
 abstract mathematical graphs
 
-[GRF](../../data/grf/grf.html), a data directory which contains a
+[GRF](../../data/grf/grf.md), a data directory which contains a
 description of the GRF format and some examples.
 
-[GRF\_DISPLAY](../../m_src/grf_display/grf_display.html), a MATLAB
+[GRF\_DISPLAY](../../m_src/grf_display/grf_display.md), a MATLAB
 program which reads a GRF file defining a mathematical graph and
 displays it in the MATLAB graphics window.
 
-[GRF\_DISPLAY\_OPENGL](../../cpp_src/grf_display_opengl/grf_display_opengl.html),
+[GRF\_DISPLAY\_OPENGL](../../master/grf_display_opengl/grf_display_opengl.md),
 a C++ program which reads a GRF file defining a mathematical graph and
 displays it in an OpenGL graphics window.
 
-[GRF\_TO\_EPS](../../f_src/grf_to_eps/grf_to_eps.html), a FORTRAN90
+[GRF\_TO\_EPS](../../f_src/grf_to_eps/grf_to_eps.md), a FORTRAN90
 program which can make an encapsulated PostScript image of a GRF file.
 
-[GRF\_TO\_XYL](../../f_src/grf_to_xyl/grf_to_xyl.html), a FORTRAN90
+[GRF\_TO\_XYL](../../f_src/grf_to_xyl/grf_to_xyl.md), a FORTRAN90
 program which converts information describing the adjacency and
 embedding of an abstract graph from GRF to XYL format.
 
@@ -106,7 +106,7 @@ embedding of an abstract graph from GRF to XYL format.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

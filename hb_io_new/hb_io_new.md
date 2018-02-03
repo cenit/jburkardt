@@ -33,48 +33,48 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HB\_IO\_NEW** is available in [a C++
-version](../../cpp_src/hb_io_new/hb_io_new.html).
+version](../../master/hb_io_new/hb_io_new.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CC\_IO](../../cpp_src/cc_io/cc_io.html), a C++ library which reads and
+[CC\_IO](../../master/cc_io/cc_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Compressed Column (CC)
 format.
 
-[HB](../../data/hb/hb.html), a dataset directory which contains a
+[HB](../../data/hb/hb.md), a dataset directory which contains a
 collection of sparse matrices in the HB format.
 
-[HB\_IO](../../cpp_src/hb_io/hb_io.html), a C++ library which reads and
+[HB\_IO](../../master/hb_io/hb_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Harwell Boeing (HB) format
 for sparse matrices. This library is intended to handle the full range
 of HB formats.
 
-[HB\_TO\_MSM](../../m_src/hb_to_msm/hb_to_msm.html), a MATLAB program
+[HB\_TO\_MSM](../../m_src/hb_to_msm/hb_to_msm.md), a MATLAB program
 which reads an HB file and converts the matrix to MATLAB's sparse matrix
 format.
 
-[HB\_TO\_ST](../../f77_src/hb_to_st/hb_to_st.html), a FORTRAN77 program
+[HB\_TO\_ST](../../f77_src/hb_to_st/hb_to_st.md), a FORTRAN77 program
 which converts the sparse matrix information stored in a Harwell-Boeing
 file into a sparse triplet file.
 
-[HBSMC](../../datasets/hbsmc/hbsmc.html), a dataset directory which
+[HBSMC](../../datasets/hbsmc/hbsmc.md), a dataset directory which
 contains the Harwell Boeing Sparse Matrix Collection;
 
-[LINPLUS](../../cpp_src/linplus/linplus.html), a C++ library which
+[LINPLUS](../../master/linplus/linplus.md), a C++ library which
 includes routines to manipulate matrices stored in the HB sparse matrix
 format.
 
-[MM\_IO](../../f_src/mm_io/mm_io.html), a FORTRAN90 library which reads
+[MM\_IO](../../f_src/mm_io/mm_io.md), a FORTRAN90 library which reads
 and writes matrices in the Matrix Market format.
 
-[MSM\_TO\_HB](../../m_src/msm_to_hb/msm_to_hb.html), a MATLAB program
+[MSM\_TO\_HB](../../m_src/msm_to_hb/msm_to_hb.md), a MATLAB program
 which takes a matrix in MATLAB's sparse matrix format and writes it out
 in the HB format.
 
-[ST\_IO](../../cpp_src/st_io/st_io.html), a C++ library which reads and
+[ST\_IO](../../master/st_io/st_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Sparse Triplet (ST) format.
 
-[SUPERLU](../../c_src/superlu/superlu.html), a C library which includes
+[SUPERLU](../../c_src/superlu/superlu.md), a C library which includes
 routines which can read and write matrices in the HB format.
 
 ### Reference: {#reference align="center"}
@@ -170,7 +170,7 @@ Data files you may copy include:
 -   **S\_TRIM** promotes the final null forward through trailing blanks.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

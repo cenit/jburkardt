@@ -34,19 +34,19 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **UNICYCLE** is available in [a C
-version](../../c_src/unicycle/unicycle.html) and [a C++
-version](../../cpp_src/unicycle/unicycle.html) and [a FORTRAN77
-version](../../f77_src/unicycle/unicycle.html) and [a FORTRAN90
-version](../../f_src/unicycle/unicycle.html) and [a MATLAB
-version](../../m_src/unicycle/unicycle.html) and [a Python
-version](../../py_src/unicycle/unicycle.html).
+version](../../c_src/unicycle/unicycle.md) and [a C++
+version](../../master/unicycle/unicycle.md) and [a FORTRAN77
+version](../../f77_src/unicycle/unicycle.md) and [a FORTRAN90
+version](../../f_src/unicycle/unicycle.md) and [a MATLAB
+version](../../m_src/unicycle/unicycle.md) and [a Python
+version](../../py_src/unicycle/unicycle.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[COMBO](../../cpp_src/combo/combo.html), a C++ library which includes
+[COMBO](../../master/combo/combo.md), a C++ library which includes
 many combinatorial routines.
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which
+[SUBSET](../../master/subset/subset.md), a C++ library which
 generates, ranks and unranks various combinatorial objects.
 
 ### Source Code: {#source-code align="center"}
@@ -100,7 +100,7 @@ generates, ranks and unranks various combinatorial objects.
 -   **UNICYCLE\_RANK** computes the rank of a unicycle.
 -   **UNICYCLE\_UNRANK** "unranks" a unicycle.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

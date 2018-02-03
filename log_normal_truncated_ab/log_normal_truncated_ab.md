@@ -16,31 +16,31 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LOG\_NORMAL\_TRUNCATED\_AB** is available in [a C
-version](../../c_src/log_normal_truncated_ab/log_normal_truncated_ab.html)
+version](../../c_src/log_normal_truncated_ab/log_normal_truncated_ab.md)
 and [a C++
-version](../../cpp_src/log_normal_truncated_ab/log_normal_truncated_ab.html)
+version](../../master/log_normal_truncated_ab/log_normal_truncated_ab.md)
 and [a FORTRAN90
-version](../../f_src/log_normal_truncated_ab/log_normal_truncated_ab.html)
+version](../../f_src/log_normal_truncated_ab/log_normal_truncated_ab.md)
 and [a MATLAB
-version](../../m_src/log_normal_truncated_ab/log_normal_truncated_ab.html)
+version](../../m_src/log_normal_truncated_ab/log_normal_truncated_ab.md)
 and [a Python
-version](../../py_src/log_normal_truncated_ab/log_normal_truncated_ab.html).
+version](../../py_src/log_normal_truncated_ab/log_normal_truncated_ab.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LOG\_NORMAL](../../cpp_src/log_normal/log_normal.html), a C++ library
+[LOG\_NORMAL](../../master/log_normal/log_normal.md), a C++ library
 which samples the log normal distribution.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which samples
+[NORMAL](../../master/normal/normal.md), a C++ library which samples
 the normal distribution.
 
-[PDFLIB](../../cpp_src/pdflib/pdflib.html), a C++ library which
+[PDFLIB](../../master/pdflib/pdflib.md), a C++ library which
 evaluates Probability Density Functions (PDF's) and produces random
 samples from them, including beta, binomial, chi, exponential, gamma,
 inverse chi, inverse gamma, multinomial, normal, scaled inverse chi, and
 uniform.
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which evaluates,
+[PROB](../../master/prob/prob.md), a C++ library which evaluates,
 samples, inverts, and characterizes a number of Probability Density
 Functions (PDF's) and Cumulative Density Functions (CDF's), including
 anglit, arcsin, benford, birthday, bernoulli, beta\_binomial, beta,
@@ -55,13 +55,13 @@ planck, poisson, power, quasigeometric, rayleigh, reciprocal, runs,
 sech, semicircular, student t, triangle, uniform, von mises, weibull,
 zipf.
 
-[TRUNCATED\_NORMAL](../../cpp_src/truncated_normal/truncated_normal.html),
+[TRUNCATED\_NORMAL](../../master/truncated_normal/truncated_normal.md),
 a C++ library which works with the truncated normal distribution over
 \[A,B\], or \[A,+oo) or (-oo,B\], returning the probability density
 function (PDF), the cumulative density function (CDF), the inverse CDF,
 the mean, the variance, and sample values.
 
-[UNIFORM](../../c_src/uniform/uniform.html), a C library which samples
+[UNIFORM](../../c_src/uniform/uniform.md), a C library which samples
 the uniform distribution.
 
 ### Reference: {#reference align="center"}
@@ -113,7 +113,7 @@ the uniform distribution.
 -   **R8VEC\_VARIANCE** returns the variance of an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

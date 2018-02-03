@@ -86,29 +86,29 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LAGUERRE\_TEST\_INT** is available in [a C
-version](../../c_src/laguerre_test_int/laguerre_test_int.html) and [a
-C++ version](../../cpp_src/laguerre_test_int/laguerre_test_int.html) and
+version](../../c_src/laguerre_test_int/laguerre_test_int.md) and [a
+C++ version](../../master/laguerre_test_int/laguerre_test_int.md) and
 [a FORTRAN77
-version](../../f77_src/laguerre_test_int/laguerre_test_int.html) and [a
-FORTRAN90 version](../../f_src/laguerre_test_int/laguerre_test_int.html)
+version](../../f77_src/laguerre_test_int/laguerre_test_int.md) and [a
+FORTRAN90 version](../../f_src/laguerre_test_int/laguerre_test_int.md)
 and [a MATLAB
-version](../../m_src/laguerre_test_int/laguerre_test_int.html).
+version](../../m_src/laguerre_test_int/laguerre_test_int.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[QUADPACK](../../f_src/quadpack/quadpack.html), a FORTRAN90 library
+[QUADPACK](../../f_src/quadpack/quadpack.md), a FORTRAN90 library
 which estimates integrals of functions in one dimension.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines various quadrature rules.
 
-[TEST\_INT](../../cpp_src/test_int/test_int.html), a C++ library which
+[TEST\_INT](../../master/test_int/test_int.md), a C++ library which
 defines test integrands for 1D quadrature rules.
 
-[TEST\_INT\_2D](../../cpp_src/test_int_2d/test_int_2d.html), a C++
+[TEST\_INT\_2D](../../master/test_int_2d/test_int_2d.md), a C++
 library which defines test integrands for 2D quadrature rules.
 
-[TEST\_INT\_HERMITE](../../cpp_src/test_int_hermite/test_int_hermite.html),
+[TEST\_INT\_HERMITE](../../master/test_int_hermite/test_int_hermite.md),
 a C++ library which defines some test integration problems over infinite
 intervals.
 
@@ -249,7 +249,7 @@ intervals.
 -   **R8VEC\_DOT** computes the dot product of a pair of R8VEC's.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

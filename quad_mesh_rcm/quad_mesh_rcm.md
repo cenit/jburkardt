@@ -43,39 +43,39 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUAD\_MESH\_RCM** is available in [a C++
-version](../../cpp_src/quad_mesh_rcm/quad_mesh_rcm.html) and [a FORTRAN
-version](../../f_src/quad_mesh_rcm/quad_mesh_rcm.html) and [a MATLAB
-version](../../m_src/quad_mesh_rcm/quad_mesh_rcm.html).
+version](../../master/quad_mesh_rcm/quad_mesh_rcm.md) and [a FORTRAN
+version](../../f_src/quad_mesh_rcm/quad_mesh_rcm.md) and [a MATLAB
+version](../../m_src/quad_mesh_rcm/quad_mesh_rcm.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MESH\_BANDWIDTH](../../cpp_src/mesh_bandwidth/mesh_bandwidth.html), a
+[MESH\_BANDWIDTH](../../master/mesh_bandwidth/mesh_bandwidth.md), a
 C++ program which returns the geometric bandwidth associated with a mesh
 of elements of any order and in a space of arbitrary dimension.
 
-[MESH\_DISPLAY](../../m_src/mesh_display/mesh_display.html), a MATLAB
+[MESH\_DISPLAY](../../m_src/mesh_display/mesh_display.md), a MATLAB
 program which reads data defining a polygonal mesh and displays it, with
 optional numbering.
 
-[MESH\_DISPLAY\_OPENGL](../../cpp_src/mesh_display_opengl/mesh_display_opengl.html),
+[MESH\_DISPLAY\_OPENGL](../../master/mesh_display_opengl/mesh_display_opengl.md),
 a C++ program which reads files defining a polygonal mesh and displays
 an image using OpenGL.
 
-[QUAD\_MESH](../../data/quad_mesh/quad_mesh.html), a data directory
+[QUAD\_MESH](../../data/quad_mesh/quad_mesh.md), a data directory
 which defines a format for storing meshes of quadrilaterals over a 2D
 region.
 
-[QUAD\_MESH](../../cpp_src/quad_mesh/quad_mesh.html), a C++ library
+[QUAD\_MESH](../../master/quad_mesh/quad_mesh.md), a C++ library
 which handles meshes of quadrilaterals over a 2D region;
 
-[RCM](../../cpp_src/rcm/rcm.html), a C++ library which carries out
+[RCM](../../master/rcm/rcm.md), a C++ library which carries out
 reverse Cuthill-McKee computations.
 
-[TET\_MESH\_RCM](../../cpp_src/tet_mesh_rcm/tet_mesh_rcm.html), a C++
+[TET\_MESH\_RCM](../../master/tet_mesh_rcm/tet_mesh_rcm.md), a C++
 program which applies the reverse Cuthill-McKee reordering to a
 tetrahedral mesh of nodes in 3D.
 
-[TRIANGULATION\_RCM](../../cpp_src/triangulation_rcm/triangulation_rcm.html),
+[TRIANGULATION\_RCM](../../master/triangulation_rcm/triangulation_rcm.md),
 a C++ program which reads files describing a triangulation of nodes in
 2D, and applies the RCM algorithm to produce a renumbering of the
 triangulation with a reduced bandwidth.
@@ -196,7 +196,7 @@ irregularities.
     ascending order.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

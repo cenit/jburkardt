@@ -15,27 +15,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **NETCDF\_MPAS** is available in [a C++
-version](../../cpp_src/netcdf_mpas/netcdf_mpas.html) and [a MATLAB
-version](../../m_src/netcdf_mpas/netcdf_mpas.html).
+version](../../master/netcdf_mpas/netcdf_mpas.md) and [a MATLAB
+version](../../m_src/netcdf_mpas/netcdf_mpas.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[CDL](../../data/cdl/cdl.html), a data directory which contains examples
+[CDL](../../data/cdl/cdl.md), a data directory which contains examples
 of CDL files, a text version of NETCDF files created by the NCDUMP
 program;
 
-[GFD2](../../datasets/gfd2/gfd2.html), a dataset directory which
+[GFD2](../../datasets/gfd2/gfd2.md), a dataset directory which
 contains geophysical data, stored in NETCDF format.
 
-[MPAS\_GRID\_DISPLAY](../../m_src/mpas_grid_display/mpas_grid_display.html),
+[MPAS\_GRID\_DISPLAY](../../m_src/mpas_grid_display/mpas_grid_display.md),
 MATLAB programs which can read an MPAS NETCDF grid file and display the
 primary polygonal mesh or the dual triangular mesh.
 
-[NETCDF](../../data/netcdf/netcdf.html), a data directory which contains
+[NETCDF](../../data/netcdf/netcdf.md), a data directory which contains
 examples of NETCDF files, a format for the interchange of scientific
 data.
 
-[NETCDF\_MPAS](../../data/netcdf_mpas/netcdf_mpas.html), a data
+[NETCDF\_MPAS](../../data/netcdf_mpas/netcdf_mpas.md), a data
 directory which contains examples of MPAS grid data stored as NETCDF
 files.
 
@@ -89,7 +89,7 @@ files.
 -   **NETCDF\_MPAS\_REPORT** reads an MPAS NETCDF grid file and reports.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

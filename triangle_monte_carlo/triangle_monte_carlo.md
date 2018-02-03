@@ -31,135 +31,135 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGLE\_MONTE\_CARLO** is available in [a C
-version](../../c_src/triangle_monte_carlo/triangle_monte_carlo.html) and
+version](../../c_src/triangle_monte_carlo/triangle_monte_carlo.md) and
 [a C++
-version](../../cpp_src/triangle_monte_carlo/triangle_monte_carlo.html)
+version](../../master/triangle_monte_carlo/triangle_monte_carlo.md)
 and [a FORTRAN77
-version](../../f77_src/triangle_monte_carlo/triangle_monte_carlo.html)
+version](../../f77_src/triangle_monte_carlo/triangle_monte_carlo.md)
 and [a FORTRAN90
-version](../../f_src/triangle_monte_carlo/triangle_monte_carlo.html) and
+version](../../f_src/triangle_monte_carlo/triangle_monte_carlo.md) and
 [a MATLAB
-version](../../m_src/triangle_monte_carlo/triangle_monte_carlo.html).
+version](../../m_src/triangle_monte_carlo/triangle_monte_carlo.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BALL\_MONTE\_CARLO](../../cpp_src/ball_monte_carlo/ball_monte_carlo.html),
+[BALL\_MONTE\_CARLO](../../master/ball_monte_carlo/ball_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate integrals
 of a function over the interior of the unit ball in 3D;
 
-[CIRCLE\_MONTE\_CARLO](../../cpp_src/circle_monte_carlo/circle_monte_carlo.html),
+[CIRCLE\_MONTE\_CARLO](../../master/circle_monte_carlo/circle_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function on the circumference of the unit circle in 2D;
 
-[CUBE\_MONTE\_CARLO](../../cpp_src/cube_monte_carlo/cube_monte_carlo.html),
+[CUBE\_MONTE\_CARLO](../../master/cube_monte_carlo/cube_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the interior of the unit cube in 3D;
 
-[DISK\_MONTE\_CARLO](../../cpp_src/disk_monte_carlo/disk_monte_carlo.html),
+[DISK\_MONTE\_CARLO](../../master/disk_monte_carlo/disk_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the interior of the unit disk in 2D;
 
-[DISK\_QUARTER\_MONTE\_CARLO](../../cpp_src/disk_quarter_monte_carlo/disk_quarter_monte_carlo.html),
+[DISK\_QUARTER\_MONTE\_CARLO](../../master/disk_quarter_monte_carlo/disk_quarter_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the interior of the unit quarter disk in 2D;
 
-[ELLIPSE\_MONTE\_CARLO](../../cpp_src/ellipse_monte_carlo/ellipse_monte_carlo.html)
+[ELLIPSE\_MONTE\_CARLO](../../master/ellipse_monte_carlo/ellipse_monte_carlo.md)
 a C++ library which uses the Monte Carlo method to estimate the value of
 integrals over the interior of an ellipse in 2D.
 
-[ELLIPSOID\_MONTE\_CARLO](../../cpp_src/ellipsoid_monte_carlo/ellipsoid_monte_carlo.html)
+[ELLIPSOID\_MONTE\_CARLO](../../master/ellipsoid_monte_carlo/ellipsoid_monte_carlo.md)
 a C++ library which uses the Monte Carlo method to estimate the value of
 integrals over the interior of an ellipsoid in M dimensions.
 
-[HYPERBALL\_MONTE\_CARLO](../../cpp_src/hyperball_monte_carlo/hyperball_monte_carlo.html),
+[HYPERBALL\_MONTE\_CARLO](../../master/hyperball_monte_carlo/hyperball_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the interior of the unit hyperball in M
 dimensions;
 
-[HYPERCUBE\_MONTE\_CARLO](../../cpp_src/hypercube_monte_carlo/hypercube_monte_carlo.html),
+[HYPERCUBE\_MONTE\_CARLO](../../master/hypercube_monte_carlo/hypercube_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the interior of the unit hypercube in M
 dimensions.
 
-[HYPERSPHERE\_MONTE\_CARLO](../../cpp_src/hypersphere_monte_carlo/hypersphere_monte_carlo.html),
+[HYPERSPHERE\_MONTE\_CARLO](../../master/hypersphere_monte_carlo/hypersphere_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function on the surface of the unit sphere in M
 dimensions;
 
-[LINE\_MONTE\_CARLO](../../cpp_src/line_monte_carlo/line_monte_carlo.html),
+[LINE\_MONTE\_CARLO](../../master/line_monte_carlo/line_monte_carlo.md),
 a C++ library which uses the Monte Carlo method to estimate integrals
 over the length of the unit line in 1D.
 
-[POLYGON\_MONTE\_CARLO](../../cpp_src/polygon_monte_carlo/polygon_monte_carlo.html),
+[POLYGON\_MONTE\_CARLO](../../master/polygon_monte_carlo/polygon_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the interior of a polygon in 2D.
 
-[PYRAMID\_MONTE\_CARLO](../../cpp_src/pyramid_monte_carlo/pyramid_monte_carlo.html),
+[PYRAMID\_MONTE\_CARLO](../../master/pyramid_monte_carlo/pyramid_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate integrals
 of a function over the interior of the unit pyramid in 3D;
 
-[SIMPLEX\_GM\_RULE](../../cpp_src/simplex_gm_rule/simplex_gm_rule.html),
+[SIMPLEX\_GM\_RULE](../../master/simplex_gm_rule/simplex_gm_rule.md),
 a C++ library which defines Grundmann-Moeller quadrature rules over the
 interior of a triangle in 2D, a tetrahedron in 3D, or over the interior
 of the simplex in M dimensions.
 
-[SIMPLEX\_MONTE\_CARLO](../../cpp_src/simplex_monte_carlo/simplex_monte_carlo.html),
+[SIMPLEX\_MONTE\_CARLO](../../master/simplex_monte_carlo/simplex_monte_carlo.md),
 a C++ library which uses the Monte Carlo method to estimate integrals
 over the interior of the unit simplex in M dimensions.
 
-[SPHERE\_MONTE\_CARLO](../../cpp_src/sphere_monte_carlo/sphere_monte_carlo.html),
+[SPHERE\_MONTE\_CARLO](../../master/sphere_monte_carlo/sphere_monte_carlo.md),
 a C++ library which uses the Monte Carlo method to estimate integrals
 over the surface of the unit sphere in 3D.
 
-[SPHERE\_TRIANGLE\_MONTE\_CARLO](../../cpp_src/sphere_triangle_monte_carlo/sphere_triangle_monte_carlo.html),
+[SPHERE\_TRIANGLE\_MONTE\_CARLO](../../master/sphere_triangle_monte_carlo/sphere_triangle_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over a spherical triangle on the surface of the
 unit sphere in 3D;
 
-[SQUARE\_MONTE\_CARLO](../../cpp_src/square_monte_carlo/square_monte_carlo.html),
+[SQUARE\_MONTE\_CARLO](../../master/square_monte_carlo/square_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the interior of the unit square in 2D.
 
-[TETRAHEDRON\_MONTE\_CARLO](../../cpp_src/tetrahedron_monte_carlo/tetrahedron_monte_carlo.html),
+[TETRAHEDRON\_MONTE\_CARLO](../../master/tetrahedron_monte_carlo/tetrahedron_monte_carlo.md),
 a C++ library which uses the Monte Carlo method to estimate integrals
 over the interior of a tetrahedron in 3D.
 
-[TRIANGLE\_ANALYZE](../../cpp_src/triangle_analyze/triangle_analyze.html),
+[TRIANGLE\_ANALYZE](../../master/triangle_analyze/triangle_analyze.md),
 a C++ program which reads a triangle defined in a file, and uses the
 triangle\_properties() library to compute angles, area, centroid,
 circumcircle, edge lengths, incircle, orientation, orthocenter, and
 quality.
 
-[TRIANGLE\_DUNAVANT\_RULE](../../cpp_src/triangle_dunavant_rule/triangle_dunavant_rule.html),
+[TRIANGLE\_DUNAVANT\_RULE](../../master/triangle_dunavant_rule/triangle_dunavant_rule.md),
 a C++ library which sets up a Dunavant quadrature rule over the interior
 of a triangle in 2D.
 
-[TRIANGLE\_FEKETE\_RULE](../../cpp_src/triangle_fekete_rule/triangle_fekete_rule.html),
+[TRIANGLE\_FEKETE\_RULE](../../master/triangle_fekete_rule/triangle_fekete_rule.md),
 a C++ library which defines Fekete rules for interpolation or quadrature
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_FELIPPA\_RULE](../../cpp_src/triangle_felippa_rule/triangle_felippa_rule.html),
+[TRIANGLE\_FELIPPA\_RULE](../../master/triangle_felippa_rule/triangle_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a triangle in 2D.
 
-[TRIANGLE\_INTEGRALS](../../cpp_src/triangle_integrals/triangle_integrals.html),
+[TRIANGLE\_INTEGRALS](../../master/triangle_integrals/triangle_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit triangle in 2D.
 
-[TRIANGLE\_LYNESS\_RULE](../../cpp_src/triangle_lyness_rule/triangle_lyness_rule.html),
+[TRIANGLE\_LYNESS\_RULE](../../master/triangle_lyness_rule/triangle_lyness_rule.md),
 a C++ library which returns Lyness-Jespersen quadrature rules over the
 interior of a triangle in 2D.
 
-[TRIANGLE\_SYMQ\_RULE](../../cpp_src/triangle_symq_rule/triangle_symq_rule.html),
+[TRIANGLE\_SYMQ\_RULE](../../master/triangle_symq_rule/triangle_symq_rule.md),
 a C++ library which returns efficient symmetric quadrature rules, with
 exactness up to total degree 50, over the interior of an arbitrary
 triangle in 2D, by Hong Xiao and Zydrunas Gimbutas.
 
-[TRIANGLE\_WANDZURA\_RULE](../../cpp_src/triangle_wandzura_rule/triangle_wandzura_rule.html),
+[TRIANGLE\_WANDZURA\_RULE](../../master/triangle_wandzura_rule/triangle_wandzura_rule.md),
 a C++ library which sets up a quadrature rule of exactness 5, 10, 15,
 20, 25 or 30 over the interior of a triangle in 2D.
 
-[WEDGE\_MONTE\_CARLO](../../cpp_src/wedge_monte_carlo/wedge_monte_carlo.html),
+[WEDGE\_MONTE\_CARLO](../../master/wedge_monte_carlo/wedge_monte_carlo.md),
 a C++ library which uses the Monte Carlo method to estimate integrals
 over the interior of the unit wedge in 3D.
 
@@ -209,7 +209,7 @@ over the interior of the unit wedge in 3D.
 -   **TRIANGLE01\_SAMPLE** samples the interior of the unit triangle in
     2D.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -31,33 +31,33 @@ where
 ### Languages: {#languages align="center"}
 
 **GRID\_TO\_BMP** is available in [a C++
-version](../../cpp_src/grid_to_bmp/grid_to_bmp.html).
+version](../../master/grid_to_bmp/grid_to_bmp.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BMP](../../data/bmp/bmp.html), a data directory which contains a few
+[BMP](../../data/bmp/bmp.md), a data directory which contains a few
 BMP files.
 
-[BMP\_IO](../../cpp_src/bmp_io/bmp_io.html), a C++ library which reads
+[BMP\_IO](../../master/bmp_io/bmp_io.md), a C++ library which reads
 or writes BMP graphics files.
 
-[BMP\_TO\_PPMA](../../cpp_src/bmp_to_ppma/bmp_to_ppma.html), a C++
+[BMP\_TO\_PPMA](../../master/bmp_to_ppma/bmp_to_ppma.md), a C++
 program which converts BMP files to ASCII Portable Pixel Map (PPM)
 format.
 
-[BMP\_TO\_PPMB](../../cpp_src/bmp_to_ppmb/bmp_to_ppmb.html), a C++
+[BMP\_TO\_PPMB](../../master/bmp_to_ppmb/bmp_to_ppmb.md), a C++
 program which converts BMP files to binary Portable Pixel Map (PPM)
 format.
 
-[HEATED\_PLATE](../../c_src/heated_plate/heated_plate.html), a C program
+[HEATED\_PLATE](../../c_src/heated_plate/heated_plate.md), a C program
 which solves the steady state heat equation in a 2D rectangular region,
 and writes the data to a file suitable for input to GRID\_TO\_BMP.
 
-[PPMA\_TO\_BMP](../../cpp_src/ppma_to_bmp/ppma_to_bmp.html), a C++
+[PPMA\_TO\_BMP](../../master/ppma_to_bmp/ppma_to_bmp.md), a C++
 program which converts ASCII Portable Pixel Map (PPM) files to BMP
 format.
 
-[PPMB\_TO\_BMP](../../cpp_src/ppmb_to_bmp/ppmb_to_bmp.html), a C++
+[PPMB\_TO\_BMP](../../master/ppmb_to_bmp/ppmb_to_bmp.md), a C++
 program which converts binary Portable Pixel Map (PPM) files to BMP
 format.
 
@@ -101,7 +101,7 @@ format.
 -   [sol\_500x500.txt](sol_500x500.txt),
 -   [sol\_500x500.bmp](sol_500x500.bmp), the BMP image file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

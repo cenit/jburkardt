@@ -21,28 +21,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PGMB\_IO** is available in [a C
-version](../../c_src/pgmb_io/pgmb_io.html) and [a C++
-version](../../cpp_src/pgmb_io/pgmb_io.html).
+version](../../c_src/pgmb_io/pgmb_io.md) and [a C++
+version](../../master/pgmb_io/pgmb_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PBMB\_IO](../../cpp_src/pbmb_io/pbmb_io.html), a C++ library which
+[PBMB\_IO](../../master/pbmb_io/pbmb_io.md), a C++ library which
 handles the Portable Bit Map (PBM) format.
 
-[PGMB](../../data/pgmb/pgmb.html), a data directory which contains
+[PGMB](../../data/pgmb/pgmb.md), a data directory which contains
 examples of binary Portable Gray Map (PGM) files.
 
-[PGMA\_IO](../../cpp_src/pgma_io/pgma_io.html), a C++ library which
+[PGMA\_IO](../../master/pgma_io/pgma_io.md), a C++ library which
 handles the ASCII Portable Gray Map (PGM) format.
 
-[PGMA\_TO\_PGMB](../../cpp_src/pgma_to_pgmb/pgma_to_pgmb.html), a C++
+[PGMA\_TO\_PGMB](../../master/pgma_to_pgmb/pgma_to_pgmb.md), a C++
 program which converts an ASCII Portable Gray Map (PGM) file to a binary
 PGM file.
 
-[PPMB\_IO](../../cpp_src/ppmb_io/ppmb_io.html), a C++ library which
+[PPMB\_IO](../../master/ppmb_io/ppmb_io.md), a C++ library which
 handles the binary Portable Pixel Map (PPM) format.
 
-[PGMB\_TO\_PGMA](../../cpp_src/pgmb_to_pgma/pgmb_to_pgma.html), a C++
+[PGMB\_TO\_PGMA](../../master/pgmb_to_pgma/pgmb_to_pgma.md), a C++
 program which converts a binary Portable Gray Map (PGM) file to an ASCII
 PGM file.
 
@@ -93,7 +93,7 @@ PGM file.
     nonblank.
 -   **S\_WORD\_EXTRACT\_FIRST** extracts the first word from a string.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

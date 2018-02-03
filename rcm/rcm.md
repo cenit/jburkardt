@@ -87,40 +87,40 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**RCM** is available in [a C++ version](../../cpp_src/rcm/rcm.html) and
-[a FORTRAN90 version](../../f_src/rcm/rcm.html) and [a MATLAB
-version](../../m_src/rcm/rcm.html).
+**RCM** is available in [a C++ version](../../master/rcm/rcm.md) and
+[a FORTRAN90 version](../../f_src/rcm/rcm.md) and [a MATLAB
+version](../../m_src/rcm/rcm.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MESH\_BANDWIDTH](../../cpp_src/mesh_bandwidth/mesh_bandwidth.html), a
+[MESH\_BANDWIDTH](../../master/mesh_bandwidth/mesh_bandwidth.md), a
 C++ program which returns the geometric bandwidth associated with a mesh
 of elements of any order and in a space of arbitrary dimension.
 
-[QUAD\_MESH\_RCM](../../cpp_src/quad_mesh_rcm/quad_mesh_rcm.html), a C++
+[QUAD\_MESH\_RCM](../../master/quad_mesh_rcm/quad_mesh_rcm.md), a C++
 program which computes the reverse Cuthill-McKee (RCM) reordering for
 nodes in a mesh of 4-node quadrilaterals.
 
-[SPARSEPAK](../../f_src/sparsepak/sparsepak.html), a FORTRAN90 library
+[SPARSEPAK](../../f_src/sparsepak/sparsepak.md), a FORTRAN90 library
 which solves sparse linear systems using the Reverse Cuthill-McKee
 reordering scheme.
 
-[TET\_MESH\_RCM](../../cpp_src/tet_mesh_rcm/tet_mesh_rcm.html), a C++
+[TET\_MESH\_RCM](../../master/tet_mesh_rcm/tet_mesh_rcm.md), a C++
 program which reads files describing a tetrahedral mesh of nodes in 3D,
 and applies the RCM algorithm to produce a renumbering of the tet mesh
 with a reduced bandwidth.
 
 [TRIANGULATION
-ORDER3](../../data/triangulation_order3/triangulation_order3.html), a
+ORDER3](../../data/triangulation_order3/triangulation_order3.md), a
 data directory which contains a description and examples of order 3
 triangulations.
 
 [TRIANGULATION
-ORDER6](../../data/triangulation_order6/triangulation_order6.html), a
+ORDER6](../../data/triangulation_order6/triangulation_order6.md), a
 data directory which contains a description and examples of order 6
 triangulations.
 
-[TRIANGULATION\_RCM](../../cpp_src/triangulation_rcm/triangulation_rcm.html),
+[TRIANGULATION\_RCM](../../master/triangulation_rcm/triangulation_rcm.md),
 a C++ program which reads files describing a triangulation of nodes in
 2D, and applies the RCM algorithm to produce a renumbering of the
 triangulation with a reduced bandwidth.
@@ -234,7 +234,7 @@ triangulation with a reduced bandwidth.
 -   **TRIANGULATION\_ORDER6\_NEIGHBOR\_TRIANGLES** determines triangle
     neighbors.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

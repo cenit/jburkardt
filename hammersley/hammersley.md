@@ -33,70 +33,70 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HAMMERSLEY** is available in [a C
-version](../../c_src/hammersley/hammersley.html) and [a C++
-version](../../cpp_src/hammersley/hammersley.html) and [a FORTRAN90
-version](../../f_src/hammersley/hammersley.html) and [a MATLAB
-version](../../m_src/hammersley/hammersley.html) and [a Python
-version](../../py_src/hammersley/hammersley.html).
+version](../../c_src/hammersley/hammersley.md) and [a C++
+version](../../master/hammersley/hammersley.md) and [a FORTRAN90
+version](../../f_src/hammersley/hammersley.md) and [a MATLAB
+version](../../m_src/hammersley/hammersley.md) and [a Python
+version](../../py_src/hammersley/hammersley.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CVT](../../cpp_src/cvt/cvt.html), a C++ library which computes elements
+[CVT](../../master/cvt/cvt.md), a C++ library which computes elements
 of a Centroidal Voronoi Tessellation.
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 elements of a Faure sequence.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton Quasi Monte Carlo (QMC) sequence.
 
-[HAMMERSLEY\_ADVANCED](../../cpp_src/hammersley_advanced/hammersley_advanced.html),
+[HAMMERSLEY\_ADVANCED](../../master/hammersley_advanced/hammersley_advanced.md),
 a C++ library which computes elements of a Hammersley Quasi Monte Carlo
 (QMC) sequence, using an advanced interface with many input options.
 
-[HAMMERSLEY\_DATASET](../../cpp_src/hammersley_dataset/hammersley_dataset.html),
+[HAMMERSLEY\_DATASET](../../master/hammersley_dataset/hammersley_dataset.md),
 a C++ library which creates a Hammersley sequence and writes it to a
 file.
 
-[HEX\_GRID](../../cpp_src/hex_grid/hex_grid.html), a C++ library which
+[HEX\_GRID](../../master/hex_grid/hex_grid.md), a C++ library which
 computes elements of a hexagonal grid dataset.
 
-[IHS](../../cpp_src/ihs/ihs.html), a C++ library which computes elements
+[IHS](../../master/ihs/ihs.md), a C++ library which computes elements
 of an improved distributed Latin hypercube dataset.
 
-[LATIN\_CENTER](../../cpp_src/latin_center/latin_center.html), a C++
+[LATIN\_CENTER](../../master/latin_center/latin_center.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 center points.
 
-[LATIN\_EDGE](../../cpp_src/latin_edge/latin_edge.html), a C++ library
+[LATIN\_EDGE](../../master/latin_edge/latin_edge.md), a C++ library
 which computes elements of a Latin Hypercube dataset, choosing edge
 points.
 
-[LATIN\_RANDOM](../../cpp_src/latin_random/latin_random.html), a C++
+[LATIN\_RANDOM](../../master/latin_random/latin_random.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 points at random.
 
-[LATTICE\_RULE](../../cpp_src/lattice_rule/lattice_rule.html), a C++
+[LATTICE\_RULE](../../master/lattice_rule/lattice_rule.md), a C++
 library which approximates multidimensional integrals using lattice
 rules.
 
-[LCVT](../../cpp_src/lcvt/lcvt.html), a C++ library which computes a
+[LCVT](../../master/lcvt/lcvt.md), a C++ library which computes a
 latinized Centroidal Voronoi Tessellation.
 
-[NIEDERREITER2](../../cpp_src/niederreiter2/niederreiter2.html), a C++
+[NIEDERREITER2](../../master/niederreiter2/niederreiter2.md), a C++
 library which computes elements of a Niederreiter sequence using base 2.
 
-[SOBOL](../../cpp_src/sobol/sobol.html), a C++ library which computes
+[SOBOL](../../master/sobol/sobol.md), a C++ library which computes
 elements of a Sobol sequence.
 
-[TOMS647](../../cpp_src/toms647/toms647.html), a C++ library which is a
+[TOMS647](../../master/toms647/toms647.md), a C++ library which is a
 version of ACM TOMS algorithm 647, for evaluating Faure, Hammersley and
 Sobol sequences.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of a uniform pseudorandom sequence.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes elements of a 1D van der Corput Quasi Monte
 Carlo (QMC) sequence using a simple interface.
 
@@ -134,7 +134,7 @@ Carlo (QMC) sequence using a simple interface.
 -   **R8MAT\_PRINT\_SOME** prints some of an R8MAT.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

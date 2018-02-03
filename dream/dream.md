@@ -48,33 +48,33 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**DREAM** is available in [a C version](../../c_src/dream/dream.html)
-and [a C++ version](../../cpp_src/dream/dream.html) and [a FORTRAN90
-version](../../f_src/dream/dream.html) and [a MATLAB
-version](../../m_src/dream/dream.html).
+**DREAM** is available in [a C version](../../c_src/dream/dream.md)
+and [a C++ version](../../master/dream/dream.md) and [a FORTRAN90
+version](../../f_src/dream/dream.md) and [a MATLAB
+version](../../m_src/dream/dream.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DREAM1](../../cpp_src/dream1/dream1.html), a C++ library which is an
+[DREAM1](../../master/dream1/dream1.md), a C++ library which is an
 older implementation of the DREAM algorithm for accelerating Markov
 Chain Monte Carlo (MCMC) convergence using differential evolution, using
 a user function main program and two input files to define the problem,
 by Guannan Zhang.
 
-[PDFLIB](../../cpp_src/pdflib/pdflib.html), a C++ library which
+[PDFLIB](../../master/pdflib/pdflib.md), a C++ library which
 evaluates Probability Density Functions (PDF's) and produces random
 samples from them, including beta, binomial, chi, exponential, gamma,
 inverse chi, inverse gamma, multinomial, normal, scaled inverse chi, and
 uniform.
 
-[RANLIB](../../cpp_src/ranlib/ranlib.html), a C++ library which produces
+[RANLIB](../../master/ranlib/ranlib.md), a C++ library which produces
 random samples from Probability Density Functions (PDF's), including
 Beta, Chi-square Exponential, F, Gamma, Multivariate normal, Noncentral
 chi-square, Noncentral F, Univariate normal, random permutations, Real
 uniform, Binomial, Negative Binomial, Multinomial, Poisson and Integer
 uniform, by Barry Brown and James Lovato.
 
-[RNGLIB](../../cpp_src/rnglib/rnglib.html), a C++ library which
+[RNGLIB](../../master/rnglib/rnglib.md), a C++ library which
 implements a random number generator (RNG) with splitting facilities,
 allowing multiple independent streams to be computed, by L'Ecuyer and
 Cote.
@@ -219,7 +219,7 @@ function.
 -   **STD\_COMPUTE** computes the current standard deviations, for each
     parameter.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

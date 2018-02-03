@@ -27,21 +27,21 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TIMESTAMP** is available in [a C
-version](../../c_src/timestamp/timestamp.html) and [a C++
-version](../../cpp_src/timestamp/timestamp.html) and [a FORTRAN77
-version](../../f77_src/timestamp/timestamp.html) and [a FORTRAN90
-version](../../f_src/timestamp/timestamp.html) and [a JAVA
-version](../../java_src/timestamp/timestamp.html) and [a Mathematica
-version](../../math_src/timestamp/timestamp.html) and [a MATLAB
-version](../../m_src/timestamp/timestamp.html) and [a PYTHON
-version.](../../py_src/timestamp/timestamp.html)
+version](../../c_src/timestamp/timestamp.md) and [a C++
+version](../../master/timestamp/timestamp.md) and [a FORTRAN77
+version](../../f77_src/timestamp/timestamp.md) and [a FORTRAN90
+version](../../f_src/timestamp/timestamp.md) and [a JAVA
+version](../../java_src/timestamp/timestamp.md) and [a Mathematica
+version](../../math_src/timestamp/timestamp.md) and [a MATLAB
+version](../../m_src/timestamp/timestamp.md) and [a PYTHON
+version.](../../py_src/timestamp/timestamp.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TIMER](../../cpp_src/timer/timer.html), a C++ library which can be used
+[TIMER](../../master/timer/timer.md), a C++ library which can be used
 to measure elapsed CPU time, rather than elapsed real time.
 
-[WTIME](../../cpp_src/wtime/wtime.html), a C++ library which returns a
+[WTIME](../../master/wtime/wtime.md), a C++ library which returns a
 reading of the wall clock time in seconds.
 
 ### Source Code: {#source-code align="center"}
@@ -62,7 +62,7 @@ reading of the wall clock time in seconds.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TIMESTRING** returns the current YMDHMS date as a string.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

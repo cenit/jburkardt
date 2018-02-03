@@ -16,29 +16,29 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ST\_TO\_CC** is available in [a C
-version](../../c_src/st_to_cc/st_to_cc.html) and [a C++
-version](../../cpp_src/st_to_cc/st_to_cc.html) and [a FORTRAN77
-version](../../f77_src/st_to_cc/st_to_cc.html) and [a FORTRAN90
-version](../../f_src/st_to_cc/st_to_cc.html) and [a MATLAB
-version](../../m_src/st_to_cc/st_to_cc.html).
+version](../../c_src/st_to_cc/st_to_cc.md) and [a C++
+version](../../master/st_to_cc/st_to_cc.md) and [a FORTRAN77
+version](../../f77_src/st_to_cc/st_to_cc.md) and [a FORTRAN90
+version](../../f_src/st_to_cc/st_to_cc.md) and [a MATLAB
+version](../../m_src/st_to_cc/st_to_cc.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CC](../../data/cc/cc.html), a data directory which contains examples of
+[CC](../../data/cc/cc.md), a data directory which contains examples of
 the Compressed Column (CC) sparse matrix file format;
 
-[CC\_IO](../../cpp_src/cc_io/cc_io.html), a C++ library which reads and
+[CC\_IO](../../master/cc_io/cc_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Compressed Column (CC)
 format.
 
-[CC\_TO\_ST](../../cpp_src/cc_to_st/cc_to_st.html), a C++ library which
+[CC\_TO\_ST](../../master/cc_to_st/cc_to_st.md), a C++ library which
 converts a sparse matrix from compressed column (CC) to sparse triple
 (ST) format.
 
-[HBSMC](../../datasets/hbsmc/hbsmc.html), a dataset directory which
+[HBSMC](../../datasets/hbsmc/hbsmc.md), a dataset directory which
 contains the Harwell Boeing Sparse Matrix Collection;
 
-[LINPLUS](../../cpp_src/linplus/linplus.html), a C++ library which
+[LINPLUS](../../master/linplus/linplus.md), a C++ library which
 carries out operations such as matrix-vector products, matrix
 factorization, linear solvers including Gauss-elimination, Jacobi
 iteration, Gauss-Seidel iteration, Conjugate Gradient (CG), for matrices
@@ -46,24 +46,24 @@ in a variety of formats, including banded, border-banded, circulant,
 lower triangular, pentadiagonal, sparse, symmetric, toeplitz,
 tridiagonal, upper triangular and vandermonde formats.
 
-[ST](../../data/st/st.html), a data directory which contains examples of
+[ST](../../data/st/st.md), a data directory which contains examples of
 the Sparse Triplet (ST) format, a sparse matrix file format, storing
 just (I,J,A(I,J)), and using zero-based indexing.
 
-[ST\_IO](../../cpp_src/st_io/st_io.html), a C++ library which reads and
+[ST\_IO](../../master/st_io/st_io.md), a C++ library which reads and
 writes sparse linear systems stored in the ST "sparse triplet" Sparse
 Matrix format.
 
-[SUPERLU](../../cpp_src/superlu/superlu.html), C++ programs which
+[SUPERLU](../../master/superlu/superlu.md), C++ programs which
 illustrate how to call the SUPERLU library, (which is written in C),
 which applies a fast direct solution method to solve sparse linear
 systems, by James Demmel, John Gilbert, and Xiaoye Li.
 
-[UMFPACK](../../cpp_src/umfpack/umfpack.html), C++ programs which
+[UMFPACK](../../master/umfpack/umfpack.md), C++ programs which
 illustrate how to solve a sparse linear system by calling the C library
 UMFPACK, by Timothy Davis.
 
-[WATHEN](../../cpp_src/wathen/wathen.html), a C++ library which compares
+[WATHEN](../../master/wathen/wathen.md), a C++ library which compares
 storage schemes (full, banded, sparse triplet) and solution strategies
 (Linpack full, Linpack banded, conjugate gradient (CG)) for linear
 systems involving the Wathen matrix, which can arise when solving a
@@ -123,7 +123,7 @@ problem using the finite element method (FEM).
 -   **WATHEN\_ST\_SIZE:** Size of Wathen matrix stored in sparse triplet
     format.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

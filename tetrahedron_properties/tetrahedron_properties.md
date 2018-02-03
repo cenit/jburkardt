@@ -24,36 +24,36 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TETRAHEDRON\_PROPERTIES** is available in [a C++
-version](../../cpp_src/tetrahedron_properties/tetrahedron_properties.html)
+version](../../master/tetrahedron_properties/tetrahedron_properties.md)
 and [a FORTRAN77
-version](../../f77_src/tetrahedron_properties/tetrahedron_properties.html)
+version](../../f77_src/tetrahedron_properties/tetrahedron_properties.md)
 and [a FORTRAN90
-version](../../f_src/tetrahedron_properties/tetrahedron_properties.html)
+version](../../f_src/tetrahedron_properties/tetrahedron_properties.md)
 and [a MATLAB
-version](../../m_src/tetrahedron_properties/tetrahedron_properties.html).
+version](../../m_src/tetrahedron_properties/tetrahedron_properties.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GEOMETRY](../../cpp_src/geometry/geometry.html), a C++ library which
+[GEOMETRY](../../master/geometry/geometry.md), a C++ library which
 performs geometric calculations in 2, 3 and N dimensional space.
 
-[HYPERSPHERE\_PROPERTIES](../../cpp_src/hypersphere_properties/hypersphere_properties.html),
+[HYPERSPHERE\_PROPERTIES](../../master/hypersphere_properties/hypersphere_properties.md),
 a C++ library which carries out various operations for an M-dimensional
 hypersphere, including converting between Cartesian and spherical
 coordinates, stereographic projection, sampling the surface of the
 sphere, and computing the surface area and volume.
 
-[POLYGON\_PROPERTIES](../../cpp_src/polygon_properties/polygon_properties.html),
+[POLYGON\_PROPERTIES](../../master/polygon_properties/polygon_properties.md),
 a C++ library which computes properties of an arbitrary polygon in the
 plane, defined by a sequence of vertices, including interior angles,
 area, centroid, containment of a point, convexity, diameter, distance to
 a point, inradius, lattice area, nearest point in set, outradius,
 uniform sampling.
 
-[TETRAHEDRONS](../../datasets/tetrahedrons/tetrahedrons.html), a dataset
+[TETRAHEDRONS](../../datasets/tetrahedrons/tetrahedrons.md), a dataset
 directory which contains examples of tetrahedrons;
 
-[TRIANGLE\_PROPERTIES](../../cpp_src/triangle_properties/triangle_properties.html),
+[TRIANGLE\_PROPERTIES](../../master/triangle_properties/triangle_properties.md),
 a C++ program which computes properties of a triangle whose vertex
 coordinates are read from a file.
 
@@ -154,7 +154,7 @@ coordinates are read from a file.
 -   **TRIANGLE\_ANGLES\_3D** computes the angles of a triangle in 3D.
 -   **TRIANGLE\_AREA\_3D** computes the area of a triangle in 3D.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -37,46 +37,46 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **VANDERMONDE** is available in [a C
-version](../../c_src/vandermonde/vandermonde.html) and [a C++
-version](../../cpp_src/vandermonde/vandermonde.html) and [a FORTRAN77
-version](../../f77_src/vandermonde/vandermonde.html) and [a FORTRAN90
-version](../../f_src/vandermonde/vandermonde.html) and [a MATLAB
-version](../../m_src/vandermonde/vandermonde.html).
+version](../../c_src/vandermonde/vandermonde.md) and [a C++
+version](../../master/vandermonde/vandermonde.md) and [a FORTRAN77
+version](../../f77_src/vandermonde/vandermonde.md) and [a FORTRAN90
+version](../../f_src/vandermonde/vandermonde.md) and [a MATLAB
+version](../../m_src/vandermonde/vandermonde.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINPLUS](../../cpp_src/linplus/linplus.html), a C++ library which
+[LINPLUS](../../master/linplus/linplus.md), a C++ library which
 carries out operations such as matrix-vector products, matrix
 factorization, direct and iterative linear solvers for matrices in a
 variety of formats, including banded, border-banded, circulant, lower
 triangular, pentadiagonal, sparse, symmetric, toeplitz, tridiagonal,
 upper triangular and vandermonde formats.
 
-[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../cpp_src/quadrature_weights_vandermonde/quadrature_weights_vandermonde.html),
+[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../master/quadrature_weights_vandermonde/quadrature_weights_vandermonde.md),
 a C++ library which computes the weights of a quadrature rule using the
 Vandermonde matrix, assuming that the points have been specified.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices for which some of the determinant, eigenvalues,
 inverse, null vectors, P\*L\*U factorization or linear system solution
 are already known, including the Vandermonde matrix.
 
-[VANDERMONDE\_APPROX\_1D](../../cpp_src/vandermonde_approx_1d/vandermonde_approx_1d.html),
+[VANDERMONDE\_APPROX\_1D](../../master/vandermonde_approx_1d/vandermonde_approx_1d.md),
 a C++ library which finds a polynomial approximant to data of a 1D
 argument by setting up and solving an overdetermined linear system for
 the polynomial coefficients, involving the Vandermonde matrix.
 
-[VANDERMONDE\_APPROX\_2D](../../cpp_src/vandermonde_approx_2d/vandermonde_approx_2d.html),
+[VANDERMONDE\_APPROX\_2D](../../master/vandermonde_approx_2d/vandermonde_approx_2d.md),
 a C++ library which finds a polynomial approximant p(x,y) to data z(x,y)
 of a 2D argument by setting up and solving an overdetermined linear
 system for the polynomial coefficients involving the Vandermonde matrix.
 
-[VANDERMONDE\_INTERP\_1D](../../cpp_src/vandermonde_interp_1d/vandermonde_interp_1d.html),
+[VANDERMONDE\_INTERP\_1D](../../master/vandermonde_interp_1d/vandermonde_interp_1d.md),
 a C++ library which finds a polynomial interpolant to a function of 1D
 data by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix.
 
-[VANDERMONDE\_INTERP\_2D](../../cpp_src/vandermonde_interp_2d/vandermonde_interp_2d.html),
+[VANDERMONDE\_INTERP\_2D](../../master/vandermonde_interp_2d/vandermonde_interp_2d.md),
 a C++ library which finds a polynomial interpolant to data z(x,y) of a
 2D argument by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix.
@@ -128,7 +128,7 @@ coefficients, involving the Vandermonde matrix.
 -   **VAND1** returns the Vandermonde1 matrix A with 1's on the first
     row.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

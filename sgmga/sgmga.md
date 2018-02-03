@@ -69,61 +69,61 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**SGMGA** is available in [a C version](../../c_src/sgmga/sgmga.html)
-and [a C++ version](../../cpp_src/sgmga/sgmga.html) and [a FORTRAN90
-version](../../f_src/sgmga/sgmga.html) and [a MATLAB
-version.](../../m_src/sgmga/sgmga.html)
+**SGMGA** is available in [a C version](../../c_src/sgmga/sgmga.md)
+and [a C++ version](../../master/sgmga/sgmga.md) and [a FORTRAN90
+version](../../f_src/sgmga/sgmga.md) and [a MATLAB
+version.](../../m_src/sgmga/sgmga.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[NINT\_EXACTNESS\_MIXED](../../cpp_src/nint_exactness_mixed/nint_exactness_mixed.html),
+[NINT\_EXACTNESS\_MIXED](../../master/nint_exactness_mixed/nint_exactness_mixed.md),
 a C++ program which measures the polynomial exactness of a
 multidimensional quadrature rule based on a mixture of 1D quadrature
 rule factors.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for various intervals and weight functions.
 
-[SANDIA\_RULES](../../cpp_src/sandia_rules/sandia_rules.html), a C++
+[SANDIA\_RULES](../../master/sandia_rules/sandia_rules.md), a C++
 library which produces 1D quadrature rules of Chebyshev, Clenshaw
 Curtis, Fejer 2, Gegenbauer, generalized Hermite, generalized Laguerre,
 Hermite, Jacobi, Laguerre, Legendre and Patterson types.
 
-[SANDIA\_SGMGA](../../cpp_src/sandia_sgmga/sandia_sgmga.html), a C++
+[SANDIA\_SGMGA](../../master/sandia_sgmga/sandia_sgmga.md), a C++
 library which creates sparse grids based on a mixture of 1D quadrature
 rules, allowing anisotropic weights for each dimension. This is a
 version of SGMGA that uses a different procedure for supplying the
 parameters needed to evaluate certain quadrature rules.
 
-[SANDIA\_SPARSE](../../cpp_src/sandia_sparse/sandia_sparse.html), a C++
+[SANDIA\_SPARSE](../../master/sandia_sparse/sandia_sparse.md), a C++
 library which computes the points and weights of a Smolyak sparse grid,
 based on a variety of 1-dimensional quadrature rules.
 
-[SGMG](../../cpp_src/sgmg/sgmg.html), a C++ library which creates a
+[SGMG](../../master/sgmg/sgmg.md), a C++ library which creates a
 sparse grid dataset based on a mixed set of 1D factor rules, and
 experiments with the use of a linear growth rate for the quadrature
 rules.
 
-[SGMGA](../../datasets/sgmga/sgmga.html), a dataset directory which
+[SGMGA](../../datasets/sgmga/sgmga.md), a dataset directory which
 contains SGMGA files (Sparse Grid Mixed Growth Anisotropic), that is,
 multidimensional Smolyak sparse grids based on a mixture of 1D rules,
 and with a choice of exponential and linear growth rates for the 1D
 rules and anisotropic weights for the dimensions.
 
-[SMOLPACK](../../c_src/smolpack/smolpack.html), a C library which
+[SMOLPACK](../../c_src/smolpack/smolpack.md), a C library which
 implements Novak and Ritter's method for estimating the integral of a
 function over a multidimensional hypercube using sparse grids, by Knut
 Petras.
 
-[SPARSE\_GRID\_HW](../../cpp_src/sparse_grid_hw/sparse_grid_hw.html), a
+[SPARSE\_GRID\_HW](../../master/sparse_grid_hw/sparse_grid_hw.md), a
 C++ library which creates sparse grids based on Gauss-Legendre,
 Gauss-Hermite, Gauss-Patterson, or a nested variation of Gauss-Hermite
 rules, by Florian Heiss and Viktor Winschel.
 
-[SPARSE\_GRID\_MIXED](../../cpp_src/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../master/sparse_grid_mixed/sparse_grid_mixed.md),
 a C++ library which creates sparse grids based on a mix of 1D rules.
 
-[TOMS847](../../m_src/toms847/toms847.html), a MATLAB program which uses
+[TOMS847](../../m_src/toms847/toms847.md), a MATLAB program which uses
 sparse grids to carry out multilinear hierarchical interpolation. It is
 commonly known as SPINTERP, and is by Andreas Klimke.
 
@@ -314,7 +314,7 @@ for an isotropic rule over a range of dimensions and levels.
 -   **SGMGA\_WEIGHT** computes weights for an SGMGA grid.
 -   **SGMGA\_WRITE** writes an SGMGA rule to six files.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

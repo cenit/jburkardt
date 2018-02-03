@@ -43,28 +43,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGULATION\_QUAD** is available in [a C++
-version](../../cpp_src/triangulation_quad/triangulation_quad.html) and
+version](../../master/triangulation_quad/triangulation_quad.md) and
 [a FORTRAN90
-version](../../f_src/triangulation_quad/triangulation_quad.html) and [a
-MATLAB version](../../m_src/triangulation_quad/triangulation_quad.html).
+version](../../f_src/triangulation_quad/triangulation_quad.md) and [a
+MATLAB version](../../m_src/triangulation_quad/triangulation_quad.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which defines
+[STROUD](../../master/stroud/stroud.md), a C++ library which defines
 quadrature rules for a variety of multidimensional reqions.
 
-[TET\_MESH\_QUAD](../../cpp_src/tet_mesh_quad/tet_mesh_quad.html), a C++
+[TET\_MESH\_QUAD](../../master/tet_mesh_quad/tet_mesh_quad.md), a C++
 program which estimates the integral of a function over a region defined
 by a tetrahedral mesh.
 
-[TOMS706](../../f77_src/toms706/toms706.html), a FORTRAN77 library which
+[TOMS706](../../f77_src/toms706/toms706.md), a FORTRAN77 library which
 estimates the integral of a function over a triangulated region.
 
-[TRIANGULATION](../../cpp_src/triangulation/triangulation.html), a C++
+[TRIANGULATION](../../master/triangulation/triangulation.md), a C++
 library which carries out various operations on order 3 ("linear") or
 order 6 ("quadratic") triangulations.
 
-[TRIANGULATION\_NODE\_TO\_ELEMENT](../../cpp_src/triangulation_node_to_element/triangulation_node_to_element.html),
+[TRIANGULATION\_NODE\_TO\_ELEMENT](../../master/triangulation_node_to_element/triangulation_node_to_element.md),
 a C++ program which reads files describing a set of nodes, their
 triangulation, and the value of one or more quantities at each node, and
 outputs a file that averages the quantities for each element. This
@@ -128,7 +128,7 @@ arranged into an order 3 triangulation.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

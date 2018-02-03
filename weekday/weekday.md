@@ -17,33 +17,33 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **WEEKDAY** is available in [a C
-version](../../c_src/weekday/weekday.html) and [a C++
-version](../../cpp_src/weekday/weekday.html) and [a FORTRAN77
-version](../../f77_src/weekday/weekday.html) and [a FORTRAN90
-version](../../f_src/weekday/weekday.html) and [a MATLAB
-version](../../m_src/weekday/weekday.html).
+version](../../c_src/weekday/weekday.md) and [a C++
+version](../../master/weekday/weekday.md) and [a FORTRAN77
+version](../../f77_src/weekday/weekday.md) and [a FORTRAN90
+version](../../f_src/weekday/weekday.md) and [a MATLAB
+version](../../m_src/weekday/weekday.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CALENDAR\_NYT](../../f_src/calendar_nyt/calendar_nyt.html), a FORTRAN90
+[CALENDAR\_NYT](../../f_src/calendar_nyt/calendar_nyt.md), a FORTRAN90
 library which shows the correspondence between dates and the New York
 Times volume and issue number;
 
-[CALENDAR\_RD](../../cpp_src/calendar_rd/calendar_rd.html), a C++
+[CALENDAR\_RD](../../master/calendar_rd/calendar_rd.md), a C++
 program which computes the representation of a given date in a number of
 calendrical systems, by Edward Reingold, Nachum Dershowitz
 
-[CALPAK](../../cpp_src/calpak/calpak.html), a C++ library which makes
+[CALPAK](../../master/calpak/calpak.md), a C++ library which makes
 various calendar calculations;
 
-[DATES](../../datasets/dates/dates.html), a dataset directory which
+[DATES](../../datasets/dates/dates.md), a dataset directory which
 contains lists of dates in various calendar systems.
 
-[DOOMSDAY](../../cpp_src/doomsday/doomsday.html), a C++ library which is
+[DOOMSDAY](../../master/doomsday/doomsday.md), a C++ library which is
 given the year, month and day of a date, and uses John Conway's doomsday
 algorithm to determine the corresponding day of the week.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which supplies test values of various mathematical functions.
 
 ### Reference: {#reference align="center"}
@@ -105,7 +105,7 @@ library which supplies test values of various mathematical functions.
     JED.
 -   **YMDF\_TO\_JED\_JULIAN** converts a Julian YMDF date to a JED.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

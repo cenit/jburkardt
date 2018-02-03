@@ -11,7 +11,7 @@ Gimbutas.
 
 The original source code, from which this library was developed, is
 available from the Courant Mathematics and Computing Laboratory, at
-<http://www.cims.nyu.edu/cmcl/quadratures/quadratures.html>,
+<http://www.cims.nyu.edu/cmcl/quadratures/quadratures.md>,
 
 ### Licensing: {#licensing align="center"}
 
@@ -21,100 +21,100 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGLE\_SYMQ\_RULE** is available in [a C
-version](../../c_src/triangle_symq_rule/triangle_symq_rule.html) and [a
-C++ version](../../cpp_src/triangle_symq_rule/triangle_symq_rule.html)
+version](../../c_src/triangle_symq_rule/triangle_symq_rule.md) and [a
+C++ version](../../master/triangle_symq_rule/triangle_symq_rule.md)
 and [a FORTRAN77
-version](../../f77_src/triangle_symq_rule/triangle_symq_rule.html) and
+version](../../f77_src/triangle_symq_rule/triangle_symq_rule.md) and
 [a FORTRAN90
-version](../../f_src/triangle_symq_rule/triangle_symq_rule.html) and [a
-MATLAB version](../../m_src/triangle_symq_rule/triangle_symq_rule.html).
+version](../../f_src/triangle_symq_rule/triangle_symq_rule.md) and [a
+MATLAB version](../../m_src/triangle_symq_rule/triangle_symq_rule.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CUBE\_FELIPPA\_RULE](../../cpp_src/cube_felippa_rule/cube_felippa_rule.html),
+[CUBE\_FELIPPA\_RULE](../../master/cube_felippa_rule/cube_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a cube in 3D.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[PYRAMID\_FELIPPA\_RULE](../../cpp_src/pyramid_felippa_rule/pyramid_felippa_rule.html),
+[PYRAMID\_FELIPPA\_RULE](../../master/pyramid_felippa_rule/pyramid_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a pyramid in 3D.
 
-[SIMPLEX\_GM\_RULE](../../cpp_src/simplex_gm_rule/simplex_gm_rule.html),
+[SIMPLEX\_GM\_RULE](../../master/simplex_gm_rule/simplex_gm_rule.md),
 a C++ library which defines Grundmann-Moeller quadrature rules over the
 interior of a simplex in M dimensions.
 
-[SQUARE\_FELIPPA\_RULE](../../cpp_src/square_felippa_rule/square_felippa_rule.html),
+[SQUARE\_FELIPPA\_RULE](../../master/square_felippa_rule/square_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a square in 2D.
 
-[SQUARE\_SYMQ\_RULE](../../cpp_src/square_symq_rule/square_symq_rule.html),
+[SQUARE\_SYMQ\_RULE](../../master/square_symq_rule/square_symq_rule.md),
 a C++ library which returns symmetric quadrature rules, with exactness
 up to total degree 20, over the interior of the symmetric square in 2D,
 by Hong Xiao and Zydrunas Gimbutas.
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which defines
+[STROUD](../../master/stroud/stroud.md), a C++ library which defines
 quadrature rules for a variety of M-dimensional regions, including the
 interior of the square, cube and hypercube, the pyramid, cone and
 ellipse, the hexagon, the M-dimensional octahedron, the circle, sphere
 and hypersphere, the triangle, tetrahedron and simplex, and the surface
 of the circle, sphere and hypersphere.
 
-[TETRAHEDRON\_FELIPPA\_RULE](../../cpp_src/tetrahedron_felippa_rule/tetrahedron_felippa_rule.html),
+[TETRAHEDRON\_FELIPPA\_RULE](../../master/tetrahedron_felippa_rule/tetrahedron_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a tetrahedron in 3D.
 
-[TOMS886](../../cpp_src/toms886/toms886.html), a C++ library which
+[TOMS886](../../master/toms886/toms886.md), a C++ library which
 defines the Padua points for interpolation in a 2D region, including the
 rectangle, triangle, and ellipse, by Marco Caliari, Stefano de Marchi,
 Marco Vianello. This is a version of ACM TOMS algorithm 886.
 
-[TRIANGLE\_ANALYZE](../../cpp_src/triangle_analyze/triangle_analyze.html),
+[TRIANGLE\_ANALYZE](../../master/triangle_analyze/triangle_analyze.md),
 a C++ program which reads a triangle defined in a file, and uses the
 triangle\_properties() library to compute angles, area, centroid,
 circumcircle, edge lengths, incircle, orientation, orthocenter, and
 quality.
 
-[TRIANGLE\_DUNAVANT\_RULE](../../cpp_src/triangle_dunavant_rule/triangle_dunavant_rule.html),
+[TRIANGLE\_DUNAVANT\_RULE](../../master/triangle_dunavant_rule/triangle_dunavant_rule.md),
 a C++ library which defines Dunavant rules for quadrature over the
 interior of a triangle in 2D.
 
-[TRIANGLE\_FEKETE\_RULE](../../cpp_src/triangle_fekete_rule/triangle_fekete_rule.html),
+[TRIANGLE\_FEKETE\_RULE](../../master/triangle_fekete_rule/triangle_fekete_rule.md),
 a C++ library which defines Fekete rules for interpolation or quadrature
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_FELIPPA\_RULE](../../cpp_src/triangle_felippa_rule/triangle_felippa_rule.html),
+[TRIANGLE\_FELIPPA\_RULE](../../master/triangle_felippa_rule/triangle_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a triangle in 2D.
 
-[TRIANGLE\_INTEGRALS](../../cpp_src/triangle_integrals/triangle_integrals.html),
+[TRIANGLE\_INTEGRALS](../../master/triangle_integrals/triangle_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit triangle in 2D.
 
-[TRIANGLE\_LYNESS\_RULE](../../cpp_src/triangle_lyness_rule/triangle_lyness_rule.html),
+[TRIANGLE\_LYNESS\_RULE](../../master/triangle_lyness_rule/triangle_lyness_rule.md),
 a C++ library which returns Lyness-Jespersen quadrature rules over the
 interior of a triangle in 2D.
 
-[TRIANGLE\_MONTE\_CARLO](../../cpp_src/triangle_monte_carlo/triangle_monte_carlo.html),
+[TRIANGLE\_MONTE\_CARLO](../../master/triangle_monte_carlo/triangle_monte_carlo.md),
 a C++ library which uses the Monte Carlo method to estimate the integral
 of a function over the interior of the unit triangle in 2D.
 
-[TRIANGLE\_NCC\_RULE](../../cpp_src/triangle_ncc_rule/triangle_ncc_rule.html),
+[TRIANGLE\_NCC\_RULE](../../master/triangle_ncc_rule/triangle_ncc_rule.md),
 a C++ library which defines Newton-Cotes Closed (NCC) quadrature rules
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_NCO\_RULE](../../cpp_src/triangle_nco_rule/triangle_nco_rule.html),
+[TRIANGLE\_NCO\_RULE](../../master/triangle_nco_rule/triangle_nco_rule.md),
 a C++ library which defines Newton-Cotes Open (NCO) quadrature rules
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_WANDZURA\_RULE](../../cpp_src/triangle_wandzura_rule/triangle_wandzura_rule.html),
+[TRIANGLE\_WANDZURA\_RULE](../../master/triangle_wandzura_rule/triangle_wandzura_rule.md),
 a C++ library which returns quadrature rules of exactness 5, 10, 15, 20,
 25 and 30 over the interior of the triangle in 2D.
 
-[WEDGE\_FELIPPA\_RULE](../../cpp_src/wedge_felippa_rule/wedge_felippa_rule.html),
+[WEDGE\_FELIPPA\_RULE](../../master/wedge_felippa_rule/wedge_felippa_rule.md),
 a C++ library which returns quadratures rules for approximating
 integrals over the interior of the unit wedge in 3D.
 
@@ -269,7 +269,7 @@ USER08 is a degree 8 rule in a user specified triangle at (1,0), (4,4),
 -   **TRIASYMQ\_GNUPLOT:** set up a GNUPLOT plot of the triangle
     quadrature rule.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

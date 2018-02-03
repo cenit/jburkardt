@@ -16,32 +16,32 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM3D\_PACK** is available in [a C++
-version](../../cpp_src/fem3d_pack/fem3d_pack.html) and [a FORTRAN90
-version](../../f_src/fem3d_pack/fem3d_pack.html) and [a MATLAB
-version](../../m_src/fem3d_pack/fem3d_pack.html).
+version](../../master/fem3d_pack/fem3d_pack.md) and [a FORTRAN90
+version](../../f_src/fem3d_pack/fem3d_pack.md) and [a MATLAB
+version](../../m_src/fem3d_pack/fem3d_pack.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM\_BASIS](../../cpp_src/fem_basis/fem_basis.html), a C++ library
+[FEM\_BASIS](../../master/fem_basis/fem_basis.md), a C++ library
 which can define and evaluate basis functions for any degree in an
 M-dimensional simplex (1D interval, 2D triangle, 3D tetrahedron, and
 higher dimensional generalizations.)
 
-[FEM1D\_PACK](../../cpp_src/fem1d_pack/fem1d_pack.html), a C++ library
+[FEM1D\_PACK](../../master/fem1d_pack/fem1d_pack.md), a C++ library
 which contains utilities for 1D finite element calculations.
 
-[FEM2D\_PACK](../../cpp_src/fem2d_pack/fem2d_pack.html), a C++ library
+[FEM2D\_PACK](../../master/fem2d_pack/fem2d_pack.md), a C++ library
 which contains utilities for finite element calculations.
 
-[FEM3D](../../data/fem3d/fem3d.html), a data directory which contains
+[FEM3D](../../data/fem3d/fem3d.md), a data directory which contains
 examples of 3D FEM files, three text files that describe a 3D finite
 element geometry;
 
-[FEM3D\_PROJECT](../../cpp_src/fem3d_project/fem3d_project.html), a C++
+[FEM3D\_PROJECT](../../master/fem3d_project/fem3d_project.md), a C++
 program which projects a function F(X,Y,Z), given as a data, into a
 given finite element space of piecewise linear tetrahedral elements.
 
-[FEM3D\_SAMPLE](../../cpp_src/fem3d_sample/fem3d_sample.html), a C++
+[FEM3D\_SAMPLE](../../master/fem3d_sample/fem3d_sample.md), a C++
 program which evaluates a finite element function defined on 3D
 tetrahedral mesh.
 
@@ -131,7 +131,7 @@ tetrahedral mesh.
 -   **TETRAHEDRON\_VOLUME** computes the volume of a tetrahedron in 3D.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

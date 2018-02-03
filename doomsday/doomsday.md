@@ -17,30 +17,30 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **DOOMSDAY** is available in [a C
-version](../../c_src/doomsday/doomsday.html) and [a C++
-version](../../cpp_src/doomsday/doomsday.html) and [a FORTRAN77
-version](../../f77_src/doomsday/doomsday.html) and [a FORTRAN90
-version](../../f_src/doomsday/doomsday.html) and [a MATLAB
-version](../../m_src/doomsday/doomsday.html) and [a Python
-version](../../py_src/doomsday/doomsday.html).
+version](../../c_src/doomsday/doomsday.md) and [a C++
+version](../../master/doomsday/doomsday.md) and [a FORTRAN77
+version](../../f77_src/doomsday/doomsday.md) and [a FORTRAN90
+version](../../f_src/doomsday/doomsday.md) and [a MATLAB
+version](../../m_src/doomsday/doomsday.md) and [a Python
+version](../../py_src/doomsday/doomsday.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CALENDAR\_NYT](../../f_src/calendar_nyt/calendar_nyt.html), a FORTRAN90
+[CALENDAR\_NYT](../../f_src/calendar_nyt/calendar_nyt.md), a FORTRAN90
 library which shows the correspondence between dates and the New York
 Times volume and issue number;
 
-[CALENDAR\_RD](../../cpp_src/calendar_rd/calendar_rd.html), a C++
+[CALENDAR\_RD](../../master/calendar_rd/calendar_rd.md), a C++
 program which computes the representation of a given date in a number of
 calendrical systems, by Edward Reingold and Nachum Dershowitz
 
-[CALPAK](../../cpp_src/calpak/calpak.html), a C++ library which makes
+[CALPAK](../../master/calpak/calpak.md), a C++ library which makes
 various calendar calculations;
 
-[DATES](../../datasets/dates/dates.html), a dataset directory which
+[DATES](../../datasets/dates/dates.md), a dataset directory which
 contains lists of dates in various calendar systems.
 
-[WEEKDAY](../../cpp_src/weekday/weekday.html), a C++ library which
+[WEEKDAY](../../master/weekday/weekday.md), a C++ library which
 determines the day of the week for a given day.
 
 ### Reference: {#reference align="center"}
@@ -82,7 +82,7 @@ determines the day of the week for a given day.
 -   **YEAR\_IS\_LEAP\_GREGORIAN** returns TRUE if the Gregorian year was
     a leap year.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

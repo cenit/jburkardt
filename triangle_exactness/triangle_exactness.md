@@ -68,75 +68,75 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGLE\_EXACTNESS** is available in [a C++
-version](../../cpp_src/triangle_exactness/triangle_exactness.html) and
+version](../../master/triangle_exactness/triangle_exactness.md) and
 [a FORTRAN77
-version](../../f77_src/triangle_exactness/triangle_exactness.html) and
+version](../../f77_src/triangle_exactness/triangle_exactness.md) and
 [a FORTRAN90
-version](../../f_src/triangle_exactness/triangle_exactness.html) and [a
-MATLAB version](../../m_src/triangle_exactness/triangle_exactness.html).
+version](../../f_src/triangle_exactness/triangle_exactness.md) and [a
+MATLAB version](../../m_src/triangle_exactness/triangle_exactness.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CUBE\_EXACTNESS](../../cpp_src/cube_exactness/cube_exactness.html), a
+[CUBE\_EXACTNESS](../../master/cube_exactness/cube_exactness.md), a
 C++ library which investigates the polynomial exactness of quadrature
 rules over the interior of a cube in 3D.
 
-[HYPERCUBE\_EXACTNESS](../../cpp_src/hypercube_exactness/hypercube_exactness.html),
+[HYPERCUBE\_EXACTNESS](../../master/hypercube_exactness/hypercube_exactness.md),
 a C++ program which tests the exactness of integration rules over the
 interior of the hypercube in M dimensions.
 
-[PYRAMID\_EXACTNESS](../../cpp_src/pyramid_exactness/pyramid_exactness.html),
+[PYRAMID\_EXACTNESS](../../master/pyramid_exactness/pyramid_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of the pyramid in 3D.
 
-[SPHERE\_EXACTNESS](../../cpp_src/sphere_exactness/sphere_exactness.html),
+[SPHERE\_EXACTNESS](../../master/sphere_exactness/sphere_exactness.md),
 a C++ program which tests the monomial exactness of a quadrature rule on
 the surface of the unit sphere in 3D.
 
-[SQUARE\_EXACTNESS](../../cpp_src/square_exactness/square_exactness.html),
+[SQUARE\_EXACTNESS](../../master/square_exactness/square_exactness.md),
 a C++ library which investigates the polynomial exactness of quadrature
 rules for f(x,y) over the interior of a rectangle in 2D.
 
-[TETRAHEDRON\_EXACTNESS](../../cpp_src/tetrahedron_exactness/tetrahedron_exactness.html),
+[TETRAHEDRON\_EXACTNESS](../../master/tetrahedron_exactness/tetrahedron_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of the tetrahedron in 3D.
 
-[TRIANGLE\_ANALYZE](../../cpp_src/triangle_analyze/triangle_analyze.html),
+[TRIANGLE\_ANALYZE](../../master/triangle_analyze/triangle_analyze.md),
 a C++ program which reads a triangle defined in a file, and uses the
 triangle\_properties() library to compute angles, area, centroid,
 circumcircle, edge lengths, incircle, orientation, orthocenter, and
 quality.
 
-[TRIANGLE\_DUNAVANT\_RULE](../../cpp_src/triangle_dunavant_rule/triangle_dunavant_rule.html),
+[TRIANGLE\_DUNAVANT\_RULE](../../master/triangle_dunavant_rule/triangle_dunavant_rule.md),
 a C++ library which sets up a Dunavant quadrature rule over the interior
 of a triangle in 2D.
 
-[TRIANGLE\_FEKETE\_RULE](../../cpp_src/triangle_fekete_rule/triangle_fekete_rule.html),
+[TRIANGLE\_FEKETE\_RULE](../../master/triangle_fekete_rule/triangle_fekete_rule.md),
 a C++ library which defines Fekete rules for interpolation or quadrature
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_FELIPPA\_RULE](../../cpp_src/triangle_felippa_rule/triangle_felippa_rule.html),
+[TRIANGLE\_FELIPPA\_RULE](../../master/triangle_felippa_rule/triangle_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a triangle in 2D.
 
-[TRIANGLE\_LYNESS\_RULE](../../cpp_src/triangle_lyness_rule/triangle_lyness_rule.html),
+[TRIANGLE\_LYNESS\_RULE](../../master/triangle_lyness_rule/triangle_lyness_rule.md),
 a C++ library which returns Lyness-Jespersen quadrature rules over the
 interior of a triangle in 2D.
 
-[TRIANGLE\_MONTE\_CARLO](../../cpp_src/triangle_monte_carlo/triangle_monte_carlo.html),
+[TRIANGLE\_MONTE\_CARLO](../../master/triangle_monte_carlo/triangle_monte_carlo.md),
 a C++ program which uses the Monte Carlo method to estimate integrals
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_SYMQ\_RULE](../../cpp_src/triangle_symq_rule/triangle_symq_rule.html),
+[TRIANGLE\_SYMQ\_RULE](../../master/triangle_symq_rule/triangle_symq_rule.md),
 a C++ library which returns efficient symmetric quadrature rules, with
 exactness up to total degree 50, over the interior of an arbitrary
 triangle in 2D, by Hong Xiao and Zydrunas Gimbutas.
 
-[TRIANGLE\_WANDZURA\_RULE](../../cpp_src/triangle_wandzura_rule/triangle_wandzura_rule.html),
+[TRIANGLE\_WANDZURA\_RULE](../../master/triangle_wandzura_rule/triangle_wandzura_rule.md),
 a C++ library which sets up a quadrature rule of exactness 5, 10, 15,
 20, 25 or 30 over the interior of a triangle in 2D.
 
-[WEDGE\_EXACTNESS](../../cpp_src/wedge_exactness/wedge_exactness.html),
+[WEDGE\_EXACTNESS](../../master/wedge_exactness/wedge_exactness.md),
 a C++ program which investigates the monomial exactness of a quadrature
 rule over the interior of the unit wedge in 3D.
 
@@ -194,7 +194,7 @@ rule over the interior of the unit wedge in 3D.
 -   **TRANGLE01\_MONOMIAL\_QUADRATURE** applies quadrature to a monomial
     in a triangle.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

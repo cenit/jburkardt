@@ -40,23 +40,23 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**NAS** is available in [a C version](../../c_src/nas/nas.html) and [a
-C++ version](../../cpp_src/nas/nas.html) and [a FORTRAN77
-version](../../f77_src/nas/nas.html) and [a FORTRAN90
-version](../../f_src/nas/nas.html) and [a MATLAB
-version](../../m_src/nas/nas.html) and [a Python
-version](../../py_src/nas/nas.html).
+**NAS** is available in [a C version](../../c_src/nas/nas.md) and [a
+C++ version](../../master/nas/nas.md) and [a FORTRAN77
+version](../../f77_src/nas/nas.md) and [a FORTRAN90
+version](../../f_src/nas/nas.md) and [a MATLAB
+version](../../m_src/nas/nas.md) and [a Python
+version](../../py_src/nas/nas.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINPACK\_BENCH](../../cpp_src/linpack_bench/linpack_bench.html), a C++
+[LINPACK\_BENCH](../../master/linpack_bench/linpack_bench.md), a C++
 program which measures the time taken by **LINPACK** to solve a
 particular linear system.
 
-[MATMUL](../../c_src/matmul/matmul.html), a C program which is an
+[MATMUL](../../c_src/matmul/matmul.md), a C program which is an
 interactive matrix multiplication benchmark.
 
-[MDBNCH](../../f77_src/mdbnch/mdbnch.html), a FORTRAN77 program which is
+[MDBNCH](../../f77_src/mdbnch/mdbnch.md), a FORTRAN77 program which is
 a benchmark molecular simulation calculation.
 
 ### Reference: {#reference align="center"}
@@ -104,7 +104,7 @@ a benchmark molecular simulation calculation.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **WTIME** reports the elapsed wallclock time.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -24,36 +24,36 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_VALUES** is available in [a C
-version](../../c_src/test_values/test_values.html) and [a C++
-version](../../cpp_src/test_values/test_values.html) and [a FORTRAN90
-version](../../f_src/test_values/test_values.html) and [a MATLAB
-version](../../m_src/test_values/test_values.html) and [a Python
-version](../../py_src/test_values/test_values.html).
+version](../../c_src/test_values/test_values.md) and [a C++
+version](../../master/test_values/test_values.md) and [a FORTRAN90
+version](../../f_src/test_values/test_values.md) and [a MATLAB
+version](../../m_src/test_values/test_values.md) and [a Python
+version](../../py_src/test_values/test_values.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[CORDIC](../../cpp_src/cordic/cordic.html), a C++ library which uses the
+[CORDIC](../../master/cordic/cordic.md), a C++ library which uses the
 CORDIC method to compute certain elementary functions.
 
-[FN](../../cpp_src/fn/fn.html), a C++ library which contains routines by
+[FN](../../master/fn/fn.md), a C++ library which contains routines by
 Wayne Fullerton for evaluating elementary and special functions.
 
-[GSL](../../cpp_src/gsl/gsl.html), a C++ library which includes routines
+[GSL](../../master/gsl/gsl.md), a C++ library which includes routines
 that evaluate many special functions.
 
-[LEGENDRE\_POLYNOMIAL](../../cpp_src/legendre_polynomial/legendre_polynomial.html),
+[LEGENDRE\_POLYNOMIAL](../../master/legendre_polynomial/legendre_polynomial.md),
 a C++ library which evaluates the Legendre polynomial and associated
 functions.
 
-[LOBATTO\_POLYNOMIAL](../../cpp_src/lobatto_polynomial/lobatto_polynomial.html),
+[LOBATTO\_POLYNOMIAL](../../master/lobatto_polynomial/lobatto_polynomial.md),
 a C++ library which evaluates Lobatto polynomials, similar to Legendre
 polynomials except that they are zero at both endpoints.
 
-[POLPAK](../../cpp_src/polpak/polpak.html), a C++ library which computes
+[POLPAK](../../master/polpak/polpak.md), a C++ library which computes
 various mathematical functions; test values for many of these functions
 are available in TEST\_VALUES.
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which computes
+[PROB](../../master/prob/prob.md), a C++ library which computes
 various statistical functions; test values for many of these functions
 are available in TEST\_VALUES.
 
@@ -609,7 +609,7 @@ are available in TEST\_VALUES.
 -   **WEIBULL\_CDF\_VALUES** returns some values of the Weibull CDF.
 -   **ZETA\_VALUES** returns some values of the Riemann Zeta function.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

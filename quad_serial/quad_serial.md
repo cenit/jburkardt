@@ -19,57 +19,57 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUAD\_SERIAL** is available in [a C
-version](../../c_src/quad_serial/quad_serial.html) and [a C++
-version](../../cpp_src/quad_serial/quad_serial.html) and [a FORTRAN77
-version](../../f77_src/quad_serial/quad_serial.html) and [a FORTRAN90
-version](../../f_src/quad_serial/quad_serial.html) and [a MATLAB
-version](../../m_src/quad_serial/quad_serial.html) and [a PYTHON
-version](../../py_src/quad_serial/quad_serial.html).
+version](../../c_src/quad_serial/quad_serial.md) and [a C++
+version](../../master/quad_serial/quad_serial.md) and [a FORTRAN77
+version](../../f77_src/quad_serial/quad_serial.md) and [a FORTRAN90
+version](../../f_src/quad_serial/quad_serial.md) and [a MATLAB
+version](../../m_src/quad_serial/quad_serial.md) and [a PYTHON
+version](../../py_src/quad_serial/quad_serial.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FFT\_SERIAL](../../cpp_src/fft_serial/fft_serial.html), a C++ program
+[FFT\_SERIAL](../../master/fft_serial/fft_serial.md), a C++ program
 which demonstrates the computation of a Fast Fourier Transform, and is
 intended as a starting point for developing a parallel version using
 OpenMP.
 
-[FIRE\_SERIAL](../../cpp_src/fire_serial/fire_serial.html), a C++
+[FIRE\_SERIAL](../../master/fire_serial/fire_serial.md), a C++
 program which simulates a forest fire over a rectangular array of trees,
 starting at a single random location. It is intended as a starting point
 for the development of a parallel version.
 
-[HEATED\_PLATE](../../cpp_src/heated_plate/heated_plate.html), a C++
+[HEATED\_PLATE](../../master/heated_plate/heated_plate.md), a C++
 program which solves the steady state heat equation in a 2D rectangular
 region, and is intended as a starting point for implementing an OpenMP
 parallel version.
 
-[MD](../../cpp_src/md/md.html), a C++ program which carries out a
+[MD](../../master/md/md.md), a C++ program which carries out a
 molecular dynamics simulation, and is intended as a starting point for
 implementing an OpenMP parallel version.
 
-[MXM\_SERIAL](../../cpp_src/mxm_serial/mxm_serial.html), a C++ program
+[MXM\_SERIAL](../../master/mxm_serial/mxm_serial.md), a C++ program
 which sets up a matrix multiplication problem A=B\*C, intended as a
 starting point for implementing a parallel version.
 
-[POISSON\_SERIAL](../../cpp_src/poisson_serial/poisson_serial.html), a
+[POISSON\_SERIAL](../../master/poisson_serial/poisson_serial.md), a
 C++ program which computes an approximate solution to the Poisson
 equation in a rectangle, and is intended as the starting point for the
 creation of a parallel version.
 
-[PRIME\_SERIAL](../../cpp_src/prime_serial/prime_serial.html), a C++
+[PRIME\_SERIAL](../../master/prime_serial/prime_serial.md), a C++
 program which counts the number of primes between 1 and N, intended as a
 starting point for the creation of a parallel version.
 
-[QUAD\_OPENMP](../../cpp_src/quad_openmp/quad_openmp.html), a C++
+[QUAD\_OPENMP](../../master/quad_openmp/quad_openmp.md), a C++
 program which applies a quadrature rule to estimate an integral over a
 1D interval, using OpenMP for parallel execution.
 
-[QUAD2D\_SERIAL](../../cpp_src/quad2d_serial/quad2d_serial.html), a C++
+[QUAD2D\_SERIAL](../../master/quad2d_serial/quad2d_serial.md), a C++
 program which approximates an integral over a 2D region using a product
 quadrature rule, and is intended as a starting point for parallelization
 exercises.
 
-[SUBSET\_SUM\_SERIAL](../../cpp_src/subset_sum_serial/subset_sum_serial.html),
+[SUBSET\_SUM\_SERIAL](../../master/subset_sum_serial/subset_sum_serial.md),
 a C++ program which seeks solutions of the subset sum problem, in which
 it is desired to find a subset of a set of integers which has a given
 sum; this version of the program is intended as a starting point for a
@@ -103,7 +103,7 @@ parallel approach.
 
 -   [quad\_serial\_output.txt](quad_serial_output.txt), the output file;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -56,57 +56,57 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **POWER\_RULE** is available in [a C
-version](../../c_src/power_rule/power_rule.html) and [a C++
-version](../../cpp_src/power_rule/power_rule.html) and [a FORTRAN77
-version](../../f77_src/power_rule/power_rule.html) and [a FORTRAN90
-version](../../f_src/power_rule/power_rule.html) and [a MATLAB
-version](../../m_src/power_rule/power_rule.html).
+version](../../c_src/power_rule/power_rule.md) and [a C++
+version](../../master/power_rule/power_rule.md) and [a FORTRAN77
+version](../../f77_src/power_rule/power_rule.md) and [a FORTRAN90
+version](../../f_src/power_rule/power_rule.md) and [a MATLAB
+version](../../m_src/power_rule/power_rule.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CLENSHAW\_CURTIS\_RULE](../../cpp_src/clenshaw_curtis_rule/clenshaw_curtis_rule.html),
+[CLENSHAW\_CURTIS\_RULE](../../master/clenshaw_curtis_rule/clenshaw_curtis_rule.md),
 a C++ program which defines a Clenshaw Curtis quadrature rule.
 
-[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.html), a
+[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.md), a
 FORTRAN90 program which uses some of these test integrals to evaluate
 sets of quadrature points.
 
-[LATTICE\_RULE](../../cpp_src/lattice_rule/lattice_rule.html), a C++
+[LATTICE\_RULE](../../master/lattice_rule/lattice_rule.md), a C++
 library which approximates M-dimensional integrals using lattice rules.
 
-[NINT\_EXACTNESS](../../cpp_src/nint_exactness/nint_exactness.html), a
+[NINT\_EXACTNESS](../../master/nint_exactness/nint_exactness.md), a
 C++ program which can test a quadrature rule for polynomial exactness.
 
-[NINTLIB](../../cpp_src/nintlib/nintlib.html), a C++ library which
+[NINTLIB](../../master/nintlib/nintlib.md), a C++ library which
 numerically estimates integrals in multiple dimensions.
 
-[PATTERSON\_RULE](../../cpp_src/patterson_rule/patterson_rule.html), a
+[PATTERSON\_RULE](../../master/patterson_rule/patterson_rule.md), a
 C++ program which computes a Gauss-Patterson quadrature rule.
 
-[PRODUCT\_RULE](../../cpp_src/product_rule/product_rule.html), a C++
+[PRODUCT\_RULE](../../master/product_rule/product_rule.md), a C++
 program which constructs a product quadrature rule from distinct 1D
 factor rules.
 
-[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.html),
+[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.md),
 a dataset directory which contains sets of files that define quadrature
 rules over various 1D intervals or multidimensional hypercubes.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules on a variety of intervals with different weight
 functions.
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which defines
+[STROUD](../../master/stroud/stroud.md), a C++ library which defines
 quadrature rules for a variety of unusual areas, surfaces and volumes in
 2D, 3D and N-dimensions.
 
-[TEST\_NINT](../../cpp_src/test_nint/test_nint.html), a C++ library
+[TEST\_NINT](../../master/test_nint/test_nint.md), a C++ library
 which defines integrand functions for testing multidimensional
 quadrature routines.
 
-[TESTPACK](../../cpp_src/testpack/testpack.html), a C++ library which
+[TESTPACK](../../master/testpack/testpack.md), a C++ library which
 defines a set of integrands used to test multidimensional quadrature.
 
-[TRUNCATED\_NORMAL\_RULE](../../cpp_src/truncated_normal_rule/truncated_normal_rule.html),
+[TRUNCATED\_NORMAL\_RULE](../../master/truncated_normal_rule/truncated_normal_rule.md),
 a C++ program which computes a quadrature rule for a normal probability
 density function (PDF), also called a Gaussian distribution, that has
 been truncated to \[A,+oo), (-oo,B\] or \[A,B\].
@@ -171,7 +171,7 @@ The files which are created include:
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TUPLE\_NEXT** computes the next element of a tuple space.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

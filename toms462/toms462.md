@@ -11,7 +11,7 @@ Y.
 
 While the text of many ACM TOMS algorithms is available online through
 ACM: [http://www.acm.org/pubs/calgo](http://www.acm.org/pubs/calgo/) or
-NETLIB: <http://www.netlib.org/toms/index.html>, most of the early
+NETLIB: <http://www.netlib.org/toms/index.md>, most of the early
 algorithms are not available. This is one of them. I typed it in.
 
 ### Usage: {#usage align="center"}
@@ -30,21 +30,21 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS462** is available in [a C
-version](../../c_src/toms462/toms462.html) and [a C++
-version](../../cpp_src/toms462/toms462.html) and [a FORTRAN77
-version](../../f77_src/toms462/toms462.html) and [a FORTRAN90
-version](../../f_src/toms462/toms462.html) and [a MATLAB
-version](../../m_src/toms462/toms462.html).
+version](../../c_src/toms462/toms462.md) and [a C++
+version](../../master/toms462/toms462.md) and [a FORTRAN77
+version](../../f77_src/toms462/toms462.md) and [a FORTRAN90
+version](../../f_src/toms462/toms462.md) and [a MATLAB
+version](../../m_src/toms462/toms462.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[OWENS](../../cpp_src/owens/owens.html), a C++ library which evaluates
+[OWENS](../../master/owens/owens.md), a C++ library which evaluates
 Owen's T function.
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which contains a
+[PROB](../../master/prob/prob.md), a C++ library which contains a
 number of routines for evaluating cumulative distribution functions.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which supplies test values of various mathematical functions.
 
 ### Reference: {#reference align="center"}
@@ -80,7 +80,7 @@ library which supplies test values of various mathematical functions.
 -   **R8\_MIN** returns the minimum of two R8's.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -49,35 +49,35 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **C++\_CALLS\_F77** is available in [a C
-version](../../c_src/c_calls_f77/c_calls_f77.html) and [a C++
-version](../../cpp_src/c++_calls_f77/c++_calls_f77.html) and [a MATLAB
-version](../../m_src/matlab_calls_f77/matlab_calls_f77.html).
+version](../../c_src/c_calls_f77/c_calls_f77.md) and [a C++
+version](../../master/c++_calls_f77/c++_calls_f77.md) and [a MATLAB
+version](../../m_src/matlab_calls_f77/matlab_calls_f77.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[C\_CALLS\_F77](../../c_src/c_calls_f77/c_calls_f77.html), C programs
+[C\_CALLS\_F77](../../c_src/c_calls_f77/c_calls_f77.md), C programs
 which illustrate a C program calling a FORTRAN77 subroutine.
 
-[C++\_CALLS\_C](../../cpp_src/c++_calls_c/c++_calls_c.html), C++
+[C++\_CALLS\_C](../../master/c++_calls_c/c++_calls_c.md), C++
 programs which call a C function.
 
-[C++\_CALLS\_F90](../../cpp_src/c++_calls_f90/c++_calls_f90.html), C++
+[C++\_CALLS\_F90](../../master/c++_calls_f90/c++_calls_f90.md), C++
 programs which illustrate how a C++ main program can call a FORTRAN90
 subroutine.
 
-[F77\_CALLS\_C++](../../f77_src/f77_calls_c++/f77_calls_c++.html),
+[F77\_CALLS\_C++](../../f77_src/f77_calls_c++/f77_calls_c++.md),
 FORTRAN77 programs which illustrate how a FORTRAN77 program can call a
 C++ function.
 
-[KRONROD](../../cpp_src/kronrod/kronrod.html), a C++ library which can
+[KRONROD](../../master/kronrod/kronrod.md), a C++ library which can
 compute a Gauss and Gauss-Kronrod pair of quadrature rules of arbitrary
 order, by Robert Piessens, Maria Branders.
 
-[KRONROD](../../f77_src/kronrod/kronrod.html), a FORTRAN77 library which
+[KRONROD](../../f77_src/kronrod/kronrod.md), a FORTRAN77 library which
 can compute a Gauss and Gauss-Kronrod pair of quadrature rules of
 arbitrary order, by Robert Piessens, Maria Branders.
 
-[MIXED](../../cpp_src/mixed/mixed.html) C++ programs which call a
+[MIXED](../../master/mixed/mixed.md) C++ programs which call a
 function written in another programming language.
 
 ### Reference: {#reference align="center"}
@@ -105,7 +105,7 @@ the fact that we are calling a FORTRAN77 subroutine.
 
 -   [kronrod\_prb\_output.txt](kronrod_prb_output.txt), the output file;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

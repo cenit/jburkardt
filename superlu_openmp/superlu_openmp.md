@@ -64,43 +64,43 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ### Languages: {#languages align="center"}
 
 **SUPERLU\_OPENMP** is available in [a C
-version](../../c_src/superlu_openmp/superlu_openmp.html) and [a C++
-version](../../cpp_src/superlu_openmp/superlu_openmp.html) and [a
-FORTRAN77 version](../../f77_src/superlu_openmp/superlu_openmp.html) and
-[a FORTRAN90 version](../../f_src/superlu_openmp/superlu_openmp.html).
+version](../../c_src/superlu_openmp/superlu_openmp.md) and [a C++
+version](../../master/superlu_openmp/superlu_openmp.md) and [a
+FORTRAN77 version](../../f77_src/superlu_openmp/superlu_openmp.md) and
+[a FORTRAN90 version](../../f_src/superlu_openmp/superlu_openmp.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[HB](../../data/hb/hb.html), a data directory which contains examples of
+[HB](../../data/hb/hb.md), a data directory which contains examples of
 Harwell Boeing (HB) files, a sparse matrix file format;
 
-[HB\_IO](../../cpp_src/hb_io/hb_io.html), a C++ library which reads and
+[HB\_IO](../../master/hb_io/hb_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Harwell Boeing (HB) format
 for sparse matrices.
 
-[MGMRES](../../cpp_src/mgmres/mgmres.html), a C++ library which applies
+[MGMRES](../../master/mgmres/mgmres.md), a C++ library which applies
 the restarted GMRES algorithm to solve a sparse linear system, by Lili
 Ju.
 
-[OPENMP](../../cpp_src/openmp/openmp.html), C++ programs which
+[OPENMP](../../master/openmp/openmp.md), C++ programs which
 illustrate the use of the OpenMP application program interface for
 carrying out parallel computations in a shared memory environment.
 
-[OPENMP\_RCC](../../cpp_src/openmp_rcc/openmp_rcc.html), C++ programs
+[OPENMP\_RCC](../../master/openmp_rcc/openmp_rcc.md), C++ programs
 which illustrate how a C program, using OpenMP, can be compiled and run
 in batch mode on the FSU High Performance Computing (HPC) cluster
 operated by the Research Computing Center (RCC).
 
-[SPARSE\_CC](../../data/sparse_cc/sparse_cc.html), a data directory
+[SPARSE\_CC](../../data/sparse_cc/sparse_cc.md), a data directory
 which contains a description and examples of the CC format, ("compressed
 column") for storing a sparse matrix, including a way to write the
 matrix as a set of three files.
 
-[SUPER\_BLAS](../../cpp_src/super_blas/super_blas.html), a C++ library
+[SUPER\_BLAS](../../master/super_blas/super_blas.md), a C++ library
 which implements some of the Basic Linear Algebra Subprograms for fast
 execution.
 
-[SUPERLU](../../cpp_src/superlu/superlu.html), C++ programs which
+[SUPERLU](../../master/superlu/superlu.md), C++ programs which
 illustrate how to use the SUPERLU library, which applies a fast direct
 solution method to solve sparse linear systems, by James Demmel, John
 Gilbert, and Xiaoye Li.
@@ -150,7 +150,7 @@ arithmetic is used.
 -   [pslinsol\_4\_output.txt](pslinsol_4_output.txt), the sample output
     using 4 processors.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

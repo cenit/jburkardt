@@ -10,16 +10,16 @@ from a set of size N.
 ### Languages: {#languages align="center"}
 
 **TOMS515** is available in [a C
-version](../../c_src/toms515/toms515.html) and [a C++
-version](../../cpp_src/toms515/toms515.html) and [a FORTRAN77
-version](../../f77_src/toms515/toms515.html) and [a FORTRAN90
-version](../../f_src/toms515/toms515.html) and [a MATLAB
-version](../../m_src/toms515/toms515.html) and [a Python
-version](../../py_src/toms515/toms515.html).
+version](../../c_src/toms515/toms515.md) and [a C++
+version](../../master/toms515/toms515.md) and [a FORTRAN77
+version](../../f77_src/toms515/toms515.md) and [a FORTRAN90
+version](../../f_src/toms515/toms515.md) and [a MATLAB
+version](../../m_src/toms515/toms515.md) and [a Python
+version](../../py_src/toms515/toms515.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which
+[SUBSET](../../master/subset/subset.md), a C++ library which
 enumerates combinations, partitions, subsets, index sets, and other
 combinatorial objects.
 
@@ -53,7 +53,7 @@ combinatorial objects.
 -   **R8\_GAMMA\_LOG** evaluates the logarithm of the gamma function.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -38,49 +38,49 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **NEIGHBORS\_TO\_METIS\_GRAPH** is available in [a C++
-version](../../cpp_src/neighbors_to_metis_graph/neighbors_to_metis_graph.html)
+version](../../master/neighbors_to_metis_graph/neighbors_to_metis_graph.md)
 and [a FORTRAN90
-version](../../f_src/neighbors_to_metis_graph/neighbors_to_metis_graph.html)
+version](../../f_src/neighbors_to_metis_graph/neighbors_to_metis_graph.md)
 and [a MATLAB
-version](../../m_src/neighbors_to_metis_graph/neighbors_to_metis_graph.html).
+version](../../m_src/neighbors_to_metis_graph/neighbors_to_metis_graph.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[GRAPHCHK](../../c_src/graphchk/graphchk.html), a C program, using the
+[GRAPHCHK](../../c_src/graphchk/graphchk.md), a C program, using the
 METIS library, which can check that a METIS graph file has the proper
 format;
 
-[KMETIS](../../c_src/kmetis/kmetis.html), a C program which uses the
-[METIS](metis/metis.html) library to partition the nodes of a graph in a
+[KMETIS](../../c_src/kmetis/kmetis.md), a C program which uses the
+[METIS](metis/metis.md) library to partition the nodes of a graph in a
 balanced way, useful for parallel processing;
 
-[METIS](../../c_src/metis/metis.html), a C library which partitions the
+[METIS](../../c_src/metis/metis.md), a C library which partitions the
 nodes of a graph or the elements of a mesh, for division among a number
 of parallel processes, or to reorder the variables in a sparse matrix to
 minimize fillin;
 
-[METIS\_GRAPH](../../data/metis_graph/metis_graph.html), a data
+[METIS\_GRAPH](../../data/metis_graph/metis_graph.md), a data
 directory of examples of METIS GRAPH files, the format for graphs to be
-read by [METIS](../../data/../../c_src/metis/metis.html), which can
+read by [METIS](../../data/../../c_src/metis/metis.md), which can
 partition a graph;
 
-[OEMETIS](../../c_src/oemetis/oemetis.html), a C program which uses the
-[METIS](metis/metis.html) library to reorder the variables in a sparse
+[OEMETIS](../../c_src/oemetis/oemetis.md), a C program which uses the
+[METIS](metis/metis.md) library to reorder the variables in a sparse
 matrix.
 
-[ONMETIS](../../c_src/onmetis/onmetis.html), a C program, using the
-[METIS](metis/metis.html) library, which can reorder the variables in a
+[ONMETIS](../../c_src/onmetis/onmetis.md), a C program, using the
+[METIS](metis/metis.md) library, which can reorder the variables in a
 sparse matrix.
 
-[PMETIS](../../c_src/pmetis/pmetis.html), a C program which uses the
+[PMETIS](../../c_src/pmetis/pmetis.md), a C program which uses the
 METIS library to partition the nodes of a graph in a balanced way,
 useful for parallel processing;
 
-[TET\_MESH\_TET\_NEIGHBORS](../../cpp_src/tet_mesh_tet_neighbors/tet_mesh_tet_neighbors.html),
+[TET\_MESH\_TET\_NEIGHBORS](../../master/tet_mesh_tet_neighbors/tet_mesh_tet_neighbors.md),
 a C++ program which reads information about a tet mesh and writes out a
 list of the tetrahedrons that are adjacent to a given tetrahedron;
 
-[TRIANGULATION\_TRIANGLE\_NEIGHBORS](../../cpp_src/triangulation_triangle_neighbors/triangulation_triangle_neighbors.html),
+[TRIANGULATION\_TRIANGLE\_NEIGHBORS](../../master/triangulation_triangle_neighbors/triangulation_triangle_neighbors.md),
 a C++ program which reads data defining a triangulation, determines the
 neighboring triangles of each triangle, and writes that information to a
 file.
@@ -139,7 +139,7 @@ file.
     ascending order.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

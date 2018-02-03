@@ -36,15 +36,15 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_STOKES\_CHANNEL** is available in [a C++
-version](../../cpp_src/fem2d_stokes_channel/fem2d_stokes_channel.html)
+version](../../master/fem2d_stokes_channel/fem2d_stokes_channel.md)
 and [a FORTRAN90
-version](../../f_src/fem2d_stokes_channel/fem2d_stokes_channel.html) and
+version](../../f_src/fem2d_stokes_channel/fem2d_stokes_channel.md) and
 [a MATLAB
-version](../../m_src/fem2d_stokes_channel/fem2d_stokes_channel.html).
+version](../../m_src/fem2d_stokes_channel/fem2d_stokes_channel.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D\_STOKES](../../cpp_src/fem2d_stokes/fem2d_stokes.html), a C++
+[FEM2D\_STOKES](../../master/fem2d_stokes/fem2d_stokes.md), a C++
 program which applies the finite element method to a Stokes flow
 problem, given user input data.
 
@@ -64,16 +64,16 @@ used in the order 6 triangulation.
 
 -   [nodes3.txt](nodes3.txt), a text file containing the pressure nodes;
 -   [nodes3.png](nodes3.png), a PNG image of the pressure nodes, created
-    by [PLOT\_POINTS](../../f_src/plot_points/plot_points.html);
+    by [PLOT\_POINTS](../../f_src/plot_points/plot_points.md);
 -   [triangles3.txt](triangles3.txt), the linear triangulation;
 -   [triangles3.png](triangles3.png), a PNG image of the linear
     triangulation produced by
-    [TRIANGULATION\_PLOT](../../cpp_src/triangulation_plot/triangulation_plot.html).
+    [TRIANGULATION\_PLOT](../../master/triangulation_plot/triangulation_plot.md).
 -   [pressure3.txt](pressure3.txt), a text file containing the pressure
     P at each linear node;
 -   [pressure3.png](pressure3.png), a PNG image of a contour plot of the
     pressure, produced by
-    [TRIANGULATION\_ORDER3\_CONTOUR](../../m_src/triangulation_order3_contour/triangulation_order3_contour.html).
+    [TRIANGULATION\_ORDER3\_CONTOUR](../../m_src/triangulation_order3_contour/triangulation_order3_contour.md).
 
 The velocities are associated with the full set of nodes, and with an
 order 6 triangulation of those nodes.
@@ -89,13 +89,13 @@ order 6 triangulation of those nodes.
     (U,V) at each velocity node;
 -   [velocity6\_dir.png](velocity6_dir.png), a PNG image of the
     direction field, created by
-    [VECTOR\_PLOT.](../../f_src/vector_plot/vector_plot.html)
+    [VECTOR\_PLOT.](../../f_src/vector_plot/vector_plot.md)
 -   [velocity6\_vec.png](velocity6_vec.png), a PNG image of the velocity
     field, created by
-    [VECTOR\_PLOT.](../../f_src/vector_plot/vector_plot.html)
+    [VECTOR\_PLOT.](../../f_src/vector_plot/vector_plot.md)
 -   [velocity6\_arrows.png](velocity6_arrows.png), a PNG image of the
     velocity field, created by
-    [VELOCITY\_ARROWS.](../../m_src/velocity_arrows/velocity_arrows.html)
+    [VELOCITY\_ARROWS.](../../m_src/velocity_arrows/velocity_arrows.md)
 
 ------------------------------------------------------------------------
 

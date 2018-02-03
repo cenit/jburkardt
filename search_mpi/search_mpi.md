@@ -24,62 +24,62 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SEARCH\_MPI** is available in [a C
-version](../../c_src/search_mpi/search_mpi.html) and [a C++
-version](../../cpp_src/search_mpi/search_mpi.html) and [a FORTRAN77
-version](../../f77_src/search_mpi/search_mpi.html) and [a FORTRAN90
-version](../../f_src/search_mpi/search_mpi.html) and [a PYTHON
-version](../../py_src/search_mpi/search_mpi.html).
+version](../../c_src/search_mpi/search_mpi.md) and [a C++
+version](../../master/search_mpi/search_mpi.md) and [a FORTRAN77
+version](../../f77_src/search_mpi/search_mpi.md) and [a FORTRAN90
+version](../../f_src/search_mpi/search_mpi.md) and [a PYTHON
+version](../../py_src/search_mpi/search_mpi.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[COMMUNICATOR\_MPI](../../c_src/communicator_mpi/communicator_mpi.html),
+[COMMUNICATOR\_MPI](../../c_src/communicator_mpi/communicator_mpi.md),
 a C program which creates new communicators involving a subset of
 initial set of MPI processes in the default communicator
 MPI\_COMM\_WORLD.
 
-[HEAT\_MPI](../../c_src/heat_mpi/heat_mpi.html), a C program which
+[HEAT\_MPI](../../c_src/heat_mpi/heat_mpi.md), a C program which
 solves the 1D Time Dependent Heat Equation using MPI.
 
-[HELLO\_MPI](../../c_src/hello_mpi/hello_mpi.html), a C program which
+[HELLO\_MPI](../../c_src/hello_mpi/hello_mpi.md), a C program which
 prints out "Hello, world!" using the MPI parallel programming
 environment.
 
-[MPI](../../c_src/mpi/mpi.html), C programs which illustrate the use of
+[MPI](../../c_src/mpi/mpi.md), C programs which illustrate the use of
 the MPI application program interface for carrying out parallel
 computatioins in a distributed memory environment.
 
-[MULTITASK\_MPI](../../c_src/multitask_mpi/multitask_mpi.html), a C
+[MULTITASK\_MPI](../../c_src/multitask_mpi/multitask_mpi.md), a C
 program which demonstrates how to multitask, that is, to execute several
 unrelated and distinct tasks simultaneously, using MPI for parallel
 execution.
 
-[PRIME\_MPI](../../c_src/prime_mpi/prime_mpi.html), a C program which
+[PRIME\_MPI](../../c_src/prime_mpi/prime_mpi.md), a C program which
 counts the number of primes between 1 and N, using MPI for parallel
 execution.
 
-[QUAD\_MPI](../../c_src/quad_mpi/quad_mpi.html), a C program which
+[QUAD\_MPI](../../c_src/quad_mpi/quad_mpi.md), a C program which
 approximates an integral using a quadrature rule, and carries out the
 computation in parallel using MPI.
 
-[RANDOM\_MPI](../../c_src/random_mpi/random_mpi.html), a C program which
+[RANDOM\_MPI](../../c_src/random_mpi/random_mpi.md), a C program which
 demonstrates one way to generate the same sequence of random numbers for
 both sequential execution and parallel execution under MPI.
 
-[RING\_MPI](../../c_src/ring_mpi/ring_mpi.html), a C program which uses
+[RING\_MPI](../../c_src/ring_mpi/ring_mpi.md), a C program which uses
 the MPI parallel programming environment, and measures the time
 necessary to copy a set of data around a ring of processes.
 
-[SATISFY\_MPI](../../c_src/satisfy_mpi/satisfy_mpi.html), a C program
+[SATISFY\_MPI](../../c_src/satisfy_mpi/satisfy_mpi.md), a C program
 which demonstrates, for a particular circuit, an exhaustive search for
 solutions of the circuit satisfiability problem, using MPI to carry out
 the calculation in parallel.
 
-[SEARCH\_SERIAL](../../c_src/search_serial/search_serial.html), a C
+[SEARCH\_SERIAL](../../c_src/search_serial/search_serial.md), a C
 program which searches integers between A and B for a value J such that
 F(J) = C, intended as a starting point for the creation of a parallel
 version.
 
-[WAVE\_MPI](../../cpp_src/wave_mpi/wave_mpi.html), a C++ program which
+[WAVE\_MPI](../../master/wave_mpi/wave_mpi.md), a C++ program which
 uses finite differences and MPI to estimate a solution to the wave
 equation.
 
@@ -151,7 +151,7 @@ equation.
 -   [search\_local\_output.txt](search_local_output.txt), the output
     file.
 
-You can go up one level to [the C source codes](../c_src.html).
+You can go up one level to [the C source codes](../c_src.md).
 
 ------------------------------------------------------------------------
 

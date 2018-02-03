@@ -59,32 +59,32 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUALITY** is available in [a C++
-version](../../cpp_src/quality/quality.html) and [a FORTRAN90
-version](../../f_src/quality/quality.html) and [a MATLAB
-version](../../m_src/quality/quality.html).
+version](../../master/quality/quality.md) and [a FORTRAN90
+version](../../f_src/quality/quality.md) and [a MATLAB
+version](../../m_src/quality/quality.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[DIAPHONY](../../f_src/diaphony/diaphony.html), a FORTRAN90 program
+[DIAPHONY](../../f_src/diaphony/diaphony.md), a FORTRAN90 program
 which reads a file of N points in M dimensions and computes its
 diaphony, a measure of point dispersion.
 
-[STAR\_DISCREPANCY](../../cpp_src/star_discrepancy/star_discrepancy.html),
+[STAR\_DISCREPANCY](../../master/star_discrepancy/star_discrepancy.md),
 a C++ program which reads a TABLE file of N points in M dimensions
 (presumed to lie in the unit hypercube) and computes bounds on the star
 discrepancy, a measure of dispersion, by Eric Thiemard.
 
-[TABLE\_QUALITY](../../cpp_src/table_quality/table_quality.html), a C++
+[TABLE\_QUALITY](../../master/table_quality/table_quality.md), a C++
 program which analyzes the point spacing quality of data stored in a
 file.
 
-[TET\_MESH](../../cpp_src/tet_mesh/tet_mesh.html), a C++ library which
+[TET\_MESH](../../master/tet_mesh/tet_mesh.md), a C++ library which
 includes some quality measures for tetrahedral meshes.
 
-[TET\_MESH\_QUALITY](../../cpp_src/tet_mesh_quality/tet_mesh_quality.html),
+[TET\_MESH\_QUALITY](../../master/tet_mesh_quality/tet_mesh_quality.md),
 a C++ program which computes quality measures of a tetrahedral mesh.
 
-[TRIANGULATION\_QUALITY](../../cpp_src/triangulation_quality/triangulation_quality.html),
+[TRIANGULATION\_QUALITY](../../master/triangulation_quality/triangulation_quality.md),
 a C++ program which computes quality measures of a triangulation.
 
 ### Reference: {#reference align="center"}
@@ -209,7 +209,7 @@ a C++ program which computes quality measures of a triangulation.
 -   **TIMESTRING** returns the current YMDHMS date as a string.
 -   **VBEDG** determines which boundary edges are visible to a point.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

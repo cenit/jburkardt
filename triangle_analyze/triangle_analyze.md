@@ -24,25 +24,25 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGLE\_ANALYZE** is available in [a C
-version](../../c_src/triangle_analyze/triangle_analyze.html) and [a C++
-version](../../cpp_src/triangle_analyze/triangle_analyze.html) and [a
-FORTRAN90 version](../../f_src/triangle_analyze/triangle_analyze.html)
+version](../../c_src/triangle_analyze/triangle_analyze.md) and [a C++
+version](../../master/triangle_analyze/triangle_analyze.md) and [a
+FORTRAN90 version](../../f_src/triangle_analyze/triangle_analyze.md)
 and [a MATLAB
-version](../../m_src/triangle_analyze/triangle_analyze.html).
+version](../../m_src/triangle_analyze/triangle_analyze.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GEOMETRY](../../cpp_src/geometry/geometry.html), a C++ library which
+[GEOMETRY](../../master/geometry/geometry.md), a C++ library which
 performs geometric calculations in 2, 3 and N dimensional space.
 
-[TRIANGLE\_INTERPOLATE](../../cpp_src/triangle_interpolate/triangle_interpolate.html),
+[TRIANGLE\_INTERPOLATE](../../master/triangle_interpolate/triangle_interpolate.md),
 a C++ library which shows how vertex data can be interpolated at any
 point in the interior of a triangle.
 
-[TRIANGLE\_PROPERTIES](../../cpp_src/triangle_properties/triangle_properties.html),
+[TRIANGLE\_PROPERTIES](../../master/triangle_properties/triangle_properties.md),
 a C++ program which computes properties of triangles.
 
-[TRIANGLES](../../datasets/triangles/triangles.html), a dataset
+[TRIANGLES](../../datasets/triangles/triangles.md), a dataset
 directory which contains examples of triangles;
 
 ### Source Code: {#source-code align="center"}
@@ -154,7 +154,7 @@ directory which contains examples of triangles;
     in 2D.
 -   **TRIANGLE\_QUALITY\_2D:** "quality" of a triangle in 2D.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

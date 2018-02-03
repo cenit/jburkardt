@@ -33,43 +33,43 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUAD\_MESH** is available in [a C++
-version](../../cpp_src/quad_mesh/quad_mesh.html) and [a FORTRAN90
-version](../../f_src/quad_mesh/quad_mesh.html) and [a MATLAB
-version](../../m_src/quad_mesh/quad_mesh.html).
+version](../../master/quad_mesh/quad_mesh.md) and [a FORTRAN90
+version](../../f_src/quad_mesh/quad_mesh.md) and [a MATLAB
+version](../../m_src/quad_mesh/quad_mesh.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D](../../data/fem2d/fem2d.html), a data directory which contains a
+[FEM2D](../../data/fem2d/fem2d.md), a data directory which contains a
 description and examples of files that describe a 2D finite element
 model.
 
-[FEM\_IO](../../cpp_src/fem_io/fem_io.html), a C++ library which reads
+[FEM\_IO](../../master/fem_io/fem_io.md), a C++ library which reads
 or writes node, element and data files defining a finite element model.
 
-[FEM2D\_PACK](../../cpp_src/fem2d_pack/fem2d_pack.html), a C++ library
+[FEM2D\_PACK](../../master/fem2d_pack/fem2d_pack.md), a C++ library
 which handles various tasks associated with finite element meshes.
 
-[MESH\_BANDWIDTH](../../cpp_src/mesh_bandwidth/mesh_bandwidth.html), a
+[MESH\_BANDWIDTH](../../master/mesh_bandwidth/mesh_bandwidth.md), a
 C++ program which returns the geometric bandwidth associated with a mesh
 of elements of any order and in a space of arbitrary dimension.
 
-[MESH\_DISPLAY](../../m_src/mesh_display/mesh_display.html), a MATLAB
+[MESH\_DISPLAY](../../m_src/mesh_display/mesh_display.md), a MATLAB
 program which reads data defining a polygonal mesh and displays it, with
 optional numbering.
 
-[MESH\_DISPLAY\_OPENGL](../../cpp_src/mesh_display_opengl/mesh_display_opengl.html),
+[MESH\_DISPLAY\_OPENGL](../../master/mesh_display_opengl/mesh_display_opengl.md),
 a C++ program which reads files defining a polygonal mesh and displays
 an image using OpenGL.
 
-[QUAD\_MESH](../../data/quad_mesh/quad_mesh.html), a data directory
+[QUAD\_MESH](../../data/quad_mesh/quad_mesh.md), a data directory
 which defines a format for storing meshes of quadrilaterals over a 2D
 region.
 
-[QUAD\_MESH\_RCM](../../cpp_src/quad_mesh_rcm/quad_mesh_rcm.html), a C++
+[QUAD\_MESH\_RCM](../../master/quad_mesh_rcm/quad_mesh_rcm.md), a C++
 program which computes the reverse Cuthill-McKee (RCM) reordering for
 nodes in a mesh of 4-node quadrilaterals.
 
-[TRIANGULATION](../../cpp_src/triangulation/triangulation.html), a C++
+[TRIANGULATION](../../master/triangulation/triangulation.md), a C++
 library which carries out operations involving meshes of triangular
 elements.
 
@@ -220,7 +220,7 @@ sampled.
 -   **TRIANGLE\_AREA** computes the area of a triangle in 2D.
 -   **TRIANGLE\_SAMPLE** returns random points in a triangle.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

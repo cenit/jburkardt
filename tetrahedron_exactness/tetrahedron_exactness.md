@@ -72,72 +72,72 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TETRAHEDRON\_EXACTNESS** is available in [a C
-version](../../c_src/tetrahedron_exactness/tetrahedron_exactness.html)
+version](../../c_src/tetrahedron_exactness/tetrahedron_exactness.md)
 and [a C++
-version](../../cpp_src/tetrahedron_exactness/tetrahedron_exactness.html)
+version](../../master/tetrahedron_exactness/tetrahedron_exactness.md)
 and [a FORTRAN77
-version](../../f77_src/tetrahedron_exactness/tetrahedron_exactness.html)
+version](../../f77_src/tetrahedron_exactness/tetrahedron_exactness.md)
 and [a FORTRAN90
-version](../../f_src/tetrahedron_exactness/tetrahedron_exactness.html)
+version](../../f_src/tetrahedron_exactness/tetrahedron_exactness.md)
 and [a MATLAB
-version](../../m_src/tetrahedron_exactness/tetrahedron_exactness.html).
+version](../../m_src/tetrahedron_exactness/tetrahedron_exactness.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CUBE\_EXACTNESS](../../cpp_src/cube_exactness/cube_exactness.html), a
+[CUBE\_EXACTNESS](../../master/cube_exactness/cube_exactness.md), a
 C++ library which investigates the polynomial exactness of quadrature
 rules over the interior of a cube in 3D.
 
-[HYPERCUBE\_EXACTNESS](../../cpp_src/hypercube_exactness/hypercube_exactness.html),
+[HYPERCUBE\_EXACTNESS](../../master/hypercube_exactness/hypercube_exactness.md),
 a C++ program which measures the monomial exactness of an M-dimensional
 quadrature rule over the interior of the unit hypercube in M dimensions.
 
-[PYRAMID\_EXACTNESS](../../cpp_src/pyramid_exactness/pyramid_exactness.html),
+[PYRAMID\_EXACTNESS](../../master/pyramid_exactness/pyramid_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of the unit pyramid in 3D.
 
-[SPHERE\_EXACTNESS](../../cpp_src/sphere_exactness/sphere_exactness.html),
+[SPHERE\_EXACTNESS](../../master/sphere_exactness/sphere_exactness.md),
 a C++ program which tests the monomial exactness of a quadrature rule on
 the surface of the unit sphere in 3D.
 
-[SQUARE\_EXACTNESS](../../cpp_src/square_exactness/square_exactness.html),
+[SQUARE\_EXACTNESS](../../master/square_exactness/square_exactness.md),
 a C++ library which investigates the polynomial exactness of quadrature
 rules for f(x,y) over the interior of a rectangle in 2D.
 
-[TETRAHEDRON\_ARBQ\_RULE](../../cpp_src/tetrahedron_arbq_rule/tetrahedron_arbq_rule.html),
+[TETRAHEDRON\_ARBQ\_RULE](../../master/tetrahedron_arbq_rule/tetrahedron_arbq_rule.md),
 a C++ library which returns quadrature rules, with exactness up to total
 degree 15, over the interior of a tetrahedron in 3D, by Hong Xiao and
 Zydrunas Gimbutas.
 
-[TETRAHEDRON\_FELIPPA\_RULE](../../cpp_src/tetrahedron_felippa_rule/tetrahedron_felippa_rule.html),
+[TETRAHEDRON\_FELIPPA\_RULE](../../master/tetrahedron_felippa_rule/tetrahedron_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a tetrahedron in 3D.
 
-[TETRAHEDRON\_INTEGRALS](../../cpp_src/tetrahedron_integrals/tetrahedron_integrals.html),
+[TETRAHEDRON\_INTEGRALS](../../master/tetrahedron_integrals/tetrahedron_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit tetrahedron in 3D.
 
-[TETRAHEDRON\_KEAST\_RULE](../../cpp_src/tetrahedron_keast_rule/tetrahedron_keast_rule.html),
+[TETRAHEDRON\_KEAST\_RULE](../../master/tetrahedron_keast_rule/tetrahedron_keast_rule.md),
 a C++ library which defines ten quadrature rules, with exactness degrees
 0 through 8, over the interior of a tetrahedron in 3D.
 
-[TETRAHEDRON\_MONTE\_CARLO](../../cpp_src/tetrahedron_monte_carlo/tetrahedron_monte_carlo.html),
+[TETRAHEDRON\_MONTE\_CARLO](../../master/tetrahedron_monte_carlo/tetrahedron_monte_carlo.md),
 a C++ program which uses the Monte Carlo method to estimate integrals
 over the interior of a tetrahedron in 3D.
 
-[TETRAHEDRON\_NCC\_RULE](../../cpp_src/tetrahedron_ncc_rule/tetrahedron_ncc_rule.html),
+[TETRAHEDRON\_NCC\_RULE](../../master/tetrahedron_ncc_rule/tetrahedron_ncc_rule.md),
 a C++ library which defines Newton-Cotes Closed (NCC) quadrature rules
 over the interior of a tetrahedron in 3D.
 
-[TETRAHEDRON\_NCO\_RULE](../../cpp_src/tetrahedron_nco_rule/tetrahedron_nco_rule.html),
+[TETRAHEDRON\_NCO\_RULE](../../master/tetrahedron_nco_rule/tetrahedron_nco_rule.md),
 a C++ library which defines Newton-Cotes Open (NCO) quadrature rules
 over the interior of a tetrahedron in 3D.
 
-[TRIANGLE\_EXACTNESS](../../cpp_src/triangle_exactness/triangle_exactness.html),
+[TRIANGLE\_EXACTNESS](../../master/triangle_exactness/triangle_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of a triangle in 2D.
 
-[WEDGE\_EXACTNESS](../../cpp_src/wedge_exactness/wedge_exactness.html),
+[WEDGE\_EXACTNESS](../../master/wedge_exactness/wedge_exactness.md),
 a C++ program which investigates the monomial exactness of a quadrature
 rule over the interior of the unit wedge in 3D.
 
@@ -216,7 +216,7 @@ may be found in the **QUADRATURE\_RULES\_TET** directory.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TIMESTRING** writes the current YMDHMS date into a string.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

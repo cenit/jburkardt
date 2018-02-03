@@ -15,26 +15,26 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BESSELJ** is available in [a C
-version](../../c_src/besselj/besselj.html) and [a C++
-version](../../cpp_src/besselj/besselj.html) and [a FORTRAN90
-version](../../f_src/besselj/besselj.html) and [a MATLAB
-version](../../m_src/besselj/besselj.html) and [a Python
-version](../../py_src/besselj/besselj.html).
+version](../../c_src/besselj/besselj.md) and [a C++
+version](../../master/besselj/besselj.md) and [a FORTRAN90
+version](../../f_src/besselj/besselj.md) and [a MATLAB
+version](../../m_src/besselj/besselj.md) and [a Python
+version](../../py_src/besselj/besselj.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FN](../../cpp_src/fn/fn.html), a C++ library which approximates
+[FN](../../master/fn/fn.md), a C++ library which approximates
 elementary and special functions using Chebyshev polynomials; functions
 include Airy, Bessel I, J, K and Y, beta, confluent hypergeometric,
 error, gamma, log gamma, Pochhammer, Spence; integrals include
 hyperbolic cosine, cosine, Dawson, exponential, logarithmic, hyperbolic
 sine, sine; by Wayne Fullerton.
 
-[POLPAK](../../cpp_src/polpak/polpak.html), a C++ library which
+[POLPAK](../../master/polpak/polpak.md), a C++ library which
 evaluates certain mathematical functions, especially some recursive
 polynomial families.
 
-[TEST\_VALUES](%20../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](%20../../master/test_values/test_values.md), a C++
 library which stores values of many mathematical functions, and can be
 used for testing.
 
@@ -68,7 +68,7 @@ used for testing.
 -   **RJBESL** evaluates a sequence of Bessel J functions.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

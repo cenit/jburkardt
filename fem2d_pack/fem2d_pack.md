@@ -22,33 +22,33 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_PACK** is available in [a C
-version](../../c_src/fem2d_pack/fem2d_pack.html) and [a C++
-version](../../cpp_src/fem2d_pack/fem2d_pack.html) and [a FORTRAN77
-version](../../f77_src/fem2d_pack/fem2d_pack.html) and [a FORTRAN90
-version](../../f_src/fem2d_pack/fem2d_pack.html) and [a MATLAB
-version](../../m_src/fem2d_pack/fem2d_pack.html).
+version](../../c_src/fem2d_pack/fem2d_pack.md) and [a C++
+version](../../master/fem2d_pack/fem2d_pack.md) and [a FORTRAN77
+version](../../f77_src/fem2d_pack/fem2d_pack.md) and [a FORTRAN90
+version](../../f_src/fem2d_pack/fem2d_pack.md) and [a MATLAB
+version](../../m_src/fem2d_pack/fem2d_pack.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM1D\_PACK](../../cpp_src/fem1d_pack/fem1d_pack.html), a C++ library
+[FEM1D\_PACK](../../master/fem1d_pack/fem1d_pack.md), a C++ library
 which contains utilities for 1D finite element calculations.
 
-[FEM2D](../../data/fem2d/fem2d.html), a data directory which contains
+[FEM2D](../../data/fem2d/fem2d.md), a data directory which contains
 examples of 2D FEM files, three text files that describe a 2D finite
 element geometry;
 
-[FEM2D\_HEAT](../../cpp_src/fem2d_heat/fem2d_heat.html), a C++ program
+[FEM2D\_HEAT](../../master/fem2d_heat/fem2d_heat.md), a C++ program
 which solves the time dependent heat equation on the unit square.
 
-[FEM2D\_POISSON](../../cpp_src/fem2d_poisson/fem2d_poisson.html), a C++
+[FEM2D\_POISSON](../../master/fem2d_poisson/fem2d_poisson.md), a C++
 program which solves Poisson's equation on a square, using the finite
 element method.
 
-[FEM2D\_POISSON\_RECTANGLE\_LINEAR](../../cpp_src/fem2d_poisson_rectangle_linear/fem2d_poisson_rectangle_linear.html),
+[FEM2D\_POISSON\_RECTANGLE\_LINEAR](../../master/fem2d_poisson_rectangle_linear/fem2d_poisson_rectangle_linear.md),
 a C++ program which solves the 2D Poisson equation on a rectangle, using
 the finite element method, and piecewise linear triangular elements.
 
-[FEM2D\_SAMPLE](../../cpp_src/fem2d_sample/fem2d_sample.html), a C++
+[FEM2D\_SAMPLE](../../master/fem2d_sample/fem2d_sample.md), a C++
 library which evaluates a finite element function defined on an order 3
 or order 6 triangulation.
 
@@ -400,7 +400,7 @@ A number of files are created by the program.
 -   **TRIANGLE\_UNIT\_SIZE** returns the "size" of a unit triangle
     quadrature rule.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

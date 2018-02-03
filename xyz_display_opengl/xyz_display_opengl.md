@@ -32,33 +32,33 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **XYZ\_DISPLAY\_OPENGL** is available in [a C++
-version](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html).
+version](../../master/xyz_display_opengl/xyz_display_opengl.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[XY\_DISPLAY\_OPENGL](../../cpp_src/xy_display_opengl/xy_display_opengl.html),
+[XY\_DISPLAY\_OPENGL](../../master/xy_display_opengl/xy_display_opengl.md),
 a C++ program which reads an XY file of 2D point coordinates, and
 displays an image of those points using OpenGL.
 
-[XYZ](../../data/xyz/xyz.html), a data directory which contains some
+[XYZ](../../data/xyz/xyz.md), a data directory which contains some
 examples of 3D pointsets.
 
-[XYZ\_DISPLAY](../../m_src/xyz_display/xyz_display.html), a MATLAB
+[XYZ\_DISPLAY](../../m_src/xyz_display/xyz_display.md), a MATLAB
 program which reads XYZ information defining points in 3D, and displays
 an image in the MATLAB graphics window.
 
-[XYZF\_DISPLAY\_OPENGL](../../cpp_src/xyzf_display_opengl/xyzf_display_opengl.html),
+[XYZF\_DISPLAY\_OPENGL](../../master/xyzf_display_opengl/xyzf_display_opengl.md),
 a C++ program which reads XYZF information defining points and faces in
 3D, and displays an image using OpenGL.
 
-[XYZL\_DISPLAY\_OPENGL](../../cpp_src/xyzl_display_opengl/xyzl_display_opengl.html),
+[XYZL\_DISPLAY\_OPENGL](../../master/xyzl_display_opengl/xyzl_display_opengl.md),
 a C++ program which reads XYZL information defining points and lines in
 3D, and displays an image using OpenGL.
 
@@ -126,7 +126,7 @@ a C++ program which reads XYZL information defining points and lines in
 -   **XYZ\_HEADER\_PRINT** prints the header of an XYZ file.
 -   **XYZ\_HEADER\_READ** reads the header of an XYZ file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

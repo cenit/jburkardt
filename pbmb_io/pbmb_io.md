@@ -21,21 +21,21 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PBMB\_IO** is available in [a C
-version](../../c_src/pbmb_io/pbmb_io.html) and [a C++
-version](../../cpp_src/pbmb_io/pbmb_io.html).
+version](../../c_src/pbmb_io/pbmb_io.md) and [a C++
+version](../../master/pbmb_io/pbmb_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PBMA\_IO](../../cpp_src/pbma_io/pbma_io.html), a C++ library which
+[PBMA\_IO](../../master/pbma_io/pbma_io.md), a C++ library which
 handles the ASCII Portable Bit Map (PBM) format.
 
-[PBMB](../../data/pbmb/pbmb.html), a data directory which contains some
+[PBMB](../../data/pbmb/pbmb.md), a data directory which contains some
 example binary Portable Bit Map (PBM) files.
 
-[PGMB\_IO](../../cpp_src/pgmb_io/pgmb_io.html), a C++ library which
+[PGMB\_IO](../../master/pgmb_io/pgmb_io.md), a C++ library which
 handles the binary Portable Gray Map (PGM) format.
 
-[PPMB\_IO](../../cpp_src/ppmb_io/ppmb_io.html), a C++ library which
+[PPMB\_IO](../../master/ppmb_io/ppmb_io.md), a C++ library which
 handles the binary Portable Pixel Map (PPM) format.
 
 ### Reference: {#reference align="center"}
@@ -83,7 +83,7 @@ handles the binary Portable Pixel Map (PPM) format.
     nonblank.
 -   **S\_WORD\_EXTRACT\_FIRST** extracts the first word from a string.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -116,55 +116,55 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FD1D\_HEAT\_STEADY** is available in [a C
-version](../../c_src/fd1d_heat_steady/fd1d_heat_steady.html) and [a C++
-version](../../cpp_src/fd1d_heat_steady/fd1d_heat_steady.html) and [a
-FORTRAN77 version](../../f77_src/fd1d_heat_steady/fd1d_heat_steady.html)
+version](../../c_src/fd1d_heat_steady/fd1d_heat_steady.md) and [a C++
+version](../../master/fd1d_heat_steady/fd1d_heat_steady.md) and [a
+FORTRAN77 version](../../f77_src/fd1d_heat_steady/fd1d_heat_steady.md)
 and [a FORTRAN90
-version](../../f_src/fd1d_heat_steady/fd1d_heat_steady.html) and [a
-MATLAB version](../../m_src/fd1d_heat_steady/fd1d_heat_steady.html)
+version](../../f_src/fd1d_heat_steady/fd1d_heat_steady.md) and [a
+MATLAB version](../../m_src/fd1d_heat_steady/fd1d_heat_steady.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FD1D](../../data/fd1d/fd1d.html), a data directory which contains
+[FD1D](../../data/fd1d/fd1d.md), a data directory which contains
 examples of 1D FD files, two text files that can be used to describe
 many finite difference models with one space variable, and either no
 time dependence or a snapshot at a given time;
 
-[FD1D\_BURGERS\_LAX](../../cpp_src/fd1d_burgers_lax/fd1d_burgers_lax.html),
+[FD1D\_BURGERS\_LAX](../../master/fd1d_burgers_lax/fd1d_burgers_lax.md),
 a C++ program which applies the finite difference method and the
 Lax-Wendroff method to solve the non-viscous time-dependent Burgers
 equation in one spatial dimension.
 
-[FD1D\_BURGERS\_LEAP](../../cpp_src/fd1d_burgers_leap/fd1d_burgers_leap.html),
+[FD1D\_BURGERS\_LEAP](../../master/fd1d_burgers_leap/fd1d_burgers_leap.md),
 a C++ program which applies the finite difference method and the
 leapfrog approach to solve the non-viscous time-dependent Burgers
 equation in one spatial dimension.
 
-[FD1D\_BVP](../../cpp_src/fd1d_bvp/fd1d_bvp.html), a C++ program which
+[FD1D\_BVP](../../master/fd1d_bvp/fd1d_bvp.md), a C++ program which
 applies the finite difference method to a two point boundary value
 problem in one spatial dimension.
 
-[FD1D\_DISPLAY](../../m_src/fd1d_display/fd1d_display.html), a MATLAB
+[FD1D\_DISPLAY](../../m_src/fd1d_display/fd1d_display.md), a MATLAB
 program which reads a pair of files defining a 1D finite difference
 model, and plots the data.
 
-[FD1D\_HEAT\_EXPLICIT](../../cpp_src/fd1d_heat_explicit/fd1d_heat_explicit.html),
+[FD1D\_HEAT\_EXPLICIT](../../master/fd1d_heat_explicit/fd1d_heat_explicit.md),
 a C++ program which uses the finite difference method and explicit time
 stepping to solve the time dependent heat equation in 1D.
 
-[FD1D\_HEAT\_IMPLICIT](../../cpp_src/fd1d_heat_implicit/fd1d_heat_implicit.html),
+[FD1D\_HEAT\_IMPLICIT](../../master/fd1d_heat_implicit/fd1d_heat_implicit.md),
 a C++ program which uses the finite difference method and implicit time
 stepping to solve the time dependent heat equation in 1D.
 
-[FD1D\_WAVE](../../cpp_src/fd1d_wave/fd1d_wave.html), a C++ program
+[FD1D\_WAVE](../../master/fd1d_wave/fd1d_wave.md), a C++ program
 which applies the finite difference method to solve the time-dependent
 wave equation utt = c \* uxx in one spatial dimension.
 
-[FD2D\_HEAT\_STEADY](../../cpp_src/fd2d_heat_steady/fd2d_heat_steady.html),
+[FD2D\_HEAT\_STEADY](../../master/fd2d_heat_steady/fd2d_heat_steady.md),
 a C++ program which uses the finite difference method (FDM) to solve the
 steady (time independent) heat equation in 2D.
 
-[FEM1D\_HEAT\_STEADY](../../cpp_src/fem1d_heat_steady/fem1d_heat_steady.html),
+[FEM1D\_HEAT\_STEADY](../../master/fem1d_heat_steady/fem1d_heat_steady.md),
 a C++ program which uses the finite element method to solve the steady
 (time independent) heat equation in 1D.
 
@@ -225,7 +225,7 @@ a C++ program which uses the finite element method to solve the steady
     and AHI.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

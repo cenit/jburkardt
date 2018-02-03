@@ -16,37 +16,37 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CPP\_RANDOM** is available in [a C
-version](../../c_src/c_random/c_random.html) and [a C++
-version](../../cpp_src/cpp_random/cpp_random.html) and [a FORTRAN90
-version](../../f_src/f90_random/f90_random.html) and [a MATLAB
-version](../../m_src/matlab_random/matlab_random.html).
+version](../../c_src/c_random/c_random.md) and [a C++
+version](../../master/cpp_random/cpp_random.md) and [a FORTRAN90
+version](../../f_src/f90_random/f90_random.md) and [a MATLAB
+version](../../m_src/matlab_random/matlab_random.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA183](../../cpp_src/asa183/asa183.html), a C++ library which
+[ASA183](../../master/asa183/asa183.md), a C++ library which
 implements a pseudorandom number generator, by Wichman and Hill. This is
 a C++ version of Applied Statistics Algorithm 183.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which computes
+[NORMAL](../../master/normal/normal.md), a C++ library which computes
 elements of a sequence of pseudorandom normally distributed values.
 
-[RAND48](../../cpp_src/rand48/rand48.html), a C++ program which
+[RAND48](../../master/rand48/rand48.md), a C++ program which
 demonstrates the use of the rand48 family of random number generators
 available in the C/C++ standard library.
 
-[RANDLC](../../cpp_src/randlc/randlc.html), a C++ library which
+[RANDLC](../../master/randlc/randlc.md), a C++ library which
 generates a sequence of pseudorandom numbers, used by the NAS Benchmark
 programs.
 
-[RNGLIB](../../cpp_src/rnglib/rnglib.html), a C++ library which
+[RNGLIB](../../master/rnglib/rnglib.md), a C++ library which
 implements a random number generator (RNG) with splitting facilities,
 allowing multiple independent streams to be computed, by L'Ecuyer and
 Cote.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of a uniform pseudorandom sequence.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes elements of a 1D van der Corput Quasi Monte
 Carlo (QMC) sequence using a simple interface.
 
@@ -93,7 +93,7 @@ to real numbers in \[0,1\].
 -   [random\_test.cpp](random_test.cpp), the source code;
 -   [random\_test\_output.txt](random_test_output.txt), the output file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

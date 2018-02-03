@@ -35,14 +35,14 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **VALGRIND** examples are available in [a C
-version](../../c_src/valgrind/valgrind.html) and [a C++
-version](../../cpp_src/valgrind/valgrind.html) and [a FORTRAN77
-version](../../f77_src/valgrind/valgrind.html). [a FORTRAN90
-version](../../f_src/valgrind/valgrind.html).
+version](../../c_src/valgrind/valgrind.md) and [a C++
+version](../../master/valgrind/valgrind.md) and [a FORTRAN77
+version](../../f77_src/valgrind/valgrind.md). [a FORTRAN90
+version](../../f_src/valgrind/valgrind.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GDB](../../f_src/gdb/gdb.html), FORTRAN90 programs which illustrate the
+[GDB](../../f_src/gdb/gdb.md), FORTRAN90 programs which illustrate the
 use of the GNU debugger program on a FORTRAN90 program;
 
 ### Reference: {#reference align="center"}
@@ -67,7 +67,7 @@ are stored in a vector allocated only for 10 elements:
 -   [test02\_valgrind\_output.txt](test02_valgrind_output.txt), the
     output file using VALGRIND.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -47,27 +47,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MULTIGRID\_POISSON\_1D** is available in [a C
-version](../../c_src/multigrid_poisson_1d/multigrid_poisson_1d.html) and
+version](../../c_src/multigrid_poisson_1d/multigrid_poisson_1d.md) and
 [a C++
-version](../../cpp_src/multigrid_poisson_1d/multigrid_poisson_1d.html)
+version](../../master/multigrid_poisson_1d/multigrid_poisson_1d.md)
 and [a FORTRAN77
-version](../../f77_src/multigrid_poisson_1d/multigrid_poisson_1d.html)
+version](../../f77_src/multigrid_poisson_1d/multigrid_poisson_1d.md)
 and [a FORTRAN90
-version](../../f_src/multigrid_poisson_1d/multigrid_poisson_1d.html) and
+version](../../f_src/multigrid_poisson_1d/multigrid_poisson_1d.md) and
 [a MATLAB
-version](../../m_src/multigrid_poisson_1d/multigrid_poisson_1d.html).
+version](../../m_src/multigrid_poisson_1d/multigrid_poisson_1d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CYCLIC\_REDUCTION](../../cpp_src/cyclic_reduction/cyclic_reduction.html),
+[CYCLIC\_REDUCTION](../../master/cyclic_reduction/cyclic_reduction.md),
 a C++ library which solves a tridiagonal linear system using cyclic
 reduction.
 
-[FD1D\_BVP](../../cpp_src/fd1d_bvp/fd1d_bvp.html), a C program which
+[FD1D\_BVP](../../master/fd1d_bvp/fd1d_bvp.md), a C program which
 applies the finite difference method to a two point boundary value
 problem in one spatial dimension.
 
-[MGMRES](../../cpp_src/mgmres/mgmres.html), a C++ library which applies
+[MGMRES](../../master/mgmres/mgmres.md), a C++ library which applies
 the restarted GMRES algorithm to solve a sparse linear system, by Lili
 Ju.
 
@@ -114,7 +114,7 @@ Ju.
 -   **R8\_MAX** returns the maximum of two R8's.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

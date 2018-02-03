@@ -36,27 +36,27 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**MXM** is available in [a C version](../../c_src/mxm/mxm.html) and [a
-C++ version](../../cpp_src/mxm/mxm.html) and [a FORTRAN77
-version](../../f77_src/mxm/mxm.html) and [a FORTRAN90
-version](../../f_src/mxm/mxm.html) and [a MATLAB
-version](../../m_src/mxm/mxm.html).
+**MXM** is available in [a C version](../../c_src/mxm/mxm.md) and [a
+C++ version](../../master/mxm/mxm.md) and [a FORTRAN77
+version](../../f77_src/mxm/mxm.md) and [a FORTRAN90
+version](../../f_src/mxm/mxm.md) and [a MATLAB
+version](../../m_src/mxm/mxm.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINPACK\_BENCH](../../cpp_src/linpack_bench/linpack_bench.html), a C++
+[LINPACK\_BENCH](../../master/linpack_bench/linpack_bench.md), a C++
 program which measures the time needed to factor and solve a "large"
 (N=1000) dense linear system of equations, and is used as a benchmark.
 
-[MXV](../../cpp_src/mxv/mxv.html), a C++ program which compares the
+[MXV](../../master/mxv/mxv.md), a C++ program which compares the
 performance of (DO I, FOR J) loops, (DO J, FOR I ) loops, and MATMUL for
 computing the product of an MxN matrix A and an N vector X.
 
-[SUM\_MILLION](../../cpp_src/sum_million/sum_million.html), a C++
+[SUM\_MILLION](../../master/sum_million/sum_million.md), a C++
 program which sums the integers from 1 to 1,000,000, as a demonstration
 of how to rate a computer's speed;
 
-[TIMER](../../cpp_src/timer/timer.html), C++ programs which demonstrate
+[TIMER](../../master/timer/timer.md), C++ programs which demonstrate
 how to compute CPU time or elapsed time.
 
 ### Reference: {#reference align="center"}
@@ -82,7 +82,7 @@ how to compute CPU time or elapsed time.
 -   **MXM\_KJI** computes A = B \* C using FOR K, FOR J, FOR I loops.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

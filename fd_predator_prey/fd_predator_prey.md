@@ -99,28 +99,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FD\_PREDATOR\_PREY** is available in [a C
-version](../../c_src/fd_predator_prey/fd_predator_prey.html) and [a C++
-version](../../cpp_src/fd_predator_prey/fd_predator_prey.html) and [a
-FORTRAN77 version](../../f77_src/fd_predator_prey/fd_predator_prey.html)
+version](../../c_src/fd_predator_prey/fd_predator_prey.md) and [a C++
+version](../../master/fd_predator_prey/fd_predator_prey.md) and [a
+FORTRAN77 version](../../f77_src/fd_predator_prey/fd_predator_prey.md)
 and [a FORTRAN90
-version](../../f_src/fd_predator_prey/fd_predator_prey.html) and [a
-MATLAB version](../../m_src/fd_predator_prey/fd_predator_prey.html).
+version](../../f_src/fd_predator_prey/fd_predator_prey.md) and [a
+MATLAB version](../../m_src/fd_predator_prey/fd_predator_prey.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FD1D\_HEAT\_EXPLICIT](../../cpp_src/fd1d_heat_explicit/fd1d_heat_explicit.html),
+[FD1D\_HEAT\_EXPLICIT](../../master/fd1d_heat_explicit/fd1d_heat_explicit.md),
 a C++ program which uses the finite difference method and explicit time
 stepping to solve the time dependent heat equation in 1D.
 
-[FD1D\_PREDATOR\_PREY](../../m_src/fd1d_predator_prey/fd1d_predator_prey.html),
+[FD1D\_PREDATOR\_PREY](../../m_src/fd1d_predator_prey/fd1d_predator_prey.md),
 a MATLAB program which implements a finite difference algorithm for
 predator-prey system with spatial variation in 1D.
 
-[FD2D\_PREDATOR\_PREY](../../f_src/fd2d_predator_prey/fd2d_predator_prey.html),
+[FD2D\_PREDATOR\_PREY](../../f_src/fd2d_predator_prey/fd2d_predator_prey.md),
 a FORTRAN90 program which implements a finite difference algorithm for a
 predator-prey system with spatial variation in 2D.
 
-[FEM1D](../../cpp_src/fem1d/fem1d.html), a C++ program which applies the
+[FEM1D](../../master/fem1d/fem1d.md), a C++ program which applies the
 finite element method to a 1D linear two point boundary value problem.
 
 ### Reference: {#reference align="center"}
@@ -174,7 +174,7 @@ is clear.
 -   **R8MAT\_WRITE** writes information to a file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -22,31 +22,31 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**PRAXIS** is available in [a C version](../../c_src/praxis/praxis.html)
-and [a C++ version](../../cpp_src/praxis/praxis.html) and [a FORTRAN77
-version](../../f77_src/praxis/praxis.html) and [a FORTRAN90
-version](../../f_src/praxis/praxis.html) and [a MATLAB
-version](../../m_src/praxis/praxis.html) and [a Python
-version](../../py_src/praxis/praxis.html).
+**PRAXIS** is available in [a C version](../../c_src/praxis/praxis.md)
+and [a C++ version](../../master/praxis/praxis.md) and [a FORTRAN77
+version](../../f77_src/praxis/praxis.md) and [a FORTRAN90
+version](../../f_src/praxis/praxis.md) and [a MATLAB
+version](../../m_src/praxis/praxis.md) and [a Python
+version](../../py_src/praxis/praxis.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BRENT](../../cpp_src/brent/brent.html), a C++ library which contains
+[BRENT](../../master/brent/brent.md), a C++ library which contains
 Richard Brent's routines for finding the zero, local minimizer, or
 global minimizer of a scalar function of a scalar argument, without the
 use of derivative information.
 
-[COMPASS\_SEARCH](../../cpp_src/compass_search/compass_search.html), a
+[COMPASS\_SEARCH](../../master/compass_search/compass_search.md), a
 C++ library which seeks the minimizer of a scalar function of several
 variables using compass search, a direct search algorithm that does not
 use derivatives.
 
-[TEST\_OPT\_CON](../../cpp_src/test_opt_con/test_opt_con.html), a C++
+[TEST\_OPT\_CON](../../master/test_opt_con/test_opt_con.md), a C++
 library which defines test problems for the minimization of a scalar
 function of several variables, with the search constrained to lie within
 a specified hyper-rectangle.
 
-[TEST\_OPTIMIZATION](../../cpp_src/test_optimization/test_optimization.html),
+[TEST\_OPTIMIZATION](../../master/test_optimization/test_optimization.md),
 a C++ library which defines test problems for the minimization of a
 scalar function of several variables, as described by Molga and
 Smutnicki.
@@ -96,7 +96,7 @@ Smutnicki.
     of V.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -18,48 +18,48 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**FILUM** is available in [a C version](../../c_src/filum/filum.html)
-and [a C++ version](../../cpp_src/filum/filum.html) and [a FORTRAN77
-version](../../f77_src/filum/filum.html) and [a FORTRAN90
-version](../../f_src/filum/filum.html) and [a Mathematica
-version](../../math_src/filum/filum.html) and [a MATLAB
-version](../../m_src/filum/filum.html) and [a Python
-version](../../py_src/filum/filum.html).
+**FILUM** is available in [a C version](../../c_src/filum/filum.md)
+and [a C++ version](../../master/filum/filum.md) and [a FORTRAN77
+version](../../f77_src/filum/filum.md) and [a FORTRAN90
+version](../../f_src/filum/filum.md) and [a Mathematica
+version](../../math_src/filum/filum.md) and [a MATLAB
+version](../../m_src/filum/filum.md) and [a Python
+version](../../py_src/filum/filum.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CR2LF](../../cpp_src/cr2lf/cr2lf.html), a C++ program which reads a
+[CR2LF](../../master/cr2lf/cr2lf.md), a C++ program which reads a
 text file and replaces carriage returns by line feeds.
 
-[CRRM](../../cpp_src/crrm/crrm.html), a C++ program which reads a text
+[CRRM](../../master/crrm/crrm.md), a C++ program which reads a text
 file and removes the carriage return character.
 
-[DEBLANK](../../cpp_src/deblank/deblank.html), a C++ program which reads
+[DEBLANK](../../master/deblank/deblank.md), a C++ program which reads
 a text file and writes a copy which has no blank lines.
 
-[DECOMMENT](../../cpp_src/decomment/decomment.html), a C++ program which
+[DECOMMENT](../../master/decomment/decomment.md), a C++ program which
 makes a copy of a text file which contains no "comment" lines (that
 begin with "\#").
 
-[DETROFF](../../cpp_src/detroff/detroff.html), a C++ program which
+[DETROFF](../../master/detroff/detroff.md), a C++ program which
 removes from a file every occurrence of the TROFF overprint pair
 character+backspace, which can make a MAN page printable;
 
-[FILE\_NAME\_SEQUENCE](../../cpp_src/file_name_sequence/file_name_sequence.html),
+[FILE\_NAME\_SEQUENCE](../../master/file_name_sequence/file_name_sequence.md),
 a C++ program which demonstrates ways to generate a sequence of
 filenames that can be used when generating images for an animation.
 
-[REFORMAT](../../f_src/reformat/reformat.html), a FORTRAN90 program
+[REFORMAT](../../f_src/reformat/reformat.md), a FORTRAN90 program
 which makes a copy of a file with a given number of "words" per line.
 
-[REWORD](../../cpp_src/reword/reword.html), a C++ program which reads a
+[REWORD](../../master/reword/reword.md), a C++ program which reads a
 text file and writes a copy which has a fixed number of "words" per
 line.
 
-[UNCONTROL](../../cpp_src/uncontrol/uncontrol.html), a C++ program which
+[UNCONTROL](../../master/uncontrol/uncontrol.md), a C++ program which
 makes a copy of a text file which contains no control characters.
 
-[WRAP](../../cpp_src/wrap/wrap.html), a C++ program which makes a copy
+[WRAP](../../master/wrap/wrap.md), a C++ program which makes a copy
 of a text file in which no line is longer than a user-specified wrap
 length.
 
@@ -166,7 +166,7 @@ line, to be examined by FILE\_SEQUENCE\_SIZE.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

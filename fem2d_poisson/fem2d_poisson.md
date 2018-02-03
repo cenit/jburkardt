@@ -114,28 +114,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 FEM2D\_POISSON is available in [a C++
-version](../../cpp_src/fem2d_poisson/fem2d_poisson.html) and [a
-FORTRAN90 version](../../f_src/fem2d_poisson/fem2d_poisson.html) and [a
-MATLAB version.](../../m_src/fem2d_poisson/fem2d_poisson.html)
+version](../../master/fem2d_poisson/fem2d_poisson.md) and [a
+FORTRAN90 version](../../f_src/fem2d_poisson/fem2d_poisson.md) and [a
+MATLAB version.](../../m_src/fem2d_poisson/fem2d_poisson.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D\_POISSON\_CG](../../cpp_src/fem2d_poisson_cg/fem2d_poisson_cg.html),
+[FEM2D\_POISSON\_CG](../../master/fem2d_poisson_cg/fem2d_poisson_cg.md),
 a C++ program which solves Poisson's equation on a triangulated region,
 using the finite element method, sparse storage, and a conjugate
 gradient solver.
 
-[FEM2D\_POISSON\_ELL](../../cpp_src/fem2d_poisson_ell/fem2d_poisson_ell.html),
+[FEM2D\_POISSON\_ELL](../../master/fem2d_poisson_ell/fem2d_poisson_ell.md),
 a C++ library which defines the geometry of an L-shaped region, as well
 as boundary conditions for a given Poisson problem, and is called by
 FEM2D\_POISSON as part of a solution procedure.
 
-[FEM2D\_POISSON\_LAKE](../../cpp_src/fem2d_poisson_lake/fem2d_poisson_lake.html),
+[FEM2D\_POISSON\_LAKE](../../master/fem2d_poisson_lake/fem2d_poisson_lake.md),
 a C++ library which defines the geometry of a lake-shaped region, as
 well as boundary conditions for a given Poisson problem, and is called
 by FEM2D\_POISSON as part of a solution procedure.
 
-[FEM2D\_POISSON\_SPARSE](../../cpp_src/fem2d_poisson_sparse/fem2d_poisson_sparse.html),
+[FEM2D\_POISSON\_SPARSE](../../master/fem2d_poisson_sparse/fem2d_poisson_sparse.md),
 a C++ program which solves the steady (time independent) Poisson
 equation on an arbitrary 2D triangulated region using a version of GMRES
 for a sparse solver.
@@ -229,7 +229,7 @@ for a sparse solver.
 -   **TRIANGULATION\_ORDER3\_PLOT** plots a triangulation of a set of
     nodes.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

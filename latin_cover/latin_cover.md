@@ -88,27 +88,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LATIN\_COVER** is available in [a C
-version](../../c_src/latin_cover/latin_cover.html) and [a C++
-version](../../cpp_src/latin_cover/latin_cover.html) and [a FORTRAN77
-version](../../f77_src/latin_cover/latin_cover.html) and [a FORTRAN90
-version](../../f_src/latin_cover/latin_cover.html) and [a MATLAB
-version](../../m_src/latin_cover/latin_cover.html).
+version](../../c_src/latin_cover/latin_cover.md) and [a C++
+version](../../master/latin_cover/latin_cover.md) and [a FORTRAN77
+version](../../f77_src/latin_cover/latin_cover.md) and [a FORTRAN90
+version](../../f_src/latin_cover/latin_cover.md) and [a MATLAB
+version](../../m_src/latin_cover/latin_cover.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LATIN\_CENTER](../../cpp_src/latin_center/latin_center.html), a C++
+[LATIN\_CENTER](../../master/latin_center/latin_center.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 center points.
 
-[LATIN\_EDGE](../../cpp_src/latin_edge/latin_edge.html), a C++ library
+[LATIN\_EDGE](../../master/latin_edge/latin_edge.md), a C++ library
 which computes elements of a Latin Hypercube dataset, choosing edge
 points.
 
-[LATIN\_RANDOM](../../cpp_src/latin_random/latin_random.html), a C++
+[LATIN\_RANDOM](../../master/latin_random/latin_random.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 points at random.
 
-[LATINIZE](../../c_src/latinize/latinize.html), a C library which
+[LATINIZE](../../c_src/latinize/latinize.md), a C library which
 adjusts N points in M dimensions to form a Latin hypercube.
 
 ### Reference: {#reference align="center"}
@@ -144,7 +144,7 @@ adjusts N points in M dimensions to form a Latin hypercube.
 -   **PERM\_UNIFORM** selects a random permutation of N objects.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C source codes](../c_src.html).
+You can go up one level to [the C source codes](../c_src.md).
 
 ------------------------------------------------------------------------
 

@@ -15,7 +15,7 @@ Lambert's W function W(X) satisfies the equation
 
 The text of many ACM TOMS algorithms is available online through ACM:
 [http://www.acm.org/pubs/calgo](http://www.acm.org/pubs/calgo/) or
-NETLIB: <http://www.netlib.org/toms/index.html>.
+NETLIB: <http://www.netlib.org/toms/index.md>.
 
 ### Licensing: {#licensing align="center"}
 
@@ -25,20 +25,20 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS743** is available in [a C
-version](../../c_src/toms743/toms743.html) and [a C++
-version](../../cpp_src/toms743/toms743.html) and [a FORTRAN77
-version](../../f77_src/toms743/toms743.html) and [a FORTRAN90
-version](../../f_src/toms743/toms743.html) and [a MATLAB
-version](../../m_src/toms743/toms743.html).
+version](../../c_src/toms743/toms743.md) and [a C++
+version](../../master/toms743/toms743.md) and [a FORTRAN77
+version](../../f77_src/toms743/toms743.md) and [a FORTRAN90
+version](../../f_src/toms743/toms743.md) and [a MATLAB
+version](../../m_src/toms743/toms743.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which contains routines which return sample values of various
 functions, including the modified beta function, and the logarithm of
 the gamma function.
 
-[TOMS443](../../cpp_src/toms443/toms443.html), a C++ library which
+[TOMS443](../../master/toms443/toms443.md), a C++ library which
 evaluates Lambert's W function. This is a version of ACM TOMS algorithm
 443.
 
@@ -72,7 +72,7 @@ evaluates Lambert's W function. This is a version of ACM TOMS algorithm
 -   **TIMESTAMP** prints out the current YMDHMS date as a timestamp.
 -   **WAPR** approximates the W function.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -95,52 +95,52 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BERNSTEIN\_POLYNOMIAL** is available in [a C
-version](../../c_src/bernstein_polynomial/bernstein_polynomial.html) and
+version](../../c_src/bernstein_polynomial/bernstein_polynomial.md) and
 [a C++
-version](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html)
+version](../../master/bernstein_polynomial/bernstein_polynomial.md)
 and [a FORTRAN77
-version](../../f77_src/bernstein_polynomial/bernstein_polynomial.html)
+version](../../f77_src/bernstein_polynomial/bernstein_polynomial.md)
 and [a FORTRAN90
-version](../../f_src/bernstein_polynomial/bernstein_polynomial.html) and
+version](../../f_src/bernstein_polynomial/bernstein_polynomial.md) and
 [a MATLAB
-version](../../m_src/bernstein_polynomial/bernstein_polynomial.html) and
+version](../../m_src/bernstein_polynomial/bernstein_polynomial.md) and
 [a Python
-version](../../py_src/bernstein_polynomial/bernstein_polynomial.html).
+version](../../py_src/bernstein_polynomial/bernstein_polynomial.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CHEBYSHEV](../../cpp_src/chebyshev/chebyshev.html), a C++ library which
+[CHEBYSHEV](../../master/chebyshev/chebyshev.md), a C++ library which
 computes the Chebyshev interpolant/approximant to a given function over
 an interval.
 
-[DIVDIF](../../cpp_src/divdif/divdif.html), a C++ library which uses
+[DIVDIF](../../master/divdif/divdif.md), a C++ library which uses
 divided differences to interpolate data.
 
-[GEGENBAUER\_POLYNOMIAL](../../cpp_src/gegenbauer_polynomial/gegenbauer_polynomial.html),
+[GEGENBAUER\_POLYNOMIAL](../../master/gegenbauer_polynomial/gegenbauer_polynomial.md),
 a C++ library which evaluates the Gegenbauer polynomial and associated
 functions.
 
-[HERMITE](../../cpp_src/hermite/hermite.html), a C++ library which
+[HERMITE](../../master/hermite/hermite.md), a C++ library which
 computes the Hermite interpolant, a polynomial that matches function
 values and derivatives.
 
-[HERMITE\_CUBIC](../../cpp_src/hermite_cubic/hermite_cubic.html), a C++
+[HERMITE\_CUBIC](../../master/hermite_cubic/hermite_cubic.md), a C++
 library which can compute the value, derivatives or integral of a
 Hermite cubic polynomial, or manipulate an interpolating function made
 up of piecewise Hermite cubic polynomials.
 
-[LOBATTO\_POLYNOMIAL](../../cpp_src/lobatto_polynomial/lobatto_polynomial.html),
+[LOBATTO\_POLYNOMIAL](../../master/lobatto_polynomial/lobatto_polynomial.md),
 a C++ library which evaluates Lobatto polynomials, similar to Legendre
 polynomials except that they are zero at both endpoints.
 
-[SPLINE](../../cpp_src/spline/spline.html), a C++ library which
+[SPLINE](../../master/spline/spline.md), a C++ library which
 constructs and evaluates spline interpolants and approximants.
 
-[TEST\_APPROX](../../cpp_src/test_approx/test_approx.html), a C++
+[TEST\_APPROX](../../master/test_approx/test_approx.md), a C++
 library which defines test problems for approximation, provided as a set
 of (x,y) data.
 
-[TEST\_INTERP\_1D](../../cpp_src/test_interp_1d/test_interp_1d.html), a
+[TEST\_INTERP\_1D](../../master/test_interp_1d/test_interp_1d.md), a
 C++ library which defines test problems for interpolation of data y(x),
 depending on a 1D argument.
 
@@ -207,7 +207,7 @@ depending on a 1D argument.
 -   **R8VEC\_SUM** returns the sum of an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

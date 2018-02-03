@@ -91,20 +91,20 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**CELL** is available in [a C version](../../c_src/cell/cell.html) and
-[a C++ version](../../cpp_src/cell/cell.html) and [a FORTRAN77
-version](../../f77_src/cell/cell.html) and [a FORTRAN90
-version](../../f_src/cell/cell.html) and [a MATLAB
-version](../../m_src/cell/cell.html).
+**CELL** is available in [a C version](../../c_src/cell/cell.md) and
+[a C++ version](../../master/cell/cell.md) and [a FORTRAN77
+version](../../f77_src/cell/cell.md) and [a FORTRAN90
+version](../../f_src/cell/cell.md) and [a MATLAB
+version](../../m_src/cell/cell.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[INDEX](../../cpp_src/index/index.html), a C++ library which converts a
+[INDEX](../../master/index/index.md), a C++ library which converts a
 multidimensional vector index to a one-dimensional vector index; it can
 handle zero and one based indexing schemes, as well as column major and
 row major conventions.
 
-[SUBPAK](../../cpp_src/subpak/subpak.html), a C++ library which contains
+[SUBPAK](../../master/subpak/subpak.md), a C++ library which contains
 many utility routines;
 
 ### Source Code: {#source-code align="center"}
@@ -161,7 +161,7 @@ many utility routines;
 -   **R8VEC\_TRANSPOSE\_PRINT** prints an R8VEC "transposed".
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -87,84 +87,84 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPARSE\_GRID\_MIXED\_DATASET** is available in [a C++
-version](../../cpp_src/sparse_grid_mixed_dataset/sparse_grid_mixed_dataset.html)
+version](../../master/sparse_grid_mixed_dataset/sparse_grid_mixed_dataset.md)
 and [a FORTRAN90
-version](../../f_src/sparse_grid_mixed_dataset/sparse_grid_mixed_dataset.html)
+version](../../f_src/sparse_grid_mixed_dataset/sparse_grid_mixed_dataset.md)
 and [a MATLAB
-version](../../m_src/sparse_grid_mixed_dataset/sparse_grid_mixed_dataset.html).
+version](../../m_src/sparse_grid_mixed_dataset/sparse_grid_mixed_dataset.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[SANDIA\_RULES](../../cpp_src/sandia_rules/sandia_rules.html), a C++
+[SANDIA\_RULES](../../master/sandia_rules/sandia_rules.md), a C++
 library which produces 1D quadrature rules of Chebyshev, Clenshaw
 Curtis, Fejer 2, Gegenbauer, generalized Hermite, generalized Laguerre,
 Hermite, Jacobi, Laguerre, Legendre and Patterson types.
 
-[SPARSE\_GRID\_CC](../../datasets/sparse_grid_cc/sparse_grid_cc.html), a
+[SPARSE\_GRID\_CC](../../datasets/sparse_grid_cc/sparse_grid_cc.md), a
 dataset directory which contains multidimensional Smolyak sparse grids
 based on the 1D Clenshaw Curtis rule;
 
-[SPARSE\_GRID\_CC\_DATASET](../../cpp_src/sparse_grid_cc_dataset/sparse_grid_cc_dataset.html),
+[SPARSE\_GRID\_CC\_DATASET](../../master/sparse_grid_cc_dataset/sparse_grid_cc_dataset.md),
 a C++ program which creates a sparse grid dataset based on
 Clenshaw-Curtis rules.
 
-[SPARSE\_GRID\_CCS](../../datasets/sparse_grid_ccs/sparse_grid_ccs.html),
+[SPARSE\_GRID\_CCS](../../datasets/sparse_grid_ccs/sparse_grid_ccs.md),
 a dataset directory which contains multidimensional Smolyak sparse grids
 based on the 1D Clenshaw Curtis rule with Slow Exponential Growth;
 
-[SPARSE\_GRID\_F2](../../datasets/sparse_grid_f2/sparse_grid_f2.html), a
+[SPARSE\_GRID\_F2](../../datasets/sparse_grid_f2/sparse_grid_f2.md), a
 dataset directory which contains multidimensional Smolyak sparse grids
 based on the 1D Fejer type 2 rule;
 
-[SPARSE\_GRID\_GL](../../datasets/sparse_grid_gl/sparse_grid_gl.html), a
+[SPARSE\_GRID\_GL](../../datasets/sparse_grid_gl/sparse_grid_gl.md), a
 dataset directory which contains multidimensional Smolyak sparse grids
 based on the 1D Gauss-Legendre rule;
 
-[SPARSE\_GRID\_GL\_DATASET](../../cpp_src/sparse_grid_gl_dataset/sparse_grid_gl_dataset.html),
+[SPARSE\_GRID\_GL\_DATASET](../../master/sparse_grid_gl_dataset/sparse_grid_gl_dataset.md),
 a C++ program which creates a sparse grid dataset based on
 Gauss-Legendre rules.
 
-[SPARSE\_GRID\_GP](../../datasets/sparse_grid_gp/sparse_grid_gp.html), a
+[SPARSE\_GRID\_GP](../../datasets/sparse_grid_gp/sparse_grid_gp.md), a
 dataset directory which contains multidimensional Smolyak sparse grids
 based on the 1D Gauss-Patterson rule;
 
-[SPARSE\_GRID\_HERMITE](../../datasets/sparse_grid_hermite/sparse_grid_hermite.html),
+[SPARSE\_GRID\_HERMITE](../../datasets/sparse_grid_hermite/sparse_grid_hermite.md),
 a dataset directory which contains multidimensional Smolyak sparse grids
 based on the 1D Gauss-Hermite rule;
 
-[SPARSE\_GRID\_HERMITE\_DATASET](../../cpp_src/sparse_grid_hermite_dataset/sparse_grid_hermite_dataset.html),
+[SPARSE\_GRID\_HERMITE\_DATASET](../../master/sparse_grid_hermite_dataset/sparse_grid_hermite_dataset.md),
 a C++ program which creates a sparse grid dataset based on Gauss-Hermite
 rules.
 
-[SPARSE\_GRID\_LAGUERRE](../../datasets/sparse_grid_laguerre/sparse_grid_laguerre.html),
+[SPARSE\_GRID\_LAGUERRE](../../datasets/sparse_grid_laguerre/sparse_grid_laguerre.md),
 a dataset directory which contains multidimensional Smolyak sparse grids
 based on the 1D Gauss-Laguerre rule;
 
-[SPARSE\_GRID\_LAGUERRE\_DATASET](../../cpp_src/sparse_grid_laguerre_dataset/sparse_grid_laguerre_dataset.html),
+[SPARSE\_GRID\_LAGUERRE\_DATASET](../../master/sparse_grid_laguerre_dataset/sparse_grid_laguerre_dataset.md),
 a C++ program which creates a sparse grid dataset based on
 Gauss-Laguerrre rules.
 
-[SPARSE\_GRID\_MIXED](../../cpp_src/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../master/sparse_grid_mixed/sparse_grid_mixed.md),
 a C++ library which creates a sparse grid dataset based on a mixed set
 of 1D factor rules.
 
-[SPARSE\_GRID\_MIXED](../../datasets/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../datasets/sparse_grid_mixed/sparse_grid_mixed.md),
 a dataset directory which contains multidimensional Smolyak sparse grids
 based on a mixed set of 1D factor rules.
 
-[SPARSE\_GRID\_NCC](../../datasets/sparse_grid_ncc/sparse_grid_ncc.html),
+[SPARSE\_GRID\_NCC](../../datasets/sparse_grid_ncc/sparse_grid_ncc.md),
 a dataset directory which contains multidimensional Smolyak sparse grids
 based on the 1D Newton Cotes Closed rule;
 
-[SPARSE\_GRID\_NCO](../../datasets/sparse_grid_nco/sparse_grid_nco.html),
+[SPARSE\_GRID\_NCO](../../datasets/sparse_grid_nco/sparse_grid_nco.md),
 a dataset directory which contains multidimensional Smolyak sparse grids
 based on the 1D Newton Cotes Open rule;
 
-[SPARSE\_GRID\_OPEN\_DATASET](../../cpp_src/sparse_grid_open_dataset/sparse_grid_open_dataset.html),
+[SPARSE\_GRID\_OPEN\_DATASET](../../master/sparse_grid_open_dataset/sparse_grid_open_dataset.md),
 a C++ program which creates a sparse grid dataset based on open rules
 (Fejer 2, Gauss-Patterson, Newton-Cotes-Open).
 
-[SPARSE\_GRID\_TANH\_SINH](../../datasets/sparse_grid_tanh_sinh/sparse_grid_tanh_sinh.html),
+[SPARSE\_GRID\_TANH\_SINH](../../datasets/sparse_grid_tanh_sinh/sparse_grid_tanh_sinh.md),
 a dataset directory which contains multidimensional Smolyak sparse grids
 based on a 1D tanh-sinh rule;
 
@@ -201,7 +201,7 @@ based on a 1D tanh-sinh rule;
 -   **SPARSE\_GRID\_MIXED\_DATASET\_HANDLE** handles the creation of the
     dataset.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

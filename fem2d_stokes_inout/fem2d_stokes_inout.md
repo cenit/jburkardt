@@ -40,14 +40,14 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_STOKES\_INOUT** is available in [a C++
-version](../../cpp_src/fem2d_stokes_inout/fem2d_stokes_inout.html) and
+version](../../master/fem2d_stokes_inout/fem2d_stokes_inout.md) and
 [a FORTRAN90
-version](../../f_src/fem2d_stokes_inout/fem2d_stokes_inout.html) and [a
-MATLAB version](../../m_src/fem2d_stokes_inout/fem2d_stokes_inout.html).
+version](../../f_src/fem2d_stokes_inout/fem2d_stokes_inout.md) and [a
+MATLAB version](../../m_src/fem2d_stokes_inout/fem2d_stokes_inout.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D\_STOKES](../../cpp_src/fem2d_stokes/fem2d_stokes.html), a C++
+[FEM2D\_STOKES](../../master/fem2d_stokes/fem2d_stokes.md), a C++
 program which applies the finite element method to a Stokes flow
 problem, given user input data.
 
@@ -87,18 +87,18 @@ the velocities are a vector quantity associated with the vector nodes.
     P at each linear node;
 -   [pressure3.png](pressure3.png), a PNG image of a contour plot of the
     pressure, produced by
-    [TRIANGULATION\_ORDER3\_CONTOUR](../../m_src/triangulation_order3_contour/triangulation_order3_contour.html).
+    [TRIANGULATION\_ORDER3\_CONTOUR](../../m_src/triangulation_order3_contour/triangulation_order3_contour.md).
 -   [velocity6.txt](velocity6.txt), a text file containing the velocity
     (U,V) at each velocity node;
 -   [velocity6\_dir.png](velocity6_dir.png), a PNG image of the velocity
     direction field, created by
-    [VECTOR\_PLOT.](../../f_src/vector_plot/vector_plot.html)
+    [VECTOR\_PLOT.](../../f_src/vector_plot/vector_plot.md)
 -   [velocity6\_vec.png](velocity6_vec.png), a PNG image of the velocity
     field, created by
-    [VECTOR\_PLOT.](../../f_src/vector_plot/vector_plot.html)
+    [VECTOR\_PLOT.](../../f_src/vector_plot/vector_plot.md)
 -   [velocity6\_arrows.png](velocity6_arrows.png), a PNG image of the
     velocity field, created by
-    [VELOCITY\_ARROWS.](../../m_src/velocity_arrows/velocity_arrows.html)
+    [VELOCITY\_ARROWS.](../../m_src/velocity_arrows/velocity_arrows.md)
 
 ------------------------------------------------------------------------
 

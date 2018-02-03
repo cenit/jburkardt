@@ -37,56 +37,56 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**NORMAL** is available in [a C version](../../c_src/normal/normal.html)
-and [a C++ version](../../cpp_src/normal/normal.html) and [a FORTRAN77
-version](../../f77_src/normal/normal.html) and [a FORTRAN90
-version](../../f_src/normal/normal.html) and [a MATLAB
-version](../../m_src/normal/normal.html) and [a Python
-version](../../py_src/normal/normal.html).
+**NORMAL** is available in [a C version](../../c_src/normal/normal.md)
+and [a C++ version](../../master/normal/normal.md) and [a FORTRAN77
+version](../../f77_src/normal/normal.md) and [a FORTRAN90
+version](../../f_src/normal/normal.md) and [a MATLAB
+version](../../m_src/normal/normal.md) and [a Python
+version](../../py_src/normal/normal.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA183](../../cpp_src/asa183/asa183.html), a C++ library which
+[ASA183](../../master/asa183/asa183.md), a C++ library which
 implements the Wichman-Hill pseudorandom number generator.
 
-[CPP\_RANDOM](../../cpp_src/cpp_random/cpp_random.html), C++ programs
+[CPP\_RANDOM](../../master/cpp_random/cpp_random.md), C++ programs
 which illustrate the use of the C++ random number generator routines.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton Quasi Monte Carlo (QMC) sequence, using a simple
 interface.
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley Quasi Monte Carlo (QMC)
 sequence, using a simple interface.
 
-[RANDOM\_SORTED](../../cpp_src/random_sorted/random_sorted.html), a C++
+[RANDOM\_SORTED](../../master/random_sorted/random_sorted.md), a C++
 library which generates vectors of random values which are already
 sorted.
 
-[RANLIB](../../cpp_src/ranlib/ranlib.html), a C++ library which produces
+[RANLIB](../../master/ranlib/ranlib.md), a C++ library which produces
 random samples from Probability Density Functions (PDF's), including
 Beta, Chi-square Exponential, F, Gamma, Multivariate normal, Noncentral
 chi-square, Noncentral F, Univariate normal, random permutations, Real
 uniform, Binomial, Negative Binomial, Multinomial, Poisson and Integer
 uniform, by Barry Brown and James Lovato.
 
-[RNGLIB](../../cpp_src/rnglib/rnglib.html), a C++ library which
+[RNGLIB](../../master/rnglib/rnglib.md), a C++ library which
 implements a random number generator (RNG) with splitting facilities,
 allowing multiple independent streams to be computed, by L'Ecuyer and
 Cote.
 
-[TRUNCATED\_NORMAL](../../cpp_src/truncated_normal/truncated_normal.html),
+[TRUNCATED\_NORMAL](../../master/truncated_normal/truncated_normal.md),
 a C++ library which works with the truncated normal distribution over
 \[A,B\], or \[A,+oo) or (-oo,B\], returning the probability density
 function (PDF), the cumulative density function (CDF), the inverse CDF,
 the mean, the variance, and sample values.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of a sequence of pseudorandom uniformly distributed
 values.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes van der Corput sequences.
 
 ### Reference: {#reference align="center"}
@@ -154,7 +154,7 @@ C++ library which computes van der Corput sequences.
 -   **R8VEC\_UNIFORM\_01\_NEW** returns a new unit pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

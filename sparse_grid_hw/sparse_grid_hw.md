@@ -58,26 +58,26 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPARSE\_GRID\_HW** is available in [a C
-version](../../c_src/sparse_grid_hw/sparse_grid_hw.html) and [a C++
-version](../../cpp_src/sparse_grid_hw/sparse_grid_hw.html) and [a
-FORTRAN77 version](../../f77_src/sparse_grid_hw/sparse_grid_hw.html) and
-[a FORTRAN90 version](../../f_src/sparse_grid_hw/sparse_grid_hw.html)
-and [a MATLAB version](../../m_src/sparse_grid_hw/sparse_grid_hw.html)
+version](../../c_src/sparse_grid_hw/sparse_grid_hw.md) and [a C++
+version](../../master/sparse_grid_hw/sparse_grid_hw.md) and [a
+FORTRAN77 version](../../f77_src/sparse_grid_hw/sparse_grid_hw.md) and
+[a FORTRAN90 version](../../f_src/sparse_grid_hw/sparse_grid_hw.md)
+and [a MATLAB version](../../m_src/sparse_grid_hw/sparse_grid_hw.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for various intervals and weight functions.
 
-[SANDIA\_RULES](../../cpp_src/sandia_rules/sandia_rules.html), a C++
+[SANDIA\_RULES](../../master/sandia_rules/sandia_rules.md), a C++
 library which generates Gauss quadrature rules of various orders and
 types.
 
-[SGMGA](../../cpp_src/sgmga/sgmga.html), a C++ library which creates
+[SGMGA](../../master/sgmga/sgmga.md), a C++ library which creates
 sparse grids based on a mixture of 1D quadrature rules, allowing
 anisotropic weights for each dimension.
 
-[SMOLPACK](../../c_src/smolpack/smolpack.html), a C library which
+[SMOLPACK](../../c_src/smolpack/smolpack.md), a C library which
 implements Novak and Ritter's method for estimating the integral of a
 function over a multidimensional hypercube using sparse grids, by Knut
 Petras.
@@ -196,7 +196,7 @@ by John Burkardt.
     rule.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

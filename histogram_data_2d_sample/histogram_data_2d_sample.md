@@ -40,35 +40,35 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HISTOGRAM\_DATA\_2D\_SAMPLE** is available in [a C
-version](../../c_src/histogram_data_2d_sample/histogram_data_2d_sample.html)
+version](../../c_src/histogram_data_2d_sample/histogram_data_2d_sample.md)
 and [a C++
-version](../../cpp_src/histogram_data_2d_sample/histogram_data_2d_sample.html)
+version](../../master/histogram_data_2d_sample/histogram_data_2d_sample.md)
 and [a FORTRAN77
-version](../../f77_src/histogram_data_2d_sample/histogram_data_2d_sample.html)
+version](../../f77_src/histogram_data_2d_sample/histogram_data_2d_sample.md)
 and [a FORTRAN90
-version](../../f_src/histogram_data_2d_sample/histogram_data_2d_sample.html)
+version](../../f_src/histogram_data_2d_sample/histogram_data_2d_sample.md)
 and [a MATLAB
-version](../../m_src/histogram_data_2d_sample/histogram_data_2d_sample.html).
+version](../../m_src/histogram_data_2d_sample/histogram_data_2d_sample.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM1D\_SAMPLE](../../cpp_src/fem1d_sample/fem1d_sample.html), a C++
+[FEM1D\_SAMPLE](../../master/fem1d_sample/fem1d_sample.md), a C++
 program which samples a scalar or vector finite element function of one
 variable, defined by **FEM files**, returning interpolated values at the
 sample points.
 
-[FEM2D\_SAMPLE](../../cpp_src/fem2d_sample/fem2d_sample.html), a C++
+[FEM2D\_SAMPLE](../../master/fem2d_sample/fem2d_sample.md), a C++
 program which evaluates a finite element function defined on an order 3
 or order 6 triangulation.
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which evaluates and
+[PROB](../../master/prob/prob.md), a C++ library which evaluates and
 inverts a number of probabilistic distributions.
 
-[RANDOM\_DATA](../../cpp_src/random_data/random_data.html), a C++
+[RANDOM\_DATA](../../master/random_data/random_data.md), a C++
 library which generates sample points for various probability
 distributions, spatial dimensions, and geometries;
 
-[WALKER\_SAMPLE](../../cpp_src/walker_sample/walker_sample.html), a C++
+[WALKER\_SAMPLE](../../master/walker_sample/walker_sample.md), a C++
 library which efficiently samples a discrete probability vector using
 Walker sampling.
 
@@ -108,7 +108,7 @@ loosely based on the population of counties in Iowa.
 -   **SET\_DISCRETE\_PDF** sets a CDF from a discrete PDF.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

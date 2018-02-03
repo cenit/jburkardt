@@ -30,16 +30,16 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CYCLE\_FLOYD** is available in [a C
-version](../../c_src/cycle_floyd/cycle_floyd.html) and [a C++
-version](../../cpp_src/cycle_floyd/cycle_floyd.html) and [a FORTRAN77
-version](../../f77_src/cycle_floyd/cycle_floyd.html) and [a FORTRAN90
-version](../../f_src/cycle_floyd/cycle_floyd.html) and [a MATLAB
-version](../../m_src/cycle_floyd/cycle_floyd.html) and [a PYTHON
-version](../../py_src/cycle_floyd/cycle_floyd.html).
+version](../../c_src/cycle_floyd/cycle_floyd.md) and [a C++
+version](../../master/cycle_floyd/cycle_floyd.md) and [a FORTRAN77
+version](../../f77_src/cycle_floyd/cycle_floyd.md) and [a FORTRAN90
+version](../../f_src/cycle_floyd/cycle_floyd.md) and [a MATLAB
+version](../../m_src/cycle_floyd/cycle_floyd.md) and [a PYTHON
+version](../../py_src/cycle_floyd/cycle_floyd.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CYCLE\_BRENT](../../cpp_src/cycle_brent/cycle_brent.html), a C++
+[CYCLE\_BRENT](../../master/cycle_brent/cycle_brent.md), a C++
 library which carries out an iterated function evaluation, and seeks to
 determine the nearest element of a cycle, and the cycle's length, using
 Brent's method.
@@ -72,7 +72,7 @@ Brent's method.
     method.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

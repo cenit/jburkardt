@@ -53,34 +53,34 @@ distributed under [the GNU GPL license.](../../txt/gnu_gpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**TSG** is available in [a C++ version](../../cpp_src/tsg/tsg.html) and
-[a FORTRAN90 version](../../f_src/tsg/tsg.html) and [a MATLAB
-version](../../m_src/tsg/tsg.html).
+**TSG** is available in [a C++ version](../../master/tsg/tsg.md) and
+[a FORTRAN90 version](../../f_src/tsg/tsg.md) and [a MATLAB
+version](../../m_src/tsg/tsg.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[SGMG](../../cpp_src/sgmg/sgmg.html), a C++ library which creates a
+[SGMG](../../master/sgmg/sgmg.md), a C++ library which creates a
 sparse grid dataset based on a mixed set of 1D factor rules, and
 experiments with the use of a linear growth rate for the quadrature
 rules.
 
-[SGMGA](../../cpp_src/sgmga/sgmga.html), a C++ library which creates
+[SGMGA](../../master/sgmga/sgmga.md), a C++ library which creates
 sparse grids based on a mixture of 1D quadrature rules, allowing
 anisotropic weights for each dimension.
 
-[SMOLPACK](../../c_src/smolpack/smolpack.html), a C library which
+[SMOLPACK](../../c_src/smolpack/smolpack.md), a C library which
 estimates the integral of a function over a M-dimensional hypercube
 using a sparse grid, by Knut Petras;
 
-[SPARSE\_GRID\_CC](../../cpp_src/sparse_grid_cc/sparse_grid_cc.html), a
+[SPARSE\_GRID\_CC](../../master/sparse_grid_cc/sparse_grid_cc.md), a
 C++ library which creates sparse grids based on Clenshaw-Curtis rules.
 
-[SPARSE\_GRID\_HW](../../cpp_src/sparse_grid_hw/sparse_grid_hw.html), a
+[SPARSE\_GRID\_HW](../../master/sparse_grid_hw/sparse_grid_hw.md), a
 C++ library which creates sparse grids based on Gauss-Legendre,
 Gauss-Hermite, Gauss-Patterson, or a nested variation of Gauss-Hermite
 rules, by Florian Heiss and Viktor Winschel.
 
-[SPINTERP](../../m_src/spinterp/spinterp.html), a MATLAB library which
+[SPINTERP](../../m_src/spinterp/spinterp.md), a MATLAB library which
 carries out piecewise multilinear hierarchical sparse grid
 interpolation; an earlier version of this software is ACM TOMS Algorithm
 847, by Andreas Klimke;
@@ -104,7 +104,7 @@ the TasmanianSparseGrids software library.
 -   [tsg\_prb.cpp](tsg_prb.cpp), the calling program;
 -   [tsg\_prb\_output.txt](tsg_prb_output.txt), the output file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

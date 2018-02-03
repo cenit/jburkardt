@@ -91,45 +91,45 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **KMEANS** is available in [a C++
-version](../../cpp_src/kmeans/kmeans.html) and [a FORTRAN90
-version](../../f_src/kmeans/kmeans.html) and [a MATLAB
-version.](../../m_src/kmeans/kmeans.html)
+version](../../master/kmeans/kmeans.md) and [a FORTRAN90
+version](../../f_src/kmeans/kmeans.md) and [a MATLAB
+version.](../../m_src/kmeans/kmeans.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA058](../../cpp_src/asa058/asa058.html), a C++ library which
+[ASA058](../../master/asa058/asa058.md), a C++ library which
 implements the K-means algorithm of Sparks.
 
-[ASA136](../../cpp_src/asa136/asa136.html), a C++ library which
+[ASA136](../../master/asa136/asa136.md), a C++ library which
 implements the Hartigan and Wong clustering algorithm.
 
-[CITIES](../../cpp_src/cities/cities.html), a C++ library which handles
+[CITIES](../../master/cities/cities.md), a C++ library which handles
 various problems associated with a set of "cities" on a map.
 
-[CITIES](../../datasets/cities/cities.html), a dataset directory which
+[CITIES](../../datasets/cities/cities.md), a dataset directory which
 contains sets of data defining groups of cities.
 
-[CLUSTER\_ENERGY](../../f_src/cluster_energy/cluster_energy.html), a
+[CLUSTER\_ENERGY](../../f_src/cluster_energy/cluster_energy.md), a
 FORTRAN90 program which groups data into a given number of clusters to
 minimize the energy.
 
-[LAU\_NP](../../f_src/lau_np/lau_np.html), a FORTRAN90 library which
+[LAU\_NP](../../f_src/lau_np/lau_np.md), a FORTRAN90 library which
 contains heuristic algorithms for the K-center and K-median problems.
 
-[POINT\_MERGE](../../cpp_src/point_merge/point_merge.html), a C++
+[POINT\_MERGE](../../master/point_merge/point_merge.md), a C++
 library which considers N points in M dimensional space, and counts or
 indexes the unique or "tolerably unique" items.
 
-[SPAETH](../../f_src/spaeth/spaeth.html), a FORTRAN90 library which can
+[SPAETH](../../f_src/spaeth/spaeth.md), a FORTRAN90 library which can
 cluster data according to various principles.
 
-[SPAETH](../../datasets/spaeth/spaeth.html), a dataset directory which
+[SPAETH](../../datasets/spaeth/spaeth.md), a dataset directory which
 contains a set of test data.
 
-[SPAETH2](../../f_src/spaeth2/spaeth2.html), a FORTRAN90 library which
+[SPAETH2](../../f_src/spaeth2/spaeth2.md), a FORTRAN90 library which
 can cluster data according to various principles.
 
-[SPAETH2](../../datasets/spaeth2/spaeth2.html), a dataset directory
+[SPAETH2](../../datasets/spaeth2/spaeth2.md), a dataset directory
 which contains a set of test data.
 
 ### Reference: {#reference align="center"}
@@ -325,7 +325,7 @@ weights\_unequal\_100.txt:
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

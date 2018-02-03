@@ -41,28 +41,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGLE\_HISTOGRAM** is available in [a C++
-version](../../cpp_src/triangle_histogram/triangle_histogram.html) and
+version](../../master/triangle_histogram/triangle_histogram.md) and
 [a FORTRAN90
-version](../../f_src/triangle_histogram/triangle_histogram.html) and [a
-MATLAB version.](../../m_src/triangle_histogram/triangle_histogram.html)
+version](../../f_src/triangle_histogram/triangle_histogram.md) and [a
+MATLAB version.](../../m_src/triangle_histogram/triangle_histogram.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[RANDOM\_DATA](../../cpp_src/random_data/random_data.html), a C++
+[RANDOM\_DATA](../../master/random_data/random_data.md), a C++
 program which produces random samples from a number of regions,
 including triangles.
 
-[TRIANGLE\_ANALYZE](../../cpp_src/triangle_analyze/triangle_analyze.html),
+[TRIANGLE\_ANALYZE](../../master/triangle_analyze/triangle_analyze.md),
 a C++ program which reads a triangle defined in a file, and uses the
 triangle\_properties() library to compute angles, area, centroid,
 circumcircle, edge lengths, incircle, orientation, orthocenter, and
 quality.
 
-[TRIANGLE\_MONTE\_CARLO](../../cpp_src/triangle_monte_carlo/triangle_monte_carlo.html),
+[TRIANGLE\_MONTE\_CARLO](../../master/triangle_monte_carlo/triangle_monte_carlo.md),
 a C++ program which uses the Monte Carlo method to estimate integrals
 over a triangle.
 
-[TRIANGLE\_SAMPLES](../../datasets/triangle_samples/triangle_samples.html),
+[TRIANGLE\_SAMPLES](../../datasets/triangle_samples/triangle_samples.md),
 a dataset directory which contains sets of sample points drawn from the
 unit triangle.
 
@@ -127,7 +127,7 @@ unit triangle.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

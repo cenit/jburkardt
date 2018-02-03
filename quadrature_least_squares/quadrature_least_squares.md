@@ -56,55 +56,55 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUADRATURE\_LEAST\_SQUARES** is available in [a C
-version](../../c_src/quadrature_least_squares/quadrature_least_squares.html)
+version](../../c_src/quadrature_least_squares/quadrature_least_squares.md)
 and [a C++
-version](../../cpp_src/quadrature_least_squares/quadrature_least_squares.html)
+version](../../master/quadrature_least_squares/quadrature_least_squares.md)
 and [a FORTRAN77
-version](../../f77_src/quadrature_least_squares/quadrature_least_squares.html)
+version](../../f77_src/quadrature_least_squares/quadrature_least_squares.md)
 and [a FORTRAN90
-version](../../f_src/quadrature_least_squares/quadrature_least_squares.html)
+version](../../f_src/quadrature_least_squares/quadrature_least_squares.md)
 and [a MATLAB
-version](../../m_src/quadrature_least_squares/quadrature_least_squares.html).
+version](../../m_src/quadrature_least_squares/quadrature_least_squares.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CLENSHAW\_CURTIS\_RULE](../../cpp_src/clenshaw_curtis_rule/clenshaw_curtis_rule.html),
+[CLENSHAW\_CURTIS\_RULE](../../master/clenshaw_curtis_rule/clenshaw_curtis_rule.md),
 a C++ library which defines a multiple dimension Clenshaw Curtis
 quadrature rule.
 
-[QR\_SOLVE](../../cpp_src/qr_solve/qr_solve.html), a C++ library which
+[QR\_SOLVE](../../master/qr_solve/qr_solve.md), a C++ library which
 computes the least squares solution of a rectangular linear system
 A\*x=b.
 
-[QUADMOM](../../cpp_src/quadmom/quadmom.html), a C++ library which
+[QUADMOM](../../master/quadmom/quadmom.md), a C++ library which
 computes a Gaussian quadrature rule for a weight function rho(x) based
 on the Golub-Welsch procedure that only requires knowledge of the
 moments of rho(x).
 
-[QUADRATURE\_GOLUB\_WELSCH](../../cpp_src/quadrature_golub_welsch/quadrature_golub_welsch.html),
+[QUADRATURE\_GOLUB\_WELSCH](../../master/quadrature_golub_welsch/quadrature_golub_welsch.md),
 a C++ library which computes the points and weights of a Gaussian
 quadrature rule using the Golub-Welsch procedure, assuming that the
 points have been specified.
 
-[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../cpp_src/quadrature_weights_vandermonde/quadrature_weights_vandermonde.html),
+[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../master/quadrature_weights_vandermonde/quadrature_weights_vandermonde.md),
 a C++ library which computes the weights of a quadrature rule using the
 Vandermonde matrix, assuming that the points have been specified.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for approximating an integral over a 1D domain.
 
-[QUADRULE\_FAST](../../cpp_src/quadrule_fast/quadrule_fast.html), a C++
+[QUADRULE\_FAST](../../master/quadrule_fast/quadrule_fast.md), a C++
 library which defines efficient versions of a few 1D quadrature rules.
 
-[TEST\_INT](../../cpp_src/test_int/test_int.html), a C++ library which
+[TEST\_INT](../../master/test_int/test_int.md), a C++ library which
 defines test integrands for 1D quadrature rules.
 
-[TRUNCATED\_NORMAL\_RULE](../../cpp_src/truncated_normal_rule/truncated_normal_rule.html),
+[TRUNCATED\_NORMAL\_RULE](../../master/truncated_normal_rule/truncated_normal_rule.md),
 a C++ program which computes a quadrature rule for a normal probability
 density function (PDF), also called a Gaussian distribution, that has
 been truncated to \[A,+oo), (-oo,B\] or \[A,B\].
 
-[VANDERMONDE](../../cpp_src/vandermonde/vandermonde.html), a C++ library
+[VANDERMONDE](../../master/vandermonde/vandermonde.md), a C++ library
 which carries out certain operations associated with the Vandermonde
 matrix.
 
@@ -128,7 +128,7 @@ matrix.
 -   **WEIGHTS\_LS** computes weights for a least squares quadrature
     rule.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

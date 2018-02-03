@@ -43,41 +43,41 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM3D\_SAMPLE** is available in [a C++
-version](../../cpp_src/fem3d_sample/fem3d_sample.html) and [a FORTRAN77
-version](../../f77_src/fem3d_sample/fem3d_sample.html) and [a FORTRAN90
-version](../../f_src/fem3d_sample/fem3d_sample.html) and [a MATLAB
-version.](../../m_src/fem3d_sample/fem3d_sample.html)
+version](../../master/fem3d_sample/fem3d_sample.md) and [a FORTRAN77
+version](../../f77_src/fem3d_sample/fem3d_sample.md) and [a FORTRAN90
+version](../../f_src/fem3d_sample/fem3d_sample.md) and [a MATLAB
+version.](../../m_src/fem3d_sample/fem3d_sample.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM\_IO](../../cpp_src/fem_io/fem_io.html), a C++ library which reads
+[FEM\_IO](../../master/fem_io/fem_io.md), a C++ library which reads
 or writes node, element and data files defining a finite element model.
 
-[FEM\_TO\_TEC](../../m_src/fem_to_tec/fem_to_tec.html), a MATLAB program
+[FEM\_TO\_TEC](../../m_src/fem_to_tec/fem_to_tec.md), a MATLAB program
 which converts FEM models into TEC graphics files.
 
-[FEM1D\_SAMPLE](../../cpp_src/fem1d_sample/fem1d_sample.html), a C++
+[FEM1D\_SAMPLE](../../master/fem1d_sample/fem1d_sample.md), a C++
 program which samples a scalar or vector finite element function of one
-variable, defined by [FEM files](../../data/fem/fem.html), returning
+variable, defined by [FEM files](../../data/fem/fem.md), returning
 interpolated values at the sample points.
 
-[FEM2D\_SAMPLE](../../cpp_src/fem2d_sample/fem2d_sample.html), a C++
+[FEM2D\_SAMPLE](../../master/fem2d_sample/fem2d_sample.md), a C++
 program which samples a scalar or vector finite element function of 2
 variables defined by FEM files, returning interpolated values at the
 sample points.
 
-[FEM3D](../../data/fem3d/fem3d.html), a data directory which contains
+[FEM3D](../../data/fem3d/fem3d.md), a data directory which contains
 examples of 3D FEM files, three text files that describe a 3D finite
 element geometry;
 
-[FEM3D\_PACK](../../cpp_src/fem3d_pack/fem3d_pack.html), a C++ library
+[FEM3D\_PACK](../../master/fem3d_pack/fem3d_pack.md), a C++ library
 which contains utilities for 3D finite element calculations.
 
-[FEM3D\_PROJECT](../../cpp_src/fem3d_project/fem3d_project.html), a C++
+[FEM3D\_PROJECT](../../master/fem3d_project/fem3d_project.md), a C++
 program which projects a function F(X,Y,Z), given as a data, into a
 given finite element space of piecewise linear tetrahedral elements.
 
-[HISTOGRAM\_DATA\_2D\_SAMPLE](../../cpp_src/histogram_data_2d_sample/histogram_data_2d_sample.html),
+[HISTOGRAM\_DATA\_2D\_SAMPLE](../../master/histogram_data_2d_sample/histogram_data_2d_sample.md),
 a C++ program which demonstrates how to construct a Probability Density
 Function (PDF) from a frequency table over a 2D domain, and then to use
 that PDF to create new samples.
@@ -174,7 +174,7 @@ function on a 4x4x4 evenly spaced grid.
     a point.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -65,49 +65,49 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FD1D\_HEAT\_EXPLICIT** is available in [a C
-version](../../c_src/fd1d_heat_explicit/fd1d_heat_explicit.html) and [a
-C++ version](../../cpp_src/fd1d_heat_explicit/fd1d_heat_explicit.html)
+version](../../c_src/fd1d_heat_explicit/fd1d_heat_explicit.md) and [a
+C++ version](../../master/fd1d_heat_explicit/fd1d_heat_explicit.md)
 and [a FORTRAN77
-version](../../f77_src/fd1d_heat_explicit/fd1d_heat_explicit.html) and
+version](../../f77_src/fd1d_heat_explicit/fd1d_heat_explicit.md) and
 [a FORTRAN90
-version](../../f_src/fd1d_heat_explicit/fd1d_heat_explicit.html) and [a
-MATLAB version](../../m_src/fd1d_heat_explicit/fd1d_heat_explicit.html)
+version](../../f_src/fd1d_heat_explicit/fd1d_heat_explicit.md) and [a
+MATLAB version](../../m_src/fd1d_heat_explicit/fd1d_heat_explicit.md)
 and [a Python
-version](../../py_src/fd1d_heat_explicit/fd1d_heat_explicit.html)
+version](../../py_src/fd1d_heat_explicit/fd1d_heat_explicit.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FD1D\_BURGERS\_LAX](../../cpp_src/fd1d_burgers_lax/fd1d_burgers_lax.html),
+[FD1D\_BURGERS\_LAX](../../master/fd1d_burgers_lax/fd1d_burgers_lax.md),
 a C++ program which applies the finite difference method and the
 Lax-Wendroff method to solve the non-viscous time-dependent Burgers
 equation in one spatial dimension.
 
-[FD1D\_BURGERS\_LEAP](../../cpp_src/fd1d_burgers_leap/fd1d_burgers_leap.html),
+[FD1D\_BURGERS\_LEAP](../../master/fd1d_burgers_leap/fd1d_burgers_leap.md),
 a C++ program which applies the finite difference method and the
 leapfrog approach to solve the non-viscous time-dependent Burgers
 equation in one spatial dimension.
 
-[FD1D\_BVP](../../cpp_src/fd1d_bvp/fd1d_bvp.html), a C++ program which
+[FD1D\_BVP](../../master/fd1d_bvp/fd1d_bvp.md), a C++ program which
 applies the finite difference method to a two point boundary value
 problem in one spatial dimension.
 
-[FD1D\_HEAT\_IMPLICIT](../../cpp_src/fd1d_heat_implicit/fd1d_heat_implicit.html),
+[FD1D\_HEAT\_IMPLICIT](../../master/fd1d_heat_implicit/fd1d_heat_implicit.md),
 a C++ program which uses the finite difference method and implicit time
 stepping to solve the time dependent heat equation in 1D.
 
-[FD1D\_HEAT\_STEADY](../../cpp_src/fd1d_heat_steady/fd1d_heat_steady.html),
+[FD1D\_HEAT\_STEADY](../../master/fd1d_heat_steady/fd1d_heat_steady.md),
 a C++ program which uses the finite difference method to solve the
 steady (time independent) heat equation in 1D.
 
-[FD1D\_PREDATOR\_PREY](../../cpp_src/fd1d_predator_prey/fd1d_predator_prey.html),
+[FD1D\_PREDATOR\_PREY](../../master/fd1d_predator_prey/fd1d_predator_prey.md),
 a C++ program which uses finite differences to solve a 1D predator prey
 problem.
 
-[FD1D\_WAVE](../../cpp_src/fd1d_wave/fd1d_wave.html), a C++ program
+[FD1D\_WAVE](../../master/fd1d_wave/fd1d_wave.md), a C++ program
 which applies the finite difference method to solve the time-dependent
 wave equation utt = c \* uxx in one spatial dimension.
 
-[FEM1D](../../cpp_src/fem1d/fem1d.html), a C++ program which applies the
+[FEM1D](../../master/fem1d/fem1d.md), a C++ program which applies the
 finite element method, with piecewise linear basis functions, to a
 linear two point boundary value problem;
 
@@ -155,7 +155,7 @@ source term.
 -   **R8VEC\_WRITE** writes an R8VEC file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

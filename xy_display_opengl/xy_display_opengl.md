@@ -25,36 +25,36 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **XY\_DISPLAY\_OPENGL** is available in [a C++
-version](../../cpp_src/xy_display_opengl/xy_display_opengl.html).
+version](../../master/xy_display_opengl/xy_display_opengl.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html)
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md)
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[XY](../../data/xy/xy.html), a data directory which contains some
+[XY](../../data/xy/xy.md), a data directory which contains some
 examples of 2D pointsets.
 
-[XY\_DISPLAY](../../m_src/xy_display/xy_display.html), a MATLAB program
+[XY\_DISPLAY](../../m_src/xy_display/xy_display.md), a MATLAB program
 which reads XY information defining points in 2D, and displays an image
 in a MATLAB graphics window;
 
-[XY\_IO](../../cpp_src/xy_io/xy_io.html), a C++ library which reads and
+[XY\_IO](../../master/xy_io/xy_io.md), a C++ library which reads and
 writes XY files.
 
-[XYF\_DISPLAY\_OPENGL](../../cpp_src/xyf_display_opengl/xyf_display_opengl.html),
+[XYF\_DISPLAY\_OPENGL](../../master/xyf_display_opengl/xyf_display_opengl.md),
 a C++ program which reads XYF information defining points and faces in
 2D, and displays an image using OpenGL.
 
-[XYL\_DISPLAY\_OPENGL](../../cpp_src/xyl_display_opengl/xyl_display_opengl.html),
+[XYL\_DISPLAY\_OPENGL](../../master/xyl_display_opengl/xyl_display_opengl.md),
 a C++ program which reads XYL information defining points and lines in
 2D, and displays an image using OpenGL.
 
-[XYZ\_DISPLAY\_OPENGL](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html),
+[XYZ\_DISPLAY\_OPENGL](../../master/xyz_display_opengl/xyz_display_opengl.md),
 a C++ program which reads an XYZ file of 3D point coordinates, and
 displays an image of those points using OpenGL.
 
@@ -120,7 +120,7 @@ displays an image of those points using OpenGL.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TIMESTRING** returns the current YMDHMS date as a string.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

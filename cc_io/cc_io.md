@@ -25,25 +25,25 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**CC\_IO** is available in [a C version](../../c_src/cc_io/cc_io.html)
-and [a C++ version](../../cpp_src/cc_io/cc_io.html) and [a FORTRAN77
-version](../../f77_src/cc_io/cc_io.html) and [a FORTRAN90
-version](../../f_src/cc_io/cc_io.html) and [a MATLAB
-version](../../m_src/cc_io/cc_io.html).
+**CC\_IO** is available in [a C version](../../c_src/cc_io/cc_io.md)
+and [a C++ version](../../master/cc_io/cc_io.md) and [a FORTRAN77
+version](../../f77_src/cc_io/cc_io.md) and [a FORTRAN90
+version](../../f_src/cc_io/cc_io.md) and [a MATLAB
+version](../../m_src/cc_io/cc_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CC](../../data/cc/cc.html), a data directory which contains examples of
+[CC](../../data/cc/cc.md), a data directory which contains examples of
 matrix stored in the compressed column (CC) format.
 
-[HB\_IO](../../cpp_src/hb_io/hb_io.html), a C++ library which reads and
+[HB\_IO](../../master/hb_io/hb_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Harwell Boeing (HB) format
 for sparse matrices.
 
-[ST\_IO](../../cpp_src/st_io/st_io.html), a C++ library which reads and
+[ST\_IO](../../master/st_io/st_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Sparse Triplet (ST) format.
 
-[CC\_TO\_ST](../../cpp_src/cc_to_st/cc_to_st.html), a C++ library which
+[CC\_TO\_ST](../../master/cc_to_st/cc_to_st.md), a C++ library which
 converts a sparse matrix from compressed column (CC) to sparse triple
 (ST) format.
 
@@ -85,7 +85,7 @@ this.
     nonblank.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -19,34 +19,34 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SINE\_TRANSFORM** is available in [a C
-version](../../c_src/sine_transform/sine_transform.html) and [a C++
-version](../../cpp_src/sine_transform/sine_transform.html) and [a
-FORTRAN77 version](../../f77_src/sine_transform/sine_transform.html) and
-[a FORTRAN90 version](../../f_src/sine_transform/sine_transform.html)
-and [a MATLAB version](../../m_src/sine_transform/sine_transform.html)
-and [a Python version](../../py_src/sine_transform/sine_transform.html).
+version](../../c_src/sine_transform/sine_transform.md) and [a C++
+version](../../master/sine_transform/sine_transform.md) and [a
+FORTRAN77 version](../../f77_src/sine_transform/sine_transform.md) and
+[a FORTRAN90 version](../../f_src/sine_transform/sine_transform.md)
+and [a MATLAB version](../../m_src/sine_transform/sine_transform.md)
+and [a Python version](../../py_src/sine_transform/sine_transform.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[COSINE\_TRANSFORM](../../cpp_src/cosine_transform/cosine_transform.html),
+[COSINE\_TRANSFORM](../../master/cosine_transform/cosine_transform.md),
 a C++ library which demonstrates some simple properties of the discrete
 cosine transform (DCT).
 
-[FFT\_SERIAL](../../cpp_src/fft_serial/fft_serial.html), a C++ program
+[FFT\_SERIAL](../../master/fft_serial/fft_serial.md), a C++ program
 which demonstrates the computation of a Fast Fourier Transform, and is
 intended as a starting point for implementing a parallel version.
 
-[HAAR](../../cpp_src/haar/haar.html), a C++ library which computes the
+[HAAR](../../master/haar/haar.md), a C++ library which computes the
 Haar transform of data.
 
-[SFTPACK](../../cpp_src/sftpack/sftpack.html), a C++ library which
+[SFTPACK](../../master/sftpack/sftpack.md), a C++ library which
 implements the "slow" Fourier transform, intended as a teaching tool and
 comparison with the fast Fourier transform.
 
-[WALSH](../../cpp_src/walsh/walsh.html), a C++ library which implements
+[WALSH](../../master/walsh/walsh.md), a C++ library which implements
 versions of the Walsh and Haar transforms.
 
-[WAVELET](../../cpp_src/wavelet/wavelet.html), a C++ library which does
+[WAVELET](../../master/wavelet/wavelet.md), a C++ library which does
 some simple calculations with wavelet transforms;
 
 ### Reference: {#reference align="center"}
@@ -88,7 +88,7 @@ some simple calculations with wavelet transforms;
     interpolant.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

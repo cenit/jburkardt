@@ -34,53 +34,53 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **DUEL\_SIMULATION** is available in [a C
-version](../../c_src/duel_simulation/duel_simulation.html) and [a C++
-version](../../cpp_src/duel_simulation/duel_simulation.html) and [a
-FORTRAN77 version](../../f77_src/duel_simulation/duel_simulation.html)
+version](../../c_src/duel_simulation/duel_simulation.md) and [a C++
+version](../../master/duel_simulation/duel_simulation.md) and [a
+FORTRAN77 version](../../f77_src/duel_simulation/duel_simulation.md)
 and [a FORTRAN90
-version](../../f_src/duel_simulation/duel_simulation.html) and [a
+version](../../f_src/duel_simulation/duel_simulation.md) and [a
 Mathematica
-version](../../math_src/duel_simulation/duel_simulation.html) and [a
-MATLAB version](../../m_src/duel_simulation/duel_simulation.html).
+version](../../math_src/duel_simulation/duel_simulation.md) and [a
+MATLAB version](../../m_src/duel_simulation/duel_simulation.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BROWNIAN\_MOTION\_SIMULATION](../../cpp_src/brownian_motion_simulation/brownian_motion_simulation.html),
+[BROWNIAN\_MOTION\_SIMULATION](../../master/brownian_motion_simulation/brownian_motion_simulation.md),
 a C++ library which simulates Brownian motion in an M-dimensional
 region.
 
-[FAIR\_DICE\_SIMULATION](../../cpp_src/fair_dice_simulation/fair_dice_simulation.html),
+[FAIR\_DICE\_SIMULATION](../../master/fair_dice_simulation/fair_dice_simulation.md),
 a C++ program which simulates N tosses of 2 dice, making a histogram of
 the results.
 
-[HIGH\_CARD\_SIMULATION](../../cpp_src/high_card_simulation/high_card_simulation.html),
+[HIGH\_CARD\_SIMULATION](../../master/high_card_simulation/high_card_simulation.md),
 a C++ program which simulates a situation in which you see the cards in
 a deck one by one, and must select the one you think is the highest and
 stop; the program uses GNUPLOT for graphics.
 
-[ISING\_2D\_SIMULATION](../../cpp_src/ising_2d_simulation/ising_2d_simulation.html),
+[ISING\_2D\_SIMULATION](../../master/ising_2d_simulation/ising_2d_simulation.md),
 a C++ program which carries out a Monte Carlo simulation of an Ising
 model. a 2D array of positive and negative charges, each of which is
 likely to "flip" to be in agreement with neighbors.
 
-[LIFE\_OPENGL](../../cpp_src/life_opengl/life_opengl.html), a C++
+[LIFE\_OPENGL](../../master/life_opengl/life_opengl.md), a C++
 program which uses OpenGL to display the evolution of John Conway's
 "Game of Life".
 
-[POISSON\_SIMULATION](../../cpp_src/poisson_simulation/poisson_simulation.html),
+[POISSON\_SIMULATION](../../master/poisson_simulation/poisson_simulation.md),
 a C++ library which simulates a Poisson process in which events randomly
 occur with an average waiting time of Lambda.
 
-[REACTOR\_SIMULATION](../../cpp_src/reactor_simulation/reactor_simulation.html),
+[REACTOR\_SIMULATION](../../master/reactor_simulation/reactor_simulation.md),
 a C++ program which a simple Monte Carlo simulation of the shielding
 effect of a slab of a certain thickness in front of a neutron source.
 This program was provided as an example with the book "Numerical Methods
 and Software."
 
-[SNAKES\_AND\_LADDERS](../../cpp_src/snakes_and_ladders/snakes_and_ladders.html),
+[SNAKES\_AND\_LADDERS](../../master/snakes_and_ladders/snakes_and_ladders.md),
 C++ programs which simulate the game of Snakes and Ladders.
 
-[THREE\_BODY\_SIMULATION](../../cpp_src/three_body_simulation/three_body_simulation.html),
+[THREE\_BODY\_SIMULATION](../../master/three_body_simulation/three_body_simulation.md),
 a C++ program which simulates the behavior of three planets, constrained
 to lie in a plane, and moving under the influence of gravity, by Walter
 Gander and Jiri Hrebicek.
@@ -103,7 +103,7 @@ Gander and Jiri Hrebicek.
 
 -   [duel\_simulation.cpp](duel_simulation.cpp), the program.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

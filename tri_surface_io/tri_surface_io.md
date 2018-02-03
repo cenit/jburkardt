@@ -18,28 +18,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRI\_SURFACE\_IO** is available in [a C++
-version](../../cpp_src/tri_surface_io/tri_surface_io.html) and [a
-FORTRAN90 version](../../f_src/tri_surface_io/tri_surface_io.html) and
-[a MATLAB version.](../../m_src/tri_surface_io/tri_surface_io.html)
+version](../../master/tri_surface_io/tri_surface_io.md) and [a
+FORTRAN90 version](../../f_src/tri_surface_io/tri_surface_io.md) and
+[a MATLAB version.](../../m_src/tri_surface_io/tri_surface_io.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PLY\_TO\_TRI\_SURFACE](../../m_src/ply_to_tri_surface/ply_to_tri_surface.html),
+[PLY\_TO\_TRI\_SURFACE](../../m_src/ply_to_tri_surface/ply_to_tri_surface.md),
 a MATLAB program which extracts data from a PLY file and writes it to a
 TRI\_SURFACE file.
 
-[TRI\_SURFACE](../../data/tri_surface/tri_surface.html), a data
+[TRI\_SURFACE](../../data/tri_surface/tri_surface.md), a data
 directory which has some examples of TRI\_SURFACE files.
 
-[TRI\_SURFACE\_DISPLAY](../../m_src/tri_surface_display/tri_surface_display.html),
+[TRI\_SURFACE\_DISPLAY](../../m_src/tri_surface_display/tri_surface_display.md),
 a MATLAB program which reads a TRI\_SURFACE 3D graphics file and
 displays it in a 3D window.
 
-[TRI\_SURFACE\_DISPLAY\_OPENGL](../../cpp_src/tri_surface_display_opengl/tri_surface_display_opengl.html),
+[TRI\_SURFACE\_DISPLAY\_OPENGL](../../master/tri_surface_display_opengl/tri_surface_display_opengl.md),
 a C++ program which displays the 3D graphics information in a
 TRI\_SURFACE file using OpenGL.
 
-[TRI\_SURFACE\_TO\_PLY](../../m_src/tri_surface_to_ply/tri_surface_to_ply.html),
+[TRI\_SURFACE\_TO\_PLY](../../m_src/tri_surface_to_ply/tri_surface_to_ply.md),
 a MATLAB program which extracts data from a TRI\_SURFACE file and writes
 it to a PLY file.
 
@@ -111,7 +111,7 @@ it to a PLY file.
 -   **TRI\_SURFACE\_WRITE** writes graphics information to a pair of
     TRI\_SURFACE files.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -35,11 +35,11 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SIMPLE\_GA** is available in [a C++
-version](../../cpp_src/simple_ga/simple_ga.html).
+version](../../master/simple_ga/simple_ga.md).
 
 ### Related Programs and Data: {#related-programs-and-data align="center"}
 
-[IMAGE\_MATCH\_GENETIC](../../m_src/image_match_genetic/image_match_genetic.html),
+[IMAGE\_MATCH\_GENETIC](../../m_src/image_match_genetic/image_match_genetic.md),
 a MATLAB program which tries to match a 256x256 JPEG image by blending
 32 colored rectangles, using ideas from genetic algorithms, based on an
 example by Nick Berry.
@@ -85,7 +85,7 @@ John Burkardt.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **XOVER** performs crossover of the two selected parents.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

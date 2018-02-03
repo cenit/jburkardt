@@ -16,30 +16,30 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**PDFLIB** is available in [a C version](../../c_src/pdflib/pdflib.html)
-and [a C++ version](../../cpp_src/pdflib/pdflib.html) and [a FORTRAN90
-version](../../f_src/pdflib/pdflib.html) and [a MATLAB
-version](../../m_src/pdflib/pdflib.html) and [a Python
-version](../../py_src/pdflib/pdflib.html).
+**PDFLIB** is available in [a C version](../../c_src/pdflib/pdflib.md)
+and [a C++ version](../../master/pdflib/pdflib.md) and [a FORTRAN90
+version](../../f_src/pdflib/pdflib.md) and [a MATLAB
+version](../../m_src/pdflib/pdflib.md) and [a Python
+version](../../py_src/pdflib/pdflib.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LOG\_NORMAL\_TRUNCATED\_AB](../../cpp_src/log_normal_truncated_ab/log_normal_truncated_ab.html),
+[LOG\_NORMAL\_TRUNCATED\_AB](../../master/log_normal_truncated_ab/log_normal_truncated_ab.md),
 a C++ library which returns quantities associated with the log normal
 Probability Distribution Function (PDF) truncated to the interval
 \[A,B\].
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which evaluates,
+[PROB](../../master/prob/prob.md), a C++ library which evaluates,
 samples and inverts a number of Probability Density Functions (PDF's).
 
-[RANLIB](../../cpp_src/ranlib/ranlib.html), a C++ library which produces
+[RANLIB](../../master/ranlib/ranlib.md), a C++ library which produces
 random samples from Probability Density Functions (PDF's), including
 Beta, Chi-square Exponential, F, Gamma, Multivariate normal, Noncentral
 chi-square, Noncentral F, Univariate normal, random permutations, Real
 uniform, Binomial, Negative Binomial, Multinomial, Poisson and Integer
 uniform, by Barry Brown and James Lovato.
 
-[RNGLIB](../../cpp_src/rnglib/rnglib.html), a C++ library which
+[RNGLIB](../../master/rnglib/rnglib.md), a C++ library which
 implements a random number generator (RNG) with splitting facilities,
 allowing multiple independent streams to be computed, by L'Ecuyer and
 Cote.
@@ -117,7 +117,7 @@ Cote.
 -   **R8VEC\_MULTINORMAL\_PDF** evaluates a multivariate normal PDF.
 -   **R8VEC\_MULTINORMAL\_SAMPLE** samples a multivariate normal PDF.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

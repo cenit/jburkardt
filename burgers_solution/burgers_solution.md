@@ -25,27 +25,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BURGERS\_SOLUTION** is available in [a C
-version](../../c_src/burgers_solution/burgers_solution.html) and [a C++
-version](../../cpp_src/burgers_solution/burgers_solution.html) and [a
-FORTRAN77 version](../../f77_src/burgers_solution/burgers_solution.html)
+version](../../c_src/burgers_solution/burgers_solution.md) and [a C++
+version](../../master/burgers_solution/burgers_solution.md) and [a
+FORTRAN77 version](../../f77_src/burgers_solution/burgers_solution.md)
 and [a FORTRAN90
-version](../../f_src/burgers_solution/burgers_solution.html) and [a
-MATLAB version](../../m_src/burgers_solution/burgers_solution.html) and
-[a Python version](../../py_src/burgers_solution/burgers_solution.html).
+version](../../f_src/burgers_solution/burgers_solution.md) and [a
+MATLAB version](../../m_src/burgers_solution/burgers_solution.md) and
+[a Python version](../../py_src/burgers_solution/burgers_solution.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BURGERS](../../datasets/burgers/burgers.html), a dataset directory
+[BURGERS](../../datasets/burgers/burgers.md), a dataset directory
 which contains 40 solutions of the Burgers equation in one space
 dimension and time, at equally spaced times from 0 to 1, with values at
 41 equally spaced nodes in \[0,1\];
 
-[FD1D\_BURGERS\_LAX](../../cpp_src/fd1d_burgers_lax/fd1d_burgers_lax.html),
+[FD1D\_BURGERS\_LAX](../../master/fd1d_burgers_lax/fd1d_burgers_lax.md),
 a C++ program which applies the finite difference method and the
 Lax-Wendroff method to solve the non-viscous Burgers equation in one
 spatial dimension and time.
 
-[FD1D\_BURGERS\_LEAP](../../cpp_src/fd1d_burgers_leap/fd1d_burgers_leap.html),
+[FD1D\_BURGERS\_LEAP](../../master/fd1d_burgers_leap/fd1d_burgers_leap.md),
 a C++ program which applies the finite difference method and the
 leapfrog approach to solve the non-viscous Burgers equation in one
 spatial dimension and time.
@@ -103,7 +103,7 @@ spatial dimension and time.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

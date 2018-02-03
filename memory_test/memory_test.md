@@ -47,31 +47,31 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MEMORY\_TEST** is available in [a C
-version](../../c_src/memory_test/memory_test.html) and [a C++
-version](../../cpp_src/memory_test/memory_test.html) and [a FORTRAN90
-version](../../f_src/memory_test/memory_test.html) and [a MATLAB
-version](../../m_src/memory_test/memory_test.html).
+version](../../c_src/memory_test/memory_test.md) and [a C++
+version](../../master/memory_test/memory_test.md) and [a FORTRAN90
+version](../../f_src/memory_test/memory_test.md) and [a MATLAB
+version](../../m_src/memory_test/memory_test.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINPACK\_BENCH](../../cpp_src/linpack_bench/linpack_bench.html), a C++
+[LINPACK\_BENCH](../../master/linpack_bench/linpack_bench.md), a C++
 program which measures the time needed to factor and solve a linear
 system.
 
-[MACHINE](../../f_src/machine/machine.html), a FORTRAN90 library which
+[MACHINE](../../f_src/machine/machine.md), a FORTRAN90 library which
 can return various machine constants.
 
-[MATMUL](../../f_src/matmul/matmul.html), a FORTRAN90 program which is
+[MATMUL](../../f_src/matmul/matmul.md), a FORTRAN90 program which is
 an interactive matrix multiplication benchmark program.
 
-[MDBNCH](../../f77_src/mdbnch/mdbnch.html), a FORTRAN77 program which is
+[MDBNCH](../../f77_src/mdbnch/mdbnch.md), a FORTRAN77 program which is
 a benchmark code for a molecular dynamics calculation.
 
-[SUM\_MILLION](../../cpp_src/sum_million/sum_million.html), a C++
+[SUM\_MILLION](../../master/sum_million/sum_million.md), a C++
 program which sums the integers from 1 to 1,000,000, as a demonstration
 of how to rate a computer's speed;
 
-[TIMER](../../cpp_src/timer/timer.html), C++ programs which demonstrate
+[TIMER](../../master/timer/timer.md), C++ programs which demonstrate
 how to compute CPU time or elapsed time.
 
 ### Source Code: {#source-code align="center"}
@@ -96,7 +96,7 @@ how to compute CPU time or elapsed time.
 -   **R8VEC\_MEMORY\_TEST** declares and uses an R8VEC of size N.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -61,21 +61,21 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LAGRANGE\_ND** is available in [a C++
-version](../../cpp_src/lagrange_nd/lagrange_nd.html) and [a FORTRAN90
-version](../../f_src/lagrange_nd/lagrange_nd.html) and [a MATLAB
-version](../../m_src/lagrange_nd/lagrange_nd.html).
+version](../../master/lagrange_nd/lagrange_nd.md) and [a FORTRAN90
+version](../../f_src/lagrange_nd/lagrange_nd.md) and [a MATLAB
+version](../../m_src/lagrange_nd/lagrange_nd.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LAGRANGE\_INTERP\_ND](../../cpp_src/lagrange_interp_nd/lagrange_interp_nd.html),
+[LAGRANGE\_INTERP\_ND](../../master/lagrange_interp_nd/lagrange_interp_nd.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of multivariate data, so that p(x(i)) = y(i).
 
-[SPARSE\_INTERP\_ND](../../cpp_src/sparse_interp_nd/sparse_interp_nd.html)
+[SPARSE\_INTERP\_ND](../../master/sparse_interp_nd/sparse_interp_nd.md)
 a C++ library which can be used to define a sparse interpolant to a
 function f(x) of a multidimensional argument.
 
-[TEST\_INTERP\_ND](../../cpp_src/test_interp_nd/test_interp_nd.html), a
+[TEST\_INTERP\_ND](../../master/test_interp_nd/test_interp_nd.md), a
 C++ library which defines test problems for interpolation of data z(x),
 depending on an M-dimensional argument.
 
@@ -153,7 +153,7 @@ depending on an M-dimensional argument.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

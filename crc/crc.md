@@ -7,17 +7,17 @@ PNG Cyclic Redundancy Checksum {#crc-png-cyclic-redundancy-checksum align="cente
 **CRC** is a C++ library which computes the PNG CRC (cyclic redundancy
 checksum) for a string of bytes.
 
-PNG is the [Portable Network Graphics format.](../../data/png/png.html)
+PNG is the [Portable Network Graphics format.](../../data/png/png.md)
 The PNG checksum algorithm is used as part of the encoding of a PNG
 file.
 
 ### Languages: {#languages align="center"}
 
-**CRC** is available in [a C++ version](../../cpp_src/crc/crc.html).
+**CRC** is available in [a C++ version](../../master/crc/crc.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PNG](../../data/png/png.html), a data directory which contains examples
+[PNG](../../data/png/png.md), a data directory which contains examples
 of Portable Network Graphics (PNG) files, 2D graphics;
 
 ### Reference: {#reference align="center"}
@@ -46,7 +46,7 @@ of Portable Network Graphics (PNG) files, 2D graphics;
 -   **UPDATE\_CRC\_S** updates a running CRC with a new string of
     characters.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

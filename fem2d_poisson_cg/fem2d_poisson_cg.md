@@ -29,7 +29,7 @@ Normally, the user does not type in this information by hand, but has a
 program fill in the nodes, and perhaps another program that constructs
 the triangulation. However, in the simplest case, the user might
 construct a very crude triangulation by hand, and have
-[TRIANGULATION\_REFINE](../../f_src/triangulation_refine/triangulation_refine.html)
+[TRIANGULATION\_REFINE](../../f_src/triangulation_refine/triangulation_refine.md)
 refine it to something more reasonable.
 
 For the following ridiculously small example:
@@ -121,37 +121,37 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_POISSON\_CG** is available in [a C++
-version](../../cpp_src/fem2d_poisson_cg/fem2d_poisson_cg.html) and [a
-FORTRAN90 version](../../f_src/fem2d_poisson_cg/fem2d_poisson_cg.html)
+version](../../master/fem2d_poisson_cg/fem2d_poisson_cg.md) and [a
+FORTRAN90 version](../../f_src/fem2d_poisson_cg/fem2d_poisson_cg.md)
 and [a MATLAB
-version](../../m_src/fem2d_poisson_cg/fem2d_poisson_cg.html).
+version](../../m_src/fem2d_poisson_cg/fem2d_poisson_cg.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CG\_RC](../../cpp_src/cg_rc/cg_rc.html), a C++ library which implements
+[CG\_RC](../../master/cg_rc/cg_rc.md), a C++ library which implements
 the conjugate gradient method for solving a positive definite sparse
 linear system A\*x=b, using reverse communication.
 
-[FEM2D\_POISSON](../../cpp_src/fem2d_poisson/fem2d_poisson.html), a C++
+[FEM2D\_POISSON](../../master/fem2d_poisson/fem2d_poisson.md), a C++
 program which solves Poisson's equation on a triangulated region, using
 the finite element method and a banded solver.
 
-[FEM2D\_POISSON\_SPARSE](../../cpp_src/fem2d_poisson_sparse/fem2d_poisson_sparse.html),
+[FEM2D\_POISSON\_SPARSE](../../master/fem2d_poisson_sparse/fem2d_poisson_sparse.md),
 a C++ program which solves the steady (time independent) Poisson
 equation on an arbitrary 2D triangulated region using a version of GMRES
 for a sparse solver.
 
-[FEM2D\_POISSON\_CG\_BAFFLE](../../cpp_src/fem2d_poisson_cg_baffle/fem2d_poisson_cg_baffle.html),
+[FEM2D\_POISSON\_CG\_BAFFLE](../../master/fem2d_poisson_cg_baffle/fem2d_poisson_cg_baffle.md),
 a C++ library which defines the geometry of a channel with 13 hexagonal
 baffles, as well as boundary conditions for a given Poisson problem, and
 is called by fem2d\_poisson\_cg as part of a solution procedure.
 
-[FEM2D\_POISSON\_CG\_ELL](../../cpp_src/fem2d_poisson_cg_ell/fem2d_poisson_cg_ell.html),
+[FEM2D\_POISSON\_CG\_ELL](../../master/fem2d_poisson_cg_ell/fem2d_poisson_cg_ell.md),
 a C++ library which defines the geometry of an L-shaped region, as well
 as boundary conditions for a given Poisson problem, and is called by
 fem2d\_poisson\_cg as part of a solution procedure.
 
-[FEM2D\_POISSON\_CG\_LAKE](../../cpp_src/fem2d_poisson_cg_lake/fem2d_poisson_cg_lake.html),
+[FEM2D\_POISSON\_CG\_LAKE](../../master/fem2d_poisson_cg_lake/fem2d_poisson_cg_lake.md),
 a C++ library which defines the geometry of a lake-shaped region, as
 well as boundary conditions for a given Poisson problem, and is called
 by fem2d\_poisson\_cg as part of a solution procedure.
@@ -257,7 +257,7 @@ by fem2d\_poisson\_cg as part of a solution procedure.
 -   **TRIANGULATION\_ORDER3\_NEIGHBOR\_TRIANGLES** determines triangle
     neighbors.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -36,28 +36,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **C++\_CALLS\_C** is available in [a C++
-version](../../cpp_src/c++_calls_c/c++_calls_c.html) and [a FORTRAN77
-version](../../f77_src/f77_calls_c/f77_calls_c.html) and [a FORTRAN90
-version](../../f_src/f90_calls_c/f90_calls_c.html) and [a MATLAB
-version](../../m_src/matlab_calls_c/matlab_calls_c.html).
+version](../../master/c++_calls_c/c++_calls_c.md) and [a FORTRAN77
+version](../../f77_src/f77_calls_c/f77_calls_c.md) and [a FORTRAN90
+version](../../f_src/f90_calls_c/f90_calls_c.md) and [a MATLAB
+version](../../m_src/matlab_calls_c/matlab_calls_c.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[C++\_CALLS\_F77](../../cpp_src/c++_calls_f77/c++_calls_f77.html), C++
+[C++\_CALLS\_F77](../../master/c++_calls_f77/c++_calls_f77.md), C++
 programs which call a FORTRAN77 subroutine.
 
-[C++\_CALLS\_F90](../../cpp_src/c++_calls_f90/c++_calls_f90.html), C++
+[C++\_CALLS\_F90](../../master/c++_calls_f90/c++_calls_f90.md), C++
 programs which call a FORTRAN90 subroutine.
 
-[KRONROD](../../c_src/kronrod/kronrod.html), a C library which can
+[KRONROD](../../c_src/kronrod/kronrod.md), a C library which can
 compute a Gauss and Gauss-Kronrod pair of quadrature rules of arbitrary
 order, by Robert Piessens, Maria Branders.
 
-[KRONROD](../../cpp_src/kronrod/kronrod.html), a C++ library which can
+[KRONROD](../../master/kronrod/kronrod.md), a C++ library which can
 compute a Gauss and Gauss-Kronrod pair of quadrature rules of arbitrary
 order, by Robert Piessens, Maria Branders.
 
-[MIXED](../../cpp_src/mixed/mixed.html), C++ programs which call a
+[MIXED](../../master/mixed/mixed.md), C++ programs which call a
 function written in another programming language.
 
 ### Source Code: {#source-code align="center"}
@@ -78,7 +78,7 @@ the fact that we are calling a FORTRAN77 subroutine.
 
 -   [kronrod\_prb\_output.txt](kronrod_prb_output.txt), the output file;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

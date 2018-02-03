@@ -19,18 +19,18 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SANDIA\_SGMGG** is available in [a C++
-version](../../cpp_src/sandia_sgmgg/sandia_sgmgg.html) and [a FORTRAN90
-version](../../f_src/sandia_sgmgg/sandia_sgmgg.html) and [a MATLAB
-version.](../../m_src/sandia_sgmgg/sandia_sgmgg.html)
+version](../../master/sandia_sgmgg/sandia_sgmgg.md) and [a FORTRAN90
+version](../../f_src/sandia_sgmgg/sandia_sgmgg.md) and [a MATLAB
+version.](../../m_src/sandia_sgmgg/sandia_sgmgg.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[SANDIA\_RULES](../../cpp_src/sandia_rules/sandia_rules.html), a C++
+[SANDIA\_RULES](../../master/sandia_rules/sandia_rules.md), a C++
 library which produces 1D quadrature rules of Chebyshev, Clenshaw
 Curtis, Fejer 2, Gegenbauer, generalized Hermite, generalized Laguerre,
 Hermite, Jacobi, Laguerre, Legendre and Patterson types.
 
-[SGMGA](../../cpp_src/sgmga/sgmga.html), a C++ library which creates
+[SGMGA](../../master/sgmga/sgmga.md), a C++ library which creates
 sparse grids based on a mixture of 1D quadrature rules, allowing
 anisotropic weights for each dimension.
 
@@ -62,7 +62,7 @@ anisotropic weights for each dimension.
 -   **SANDIA\_SGMGG\_NEIGHBOR\_NAIVE** returns the immediate forward
     neighbor array.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

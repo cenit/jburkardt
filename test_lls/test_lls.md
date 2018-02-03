@@ -26,28 +26,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_LLS** is available in [a C
-version](../../c_src/test_lls/test_lls.html) and [a C++
-version](../../cpp_src/test_lls/test_lls.html) and [a FORTRAN77
-version](../../f77_src/test_lls/test_lls.html) and [a FORTRAN90
-version](../../f_src/test_lls/test_lls.html) and [a MATLAB
-version](../../m_src/test_lls/test_lls.html) and [a Python
-version](../../py_src/test_lls/test_lls.html).
+version](../../c_src/test_lls/test_lls.md) and [a C++
+version](../../master/test_lls/test_lls.md) and [a FORTRAN77
+version](../../f77_src/test_lls/test_lls.md) and [a FORTRAN90
+version](../../f_src/test_lls/test_lls.md) and [a MATLAB
+version](../../m_src/test_lls/test_lls.md) and [a Python
+version](../../py_src/test_lls/test_lls.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LLSQ](../../cpp_src/llsq/llsq.html), a C++ library which solves the
+[LLSQ](../../master/llsq/llsq.md), a C++ library which solves the
 simple linear least squares problem of finding the formula of a straight
 line y=a\*x+b which minimizes the root-mean-square error to a set of N
 data points.
 
-[MINPACK](../../cpp_src/minpack/minpack.html), a C++ library which
+[MINPACK](../../master/minpack/minpack.md), a C++ library which
 solves systems of nonlinear equations, or the least squares minimization
 of the residual of a set of linear or nonlinear equations.
 
-[QR\_SOLVE](../../cpp_src/qr_solve/qr_solve.html), a C++ library which
+[QR\_SOLVE](../../master/qr_solve/qr_solve.md), a C++ library which
 computes the least squares solution of a linear system A\*x=b.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
 ### Reference: {#reference align="center"}
@@ -57,7 +57,7 @@ many utility routines using double precision real (R8) arithmetic.
     SIAM, 2004,\
     ISBN13: 978-0-898716-60-3,\
     LC: QA297.M625,\
-    ebook: http://www.mathworks.com/moler/chapters.html
+    ebook: http://www.mathworks.com/moler/chapters.md
 
 ### Source Code: {#source-code align="center"}
 
@@ -113,7 +113,7 @@ many utility routines using double precision real (R8) arithmetic.
 -   **P06\_N** returns the number of variables N for problem 6.
 -   **P06\_X** returns the least squares solution X for problem 6.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

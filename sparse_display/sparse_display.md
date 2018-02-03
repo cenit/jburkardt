@@ -28,28 +28,28 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPARSE\_DISPLAY** is available in [a C
-version](../../c_src/sparse_display/sparse_display.html) and [a C++
-version](../../cpp_src/sparse_display/sparse_display.html) and [a
-FORTRAN77 version](../../f77_src/sparse_display/sparse_display.html) and
-[a FORTRAN90 version](../../f_src/sparse_display/sparse_display.html)
-and [a MATLAB version](../../m_src/sparse_display/sparse_display.html).
+version](../../c_src/sparse_display/sparse_display.md) and [a C++
+version](../../master/sparse_display/sparse_display.md) and [a
+FORTRAN77 version](../../f77_src/sparse_display/sparse_display.md) and
+[a FORTRAN90 version](../../f_src/sparse_display/sparse_display.md)
+and [a MATLAB version](../../m_src/sparse_display/sparse_display.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CG](../../cpp_src/cg/cg.html), a C++ library which implements a simple
+[CG](../../master/cg/cg.md), a C++ library which implements a simple
 version of the conjugate gradient (CG) method for solving a system of
 linear equations of the form A\*x=b, suitable for situations in which
 the matrix A is positive definite (only real, positive eigenvalues) and
 symmetric.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[MM\_IO](../../cpp_src/mm_io/mm_io.html), a C++ library which reads and
+[MM\_IO](../../master/mm_io/mm_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Matrix Market (MM) format.
 
-[WATHEN](../../cpp_src/wathen/wathen.html), a C++ library which compares
+[WATHEN](../../master/wathen/wathen.md), a C++ library which compares
 storage schemes (full, banded, sparse triplet) and solution strategies
 (Linpack full, Linpack banded, conjugate gradient (CG)) for linear
 systems involving the Wathen matrix, which can arise when solving a
@@ -99,7 +99,7 @@ problem using the finite element method (FEM).
     matrix.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -15,37 +15,37 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **GMSH\_IO** is available in [a C
-version](../../c_src/gmsh_io/gmsh_io.html) and [a C++
-version](../../cpp_src/gmsh_io/gmsh_io.html) and [a FORTRAN77
-version](../../f77_src/gmsh_io/gmsh_io.html) and [a FORTRAN90
-version](../../f_src/gmsh_io/gmsh_io.html) and [a MATLAB
-version](../../m_src/gmsh_io/gmsh_io.html).
+version](../../c_src/gmsh_io/gmsh_io.md) and [a C++
+version](../../master/gmsh_io/gmsh_io.md) and [a FORTRAN77
+version](../../f77_src/gmsh_io/gmsh_io.md) and [a FORTRAN90
+version](../../f_src/gmsh_io/gmsh_io.md) and [a MATLAB
+version](../../m_src/gmsh_io/gmsh_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DOLFIN-CONVERT](../../py_src/dolfin-convert/dolfin-convert.html), a
+[DOLFIN-CONVERT](../../py_src/dolfin-convert/dolfin-convert.md), a
 Python program which can convert a mesh file from Gmsh, MEDIT, METIS or
 SCOTCH format to an XML format suitable for use by DOLFIN or FENICS, by
 Anders Logg.
 
-[FEM\_TO\_GMSH](../../cpp_src/fem_to_gmsh/fem_to_gmsh.html), a C++
+[FEM\_TO\_GMSH](../../master/fem_to_gmsh/fem_to_gmsh.md), a C++
 program which reads FEM files definining a 1D, 2D or 3D mesh, namely a
 file of node coordinates and a file of elements defined by node indices,
 and creates a Gmsh mesh file.
 
-[GMSH](../../examples/gmsh/gmsh.html), examples which illustrate the use
+[GMSH](../../examples/gmsh/gmsh.md), examples which illustrate the use
 of the Gmsh program, a 1D, 2D or 3D mesh generator that can create
 meshes suitable for use by the finite element method (FEM).
 
-[GMSH\_TO\_FEM](../../cpp_src/gmsh_to_fem/gmsh_to_fem.html), a C++
+[GMSH\_TO\_FEM](../../master/gmsh_to_fem/gmsh_to_fem.md), a C++
 program which reads a mesh data file created by the GMSH program and
 writes a pair of node and element files that correspond to the FEM
 format.
 
-[MSH](../../data/msh/msh.html), a data directory of examples of MSH
+[MSH](../../data/msh/msh.md), a data directory of examples of MSH
 files, the native 3D mesh format used by Gmsh.
 
-[TETHEX](../../examples/tethex/tethex.html), examples which illustrate
+[TETHEX](../../examples/tethex/tethex.md), examples which illustrate
 the use of TETHEX, a C++ program which can read a Gmsh file defining a
 mesh of triangles or tetrahedrons, and subdivide the mesh into
 quadrilaterals or hexahedrons, which are suitable for use by the DEALII
@@ -108,7 +108,7 @@ finite element program, by Mikhail Artemiev.
 -   **S\_TO\_R8** reads an R8 from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

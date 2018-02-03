@@ -88,49 +88,49 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ZERO\_RC** is available in [a C
-version](../../c_src/zero_rc/zero_rc.html) and [a C++
-version](../../cpp_src/zero_rc/zero_rc.html) and [a FORTRAN90
-version](../../f_src/zero_rc/zero_rc.html) and [a MATLAB
-version](../../m_src/zero_rc/zero_rc.html) and [a Python
-version](../../py_src/zero_rc/zero_rc.html)..
+version](../../c_src/zero_rc/zero_rc.md) and [a C++
+version](../../master/zero_rc/zero_rc.md) and [a FORTRAN90
+version](../../f_src/zero_rc/zero_rc.md) and [a MATLAB
+version](../../m_src/zero_rc/zero_rc.md) and [a Python
+version](../../py_src/zero_rc/zero_rc.md)..
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BACKTRACK\_BINARY\_RC](../../cpp_src/backtrack_binary_rc/backtrack_binary_rc.html),
+[BACKTRACK\_BINARY\_RC](../../master/backtrack_binary_rc/backtrack_binary_rc.md),
 a C++ library which carries out a backtrack search for a set of binary
 decisions, using reverse communication (RC).
 
-[BISECTION\_RC](../../cpp_src/bisection_rc/bisection_rc.html), a C++
+[BISECTION\_RC](../../master/bisection_rc/bisection_rc.md), a C++
 library which seeks a solution to the equation F(X)=0 using bisection
 within a user-supplied change of sign interval \[A,B\]. The procedure is
 written using reverse communication (RC).
 
-[BRENT](../../cpp_src/brent/brent.html), a C++ library which contains
+[BRENT](../../master/brent/brent.md), a C++ library which contains
 routines for finding zeroes or minima of a scalar function of a scalar
 variable, without the use of derivative information, including a reverse
 communication (RC) option, by Richard Brent.
 
-[CG\_RC](../../cpp_src/cg_rc/cg_rc.html), a C++ library which implements
+[CG\_RC](../../master/cg_rc/cg_rc.md), a C++ library which implements
 the conjugate gradient (CG) method for solving a positive definite
 sparse linear system A\*x=b, using reverse communication (RC).
 
-[LOCAL\_MIN\_RC](../../cpp_src/local_min_rc/local_min_rc.html), a C++
+[LOCAL\_MIN\_RC](../../master/local_min_rc/local_min_rc.md), a C++
 library which finds a local minimum of a scalar function of a scalar
 variable, without the use of derivative information, using reverse
 communication (RC), by Richard Brent.
 
-[ROOT\_RC](../../cpp_src/root_rc/root_rc.html), a C++ library which
+[ROOT\_RC](../../master/root_rc/root_rc.md), a C++ library which
 seeks a solution of a scalar nonlinear equation f(x) = 0, using reverse
 communication (RC), by Gaston Gonnet.
 
-[ROOTS\_RC](../../cpp_src/roots_rc/roots_rc.html), a C++ library which
+[ROOTS\_RC](../../master/roots_rc/roots_rc.md), a C++ library which
 seeks a solution of a system of nonlinear equations f(x) = 0, using
 reverse communication (RC), by Gaston Gonnet.
 
-[SORT\_RC](../../cpp_src/sort_rc/sort_rc.html), a C++ library which can
+[SORT\_RC](../../master/sort_rc/sort_rc.md), a C++ library which can
 sort a list of any kind of objects, using reverse communication (RC).
 
-[TEST\_ZERO](../../cpp_src/test_zero/test_zero.html), a C++ library
+[TEST\_ZERO](../../master/test_zero/test_zero.md), a C++ library
 which implements test problems for the solution of a single nonlinear
 equation in one variable.
 
@@ -163,7 +163,7 @@ equation in one variable.
 -   **ZERO\_RC** solves a single nonlinear equation using reverse
     communication.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

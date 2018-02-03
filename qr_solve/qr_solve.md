@@ -80,30 +80,30 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QR\_SOLVE** is available in [a C
-version](../../c_src/qr_solve/qr_solve.html) and [a C++
-version](../../cpp_src/qr_solve/qr_solve.html) and [a FORTRAN77
-version](../../f77_src/qr_solve/qr_solve.html) and [a FORTRAN90
-version](../../f_src/qr_solve/qr_solve.html) and [a MATLAB
-version](../../m_src/qr_solve/qr_solve.html).
+version](../../c_src/qr_solve/qr_solve.md) and [a C++
+version](../../master/qr_solve/qr_solve.md) and [a FORTRAN77
+version](../../f77_src/qr_solve/qr_solve.md) and [a FORTRAN90
+version](../../f_src/qr_solve/qr_solve.md) and [a MATLAB
+version](../../m_src/qr_solve/qr_solve.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINPACK\_D](../../cpp_src/linpack_d/linpack_d.html), a C++ library
+[LINPACK\_D](../../master/linpack_d/linpack_d.md), a C++ library
 which solves linear systems using double precision real arithmetic;
 
-[LLSQ](../../cpp_src/llsq/llsq.html), a C++ library which solves the
+[LLSQ](../../master/llsq/llsq.md), a C++ library which solves the
 simple linear least squares problem of finding the formula of a straight
 line y=a\*x+b which minimizes the root-mean-square error to a set of N
 data points.
 
-[MINPACK](../../cpp_src/minpack/minpack.html), a C++ library which
+[MINPACK](../../master/minpack/minpack.md), a C++ library which
 solves systems of nonlinear equations, or the least squares minimization
 of the residual of a set of linear or nonlinear equations.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[TEST\_LS](../../cpp_src/test_ls/test_ls.html), a C++ library which
+[TEST\_LS](../../master/test_ls/test_ls.md), a C++ library which
 implements linear least squares test problems of the form A\*x=b.
 
 ### Reference: {#reference align="center"}
@@ -153,7 +153,7 @@ implements linear least squares test problems of the form A\*x=b.
 -   **QR\_SOLVE** solves a linear system in the least squares sense.
 -   **SVD\_SOLVE** solves a linear system in the least squares sense.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

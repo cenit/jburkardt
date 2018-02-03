@@ -14,35 +14,35 @@ you pay for, written by someone who knows what they're doing.
 
 The supported formats include:
 
--   [3DS](../../data/3ds/3ds.html) AutoCAD 3D Studio Max binary files;
--   [ASE](../../data/ase/ase.html) AutoCAD ASCII export files;
--   [BYU](../../data/byu/byu.html) Movie.BYU surface geometry files;
--   [DXF](../../data/dxf/dxf.html) AutoCAD DXF files;
--   [GMOD](../../data/gmod/gmod.html) Golgotha GMOD files;
--   [HRC](../../data/hrc/hrc.html) SoftImage hierarchical files;
--   [IV](../../data/iv/iv.html) SGI Inventor files;
+-   [3DS](../../data/3ds/3ds.md) AutoCAD 3D Studio Max binary files;
+-   [ASE](../../data/ase/ase.md) AutoCAD ASCII export files;
+-   [BYU](../../data/byu/byu.md) Movie.BYU surface geometry files;
+-   [DXF](../../data/dxf/dxf.md) AutoCAD DXF files;
+-   [GMOD](../../data/gmod/gmod.md) Golgotha GMOD files;
+-   [HRC](../../data/hrc/hrc.md) SoftImage hierarchical files;
+-   [IV](../../data/iv/iv.md) SGI Inventor files;
 -   OBJ - a file format from Alias (
-    <http://www.alias.com/eng/index.shtml>)
--   [OFF](../../data/off/off.html) GEOMVIEW OFF files;
--   [POV](../../data/pov/pov.html) Persistence of Vision files (output
+    <http://www.alias.com/eng/index..md>)
+-   [OFF](../../data/off/off.md) GEOMVIEW OFF files;
+-   [POV](../../data/pov/pov.md) Persistence of Vision files (output
     only);
--   [SMF](../../data/smf/smf.html) Michael Garland's format for his
+-   [SMF](../../data/smf/smf.md) Michael Garland's format for his
     QSLIM program;
--   [STL/STLA](../../data/stla/stla.html) ASCII Stereolithography files;
--   [STLB](../../data/stlb/stlb.html) binary Stereolithography files;
--   [TEC](../../data/tec/tec.html) TECPLOT files (output only);
--   [TRI/TRIA](../../data/tria/tria.html) a simple ASCII triangle format
+-   [STL/STLA](../../data/stla/stla.md) ASCII Stereolithography files;
+-   [STLB](../../data/stlb/stlb.md) binary Stereolithography files;
+-   [TEC](../../data/tec/tec.md) TECPLOT files (output only);
+-   [TRI/TRIA](../../data/tria/tria.md) a simple ASCII triangle format
     requested by Greg Hood;
--   [TRIB](../../data/trib/trib.html) a simple binary triangle format
+-   [TRIB](../../data/trib/trib.md) a simple binary triangle format
     requested by Greg Hood;
--   [TXT](../../data/txt/txt.html) a text dump (output only);
--   [UCD](../../data/ucd/ucd.html) Advanced Visual Systems (AVS)
+-   [TXT](../../data/txt/txt.md) a text dump (output only);
+-   [UCD](../../data/ucd/ucd.md) Advanced Visual Systems (AVS)
     Unstructured Cell Data (output only);
--   [VLA](../../data/vla/vla.html) Evans and Sutherland Digistar II VLA
+-   [VLA](../../data/vla/vla.md) Evans and Sutherland Digistar II VLA
     files for planetariums;
--   [WRL](../../data/wrl/wrl.html) WRL/VRML (Virtual Reality Modeling
+-   [WRL](../../data/wrl/wrl.md) WRL/VRML (Virtual Reality Modeling
     Language) files (output only).
--   [XGL](../../data/xgl/xgl.html) the XGL format, based on the XML
+-   [XGL](../../data/xgl/xgl.md) the XGL format, based on the XML
     language and OpenGl graphics (output only).
 
 The program can be used in command line form, as in:
@@ -72,10 +72,10 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[IVREAD](../../f_src/ivread/ivread.html), a FORTRAN90 program which can
+[IVREAD](../../f_src/ivread/ivread.md), a FORTRAN90 program which can
 convert some 3D graphics files.
 
-[TEC\_TO\_OBJ](../../f_src/tec_to_obj/tec_to_obj.html), a FORTRAN90
+[TEC\_TO\_OBJ](../../f_src/tec_to_obj/tec_to_obj.md), a FORTRAN90
 program which can read a TECPLOT file describing a surface in 3D
 composed of triangles or quadrilaterals, and write an OBJ file.
 
@@ -265,7 +265,7 @@ composed of triangles or quadrilaterals, and write an OBJ file.
 -   **WRL\_WRITE** writes graphics data to a WRL file.
 -   **XGL\_WRITE** writes an XGL file.
 
-You can go up one level to [the graphics source codes](../g_src.html).
+You can go up one level to [the graphics source codes](../g_src.md).
 
 ------------------------------------------------------------------------
 

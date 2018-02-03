@@ -33,30 +33,30 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TABLE\_LATINIZE** is available in [a C++
-version](../../cpp_src/table_latinize/table_latinize.html) and [a
-FORTRAN90 version](../../f_src/table_latinize/table_latinize.html) and
-[a MATLAB version](../../m_src/table_latinize/table_latinize.html).
+version](../../master/table_latinize/table_latinize.md) and [a
+FORTRAN90 version](../../f_src/table_latinize/table_latinize.md) and
+[a MATLAB version](../../m_src/table_latinize/table_latinize.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BOX\_BEHNKEN](../../cpp_src/box_behnken/box_behnken.html), a C++
+[BOX\_BEHNKEN](../../master/box_behnken/box_behnken.md), a C++
 library which computes a Box-Behnken design, that is, a set of arguments
 to sample the behavior of a function of multiple parameters;
 
-[LATINIZE](../latinize/latinize.html), a C++ library which carries out
+[LATINIZE](../latinize/latinize.md), a C++ library which carries out
 the calculations needed by TABLE\_LATINIZE.
 
-[TABLE](../../data/table/table.html), a file format which is used for
+[TABLE](../../data/table/table.md), a file format which is used for
 the input and output of **TABLE\_LATINIZE**.
 
-[TABLE\_DELAUNAY](../../cpp_src/table_delaunay/table_delaunay.html), a
+[TABLE\_DELAUNAY](../../master/table_delaunay/table_delaunay.md), a
 C++ program which reads a file of 2d point coordinates and computes the
 Delaunay triangulation.
 
-[TABLE\_IO](../../cpp_src/table_io/table_io.html), a C++ library which
+[TABLE\_IO](../../master/table_io/table_io.md), a C++ library which
 can read or write a TABLE file.
 
-[TABLE\_QUALITY](../../cpp_src/table_quality/table_quality.html), a C++
+[TABLE\_QUALITY](../../master/table_quality/table_quality.md), a C++
 program which can read a TABLE file and print out measures of the
 quality of dispersion of the points.
 
@@ -78,7 +78,7 @@ quality of dispersion of the points.
 -   [cvt\_02\_00010.txt](cvt_02_00010.txt), the original set of 10
     points in 2D.
 -   [cvt\_02\_00010.png](cvt_02_00010.png), a
-    [PNG](../../data/png/png.html) image of the points.
+    [PNG](../../data/png/png.md) image of the points.
 -   [cvt\_02\_00010.latin.txt](cvt_02_00010.latin.txt), the latinized
     version of the dataset.
 -   [cvt\_02\_00010.latin.png](cvt_02_00010.latin.png), a PNG image of
@@ -114,7 +114,7 @@ quality of dispersion of the points.
 
 -   **MAIN** is the main program for TABLE\_LATINIZE.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

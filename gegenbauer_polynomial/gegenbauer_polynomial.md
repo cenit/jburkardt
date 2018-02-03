@@ -37,63 +37,63 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **GEGENBAUER\_POLYNOMIAL** is available in [a C
-version](../../c_src/gegenbauer_polynomial/gegenbauer_polynomial.html)
+version](../../c_src/gegenbauer_polynomial/gegenbauer_polynomial.md)
 and [a C++
-version](../../cpp_src/gegenbauer_polynomial/gegenbauer_polynomial.html)
+version](../../master/gegenbauer_polynomial/gegenbauer_polynomial.md)
 and [a FORTRAN90
-version](../../f_src/gegenbauer_polynomial/gegenbauer_polynomial.html)
+version](../../f_src/gegenbauer_polynomial/gegenbauer_polynomial.md)
 and [a MATLAB
-version](../../m_src/gegenbauer_polynomial/gegenbauer_polynomial.html)
+version](../../m_src/gegenbauer_polynomial/gegenbauer_polynomial.md)
 and [a Python
-version](../../py_src/gegenbauer_polynomial/gegenbauer_polynomial.html)..
+version](../../py_src/gegenbauer_polynomial/gegenbauer_polynomial.md)..
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[CHEBYSHEV\_POLYNOMIAL](../../cpp_src/chebyshev_polynomial/chebyshev_polynomial.html),
+[CHEBYSHEV\_POLYNOMIAL](../../master/chebyshev_polynomial/chebyshev_polynomial.md),
 a C++ library which considers the Chebyshev polynomials T(i,x), U(i,x),
 V(i,x) and W(i,x). Functions are provided to evaluate the polynomials,
 determine their zeros, produce their polynomial coefficients, produce
 related quadrature rules, project other functions onto these polynomial
 bases, and integrate double and triple products of the polynomials.
 
-[GEGENBAUER\_CC](../../cpp_src/gegenbauer_cc/gegenbauer_cc.html), a C++
+[GEGENBAUER\_CC](../../master/gegenbauer_cc/gegenbauer_cc.md), a C++
 library which estimates the Gegenbauer weighted integral of a function
 f(x) using a Clenshaw-Curtis approach.
 
-[GEGENBAUER\_RULE](../../cpp_src/gegenbauer_rule/gegenbauer_rule.html),
+[GEGENBAUER\_RULE](../../master/gegenbauer_rule/gegenbauer_rule.md),
 a C++ program which can generate a Gauss-Gegenbauer quadrature rule on
 request.
 
-[HERMITE\_POLYNOMIAL](../../cpp_src/hermite_polynomial/hermite_polynomial.html),
+[HERMITE\_POLYNOMIAL](../../master/hermite_polynomial/hermite_polynomial.md),
 a C++ library which evaluates the physicist's Hermite polynomial, the
 probabilist's Hermite polynomial, the Hermite function, and related
 functions.
 
-[JACOBI\_POLYNOMIAL](../../cpp_src/jacobi_polynomial/jacobi_polynomial.html),
+[JACOBI\_POLYNOMIAL](../../master/jacobi_polynomial/jacobi_polynomial.md),
 a C++ library which evaluates the Jacobi polynomial and associated
 functions.
 
-[LAGUERRE\_POLYNOMIAL](../../cpp_src/laguerre_polynomial/laguerre_polynomial.html),
+[LAGUERRE\_POLYNOMIAL](../../master/laguerre_polynomial/laguerre_polynomial.md),
 a C++ library which evaluates the Laguerre polynomial, the generalized
 Laguerre polynomial, and the Laguerre function.
 
-[LEGENDRE\_POLYNOMIAL](../../cpp_src/legendre_polynomial/legendre_polynomial.html),
+[LEGENDRE\_POLYNOMIAL](../../master/legendre_polynomial/legendre_polynomial.md),
 a C++ library which evaluates the Legendre polynomial and associated
 functions.
 
-[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../cpp_src/legendre_shifted_polynomial/legendre_shifted_polynomial.html),
+[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../master/legendre_shifted_polynomial/legendre_shifted_polynomial.md),
 a C++ library which evaluates the shifted Legendre polynomial, with
 domain \[0,1\].
 
-[LOBATTO\_POLYNOMIAL](../../cpp_src/lobatto_polynomial/lobatto_polynomial.html),
+[LOBATTO\_POLYNOMIAL](../../master/lobatto_polynomial/lobatto_polynomial.md),
 a C++ library which evaluates Lobatto polynomials, similar to Legendre
 polynomials except that they are zero at both endpoints.
 
-[POLPAK](../../cpp_src/polpak/polpak.html), a C++ library which
+[POLPAK](../../master/polpak/polpak.md), a C++ library which
 evaluates a variety of mathematical functions.
 
 ### Source Code: {#source-code align="center"}
@@ -140,7 +140,7 @@ evaluates a variety of mathematical functions.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

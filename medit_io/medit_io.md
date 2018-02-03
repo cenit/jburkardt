@@ -18,35 +18,35 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MEDIT\_IO** is available in [a C
-version](../../c_src/medit_io/medit_io.html) and [a C++
-version](../../cpp_src/medit_io/medit_io.html) and [a FORTRAN77
-version](../../f77_src/medit_io/medit_io.html) and [a FORTRAN90
-version](../../f_src/medit_io/medit_io.html) and [a MATLAB
-version](../../m_src/medit_io/medit_io.html).
+version](../../c_src/medit_io/medit_io.md) and [a C++
+version](../../master/medit_io/medit_io.md) and [a FORTRAN77
+version](../../f77_src/medit_io/medit_io.md) and [a FORTRAN90
+version](../../f_src/medit_io/medit_io.md) and [a MATLAB
+version](../../m_src/medit_io/medit_io.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[FEM\_TO\_MEDIT](../../cpp_src/fem_to_medit/fem_to_medit.html), a C++
+[FEM\_TO\_MEDIT](../../master/fem_to_medit/fem_to_medit.md), a C++
 program which reads a pair of FEM files defining node coordinates and
 elements, and creates a corresponding MEDIT mesh file.
 
-[MEDIT](../../data/medit/medit.html), a data directory which contains
+[MEDIT](../../data/medit/medit.md), a data directory which contains
 examples of files which can be used by the MEDIT program to define a 2D
 or 3D mesh for use by the finite element method (FEM), using triangles,
 quadrilaterals, tetrahedrons or hexahedrons.
 
-[MEDIT](../../examples/medit/medit.html), examples which illustrate the
+[MEDIT](../../examples/medit/medit.md), examples which illustrate the
 use of medit, an interactive graphics program developed to visualize
 numerical simulation results on unstructured meshes in two and three
 dimensions. Scalar, vector and tensor fields can be easily associated
 and displayed with meshes. The program is by Pascal Frey.
 
-[MEDIT\_TO\_FEM](../../cpp_src/medit_to_fem/medit_to_fem.html), a C++
+[MEDIT\_TO\_FEM](../../master/medit_to_fem/medit_to_fem.md), a C++
 program which reads a mesh file created by the MEDIT program and writes
 a corresponding pair of node and element files that correspond to the
 FEM format.
 
-[TRIANGLE\_TO\_MEDIT](../../cpp_src/triangle_to_medit/triangle_to_medit.html),
+[TRIANGLE\_TO\_MEDIT](../../master/triangle_to_medit/triangle_to_medit.md),
 a C++ program which reads the NODE and ELE files created by triangle()
 to describe a triangular mesh, and writes a corresponding MESH file for
 input to medit().
@@ -101,7 +101,7 @@ input to medit().
 -   **S\_TO\_R8VEC** reads an R8VEC from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

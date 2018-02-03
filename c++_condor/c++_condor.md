@@ -204,31 +204,31 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **C++\_CONDOR** is available in [a C
-version](../../c_src/c_condor/c_condor.html) and [a C++
-version](../../cpp_src/c++_condor/c++_condor.html) and [a FORTRAN77
-version](../../f77_src/f77_condor/f77_condor.html) and [a FORTRAN90
-version](../../f_src/f90_condor/f90_condor.html) and [a MATLAB
-version](../../m_src/matlab_condor/matlab_condor.html)
+version](../../c_src/c_condor/c_condor.md) and [a C++
+version](../../master/c++_condor/c++_condor.md) and [a FORTRAN77
+version](../../f77_src/f77_condor/f77_condor.md) and [a FORTRAN90
+version](../../f_src/f90_condor/f90_condor.md) and [a MATLAB
+version](../../m_src/matlab_condor/matlab_condor.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[C\_CONDOR](../../c_src/c_condor/c_condor.html), C programs which
+[C\_CONDOR](../../c_src/c_condor/c_condor.md), C programs which
 illustrate how a C program can be run in batch mode using the condor
 queueing system.
 
-[CONDOR](../../examples/condor/condor.html), examples which demonstrates
+[CONDOR](../../examples/condor/condor.md), examples which demonstrates
 the use of the CONDOR queueing system to submit jobs that run on a one
 or more remote machines.
 
-[F77\_CONDOR](../../f77_src/f77_condor/f77_condor.html), FORTRAN77
+[F77\_CONDOR](../../f77_src/f77_condor/f77_condor.md), FORTRAN77
 programs which illustrate how a FORTRAN77 program can be run in batch
 mode using the condor queueing system.
 
-[F90\_CONDOR](../../f_src/f90_condor/f90_condor.html), programs which
+[F90\_CONDOR](../../f_src/f90_condor/f90_condor.md), programs which
 illustrate how a FORTRAN90 program can be executed with the CONDOR batch
 queueing system.
 
-[MATLAB\_CONDOR](../../m_src/matlab_condor/matlab_condor.html), programs
+[MATLAB\_CONDOR](../../m_src/matlab_condor/matlab_condor.md), programs
 which illustrate how a MATLAB program can be executed with the CONDOR
 batch queueing system.
 
@@ -253,7 +253,7 @@ Mandelbrot set.
 -   [mandelbrot\_log.txt](mandelbrot_log.txt), CONDOR's log file
     (records the job submission, execution, and completion).
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

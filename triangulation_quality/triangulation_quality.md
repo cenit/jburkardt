@@ -41,44 +41,44 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGULATION\_QUALITY** is available in [a C++
-version](../../cpp_src/triangulation_quality/triangulation_quality.html)
+version](../../master/triangulation_quality/triangulation_quality.md)
 and [a FORTRAN90
-version](../../f_src/triangulation_quality/triangulation_quality.html)
+version](../../f_src/triangulation_quality/triangulation_quality.md)
 and [a MATLAB
-version.](../../m_src/triangulation_quality/triangulation_quality.html)
+version.](../../m_src/triangulation_quality/triangulation_quality.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DISTMESH](../../m_src/distmesh/distmesh.html), a MATLAB library which
+[DISTMESH](../../m_src/distmesh/distmesh.md), a MATLAB library which
 carries out triangular or tetrahedral mesh generation, by Per-Olof
 Persson and Gilbert Strang.
 
-[MESH2D](../../m_src/mesh2d/mesh2d.html), a MATLAB library which can
+[MESH2D](../../m_src/mesh2d/mesh2d.md), a MATLAB library which can
 automatically create a triangular mesh for a given polygonal region, by
 Darren Engwirda.
 
-[TET\_MESH\_QUALITY](../../cpp_src/tet_mesh_quality/tet_mesh_quality.html),
+[TET\_MESH\_QUALITY](../../master/tet_mesh_quality/tet_mesh_quality.md),
 a C++ program which computes quality measures of a tetrahedral mesh.
 
-[TRIANGLE](../../c_src/triangle/triangle.html) is a C program which
+[TRIANGLE](../../c_src/triangle/triangle.md) is a C program which
 computes a triangulation of a geometric region.
 
-[TRIANGULATION](../../cpp_src/triangulation/triangulation.html) is a C++
+[TRIANGULATION](../../master/triangulation/triangulation.md) is a C++
 library which carries out various operations on order 3 ("linear") or
 order 6 ("quadratic") triangulations.
 
-[TRIANGULATION\_NODE\_TO\_ELEMENT](../../cpp_src/triangulation_node_to_element/triangulation_node_to_element.html),
+[TRIANGULATION\_NODE\_TO\_ELEMENT](../../master/triangulation_node_to_element/triangulation_node_to_element.md),
 a C++ program which reads files describing a set of nodes, their
 triangulation, and the value of one or more quantities at each node, and
 outputs a file that averages the quantities for each element. This
 operation in effect creates an "order1" finite element model of the
 data.
 
-[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.html)
+[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.md)
 is a directory which contains a description and examples of order 3
 triangulations.
 
-[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.html)
+[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.md)
 is a directory which contains a description and examples of order 6
 triangulations.
 
@@ -173,7 +173,7 @@ hexagonal holes, which have been arranged into an order 6 triangulation.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

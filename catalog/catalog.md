@@ -110,36 +110,36 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CATALOG** is available in [a C++
-version](../../cpp_src/catalog/catalog.html).
+version](../../master/catalog/catalog.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[EXTRACT](../../f_src/extract/extract.html), a FORTRAN90 program which
+[EXTRACT](../../f_src/extract/extract.md), a FORTRAN90 program which
 extracts a subroutine, function or module by name from a FORTRAN77 or
 FORTRAN90 file.
 
-[F77\_CLEANUP](../../f_src/f77_cleanup/f77_cleanup.html), a FORTRAN90
+[F77\_CLEANUP](../../f_src/f77_cleanup/f77_cleanup.md), a FORTRAN90
 program which makes a copy of a FORTRAN77 file in which some minor
 cleanups have been made.
 
-[F77SPLIT](../../c_src/f77split/f77split.html), a C program which reads
+[F77SPLIT](../../c_src/f77split/f77split.md), a C program which reads
 a FORTRAN77 file and creates individual files for every subroutine or
 function in the file.
 
-[F90SPLIT](../../f_src/f90split/f90split.html), a FORTRAN90 program
+[F90SPLIT](../../f_src/f90split/f90split.md), a FORTRAN90 program
 which reads a FORTRAN90 file and creates individual files for every
 subroutine or function in the file.
 
-[FIXCON](../../f_src/fixcon/fixcon.html), a FORTRAN90 program which
+[FIXCON](../../f_src/fixcon/fixcon.md), a FORTRAN90 program which
 reads a FORTRAN file that uses FORTRAN77 continuation statements, and
 makes a copy that uses FORTRAN90 continuation instead.
 
-[HTMLINDEX](../../cpp_src/htmlindex/htmlindex.html), a C++ program which
+[HTMLINDEX](../../cpp_src.mdindex.mdindex.md), a C++ program which
 can create a web page for a piece of C, C++, FORTRAN77 or FORTRAN90
 software, if it has been marked up in the same way that **INDEX**
 requires.
 
-[INCLUDE\_FILES](../../f_src/include_files/include_files.html), a
+[INCLUDE\_FILES](../../f_src/include_files/include_files.md), a
 FORTRAN90 program which reads a FORTRAN program with INCLUDE statements,
 and makes a copy with the indicated files included.
 
@@ -164,7 +164,7 @@ and makes a copy with the indicated files included.
     character in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

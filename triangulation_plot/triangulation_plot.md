@@ -42,43 +42,43 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGULATION\_PLOT** is available in [a C++
-version](../../cpp_src/triangulation_plot/triangulation_plot.html) and
+version](../../master/triangulation_plot/triangulation_plot.md) and
 [a FORTRAN90
-version](../../f_src/triangulation_plot/triangulation_plot.html) and [a
-MATLAB version](../../m_src/triangulation_plot/triangulation_plot.html).
+version](../../f_src/triangulation_plot/triangulation_plot.md) and [a
+MATLAB version](../../m_src/triangulation_plot/triangulation_plot.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TRIANGLE](../../c_src/triangle/triangle.html), a C program which
+[TRIANGLE](../../c_src/triangle/triangle.md), a C program which
 computes a triangulation of a geometric region.
 
-[TRIANGULATION](../../cpp_src/triangulation/triangulation.html), a C++
+[TRIANGULATION](../../master/triangulation/triangulation.md), a C++
 library which is useful for working with triangulations.
 
-[TRIANGULATION\_DISPLAY](../../m_src/triangulation_display/triangulation_display.html),
+[TRIANGULATION\_DISPLAY](../../m_src/triangulation_display/triangulation_display.md),
 a MATLAB program which displays the nodes and elements of a
 triangulation on the MATLAB graphics screen;
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[TRIANGULATION\_NODE\_TO\_ELEMENT](../../cpp_src/triangulation_node_to_element/triangulation_node_to_element.html),
+[TRIANGULATION\_NODE\_TO\_ELEMENT](../../master/triangulation_node_to_element/triangulation_node_to_element.md),
 a C++ program which reads files describing a set of nodes, their
 triangulation, and the value of one or more quantities at each node, and
 outputs a file that averages the quantities for each element. This
 operation in effect creates an "order1" finite element model of the
 data.
 
-[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.html),
+[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.md),
 a directory which contains a description and examples of order 3
 triangulations.
 
-[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.html),
+[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.md),
 a directory which contains a description and examples of order 6
 triangulations.
 
-[TRIANGULATION\_SVG](../../cpp_src/triangulation_svg/triangulation_svg.html),
+[TRIANGULATION\_SVG](../../master/triangulation_svg/triangulation_svg.md),
 a C++ program which creates an SVG image of a triangulation, which can
 be displayed by a web browser.
 
@@ -191,7 +191,7 @@ An order 3 triangulation is used.
 -   **TRIANGULATION\_ORDER4\_PLOT** plots a 4-node triangulation.
 -   **TRIANGULATION\_ORDER6\_PLOT** plots a 6-node triangulation.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

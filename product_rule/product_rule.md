@@ -73,57 +73,57 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PRODUCT\_RULE** is available in [a C
-version](../../c_src/product_rule/product_rule.html) and [a C++
-version](../../cpp_src/product_rule/product_rule.html) and [a FORTRAN77
-version](../../f77_src/product_rule/product_rule.html) and [a FORTRAN90
-version](../../f_src/product_rule/product_rule.html) and [a MATLAB
-version](../../m_src/product_rule/product_rule.html)
+version](../../c_src/product_rule/product_rule.md) and [a C++
+version](../../master/product_rule/product_rule.md) and [a FORTRAN77
+version](../../f77_src/product_rule/product_rule.md) and [a FORTRAN90
+version](../../f_src/product_rule/product_rule.md) and [a MATLAB
+version](../../m_src/product_rule/product_rule.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.html), a
+[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.md), a
 FORTRAN90 program which uses test integrals to evaluate sets of
 quadrature points.
 
-[NINT\_EXACTNESS](../../cpp_src/nint_exactness/nint_exactness.html), a
+[NINT\_EXACTNESS](../../master/nint_exactness/nint_exactness.md), a
 C++ program which can test a quadrature rule for polynomial exactness.
 
-[NINT\_EXACTNESS\_MIXED](../../cpp_src/nint_exactness_mixed/nint_exactness_mixed.html),
+[NINT\_EXACTNESS\_MIXED](../../master/nint_exactness_mixed/nint_exactness_mixed.md),
 a C++ program which measures the polynomial exactness of a
 multidimensional quadrature rule based on a mixture of 1D quadrature
 rule factors.
 
-[NINTLIB](../../cpp_src/nintlib/nintlib.html), a C++ library which
+[NINTLIB](../../master/nintlib/nintlib.md), a C++ library which
 numerically estimates integrals in multiple dimensions.
 
-[POWER\_RULE](../../cpp_src/power_rule/power_rule.html), a C++ program
+[POWER\_RULE](../../master/power_rule/power_rule.md), a C++ program
 which constructs a power rule, that is, a product quadrature rule from
 identical 1D factor rules.
 
-[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.html),
+[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.md),
 a dataset directory which contains sets of files that define quadrature
 rules over various 1D intervals or multidimensional hypercubes.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules on a variety of intervals with different weight
 functions.
 
-[SPARSE\_GRID\_MIXED](../../cpp_src/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../master/sparse_grid_mixed/sparse_grid_mixed.md),
 a C++ library which creates a sparse grid dataset based on a mixed set
 of 1D factor rules.
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which contains
+[STROUD](../../master/stroud/stroud.md), a C++ library which contains
 quadrature rules for a variety of unusual areas, surfaces and volumes in
 2D, 3D and N-dimensions.
 
-[TEST\_NINT](../../cpp_src/test_nint/test_nint.html), a C++ library
+[TEST\_NINT](../../master/test_nint/test_nint.md), a C++ library
 which defines integrand functions for testing multidimensional
 quadrature routines.
 
-[TESTPACK](../../cpp_src/testpack/testpack.html), a C++ library which
+[TESTPACK](../../master/testpack/testpack.md), a C++ library which
 defines a set of integrands used to test multidimensional quadrature.
 
-[TRUNCATED\_NORMAL\_RULE](../../cpp_src/truncated_normal_rule/truncated_normal_rule.html),
+[TRUNCATED\_NORMAL\_RULE](../../master/truncated_normal_rule/truncated_normal_rule.md),
 a C++ program which computes a quadrature rule for a normal probability
 density function (PDF), also called a Gaussian distribution, that has
 been truncated to \[A,+oo), (-oo,B\] or \[A,B\].
@@ -203,7 +203,7 @@ The resulting product rule files:
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

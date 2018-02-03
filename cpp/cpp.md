@@ -31,35 +31,35 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 Directories related to **CPP** are available in [a C
-version](../../c_src/c/c.html) and [a C++
-version](../../cpp_src/cpp/cpp.html) and [a FORTRAN77
-version](../../f77_src/f77/f77.html) and [a FORTRAN90
-version](../../f_src/f90/f90.html) and [a MATLAB
-version](../../m_src/matlab/matlab.html) and [a Python
-version](../../py_src/py/py.html).
+version](../../c_src/c/c.md) and [a C++
+version](../../master/cpp/cpp.md) and [a FORTRAN77
+version](../../f77_src/f77/f77.md) and [a FORTRAN90
+version](../../f_src/f90/f90.md) and [a MATLAB
+version](../../m_src/matlab/matlab.md) and [a Python
+version](../../py_src/py/py.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CPP\_ARRAYS](../../cpp_src/cpp_arrays/cpp_arrays.html), C++ programs
+[CPP\_ARRAYS](../../master/cpp_arrays/cpp_arrays.md), C++ programs
 which illustrate the use of vectors, matrices and tensors.
 
-[CPP\_INTRINSICS](../../cpp_src/cpp_intrinsics/cpp_intrinsics.html), a
+[CPP\_INTRINSICS](../../master/cpp_intrinsics/cpp_intrinsics.md), a
 C++ program which illustrates the use of intrinsic functions.
 
-[CPP\_RANDOM](../../cpp_src/cpp_random/cpp_random.html), C++ programs
+[CPP\_RANDOM](../../master/cpp_random/cpp_random.md), C++ programs
 which illustrate the use of the random number generator routines.
 
-[MAKEFILES](../../cpp_src/makefiles/makefiles.html), C++ programs which
+[MAKEFILES](../../master/makefiles/makefiles.md), C++ programs which
 illustrate the use of MAKEFILES for maintaining a software project;
 
-[MIXED](../../cpp_src/mixed/mixed.html), C++ programs which call a
+[MIXED](../../master/mixed/mixed.md), C++ programs which call a
 function written in another programming language.
 
-[MPI](../../cpp_src/mpi/mpi.html), C++ programs which illustrate the use
+[MPI](../../master/mpi/mpi.md), C++ programs which illustrate the use
 of the MPI application program interface for carrying out parallel
 computations in a distributed memory environment.
 
-[OPENMP](../../cpp_src/openmp/openmp.html), C++ programs which
+[OPENMP](../../master/openmp/openmp.md), C++ programs which
 illustrate the use of the OpenMP application program interface for
 carrying out parallel computations in a shared memory environment.
 
@@ -191,7 +191,7 @@ value.
 -   [sizes.cpp](sizes.cpp), the source code;
 -   [sizes\_output.txt](sizes_output.txt), the output file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

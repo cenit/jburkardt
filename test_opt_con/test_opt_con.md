@@ -70,37 +70,37 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_OPT\_CON** is available in [a C
-version](../../c_src/test_opt_con/test_opt_con.html) and [a C++
-version](../../cpp_src/test_opt_con/test_opt_con.html) and [a FORTRAN77
-version](../../f77_src/test_opt_con/test_opt_con.html) and [a FORTRAN90
-version](../../f_src/test_opt_con/test_opt_con.html) and [a MATLAB
-version](../../m_src/test_opt_con/test_opt_con.html).
+version](../../c_src/test_opt_con/test_opt_con.md) and [a C++
+version](../../master/test_opt_con/test_opt_con.md) and [a FORTRAN77
+version](../../f77_src/test_opt_con/test_opt_con.md) and [a FORTRAN90
+version](../../f_src/test_opt_con/test_opt_con.md) and [a MATLAB
+version](../../m_src/test_opt_con/test_opt_con.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA047](../../cpp_src/asa047/asa047.html), a C++ library which
+[ASA047](../../master/asa047/asa047.md), a C++ library which
 minimizes a scalar function of several variables using the Nelder-Mead
 algorithm.
 
-[BRENT](../../cpp_src/brent/brent.html), a C++ library which contains
+[BRENT](../../master/brent/brent.md), a C++ library which contains
 Richard Brent's routines for finding the zero, local minimizer, or
 global minimizer of a scalar function of a scalar argument, without the
 use of derivative information.
 
-[COMPASS\_SEARCH](../../cpp_src/compass_search/compass_search.html), a
+[COMPASS\_SEARCH](../../master/compass_search/compass_search.md), a
 C++ program which minimizes a scalar function of several variables using
 the compass search algorithm.
 
-[PRAXIS](../../cpp_src/praxis/praxis.html), a C++ library which
+[PRAXIS](../../master/praxis/praxis.md), a C++ library which
 implements the principal axis method of Richard Brent for minimization
 of a function without the use of derivatives.
 
-[TEST\_OPTIMIZATION](../../cpp_src/test_optimization/test_optimization.html),
+[TEST\_OPTIMIZATION](../../master/test_optimization/test_optimization.md),
 a C++ library which defines test problems for the minimization of a
 scalar function of several variables, as described by Molga and
 Smutnicki.
 
-[TOMS178](../../cpp_src/toms178/toms178.html), a C++ library which
+[TOMS178](../../master/toms178/toms178.md), a C++ library which
 optimizes a scalar functional of multiple variables using the
 Hooke-Jeeves method.
 
@@ -178,7 +178,7 @@ Hooke-Jeeves method.
     numbers.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

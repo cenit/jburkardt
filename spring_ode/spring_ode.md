@@ -56,23 +56,23 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPRING\_ODE** is available in [a C
-version](../../c_src/spring_ode/spring_ode.html) and [a C++
-version](../../cpp_src/spring_ode/spring_ode.html) and [a FORTRAN77
-version](../../f77_src/spring_ode/spring_ode.html) and [a FORTRAN90
-version](../../f_src/spring_ode/spring_ode.html) and [a MATLAB
-version](../../m_src/spring_ode/spring_ode.html).
+version](../../c_src/spring_ode/spring_ode.md) and [a C++
+version](../../master/spring_ode/spring_ode.md) and [a FORTRAN77
+version](../../f77_src/spring_ode/spring_ode.md) and [a FORTRAN90
+version](../../f_src/spring_ode/spring_ode.md) and [a MATLAB
+version](../../m_src/spring_ode/spring_ode.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASCII\_ART\_GRAYSCALE](../../data/ascii_art_grayscale/ascii_art_grayscale.html),
+[ASCII\_ART\_GRAYSCALE](../../data/ascii_art_grayscale/ascii_art_grayscale.md),
 a data directory which contains examples of grayscale ASCII Art files,
 in which images are created using printable characters.
 
-[MANDELBROT\_ASCII](../../c_src/mandelbrot_ascii/mandelbrot_ascii.html),
+[MANDELBROT\_ASCII](../../c_src/mandelbrot_ascii/mandelbrot_ascii.md),
 a C program which generates an ASCII TEXT image of the Mandelbrot
 fractal set using just two lines of (very obscure) C.
 
-[SPRING\_ODE2](../../cpp_src/spring_ode2/spring_ode2.html), a C++
+[SPRING\_ODE2](../../master/spring_ode2/spring_ode2.md), a C++
 program which shows how gnuplot graphics can be used to illustrate a
 solution of the ordinary differential equation (ODE) that describes the
 motion of a weight attached to a spring.
@@ -87,7 +87,7 @@ motion of a weight attached to a spring.
 -   **MAIN** is the main program for SPRING\_ODE.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

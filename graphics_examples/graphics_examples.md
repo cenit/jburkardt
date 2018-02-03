@@ -18,40 +18,40 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **GRAPHICS\_EXAMPLES** programs are available in [a C
-version](../../c_src/graphics_examples/graphics_examples.html) and [a
-C++ version](../../cpp_src/graphics_examples/graphics_examples.html) and
+version](../../c_src/graphics_examples/graphics_examples.md) and [a
+C++ version](../../master/graphics_examples/graphics_examples.md) and
 [a dataset
-version](../../datasets/graphics_examples/graphics_examples.html) and [a
+version](../../datasets/graphics_examples/graphics_examples.md) and [a
 FORTRAN77
-version](../../f77_src/graphics_examples/graphics_examples.html) and [a
-FORTRAN90 version](../../f_src/graphics_examples/graphics_examples.html)
+version](../../f77_src/graphics_examples/graphics_examples.md) and [a
+FORTRAN90 version](../../f_src/graphics_examples/graphics_examples.md)
 and [a MATHEMATICA
-version](../../math_src/graphics_examples/graphics_examples.html) and [a
-MATLAB version](../../m_src/graphics_examples/graphics_examples.html)
+version](../../math_src/graphics_examples/graphics_examples.md) and [a
+MATLAB version](../../m_src/graphics_examples/graphics_examples.md)
 and [a Python
-version](../../py_src/graphics_examples/graphics_examples.html).
+version](../../py_src/graphics_examples/graphics_examples.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DISLIN](../../cpp_src/dislin/dislin.html), C++ programs which
+[DISLIN](../../master/dislin/dislin.md), C++ programs which
 illustrate the use of DISLIN, a scientific graphics package, by Helmut
 Michels.
 
-[GRAPHICS\_EXAMPLES\_CONVERT](../../examples/graphics_examples_convert/graphics_examples_convert.html),
+[GRAPHICS\_EXAMPLES\_CONVERT](../../examples/graphics_examples_convert/graphics_examples_convert.md),
 examples which illustrate how various kinds of data can be processed and
 modified using the ImageMagick program convert() and its related tools.
 
-[GRAPHICS\_EXAMPLES\_GNUPLOT](../../examples/graphics_examples_gnuplot/graphics_examples_gnuplot.html),
+[GRAPHICS\_EXAMPLES\_GNUPLOT](../../examples/graphics_examples_gnuplot/graphics_examples_gnuplot.md),
 examples which illustrate how various kinds of data can be displayed and
 analyzed graphically using the interactive executable graphics program
 gnuplot().
 
-[GRAPHICS\_EXAMPLES\_GRACE](../../examples/graphics_examples_grace/graphics_examples_grace.html),
+[GRAPHICS\_EXAMPLES\_GRACE](../../examples/graphics_examples_grace/graphics_examples_grace.md),
 examples which illustrate how various kinds of data can be displayed and
 analyzed graphically using the interactive executable graphics program
 grace().
 
-[GRAPHICS\_EXAMPLES\_PLOTLY](../../examples/graphics_examples_plotly/graphics_examples_plotly.html),
+[GRAPHICS\_EXAMPLES\_PLOTLY](../../examples/graphics_examples_plotly/graphics_examples_plotly.md),
 examples which illustrate how various kinds of data can be displayed and
 analyzed graphically, using the plotly() program from a browser.
 
@@ -161,7 +161,7 @@ cos(2\*(x\^2+y\^2)). The data is to be plotted as a surface.
     file.
 -   [surface\_grid.png](surface_grid.png), a PNG image of the plot.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -32,35 +32,35 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SVD\_SNOWFALL** is available in [a C
-version](../../c_src/svd_snowfall/svd_snowfall.html) and [a C++
-version](../../cpp_src/svd_snowfall/svd_snowfall.html) and [a FORTRAN77
-version](../../f77_src/svd_snowfall/svd_snowfall.html) and [a FORTRAN90
-version](../../f_src/svd_snowfall/svd_snowfall.html) and [a MATLAB
-version](../../m_src/svd_snowfall/svd_snowfall.html).
+version](../../c_src/svd_snowfall/svd_snowfall.md) and [a C++
+version](../../master/svd_snowfall/svd_snowfall.md) and [a FORTRAN77
+version](../../f77_src/svd_snowfall/svd_snowfall.md) and [a FORTRAN90
+version](../../f_src/svd_snowfall/svd_snowfall.md) and [a MATLAB
+version](../../m_src/svd_snowfall/svd_snowfall.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FINGERPRINTS](../../datasets/fingerprints/fingerprints.html), a dataset
+[FINGERPRINTS](../../datasets/fingerprints/fingerprints.md), a dataset
 directory which contains a few images of fingerprints.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[SVD\_BASIS](../../cpp_src/svd_basis/svd_basis.html), a C++ program
+[SVD\_BASIS](../../master/svd_basis/svd_basis.md), a C++ program
 which applies the Singular Value Decomposition (SVD) to a set of
 vectors, extracting dominant modes;
 
-[SVD\_DEMO](../../cpp_src/svd_demo/svd_demo.html), a C++ program which
+[SVD\_DEMO](../../master/svd_demo/svd_demo.md), a C++ program which
 demonstrates the singular value decomposition (SVD) for a simple
 example.
 
-[SVD\_TRUNCATED](../../cpp_src/svd_truncated/svd_truncated.html), a C++
+[SVD\_TRUNCATED](../../master/svd_truncated/svd_truncated.md), a C++
 program which demonstrates the computation of the reduced or truncated
 Singular Value Decomposition (SVD) that is useful for cases when one
 dimension of the matrix is much smaller than the other.
 
-[TIME\_SERIES](../../datasets/time_series/time_series.html), a dataset
+[TIME\_SERIES](../../datasets/time_series/time_series.md), a dataset
 directory which contains examples of files describing time series.
 
 ### Reference: {#reference align="center"}
@@ -215,7 +215,7 @@ basis for total yearly snowfall behavior as a function of the year.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

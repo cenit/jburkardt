@@ -27,16 +27,16 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**MACHAR** is available in [a C version](../../c_src/machar/machar.html)
-and [a C++ version](../../cpp_src/machar/machar.html) and [a FORTRAN77
-version](../../f77_src/machar/machar.html) and [a FORTRAN90
-version](../../f_src/machar/machar.html) and [a MATLAB
-version](../../m_src/machar/machar.html) and [a Python
-version](../../py_src/machar/machar.html).
+**MACHAR** is available in [a C version](../../c_src/machar/machar.md)
+and [a C++ version](../../master/machar/machar.md) and [a FORTRAN77
+version](../../f77_src/machar/machar.md) and [a FORTRAN90
+version](../../f_src/machar/machar.md) and [a MATLAB
+version](../../m_src/machar/machar.md) and [a Python
+version](../../py_src/machar/machar.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MACHINE](../../cpp_src/machine/machine.html), a C++ library which
+[MACHINE](../../master/machine/machine.md), a C++ library which
 stores the appropriate values of machine constants for a given machine.
 
 ### Author: {#author align="center"}
@@ -86,7 +86,7 @@ Burkardt.
     arithmetic.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

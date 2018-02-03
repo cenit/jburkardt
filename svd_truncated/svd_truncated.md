@@ -63,26 +63,26 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SVD\_TRUNCATED** is available in [a C
-version](../../c_src/svd_truncated/svd_truncated.html) and [a C++
-version](../../cpp_src/svd_truncated/svd_truncated.html) and [a
-FORTRAN77 version](../../f77_src/svd_truncated/svd_truncated.html) and
-[a FORTRAN90 version](../../f_src/svd_truncated/svd_truncated.html) and
-[a MATLAB version](../../m_src/svd_truncated/svd_truncated.html).
+version](../../c_src/svd_truncated/svd_truncated.md) and [a C++
+version](../../master/svd_truncated/svd_truncated.md) and [a
+FORTRAN77 version](../../f77_src/svd_truncated/svd_truncated.md) and
+[a FORTRAN90 version](../../f_src/svd_truncated/svd_truncated.md) and
+[a MATLAB version](../../m_src/svd_truncated/svd_truncated.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINPACK\_D](../../cpp_src/linpack_d/linpack_d.html), a C++ library
+[LINPACK\_D](../../master/linpack_d/linpack_d.md), a C++ library
 which solves linear systems using double precision real arithmetic;
 
-[SVD\_BASIS](../../cpp_src/svd_basis/svd_basis.html), a C++ program
+[SVD\_BASIS](../../master/svd_basis/svd_basis.md), a C++ program
 which computes a reduced basis for a collection of data vectors using
 the SVD.
 
-[SVD\_DEMO](../../cpp_src/svd_demo/svd_demo.html), a C++ program which
+[SVD\_DEMO](../../master/svd_demo/svd_demo.md), a C++ program which
 demonstrates the singular value decomposition (SVD) for a simple
 example.
 
-[SVD\_SNOWFALL](../../cpp_src/svd_snowfall/svd_snowfall.html), a C++
+[SVD\_SNOWFALL](../../master/svd_snowfall/svd_snowfall.md), a C++
 library which reads a file containing historical snowfall data and
 analyzes the data with the Singular Value Decomposition (SVD), and plots
 created by GNUPLOT.
@@ -146,7 +146,7 @@ created by GNUPLOT.
 -   **SVD\_TRUNCATED\_V\_TEST** tests SVD\_TRUNCATED\_V.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

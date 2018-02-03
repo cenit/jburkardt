@@ -16,43 +16,43 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**FLOYD** is available in [a C version](../../c_src/floyd/floyd.html)
-and [a C++ version](../../cpp_src/floyd/floyd.html) and [a FORTRAN90
-version](../../f_src/floyd/floyd.html) and [a FORTRAN77
-version](../../f77_src/floyd/floyd.html) and [a MATLAB
-version](../../m_src/floyd/floyd.html).
+**FLOYD** is available in [a C version](../../c_src/floyd/floyd.md)
+and [a C++ version](../../master/floyd/floyd.md) and [a FORTRAN90
+version](../../f_src/floyd/floyd.md) and [a FORTRAN77
+version](../../f77_src/floyd/floyd.md) and [a MATLAB
+version](../../m_src/floyd/floyd.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BELLMAN\_FORD](../../cpp_src/bellman_ford/bellman_ford.html), a C++
+[BELLMAN\_FORD](../../master/bellman_ford/bellman_ford.md), a C++
 library which implements the Bellman-Ford algorithm for finding the
 shortest distance from a given node to all other nodes in a directed
 graph whose edges have been assigned real-valued lengths.
 
-[CITIES](../../f_src/cities/cities.html), a FORTRAN90 library which
+[CITIES](../../f_src/cities/cities.md), a FORTRAN90 library which
 handles various problems associated with a set of "cities" on a map.
 
-[CITIES](../../datasets/cities/cities.html), a dataset directory which
+[CITIES](../../datasets/cities/cities.md), a dataset directory which
 contains a number of city distance datasets.
 
-[CODEPACK](../../f_src/codepack/codepack.html), a FORTRAN90 library
+[CODEPACK](../../f_src/codepack/codepack.md), a FORTRAN90 library
 which computes "codes" that can determine if two graphs are isomorphic.
 
-[DIJKSTRA](../../cpp_src/dijkstra/dijkstra.html), a C++ program which
+[DIJKSTRA](../../master/dijkstra/dijkstra.md), a C++ program which
 runs a simple example of Dijkstra's minimum distance algorithm for
 graphs.
 
-[GRAFPACK](../../f_src/grafpack/grafpack.html), a FORTRAN90 library
+[GRAFPACK](../../f_src/grafpack/grafpack.md), a FORTRAN90 library
 which computes various quantities associated with mathematical graphs.
 
-[GRAPH\_REPRESENTATION](../../data/graph_representation/graph_representation.html),
+[GRAPH\_REPRESENTATION](../../data/graph_representation/graph_representation.md),
 a data directory which contains examples of ways of representing
 abstract mathematical graphs
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which
+[SUBSET](../../master/subset/subset.md), a C++ library which
 generates, ranks and unranks various combinatorial objects.
 
-[TOMS097](../../cpp_src/toms097/toms097.html), a C++ library which
+[TOMS097](../../master/toms097/toms097.md), a C++ library which
 computes the distance between all pairs of nodes in a directed graph
 with weighted edges, using Floyd's algorithm.
 
@@ -97,7 +97,7 @@ with weighted edges, using Floyd's algorithm.
     nonblank.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

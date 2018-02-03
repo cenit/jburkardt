@@ -139,53 +139,53 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **NINT\_EXACTNESS\_MIXED** is available in [a C++
-version](../../cpp_src/nint_exactness_mixed/nint_exactness_mixed.html)
+version](../../master/nint_exactness_mixed/nint_exactness_mixed.md)
 and [a FORTRAN90
-version](../../f_src/nint_exactness_mixed/nint_exactness_mixed.html) and
+version](../../f_src/nint_exactness_mixed/nint_exactness_mixed.md) and
 [a MATLAB
-version](../../m_src/nint_exactness_mixed/nint_exactness_mixed.html).
+version](../../m_src/nint_exactness_mixed/nint_exactness_mixed.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[INT\_EXACTNESS](../../cpp_src/int_exactness/int_exactness.html), a C++
+[INT\_EXACTNESS](../../master/int_exactness/int_exactness.md), a C++
 program which tests the polynomial exactness of one dimensional
 quadrature rules.
 
-[NINT\_EXACTNESS](../../cpp_src/nint_exactness/nint_exactness.html), a
+[NINT\_EXACTNESS](../../master/nint_exactness/nint_exactness.md), a
 C++ program which tests the polynomial exactness of integration rules
 for the unit hypercube.
 
-[NINTLIB](../../cpp_src/nintlib/nintlib.html), a C++ library which
+[NINTLIB](../../master/nintlib/nintlib.md), a C++ library which
 numerically estimates integrals in multiple dimensions.
 
-[PYRAMID\_EXACTNESS](../../cpp_src/pyramid_exactness/pyramid_exactness.html),
+[PYRAMID\_EXACTNESS](../../master/pyramid_exactness/pyramid_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule for the pyramid.
 
-[SPARSE\_GRID\_MIXED](../../datasets/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../datasets/sparse_grid_mixed/sparse_grid_mixed.md),
 a dataset directory which contains multidimensional Smolyak sparse grids
 based on a mixed set of 1D factor rules.
 
-[SPARSE\_GRID\_MIXED](../../cpp_src/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../master/sparse_grid_mixed/sparse_grid_mixed.md),
 a C++ library which defines multidimensional quadrature rules using
 sparse grid techniques, based on a mixed set of 1D quadrature rules.
 
-[SPHERE\_EXACTNESS](../../cpp_src/sphere_exactness/sphere_exactness.html),
+[SPHERE\_EXACTNESS](../../master/sphere_exactness/sphere_exactness.md),
 a C++ program which tests the polynomial exactness of a quadrature rule
 for the unit sphere;
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which defines
+[STROUD](../../master/stroud/stroud.md), a C++ library which defines
 quadrature rules for a variety of unusual areas, surfaces and volumes in
 2D, 3D and multiple dimensions.
 
-[TEST\_NINT](../../cpp_src/test_nint/test_nint.html), a C++ library
+[TEST\_NINT](../../master/test_nint/test_nint.md), a C++ library
 which defines integrand functions for testing multidimensional
 quadrature routines.
 
-[TESTPACK](../../cpp_src/testpack/testpack.html), a C++ library which
+[TESTPACK](../../master/testpack/testpack.md), a C++ library which
 defines a set of integrands used to test multidimensional quadrature.
 
-[TETRAHEDRON\_EXACTNESS](../../cpp_src/tetrahedron_exactness/tetrahedron_exactness.html),
+[TETRAHEDRON\_EXACTNESS](../../master/tetrahedron_exactness/tetrahedron_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule for the tetrahedron.
 
@@ -372,7 +372,7 @@ Curtis, Fejer Type 2, Gauss Hermite\].
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

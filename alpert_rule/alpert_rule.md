@@ -33,32 +33,32 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ALPERT\_RULE** is available in [a C
-version](../../c_src/alpert_rule/alpert_rule.html) and [a C++
-version](../../cpp_src/alpert_rule/alpert_rule.html) and [a FORTRAN90
-version](../../f_src/alpert_rule/alpert_rule.html) and [a MATLAB
-version](../../m_src/alpert_rule/alpert_rule.html) and [a Python
-version](../../py_src/alpert_rule/alpert_rule.html).
+version](../../c_src/alpert_rule/alpert_rule.md) and [a C++
+version](../../master/alpert_rule/alpert_rule.md) and [a FORTRAN90
+version](../../f_src/alpert_rule/alpert_rule.md) and [a MATLAB
+version](../../m_src/alpert_rule/alpert_rule.md) and [a Python
+version](../../py_src/alpert_rule/alpert_rule.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINE\_FEKETE\_RULE](../../cpp_src/line_fekete_rule/line_fekete_rule.html),
+[LINE\_FEKETE\_RULE](../../master/line_fekete_rule/line_fekete_rule.md),
 a C++ library which returns the points and weights of a Fekete
 quadrature rule over the interior of a line segment in 1D.
 
-[LINE\_FELIPPA\_RULE](../../cpp_src/line_felippa_rule/line_felippa_rule.html),
+[LINE\_FELIPPA\_RULE](../../master/line_felippa_rule/line_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a line segment in 1D.
 
-[LINE\_NCC\_RULE](../../cpp_src/line_ncc_rule/line_ncc_rule.html), a C++
+[LINE\_NCC\_RULE](../../master/line_ncc_rule/line_ncc_rule.md), a C++
 library which computes a Newton Cotes Closed (NCC) quadrature rule for
 the line, that is, for an interval of the form \[A,B\], using equally
 spaced points which include the endpoints.
 
-[LINE\_NCO\_RULE](../../cpp_src/line_nco_rule/line_nco_rule.html), a C++
+[LINE\_NCO\_RULE](../../master/line_nco_rule/line_nco_rule.md), a C++
 library which computes a Newton Cotes Open (NCO) quadrature rule, using
 equally spaced points, over the interior of a line segment in 1D.
 
-[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../cpp_src/quadrature_weights_vandermonde/quadrature_weights_vandermonde.html),
+[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../master/quadrature_weights_vandermonde/quadrature_weights_vandermonde.md),
 a C++ library which computes the weights of a quadrature rule using the
 Vandermonde matrix, assuming that the points have been specified.
 
@@ -124,7 +124,7 @@ Vandermonde matrix, assuming that the points have been specified.
 -   **RULE\_REGULAR** returns an Alpert rule for regular functions.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

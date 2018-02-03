@@ -39,45 +39,45 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_SAMPLE** is available in [a C++
-version](../../cpp_src/fem2d_sample/fem2d_sample.html) and [a FORTRAN77
-version](../../f77_src/fem2d_sample/fem2d_sample.html) and [a FORTRAN90
-version](../../f_src/fem2d_sample/fem2d_sample.html) and [a MATLAB
-version.](../../m_src/fem2d_sample/fem2d_sample.html)
+version](../../master/fem2d_sample/fem2d_sample.md) and [a FORTRAN77
+version](../../f77_src/fem2d_sample/fem2d_sample.md) and [a FORTRAN90
+version](../../f_src/fem2d_sample/fem2d_sample.md) and [a MATLAB
+version.](../../m_src/fem2d_sample/fem2d_sample.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM1D\_SAMPLE](../../cpp_src/fem1d_sample/fem1d_sample.html), a C++
+[FEM1D\_SAMPLE](../../master/fem1d_sample/fem1d_sample.md), a C++
 program which samples a scalar or vector finite element function of one
 variable, defined by FEM files, returning interpolated values at the
 sample points.
 
-[FEM2D](../../data/fem2d/fem2d.html), a data directory which contains
+[FEM2D](../../data/fem2d/fem2d.md), a data directory which contains
 examples of 2D FEM files, three text files that describe a 2D finite
 element geometry;
 
-[FEM2D\_HEAT](../../cpp_src/fem2d_heat/fem2d_heat.html), a C++ program
+[FEM2D\_HEAT](../../master/fem2d_heat/fem2d_heat.md), a C++ program
 which solves the time dependent heat equation in the unit square.
 
-[FEM2D\_PACK](../../cpp_src/fem2d_pack/fem2d_pack.html), a C++ library
+[FEM2D\_PACK](../../master/fem2d_pack/fem2d_pack.md), a C++ library
 which includes utitlies for 2D finite element calculations.
 
-[FEM2D\_POISSON](../../cpp_src/fem2d_poisson/fem2d_poisson.html), a C++
+[FEM2D\_POISSON](../../master/fem2d_poisson/fem2d_poisson.md), a C++
 program which solves Poisson's equation on a square, using the finite
 element method.
 
-[FEM2D\_POISSON\_LINEAR](../../cpp_src/fem2d_poisson_linear/fem2d_poisson_linear.html),
+[FEM2D\_POISSON\_LINEAR](../../master/fem2d_poisson_linear/fem2d_poisson_linear.md),
 a C++ program which solves the 2D Poisson equation on a rectangle, using
 the finite element method, and piecewise linear triangular elements.
 
-[FEM2D\_PROJECT](../../cpp_src/fem2d_project/fem2d_project.html), a C++
+[FEM2D\_PROJECT](../../master/fem2d_project/fem2d_project.md), a C++
 program which projects a function F(X,Y) into a given finite element
 space of piecewise linear triangular elements.
 
-[FEM3D\_SAMPLE](../../cpp_src/fem3d_sample/fem3d_sample.html), a C++
+[FEM3D\_SAMPLE](../../master/fem3d_sample/fem3d_sample.md), a C++
 program which evaluates a finite element function defined on 3D
 tetrahedral mesh.
 
-[HISTOGRAM\_DATA\_2D\_SAMPLE](../../cpp_src/histogram_data_2d_sample/histogram_data_2d_sample.html),
+[HISTOGRAM\_DATA\_2D\_SAMPLE](../../master/histogram_data_2d_sample/histogram_data_2d_sample.md),
 a C++ program which demonstrates how to construct a Probability Density
 Function (PDF) from a frequency table over a 2D domain, and then to use
 that PDF to create new samples.
@@ -170,7 +170,7 @@ of this function on a 4x4 evenly spaced grid.
 -   **TRIANGULATION\_SEARCH\_DELAUNAY** searches a triangulation for a
     point.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

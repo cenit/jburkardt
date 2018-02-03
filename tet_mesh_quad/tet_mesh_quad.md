@@ -46,17 +46,17 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGULATION\_QUAD** is available in [a C++
-version](../../cpp_src/triangulation_quad/triangulation_quad.html) and
+version](../../master/triangulation_quad/triangulation_quad.md) and
 [a FORTRAN90
-version](../../f_src/triangulation_quad/triangulation_quad.html) and [a
-MATLAB version](../../m_src/triangulation_quad/triangulation_quad.html).
+version](../../f_src/triangulation_quad/triangulation_quad.md) and [a
+MATLAB version](../../m_src/triangulation_quad/triangulation_quad.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TET\_MESH](../../cpp_src/tet_mesh/tet_mesh.html), a C++ library which
+[TET\_MESH](../../master/tet_mesh/tet_mesh.md), a C++ library which
 carries out various operations on tetrahedral meshes.
 
-[TRIANGULATION\_QUAD](../../cpp_src/triangulation_quad/triangulation_quad.html),
+[TRIANGULATION\_QUAD](../../master/triangulation_quad/triangulation_quad.md),
 a C++ program which estimates the integral of a function over a
 triangulated region.
 
@@ -113,7 +113,7 @@ which have been arranged into an order 4 tet mesh.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

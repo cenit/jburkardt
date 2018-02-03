@@ -10,7 +10,7 @@ Piers Lawrence, Robert Corless, David Jeffrey.
 The original, true, correct version of ACM TOMS Algorithm 917 is
 available through ACM:
 [http://www.acm.org/pubs/calgo](http://www.acm.org/pubs/calgo/) or
-NETLIB: <http://www.netlib.org/toms/index.html>.
+NETLIB: <http://www.netlib.org/toms/index.md>.
 
 ### Licensing: {#licensing align="center"}
 
@@ -20,16 +20,16 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS917** is available in [a C
-version](../../c_src/toms917/toms917.html) and [a C++
-version](../../cpp_src/toms917/toms917.html).
+version](../../c_src/toms917/toms917.md) and [a C++
+version](../../master/toms917/toms917.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TOMS443](../../cpp_src/toms443/toms443.html), a C++ library which
+[TOMS443](../../master/toms443/toms443.md), a C++ library which
 evaluates Lambert's W function. This is a version of ACM TOMS algorithm
 443.
 
-[TOMS743](../../cpp_src/toms743/toms743.html), a C++ library which
+[TOMS743](../../master/toms743/toms743.md), a C++ library which
 evaluates Lambert's W function. This is a version of ACM TOMS algorithm
 743, by Barry, Barry and Culligan-Hensley.
 
@@ -60,7 +60,7 @@ Piers Lawrence, Robert Corless, David Jeffrey.
     information.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C+= source codes](../cpp_src.html).
+You can go up one level to [the C+= source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

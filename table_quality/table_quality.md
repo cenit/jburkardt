@@ -63,27 +63,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TABLE\_QUALITY** is available in [a C++
-version](../../cpp_src/table_quality/table_quality.html) and [a
-FORTRAN90 version](../../f_src/table_quality/table_quality.html) and [a
-MATLAB version](../../m_src/table_quality/table_quality.html).
+version](../../master/table_quality/table_quality.md) and [a
+FORTRAN90 version](../../f_src/table_quality/table_quality.md) and [a
+MATLAB version](../../m_src/table_quality/table_quality.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DIAPHONY](../../cpp_src/diaphony/diaphony.html), a C++ program which
+[DIAPHONY](../../master/diaphony/diaphony.md), a C++ program which
 reads a file of N points in M dimensions and computes its diaphony, a
 measure of point dispersion.
 
-[QUALITY](../../cpp_src/quality/quality.html), a C++ library which makes
+[QUALITY](../../master/quality/quality.md), a C++ library which makes
 the computations needed by TABLE\_QUALITY. To build a copy of
 **TABLE\_QUALITY**, a compiled copy of the **QUALITY** library must be
 available.
 
-[STAR\_DISCREPANCY](../../cpp_src/star_discrepancy/star_discrepancy.html),
+[STAR\_DISCREPANCY](../../master/star_discrepancy/star_discrepancy.md),
 a C++ program which reads a TABLE file of M points in N dimensions
 (presumed to lie in the unit hypercube) and computes bounds on the star
 discrepancy, a measure of dispersion, by Eric Thiemard.
 
-[TABLE\_LATINIZE](../../cpp_src/table_latinize/table_latinize.html), a
+[TABLE\_LATINIZE](../../master/table_latinize/table_latinize.md), a
 C++ program which can read a TABLE file and write out a "latinized"
 version.
 
@@ -133,7 +133,7 @@ version.
 
 -   **MAIN** is the main program for TABLE\_QUALITY.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

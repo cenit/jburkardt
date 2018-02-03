@@ -34,29 +34,29 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**HALTON** is available in [a C version](../../c_src/halton/halton.html)
-and [a C++ version](../../cpp_src/halton/halton.html) and [a FORTRAN90
-version](../../f_src/halton/halton.html) and [a MATLAB
-version](../../m_src/halton/halton.html) and [a Python
-version](../../py_src/halton/halton.html).
+**HALTON** is available in [a C version](../../c_src/halton/halton.md)
+and [a C++ version](../../master/halton/halton.md) and [a FORTRAN90
+version](../../f_src/halton/halton.md) and [a MATLAB
+version](../../m_src/halton/halton.md) and [a Python
+version](../../py_src/halton/halton.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley Quasi Monte Carlo (QMC)
 sequence, using a simple interface.
 
-[LATIN\_RANDOM](../../cpp_src/latin_random/latin_random.html), a C++
+[LATIN\_RANDOM](../../master/latin_random/latin_random.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 points at random.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which computes
+[NORMAL](../../master/normal/normal.md), a C++ library which computes
 elements of a sequence of pseudorandom normally distributed values.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of a uniform pseudorandom sequence.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes elements of a 1D van der Corput Quasi Monte
 Carlo (QMC) sequence using a simple interface.
 
@@ -101,7 +101,7 @@ Carlo (QMC) sequence using a simple interface.
 -   **R8MAT\_PRINT\_SOME** prints some of an R8MAT.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

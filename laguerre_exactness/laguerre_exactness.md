@@ -145,61 +145,61 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LAGUERRE\_EXACTNESS** is available in [a C
-version](../../c_src/laguerre_exactness/laguerre_exactness.html) and [a
-C++ version](../../cpp_src/laguerre_exactness/laguerre_exactness.html)
+version](../../c_src/laguerre_exactness/laguerre_exactness.md) and [a
+C++ version](../../master/laguerre_exactness/laguerre_exactness.md)
 and [a FORTRAN77
-version](../../f77_src/laguerre_exactness/laguerre_exactness.html) and
+version](../../f77_src/laguerre_exactness/laguerre_exactness.md) and
 [a FORTRAN90
-version](../../f_src/laguerre_exactness/laguerre_exactness.html) and [a
-MATLAB version](../../m_src/laguerre_exactness/laguerre_exactness.html).
+version](../../f_src/laguerre_exactness/laguerre_exactness.md) and [a
+MATLAB version](../../m_src/laguerre_exactness/laguerre_exactness.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[EXACTNESS](../../cpp_src/exactness/exactness.html), a C++ library which
+[EXACTNESS](../../master/exactness/exactness.md), a C++ library which
 investigates the exactness of quadrature rules that estimate the
 integral of a function with a density, such as 1, exp(-x) or exp(-x\^2),
 over an interval such as \[-1,+1\], \[0,+oo) or (-oo,+oo).
 
-[HERMITE\_EXACTNESS](../../cpp_src/hermite_exactness/hermite_exactness.html),
+[HERMITE\_EXACTNESS](../../master/hermite_exactness/hermite_exactness.md),
 a C++ program which tests the polynomial exactness of Gauss-Hermite
 quadrature rules.
 
-[INT\_EXACTNESS](../../cpp_src/int_exactness/int_exactness.html), a C++
+[INT\_EXACTNESS](../../master/int_exactness/int_exactness.md), a C++
 program which tests the polynomial exactness of a quadrature rule for a
 finite interval.
 
-[INT\_EXACTNESS\_CHEBYSHEV1](../../cpp_src/int_exactness_chebyshev1/int_exactness_chebyshev1.html),
+[INT\_EXACTNESS\_CHEBYSHEV1](../../master/int_exactness_chebyshev1/int_exactness_chebyshev1.md),
 a C++ program which tests the polynomial exactness of Gauss-Chebyshev
 type 1 quadrature rules.
 
-[INT\_EXACTNESS\_CHEBYSHEV2](../../cpp_src/int_exactness_chebyshev2/int_exactness_chebyshev2.html),
+[INT\_EXACTNESS\_CHEBYSHEV2](../../master/int_exactness_chebyshev2/int_exactness_chebyshev2.md),
 a C++ program which tests the polynomial exactness of Gauss-Chebyshev
 type 2 quadrature rules.
 
-[INT\_EXACTNESS\_GEGENBAUER](../../cpp_src/int_exactness_gegenbauer/int_exactness_gegenbauer.html),
+[INT\_EXACTNESS\_GEGENBAUER](../../master/int_exactness_gegenbauer/int_exactness_gegenbauer.md),
 a C++ program which tests the polynomial exactness of Gauss-Gegenbauer
 quadrature rules.
 
-[INT\_EXACTNESS\_GEN\_HERMITE](../../cpp_src/int_exactness_gen_hermite/int_exactness_gen_hermite.html),
+[INT\_EXACTNESS\_GEN\_HERMITE](../../master/int_exactness_gen_hermite/int_exactness_gen_hermite.md),
 a C++ program which tests the polynomial exactness of a generalized
 Gauss-Hermite quadrature rule.
 
-[INT\_EXACTNESS\_GEN\_LAGUERRE](../../cpp_src/int_exactness_gen_laguerre/int_exactness_gen_laguerre.html),
+[INT\_EXACTNESS\_GEN\_LAGUERRE](../../master/int_exactness_gen_laguerre/int_exactness_gen_laguerre.md),
 a C++ program which tests the polynomial exactness of a generalized
 Gauss-Laguerre quadrature rule.
 
-[INT\_EXACTNESS\_JACOBI](../../cpp_src/int_exactness_jacobi/int_exactness_jacobi.html),
+[INT\_EXACTNESS\_JACOBI](../../master/int_exactness_jacobi/int_exactness_jacobi.md),
 a C++ program which tests the polynomial exactness of a Gauss-Jacobi
 quadrature rule.
 
-[LAGUERRE\_RULE](../../cpp_src/laguerre_rule/laguerre_rule.html), a C++
+[LAGUERRE\_RULE](../../master/laguerre_rule/laguerre_rule.md), a C++
 program which can generate a Gauss-Laguerre quadrature rule on request.
 
-[LAGUERRE\_TEST\_INT](../../cpp_src/laguerre_test_int/laguerre_test_int.html),
+[LAGUERRE\_TEST\_INT](../../master/laguerre_test_int/laguerre_test_int.md),
 a C++ library which defines test integrands for integration over
 \[A,+oo).
 
-[LEGENDRE\_EXACTNESS](../../cpp_src/legendre_exactness/legendre_exactness.html),
+[LEGENDRE\_EXACTNESS](../../master/legendre_exactness/legendre_exactness.md),
 a C++ program which tests the monomial exactness of quadrature rules for
 the Legendre problem of integrating a function with density 1 over the
 interval \[-1,+1\].
@@ -241,7 +241,7 @@ interval \[-1,+1\].
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

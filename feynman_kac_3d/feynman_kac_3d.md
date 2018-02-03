@@ -22,28 +22,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEYNMAN\_KAC\_3D** is available in [a C
-version](../../c_src/feynman_kac_3d/feynman_kac_3d.html) and [a C++
-version](../../cpp_src/feynman_kac_3d/feynman_kac_3d.html) and [a
-FORTRAN77 version](../../f77_src/feynman_kac_3d/feynman_kac_3d.html) and
-[a FORTRAN90 version](../../f_src/feynman_kac_3d/feynman_kac_3d.html)
-and [a MATLAB version.](../../m_src/feynman_kac_3d/feynman_kac_3d.html)
+version](../../c_src/feynman_kac_3d/feynman_kac_3d.md) and [a C++
+version](../../master/feynman_kac_3d/feynman_kac_3d.md) and [a
+FORTRAN77 version](../../f77_src/feynman_kac_3d/feynman_kac_3d.md) and
+[a FORTRAN90 version](../../f_src/feynman_kac_3d/feynman_kac_3d.md)
+and [a MATLAB version.](../../m_src/feynman_kac_3d/feynman_kac_3d.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEYNMAN\_KAC\_1D](../../cpp_src/feynman_kac_1d/feynman_kac_1d.html), a
+[FEYNMAN\_KAC\_1D](../../master/feynman_kac_1d/feynman_kac_1d.md), a
 C++ program which demonstrates the use of the Feynman-Kac algorithm to
 solve Poisson's equation in a 1D interval by averaging stochastic paths
 to the boundary.
 
-[FEYNMAN\_KAC\_2D](../../cpp_src/feynman_kac_2d/feynman_kac_2d.html), a
+[FEYNMAN\_KAC\_2D](../../master/feynman_kac_2d/feynman_kac_2d.md), a
 C++ program which demonstrates the use of the Feynman-Kac algorithm to
 solve Poisson's equation in a 2D ellipse by averaging stochastic paths
 to the boundary.
 
-[SDE](../../m_src/sde/sde.html), a MATLAB library which solves certain
+[SDE](../../m_src/sde/sde.md), a MATLAB library which solves certain
 stochastic differential equations.
 
-[STOCHASTIC\_RK](../../cpp_src/stochastic_rk/stochastic_rk.html), a C++
+[STOCHASTIC\_RK](../../master/stochastic_rk/stochastic_rk.md), a C++
 library which applies a Runge-Kutta scheme to a stochastic differential
 equation.
 
@@ -73,7 +73,7 @@ equation.
 -   **R8\_UNIFORM\_01** returns a unit pseudorandom R8.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -25,48 +25,48 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PWL\_INTERP\_2D\_SCATTERED** is available in [a C
-version](../../c_src/pwl_interp_2d_scattered/pwl_interp_2d_scattered.html)
+version](../../c_src/pwl_interp_2d_scattered/pwl_interp_2d_scattered.md)
 and [a C++
-version](../../cpp_src/pwl_interp_2d_scattered/pwl_interp_2d_scattered.html)
+version](../../master/pwl_interp_2d_scattered/pwl_interp_2d_scattered.md)
 and [a FORTRAN77
-version](../../f77_src/pwl_interp_2d_scattered/pwl_interp_2d_scattered.html)
+version](../../f77_src/pwl_interp_2d_scattered/pwl_interp_2d_scattered.md)
 and [a FORTRAN90
-version](../../f_src/pwl_interp_2d_scattered/pwl_interp_2d_scattered.html)
+version](../../f_src/pwl_interp_2d_scattered/pwl_interp_2d_scattered.md)
 and [a MATLAB
-version](../../m_src/pwl_interp_2d_scattered/pwl_interp_2d_scattered.html).
+version](../../m_src/pwl_interp_2d_scattered/pwl_interp_2d_scattered.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LAGRANGE\_INTERP\_2D](../../cpp_src/lagrange_interp_2d/lagrange_interp_2d.html),
+[LAGRANGE\_INTERP\_2D](../../master/lagrange_interp_2d/lagrange_interp_2d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x,y)
 which interpolates a set of data depending on a 2D argument that was
 evaluated on a product grid, so that p(x(i),y(j)) = z(i,j).
 
-[PWL\_INTERP\_2D](../../cpp_src/pwl_interp_2d/pwl_interp_2d.html), a C++
+[PWL\_INTERP\_2D](../../master/pwl_interp_2d/pwl_interp_2d.md), a C++
 library which evaluates a piecewise linear interpolant to data defined
 on a regular 2D grid.
 
-[RBF\_INTERP\_2D](../../cpp_src/rbf_interp_2d/rbf_interp_2d.html), a C++
+[RBF\_INTERP\_2D](../../master/rbf_interp_2d/rbf_interp_2d.md), a C++
 library which defines and evaluates radial basis function (RBF)
 interpolants to scattered 2D data.
 
-[SHEPARD\_INTERP\_2D](../../cpp_src/shepard_interp_2d/shepard_interp_2d.html),
+[SHEPARD\_INTERP\_2D](../../master/shepard_interp_2d/shepard_interp_2d.md),
 a C++ library which defines and evaluates Shepard interpolants to
 scattered 2D data, based on inverse distance weighting.
 
-[TEST\_INTERP\_2D](../../cpp_src/test_interp_2d/test_interp_2d.html), a
+[TEST\_INTERP\_2D](../../master/test_interp_2d/test_interp_2d.md), a
 C++ library which defines test problems for interpolation of regular or
 scattered data z(x,y), depending on a 2D argument.
 
-[TRIANGULATION](../../cpp_src/triangulation/triangulation.html), a C++
+[TRIANGULATION](../../master/triangulation/triangulation.md), a C++
 library which performs various operations on order 3 (linear) or order 6
 (quadratic) triangulations.
 
-[TRIANGULATION\_ORDER3\_CONTOUR](../../m_src/triangulation_order3_contour/triangulation_order3_contour.html),
+[TRIANGULATION\_ORDER3\_CONTOUR](../../m_src/triangulation_order3_contour/triangulation_order3_contour.md),
 a MATLAB program which makes contour plot of scattered data, or of data
 defined on an order 3 triangulation.
 
-[VANDERMONDE\_INTERP\_2D](../../cpp_src/vandermonde_interp_2d/vandermonde_interp_2d.html),
+[VANDERMONDE\_INTERP\_2D](../../master/vandermonde_interp_2d/vandermonde_interp_2d.md),
 a C++ library which finds a polynomial interpolant to data z(x,y) of a
 2D argument by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix.
@@ -120,7 +120,7 @@ coefficients, involving the Vandermonde matrix.
     triangulation for a point.
 -   **VBEDG** determines which boundary edges are visible to a point.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

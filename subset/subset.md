@@ -58,61 +58,61 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**SUBSET** is available in [a C version](../../c_src/subset/subset.html)
-and [a C++ version](../../cpp_src/subset/subset.html) and [a FORTRAN77
-version](../../f77_src/subset/subset.html) and [a FORTRAN90
-version](../../f_src/subset/subset.html) and [a MATLAB
-version](../../m_src/subset/subset.html) and [a Python
-version](../../py_src/subset/subset.html).
+**SUBSET** is available in [a C version](../../c_src/subset/subset.md)
+and [a C++ version](../../master/subset/subset.md) and [a FORTRAN77
+version](../../f77_src/subset/subset.md) and [a FORTRAN90
+version](../../f_src/subset/subset.md) and [a MATLAB
+version](../../m_src/subset/subset.md) and [a Python
+version](../../py_src/subset/subset.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BACKTRACK\_BINARY\_RC](../../cpp_src/backtrack_binary_rc/backtrack_binary_rc.html),
+[BACKTRACK\_BINARY\_RC](../../master/backtrack_binary_rc/backtrack_binary_rc.md),
 a C++ library which carries out a backtrack search for a set of binary
 decisions, using reverse communication.
 
-[CHANGE\_MAKING](../../cpp_src/change_making/change_making.html), a C++
+[CHANGE\_MAKING](../../master/change_making/change_making.md), a C++
 library which considers the change making problem, in which a given sum
 is to be formed using coins of various denominations.
 
-[COMBO](../../cpp_src/combo/combo.html), a C++ library which includes
+[COMBO](../../master/combo/combo.md), a C++ library which includes
 many combinatorial routines.
 
-[KNAPSACK\_01](../../cpp_src/knapsack_01/knapsack_01.html), a C++
+[KNAPSACK\_01](../../master/knapsack_01/knapsack_01.md), a C++
 library which uses brute force to solve small versions of the 0/1
 knapsack problem;
 
-[LEGENDRE\_PRODUCT\_POLYNOMIAL](../../cpp_src/legendre_product_polynomial/legendre_product_polynomial.html),
+[LEGENDRE\_PRODUCT\_POLYNOMIAL](../../master/legendre_product_polynomial/legendre_product_polynomial.md),
 a C++ library which defines Legendre product polynomials, creating a
 multivariate polynomial as the product of univariate Legendre
 polynomials.
 
-[MONOMIAL](../../cpp_src/monomial/monomial.html), a C++ library which
+[MONOMIAL](../../master/monomial/monomial.md), a C++ library which
 enumerates, lists, ranks, unranks and randomizes multivariate monomials
 in a space of M dimensions, with total degree less than N, equal to N,
 or lying within a given range.
 
-[PARTITION\_PROBLEM](../../cpp_src/partition_problem/partition_problem.html),
+[PARTITION\_PROBLEM](../../master/partition_problem/partition_problem.md),
 a C++ library which seeks solutions of the partition problem, splitting
 a set of integers into two subsets with equal sum.
 
-[POLYNOMIAL](../../cpp_src/polynomial/polynomial.html), a C++ library
+[POLYNOMIAL](../../master/polynomial/polynomial.md), a C++ library
 which adds, multiplies, differentiates, evaluates and prints
 multivariate polynomials in a space of M dimensions.
 
-[SUBSET\_SUM](../../cpp_src/subset_sum/subset_sum.html), a C++ library
+[SUBSET\_SUM](../../master/subset_sum/subset_sum.md), a C++ library
 which seeks solutions of the subset sum problem.
 
-[TOMS515](../../cpp_src/toms515/toms515.html), a C++ library which can
+[TOMS515](../../master/toms515/toms515.md), a C++ library which can
 select subsets of size K from a set of size N. This is a version of ACM
 TOMS Algorithm 515, by Bill Buckles, Matthew Lybanon.
 
-[UBVEC](../../cpp_src/ubvec/ubvec.html), a C++ library which
+[UBVEC](../../master/ubvec/ubvec.md), a C++ library which
 demonstrates how unsigned binary vectors, strings of 0's and 1's, can
 represent nonnegative integers or subsets or other mathematical objects,
 for which various arithmetic and logical operations can be defined.
 
-[UNICYCLE](../../cpp_src/unicycle/unicycle.html), a C++ library which
+[UNICYCLE](../../master/unicycle/unicycle.md), a C++ library which
 considers permutations containing a single cycle, sometimes called
 cyclic permutations.
 
@@ -819,7 +819,7 @@ cyclic permutations.
 -   **YTB\_PRINT** prints a Young tableau.
 -   **YTB\_RANDOM** selects a random Young tableau of a given shape.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

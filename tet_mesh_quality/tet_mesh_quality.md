@@ -12,7 +12,7 @@ variety of quality measures for a given tet mesh of a set of points in
 The tet mesh is defined by a *node file* containing the coordinates of
 nodes, and a *tetra file* containing quadruples of node indices. For
 more information on this format, see [the order4 tet mesh
-format](../../data/tet_mesh_order4/tet_mesh_order4.html).
+format](../../data/tet_mesh_order4/tet_mesh_order4.md).
 
 The quality measures computed include:
 
@@ -58,69 +58,69 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TET\_MESH\_QUALITY** is available in [a C++
-version](../../cpp_src/tet_mesh_quality/tet_mesh_quality.html) and [a
-FORTRAN90 version](../../f_src/tet_mesh_quality/tet_mesh_quality.html)
+version](../../master/tet_mesh_quality/tet_mesh_quality.md) and [a
+FORTRAN90 version](../../f_src/tet_mesh_quality/tet_mesh_quality.md)
 and [a MATLAB
-version](../../m_src/tet_mesh_quality/tet_mesh_quality.html).
+version](../../m_src/tet_mesh_quality/tet_mesh_quality.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[CVT\_TET\_MESH](../../f_src/cvt_tet_mesh/cvt_tet_mesh.html), a
+[CVT\_TET\_MESH](../../f_src/cvt_tet_mesh/cvt_tet_mesh.md), a
 FORTRAN90 library which uses CVT methods to compute a tet mesh in a
 region.
 
-[GEOMPACK](../../cpp_src/geompack/geompack.html), a C++ library which
+[GEOMPACK](../../master/geompack/geompack.md), a C++ library which
 includes a routine **DTRIS3** to compute the tet mesh of a set of points
 in 3D.
 
-[TABLE\_QUALITY](../../f_src/table_quality/table_quality.html), a
+[TABLE\_QUALITY](../../f_src/table_quality/table_quality.md), a
 FORTRAN90 program which computes quality measures for an arbitrary
 (untriangulated) pointset in any dimension.
 
-[TABLE\_TET\_MESH](../../f_src/table_tet_mesh/table_tet_mesh.html), a
+[TABLE\_TET\_MESH](../../f_src/table_tet_mesh/table_tet_mesh.md), a
 FORTRAN90 program which computes the tet mesh of a set of points in 3D.
 
-[TEST\_TET\_MESH](../../f_src/test_tet_mesh/test_tet_mesh.html), a
+[TEST\_TET\_MESH](../../f_src/test_tet_mesh/test_tet_mesh.md), a
 FORTRAN90 library which defines a few test regions for the generation of
 a tet mesh.
 
-[TET\_MESH](../../cpp_src/tet_mesh/tet_mesh.html), a C++ library which
+[TET\_MESH](../../master/tet_mesh/tet_mesh.md), a C++ library which
 carries out computations with a tet mesh.
 
-[TET\_MESH\_BOUNDARY](../../cpp_src/tet_mesh_boundary/tet_mesh_boundary.html),
+[TET\_MESH\_BOUNDARY](../../master/tet_mesh_boundary/tet_mesh_boundary.md),
 a C++ program which returns the nodes and faces of the boundary of a
 tetrahedral mesh, which themselves form a 3D triangular mesh or
 "TRI\_SURFACE".
 
-[TET\_MESH\_DISPLAY](../../m_src/tet_mesh_display/tet_mesh_display.html),
+[TET\_MESH\_DISPLAY](../../m_src/tet_mesh_display/tet_mesh_display.md),
 a MATLAB program which can read in the node and tetra files defining a
 tet mesh and display a wireframe image.
 
-[TET\_MESH\_DISPLAY\_OPENGL](../../cpp_src/tet_mesh_display_opengl/tet_mesh_display_opengl.html),
+[TET\_MESH\_DISPLAY\_OPENGL](../../master/tet_mesh_display_opengl/tet_mesh_display_opengl.md),
 a C++ program which reads a tet mesh and displays the nodes and edges
 using OpenGL.
 
-[TET\_MESH\_L2Q](../../cpp_src/tet_mesh_l2q/tet_mesh_l2q.html), a C++
+[TET\_MESH\_L2Q](../../master/tet_mesh_l2q/tet_mesh_l2q.md), a C++
 program which converts a linear to quadratic tet mesh.
 
-[TET\_MESH\_Q2L](../../cpp_src/tet_mesh_q2l/tet_mesh_q2l.html), a C++
+[TET\_MESH\_Q2L](../../master/tet_mesh_q2l/tet_mesh_q2l.md), a C++
 program which converts a quadratic to linear tet mesh.
 
-[TET\_MESH\_RCM](../../cpp_src/tet_mesh_rcm/tet_mesh_rcm.html), a C++
+[TET\_MESH\_RCM](../../master/tet_mesh_rcm/tet_mesh_rcm.md), a C++
 program which takes a tet mesh and relabels the nodes to reduce the
 bandwidth of the corresponding adjacency matrix.
 
-[TET\_MESH\_REFINE](../../cpp_src/tet_mesh_refine/tet_mesh_refine.html),
+[TET\_MESH\_REFINE](../../master/tet_mesh_refine/tet_mesh_refine.md),
 a C++ program which refines a tet mesh.
 
-[TET\_MESH\_TET\_NEIGHBORS](../../cpp_src/tet_mesh_tet_neighbors/tet_mesh_tet_neighbors.html),
+[TET\_MESH\_TET\_NEIGHBORS](../../master/tet_mesh_tet_neighbors/tet_mesh_tet_neighbors.md),
 a C++ program which computes the tetrahedral adjacency information.
 
-[TET\_MESH\_VOLUMES](../../cpp_src/tet_mesh_volumes/tet_mesh_volumes.html),
+[TET\_MESH\_VOLUMES](../../master/tet_mesh_volumes/tet_mesh_volumes.md),
 a C++ program which computes the volume of each tetrahedron in a tet
 mesh.
 
-[TRIANGULATION\_QUALITY](../../cpp_src/triangulation_quality/triangulation_quality.html),
+[TRIANGULATION\_QUALITY](../../master/triangulation_quality/triangulation_quality.md),
 a C++ program which computes triangle-based quality measures for a
 triangulation of a set of points in 2D.
 
@@ -228,7 +228,7 @@ copy include:
     3D.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -135,15 +135,15 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LAPLACIAN** is available in [a C
-version](../../c_src/laplacian/laplacian.html) and [a C++
-version](../../cpp_src/laplacian/laplacian.html) and [a FORTRAN77
-version](../../f77_src/laplacian/laplacian.html) and [a FORTRAN90
-version](../../f_src/laplacian/laplacian.html) and [a MATLAB
-version](../../m_src/laplacian/laplacian.html).
+version](../../c_src/laplacian/laplacian.md) and [a C++
+version](../../master/laplacian/laplacian.md) and [a FORTRAN77
+version](../../f77_src/laplacian/laplacian.md) and [a FORTRAN90
+version](../../f_src/laplacian/laplacian.md) and [a MATLAB
+version](../../m_src/laplacian/laplacian.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices for which some of the determinant, eigenvalues,
 inverse, null vectors, P\*L\*U factorization or linear system solution
 are already known.
@@ -198,7 +198,7 @@ are already known.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

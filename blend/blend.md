@@ -46,19 +46,19 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**BLEND** is available in [a C version](../../c_src/blend/blend.html)
-and [a C++ version](../../cpp_src/blend/blend.html) and [a FORTRAN77
-version](../../f77_src/blend/blend.html) and [a FORTRAN90
-version](../../f_src/blend/blend.html) and [a MATLAB
-version](../../m_src/blend/blend.html).
+**BLEND** is available in [a C version](../../c_src/blend/blend.md)
+and [a C++ version](../../master/blend/blend.md) and [a FORTRAN77
+version](../../f77_src/blend/blend.md) and [a FORTRAN90
+version](../../f_src/blend/blend.md) and [a MATLAB
+version](../../m_src/blend/blend.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TILER\_2D](../../f_src/tiler_2d/tiler_2d.html), a FORTRAN90 program
+[TILER\_2D](../../f_src/tiler_2d/tiler_2d.md), a FORTRAN90 program
 which provides an interesting example of the use of transfinite
 interpolation for 2D data.
 
-[TILER\_3D](../../cpp_src/tiler_3d/tiler_3d.html), a C++ program which
+[TILER\_3D](../../master/tiler_3d/tiler_3d.md), a C++ program which
 provides an interesting example of the use of transfinite interpolation
 for 3D data.
 
@@ -131,7 +131,7 @@ for 3D data.
     nonblank.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

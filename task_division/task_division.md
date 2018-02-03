@@ -40,15 +40,15 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TASK\_DIVISION** is available in [a C
-version](../../c_src/task_division/task_division.html) and [a C++
-version](../../cpp_src/task_division/task_division.html) and [a
-FORTRAN77 version](../../f77_src/task_division/task_division.html) and
-[a FORTRAN90 version](../../f_src/task_division/task_division.html) and
-[a MATLAB version](../../m_src/task_division/task_division.html).
+version](../../c_src/task_division/task_division.md) and [a C++
+version](../../master/task_division/task_division.md) and [a
+FORTRAN77 version](../../f77_src/task_division/task_division.md) and
+[a FORTRAN90 version](../../f_src/task_division/task_division.md) and
+[a MATLAB version](../../m_src/task_division/task_division.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MPI](../../cpp_src/mpi/mpi.html), C++ programs which illustrate the use
+[MPI](../../master/mpi/mpi.md), C++ programs which illustrate the use
 of the MPI application program interface for carrying out parallel
 computations in a distributed memory environment.
 
@@ -70,7 +70,7 @@ computations in a distributed memory environment.
 -   **TASK\_DIVISION** divides tasks among processors.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

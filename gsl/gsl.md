@@ -73,24 +73,24 @@ GNU Scientific Library.
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLAS1](../../cpp_src/blas1/blas1.html), a C++ library which implements
+[BLAS1](../../master/blas1/blas1.md), a C++ library which implements
 the BLAS Level 1 vector-vector routines, which is included in GSL.
 
-[BLAS2](../../f_src/blas2/blas2.html), a FORTRAN90 library which
+[BLAS2](../../f_src/blas2/blas2.md), a FORTRAN90 library which
 implements the BLAS Level 2 matrix-vector routines, which is included in
 GSL.
 
-[BLAS3](../../f_src/blas3/blas3.html), a FORTRAN90 library which
+[BLAS3](../../f_src/blas3/blas3.md), a FORTRAN90 library which
 implements the BLAS Level 3 matrix-matrix routines, which is included in
 GSL.
 
-[POLPAK](../../cpp_src/polpak/polpak.html), a C++ library which
+[POLPAK](../../master/polpak/polpak.md), a C++ library which
 evaluates various recursive polynomials and other special functions.
 
-[SPECFUN](../../f77_src/specfun/specfun.html), a FORTRAN77 library which
+[SPECFUN](../../f77_src/specfun/specfun.md), a FORTRAN77 library which
 evaluates various special functions.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which returns a few values of various special functions.
 
 ### Reference: {#reference align="center"}
@@ -107,7 +107,7 @@ library which returns a few values of various special functions.
 -   [gsl\_test.cpp](gsl_test.cpp), a calling program;
 -   [gsl\_test\_output.txt](gsl_test_output.txt), the sample output.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -1,10 +1,10 @@
 #!/bin/bash
 #
-cp ~/public_html/datasets/sparse_grid_mixed/sparse_grid_mixed_d2_l3_ccxgp_a.txt .
-cp ~/public_html/datasets/sparse_grid_mixed/sparse_grid_mixed_d2_l3_ccxgp_b.txt .
-cp ~/public_html/datasets/sparse_grid_mixed/sparse_grid_mixed_d2_l3_ccxgp_r.txt .
-cp ~/public_html/datasets/sparse_grid_mixed/sparse_grid_mixed_d2_l3_ccxgp_w.txt .
-cp ~/public_html/datasets/sparse_grid_mixed/sparse_grid_mixed_d2_l3_ccxgp_x.txt .
+cp ~/public.md/datasets/sparse_grid_mixed/sparse_grid_mixed_d2_l3_ccxgp_a.txt .
+cp ~/public.md/datasets/sparse_grid_mixed/sparse_grid_mixed_d2_l3_ccxgp_b.txt .
+cp ~/public.md/datasets/sparse_grid_mixed/sparse_grid_mixed_d2_l3_ccxgp_r.txt .
+cp ~/public.md/datasets/sparse_grid_mixed/sparse_grid_mixed_d2_l3_ccxgp_w.txt .
+cp ~/public.md/datasets/sparse_grid_mixed/sparse_grid_mixed_d2_l3_ccxgp_x.txt .
 #
 ~/bincpp/$ARCH/nint_exactness_mixed sparse_grid_mixed_d2_l3_ccxgp 9 > sparse_grid_mixed_d2_l3_ccxgp_exactness.txt
 #

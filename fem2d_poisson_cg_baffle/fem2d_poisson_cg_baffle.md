@@ -23,25 +23,25 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_POISSON\_CG\_BAFFLE** is available in [a C++
-version](../../cpp_src/fem2d_poisson_cg_baffle/fem2d_poisson_cg_baffle.html)
+version](../../master/fem2d_poisson_cg_baffle/fem2d_poisson_cg_baffle.md)
 and [a FORTRAN90
-version](../../f_src/fem2d_poisson_cg_baffle/fem2d_poisson_cg_baffle.html)
+version](../../f_src/fem2d_poisson_cg_baffle/fem2d_poisson_cg_baffle.md)
 and [a MATLAB
-version](../../m_src/fem2d_poisson_cg_baffle/fem2d_poisson_cg_baffle.html).
+version](../../m_src/fem2d_poisson_cg_baffle/fem2d_poisson_cg_baffle.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D\_POISSON\_CG](../../cpp_src/fem2d_poisson_cg/fem2d_poisson_cg.html),
+[FEM2D\_POISSON\_CG](../../master/fem2d_poisson_cg/fem2d_poisson_cg.md),
 a C++ program which solves Poisson's equation on a triangulated region,
 using the finite element method, sparse storage, and a conjugate
 gradient solver.
 
-[FEM2D\_POISSON\_CG\_ELL](../../cpp_src/fem2d_poisson_cg_ell/fem2d_poisson_cg_ell.html),
+[FEM2D\_POISSON\_CG\_ELL](../../master/fem2d_poisson_cg_ell/fem2d_poisson_cg_ell.md),
 a C++ library which defines the geometry of an L-shaped region, as well
 as boundary conditions for a given Poisson problem, and is called by
 fem2d\_poisson\_cg as part of a solution procedure.
 
-[FEM2D\_POISSON\_CG\_LAKE](../../cpp_src/fem2d_poisson_cg_lake/fem2d_poisson_cg_lake.html),
+[FEM2D\_POISSON\_CG\_LAKE](../../master/fem2d_poisson_cg_lake/fem2d_poisson_cg_lake.md),
 a C++ library which defines the geometry of a lake-shaped region, as
 well as boundary conditions for a given Poisson problem, and is called
 by fem2d\_poisson\_cg as part of a solution procedure.
@@ -64,7 +64,7 @@ by fem2d\_poisson\_cg as part of a solution procedure.
 -   [baffle\_values.txt](baffle_values.txt), a text file containing the
     solution U at each node (X,Y);
 
-You can go up one level to [the C++ source code page](../cpp_src.html).
+You can go up one level to [the C++ source code page](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

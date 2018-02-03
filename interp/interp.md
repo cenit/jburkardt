@@ -16,43 +16,43 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**INTERP** is available in [a C version](../../c_src/interp/interp.html)
-and [a C++ version](../../cpp_src/interp/interp.html) and [a FORTRAN77
-version](../../f77_src/interp/interp.html) and [a FORTRAN90
-version](../../f_src/interp/interp.html) and [a MATLAB
-version](../../m_src/interp/interp.html).
+**INTERP** is available in [a C version](../../c_src/interp/interp.md)
+and [a C++ version](../../master/interp/interp.md) and [a FORTRAN77
+version](../../f77_src/interp/interp.md) and [a FORTRAN90
+version](../../f_src/interp/interp.md) and [a MATLAB
+version](../../m_src/interp/interp.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[DIVDIF](../../cpp_src/divdif/divdif.html), a C++ library which uses
+[DIVDIF](../../master/divdif/divdif.md), a C++ library which uses
 divided differences to interpolate data.
 
-[HERMITE](../../cpp_src/hermite/hermite.html), a C++ library which
+[HERMITE](../../master/hermite/hermite.md), a C++ library which
 computes the Hermite interpolant, a polynomial that matches function
 values and derivatives.
 
-[LEBESGUE](../../cpp_src/lebesgue/lebesgue.html), a C++ library which is
+[LEBESGUE](../../master/lebesgue/lebesgue.md), a C++ library which is
 given a set of nodes in 1D, and plots the Lebesgue function, and
 estimates the Lebesgue constant, which measures the maximum magnitude of
 the potential error of Lagrange polynomial interpolation, and which uses
 gnuplot to make plots of the Lebesgue function.
 
-[RBF\_INTERP](../../cpp_src/rbf_interp/rbf_interp.html), a C++ library
+[RBF\_INTERP](../../master/rbf_interp/rbf_interp.md), a C++ library
 which defines and evaluates radial basis interpolants to
 multidimensional data.
 
-[SPLINE](../../cpp_src/spline/spline.html), a C++ library which computes
+[SPLINE](../../master/spline/spline.md), a C++ library which computes
 functions that approximate or interpolate data.
 
-[TEST\_APPROX](../../cpp_src/test_approx/test_approx.html), a C++
+[TEST\_APPROX](../../master/test_approx/test_approx.md), a C++
 library which defines a number of test problems for approximation and
 interpolation.
 
-[TEST\_INTERP\_1D](../../cpp_src/test_interp_1d/test_interp_1d.html), a
+[TEST\_INTERP\_1D](../../master/test_interp_1d/test_interp_1d.md), a
 C++ library which defines test problems for interpolation of data y(x),
 depending on a 1D argument.
 
@@ -115,7 +115,7 @@ depending on a 1D argument.
     R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

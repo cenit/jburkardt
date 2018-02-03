@@ -28,57 +28,57 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **VANDERMONDE\_APPROX\_1D** is available in [a C
-version](../../c_src/vandermonde_approx_1d/vandermonde_approx_1d.html)
+version](../../c_src/vandermonde_approx_1d/vandermonde_approx_1d.md)
 and [a C++
-version](../../cpp_src/vandermonde_approx_1d/vandermonde_approx_1d.html)
+version](../../master/vandermonde_approx_1d/vandermonde_approx_1d.md)
 and [a FORTRAN77
-version](../../f77_src/vandermonde_approx_1d/vandermonde_approx_1d.html)
+version](../../f77_src/vandermonde_approx_1d/vandermonde_approx_1d.md)
 and [a FORTRAN90
-version](../../f_src/vandermonde_approx_1d/vandermonde_approx_1d.html)
+version](../../f_src/vandermonde_approx_1d/vandermonde_approx_1d.md)
 and [a MATLAB
-version](../../m_src/vandermonde_approx_1d/vandermonde_approx_1d.html).
+version](../../m_src/vandermonde_approx_1d/vandermonde_approx_1d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN](../../cpp_src/bernstein/bernstein.html), a C++ library which
+[BERNSTEIN](../../master/bernstein/bernstein.md), a C++ library which
 evaluates the Bernstein polynomials, useful for uniform approximation of
 functions;
 
-[CHEBYSHEV](../../cpp_src/chebyshev/chebyshev.html), a C++ library which
+[CHEBYSHEV](../../master/chebyshev/chebyshev.md), a C++ library which
 computes the Chebyshev interpolant/approximant to a given function over
 an interval.
 
-[CONDITION](../../cpp_src/condition/condition.html), a C++ library which
+[CONDITION](../../master/condition/condition.md), a C++ library which
 implements methods of computing or estimating the condition number of a
 matrix.
 
-[LAGRANGE\_APPROX\_1D](../../cpp_src/lagrange_approx_1d/lagrange_approx_1d.html),
+[LAGRANGE\_APPROX\_1D](../../master/lagrange_approx_1d/lagrange_approx_1d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 of degree m which approximates a set of nd data points (x(i),y(i)).
 
-[PWL\_APPROX\_1D](../../cpp_src/pwl_approx_1d/pwl_approx_1d.html), a C++
+[PWL\_APPROX\_1D](../../master/pwl_approx_1d/pwl_approx_1d.md), a C++
 library which approximates a set of data using a piecewise linear
 function.
 
-[QR\_SOLVE](../../cpp_src/qr_solve/qr_solve.html), a C++ library which
+[QR\_SOLVE](../../master/qr_solve/qr_solve.md), a C++ library which
 computes the least squares solution of a linear system A\*x=b.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[SPLINE](../../cpp_src/spline/spline.html), a C++ library which
+[SPLINE](../../master/spline/spline.md), a C++ library which
 constructs and evaluates spline interpolants and approximants.
 
-[TEST\_APPROX](../../cpp_src/test_approx/test_approx.html), a C++
+[TEST\_APPROX](../../master/test_approx/test_approx.md), a C++
 library which defines test problems for approximation, provided as a set
 of (x,y) data.
 
-[VANDERMONDE\_APPROX\_2D](../../cpp_src/vandermonde_approx_2d/vandermonde_approx_2d.html),
+[VANDERMONDE\_APPROX\_2D](../../master/vandermonde_approx_2d/vandermonde_approx_2d.md),
 a C++ library which finds a polynomial approximant p(x,y) to data z(x,y)
 of a 2D argument by setting up and solving an overdetermined linear
 system for the polynomial coefficients involving the Vandermonde matrix.
 
-[VANDERMONDE\_INTERP\_1D](../../cpp_src/vandermonde_interp_1d/vandermonde_interp_1d.html),
+[VANDERMONDE\_INTERP\_1D](../../master/vandermonde_interp_1d/vandermonde_interp_1d.md),
 a C++ library which finds a polynomial interpolant to a function of 1D
 data by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix.
@@ -122,7 +122,7 @@ coefficients, involving the Vandermonde matrix.
 -   **VANDERMONDE\_APPROX\_1D\_MATRIX** computes a Vandermonde 1D
     approximation matrix.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

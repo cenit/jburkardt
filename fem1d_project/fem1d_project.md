@@ -53,60 +53,60 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM1D\_PROJECT** is available in [a C
-version](../../c_src/fem1d_project/fem1d_project.html) and [a C++
-version](../../cpp_src/fem1d_project/fem1d_project.html) and [a
-FORTRAN77 version](../../f77_src/fem1d_project/fem1d_project.html) and
-[a FORTRAN90 version](../../f_src/fem1d_project/fem1d_project.html) and
-[a MATLAB version](../../m_src/fem1d_project/fem1d_project.html).
+version](../../c_src/fem1d_project/fem1d_project.md) and [a C++
+version](../../master/fem1d_project/fem1d_project.md) and [a
+FORTRAN77 version](../../f77_src/fem1d_project/fem1d_project.md) and
+[a FORTRAN90 version](../../f_src/fem1d_project/fem1d_project.md) and
+[a MATLAB version](../../m_src/fem1d_project/fem1d_project.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM1D](../../data/fem1d/fem1d.html), a data directory which contains
+[FEM1D](../../data/fem1d/fem1d.md), a data directory which contains
 examples of 1D FEM files, three text files that describe a 1D finite
 element model;
 
-[FEM1D](../../cpp_src/fem1d/fem1d.html), a C++ program which applies the
+[FEM1D](../../master/fem1d/fem1d.md), a C++ program which applies the
 finite element method to a 1D linear two point boundary value problem.
 
-[FEM1D\_ADAPTIVE](../../cpp_src/fem1d_adaptive/fem1d_adaptive.html), a
+[FEM1D\_ADAPTIVE](../../master/fem1d_adaptive/fem1d_adaptive.md), a
 C++ program which applies the finite element method to a 1D linear two
 point boundary value problem using adaptive refinement to improve the
 solution.
 
-[FEM1D\_BVP\_LINEAR](../../cpp_src/fem1d_bvp_linear/fem1d_bvp_linear.html),
+[FEM1D\_BVP\_LINEAR](../../master/fem1d_bvp_linear/fem1d_bvp_linear.md),
 a C++ program which applies the finite element method, with piecewise
 linear elements, to a two point boundary value problem in one spatial
 dimension.
 
-[FEM1D\_HEAT\_STEADY](../../cpp_src/fem1d_heat_steady/fem1d_heat_steady.html),
+[FEM1D\_HEAT\_STEADY](../../master/fem1d_heat_steady/fem1d_heat_steady.md),
 a C++ program which uses the finite element method to solve the steady
 (time independent) heat equation in 1D.
 
-[FEM1D\_NONLINEAR](../../cpp_src/fem1d_nonlinear/fem1d_nonlinear.html),
+[FEM1D\_NONLINEAR](../../master/fem1d_nonlinear/fem1d_nonlinear.md),
 a C++ program which applies the finite element method to a 1D nonlinear
 two point boundary value problem.
 
-[FEM1D\_PACK](../../cpp_src/fem1d_pack/fem1d_pack.html), a C++ library
+[FEM1D\_PACK](../../master/fem1d_pack/fem1d_pack.md), a C++ library
 which contains utilities for 1D finite element calculations.
 
-[FEM1D\_PMETHOD](../../cpp_src/fem1d_pmethod/fem1d_pmethod.html), a C++
+[FEM1D\_PMETHOD](../../master/fem1d_pmethod/fem1d_pmethod.md), a C++
 program which applies the p-method version of the finite element method
 to a 1D linear two point boundary value problem.
 
-[FEM1D\_SAMPLE](../../cpp_src/fem1d_sample/fem1d_sample.html), a C++
+[FEM1D\_SAMPLE](../../master/fem1d_sample/fem1d_sample.md), a C++
 program which samples a scalar or vector finite element function of one
 variable, defined by FEM files, returning interpolated values at the
 sample points.
 
-[FEM2D\_PROJECT](../../cpp_src/fem2d_project/fem2d_project.html), a C++
+[FEM2D\_PROJECT](../../master/fem2d_project/fem2d_project.md), a C++
 program which projects a function F(X,Y), given as a data, into a given
 finite element space of piecewise linear triangular elements.
 
-[FEM2D\_PROJECT\_FUNCTION](../../cpp_src/fem2d_project_function/fem2d_project_function.html),
+[FEM2D\_PROJECT\_FUNCTION](../../master/fem2d_project_function/fem2d_project_function.md),
 a C++ program which projects a function F(X,Y), given as a formula, into
 a given finite element space of piecewise linear triangular elements.
 
-[FEM3D\_PROJECT](../../cpp_src/fem3d_project/fem3d_project.html), a C++
+[FEM3D\_PROJECT](../../master/fem3d_project/fem3d_project.md), a C++
 program which projects a function F(X,Y,Z), given as a data, into a
 given finite element space of piecewise linear tetrahedral elements.
 
@@ -185,7 +185,7 @@ this onto a piecewise linear grid of 6 equally spaced nodes from 0 to
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

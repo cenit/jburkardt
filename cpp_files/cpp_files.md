@@ -15,19 +15,19 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 A version of **CPP\_FILES** is available in [a C
-version](../../c_src/c_files/c_files.html) and [a C++
-version](../../cpp_src/cpp_files/cpp_files.html) and [a FORTRAN90
-version](../../f_src/cpp_files/cpp_files.html).
+version](../../c_src/c_files/c_files.md) and [a C++
+version](../../master/cpp_files/cpp_files.md) and [a FORTRAN90
+version](../../f_src/cpp_files/cpp_files.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CPP](../../cpp_src/cpp/cpp.html), C++ programs which illustrate some of
+[CPP](../../master/cpp/cpp.md), C++ programs which illustrate some of
 the features of the C++ programming language.
 
-[FILUM](../../cpp_src/filum/filum.html), a C++ library which can work
+[FILUM](../../master/filum/filum.md), a C++ library which can work
 with information in text files.
 
-[TABLE\_IO](../../cpp_src/table_io/table_io.html), a C++ library which
+[TABLE\_IO](../../master/table_io/table_io.md), a C++ library which
 reads and writes table files.
 
 ### Reference: {#reference align="center"}
@@ -59,7 +59,7 @@ reads and writes table files.
     several ways to read the file.
 -   [mice\_reader\_output.txt](mice_reader_output.txt), the output file;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -33,54 +33,54 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **XYZF\_DISPLAY\_OPENGL** is available in [a C++
-version](../../cpp_src/xyzf_display_opengl/xyzf_display_opengl.html).
+version](../../master/xyzf_display_opengl/xyzf_display_opengl.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[OPENGL](../../cpp_src/opengl/opengl.html), C++ programs which
+[OPENGL](../../master/opengl/opengl.md), C++ programs which
 illustrate the use of the OpenGL graphics library;
 
-[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../cpp_src/polygonal_surface_display_opengl/polygonal_surface_display_opengl.html),
+[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../master/polygonal_surface_display_opengl/polygonal_surface_display_opengl.md),
 a C++ program which displays a surface in 3D described as a set of
 polygons, using OpenGL.
 
-[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../cpp_src/rotating_cube_display_opengl/rotating_cube_display_opengl.html),
+[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../master/rotating_cube_display_opengl/rotating_cube_display_opengl.md),
 a C++ program which displays a rotating color cube in 3D, using OpenGL;
 
-[SPHERE\_VORONOI](../../f_src/sphere_voronoi/sphere_voronoi.html), a
+[SPHERE\_VORONOI](../../f_src/sphere_voronoi/sphere_voronoi.md), a
 FORTRAN90 library which reads an XYZ file of 3D points on the unit
 sphere, and computes and plots Delaunay triangulations and Voronoi
 diagrams.
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[XYF\_DISPLAY\_OPENGL](../../cpp_src/xyf_display_opengl/xyf_display_opengl.html),
+[XYF\_DISPLAY\_OPENGL](../../master/xyf_display_opengl/xyf_display_opengl.md),
 a C++ program which reads XYF information defining points and faces in
 2D, and displays an image using OpenGL.
 
-[XYZ](../../data/xyz/xyz.html), a data directory which contains some
+[XYZ](../../data/xyz/xyz.md), a data directory which contains some
 examples of 3D pointsets.
 
-[XYZ\_DISPLAY\_OPENGL](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html),
+[XYZ\_DISPLAY\_OPENGL](../../master/xyz_display_opengl/xyz_display_opengl.md),
 a C++ program which reads an XYZ file of 3D point coordinates, and
 displays an image of those points using OpenGL.
 
-[XYZF](../../data/xyzf/xyzf.html), a data directory which contains some
+[XYZF](../../data/xyzf/xyzf.md), a data directory which contains some
 examples of sets of 3D points and faces.
 
-[XYZL](../../data/xyzl/xyzl.html), a data directory which contains some
+[XYZL](../../data/xyzl/xyzl.md), a data directory which contains some
 examples of sets of 3D points and lines.
 
-[XYZL\_DISPLAY\_OPENGL](../../cpp_src/xyzl_display_opengl/xyzl_display_opengl.html),
+[XYZL\_DISPLAY\_OPENGL](../../master/xyzl_display_opengl/xyzl_display_opengl.md),
 a C++ program which reads XYZL information defining points and lines in
 3D, and displays an image in a MATLAB graphics window.
 
@@ -161,7 +161,7 @@ a C++ program which reads XYZL information defining points and lines in
 -   **XYZF\_HEADER\_READ** determines the number of face items in an
     XYZF file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

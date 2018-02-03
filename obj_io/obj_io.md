@@ -17,40 +17,40 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **OBJ\_IO** is available in [a C++
-version](../../cpp_src/obj_io/obj_io.html) and [a FORTRAN90
-version](../../f_src/obj_io/obj_io.html) and [a MATLAB
-version](../../m_src/obj_io/obj_io.html).
+version](../../master/obj_io/obj_io.md) and [a FORTRAN90
+version](../../f_src/obj_io/obj_io.md) and [a MATLAB
+version](../../m_src/obj_io/obj_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[IVCON](../../cpp_src/ivcon/ivcon.html), a C++ program which can convert
+[IVCON](../../master/ivcon/ivcon.md), a C++ program which can convert
 graphics information between STLA and other formats.
 
-[IVREAD](../../f_src/ivread/ivread.html), a FORTRAN90 program which can
+[IVREAD](../../f_src/ivread/ivread.md), a FORTRAN90 program which can
 convert graphics information between STLA and other formats.
 
-[OBJ](../../data/obj/obj.html), a data directory which has some examples
+[OBJ](../../data/obj/obj.md), a data directory which has some examples
 of OBJ files.
 
-[OBJ\_TO\_PLY](../../c_src/obj_to_ply/obj_to_ply.html), a C program
+[OBJ\_TO\_PLY](../../c_src/obj_to_ply/obj_to_ply.md), a C program
 which reads an OBJ file and writes similar information to a
-[PLY](../../data/ply/ply.html) file.
+[PLY](../../data/ply/ply.md) file.
 
-[OBJ\_TO\_TRI\_MESH](../../m_src/obj_to_tri_mesh/obj_to_tri_mesh.html),
+[OBJ\_TO\_TRI\_MESH](../../m_src/obj_to_tri_mesh/obj_to_tri_mesh.md),
 a MATLAB program which reads an OBJ file and extracts the surface mesh
-data as a [TRI\_MESH](../../data/tri_mesh/tri_mesh.html) dataset.
+data as a [TRI\_MESH](../../data/tri_mesh/tri_mesh.md) dataset.
 
-[OBJ2OPENGL](../../pl_src/obj2opengl/obj2opengl.html), a PERL script
+[OBJ2OPENGL](../../pl_src/obj2opengl/obj2opengl.md), a PERL script
 which converts an OBJ file to a C/C++ include file appropriate for use
-with [OPEN\_GL](../../cpp_src/open_gl/open_gl.html).
+with [OPEN\_GL](../../master/open_gl/open_gl.md).
 
-[PLY\_TO\_OBJ](../../c_src/ply_to_obj/ply_to_obj.html), a C program
+[PLY\_TO\_OBJ](../../c_src/ply_to_obj/ply_to_obj.md), a C program
 which reads a PLY 3D graphics file and writes an equivalent OBJ graphics
 file.
 
 ### Reference: {#reference align="center"}
 
-1.  <http://www.alias.com/eng/index.shtml>, The Alias web site.
+1.  <http://www.alias.com/eng/index..md>, The Alias web site.
 2.  [obj\_format.txt](../../txt/obj_format.txt), some information about
     the OBJ format.
 
@@ -89,7 +89,7 @@ file.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

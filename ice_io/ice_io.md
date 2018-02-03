@@ -16,34 +16,34 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ICE\_IO** is available in [a C
-version](../../c_src/ice_io/ice_io.html) and [a C++
-version](../../cpp_src/ice_io/ice_io.html) and [a FORTRAN77
-version](../../f77_src/ice_io/ice_io.html) and [a FORTRAN90
-version](../../f_src/ice_io/ice_io.html) and [a MATLAB
-version](../../m_src/ice_io/ice_io.html).
+version](../../c_src/ice_io/ice_io.md) and [a C++
+version](../../master/ice_io/ice_io.md) and [a FORTRAN77
+version](../../f77_src/ice_io/ice_io.md) and [a FORTRAN90
+version](../../f_src/ice_io/ice_io.md) and [a MATLAB
+version](../../m_src/ice_io/ice_io.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[ICE](../../data/ice/ice.html), a data directory which contains examples
+[ICE](../../data/ice/ice.md), a data directory which contains examples
 of ICE files, which store icesheet grid datasets in the NETCDF format.
 
-[ICE\_TO\_MESH](../../cpp_src/ice_to_mesh/ice_to_mesh.html), a C++
+[ICE\_TO\_MESH](../../master/ice_to_mesh/ice_to_mesh.md), a C++
 program which reads a NETCDF file containing an ICE dataset and rewrites
 the information as a MESH file.
 
-[MESH](../../data/mesh/mesh.html), a data directory which contains
+[MESH](../../data/mesh/mesh.md), a data directory which contains
 examples of MESH files, which can be used to define the geometry of a
 finite element mesh in 2D or 3D, using triangles, quadrilaterals,
 tetrahedrons or hexahedrons.
 
-[MESH\_TO\_ICE](../../cpp_src/mesh_to_ice/mesh_to_ice.html), a C++
+[MESH\_TO\_ICE](../../master/mesh_to_ice/mesh_to_ice.md), a C++
 program which reads a MESH file containing an ICE dataset and rewrites
 the information as a NETCDF file.
 
-[NETCDF](../../m_src/netcdf/netcdf.html), MATLAB programs which read and
+[NETCDF](../../m_src/netcdf/netcdf.md), MATLAB programs which read and
 write NETCDF files.
 
-[NETCDF\_MPAS](../../data/netcdf_mpas/netcdf_mpas.html), MATLAB programs
+[NETCDF\_MPAS](../../data/netcdf_mpas/netcdf_mpas.md), MATLAB programs
 which read and write MPAS grid data stored as NETCDF files.
 
 ### Reference: {#reference align="center"}
@@ -86,7 +86,7 @@ which read and write MPAS grid data stored as NETCDF files.
 -   **SIZE\_READ** reads ICE sizes from a NETCDF file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

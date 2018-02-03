@@ -34,25 +34,25 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MPI\_STUBS** is available in [a C
-version](../../c_src/mpi_stubs/mpi_stubs.html) and [a C++
-version](../../cpp_src/mpi_stubs/mpi_stubs.html) and [a FORTRAN77
-version](../../f77_src/mpi_stubs/mpi_stubs.html) and [a FORTRAN90
-version](../../f_src/mpi_stubs/mpi_stubs.html).
+version](../../c_src/mpi_stubs/mpi_stubs.md) and [a C++
+version](../../master/mpi_stubs/mpi_stubs.md) and [a FORTRAN77
+version](../../f77_src/mpi_stubs/mpi_stubs.md) and [a FORTRAN90
+version](../../f_src/mpi_stubs/mpi_stubs.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[HELLO\_MPI](../../cpp_src/hello_mpi/hello_mpi.html), a C++ program
+[HELLO\_MPI](../../master/hello_mpi/hello_mpi.md), a C++ program
 which prints out "Hello, world!" using the MPI parallel programming
 environment.
 
-[MOAB](../../examples/moab/moab.html), examples which illustrate the use
+[MOAB](../../examples/moab/moab.md), examples which illustrate the use
 of the MOAB job scheduler for a computer cluster.
 
-[MPI](../../cpp_src/mpi/mpi.html), C++ programs which demonstrate a
+[MPI](../../master/mpi/mpi.md), C++ programs which demonstrate a
 message passing library which enables parallel processing on a variety
 of machine architectures, and with a varying number of processors.
 
-[MULTITASK\_MPI](../../cpp_src/multitask_mpi/multitask_mpi.html), a C++
+[MULTITASK\_MPI](../../master/multitask_mpi/multitask_mpi.md), a C++
 program which demonstrates how to "multitask", that is, to execute
 several unrelated and distinct tasks simultaneously, using MPI for
 parallel execution.
@@ -90,7 +90,7 @@ parallel execution.
     timer.
 -   **MPI::WTIME** returns the elapsed wall clock time.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

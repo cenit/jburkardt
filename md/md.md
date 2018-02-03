@@ -48,65 +48,65 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**MD** is available in [a C version](../../c_src/md/md.html) and [a C++
-version](../../cpp_src/md/md.html) and [a FORTRAN77
-version](../../f77_src/md/md.html) and [a FORTRAN90
-version](../../f_src/md/md.html) and [a MATLAB
-version](../../m_src/md/md.html) and [a Python
-version](../../py_src/md/md.html).
+**MD** is available in [a C version](../../c_src/md/md.md) and [a C++
+version](../../master/md/md.md) and [a FORTRAN77
+version](../../f77_src/md/md.md) and [a FORTRAN90
+version](../../f_src/md/md.md) and [a MATLAB
+version](../../m_src/md/md.md) and [a Python
+version](../../py_src/md/md.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FFT\_SERIAL](../../cpp_src/fft_serial/fft_serial.html), a C++ program
+[FFT\_SERIAL](../../master/fft_serial/fft_serial.md), a C++ program
 which demonstrates the computation of a Fast Fourier Transform, and is
 intended as a starting point for developing a parallel version using
 OpenMP.
 
-[HEATED\_PLATE](../../cpp_src/heated_plate/heated_plate.html), a C++
+[HEATED\_PLATE](../../master/heated_plate/heated_plate.md), a C++
 program which solves the steady state heat equation in a 2D rectangular
 region, and is intended as a starting point for implementing an OpenMP
 parallel version.
 
-[MD\_OPENMP](../../cpp_src/md_openmp/md_openmp.html), a C++ program
+[MD\_OPENMP](../../master/md_openmp/md_openmp.md), a C++ program
 which carries out a molecular dynamics simulation, using OpenMP for
 parallel execution.
 
-[MD1](../../f_src/md1/md1.html), a FORTRAN90 program which carries out a
+[MD1](../../f_src/md1/md1.md), a FORTRAN90 program which carries out a
 molecular dynamics simulation.
 
-[MD2](../../f_src/md2/md2.html), a FORTRAN90 program which carries out a
+[MD2](../../f_src/md2/md2.md), a FORTRAN90 program which carries out a
 molecular dynamics simulation.
 
-[MD3](../../f_src/md3/md3.html), a FORTRAN90 program which carries out a
+[MD3](../../f_src/md3/md3.md), a FORTRAN90 program which carries out a
 molecular dynamics simulation.
 
-[MD3GLUE](../../f_src/md3glue/md3glue.html), a FORTRAN90 program which
+[MD3GLUE](../../f_src/md3glue/md3glue.md), a FORTRAN90 program which
 carries out a molecular dynamics simulation.
 
-[MDBNCH](../../f77_src/mdbnch/mdbnch.html), a FORTRAN77 program which is
+[MDBNCH](../../f77_src/mdbnch/mdbnch.md), a FORTRAN77 program which is
 a benchmark molecular simulation calculation.
 
-[MXM\_SERIAL](../../cpp_src/mxm_serial/mxm_serial.html), a C++ program
+[MXM\_SERIAL](../../master/mxm_serial/mxm_serial.md), a C++ program
 which sets up a matrix multiplication problem A=B\*C, intended as a
 starting point for implementing a parallel version.
 
-[OPENMP](../../cpp_src/openmp/openmp.html), C++ programs which
+[OPENMP](../../master/openmp/openmp.md), C++ programs which
 illustrate the use of OpenMP.
 
-[POISSON\_SERIAL](../../cpp_src/poisson_serial/poisson_serial.html), a
+[POISSON\_SERIAL](../../master/poisson_serial/poisson_serial.md), a
 C++ program which computes an approximate solution to the Poisson
 equation in a rectangle, and is intended as the starting point for the
 creation of a parallel version.
 
-[PRIME\_SERIAL](../../cpp_src/prime_serial/prime_serial.html), a C++
+[PRIME\_SERIAL](../../master/prime_serial/prime_serial.md), a C++
 program which counts the number of primes between 1 and N, intended as a
 starting point for the creation of a parallel version.
 
-[QUAD\_SERIAL](../../cpp_src/quad_serial/quad_serial.html), a C++
+[QUAD\_SERIAL](../../master/quad_serial/quad_serial.md), a C++
 program which approximates an integral using a quadrature rule, and is
 intended as a starting point for parallelization exercises.
 
-[SEARCH\_SERIAL](../../cpp_src/search_serial/search_serial.html), a C++
+[SEARCH\_SERIAL](../../master/search_serial/search_serial.md), a C++
 program which searches the integers from A to B for a value J such that
 F(J) = C. this version of the program is intended as a starting point
 for a parallel approach.
@@ -171,7 +171,7 @@ for a parallel approach.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **UPDATE** updates positions, velocities and accelerations.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

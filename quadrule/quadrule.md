@@ -24,54 +24,54 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUADRULE** is available in [a C
-version](../../c_src/quadrule/quadrule.html) and [a C++
-version](../../cpp_src/quadrule/quadrule.html) and [a FORTRAN77
-version](../../f77_src/quadrule/quadrule.html) and [a FORTRAN90
-version](../../f_src/quadrule/quadrule.html) and [a MATLAB
-version](../../m_src/quadrule/quadrule.html) and [a Python
-version](../../py_src/quadrule/quadrule.html).
+version](../../c_src/quadrule/quadrule.md) and [a C++
+version](../../master/quadrule/quadrule.md) and [a FORTRAN77
+version](../../f77_src/quadrule/quadrule.md) and [a FORTRAN90
+version](../../f_src/quadrule/quadrule.md) and [a MATLAB
+version](../../m_src/quadrule/quadrule.md) and [a Python
+version](../../py_src/quadrule/quadrule.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[ALPERT\_RULE](../../cpp_src/alpert_rule/alpert_rule.html), a C++
+[ALPERT\_RULE](../../master/alpert_rule/alpert_rule.md), a C++
 library which can set up an Alpert quadrature rule for functions which
 are regular, log(x) singular, or 1/sqrt(x) singular.
 
-[CLENSHAW\_CURTIS\_RULE](../../cpp_src/clenshaw_curtis_rule/clenshaw_curtis_rule.html),
+[CLENSHAW\_CURTIS\_RULE](../../master/clenshaw_curtis_rule/clenshaw_curtis_rule.md),
 a C++ program which defines a Clenshaw Curtis quadrature rule.
 
-[KRONROD](../../cpp_src/kronrod/kronrod.html), a C++ library which can
+[KRONROD](../../master/kronrod/kronrod.md), a C++ library which can
 compute a Gauss and Gauss-Kronrod pair of quadrature rules of arbitrary
 order, by Robert Piessens, Maria Branders.
 
-[LINE\_FELIPPA\_RULE](../../cpp_src/line_felippa_rule/line_felippa_rule.html),
+[LINE\_FELIPPA\_RULE](../../master/line_felippa_rule/line_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a line segment in 1D.
 
-[LINE\_NCC\_RULE](../../cpp_src/line_ncc_rule/line_ncc_rule.html), a C++
+[LINE\_NCC\_RULE](../../master/line_ncc_rule/line_ncc_rule.md), a C++
 library which computes a Newton Cotes Closed (NCC) quadrature rule for
 the line, that is, for an interval of the form \[A,B\], using equally
 spaced points which include the endpoints.
 
-[LINE\_NCO\_RULE](../../cpp_src/line_nco_rule/line_nco_rule.html), a C++
+[LINE\_NCO\_RULE](../../master/line_nco_rule/line_nco_rule.md), a C++
 library which computes a Newton Cotes Open (NCO) quadrature rule, using
 equally spaced points, over the interior of a line segment in 1D.
 
-[QUADMOM](../../cpp_src/quadmom/quadmom.html), a C++ library which
+[QUADMOM](../../master/quadmom/quadmom.md), a C++ library which
 computes a Gaussian quadrature rule for a weight function rho(x) based
 on the Golub-Welsch procedure that only requires knowledge of the
 moments of rho(x).
 
-[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.html),
+[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.md),
 a dataset directory which contains sets of files that define quadrature
 rules over various 1D intervals or multidimensional hypercubes.
 
-[QUADRATURE\_TEST](../../m_src/quadrature_test/quadrature_test.html), a
+[QUADRATURE\_TEST](../../m_src/quadrature_test/quadrature_test.md), a
 MATLAB program which reads the definition of a multidimensional
 quadrature rule from three files, applies the rule to a number of test
 integrals, and prints the results.
 
-[TEST\_INT](../../cpp_src/test_int/test_int.html), a C++ library which
+[TEST\_INT](../../master/test_int/test_int.md), a C++ library which
 defines test integrands for 1D quadrature rules.
 
 ### Source Code: {#source-code align="center"}
@@ -227,7 +227,7 @@ defines test integrands for 1D quadrature rules.
 -   **RADAU\_SET** sets abscissas and weights for Radau quadrature.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

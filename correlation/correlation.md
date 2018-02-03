@@ -91,28 +91,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CORRELATION** is available in [a C
-version](../../c_src/correlation/correlation.html) and [a C++
-version](../../cpp_src/correlation/correlation.html) and [a FORTRAN77
-version](../../f77_src/correlation/correlation.html) and [a FORTRAN90
-version](../../f_src/correlation/correlation.html) and [a MATLAB
-version](../../m_src/correlation/correlation.html).
+version](../../c_src/correlation/correlation.md) and [a C++
+version](../../master/correlation/correlation.md) and [a FORTRAN77
+version](../../f77_src/correlation/correlation.md) and [a FORTRAN90
+version](../../f_src/correlation/correlation.md) and [a MATLAB
+version](../../m_src/correlation/correlation.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BROWNIAN\_MOTION\_SIMULATION](../../cpp_src/brownian_motion_simulation/brownian_motion_simulation.html),
+[BROWNIAN\_MOTION\_SIMULATION](../../master/brownian_motion_simulation/brownian_motion_simulation.md),
 a C++ program which simulates Brownian motion in an M-dimensional
 region.
 
-[COLORED\_NOISE](../../cpp_src/colored_noise/colored_noise.html), a C++
+[COLORED\_NOISE](../../master/colored_noise/colored_noise.md), a C++
 library which generates samples of noise obeying a 1/f\^alpha power law.
 
-[GNUPLOT](../../examples/gnuplot/gnuplot.html), examples which
+[GNUPLOT](../../examples/gnuplot/gnuplot.md), examples which
 illustrate the use of the gnuplot graphics program.
 
-[PINK\_NOISE](../../cpp_src/pink_noise/pink_noise.html), a C++ library
+[PINK\_NOISE](../../master/pink_noise/pink_noise.md), a C++ library
 which computes a pink noise signal obeying a 1/f power law.
 
-[SDE](../../cpp_src/sde/sde.html), a C++ library which illustrates the
+[SDE](../../master/sde/sde.md), a C++ library which illustrates the
 properties of stochastic differential equations (SDE's), and common
 algorithms for their analysis, by Desmond Higham;
 
@@ -225,7 +225,7 @@ algorithms for their analysis, by Desmond Higham;
 -   **TRED2** transforms a real symmetric matrix to symmetric
     tridiagonal form.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

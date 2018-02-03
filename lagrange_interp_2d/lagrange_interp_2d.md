@@ -30,54 +30,54 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LAGRANGE\_INTERP\_2D** is available in [a C
-version](../../c_src/lagrange_interp_2d/lagrange_interp_2d.html) and [a
-C++ version](../../cpp_src/lagrange_interp_2d/lagrange_interp_2d.html)
+version](../../c_src/lagrange_interp_2d/lagrange_interp_2d.md) and [a
+C++ version](../../master/lagrange_interp_2d/lagrange_interp_2d.md)
 and [a FORTRAN77
-version](../../f77_src/lagrange_interp_2d/lagrange_interp_2d.html) and
+version](../../f77_src/lagrange_interp_2d/lagrange_interp_2d.md) and
 [a FORTRAN90
-version](../../f_src/lagrange_interp_2d/lagrange_interp_2d.html) and [a
-MATLAB version](../../m_src/lagrange_interp_2d/lagrange_interp_2d.html).
+version](../../f_src/lagrange_interp_2d/lagrange_interp_2d.md) and [a
+MATLAB version](../../m_src/lagrange_interp_2d/lagrange_interp_2d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LAGRANGE\_INTERP\_1D](../../cpp_src/lagrange_interp_1d/lagrange_interp_1d.html),
+[LAGRANGE\_INTERP\_1D](../../master/lagrange_interp_1d/lagrange_interp_1d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data, so that p(x(i)) = y(i).
 
-[LAGRANGE\_INTERP\_ND](../../cpp_src/lagrange_interp_nd/lagrange_interp_nd.html),
+[LAGRANGE\_INTERP\_ND](../../master/lagrange_interp_nd/lagrange_interp_nd.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data depending on a multidimensional
 argument x that was evaluated on a product grid, so that p(x(i)) = z(i).
 
-[PADUA](../../cpp_src/padua/padua.html), a C++ library which returns the
+[PADUA](../../master/padua/padua.md), a C++ library which returns the
 points and weights for Padu sets, useful for interpolation in 2D.
 GNUPLOT is used to plot the points.
 
-[PWL\_INTERP\_2D](../../cpp_src/pwl_interp_2d/pwl_interp_2d.html), a C++
+[PWL\_INTERP\_2D](../../master/pwl_interp_2d/pwl_interp_2d.md), a C++
 library which evaluates a piecewise linear interpolant to data defined
 on a regular 2D grid.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[RBF\_INTERP\_2D](../../cpp_src/rbf_interp_2d/rbf_interp_2d.html), a C++
+[RBF\_INTERP\_2D](../../master/rbf_interp_2d/rbf_interp_2d.md), a C++
 library which defines and evaluates radial basis function (RBF)
 interpolants to 2D data.
 
-[SHEPARD\_INTERP\_2D](../../cpp_src/shepard_interp_2d/shepard_interp_2d.html),
+[SHEPARD\_INTERP\_2D](../../master/shepard_interp_2d/shepard_interp_2d.md),
 a C++ library which defines and evaluates Shepard interpolants to 2D
 data, based on inverse distance weighting.
 
-[TEST\_INTERP\_2D](../../cpp_src/test_interp_2d/test_interp_2d.html), a
+[TEST\_INTERP\_2D](../../master/test_interp_2d/test_interp_2d.md), a
 C++ library which defines test problems for interpolation of data
 z(x,y)), depending on a 2D argument.
 
-[TOMS886](../../cpp_src/toms886/toms886.html), a C++ library which
+[TOMS886](../../master/toms886/toms886.md), a C++ library which
 defines the Padua points for interpolation in a 2D region, including the
 rectangle, triangle, and ellipse, by Marco Caliari, Stefano de Marchi,
 Marco Vianello. This is a C++ version of ACM TOMS algorithm 886.
 
-[VANDERMONDE\_INTERP\_2D](../../cpp_src/vandermonde_interp_2d/vandermonde_interp_2d.html),
+[VANDERMONDE\_INTERP\_2D](../../master/vandermonde_interp_2d/vandermonde_interp_2d.md),
 a C++ library which finds a polynomial interpolant to data z(x,y) of a
 2D argument by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix.
@@ -119,7 +119,7 @@ coefficients, involving the Vandermonde matrix.
 -   **LAGRANGE\_VALUE\_2D** evaluates the Lagrange interpolant for a
     product grid.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

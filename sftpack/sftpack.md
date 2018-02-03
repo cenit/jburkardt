@@ -27,37 +27,37 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SFTPACK** is available in [a C
-version](../../c_src/sftpack/sftpack.html) and [a C++
-version](../../cpp_src/sftpack/sftpack.html) and [a FORTRAN77
-version](../../f77_src/sftpack/sftpack.html) and [a FORTRAN90
-version](../../f_src/sftpack/sftpack.html) and [a MATLAB
-version](../../m_src/sftpack/sftpack.html) and [a Python
-version](../../py_src/sftpack/sftpack.html).
+version](../../c_src/sftpack/sftpack.md) and [a C++
+version](../../master/sftpack/sftpack.md) and [a FORTRAN77
+version](../../f77_src/sftpack/sftpack.md) and [a FORTRAN90
+version](../../f_src/sftpack/sftpack.md) and [a MATLAB
+version](../../m_src/sftpack/sftpack.md) and [a Python
+version](../../py_src/sftpack/sftpack.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[C4LIB](../../cpp_src/c4lib/c4lib.html), a C++ library which implements
+[C4LIB](../../master/c4lib/c4lib.md), a C++ library which implements
 certain elementary functions for single precision complex variables;
 
-[C8LIB](../../cpp_src/c8lib/c8lib.html), a C++ library which implements
+[C8LIB](../../master/c8lib/c8lib.md), a C++ library which implements
 certain elementary functions for double precision complex variables;
 
-[COMPLEX\_NUMBERS](../../cpp_src/complex_numbers/complex_numbers.html),
+[COMPLEX\_NUMBERS](../../master/complex_numbers/complex_numbers.md),
 a C++ program which demonstrates some simple features involved in the
 use of complex numbers in C programming.
 
-[COSINE\_TRANSFORM](../../cpp_src/cosine_transform/cosine_transform.html),
+[COSINE\_TRANSFORM](../../master/cosine_transform/cosine_transform.md),
 a C++ library which demonstrates some simple properties of the discrete
 cosine transform (DCT).
 
-[FFT\_OPENMP](../../cpp_src/fft_openmp/fft_openmp.html), a C++ program
+[FFT\_OPENMP](../../master/fft_openmp/fft_openmp.md), a C++ program
 which demonstrates the computation of a Fast Fourier Transform in
 parallel, using OpenMP.
 
-[HAAR](../../cpp_src/haar/haar.html), a C++ library which computes the
+[HAAR](../../master/haar/haar.md), a C++ library which computes the
 Haar transform of data.
 
-[SINE\_TRANSFORM](../../cpp_src/sine_transform/sine_transform.html), a
+[SINE\_TRANSFORM](../../master/sine_transform/sine_transform.md), a
 C++ library which demonstrates some simple properties of the discrete
 sine transform.
 
@@ -148,7 +148,7 @@ sine transform.
 -   **R8VEC\_UNIFORM\_NEW** returns a scaled pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -29,49 +29,49 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MEDIT\_TO\_FEM** is available in [a C
-version](../../c_src/medit_to_fem/medit_to_fem.html) and [a C++
-version](../../cpp_src/medit_to_fem/medit_to_fem.html) and [a FORTRAN77
-version](../../f77_src/medit_to_fem/medit_to_fem.html) and [a FORTRAN90
-version](../../f_src/medit_to_fem/medit_to_fem.html) and [a MATLAB
-version](../../m_src/medit_to_fem/medit_to_fem.html).
+version](../../c_src/medit_to_fem/medit_to_fem.md) and [a C++
+version](../../master/medit_to_fem/medit_to_fem.md) and [a FORTRAN77
+version](../../f77_src/medit_to_fem/medit_to_fem.md) and [a FORTRAN90
+version](../../f_src/medit_to_fem/medit_to_fem.md) and [a MATLAB
+version](../../m_src/medit_to_fem/medit_to_fem.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DOLFIN-CONVERT](../../py_src/dolfin-convert/dolfin-convert.html), a
+[DOLFIN-CONVERT](../../py_src/dolfin-convert/dolfin-convert.md), a
 Python program which can convert a mesh file from Gmsh, MEDIT, METIS or
 SCOTCH format to an XML format suitable for use by DOLFIN or FENICS, by
 Anders Logg.
 
-[FEM\_IO](../../cpp_src/fem_io/fem_io.html), a C++ library which reads
+[FEM\_IO](../../master/fem_io/fem_io.md), a C++ library which reads
 or writes node, element and data files defining a model associated with
 the finite element method (FEM).
 
-[FEM2D](../../data/fem2d/fem2d.html), a data directory which contains
+[FEM2D](../../data/fem2d/fem2d.md), a data directory which contains
 examples of 2D FEM files, a pair of files defining the coordinates of
 nodes, and the nodes that form triangular elements.
 
-[GMSH\_TO\_FEM](../../cpp_src/gmsh_to_fem/gmsh_to_fem.html), a C++
+[GMSH\_TO\_FEM](../../master/gmsh_to_fem/gmsh_to_fem.md), a C++
 program which reads a mesh data file created by the GMSH program and
 writes a pair of node and element files that correspond to the FEM
 format.
 
-[MEDIT](../../data/medit/medit.html), a data directory which contains
+[MEDIT](../../data/medit/medit.md), a data directory which contains
 examples of files which can be used by the MEDIT program to define a 2D
 or 3D mesh for use by the finite element method (FEM), using triangles,
 quadrilaterals, tetrahedrons or hexahedrons.
 
-[MEDIT](../../examples/medit/medit.html), examples which illustrate the
+[MEDIT](../../examples/medit/medit.md), examples which illustrate the
 use of medit, an interactive graphics program developed to visualize
 numerical simulation results on unstructured meshes in two and three
 dimensions. Scalar, vector and tensor fields can be easily associated
 and displayed with meshes. The program is by Pascal Frey.
 
-[MEDIT\_IO](../../cpp_src/medit_io/medit_io.html), a C++ library which
+[MEDIT\_IO](../../master/medit_io/medit_io.md), a C++ library which
 can read or write files used by the MEDIT program, which can be used to
 define the a mesh associated with the finite element method (FEM) in 2D
 or 3D, using triangles, quadrilaterals, tetrahedrons or hexahedrons.
 
-[XML\_TO\_FEM](../../py_src/xml_to_fem/xml_to_fem.html), a Python
+[XML\_TO\_FEM](../../py_src/xml_to_fem/xml_to_fem.md), a Python
 program which reads an XML file created by FENICS or DOLFIN, describing
 a mesh in 1D, 2D, or 3D, and creates corresponding FEM files, namely, a
 file of node coordinates, and a file of element connectivities.
@@ -123,7 +123,7 @@ file of node coordinates, and a file of element connectivities.
 -   **S\_TO\_R8VEC** reads an R8VEC from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

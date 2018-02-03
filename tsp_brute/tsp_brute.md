@@ -27,38 +27,38 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TSP\_BRUTE** is available in [a C
-version](../../c_src/tsp_brute/tsp_brute.html) and [a C++
-version](../../cpp_src/tsp_brute/tsp_brute.html) and [a FORTRAN77
-version](../../f77_src/tsp_brute/tsp_brute.html) and [a FORTRAN90
-version](../../f_src/tsp_brute/tsp_brute.html) and [a MATLAB
-version](../../m_src/tsp_brute/tsp_brute.html).
+version](../../c_src/tsp_brute/tsp_brute.md) and [a C++
+version](../../master/tsp_brute/tsp_brute.md) and [a FORTRAN77
+version](../../f77_src/tsp_brute/tsp_brute.md) and [a FORTRAN90
+version](../../f_src/tsp_brute/tsp_brute.md) and [a MATLAB
+version](../../m_src/tsp_brute/tsp_brute.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CHANGE\_MAKING](../../cpp_src/change_making/change_making.html), a C++
+[CHANGE\_MAKING](../../master/change_making/change_making.md), a C++
 library which considers the change making problem, in which a given sum
 is to be formed using coins of various denominations.
 
-[COMBINATION\_LOCK](../../cpp_src/combination_lock/combination_lock.html),
+[COMBINATION\_LOCK](../../master/combination_lock/combination_lock.md),
 a C++ program which simulates the process of determining the secret
 combination of a lock.
 
-[KNAPSACK\_01](../../cpp_src/knapsack_01/knapsack_01.html), a C++
+[KNAPSACK\_01](../../master/knapsack_01/knapsack_01.md), a C++
 library which uses brute force to solve small versions of the 0/1
 knapsack problem;
 
-[PARTITION\_PROBLEM](../../cpp_src/partition_problem/partition_problem.html),
+[PARTITION\_PROBLEM](../../master/partition_problem/partition_problem.md),
 a C++ library which seeks solutions of the partition problem, splitting
 a set of integers into two subsets with equal sum.
 
-[SATISFY](../../cpp_src/satisfy/satisfy.html), a C++ program which
+[SATISFY](../../master/satisfy/satisfy.md), a C++ program which
 demonstrates, for a particular circuit, an exhaustive search for
 solutions of the circuit satisfiability problem.
 
-[SUBSET\_SUM](../../cpp_src/subset_sum/subset_sum.html), a C++ library
+[SUBSET\_SUM](../../master/subset_sum/subset_sum.md), a C++ library
 which seeks solutions of the subset sum problem.
 
-[TSP](../../datasets/tsp/tsp.html), a dataset directory which contains
+[TSP](../../datasets/tsp/tsp.md), a dataset directory which contains
 test data for the traveling salesperson problem;
 
 ### Reference: {#reference align="center"}
@@ -98,7 +98,7 @@ test data for the traveling salesperson problem;
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

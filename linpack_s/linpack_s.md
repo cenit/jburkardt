@@ -30,36 +30,36 @@ license.](../../txt/gnu_lgpl.txt)
 ### Language: {#language align="center"}
 
 **LINPACK\_S** is available in [a C
-version](../../c_src/linpack_s/linpack_s.html) and [a C++
-version](../../cpp_src/linpack_s/linpack_s.html) and [a FORTRAN77
-version](../../f77_src/linpack_s/linpack_s.html) and [a FORTRAN90
-version](../../f_src/linpack_s/linpack_s.html) and [a MATLAB
-version](../../m_src/linpack_s/linpack_s.html).
+version](../../c_src/linpack_s/linpack_s.md) and [a C++
+version](../../master/linpack_s/linpack_s.md) and [a FORTRAN77
+version](../../f77_src/linpack_s/linpack_s.md) and [a FORTRAN90
+version](../../f_src/linpack_s/linpack_s.md) and [a MATLAB
+version](../../m_src/linpack_s/linpack_s.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLAS1\_S](../../cpp_src/blas1_s/blas1_s.html), a C++ library which
+[BLAS1\_S](../../master/blas1_s/blas1_s.md), a C++ library which
 contains basic linear algebra routines for vector-vector operations
 using single precision real arithmetic.
 
-[LAPACK\_EXAMPLES](../../f77_src/lapack_examples/lapack_examples.html),
+[LAPACK\_EXAMPLES](../../f77_src/lapack_examples/lapack_examples.md),
 a FORTRAN77 program which demonstrates the use of the LAPACK linear
 algebra library.
 
-[LINPACK\_BENCH](../../cpp_src/linpack_bench/linpack_bench.html), a C++
+[LINPACK\_BENCH](../../master/linpack_bench/linpack_bench.md), a C++
 program which measures the time taken by **LINPACK** to solve a
 particular linear system.
 
-[LINPACK\_C](../../cpp_src/linpack_c/linpack_c.html), a C++ library
+[LINPACK\_C](../../master/linpack_c/linpack_c.md), a C++ library
 which solves linear systems using single precision complex arithmetic;
 
-[LINPACK\_D](../../cpp_src/linpack_d/linpack_d.html), a C++ library
+[LINPACK\_D](../../master/linpack_d/linpack_d.md), a C++ library
 which solves linear systems using double precision real arithmetic;
 
-[LINPACK\_Z](../../cpp_src/linpack_z/linpack_z.html), a C++ library
+[LINPACK\_Z](../../master/linpack_z/linpack_z.md), a C++ library
 which solves linear systems using double precision complex arithmetic;
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices.
 
 ### Reference: {#reference align="center"}
@@ -149,7 +149,7 @@ defines test matrices.
     matrix.
 -   **STRSL** solves triangular linear systems.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

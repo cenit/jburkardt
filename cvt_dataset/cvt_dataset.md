@@ -90,54 +90,54 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages {#languages align="center"}
 
 **CVT\_DATASET** is available in [a C++
-version](../../cpp_src/cvt_dataset/cvt_dataset.html) and [a FORTRAN90
-version](../../f_src/cvt_dataset/cvt_dataset.html) and [a MATLAB
-version](../../m_src/cvt_dataset/cvt_dataset.html).
+version](../../master/cvt_dataset/cvt_dataset.md) and [a FORTRAN90
+version](../../f_src/cvt_dataset/cvt_dataset.md) and [a MATLAB
+version](../../m_src/cvt_dataset/cvt_dataset.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CCVT\_BOX](../../cpp_src/ccvt_box/ccvt_box.html), a C++ program which
+[CCVT\_BOX](../../master/ccvt_box/ccvt_box.md), a C++ program which
 computes a CVT with some points forced to lie on the boundary.
 
-[CVT](../../cpp_src/cvt/cvt.html), a C++ library which creates a CVT
+[CVT](../../master/cvt/cvt.md), a C++ library which creates a CVT
 dataset.
 
-[CVT](../../datasets/cvt/cvt.html), a dataset directory which contains a
+[CVT](../../datasets/cvt/cvt.md), a dataset directory which contains a
 collection of datasets created by **CVT\_DATASET** (along with the
 commands used to create them).
 
-[FAURE\_DATASET](../../cpp_src/faure_dataset/faure_dataset.html), a C++
+[FAURE\_DATASET](../../master/faure_dataset/faure_dataset.md), a C++
 program which creates a Faure quasirandom dataset;
 
-[GRID\_DATASET](../../cpp_src/grid_dataset/grid_dataset.html), a C++
+[GRID\_DATASET](../../master/grid_dataset/grid_dataset.md), a C++
 program which creates a grid sequence and writes it to a file.
 
-[LATIN\_CENTER\_DATASET](../../cpp_src/latin_center_dataset/latin_center_dataset.html),
+[LATIN\_CENTER\_DATASET](../../master/latin_center_dataset/latin_center_dataset.md),
 a C++ program which creates a Latin Center Hypercube dataset;
 
-[LATIN\_EDGE\_DATASET](../../cpp_src/latin_edge_dataset/latin_edge_dataset.html),
+[LATIN\_EDGE\_DATASET](../../master/latin_edge_dataset/latin_edge_dataset.md),
 a C++ program which creates a Latin Edge Hypercube dataset;
 
-[LATIN\_RANDOM\_DATASET](../../cpp_src/latin_random_dataset/latin_random_dataset.html),
+[LATIN\_RANDOM\_DATASET](../../master/latin_random_dataset/latin_random_dataset.md),
 a C++ program which creates a Latin Random Hypercube dataset;
 
-[NIEDERREITER2\_DATASET](../../cpp_src/niederreiter2_dataset/niederreiter2_dataset.html),
+[NIEDERREITER2\_DATASET](../../master/niederreiter2_dataset/niederreiter2_dataset.md),
 a C++ program which creates a Niederreiter quasirandom dataset with base
 2;
 
-[NORMAL\_DATASET](../../cpp_src/normal_dataset/normal_dataset.html), a
+[NORMAL\_DATASET](../../master/normal_dataset/normal_dataset.md), a
 C++ program which generates a dataset of multivariate normal
 pseudorandom values and writes them to a file.
 
-[SOBOL\_DATASET](../../cpp_src/sobol_dataset/sobol_dataset.html), a C++
+[SOBOL\_DATASET](../../master/sobol_dataset/sobol_dataset.md), a C++
 program which computes a Sobol quasirandom sequence and writes it to a
 file.
 
-[UNIFORM\_DATASET](../../cpp_src/uniform_dataset/uniform_dataset.html),
+[UNIFORM\_DATASET](../../master/uniform_dataset/uniform_dataset.md),
 a C++ program which generates a dataset of uniform pseudorandom values
 and writes them to a file.
 
-[VAN\_DER\_CORPUT\_DATASET](../../cpp_src/van_der_corput_dataset/van_der_corput_dataset.html),
+[VAN\_DER\_CORPUT\_DATASET](../../master/van_der_corput_dataset/van_der_corput_dataset.md),
 a C++ program which creates a van der Corput quasirandom sequence and
 writes it to a file.
 
@@ -184,7 +184,7 @@ uniform sampling, 10,000 sample points in batches of 1000:
 -   [input02.txt](input02.txt), the input defining the dataset;
 -   [output02.txt](output02.txt), the printed response to the commands;
 -   [cvt02.txt](cvt02.txt), the dataset created by the commands;
--   [cvt02.png](cvt02.png), a [PNG](../../data/png/png.html) image of
+-   [cvt02.png](cvt02.png), a [PNG](../../data/png/png.md) image of
     the dataset;
 
 **Test 3** repeats test 1, but with 1,000,000 sample points:
@@ -192,7 +192,7 @@ uniform sampling, 10,000 sample points in batches of 1000:
 -   [input03.txt](input03.txt), the input defining the dataset;
 -   [output03.txt](output03.txt), the printed response to the commands;
 -   [cvt03.txt](cvt03.txt), the dataset created by the commands;
--   [cvt03.png](cvt03.png), a [PNG](../../data/png/png.html) image of
+-   [cvt03.png](cvt03.png), a [PNG](../../data/png/png.md) image of
     the dataset;
 
 **Test 4** repeats test 1, but with Halton sampling:
@@ -200,7 +200,7 @@ uniform sampling, 10,000 sample points in batches of 1000:
 -   [input04.txt](input04.txt), the input defining the dataset;
 -   [output04.txt](output04.txt), the printed response to the commands;
 -   [cvt04.txt](cvt04.txt), the dataset created by the commands;
--   [cvt04.png](cvt04.png), a [PNG](../../data/png/png.html) image of
+-   [cvt04.png](cvt04.png), a [PNG](../../data/png/png.md) image of
     the dataset;
 
 **Test 5** repeats test 1, but with Grid sampling:
@@ -208,7 +208,7 @@ uniform sampling, 10,000 sample points in batches of 1000:
 -   [input05.txt](input05.txt), the input defining the dataset;
 -   [output05.txt](output05.txt), the printed response to the commands;
 -   [cvt05.txt](cvt05.txt), the dataset created by the commands;
--   [cvt05.png](cvt05.png), a [PNG](../../data/png/png.html) image of
+-   [cvt05.png](cvt05.png), a [PNG](../../data/png/png.md) image of
     the dataset;
 
 **Test 6** repeats Test 1, but with Random sampling:
@@ -216,7 +216,7 @@ uniform sampling, 10,000 sample points in batches of 1000:
 -   [input06.txt](input06.txt), the input defining the dataset;
 -   [output06.txt](output06.txt), the printed response to the commands;
 -   [cvt06.txt](cvt06.txt), the dataset created by the commands;
--   [cvt06.png](cvt06.png), a [PNG](../../data/png/png.html) image of
+-   [cvt06.png](cvt06.png), a [PNG](../../data/png/png.md) image of
     the dataset;
 
 **Test 7** repeats Test 1, but with a seed of 987654321:
@@ -224,7 +224,7 @@ uniform sampling, 10,000 sample points in batches of 1000:
 -   [input07.txt](input07.txt), the input defining the dataset;
 -   [output07.txt](output07.txt), the printed response to the commands;
 -   [cvt07.txt](cvt07.txt), the dataset created by the commands;
--   [cvt07.png](cvt07.png), a [PNG](../../data/png/png.html) image of
+-   [cvt07.png](cvt07.png), a [PNG](../../data/png/png.md) image of
     the dataset;
 
 **Test 8** repeats Test 1, but with a batch size of 5:
@@ -232,7 +232,7 @@ uniform sampling, 10,000 sample points in batches of 1000:
 -   [input08.txt](input08.txt), the input defining the dataset;
 -   [output08.txt](output08.txt), the printed response to the commands;
 -   [cvt08.txt](cvt08.txt), the dataset created by the commands;
--   [cvt08.png](cvt08.png), a [PNG](../../data/png/png.html) image of
+-   [cvt08.png](cvt08.png), a [PNG](../../data/png/png.md) image of
     the dataset;
 
 **Test 9** computes 100 CVT points in 3 dimensions, using uniform
@@ -250,7 +250,7 @@ proceeds towards a more "hexagonal" pattern :
 -   [input10.txt](input10.txt), the input defining the dataset;
 -   [output10.txt](output10.txt), the printed response to the commands;
 -   [cvt10.txt](cvt10.txt), the dataset created by the commands;
--   [cvt10.png](cvt10.png), a [PNG](../../data/png/png.html) image of
+-   [cvt10.png](cvt10.png), a [PNG](../../data/png/png.md) image of
     the dataset;
 
 **Test 11** shows how the user may specify the initial point locations
@@ -260,10 +260,10 @@ in a file. 15 points are specified in 2D:
 -   [output11.txt](output11.txt), the printed response to the commands;
 -   [initial11.txt](initial11.txt), the initial dataset, created by the
     user;
--   [initial11.png](initial11.png), a [PNG](../../data/png/png.html)
+-   [initial11.png](initial11.png), a [PNG](../../data/png/png.md)
     image of the initial dataset;
 -   [cvt11.txt](cvt11.txt), the dataset created by the commands;
--   [cvt11.png](cvt11.png), a [PNG](../../data/png/png.html) image of
+-   [cvt11.png](cvt11.png), a [PNG](../../data/png/png.md) image of
     the dataset;
 
 **Test 12**:
@@ -285,14 +285,14 @@ unit circle in 2D. 100 points are requested:
 -   [input14.txt](input14.txt), the input defining the dataset;
 -   [output14.txt](output14.txt), the printed response to the commands;
 -   [cvt14.txt](cvt14.txt), the dataset created by the commands;
--   [cvt14.png](cvt14.png), a [PNG](../../data/png/png.html) image of
+-   [cvt14.png](cvt14.png), a [PNG](../../data/png/png.md) image of
     the dataset;
 
 ### List of Routines: {#list-of-routines align="center"}
 
 -   **MAIN** is the main program for CVT\_DATASET.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

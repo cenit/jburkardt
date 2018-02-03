@@ -27,7 +27,7 @@ int main ( )
 //
 //  Location:
 //
-//    http://people.sc.fsu.edu/~jburkardt/cpp_src/cauchy_principal_value/cpv_prb.cpp
+//    http://people.sc.fsu.edu/~jburkardt/master/cauchy_principal_value/cpv_prb.cpp
 //
 //  Licensing:
 //

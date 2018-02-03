@@ -18,7 +18,7 @@ Normally, the user does not type in this information by hand, but has a
 program fill in the nodes, and perhaps another program that constructs
 the triangulation. However, in the simplest case, the user might
 construct a very crude triangulation by hand, and have
-[TRIANGULATION\_REFINE](../../f_src/triangulation_refine/triangulation_refine.html)
+[TRIANGULATION\_REFINE](../../f_src/triangulation_refine/triangulation_refine.md)
 refine it to something more reasonable.
 
 For the following ridiculously small example:
@@ -104,26 +104,26 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_HEAT** is available in [a C++
-version](../../cpp_src/fem2d_heat/fem2d_heat.html) and [a FORTRAN90
-version](../../f_src/fem2d_heat/fem2d_heat.html) and [a MATLAB
-version](../../m_src/fem2d_heat/fem2d_heat.html).
+version](../../master/fem2d_heat/fem2d_heat.md) and [a FORTRAN90
+version](../../f_src/fem2d_heat/fem2d_heat.md) and [a MATLAB
+version](../../m_src/fem2d_heat/fem2d_heat.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[FD2D\_HEAT\_STEADY](../../cpp_src/fd2d_heat_steady/fd2d_heat_steady.html),
+[FD2D\_HEAT\_STEADY](../../master/fd2d_heat_steady/fd2d_heat_steady.md),
 a C++ program which uses the finite difference method (FDM) to solve the
 steady (time independent) heat equation in 2D.
 
-[FEM1D\_HEAT\_STEADY](../../cpp_src/fem1d_heat_steady/fem1d_heat_steady.html),
+[FEM1D\_HEAT\_STEADY](../../master/fem1d_heat_steady/fem1d_heat_steady.md),
 a C++ program which uses the finite element method to solve the steady
 (time independent) heat equation in 1D.
 
-[FEM2D\_HEAT\_SQUARE](../../cpp_src/fem2d_heat_square/fem2d_heat_square.html),
+[FEM2D\_HEAT\_SQUARE](../../master/fem2d_heat_square/fem2d_heat_square.md),
 a C++ library which defines the geometry of a square region, as well as
 boundary and initial conditions for a given heat problem, and is called
 by FEM2D\_HEAT as part of a solution procedure.
 
-[STOCHASTIC\_HEAT2D](../../cpp_src/stochastic_heat2d/stochastic_heat2d.html),
+[STOCHASTIC\_HEAT2D](../../master/stochastic_heat2d/stochastic_heat2d.md),
 a C++ program which implements a finite difference method (FDM) for the
 steady (time independent) 2D heat equation, with a stochastic heat
 diffusivity coefficient, using gnuplot to illustrate the results.
@@ -220,7 +220,7 @@ diffusivity coefficient, using gnuplot to illustrate the results.
 -   **TRIANGULATION\_ORDER6\_PLOT** plots a 6-node triangulation of a
     set of nodes.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -58,45 +58,45 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **RECOMMENT** is available in [a C++
-version](../../cpp_src/recomment/recomment.html).
+version](../../master/recomment/recomment.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[C\_COMMENT](../../c_src/c_comment/c_comment.html), a FORTRAN90 program
+[C\_COMMENT](../../c_src/c_comment/c_comment.md), a FORTRAN90 program
 which makes a copy of a file in which C++ style comments have been
 replaced by C-style comments.
 
-[CR2LF](../../cpp_src/cr2lf/cr2lf.html), a C++ program which reads a
+[CR2LF](../../master/cr2lf/cr2lf.md), a C++ program which reads a
 text file and replaces carriage returns by line feeds.
 
-[CRRM](../../cpp_src/crrm/crrm.html), a C++ program which reads a text
+[CRRM](../../master/crrm/crrm.md), a C++ program which reads a text
 file and removes carriage returns.
 
-[DEBLANK](../../cpp_src/deblank/deblank.html), a C++ program which makes
+[DEBLANK](../../master/deblank/deblank.md), a C++ program which makes
 a copy of a text file which contains no blank lines.
 
-[DECOMMENT](../../cpp_src/decomment/decomment.html), a C++ program which
+[DECOMMENT](../../master/decomment/decomment.md), a C++ program which
 removes every comment line (beginning with a "\#") from a file.
 
-[FILUM](../../cpp_src/filum/filum.html), a C++ library which performs
+[FILUM](../../master/filum/filum.md), a C++ library which performs
 various operations on files.
 
-[REFORMAT](../../f_src/reformat/reformat.html), a FORTRAN90 program
+[REFORMAT](../../f_src/reformat/reformat.md), a FORTRAN90 program
 which reads a text file that contains only real values, and writes a
 copy which has a fixed number of real values on each line.
 
-[REWORD](../../cpp_src/reword/reword.html), a C++ program which reads a
+[REWORD](../../master/reword/reword.md), a C++ program which reads a
 text file and writes a copy which has a fixed number of "words" per
 line.
 
-[UNCONTROL](../../cpp_src/uncontrol/uncontrol.html), a C++ program which
+[UNCONTROL](../../master/uncontrol/uncontrol.md), a C++ program which
 makes a copy of a text file which contains no control characters
 
-[WRAP](../../cpp_src/wrap/wrap.html), a C++ program which makes a copy
+[WRAP](../../master/wrap/wrap.md), a C++ program which makes a copy
 of a text file in which no line is longer than a user-specified wrap
 length.
 
-[WRAP2](../../cpp_src/wrap2/wrap2.html), a C++ program which wraps long
+[WRAP2](../../master/wrap2/wrap2.md), a C++ program which wraps long
 lines in a text file, but wraps some lines "early", so as to avoid
 breaking words.
 
@@ -119,7 +119,7 @@ breaking words.
 -   **S\_EQI** reports whether two strings are equal, ignoring case.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

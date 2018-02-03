@@ -355,35 +355,35 @@ under the [GNU LGPL](gnu_lgpl.txt) license.
 ### Languages: {#languages align="center"}
 
 **SANDIA\_SPARSE** is available in [a C++
-version](../../cpp_src/sandia_sparse/sandia_sparse.html) and [a
-FORTRAN90 version](../../f_src/sandia_sparse/sandia_sparse.html) and [a
-MATLAB version.](../../m_src/sandia_sparse/sandia_sparse.html)
+version](../../master/sandia_sparse/sandia_sparse.md) and [a
+FORTRAN90 version](../../f_src/sandia_sparse/sandia_sparse.md) and [a
+MATLAB version.](../../m_src/sandia_sparse/sandia_sparse.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[SANDIA\_RULES](../../cpp_src/sandia_rules/sandia_rules.html), a C++
+[SANDIA\_RULES](../../master/sandia_rules/sandia_rules.md), a C++
 library which generates Gauss quadrature rules of various orders and
 types.
 
-[SGMGA](../../cpp_src/sgmga/sgmga.html), a C++ library which creates
+[SGMGA](../../master/sgmga/sgmga.md), a C++ library which creates
 sparse grids based on a mixture of 1D quadrature rules, allowing
 anisotropic weights for each dimension.
 
-[SMOLPACK](../../c_src/smolpack/smolpack.html), a C library which
+[SMOLPACK](../../c_src/smolpack/smolpack.md), a C library which
 implements Novak and Ritter's method for estimating the integral of a
 function over a multidimensional hypercube using sparse grids, by Knut
 Petras.
 
-[SPARSE\_GRID\_CC](../../cpp_src/sparse_grid_cc/sparse_grid_cc.html), a
+[SPARSE\_GRID\_CC](../../master/sparse_grid_cc/sparse_grid_cc.md), a
 C++ library which can define a multidimensional sparse grid based on a
 1D Clenshaw Curtis rule.
 
-[SPARSE\_GRID\_CC\_DATASET](../../cpp_src/sparse_grid_cc_dataset/sparse_grid_cc_dataset.html),
+[SPARSE\_GRID\_CC\_DATASET](../../master/sparse_grid_cc_dataset/sparse_grid_cc_dataset.md),
 a C++ program which reads user input, creates a multidimensional sparse
 grid based on a 1D Clenshaw Curtis rule and writes it to three files
 that define a quadrature rule.
 
-[SPINTERP](../../m_src/spinterp/spinterp.html), a MATLAB library which
+[SPINTERP](../../m_src/spinterp/spinterp.md), a MATLAB library which
 uses a sparse grid to perform multilinear hierarchical interpolation, by
 Andreas Klimke.
 
@@ -549,7 +549,7 @@ Andreas Klimke.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **VEC\_COLEX\_NEXT2** generates vectors in colex order.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

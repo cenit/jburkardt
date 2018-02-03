@@ -29,34 +29,34 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **VANDERMONDE\_APPROX\_2D** is available in [a C
-version](../../c_src/vandermonde_approx_2d/vandermonde_approx_2d.html)
+version](../../c_src/vandermonde_approx_2d/vandermonde_approx_2d.md)
 and [a C++
-version](../../cpp_src/vandermonde_approx_2d/vandermonde_approx_2d.html)
+version](../../master/vandermonde_approx_2d/vandermonde_approx_2d.md)
 and [a FORTRAN77
-version](../../f77_src/vandermonde_approx_2d/vandermonde_approx_2d.html)
+version](../../f77_src/vandermonde_approx_2d/vandermonde_approx_2d.md)
 and [a FORTRAN90
-version](../../f_src/vandermonde_approx_2d/vandermonde_approx_2d.html)
+version](../../f_src/vandermonde_approx_2d/vandermonde_approx_2d.md)
 and [a MATLAB
-version](../../m_src/vandermonde_approx_2d/vandermonde_approx_2d.html).
+version](../../m_src/vandermonde_approx_2d/vandermonde_approx_2d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[QR\_SOLVE](../../cpp_src/qr_solve/qr_solve.html), a C++ library which
+[QR\_SOLVE](../../master/qr_solve/qr_solve.md), a C++ library which
 computes the least squares solution of a linear system A\*x=b.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[TEST\_INTERP\_2D](../../cpp_src/test_interp_2d/test_interp_2d.html), a
+[TEST\_INTERP\_2D](../../master/test_interp_2d/test_interp_2d.md), a
 C++ library which defines test problems for interpolation of data
 (x,y,z(x,y)), with the data points (x,y) scattered irregularly.
 
-[VANDERMONDE\_APPROX\_1D](../../cpp_src/vandermonde_approx_1d/vandermonde_approx_1d.html),
+[VANDERMONDE\_APPROX\_1D](../../master/vandermonde_approx_1d/vandermonde_approx_1d.md),
 a C++ library which finds a polynomial approximant to data y(x) of a 1D
 argument by setting up and solving an overdetermined linear system for
 the polynomial coefficients, involving the Vandermonde matrix.
 
-[VANDERMONDE\_INTERP\_2D](../../cpp_src/vandermonde_interp_2d/vandermonde_interp_2d.html),
+[VANDERMONDE\_INTERP\_2D](../../master/vandermonde_interp_2d/vandermonde_interp_2d.md),
 a C++ library which finds a polynomial interpolant to data z(x,y) of a
 2D argument by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix.
@@ -101,7 +101,7 @@ coefficients, involving the Vandermonde matrix.
 -   **VANDERMONDE\_APPROX\_2D\_MATRIX** computes a Vandermonde 2D
     approximation matrix.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

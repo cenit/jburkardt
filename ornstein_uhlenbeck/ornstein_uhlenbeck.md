@@ -42,40 +42,40 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ORNSTEIN\_UHLENBECK** is available in [a C
-version](../../c_src/ornstein_uhlenbeck/ornstein_uhlenbeck.html) and [a
-C++ version](../../cpp_src/ornstein_uhlenbeck/ornstein_uhlenbeck.html)
+version](../../c_src/ornstein_uhlenbeck/ornstein_uhlenbeck.md) and [a
+C++ version](../../master/ornstein_uhlenbeck/ornstein_uhlenbeck.md)
 and [a FORTRAN77
-version](../../f77_src/ornstein_uhlenbeck/ornstein_uhlenbeck.html) and
+version](../../f77_src/ornstein_uhlenbeck/ornstein_uhlenbeck.md) and
 [a FORTRAN90
-version](../../f_src/ornstein_uhlenbeck/ornstein_uhlenbeck.html) and [a
-MATLAB version](../../m_src/ornstein_uhlenbeck/ornstein_uhlenbeck.html).
+version](../../f_src/ornstein_uhlenbeck/ornstein_uhlenbeck.md) and [a
+MATLAB version](../../m_src/ornstein_uhlenbeck/ornstein_uhlenbeck.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLACK\_SCHOLES](../../cpp_src/black_scholes/black_scholes.html), a C++
+[BLACK\_SCHOLES](../../master/black_scholes/black_scholes.md), a C++
 library which implements some simple approaches to the Black-Scholes
 option valuation theory, by Desmond Higham.
 
-[BROWNIAN\_MOTION\_SIMULATION](../../cpp_src/brownian_motion_simulation/brownian_motion_simulation.html),
+[BROWNIAN\_MOTION\_SIMULATION](../../master/brownian_motion_simulation/brownian_motion_simulation.md),
 a C++ program which simulates Brownian motion in an M-dimensional
 region.
 
-[COLORED\_NOISE](../../cpp_src/colored_noise/colored_noise.html), a C++
+[COLORED\_NOISE](../../master/colored_noise/colored_noise.md), a C++
 library which generates samples of noise obeying a 1/f\^alpha power law.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[PINK\_NOISE](../../cpp_src/pink_noise/pink_noise.html), a C++ library
+[PINK\_NOISE](../../master/pink_noise/pink_noise.md), a C++ library
 which computes a "pink noise" signal obeying a 1/f power law.
 
-[SDE](../../cpp_src/sde/sde.html), a C++ library which illustrates the
+[SDE](../../master/sde/sde.md), a C++ library which illustrates the
 properties of stochastic differential equations (SDE's), and common
 algorithms for their analysis, including the Euler method, the
 Euler-Maruyama method, and the Milstein method, by Desmond Higham;
 
-[STOCHASTIC\_RK](../../cpp_src/stochastic_rk/stochastic_rk.html), a C++
+[STOCHASTIC\_RK](../../master/stochastic_rk/stochastic_rk.md), a C++
 library which applies a Runge Kutta (RK) scheme to a stochastic
 differential equation.
 
@@ -126,7 +126,7 @@ routine:
 -   **R8VEC\_UNIFORM\_01** returns a unit pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

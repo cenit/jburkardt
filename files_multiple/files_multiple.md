@@ -65,22 +65,22 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FILES\_MULTIPLE** is available in [a C
-version](../../c_src/files_multiple/files_multiple.html) and [a C++
-version](../../cpp_src/files_multiple/files_multiple.html) and [a
-FORTRAN77 version](../../f77_src/files_multiple/files_multiple.html) and
-[a FORTRAN90 version](../../f_src/files_multiple/files_multiple.html)
-and [a MATLAB version](../../m_src/files_multiple/files_multiple.html).
+version](../../c_src/files_multiple/files_multiple.md) and [a C++
+version](../../master/files_multiple/files_multiple.md) and [a
+FORTRAN77 version](../../f77_src/files_multiple/files_multiple.md) and
+[a FORTRAN90 version](../../f_src/files_multiple/files_multiple.md)
+and [a MATLAB version](../../m_src/files_multiple/files_multiple.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FILE\_NAME\_SEQUENCE](../../cpp_src/file_name_sequence/file_name_sequence.html),
+[FILE\_NAME\_SEQUENCE](../../master/file_name_sequence/file_name_sequence.md),
 a C++ program which demonstrates ways to generate a sequence of
 filenames that can be used when generating images for an animation.
 
-[FILUM](../../cpp_src/filum/filum.html), a C++ library which can work
+[FILUM](../../master/filum/filum.md), a C++ library which can work
 with information in text files.
 
-[TABLE\_IO](../../cpp_src/table_io/table_io.html), a C++ library which
+[TABLE\_IO](../../master/table_io/table_io.md), a C++ library which
 reads and writes table files.
 
 ### Reference: {#reference align="center"}
@@ -126,7 +126,7 @@ on.
 -   **R8VEC\_UNIFORM\_01** returns a unit pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

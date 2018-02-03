@@ -40,30 +40,30 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FREEFEM++\_MSH\_IO** is available in [a C
-version](../../c_src/freefem++_msh_io/freefem++_msh_io.html) and [a C++
-version](../../cpp_src/freefem++_msh_io/freefem++_msh_io.html) and [a
-FORTRAN77 version](../../f77_src/freefem++_msh_io/freefem++_msh_io.html)
+version](../../c_src/freefem++_msh_io/freefem++_msh_io.md) and [a C++
+version](../../master/freefem++_msh_io/freefem++_msh_io.md) and [a
+FORTRAN77 version](../../f77_src/freefem++_msh_io/freefem++_msh_io.md)
 and [a FORTRAN90
-version](../../f_src/freefem++_msh_io/freefem++_msh_io.html) and [a
-MATLAB version](../../m_src/freefem++_msh_io/freefem++_msh_io.html) and
-[a Python version](../../py_src/freefem++_msh_io/freefem++_msh_io.html).
+version](../../f_src/freefem++_msh_io/freefem++_msh_io.md) and [a
+MATLAB version](../../m_src/freefem++_msh_io/freefem++_msh_io.md) and
+[a Python version](../../py_src/freefem++_msh_io/freefem++_msh_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BAMG](../../examples/bamg/bamg.html), examples which illustrate the use
+[BAMG](../../examples/bamg/bamg.md), examples which illustrate the use
 of BAMG, a program for generating 2D meshes that can be used to define
 the geometry for the the finite element package FREEFEM++.
 
-[FREEFEM++](../../examples/freefem++/freefem++.html), examples which
+[FREEFEM++](../../examples/freefem++/freefem++.md), examples which
 illustrate the use of the FREEFEM++ package, a high-level integrated
 development environment for the numerical solution of nonlinear
 multiphysics partial differential equations (PDE's) in 2D and 3D.
 
-[FREEFEM++\_MSH](../../data/freefem++_msh/freefem++_msh.html), a data
+[FREEFEM++\_MSH](../../data/freefem++_msh/freefem++_msh.md), a data
 directory which contains examples of the mesh files created by the
 FreeFem++ program, which use the extension ".msh".
 
-[MITCHELL\_FREEFEM++](../../examples/mitchell_freefem++/mitchell_freefem++.html),
+[MITCHELL\_FREEFEM++](../../examples/mitchell_freefem++/mitchell_freefem++.md),
 examples which illustrate the implementation of the Mitchell 2D elliptic
 partial differential equation (PDE) test problems using FREEFEM++.
 
@@ -121,7 +121,7 @@ partial differential equation (PDE) test problems using FREEFEM++.
 -   **S\_TO\_R8** reads an R8 from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

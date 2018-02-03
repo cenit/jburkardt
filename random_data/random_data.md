@@ -96,59 +96,59 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **RANDOM\_DATA** is available in [a C
-version](../../c_src/random_data/random_data.html) and [a C++
-version](../../cpp_src/random_data/random_data.html) and [a FORTRAN77
-version](../../f77_src/random_data/random_data.html) and [a FORTRAN90
-version](../../f_src/random_data/random_data.html) and [a MATLAB
-version](../../m_src/random_data/random_data.html).
+version](../../c_src/random_data/random_data.md) and [a C++
+version](../../master/random_data/random_data.md) and [a FORTRAN77
+version](../../f77_src/random_data/random_data.md) and [a FORTRAN90
+version](../../f_src/random_data/random_data.md) and [a MATLAB
+version](../../m_src/random_data/random_data.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA183](../../cpp_src/asa183/asa183.html), a C++ library which
+[ASA183](../../master/asa183/asa183.md), a C++ library which
 implements the Wichman-Hill pseudorandom number generator.
 
-[DISCRETE\_PDF\_SAMPLE\_2D](../../cpp_src/discrete_pdf_sample_2d/discrete_pdf_sample_2d.html),
+[DISCRETE\_PDF\_SAMPLE\_2D](../../master/discrete_pdf_sample_2d/discrete_pdf_sample_2d.md),
 a C++ program which demonstrates how to construct a Probability Density
 Function (PDF) from a table of sample data, and then to use that PDF to
 create new samples.
 
-[RBOX](../../c_src/rbox/rbox.html), a C program which produces random
+[RBOX](../../c_src/rbox/rbox.md), a C program which produces random
 data from a number of regions.
 
-[RSITES](../../cpp_src/rsites/rsites.html), a C++ program which produces
+[RSITES](../../master/rsites/rsites.md), a C++ program which produces
 random data in an M-dimensional box.
 
-[SPHERE\_QUAD](../../cpp_src/sphere_quad/sphere_quad.html), a C++
+[SPHERE\_QUAD](../../master/sphere_quad/sphere_quad.md), a C++
 library which approximates an integral over the surface of the unit
 sphere by applying a triangulation to the surface;
 
-[TETRAHEDRON\_MONTE\_CARLO](../../cpp_src/tetrahedron_monte_carlo/tetrahedron_monte_carlo.html),
+[TETRAHEDRON\_MONTE\_CARLO](../../master/tetrahedron_monte_carlo/tetrahedron_monte_carlo.md),
 a C++ program which uses the Monte Carlo method to estimate integrals
 over a tetrahedron.
 
-[TETRAHEDRON\_SAMPLES](../../datasets/tetrahedron_samples/tetrahedron_samples.html),
+[TETRAHEDRON\_SAMPLES](../../datasets/tetrahedron_samples/tetrahedron_samples.md),
 a dataset directory which contains examples of sets of sample points
 from the unit tetrahedron.
 
-[TRIANGLE\_HISTOGRAM](../../cpp_src/triangle_histogram/triangle_histogram.html),
+[TRIANGLE\_HISTOGRAM](../../master/triangle_histogram/triangle_histogram.md),
 a C++ program which computes histograms of data on the unit triangle.
 
-[TRIANGLE\_MONTE\_CARLO](../../cpp_src/triangle_monte_carlo/triangle_monte_carlo.html),
+[TRIANGLE\_MONTE\_CARLO](../../master/triangle_monte_carlo/triangle_monte_carlo.md),
 a C++ program which uses the Monte Carlo method to estimate integrals
 over a triangle.
 
-[TRIANGLE\_SAMPLES](../../datasets/triangle_samples/triangle_samples.html),
+[TRIANGLE\_SAMPLES](../../datasets/triangle_samples/triangle_samples.md),
 a dataset directory which contains examples of sets of sample points
 from the unit triangle.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 samples the uniform random distribution.
 
-[XYZ\_DISPLAY](../../m_src/xyz_display/xyz_display.html), a MATLAB
+[XYZ\_DISPLAY](../../m_src/xyz_display/xyz_display.md), a MATLAB
 program which reads XYZ information defining points in 3D, and displays
 an image in the MATLAB graphics window.
 
-[XYZ\_DISPLAY\_OPENGL](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html),
+[XYZ\_DISPLAY\_OPENGL](../../master/xyz_display_opengl/xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays an image using OpenGL.
 
@@ -526,7 +526,7 @@ PNG images for posting on this web page.
     XYZ coordinates.
 -   **UNIFORM\_WALK** generates points on a uniform random walk.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

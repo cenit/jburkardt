@@ -67,73 +67,73 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CAUSTIC\_OPENGL** is available in [a C++
-version](../../cpp_src/caustic_opengl/caustic_opengl.html).
+version](../../master/caustic_opengl/caustic_opengl.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[FLOOD\_OPENGL](../../c_src/flood_opengl/flood_opengl.html), a C program
+[FLOOD\_OPENGL](../../c_src/flood_opengl/flood_opengl.md), a C program
 which allows a user to select a region and flood it with color, using
 OpenGL, by Art Wetzel.
 
-[LIFE\_OPENGL](../../c_src/life_opengl/life_opengl.html), a C program
+[LIFE\_OPENGL](../../c_src/life_opengl/life_opengl.md), a C program
 which simulates a version of John Conway's "Game of Life", displaying
 the results using OpenGL.
 
-[LIGHTS\_OUT\_OPENGL](../../cpp_src/lights_out_opengl/lights_out_opengl.html),
+[LIGHTS\_OUT\_OPENGL](../../master/lights_out_opengl/lights_out_opengl.md),
 a C++ program which sets up a "Lights Out" game and allows the user to
 solve it, using the OpenGL graphics window.
 
-[LISSAJOUS\_OPENGL](../../cpp_src/lissajous_opengl/lissajous_opengl.html),
+[LISSAJOUS\_OPENGL](../../master/lissajous_opengl/lissajous_opengl.md),
 a C++ program which computes a Lissajous figure and displays it using
 OpenGL.
 
-[OPENGL](../../cpp_src/opengl/opengl.html), C++ programs which
+[OPENGL](../../master/opengl/opengl.md), C++ programs which
 illustrate the use of the OpenGL graphics library;
 
-[OBJ2OPENGL](../../pl_src/obj2opengl/obj2opengl.html), a PERL script
+[OBJ2OPENGL](../../pl_src/obj2opengl/obj2opengl.md), a PERL script
 which converts OBJ files of 3D data into C include files, which can then
 be used in an **OpenGL** program to display the object.
 
-[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../cpp_src/polygonal_surface_display_opengl/polygonal_surface_display_opengl.html),
+[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../master/polygonal_surface_display_opengl/polygonal_surface_display_opengl.md),
 a C++ program which displays a surface in 3D described as a set of
 polygons, using OpenGL.
 
-[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../cpp_src/rotating_cube_display_opengl/rotating_cube_display_opengl.html),
+[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../master/rotating_cube_display_opengl/rotating_cube_display_opengl.md),
 a C++ program which displays a rotating color cube in 3D, using OpenGL;
 
-[PPMA](../../data/ppma/ppma.html), a data directory which describes the
+[PPMA](../../data/ppma/ppma.md), a data directory which describes the
 ASCII Portable Pixelmap format, which is a possible means of storing the
 graphics information displayed by **OpenGL**. One of the example
 programs shows how this can be done.
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[TET\_MESH\_DISPLAY\_OPENGL](../../cpp_src/tet_mesh_display_opengl/tet_mesh_display_opengl.html),
+[TET\_MESH\_DISPLAY\_OPENGL](../../master/tet_mesh_display_opengl/tet_mesh_display_opengl.md),
 a C++ program which reads a pair of files defining a tetrahedral mesh
 and displays an image using OpenGL.
 
-[TRI\_SURFACE\_DISPLAY\_OPENGL](../../cpp_src/tri_surface_display_opengl/tri_surface_display_opengl.html),
+[TRI\_SURFACE\_DISPLAY\_OPENGL](../../master/tri_surface_display_opengl/tri_surface_display_opengl.md),
 a C++ program which displays the 3D graphics information in a
 TRI\_SURFACE file using OpenGL.
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads a pair of files defining a triangulation and
 displays an image using OpenGL.
 
-[XY\_DISPLAY\_OPENGL](../../cpp_src/xy_display_opengl/xy_display_opengl.html),
+[XY\_DISPLAY\_OPENGL](../../master/xy_display_opengl/xy_display_opengl.md),
 a C++ program which reads an XY file of 2D point coordinates, and
 displays an image of those points using OpenGL.
 
-[XYL\_DISPLAY\_OPENGL](../../cpp_src/xyl_display_opengl/xyl_display_opengl.html),
+[XYL\_DISPLAY\_OPENGL](../../master/xyl_display_opengl/xyl_display_opengl.md),
 a C++ program which reads XYL information defining points and lines in
 2D, and displays an image using OpenGL.
 
-[XYZ\_DISPLAY\_OPENGL](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html),
+[XYZ\_DISPLAY\_OPENGL](../../master/xyz_display_opengl/xyz_display_opengl.md),
 a C++ program which reads an XYZ file of 3D point coordinates, and
 displays an image of those points using OpenGL.
 
@@ -184,7 +184,7 @@ displays an image of those points using OpenGL.
 -   **MYINIT** initializes OpenGL state variables dealing with viewing
     and attributes.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -83,72 +83,72 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**STROUD** is available in [a C version](../../c_src/stroud/stroud.html)
-and [a C++ version](../../cpp_src/stroud/stroud.html) and [a FORTRAN77
-version](../../f77_src/stroud/stroud.html) and [a FORTRAN90
-version](../../f_src/stroud/stroud.html) and [a MATLAB
-version](../../m_src/stroud/stroud.html).
+**STROUD** is available in [a C version](../../c_src/stroud/stroud.md)
+and [a C++ version](../../master/stroud/stroud.md) and [a FORTRAN77
+version](../../f77_src/stroud/stroud.md) and [a FORTRAN90
+version](../../f_src/stroud/stroud.md) and [a MATLAB
+version](../../m_src/stroud/stroud.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DISK\_RULE](../../cpp_src/disk_rule/disk_rule.html), a C++ library
+[DISK\_RULE](../../master/disk_rule/disk_rule.md), a C++ library
 which computes quadrature rules for the unit disk in 2D, that is, the
 interior of the circle of radius 1 and center (0,0).
 
-[FELIPPA](../../cpp_src/felippa/felippa.html), a C++ library which
+[FELIPPA](../../master/felippa/felippa.md), a C++ library which
 defines quadrature rules for lines, triangles, quadrilaterals, pyramids,
 wedges, tetrahedrons and hexahedrons.
 
-[PYRAMID\_RULE](../../cpp_src/pyramid_rule/pyramid_rule.html), a C++
+[PYRAMID\_RULE](../../master/pyramid_rule/pyramid_rule.md), a C++
 program which computes a quadrature rule for a pyramid.
 
-[SIMPLEX\_GM\_RULE](../../cpp_src/simplex_gm_rule/simplex_gm_rule.html),
+[SIMPLEX\_GM\_RULE](../../master/simplex_gm_rule/simplex_gm_rule.md),
 a C++ library which defines Grundmann-Moeller quadrature rules over the
 interior of a triangle in 2D, a tetrahedron in 3D, or over the interior
 of the simplex in M dimensions.
 
-[SPHERE\_LEBEDEV\_RULE](../../cpp_src/sphere_lebedev_rule/sphere_lebedev_rule.html),
+[SPHERE\_LEBEDEV\_RULE](../../master/sphere_lebedev_rule/sphere_lebedev_rule.md),
 a C++ library which computes Lebedev quadrature rules on the surface of
 the unit sphere in 3D.
 
-[TETRAHEDRON\_ARBQ\_RULE](../../cpp_src/tetrahedron_arbq_rule/tetrahedron_arbq_rule.html),
+[TETRAHEDRON\_ARBQ\_RULE](../../master/tetrahedron_arbq_rule/tetrahedron_arbq_rule.md),
 a C++ library which returns quadrature rules, with exactness up to total
 degree 15, over the interior of a tetrahedron in 3D, by Hong Xiao and
 Zydrunas Gimbutas.
 
-[TETRAHEDRON\_KEAST\_RULE](../../cpp_src/tetrahedron_keast_rule/tetrahedron_keast_rule.html),
+[TETRAHEDRON\_KEAST\_RULE](../../master/tetrahedron_keast_rule/tetrahedron_keast_rule.md),
 a C++ library which defines ten quadrature rules, with exactness degrees
 0 through 8, over the interior of a tetrahedron in 3D.
 
-[TETRAHEDRON\_NCC\_RULE](../../cpp_src/tetrahedron_ncc_rule/tetrahedron_ncc_rule.html),
+[TETRAHEDRON\_NCC\_RULE](../../master/tetrahedron_ncc_rule/tetrahedron_ncc_rule.md),
 a C++ library which defines Newton-Cotes Closed (NCC) quadrature rules
 over the interior of a tetrahedron in 3D.
 
-[TETRAHEDRON\_NCO\_RULE](../../cpp_src/tetrahedron_nco_rule/tetrahedron_nco_rule.html),
+[TETRAHEDRON\_NCO\_RULE](../../master/tetrahedron_nco_rule/tetrahedron_nco_rule.md),
 a C++ library which defines Newton-Cotes Open (NCO) quadrature rules
 over the interior of a tetrahedron in 3D.
 
-[TRIANGLE\_DUNAVANT\_RULE](../../cpp_src/triangle_dunavant_rule/triangle_dunavant_rule.html),
+[TRIANGLE\_DUNAVANT\_RULE](../../master/triangle_dunavant_rule/triangle_dunavant_rule.md),
 a C++ library which defines Dunavant rules for quadrature over the
 interior of a triangle in 2D.
 
-[TRIANGLE\_FEKETE](../../cpp_src/triangle_fekete/triangle_fekete.html),
+[TRIANGLE\_FEKETE](../../master/triangle_fekete/triangle_fekete.md),
 a C++ library which defines Fekete rules for interpolation or quadrature
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_LYNESS\_RULE](../../cpp_src/triangle_lyness_rule/triangle_lyness_rule.html),
+[TRIANGLE\_LYNESS\_RULE](../../master/triangle_lyness_rule/triangle_lyness_rule.md),
 a C++ library which returns Lyness-Jespersen quadrature rules over the
 interior of a triangle in 2D.
 
-[TRIANGLE\_NCC\_RULE](../../cpp_src/triangle_ncc_rule/triangle_ncc_rule.html),
+[TRIANGLE\_NCC\_RULE](../../master/triangle_ncc_rule/triangle_ncc_rule.md),
 a C++ library which defines Newton-Cotes Closed (NCC) quadrature rules
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_NCO\_RULE](../../cpp_src/triangle_nco_rule/triangle_nco_rule.html),
+[TRIANGLE\_NCO\_RULE](../../master/triangle_nco_rule/triangle_nco_rule.md),
 a C++ library which defines Newton-Cotes Open (NCO) quadrature rules
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_WANDZURA\_RULE](../../cpp_src/triangle_wandzura_rule/triangle_wandzura_rule.html),
+[TRIANGLE\_WANDZURA\_RULE](../../master/triangle_wandzura_rule/triangle_wandzura_rule.md),
 a C++ library which returns quadrature rules of exactness 5, 10, 15, 20,
 25 and 30 over the interior of the triangle in 2D.
 
@@ -763,7 +763,7 @@ a C++ library which returns quadrature rules of exactness 5, 10, 15, 20,
     to THETA2.
 -   **VEC\_LEX\_NEXT** generates vectors in lex order.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

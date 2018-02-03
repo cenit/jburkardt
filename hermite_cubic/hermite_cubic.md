@@ -57,26 +57,26 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HERMITE\_CUBIC** is available in [a C
-version](../../c_src/hermite_cubic/hermite_cubic.html) and [a C++
-version](../../cpp_src/hermite_cubic/hermite_cubic.html) and [a
-FORTRAN77 version](../../f77_src/hermite_cubic/hermite_cubic.html) and
-[a FORTRAN90 version](../../f_src/hermite_cubic/hermite_cubic.html) and
-[a MATLAB version](../../m_src/hermite_cubic/hermite_cubic.html).
+version](../../c_src/hermite_cubic/hermite_cubic.md) and [a C++
+version](../../master/hermite_cubic/hermite_cubic.md) and [a
+FORTRAN77 version](../../f77_src/hermite_cubic/hermite_cubic.md) and
+[a FORTRAN90 version](../../f_src/hermite_cubic/hermite_cubic.md) and
+[a MATLAB version](../../m_src/hermite_cubic/hermite_cubic.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[CHEBYSHEV](../../cpp_src/chebyshev/chebyshev.html), a C++ library which
+[CHEBYSHEV](../../master/chebyshev/chebyshev.md), a C++ library which
 computes the Chebyshev interpolant/approximant to a given function over
 an interval.
 
-[DIVDIF](../../cpp_src/divdif/divdif.html), a C++ library which computes
+[DIVDIF](../../master/divdif/divdif.md), a C++ library which computes
 divided difference polynomials from data;
 
-[NMS](../../f_src/nms/nms.html), a FORTRAN90 library which includes a
+[NMS](../../f_src/nms/nms.md), a FORTRAN90 library which includes a
 wide variety of numerical software, including solvers for linear systems
 of equations, interpolation of data, numerical quadrature, linear least
 squares data fitting, the solution of nonlinear equations, ordinary
@@ -84,15 +84,15 @@ differential equations, optimization and nonlinear least squares,
 simulation and random numbers, trigonometric approximation and Fast
 Fourier Transforms.
 
-[SPLINE](../../cpp_src/spline/spline.html), a C++ library which includes
+[SPLINE](../../master/spline/spline.md), a C++ library which includes
 many routines to construct and evaluate spline interpolants and
 approximants.
 
-[TEST\_APPROX](../../cpp_src/test_approx/test_approx.html), a C++
+[TEST\_APPROX](../../master/test_approx/test_approx.md), a C++
 library which defines test problems for approximation, provided as a set
 of (x,y) data.
 
-[TEST\_INTERP\_1D](../../cpp_src/test_interp_1d/test_interp_1d.html), a
+[TEST\_INTERP\_1D](../../master/test_interp_1d/test_interp_1d.md), a
 C++ library which defines test problems for interpolation of data y(x),
 depending on a 1D argument.
 
@@ -146,7 +146,7 @@ depending on a 1D argument.
     AHI.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -36,26 +36,26 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CONDITION** is available in [a C
-version](../../c_src/condition/condition.html) and [a C++
-version](../../cpp_src/condition/condition.html) and [a FORTRAN77
-version](../../f77_src/condition/condition.html) and [a FORTRAN90
-version](../../f_src/condition/condition.html) and [a MATLAB
-version](../../m_src/condition/condition.html) and [a Python
-version](../../py_src/condition/condition.html).
+version](../../c_src/condition/condition.md) and [a C++
+version](../../master/condition/condition.md) and [a FORTRAN77
+version](../../f77_src/condition/condition.md) and [a FORTRAN90
+version](../../f_src/condition/condition.md) and [a MATLAB
+version](../../m_src/condition/condition.md) and [a Python
+version](../../py_src/condition/condition.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINPACK\_D](../../cpp_src/linpack_d/linpack_d.html), a C++ library
+[LINPACK\_D](../../master/linpack_d/linpack_d.md), a C++ library
 which solves linear systems using double precision real arithmetic;
 
-[NAPACK](../../f77_src/napack/napack.html), a FORTRAN77 library which
+[NAPACK](../../f77_src/napack/napack.md), a FORTRAN77 library which
 includes many routines for applied numerical linear algebra tasks,
 including the matrix condition number, by William Hager.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices for which some of the determinant, eigenvalues,
 inverse, null vectors, P\*L\*U factorization or linear system solution
 are already known.
@@ -123,7 +123,7 @@ are already known.
     R8GE\_FA.
 -   **R8GE\_SL** solves a R8GE system factored by R8GE\_FA.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

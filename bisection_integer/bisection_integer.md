@@ -47,27 +47,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BISECTION\_INTEGER** is available in [a C
-version](../../c_src/bisection_integer/bisection_integer.html) and [a
-C++ version](../../cpp_src/bisection_integer/bisection_integer.html) and
+version](../../c_src/bisection_integer/bisection_integer.md) and [a
+C++ version](../../master/bisection_integer/bisection_integer.md) and
 [a FORTRAN77
-version](../../f77_src/bisection_integer/bisection_integer.html) and [a
-FORTRAN90 version](../../f_src/bisection_integer/bisection_integer.html)
+version](../../f77_src/bisection_integer/bisection_integer.md) and [a
+FORTRAN90 version](../../f_src/bisection_integer/bisection_integer.md)
 and [a MATLAB
-version](../../m_src/bisection_integer/bisection_integer.html).
+version](../../m_src/bisection_integer/bisection_integer.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BISECTION\_RC](../../cpp_src/bisection_rc/bisection_rc.html), a C++
+[BISECTION\_RC](../../master/bisection_rc/bisection_rc.md), a C++
 library which seeks a solution to the equation F(X)=0 using bisection
 within a user-supplied change of sign interval \[A,B\]. The procedure is
 written using reverse communication.
 
-[BRENT](../../cpp_src/brent/brent.html), a C++ library which contains
+[BRENT](../../master/brent/brent.md), a C++ library which contains
 Richard Brent's routines for finding the zero, local minimizer, or
 global minimizer of a scalar function of a scalar argument, without the
 use of derivative information.
 
-[TEST\_ZERO](../../cpp_src/test_zero/test_zero.html), a C++ library
+[TEST\_ZERO](../../master/test_zero/test_zero.md), a C++ library
 which defines functions which can be used to test zero finders.
 
 ### Source Code: {#source-code align="center"}
@@ -87,7 +87,7 @@ which defines functions which can be used to test zero finders.
 -   **BISECTION\_INTEGER** seeks an integer root using bisection.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

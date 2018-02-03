@@ -35,38 +35,38 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM\_TO\_MESH** is available in [a C++
-version](../../cpp_src/fem_to_mesh/fem_to_mesh.html) and [a FORTRAN90
-version](../../f_src/fem_to_mesh/fem_to_mesh.html) and [a MATLAB
-version](../../m_src/fem_to_mesh/fem_to_mesh.html).
+version](../../master/fem_to_mesh/fem_to_mesh.md) and [a FORTRAN90
+version](../../f_src/fem_to_mesh/fem_to_mesh.md) and [a MATLAB
+version](../../m_src/fem_to_mesh/fem_to_mesh.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM\_TO\_TEC](../../f_src/fem_to_tec/fem_to_tec.html), a FORTRAN90
+[FEM\_TO\_TEC](../../f_src/fem_to_tec/fem_to_tec.md), a FORTRAN90
 program which converts FEM models into TECPLOT ASCII files.
 
-[FEM2D](../../data/fem2d/fem2d.html), a data directory which contains
+[FEM2D](../../data/fem2d/fem2d.md), a data directory which contains
 examples of 2D FEM files, text files that describe a 2D finite element
 geometry and associated nodal values;
 
-[FEM3D](../../data/fem3d/fem3d.html), a data directory which contains
+[FEM3D](../../data/fem3d/fem3d.md), a data directory which contains
 examples of 3D FEM files, three text files that describe a 3D finite
 element geometry and associated nodal values.
 
-[ICE\_TO\_MESH](../../cpp_src/ice_to_mesh/ice_to_mesh.html), a C++
+[ICE\_TO\_MESH](../../master/ice_to_mesh/ice_to_mesh.md), a C++
 program which reads a NETCDF file containing an ICE dataset and rewrites
 the information as a MESH file.
 
-[MESH](../../data/mesh/mesh.html), a data directory which contains
+[MESH](../../data/mesh/mesh.md), a data directory which contains
 examples of MESH files, which can be used to define the geometry of a
 finite element mesh in 2D or 3D, using triangles, quadrilaterals,
 tetrahedrons or hexahedrons.
 
-[TET\_MESH\_BOUNDARY](../../cpp_src/tet_mesh_boundary/tet_mesh_boundary.html),
+[TET\_MESH\_BOUNDARY](../../master/tet_mesh_boundary/tet_mesh_boundary.md),
 a C++ program which returns the nodes and faces of the boundary of a
 tetrahedral mesh, which themselves form a 3D triangular mesh or
 "TRI\_SURFACE".
 
-[TRIANGULATION\_BOUNDARY\_NODES](../../cpp_src/triangulation_boundary_nodes/triangulation_boundary_nodes.html),
+[TRIANGULATION\_BOUNDARY\_NODES](../../master/triangulation_boundary_nodes/triangulation_boundary_nodes.md),
 a C++ program which reads data defining a triangulation, determines
 which nodes lie on the boundary, and writes their coordinates to a file.
 
@@ -128,7 +128,7 @@ physical units, using 584 nodes and 2568 tetrahedral elements.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

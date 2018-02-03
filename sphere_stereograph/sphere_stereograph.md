@@ -56,25 +56,25 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPHERE\_STEREOGRAPH** is available in [a C
-version](../../c_src/sphere_stereograph/sphere_stereograph.html) and [a
-C++ version](../../cpp_src/sphere_stereograph/sphere_stereograph.html)
+version](../../c_src/sphere_stereograph/sphere_stereograph.md) and [a
+C++ version](../../master/sphere_stereograph/sphere_stereograph.md)
 and [a FORTRAN77
-version](../../f77_src/sphere_stereograph/sphere_stereograph.html) and
+version](../../f77_src/sphere_stereograph/sphere_stereograph.md) and
 [a FORTRAN90
-version](../../f_src/sphere_stereograph/sphere_stereograph.html) and [a
-MATLAB version](../../m_src/sphere_stereograph/sphere_stereograph.html).
+version](../../f_src/sphere_stereograph/sphere_stereograph.md) and [a
+MATLAB version](../../m_src/sphere_stereograph/sphere_stereograph.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GEOMETRY](../../cpp_src/geometry/geometry.html), a C++ library which
+[GEOMETRY](../../master/geometry/geometry.md), a C++ library which
 performs geometric calculations in 2, 3 and M dimensional space.
 
-[SPHERE\_GRID](../../cpp_src/sphere_grid/sphere_grid.html), a C++
+[SPHERE\_GRID](../../master/sphere_grid/sphere_grid.md), a C++
 library which provides a number of ways of generating grids of points,
 or of points and lines, or of points and lines and faces, over the unit
 sphere.
 
-[SPHERE\_STEREOGRAPH\_DISPLAY](../../m_src/sphere_stereograph_display/sphere_stereograph_display.html),
+[SPHERE\_STEREOGRAPH\_DISPLAY](../../m_src/sphere_stereograph_display/sphere_stereograph_display.md),
 a MATLAB library which computes and displays the results of several
 stereographic projections between a sphere and a plane.
 
@@ -128,7 +128,7 @@ stereographic projections between a sphere and a plane.
 -   **UNIFORM\_ON\_SPHERE01\_MAP** maps uniform points onto the unit
     sphere.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

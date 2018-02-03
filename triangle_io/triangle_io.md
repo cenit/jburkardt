@@ -17,58 +17,58 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGLE\_IO** is available in [a C
-version](../../c_src/triangle_io/triangle_io.html) and [a C++
-version](../../cpp_src/triangle_io/triangle_io.html) and [a FORTRAN77
-version](../../f77_src/triangle_io/triangle_io.html) and [a FORTRAN90
-version](../../f_src/triangle_io/triangle_io.html) and [a MATLAB
-version](../../m_src/triangle_io/triangle_io.html).
+version](../../c_src/triangle_io/triangle_io.md) and [a C++
+version](../../master/triangle_io/triangle_io.md) and [a FORTRAN77
+version](../../f77_src/triangle_io/triangle_io.md) and [a FORTRAN90
+version](../../f_src/triangle_io/triangle_io.md) and [a MATLAB
+version](../../m_src/triangle_io/triangle_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM\_TO\_TRIANGLE](../../cpp_src/fem_to_triangle/fem_to_triangle.html),
+[FEM\_TO\_TRIANGLE](../../master/fem_to_triangle/fem_to_triangle.md),
 a C++ program which reads FEM files defining a 2D mesh of triangles,
 namely a file of node coordinates and a file of elements defined by node
 indices, and creates a corresponding pair of node and element files for
 use by Jonathan Shewchuk's triangle program.
 
-[POLY](../../data/poly/poly.html), a data directory which contains a
+[POLY](../../data/poly/poly.md), a data directory which contains a
 description and examples of the POLY file format.
 
-[SHOWME](../../c_src/showme/showme.html), a C program which can display
+[SHOWME](../../c_src/showme/showme.md), a C program which can display
 the POLY files uses as input to **TRIANGLE**, and the output files that
 define meshes and other objects.
 
-[TRIANGLE](../../c_src/triangle/triangle.html), a C program which
+[TRIANGLE](../../c_src/triangle/triangle.md), a C program which
 computes Voronoi diagrams and Delaunay triangulations, and creates and
 manipulates files that can be displayed by **SHOWME**.
 
-[TRIANGLE\_DISPLAY](../../m_src/triangle_display/triangle_display.html),
+[TRIANGLE\_DISPLAY](../../m_src/triangle_display/triangle_display.md),
 a MATLAB program which displays the nodes and elements of a
 triangulation on the MATLAB graphics screen, assuming the data has been
 stored in NODE and ELE files by the TRIANGLE program.
 
-[TRIANGLE\_FILES](../../data/triangle_files/triangle_files.html), a data
+[TRIANGLE\_FILES](../../data/triangle_files/triangle_files.md), a data
 directory which contains examples of files used by the
-[triangle](../../c_src/triangle/triangle.html) and showme programs.
+[triangle](../../c_src/triangle/triangle.md) and showme programs.
 
-[TRIANGLE\_TO\_FEM](../../cpp_src/triangle_to_fem/triangle_to_fem.html),
+[TRIANGLE\_TO\_FEM](../../master/triangle_to_fem/triangle_to_fem.md),
 a C++ program which reads the NODE and ELE files created by TRIANGLE to
 describe a triangular mesh, and writes a corresponding pair of node and
 element files in the 2D FEM format.
 
-[TRIANGLE\_TO\_MEDIT](../../cpp_src/triangle_to_medit/triangle_to_medit.html),
+[TRIANGLE\_TO\_MEDIT](../../master/triangle_to_medit/triangle_to_medit.md),
 a C++ program which reads the NODE and ELE files created by TRIANGLE to
 describe a triangular mesh, and writes a corresponding MESH file for
 input to MEDIT.
 
-[TRIANGLE\_TO\_XML](../../cpp_src/triangle_to_xml/triangle_to_xml.html),
+[TRIANGLE\_TO\_XML](../../master/triangle_to_xml/triangle_to_xml.md),
 a C++ program which reads the NODE and ELE files created by triangle()
 to describe a triangular mesh in 2D, and writes out a corresponding XML
 mesh file for use by DOLFIN or FENICS.
 
 ### Reference: {#reference align="center"}
 
-1.  <http://www-2.cs.cmu.edu/~quake/triangle.html>, the TRIANGLE web
+1.  <http://www-2.cs.cmu.edu/~quake/triangle.md>, the TRIANGLE web
     site;
 
 ### Source Code: {#source-code align="center"}
@@ -118,7 +118,7 @@ mesh file for use by DOLFIN or FENICS.
     node file.
 -   **TRIANGLE\_NODE\_WRITE** writes a TRIANGLE ".node" file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

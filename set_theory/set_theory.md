@@ -70,18 +70,18 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SET\_THEORY** is available in [a C
-version](../../c_src/set_theory/set_theory.html) and [a C++
-version](../../cpp_src/set_theory/set_theory.html) and [a FORTRAN77
-version](../../f77_src/set_theory/set_theory.html) and [a FORTRAN90
-version](../../f_src/set_theory/set_theory.html) and [a MATLAB
-version](../../m_src/set_theory/set_theory.html).
+version](../../c_src/set_theory/set_theory.md) and [a C++
+version](../../master/set_theory/set_theory.md) and [a FORTRAN77
+version](../../f77_src/set_theory/set_theory.md) and [a FORTRAN90
+version](../../f_src/set_theory/set_theory.md) and [a MATLAB
+version](../../m_src/set_theory/set_theory.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[COMBO](../../cpp_src/combo/combo.html), a C++ library which handles
+[COMBO](../../master/combo/combo.md), a C++ library which handles
 combinatorial problems, by Kreher and Stinson;
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which ranks,
+[SUBSET](../../master/subset/subset.md), a C++ library which ranks,
 unranks, and generates random subsets, combinations, permutations, and
 so on;
 
@@ -185,7 +185,7 @@ so on;
 -   **R4\_NINT** returns the nearest integer to an R4.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

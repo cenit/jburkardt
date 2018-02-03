@@ -27,7 +27,7 @@ under a BSD-style license.
 ### Languages: {#languages align="center"}
 
 **ALBANY** is available in [a C++
-version](../../cpp_src/albany/albany.html).
+version](../../master/albany/albany.md).
 
 ### Reference: {#reference align="center"}
 
@@ -40,7 +40,7 @@ version](../../cpp_src/albany/albany.html).
     problem.
 -   [dome\_output.txt](dome_output.txt), the output file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

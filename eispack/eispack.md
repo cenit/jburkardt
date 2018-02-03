@@ -38,22 +38,22 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **EISPACK** is available in [a C
-version](../../c_src/eispack/eispack.html) and [a C++
-version](../../cpp_src/eispack/eispack.html) and [a FORTRAN77
-version](../../f77_src/eispack/eispack.html) and [a FORTRAN90
-version](../../f_src/eispack/eispack.html).
+version](../../c_src/eispack/eispack.md) and [a C++
+version](../../master/eispack/eispack.md) and [a FORTRAN77
+version](../../f77_src/eispack/eispack.md) and [a FORTRAN90
+version](../../f_src/eispack/eispack.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[JACOBI\_EIGENVALUE](../../cpp_src/jacobi_eigenvalue/jacobi_eigenvalue.html),
+[JACOBI\_EIGENVALUE](../../master/jacobi_eigenvalue/jacobi_eigenvalue.md),
 a C++ library which implements the Jacobi iteration for the iterative
 determination of the eigenvalues and eigenvectors of a real symmetric
 matrix.
 
-[TEST\_EIGEN](../../cpp_src/test_eigen/test_eigen.html), a C++ library
+[TEST\_EIGEN](../../master/test_eigen/test_eigen.md), a C++ library
 which defines various eigenvalue test cases.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices, some of which have known eigenvalues and
 eigenvectors.
 
@@ -146,7 +146,7 @@ number of EISPACK routines.
 -   **TRED2** transforms a real symmetric matrix to symmetric
     tridiagonal form.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

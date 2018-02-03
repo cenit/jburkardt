@@ -30,23 +30,23 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**HAAR** is available in [a C version](../../c_src/haar/haar.html) and
-[a C++ version](../../cpp_src/haar/haar.html) and [a FORTRAN77
-version](../../f77_src/haar/haar.html) and [a FORTRAN90
-version](../../f_src/haar/haar.html) and [a MATLAB
-version](../../m_src/haar/haar.html).
+**HAAR** is available in [a C version](../../c_src/haar/haar.md) and
+[a C++ version](../../master/haar/haar.md) and [a FORTRAN77
+version](../../f77_src/haar/haar.md) and [a FORTRAN90
+version](../../f_src/haar/haar.md) and [a MATLAB
+version](../../m_src/haar/haar.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[SFTPACK](../../cpp_src/sftpack/sftpack.html), a C++ library which
+[SFTPACK](../../master/sftpack/sftpack.md), a C++ library which
 implements the "slow" Fourier transform, intended as a teaching tool and
 comparison with the fast Fourier transform.
 
-[SINE\_TRANSFORM](../../cpp_src/sine_transform/sine_transform.html), a
+[SINE\_TRANSFORM](../../master/sine_transform/sine_transform.md), a
 C++ library which demonstrates some simple properties of the discrete
 sine transform.
 
-[WALSH](../../cpp_src/walsh/walsh.html), a C++ library which implements
+[WALSH](../../master/walsh/walsh.md), a C++ library which implements
 versions of the Walsh and Haar transforms.
 
 ### Reference: {#reference align="center"}
@@ -86,7 +86,7 @@ versions of the Walsh and Haar transforms.
 -   **R8VEC\_UNIFORM\_01\_NEW** returns a new unit pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

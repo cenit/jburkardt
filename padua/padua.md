@@ -15,54 +15,54 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**PADUA** is available in [a C version](../../c_src/padua/padua.html)
-and [a C++ version](../../cpp_src/padua/padua.html) and [a FORTRAN77
-version](../../f77_src/padua/padua.html) and [a FORTRAN90
-version](../../f_src/padua/padua.html) and [a MATLAB
-version](../../m_src/padua/padua.html) and [a Python
-version](../../py_src/padua/padua.html).
+**PADUA** is available in [a C version](../../c_src/padua/padua.md)
+and [a C++ version](../../master/padua/padua.md) and [a FORTRAN77
+version](../../f77_src/padua/padua.md) and [a FORTRAN90
+version](../../f_src/padua/padua.md) and [a MATLAB
+version](../../m_src/padua/padua.md) and [a Python
+version](../../py_src/padua/padua.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[EXACTNESS\_2D](../../cpp_src/exactness_2d/exactness_2d.html), a C++
+[EXACTNESS\_2D](../../master/exactness_2d/exactness_2d.md), a C++
 library which investigates the exactness of 2D quadrature rules that
 estimate the integral of a function f(x,y) over a 2D domain.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[LAGRANGE\_INTERP\_2D](../../cpp_src/lagrange_interp_2d/lagrange_interp_2d.html),
+[LAGRANGE\_INTERP\_2D](../../master/lagrange_interp_2d/lagrange_interp_2d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x,y)
 which interpolates a set of data depending on a 2D argument that was
 evaluated on a product grid, so that p(x(i),y(j)) = z(i,j).
 
-[PWL\_INTERP\_2D](../../cpp_src/pwl_interp_2d/pwl_interp_2d.html), a C++
+[PWL\_INTERP\_2D](../../master/pwl_interp_2d/pwl_interp_2d.md), a C++
 library which evaluates a piecewise linear interpolant to data defined
 on a regular 2D grid.
 
-[QUADRATURE\_WEIGHTS\_VANDERMONDE\_2D](../../cpp_src/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.html),
+[QUADRATURE\_WEIGHTS\_VANDERMONDE\_2D](../../master/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.md),
 a C++ library which computes the weights of a 2D quadrature rule using
 the Vandermonde matrix, assuming that the points have been specified.
 
-[RBF\_INTERP\_2D](../../cpp_src/rbf_interp_2d/rbf_interp_2d.html), a C++
+[RBF\_INTERP\_2D](../../master/rbf_interp_2d/rbf_interp_2d.md), a C++
 library which defines and evaluates radial basis function (RBF)
 interpolants to 2D data.
 
-[SHEPARD\_INTERP\_2D](../../cpp_src/shepard_interp_2d/shepard_interp_2d.html),
+[SHEPARD\_INTERP\_2D](../../master/shepard_interp_2d/shepard_interp_2d.md),
 a C++ library which defines and evaluates Shepard interpolants to 2D
 data, based on inverse distance weighting.
 
-[TEST\_INTERP\_2D](../../cpp_src/test_interp_2d/test_interp_2d.html), a
+[TEST\_INTERP\_2D](../../master/test_interp_2d/test_interp_2d.md), a
 C++ library which defines test problems for interpolation of data
 z(x,y), depending on a 2D argument.
 
-[TOMS886](../../cpp_src/toms886/toms886.html), a C++ library which
+[TOMS886](../../master/toms886/toms886.md), a C++ library which
 defines the Padua points for interpolation in a 2D region, including the
 rectangle, triangle, and ellipse, by Marco Caliari, Stefano de Marchi,
 Marco Vianello. This is ACM TOMS algorithm 886.
 
-[VANDERMONDE\_INTERP\_2D](../../cpp_src/vandermonde_interp_2d/vandermonde_interp_2d.html),
+[VANDERMONDE\_INTERP\_2D](../../master/vandermonde_interp_2d/vandermonde_interp_2d.md),
 a C++ library which finds a polynomial interpolant to data z(x,y) of a
 2D argument by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix.
@@ -139,7 +139,7 @@ create a PNG image of the points.
     transposed.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

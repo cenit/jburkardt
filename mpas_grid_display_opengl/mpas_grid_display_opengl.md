@@ -43,30 +43,30 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MPAS\_GRID\_DISPLAY\_OPENGL** is available in [a C++
-version](../../cpp_src/mpas_grid_display_opengl/mpas_grid_display_opengl.html).
+version](../../master/mpas_grid_display_opengl/mpas_grid_display_opengl.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[MPAS\_DRAW](../../cpp_src/mpas_draw/mpas_draw.html), a C++ program
+[MPAS\_DRAW](../../master/mpas_draw/mpas_draw.md), a C++ program
 which reads an MPAS NETCDF file and allows the interactive user to
 select grid and solution information to be displayed using OpenGL.
 
-[MPAS\_GRID\_DISPLAY](../../m_src/mpas_grid_display/mpas_grid_display.html),
+[MPAS\_GRID\_DISPLAY](../../m_src/mpas_grid_display/mpas_grid_display.md),
 MATLAB programs which can read an MPAS NETCDF grid file and display the
 primary polygonal mesh or the dual triangular mesh.
 
-[NETCDF](../../data/netcdf/netcdf.html), a data directory which contains
+[NETCDF](../../data/netcdf/netcdf.md), a data directory which contains
 examples of NETCDF files, a format for the interchange of scientific
 data.
 
-[NETCDF\_MPAS](../../data/netcdf_mpas/netcdf_mpas.html), a data
+[NETCDF\_MPAS](../../data/netcdf_mpas/netcdf_mpas.md), a data
 directory which contains examples of MPAS grid data stored as NETCDF
 files.
 
-[NETCDF\_MPAS](../../cpp_src/netcdf_mpas/netcdf_mpas.html), a C++
+[NETCDF\_MPAS](../../master/netcdf_mpas/netcdf_mpas.md), a C++
 library which reads MPAS grid data stored as NETCDF files.
 
 ### Reference: {#reference align="center"}
@@ -128,7 +128,7 @@ the other side.
 -   [x1.2562.grid.nc](x1.2562.grid.nc), an MPAS grid file for a mesh on
     the sphere, using 2562 nodes, 5120 vertices, 7680 edges.
 
-You can go up one level to [the MATLAB source codes](../m_src.html).
+You can go up one level to [the MATLAB source codes](../m_src.md).
 
 ------------------------------------------------------------------------
 

@@ -16,26 +16,26 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**CG** is available in [a C version](../../c_src/cg/cg.html) and [a C++
-version](../../cpp_src/cg/cg.html) and [a FORTRAN77
-version](../../f77_src/cg/cg.html) and [a FORTRAN90
-version](../../f_src/cg/cg.html) and [a MATLAB
-version](../../m_src/cg/cg.html) and [a Python
-version](../../py_src/cg/cg.html).
+**CG** is available in [a C version](../../c_src/cg/cg.md) and [a C++
+version](../../master/cg/cg.md) and [a FORTRAN77
+version](../../f77_src/cg/cg.md) and [a FORTRAN90
+version](../../f_src/cg/cg.md) and [a MATLAB
+version](../../m_src/cg/cg.md) and [a Python
+version](../../py_src/cg/cg.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CG\_RC](../../cpp_src/cg_rc/cg_rc.html), a C++ library which implements
+[CG\_RC](../../master/cg_rc/cg_rc.md), a C++ library which implements
 the conjugate gradient (CG) method for solving a positive definite
 sparse linear system A\*x=b, using reverse communication (RC).
 
-[SPARSE\_DISPLAY](../../cpp_src/sparse_display/sparse_display.html), a
+[SPARSE\_DISPLAY](../../master/sparse_display/sparse_display.md), a
 C++ library which can read information defining a matrix of numbers and
 display the sparsity pattern or location of the nonzero elements using
 gnuplot. This operation is already available in the built-in MATLAB
 "spy" command.
 
-[WATHEN](../../cpp_src/wathen/wathen.html), a C++ library which compares
+[WATHEN](../../master/wathen/wathen.md), a C++ library which compares
 storage schemes (full, banded, sparse triplet) and solution strategies
 (Linpack full, Linpack banded, conjugate gradient (CG)) for linear
 systems involving the Wathen matrix, which can arise when solving a
@@ -124,7 +124,7 @@ problem using the finite element method (FEM).
 -   **R8VEC\_ZERO\_NEW** creates and zeroes an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -20,64 +20,64 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_INTERP\_1D** is available in [a C
-version](../../c_src/test_interp_1d/test_interp_1d.html) and [a C++
-version](../../cpp_src/test_interp_1d/test_interp_1d.html) and [a
-FORTRAN77 version](../../f77_src/test_interp_1d/test_interp_1d.html) and
-[a FORTRAN90 version](../../f_src/test_interp_1d/test_interp_1d.html)
-and [a MATLAB version](../../m_src/test_interp_1d/test_interp_1d.html).
+version](../../c_src/test_interp_1d/test_interp_1d.md) and [a C++
+version](../../master/test_interp_1d/test_interp_1d.md) and [a
+FORTRAN77 version](../../f77_src/test_interp_1d/test_interp_1d.md) and
+[a FORTRAN90 version](../../f_src/test_interp_1d/test_interp_1d.md)
+and [a MATLAB version](../../m_src/test_interp_1d/test_interp_1d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BARYCENTRIC\_INTERP\_1D](../../cpp_src/barycentric_interp_1d/barycentric_interp_1d.html),
+[BARYCENTRIC\_INTERP\_1D](../../master/barycentric_interp_1d/barycentric_interp_1d.md),
 a C++ library which defines and evaluates the barycentric Lagrange
 polynomial p(x) which interpolates a set of data, so that p(x(i)) =
 y(i). The barycentric approach means that very high degree polynomials
 can safely be used.
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[CHEBYSHEV\_INTERP\_1D](../../cpp_src/chebyshev_interp_1d/chebyshev_interp_1d.html),
+[CHEBYSHEV\_INTERP\_1D](../../master/chebyshev_interp_1d/chebyshev_interp_1d.md),
 a C++ library which determines the combination of Chebyshev polynomials
 which interpolates a set of data, so that p(x(i)) = y(i).
 
-[LAGRANGE\_INTERP\_1D](../../cpp_src/lagrange_interp_1d/lagrange_interp_1d.html),
+[LAGRANGE\_INTERP\_1D](../../master/lagrange_interp_1d/lagrange_interp_1d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data, so that p(x(i)) = y(i).
 
-[NEAREST\_INTERP\_1D](../../cpp_src/nearest_interp_1d/nearest_interp_1d.html),
+[NEAREST\_INTERP\_1D](../../master/nearest_interp_1d/nearest_interp_1d.md),
 a C++ library which interpolates a set of data using a piecewise
 constant interpolant defined by the nearest neighbor criterion.
 
-[NEWTON\_INTERP\_1D](../../cpp_src/newton_interp_1d/newton_interp_1d.html),
+[NEWTON\_INTERP\_1D](../../master/newton_interp_1d/newton_interp_1d.md),
 a C++ library which finds a polynomial interpolant to data using Newton
 divided differences.
 
-[PWL\_INTERP\_1D](../../cpp_src/pwl_interp_1d/pwl_interp_1d.html), a C++
+[PWL\_INTERP\_1D](../../master/pwl_interp_1d/pwl_interp_1d.md), a C++
 library which interpolates a set of data using a piecewise linear
 function.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[RBF\_INTERP\_1D](../../cpp_src/rbf_interp_1d/rbf_interp_1d.html), a C++
+[RBF\_INTERP\_1D](../../master/rbf_interp_1d/rbf_interp_1d.md), a C++
 library which defines and evaluates radial basis function (RBF)
 interpolants to 1D data.
 
-[SHEPARD\_INTERP\_1D](../../cpp_src/shepard_interp_1d/shepard_interp_1d.html),
+[SHEPARD\_INTERP\_1D](../../master/shepard_interp_1d/shepard_interp_1d.md),
 a C++ library which defines and evaluates Shepard interpolants to 1D
 data, based on inverse distance weighting.
 
-[TEST\_INTERP\_2D](../../cpp_src/test_interp_2d/test_interp_2d.html), a
+[TEST\_INTERP\_2D](../../master/test_interp_2d/test_interp_2d.md), a
 C++ library which defines test problems for interpolation of data
 z(x,y), depending on a 2D argument.
 
-[TEST\_INTERP\_ND](../../cpp_src/test_interp_nd/test_interp_nd.html), a
+[TEST\_INTERP\_ND](../../master/test_interp_nd/test_interp_nd.md), a
 C++ library which defines test problems for interpolation of data z(x),
 depending on an M-dimensional argument.
 
-[VANDERMONDE\_INTERP\_1D](../../c_src/vandermonde_interp_1d/vandermonde_interp_1d.html),
+[VANDERMONDE\_INTERP\_1D](../../c_src/vandermonde_interp_1d/vandermonde_interp_1d.md),
 a C library which finds a polynomial interpolant to data y(x) of a 1D
 argument, by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix.
@@ -124,7 +124,7 @@ coefficients, involving the Vandermonde matrix.
 -   **P08\_F** evaluates the function for problem p08.
 -   **P08\_TITLE** returns the title of problem p08.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

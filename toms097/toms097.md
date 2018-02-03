@@ -16,23 +16,23 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS097** is available in [a C
-version](../../c_src/toms097/toms097.html) and [a C++
-version](../../cpp_src/toms097/toms097.html) and [a FORTRAN77
-version](../../f77_src/toms097/toms097.html) and [a FORTRAN90
-version](../../f_src/toms097/toms097.html) and [a MATLAB
-version](../../m_src/toms097/toms097.html) and [a Python
-version](../../py_src/toms097/toms097.html).
+version](../../c_src/toms097/toms097.md) and [a C++
+version](../../master/toms097/toms097.md) and [a FORTRAN77
+version](../../f77_src/toms097/toms097.md) and [a FORTRAN90
+version](../../f_src/toms097/toms097.md) and [a MATLAB
+version](../../m_src/toms097/toms097.md) and [a Python
+version](../../py_src/toms097/toms097.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CITIES](../../datasets/cities/cities.html), a dataset directory which
+[CITIES](../../datasets/cities/cities.md), a dataset directory which
 contains a number of city distance datasets.
 
-[DIJKSTRA](../../cpp_src/dijkstra/dijkstra.html), a C++ program which
+[DIJKSTRA](../../master/dijkstra/dijkstra.md), a C++ program which
 runs a simple example of Dijkstra's minimum distance algorithm for
 graphs.
 
-[FLOYD](../../cpp_src/floyd/floyd.html), a C++ library which implements
+[FLOYD](../../master/floyd/floyd.md), a C++ library which implements
 Floyd's algorithm for finding the shortest distance between every pair
 of nodes in a directed graph.
 
@@ -61,7 +61,7 @@ of nodes in a directed graph.
     pairs of points.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -46,28 +46,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ANALEMMA** is available in [a C
-version](../../c_src/analemma/analemma.html) and [a C++
-version](../../cpp_src/analemma/analemma.html) and [a FORTRAN77
-version](../../f77_src/analemma/analemma.html) and [a FORTRAN90
-version](../../f_src/analemma/analemma.html) and [a MATLAB
-version](../../m_src/analemma/analemma.html).
+version](../../c_src/analemma/analemma.md) and [a C++
+version](../../master/analemma/analemma.md) and [a FORTRAN77
+version](../../f77_src/analemma/analemma.md) and [a FORTRAN90
+version](../../f_src/analemma/analemma.md) and [a MATLAB
+version](../../m_src/analemma/analemma.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CALENDAR\_RD](../../cpp_src/calendar_rd/calendar_rd.html), a C++
+[CALENDAR\_RD](../../master/calendar_rd/calendar_rd.md), a C++
 program which computes the representation of a given date in a number of
 calendrical systems, by Edward Reingold, Nachum Dershowitz.
 
-[CALPAK](../../cpp_src/calpak/calpak.html), a C++ library which makes
+[CALPAK](../../master/calpak/calpak.md), a C++ library which makes
 various calendar calculations;
 
-[DATES](../../datasets/dates/dates.html), a dataset directory which
+[DATES](../../datasets/dates/dates.md), a dataset directory which
 contains lists of dates in various calendar systems.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate the use of the gnuplot graphics program.
 
-[WEEKDAY](../../cpp_src/weekday/weekday.html), a C++ library which
+[WEEKDAY](../../master/weekday/weekday.md), a C++ library which
 determines the day of the week corresponding to a given date, such as 14
 October 1066, Julian calendar, ... which was a Saturday.
 
@@ -80,7 +80,7 @@ Original C version by Brian Tung. C++ version by John Burkardt.
 1.  Brian Tung,\
     Figure Eight in the Sky, a new perspective on an old fascination,\
     Astronomical Games, August 2002,\
-    http://www.astronomycorner.net/games/analemma.html.
+    http://www.astronomycorner.net/games/analemma.md.
 
 ### Source Code: {#source-code align="center"}
 
@@ -102,7 +102,7 @@ Original C version by Brian Tung. C++ version by John Burkardt.
 -   **MAIN** is the main program for ANALEMMA.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

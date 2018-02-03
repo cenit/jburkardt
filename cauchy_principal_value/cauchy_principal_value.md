@@ -42,21 +42,21 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CAUCHY\_PRINCIPAL\_VALUE** is available in [a C
-version](../../c_src/cauchy_principal_value/cauchy_principal_value.html)
+version](../../c_src/cauchy_principal_value/cauchy_principal_value.md)
 and [a C++
-version](../../cpp_src/cauchy_principal_value/cauchy_principal_value.html)
+version](../../master/cauchy_principal_value/cauchy_principal_value.md)
 and [a FORTRAN77
-version](../../f77_src/cauchy_principal_value/cauchy_principal_value.html)
+version](../../f77_src/cauchy_principal_value/cauchy_principal_value.md)
 and [a FORTRAN90
-version](../../f_src/cauchy_principal_value/cauchy_principal_value.html)
+version](../../f_src/cauchy_principal_value/cauchy_principal_value.md)
 and [a MATLAB
-version](../../m_src/cauchy_principal_value/cauchy_principal_value.html)
+version](../../m_src/cauchy_principal_value/cauchy_principal_value.md)
 and [a Python
-version](../../py_src/cauchy_principal_value/cauchy_principal_value.html).
+version](../../py_src/cauchy_principal_value/cauchy_principal_value.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for approximating an integral over a 1D domain.
 
 ### Reference: {#reference align="center"}
@@ -83,7 +83,7 @@ defines quadrature rules for approximating an integral over a 1D domain.
     quadrature.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

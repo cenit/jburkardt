@@ -24,21 +24,21 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PPMA\_TO\_PPMB** is available in [a C++
-version](../../cpp_src/ppma_to_ppmb/ppma_to_ppmb.html) and [a FORTRAN90
-version.](../../f_src/ppma_to_ppmb/ppma_to_ppmb.html)
+version](../../master/ppma_to_ppmb/ppma_to_ppmb.md) and [a FORTRAN90
+version.](../../f_src/ppma_to_ppmb/ppma_to_ppmb.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PPMA](../../data/ppma/ppma.html), a data directory which contains
+[PPMA](../../data/ppma/ppma.md), a data directory which contains
 sample ASCII PPM files.
 
-[PPMA\_IO](../../cpp_src/ppma_io/ppma_io.html), a C++ library which is
+[PPMA\_IO](../../master/ppma_io/ppma_io.md), a C++ library which is
 used by **PPMA\_TO\_PPMB** to read in the ASCII PPM file.
 
-[PPMB](../../data/ppmb/ppmb.html), a data directory which contains
+[PPMB](../../data/ppmb/ppmb.md), a data directory which contains
 sample PPMB files.
 
-[PPMB\_IO](../../cpp_src/ppmb_io/ppmb_io.html), a C++ library which is
+[PPMB\_IO](../../master/ppmb_io/ppmb_io.md), a C++ library which is
 used by PPMA\_TO\_PPMB to write out the PPMB file.
 
 ### Reference: {#reference align="center"}
@@ -71,7 +71,7 @@ used by PPMA\_TO\_PPMB to write out the PPMB file.
     map file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

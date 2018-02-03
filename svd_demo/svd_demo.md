@@ -49,39 +49,39 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SVD\_DEMO** is available in [a C
-version](../../c_src/svd_demo/svd_demo.html) and [a C++
-version](../../cpp_src/svd_demo/svd_demo.html) and [a FORTRAN77
-version](../../f77_src/svd_demo/svd_demo.html) and [a FORTRAN90
-version](../../f_src/svd_demo/svd_demo.html) and [a MATLAB
-version](../../m_src/svd_demo/svd_demo.html).
+version](../../c_src/svd_demo/svd_demo.md) and [a C++
+version](../../master/svd_demo/svd_demo.md) and [a FORTRAN77
+version](../../f77_src/svd_demo/svd_demo.md) and [a FORTRAN90
+version](../../f_src/svd_demo/svd_demo.md) and [a MATLAB
+version](../../m_src/svd_demo/svd_demo.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FINGERPRINTS](../../datasets/fingerprints/fingerprints.html), a dataset
+[FINGERPRINTS](../../datasets/fingerprints/fingerprints.md), a dataset
 directory which contains a few images of fingerprints.
 
-[LAPACK\_EXAMPLES](../../f_src/lapack_examples/lapack_examples.html), a
+[LAPACK\_EXAMPLES](../../f_src/lapack_examples/lapack_examples.md), a
 FORTRAN90 program which demonstrates the use of the LAPACK linear
 algebra library.
 
-[LINPACK](../../cpp_src/linpack/linpack.html), a C++ library which
+[LINPACK](../../master/linpack/linpack.md), a C++ library which
 includes routines to carry out the singular value decomposition.
 
-[SVD\_BASIS](../../cpp_src/svd_basis/svd_basis.html), a C++ program
+[SVD\_BASIS](../../master/svd_basis/svd_basis.md), a C++ program
 which computes a reduced basis for a collection of data vectors using
 the SVD.
 
-[SVD\_SNOWFALL](../../cpp_src/svd_snowfall/svd_snowfall.html), a C++
+[SVD\_SNOWFALL](../../master/svd_snowfall/svd_snowfall.md), a C++
 library which reads a file containing historical snowfall data and
 analyzes the data with the Singular Value Decomposition (SVD), and plots
 created by GNUPLOT.
 
-[SVD\_TRUNCATED](../../cpp_src/svd_truncated/svd_truncated.html), a C++
+[SVD\_TRUNCATED](../../master/svd_truncated/svd_truncated.md), a C++
 program which demonstrates the computation of the reduced or truncated
 Singular Value Decomposition (SVD) that is useful for cases when one
 dimension of the matrix is much smaller than the other.
 
-[TOMS358](../../f77_src/toms358/toms358.html), a FORTRAN77 routine which
+[TOMS358](../../f77_src/toms358/toms358.md), a FORTRAN77 routine which
 computes the singular value decomposition for a complex matrix.
 
 ### Reference: {#reference align="center"}
@@ -155,7 +155,7 @@ computes the singular value decomposition for a complex matrix.
 -   **SVD\_PRODUCT\_TEST** tests that A = U \* S \* V'.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

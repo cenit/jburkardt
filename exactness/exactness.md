@@ -64,30 +64,30 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **EXACTNESS** is available in [a C
-version](../../c_src/exactness/exactness.html) and [a C++
-version](../../cpp_src/exactness/exactness.html) and [a FORTRAN77
-version](../../f77_src/exactness/exactness.html) and [a FORTRAN90
-version](../../f_src/exactness/exactness.html) and [a MATLAB
-version](../../m_src/exactness/exactness.html) and [a Python
-version](../../py_src/exactness/exactness.html).
+version](../../c_src/exactness/exactness.md) and [a C++
+version](../../master/exactness/exactness.md) and [a FORTRAN77
+version](../../f77_src/exactness/exactness.md) and [a FORTRAN90
+version](../../f_src/exactness/exactness.md) and [a MATLAB
+version](../../m_src/exactness/exactness.md) and [a Python
+version](../../py_src/exactness/exactness.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[EXACTNESS\_2D](../../cpp_src/exactness_2d/exactness_2d.html), a C++
+[EXACTNESS\_2D](../../master/exactness_2d/exactness_2d.md), a C++
 library which investigates the exactness of 2D quadrature rules that
 estimate the integral of a function f(x,y) over a 2D domain.
 
-[HERMITE\_EXACTNESS](../../cpp_src/hermite_exactness/hermite_exactness.html),
+[HERMITE\_EXACTNESS](../../master/hermite_exactness/hermite_exactness.md),
 a C++ program which tests the monomial exactness of Gauss-Hermite
 quadrature rules for estimating the integral of a function with density
 exp(-x\^2) over the interval (-oo,+oo).
 
-[LAGUERRE\_EXACTNESS](../../cpp_src/laguerre_exactness/laguerre_exactness.html),
+[LAGUERRE\_EXACTNESS](../../master/laguerre_exactness/laguerre_exactness.md),
 a C++ program which tests the monomial exactness of Gauss-Laguerre
 quadrature rules for estimating the integral of a function with density
 exp(-x) over the interval \[0,+oo).
 
-[LEGENDRE\_EXACTNESS](../../cpp_src/legendre_exactness/legendre_exactness.html),
+[LEGENDRE\_EXACTNESS](../../master/legendre_exactness/legendre_exactness.md),
 a C++ program which tests the monomial exactness of Gauss-Legendre
 quadrature rules for estimating the integral of a function with density
 1 over the interval \[-1,+1\].
@@ -135,7 +135,7 @@ quadrature rules for estimating the integral of a function with density
 -   **R8\_FACTORIAL2** computes the double factorial function.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

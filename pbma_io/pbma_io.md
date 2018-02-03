@@ -21,24 +21,24 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PBMA\_IO** is available in [a C
-version](../../c_src/pbma_io/pbma_io.html) and [a C++
-version](../../cpp_src/pbma_io/pbma_io.html) and [a FORTRAN77
-version](../../f77_src/pbma_io/pbma_io.html) and [a FORTRAN90
-version](../../f_src/pbma_io/pbma_io.html) and [a MATLAB
-version](../../m_src/pbma_io/pbma_io.html).
+version](../../c_src/pbma_io/pbma_io.md) and [a C++
+version](../../master/pbma_io/pbma_io.md) and [a FORTRAN77
+version](../../f77_src/pbma_io/pbma_io.md) and [a FORTRAN90
+version](../../f_src/pbma_io/pbma_io.md) and [a MATLAB
+version](../../m_src/pbma_io/pbma_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PBMA](../../data/pbma/pbma.html), a data directory which contains some
+[PBMA](../../data/pbma/pbma.md), a data directory which contains some
 example ASCII Portable Bit Map (PBM) files.
 
-[PBMB\_IO](../../cpp_src/pbmb_io/pbmb_io.html), a C++ library which
+[PBMB\_IO](../../master/pbmb_io/pbmb_io.md), a C++ library which
 handles the binary Portable Bit Map (PBM) format.
 
-[PGMA\_IO](../../cpp_src/pgma_io/pgma_io.html), a C++ library which
+[PGMA\_IO](../../master/pgma_io/pgma_io.md), a C++ library which
 handles the ASCII Portable Gray Map (PGM) format.
 
-[PPMA\_IO](../../cpp_src/ppma_io/ppma_io.html), a C++ library which
+[PPMA\_IO](../../master/ppma_io/ppma_io.md), a C++ library which
 handles the ASCII Portable Pixel Map (PPM) format.
 
 ### Reference: {#reference align="center"}
@@ -69,7 +69,7 @@ handles the ASCII Portable Pixel Map (PPM) format.
 -   **PBMA\_WRITE\_HEADER** writes the header of an ASCII PBM file.
 -   **PBMA\_WRITE\_TEST** tests the ASCII PBM write routines.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

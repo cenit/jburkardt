@@ -44,95 +44,95 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPHERE\_LEBEDEV\_RULE** is available in [a C
-version](../../c_src/sphere_lebedev_rule/sphere_lebedev_rule.html) and
+version](../../c_src/sphere_lebedev_rule/sphere_lebedev_rule.md) and
 [a C++
-version](../../cpp_src/sphere_lebedev_rule/sphere_lebedev_rule.html) and
+version](../../master/sphere_lebedev_rule/sphere_lebedev_rule.md) and
 [a FORTRAN77
-version](../../f77_src/sphere_lebedev_rule/sphere_lebedev_rule.html) and
+version](../../f77_src/sphere_lebedev_rule/sphere_lebedev_rule.md) and
 [a FORTRAN90
-version](../../f_src/sphere_lebedev_rule/sphere_lebedev_rule.html) and
+version](../../f_src/sphere_lebedev_rule/sphere_lebedev_rule.md) and
 [a MATLAB
-version](../../m_src/sphere_lebedev_rule/sphere_lebedev_rule.html).
+version](../../m_src/sphere_lebedev_rule/sphere_lebedev_rule.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[CIRCLE\_RULE](../../cpp_src/circle_rule/circle_rule.html), a C++
+[CIRCLE\_RULE](../../master/circle_rule/circle_rule.md), a C++
 library which computes quadrature rules over the circumference of the
 unit circle in 2D.
 
-[CUBE\_FELIPPA\_RULE](../../cpp_src/cube_felippa_rule/cube_felippa_rule.html),
+[CUBE\_FELIPPA\_RULE](../../master/cube_felippa_rule/cube_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a cube in 3D.
 
-[PYRAMID\_FELIPPA\_RULE](../../cpp_src/pyramid_felippa_rule/pyramid_felippa_rule.html),
+[PYRAMID\_FELIPPA\_RULE](../../master/pyramid_felippa_rule/pyramid_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a pyramid in 3D.
 
-[SPHERE\_CVT](../../f_src/sphere_cvt/sphere_cvt.html), a FORTRAN90
+[SPHERE\_CVT](../../f_src/sphere_cvt/sphere_cvt.md), a FORTRAN90
 library which creates a mesh of well-separated points using Centroidal
 Voronoi Tessellations, over the surface of the unit sphere in 3D.
 
-[SPHERE\_DESIGN\_RULE](../../f_src/sphere_design_rule/sphere_design_rule.html),
+[SPHERE\_DESIGN\_RULE](../../f_src/sphere_design_rule/sphere_design_rule.md),
 a FORTRAN90 library which returns point sets on the surface of the unit
 sphere, known as "designs", which can be useful for estimating integrals
 on the surface, among other uses.
 
-[SPHERE\_GRID](../../cpp_src/sphere_grid/sphere_grid.html), a C++
+[SPHERE\_GRID](../../master/sphere_grid/sphere_grid.md), a C++
 library which provides a number of ways of generating grids of points,
 or of points and lines, or of points and lines and faces, over the unit
 sphere.
 
-[SPHERE\_LEBEDEV\_RULE](../../datasets/sphere_lebedev_rule/sphere_lebedev_rule.html),
+[SPHERE\_LEBEDEV\_RULE](../../datasets/sphere_lebedev_rule/sphere_lebedev_rule.md),
 a dataset directory which contains sets of points on a unit sphere which
 can be used for quadrature rules of a known precision;
 
-[SPHERE\_LEBEDEV\_RULE\_DISPLAY](../../m_src/sphere_lebedev_rule_display/sphere_lebedev_rule_display.html),
+[SPHERE\_LEBEDEV\_RULE\_DISPLAY](../../m_src/sphere_lebedev_rule_display/sphere_lebedev_rule_display.md),
 a MATLAB program which reads a file defining a Lebedev quadrature rule
 for the unit sphere and displays the point locations.
 
-[SPHERE\_MONTE\_CARLO](../../cpp_src/sphere_monte_carlo/sphere_monte_carlo.html),
+[SPHERE\_MONTE\_CARLO](../../master/sphere_monte_carlo/sphere_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the surface of the unit sphere in 3D;
 
-[SPHERE\_QUAD](../../cpp_src/sphere_quad/sphere_quad.html), a C++
+[SPHERE\_QUAD](../../master/sphere_quad/sphere_quad.md), a C++
 library which approximates an integral by applying a triangulation over
 the surface of the unit sphere in 3D;
 
-[SPHERE\_TRIANGLE\_QUAD](../../cpp_src/sphere_triangle_quad/sphere_triangle_quad.html),
+[SPHERE\_TRIANGLE\_QUAD](../../master/sphere_triangle_quad/sphere_triangle_quad.md),
 a C++ library which estimates the integral of a function over a
 spherical triangle.
 
-[SPHERE\_XYZ\_DISPLAY](../../m_src/sphere_xyz_display/sphere_xyz_display.html),
+[SPHERE\_XYZ\_DISPLAY](../../m_src/sphere_xyz_display/sphere_xyz_display.md),
 a MATLAB program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points in the MATLAB 3D graphics window.
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[SPHERE\_XYZF\_DISPLAY](../../m_src/sphere_xyzf_display/sphere_xyzf_display.html),
+[SPHERE\_XYZF\_DISPLAY](../../m_src/sphere_xyzf_display/sphere_xyzf_display.md),
 a MATLAB program which reads XYZF information defining points and faces,
 and displays a unit sphere, the points, and the faces, in the MATLAB 3D
 graphics window. This can be used, for instance, to display Voronoi
 diagrams or Delaunay triangulations on the unit sphere.
 
-[SQUARE\_FELIPPA\_RULE](../../cpp_src/square_felippa_rule/square_felippa_rule.html),
+[SQUARE\_FELIPPA\_RULE](../../master/square_felippa_rule/square_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a square in 2D.
 
-[TETRAHEDRON\_FELIPPA\_RULE](../../cpp_src/tetrahedron_felippa_rule/tetrahedron_felippa_rule.html),
+[TETRAHEDRON\_FELIPPA\_RULE](../../master/tetrahedron_felippa_rule/tetrahedron_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a tetrahedron in 3D.
 
-[TRIANGLE\_FEKETE\_RULE](../../cpp_src/triangle_fekete_rule/triangle_fekete_rule.html),
+[TRIANGLE\_FEKETE\_RULE](../../master/triangle_fekete_rule/triangle_fekete_rule.md),
 a C++ library which defines Fekete rules for interpolation or quadrature
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_FELIPPA\_RULE](../../cpp_src/triangle_felippa_rule/triangle_felippa_rule.html),
+[TRIANGLE\_FELIPPA\_RULE](../../master/triangle_felippa_rule/triangle_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a triangle in 2D.
 
-[WEDGE\_FELIPPA\_RULE](../../cpp_src/wedge_felippa_rule/wedge_felippa_rule.html),
+[WEDGE\_FELIPPA\_RULE](../../master/wedge_felippa_rule/wedge_felippa_rule.md),
 a C++ library which returns quadratures rules for approximating
 integrals over the interior of the unit wedge in 3D.
 
@@ -229,7 +229,7 @@ integrals over the interior of the unit wedge in 3D.
 -   **XYZ\_TO\_TP** converts (X,Y,Z) to (Theta,Phi) coordinates on the
     unit sphere.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

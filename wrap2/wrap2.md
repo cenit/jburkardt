@@ -29,41 +29,41 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **WRAP2** is available in [a C++
-version](../../cpp_src/wrap2/wrap2.html).
+version](../../master/wrap2/wrap2.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CR2CRLF](../../cpp_src/cr2crlf/cr2crlf.html) a C++ program which reads
+[CR2CRLF](../../master/cr2crlf/cr2crlf.md) a C++ program which reads
 a text file and replaces carriage returns by carriage returns + line
 feeds.
 
-[CR2LF](../../cpp_src/cr2lf/cr2lf.html), a C++ program which reads a
+[CR2LF](../../master/cr2lf/cr2lf.md), a C++ program which reads a
 text file and replaces carriage returns by line feeds.
 
-[CRRM](../../cpp_src/crrm/crrm.html), a C++ program which reads a text
+[CRRM](../../master/crrm/crrm.md), a C++ program which reads a text
 file and writes a copy which has no carriage returns.
 
-[DEBLANK](../../cpp_src/deblank/deblank.html), a C++ program which makes
+[DEBLANK](../../master/deblank/deblank.md), a C++ program which makes
 a copy of a text file in which blank lines have been removed.
 
-[DECOMMENT](../../cpp_src/decomment/decomment.html), a C++ program which
+[DECOMMENT](../../master/decomment/decomment.md), a C++ program which
 makes a copy of a text file which contains no "comment" lines (that
 begin with "\#").
 
-[FILUM](../../cpp_src/filum/filum.html), a C++ library which performs
+[FILUM](../../master/filum/filum.md), a C++ library which performs
 various operations on files.
 
-[REFORMAT](../../f_src/reformat/reformat.html), a FORTRAN90 program
+[REFORMAT](../../f_src/reformat/reformat.md), a FORTRAN90 program
 which reads a file that contains only real values, and writes a copy
 which has a fixed number of real values on each line.
 
-[REWORD](../../cpp_src/reword/reword.html), a C++ program which makes a
+[REWORD](../../master/reword/reword.md), a C++ program which makes a
 copy of a file in which each line has the same number of "words".
 
-[UNCONTROL](../../cpp_src/uncontrol/uncontrol.html), a C++ program which
+[UNCONTROL](../../master/uncontrol/uncontrol.md), a C++ program which
 makes a copy of a text file which contains no control characters.
 
-[WRAP](../../cpp_src/wrap/wrap.html), a C++ program which makes a copy
+[WRAP](../../master/wrap/wrap.md), a C++ program which makes a copy
 of a text file in which long lines have been wrapped.
 
 ### Source Code: {#source-code align="center"}
@@ -92,7 +92,7 @@ of a text file in which long lines have been wrapped.
 -   **S\_TO\_I4** reads an integer value from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -34,86 +34,86 @@ under the [GNU LGPL](gnu_lgpl.txt) license.
 ### Languages: {#languages align="center"}
 
 **SPARSE\_GRID\_OPEN\_DATASET** is available in [a C++
-version](../../cpp_src/sparse_grid_open_dataset/sparse_grid_open_dataset.html)
+version](../../master/sparse_grid_open_dataset/sparse_grid_open_dataset.md)
 and [a FORTRAN90
-version](../../f_src/sparse_grid_open_dataset/sparse_grid_open_dataset.html)
+version](../../f_src/sparse_grid_open_dataset/sparse_grid_open_dataset.md)
 and [a MATLAB
-version](../../m_src/sparse_grid_open_dataset/sparse_grid_open_dataset.html).
+version](../../m_src/sparse_grid_open_dataset/sparse_grid_open_dataset.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CC\_DISPLAY](../../m_src/cc_display/cc_display.html), a MATLAB library
+[CC\_DISPLAY](../../m_src/cc_display/cc_display.md), a MATLAB library
 which can compute and display Clenshaw Curtis grids in two dimensions,
 as well as sparse grids formed from sums of Clenshaw Curtis grids.
 
-[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.html),
+[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.md),
 a dataset directory which defines quadrature rules; a number of examples
 of sparse grid quadrature rules are included.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for various intervals and weight functions.
 
-[SGMGA](../../cpp_src/sgmga/sgmga.html), a C++ library which creates
+[SGMGA](../../master/sgmga/sgmga.md), a C++ library which creates
 sparse grids based on a mixture of 1D quadrature rules, allowing
 anisotropic weights for each dimension.
 
-[SMOLPACK](../../c_src/smolpack/smolpack.html), a C library which
+[SMOLPACK](../../c_src/smolpack/smolpack.md), a C library which
 implements Novak and Ritter's method for estimating the integral of a
 function over a multidimensional hypercube using sparse grids.
 
-[SPARSE\_GRID\_CC\_DATASET](../../cpp_src/sparse_grid_cc_dataset/sparse_grid_cc_dataset.html),
+[SPARSE\_GRID\_CC\_DATASET](../../master/sparse_grid_cc_dataset/sparse_grid_cc_dataset.md),
 a C++ program which creates a sparse grid dataset based on
 Clenshaw-Curtis rules.
 
-[SPARSE\_GRID\_CLOSED\_DATASET](../../cpp_src/sparse_grid_closed_dataset/sparse_grid_closed_dataset.html),
+[SPARSE\_GRID\_CLOSED\_DATASET](../../master/sparse_grid_closed_dataset/sparse_grid_closed_dataset.md),
 a C++ program which creates a sparse grid dataset based on closed rules
 (Clenshaw-Curtis, Newton-Cotes-Closed).
 
-[SPARSE\_GRID\_DISPLAY](../../m_src/sparse_grid_display/sparse_grid_display.html),
+[SPARSE\_GRID\_DISPLAY](../../m_src/sparse_grid_display/sparse_grid_display.md),
 a MATLAB library which can display a 2D or 3D sparse grid.
 
-[SPARSE\_GRID\_F2](../../datasets/sparse_grid_f2/sparse_grid_f2.html), a
+[SPARSE\_GRID\_F2](../../datasets/sparse_grid_f2/sparse_grid_f2.md), a
 dataset directory which contains sparse grids based on a Fejer Type 2
 rule.
 
-[SPARSE\_GRID\_GL\_DATASET](../../cpp_src/sparse_grid_gl_dataset/sparse_grid_gl_dataset.html),
+[SPARSE\_GRID\_GL\_DATASET](../../master/sparse_grid_gl_dataset/sparse_grid_gl_dataset.md),
 a C++ program which creates a sparse grid dataset based on
 Gauss-Legendre rules.
 
-[SPARSE\_GRID\_HERMITE\_DATASET](../../cpp_src/sparse_grid_hermite_dataset/sparse_grid_hermite_dataset.html),
+[SPARSE\_GRID\_HERMITE\_DATASET](../../master/sparse_grid_hermite_dataset/sparse_grid_hermite_dataset.md),
 a C++ program which creates a sparse grid dataset based on Gauss-Hermite
 rules.
 
-[SPARSE\_GRID\_LAGUERRE\_DATASET](../../cpp_src/sparse_grid_laguerre_dataset/sparse_grid_laguerre_dataset.html),
+[SPARSE\_GRID\_LAGUERRE\_DATASET](../../master/sparse_grid_laguerre_dataset/sparse_grid_laguerre_dataset.md),
 a C++ program which creates a sparse grid dataset based on
 Gauss-Laguerrre rules.
 
-[SPARSE\_GRID\_MIXED](../../cpp_src/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../master/sparse_grid_mixed/sparse_grid_mixed.md),
 a C++ library which constructs a sparse grid using different rules in
 each spatial dimension.
 
-[SPARSE\_GRID\_MIXED\_DATASET](../../cpp_src/sparse_grid_mixed_dataset/sparse_grid_mixed_dataset.html),
+[SPARSE\_GRID\_MIXED\_DATASET](../../master/sparse_grid_mixed_dataset/sparse_grid_mixed_dataset.md),
 a C++ program which creates a sparse grid dataset based on a mixture of
 1D rules.
 
-[SPARSE\_GRID\_MIXED\_GROWTH](../../cpp_src/sparse_grid_mixed_growth/sparse_grid_mixed_growth.html),
+[SPARSE\_GRID\_MIXED\_GROWTH](../../master/sparse_grid_mixed_growth/sparse_grid_mixed_growth.md),
 a C++ library which creates a sparse grid dataset based on a mixed set
 of 1D factor rules, and experiments with the use of a linear growth rate
 for the quadrature rules.
 
-[SPARSE\_GRID\_NCC](../../datasets/sparse_grid_ncc/sparse_grid_ncc.html),
+[SPARSE\_GRID\_NCC](../../datasets/sparse_grid_ncc/sparse_grid_ncc.md),
 a dataset directory which contains sparse grids based on a Newton Cotes
 closed rule.
 
-[SPARSE\_GRID\_NCO](../../datasets/sparse_grid_nco/sparse_grid_nco.html),
+[SPARSE\_GRID\_NCO](../../datasets/sparse_grid_nco/sparse_grid_nco.md),
 a dataset directory which contains sparse grids based on a Newton Cotes
 open rule.
 
-[SPARSE\_GRID\_OPEN](../../cpp_src/sparse_grid_open/sparse_grid_open.html),
+[SPARSE\_GRID\_OPEN](../../master/sparse_grid_open/sparse_grid_open.md),
 a C++ library which defines define sparse grids based on open nested
 quadrature rules.
 
-[TOMS847](../../m_src/toms847/toms847.html), a MATLAB program which uses
+[TOMS847](../../m_src/toms847/toms847.md), a MATLAB program which uses
 sparse grids to carry out multilinear hierarchical interpolation. It is
 commonly known as SPINTERP, and is by Andreas Klimke.
 
@@ -277,7 +277,7 @@ in two dimensions and level 4.
 -   **TS\_WEIGHTS** computes weights for a tanh-sinh rule.
 -   **VEC\_COLEX\_NEXT2** generates vectors in colex order.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

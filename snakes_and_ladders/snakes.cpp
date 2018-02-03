@@ -86,7 +86,7 @@ double *snakes ( )
 //
 //    Nick Berry,
 //    Mathematical Analysis of Chutes and Ladders,
-//    http://www.datagenetics.com/blog/november12011/index.html
+//    http://www.datagenetics.com/blog/november12011/index.md
 //
 //    Desmond Higham, Nicholas Higham,
 //    MATLAB Guide,

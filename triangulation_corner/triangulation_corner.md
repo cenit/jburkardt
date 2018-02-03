@@ -64,89 +64,89 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGULATION\_CORNER** is available in [a C++
-version](../../cpp_src/triangulation_corner/triangulation_corner.html)
+version](../../master/triangulation_corner/triangulation_corner.md)
 and [a FORTRAN90
-version](../../f_src/triangulation_corner/triangulation_corner.html) and
+version](../../f_src/triangulation_corner/triangulation_corner.md) and
 [a MATLAB
-version](../../m_src/triangulation_corner/triangulation_corner.html).
+version](../../m_src/triangulation_corner/triangulation_corner.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MESH\_TO\_XML](../../cpp_src/mesh_to_xml/mesh_to_xml.html), a C++
+[MESH\_TO\_XML](../../master/mesh_to_xml/mesh_to_xml.md), a C++
 program which reads information defining a 1D, 2D or 3D mesh, namely a
 file of node coordinates and a file of elements defined by node indices,
 and creates a corresponding XML file for input to DOLFIN or FENICS.
 
-[TABLE\_DELAUNAY](../../cpp_src/table_delaunay/table_delaunay.html), a
+[TABLE\_DELAUNAY](../../master/table_delaunay/table_delaunay.md), a
 C++ program which reads a file of point coordinates in the TABLE format
 and writes out the Delaunay triangulation.
 
-[TRIANGLE](../../c_src/triangle/triangle.html), a C program which
+[TRIANGLE](../../c_src/triangle/triangle.md), a C program which
 computes a triangulation of a geometric region.
 
-[TRIANGULATION](../../cpp_src/triangulation/triangulation.html), a C++
+[TRIANGULATION](../../master/triangulation/triangulation.md), a C++
 library which performs various operations on order 3 ("linear") or order
 6 ("quadratic") triangulations.
 
-[TRIANGULATION\_BOUNDARY\_NODES](../../cpp_src/triangulation_boundary_nodes/triangulation_boundary_nodes.html),
+[TRIANGULATION\_BOUNDARY\_NODES](../../master/triangulation_boundary_nodes/triangulation_boundary_nodes.md),
 a C++ program which reads data defining a triangulation, determines
 which nodes lie on the boundary, and writes their coordinates to a file.
 
-[TRIANGULATION\_DELAUNAY\_DISCREPANCY](../../cpp_src/triangulation_delaunay_discrepancy/triangulation_delaunay_discrepancy.html),
+[TRIANGULATION\_DELAUNAY\_DISCREPANCY](../../master/triangulation_delaunay_discrepancy/triangulation_delaunay_discrepancy.md),
 a C++ program which measures the amount by which a triangulation fails
 the local Delaunay test;
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[TRIANGULATION\_HISTOGRAM](../../cpp_src/triangulation_histogram/triangulation_histogram.html),
+[TRIANGULATION\_HISTOGRAM](../../master/triangulation_histogram/triangulation_histogram.md),
 a C++ program which computes histograms of data over a triangulation.
 
-[TRIANGULATION\_L2Q](../../cpp_src/triangulation_l2q/triangulation_l2q.html),
+[TRIANGULATION\_L2Q](../../master/triangulation_l2q/triangulation_l2q.md),
 a C++ program which reads information about a 3-node (linear)
 triangulation and creates data defining a corresponding 6-node
 (quadratic) triangulation;
 
-[TRIANGULATION\_MASK](../../cpp_src/triangulation_mask/triangulation_mask.html),
+[TRIANGULATION\_MASK](../../master/triangulation_mask/triangulation_mask.md),
 a C++ program which reads a triangulation and calls a user-supplied
 routine to consider each triangle for deletion;
 
-[TRIANGULATION\_NODE\_TO\_ELEMENT](../../cpp_src/triangulation_node_to_element/triangulation_node_to_element.html),
+[TRIANGULATION\_NODE\_TO\_ELEMENT](../../master/triangulation_node_to_element/triangulation_node_to_element.md),
 a C++ program which reads files describing a set of nodes, their
 triangulation, and the value of one or more quantities at each node, and
 outputs a file that averages the quantities for each element. This
 operation in effect creates an "order1" finite element model of the
 data.
 
-[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.html),
+[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.md),
 a data directory which contains examples of TRIANGULATION\_ORDER3 files,
 description of a linear triangulation of a set of 2D points, using a
 pair of files to list the node coordinates and the 3 nodes that make up
 each triangle;
 
-[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.html),
+[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.md),
 a data directory which contains examples of TRIANGULATION\_ORDER6 files,
 a description of a quadratic triangulation of a set of 2D points, using
 a pair of files to list the node coordinates and the 6 nodes that make
 up each triangle.
 
-[TRIANGULATION\_ORIENT](../../cpp_src/triangulation_orient/triangulation_orient.html),
+[TRIANGULATION\_ORIENT](../../master/triangulation_orient/triangulation_orient.md),
 a C++ program which ensures that the triangles in an order 3 or order 6
 triangulation have positive orientation;
 
-[TRIANGULATION\_PLOT](../../cpp_src/triangulation_plot/triangulation_plot.html),
+[TRIANGULATION\_PLOT](../../master/triangulation_plot/triangulation_plot.md),
 a C++ program which makes a PostScript image of a triangulation of
 points.
 
-[TRIANGULATION\_QUAD](../../cpp_src/triangulation_quad/triangulation_quad.html),
+[TRIANGULATION\_QUAD](../../master/triangulation_quad/triangulation_quad.md),
 a C++ program which estimates the integral of a function over a
 triangulated region.
 
-[TRIANGULATION\_REFINE](../../cpp_src/triangulation_refine/triangulation_refine.html),
+[TRIANGULATION\_REFINE](../../master/triangulation_refine/triangulation_refine.md),
 a C++ program which can refine a triangulation.
 
-[TRIANGULATION\_TRIANGLE\_NEIGHBORS](../../cpp_src/triangulation_triangle_neighbors/triangulation_triangle_neighbors.html),
+[TRIANGULATION\_TRIANGLE\_NEIGHBORS](../../master/triangulation_triangle_neighbors/triangulation_triangle_neighbors.md),
 a C++ program which reads data defining a triangulation, determines the
 neighboring triangles of each triangle, and writes that information to a
 file.
@@ -176,7 +176,7 @@ triangle.
 -   [p03.png](p03.png) a PNG image of the initial mesh.
 -   [p02\_corner\_elements.txt](p02_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p02\_corner.png](p02_corner.png) a [PNG](../../data/png/png.html)
+-   [p02\_corner.png](p02_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P05** is the horn. The initial mesh has 4 corner triangles.
@@ -184,11 +184,11 @@ triangle.
 -   [p05\_nodes.txt](p05_nodes.txt) the mesh nodes of the problem.
 -   [p05\_elements.txt](p05_elements.txt) the mesh triangles of the
     problem.
--   [p05.png](p05.png) a [PNG](../../data/png/png.html) image of the
+-   [p05.png](p05.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p05\_corner\_elements.txt](p05_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p05\_corner.png](p05_corner.png) a [PNG](../../data/png/png.html)
+-   [p05\_corner.png](p05_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P08** is the holey pie slice. The initial mesh has 2 corner triangles.
@@ -196,11 +196,11 @@ triangle.
 -   [p08\_nodes.txt](p08_nodes.txt) the mesh nodes of the problem.
 -   [p08\_elements.txt](p08_elements.txt) the mesh triangles of the
     problem.
--   [p08.png](p08.png), a [PNG](../../data/png/png.html) image of the
+-   [p08.png](p08.png), a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p08\_corner\_elements.txt](p08_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p08\_corner.png](p08_corner.png) a [PNG](../../data/png/png.html)
+-   [p08\_corner.png](p08_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P09** is Jeff Borggaard's square with two hexagonal holes. The initial
@@ -209,11 +209,11 @@ mesh has 3 corner triangles.
 -   [p09\_nodes.txt](p09_nodes.txt) the mesh nodes of the problem.
 -   [p09\_elements.txt](p09_elements.txt) the mesh triangles of the
     problem.
--   [p09.png](p09.png) a [PNG](../../data/png/png.html) image of the
+-   [p09.png](p09.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p09\_corner\_elements.txt](p09_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p09\_corner.png](p09_corner.png) a [PNG](../../data/png/png.html)
+-   [p09\_corner.png](p09_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P10** is the unit square. The initial mesh has 4 corner triangles.
@@ -221,11 +221,11 @@ mesh has 3 corner triangles.
 -   [p10\_nodes.txt](p10_nodes.txt) the mesh nodes of the problem.
 -   [p10\_elements.txt](p10_elements.txt) the mesh triangles of the
     problem.
--   [p10.png](p10.png) a [PNG](../../data/png/png.html) image of the
+-   [p10.png](p10.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p10\_corner\_elements.txt](p10_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p10\_corner.png](p10_corner.png) a [PNG](../../data/png/png.html)
+-   [p10\_corner.png](p10_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P11** is the L-shaped region. The initial mesh has 4 corner triangles.
@@ -233,11 +233,11 @@ mesh has 3 corner triangles.
 -   [p11\_nodes.txt](p11_nodes.txt) the mesh nodes of the problem.
 -   [p11\_elements.txt](p11_elements.txt) the mesh triangles of the
     problem.
--   [p11.png](p11.png) a [PNG](../../data/png/png.html) image of the
+-   [p11.png](p11.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p11\_corner\_elements.txt](p11_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p11\_corner.png](p11_corner.png) a [PNG](../../data/png/png.html)
+-   [p11\_corner.png](p11_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **Q11** is the L-shaped region, but with quadratric (6 node) triangles.
@@ -252,14 +252,14 @@ file.
 -   [q11\_nodes.txt](q11_nodes.txt) the mesh nodes of the problem.
 -   [q11\_elements.txt](q11_elements.txt) the mesh triangles of the
     problem.
--   [q11.png](q11.png) a [PNG](../../data/png/png.html) image of the
+-   [q11.png](q11.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [q11\_nodes.corner.txt](q11_corner_nodes.txt) the node coordinate
     file after corner triangles have been repaired, which, for
     quadratric triangles, requires adjusting some midside nodes.
 -   [q11\_corner\_elements.txt](q11_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [q11\_corner.png](q11_corner.png) a [PNG](../../data/png/png.html)
+-   [q11\_corner.png](q11_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P12** is the John Shadid's H-shaped region. The initial mesh has 7
@@ -268,11 +268,11 @@ corner triangles.
 -   [p12\_nodes.txt](p12_nodes.txt) the mesh nodes of the problem.
 -   [p12\_elements.txt](p12_elements.txt) the mesh triangles of the
     problem.
--   [p12.png](p12.png) a [PNG](../../data/png/png.html) image of the
+-   [p12.png](p12.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p12\_corner\_elements.txt](p12_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p12\_corner.png](p12_corner.png) a [PNG](../../data/png/png.html)
+-   [p12\_corner.png](p12_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P13** is the Sandia fork. The initial mesh has 6 corner triangles.
@@ -280,11 +280,11 @@ corner triangles.
 -   [p13\_nodes.txt](p13_nodes.txt) the mesh nodes of the problem.
 -   [p13\_elements.txt](p13_elements.txt) the mesh triangles of the
     problem.
--   [p13.png](p13.png) a [PNG](../../data/png/png.html) image of the
+-   [p13.png](p13.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p13\_corner\_elements.txt](p13_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p13\_corner.png](p13_corner.png) a [PNG](../../data/png/png.html)
+-   [p13\_corner.png](p13_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P14** is Marcus Garvie's Lake Alpha, with Beta Island. The initial
@@ -293,11 +293,11 @@ mesh has 5 corner triangles. (Must be small!)
 -   [p14\_nodes.txt](p14_nodes.txt) the mesh nodes of the problem.
 -   [p14\_elements.txt](p14_elements.txt) the mesh triangles of the
     problem.
--   [p14.png](p14.png) a [PNG](../../data/png/png.html) image of the
+-   [p14.png](p14.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p14\_corner\_elements.txt](p14_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p14\_corner.png](p14_corner.png) a [PNG](../../data/png/png.html)
+-   [p14\_corner.png](p14_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P15** is Sangbum Kim's forward step region. The initial mesh has 6
@@ -306,11 +306,11 @@ corner triangles.
 -   [p15\_nodes.txt](p15_nodes.txt) the mesh nodes of the problem.
 -   [p15\_elements.txt](p15_elements.txt) the mesh triangles of the
     problem.
--   [p15.png](p15.png) a [PNG](../../data/png/png.html) image of the
+-   [p15.png](p15.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p15\_corner\_elements.txt](p15_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p15\_corner.png](p15_corner.png) a [PNG](../../data/png/png.html)
+-   [p15\_corner.png](p15_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P16** is Kevin Pond's elbow, a quarter of a circular annulus. The
@@ -319,11 +319,11 @@ initial mesh has 1 corner triangle.
 -   [p16\_nodes.txt](p16_nodes.txt) the mesh nodes of the problem.
 -   [p16\_elements.txt](p16_elements.txt) the mesh triangles of the
     problem.
--   [p16.png](p16.png) a [PNG](../../data/png/png.html) image of the
+-   [p16.png](p16.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p16\_corner\_elements.txt](p16_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p16\_corner.png](p16_corner.png) a [PNG](../../data/png/png.html)
+-   [p16\_corner.png](p16_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 **P17** is the rectangular channel with a Reuleaux triangle obstacle.
@@ -332,11 +332,11 @@ The initial mesh has 4 corner triangles.
 -   [p17\_nodes.txt](p17_nodes.txt) the mesh nodes of the problem.
 -   [p17\_elements.txt](p17_elements.txt) the mesh triangles of the
     problem.
--   [p17.png](p17.png) a [PNG](../../data/png/png.html) image of the
+-   [p17.png](p17.png) a [PNG](../../data/png/png.md) image of the
     initial mesh.
 -   [p17\_corner\_elements.txt](p17_corner_elements.txt) the triangle
     file after corner triangles have been repaired.
--   [p17\_corner.png](p17_corner.png) a [PNG](../../data/png/png.html)
+-   [p17\_corner.png](p17_corner.png) a [PNG](../../data/png/png.md)
     image of the repaired mesh.
 
 ### List of Routines: {#list-of-routines align="center"}
@@ -383,7 +383,7 @@ The initial mesh has 4 corner triangles.
 -   **TRIANGULATION\_ORDER6\_NEIGHBOR\_TRIANGLES** determines triangle
     neighbors.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

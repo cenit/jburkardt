@@ -230,51 +230,51 @@ under the [GNU LGPL](gnu_lgpl.txt) license.
 
 ### Languages: {#languages align="center"}
 
-**SGMG** is available in [a C++ version](../../cpp_src/sgmg/sgmg.html).
+**SGMG** is available in [a C++ version](../../master/sgmg/sgmg.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[NINT\_EXACTNESS\_MIXED](../../cpp_src/nint_exactness_mixed/nint_exactness_mixed.html),
+[NINT\_EXACTNESS\_MIXED](../../master/nint_exactness_mixed/nint_exactness_mixed.md),
 a C++ program which measures the polynomial exactness of a
 multidimensional quadrature rule based on a mixture of 1D quadrature
 rule factors.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for various intervals and weight functions.
 
-[SANDIA\_RULES](../../cpp_src/sandia_rules/sandia_rules.html), a C++
+[SANDIA\_RULES](../../master/sandia_rules/sandia_rules.md), a C++
 library which produces 1D quadrature rules of Chebyshev, Clenshaw
 Curtis, Fejer 2, Gegenbauer, generalized Hermite, generalized Laguerre,
 Hermite, Jacobi, Laguerre, Legendre and Patterson types.
 
-[SANDIA\_SGMG](../../cpp_src/sandia_sgmg/sandia_sgmg.html), a C++
+[SANDIA\_SGMG](../../master/sandia_sgmg/sandia_sgmg.md), a C++
 library which creates a sparse grid dataset based on a mixed set of 1D
 factor rules, and experiments with the use of a linear growth rate for
 the quadrature rules. This is a version of SGMG that uses a different
 procedure for supplying the parameters needed to evaluate certain
 quadrature rules.
 
-[SANDIA\_SPARSE](../../cpp_src/sandia_sparse/sandia_sparse.html), a C++
+[SANDIA\_SPARSE](../../master/sandia_sparse/sandia_sparse.md), a C++
 library which computes the points and weights of a Smolyak sparse grid,
 based on a variety of 1-dimensional quadrature rules.
 
-[SGMG](../../datasets/sgmg/sgmg.html), a dataset directory which
+[SGMG](../../datasets/sgmg/sgmg.md), a dataset directory which
 contains multidimensional Smolyak sparse grids based on a mixed set of
 1D factor rules and a choice of growth rules.
 
-[SGMGA](../../cpp_src/sgmga/sgmga.html), a C++ library which creates
+[SGMGA](../../master/sgmga/sgmga.md), a C++ library which creates
 sparse grids based on a mixture of 1D quadrature rules, allowing
 anisotropic weights for each dimension.
 
-[SMOLPACK](../../c_src/smolpack/smolpack.html), a C library which
+[SMOLPACK](../../c_src/smolpack/smolpack.md), a C library which
 implements Novak and Ritter's method for estimating the integral of a
 function over a multidimensional hypercube using sparse grids, by Knut
 Petras.
 
-[SPARSE\_GRID\_MIXED](../../cpp_src/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../master/sparse_grid_mixed/sparse_grid_mixed.md),
 a C++ library which creates sparse grids based on a mix of 1D rules.
 
-[TOMS847](../../m_src/toms847/toms847.html), a MATLAB program which uses
+[TOMS847](../../m_src/toms847/toms847.md), a MATLAB program which uses
 sparse grids to carry out multilinear hierarchical interpolation. It is
 commonly known as SPINTERP, and is by Andreas Klimke.
 
@@ -462,7 +462,7 @@ quadrature rule with slow linear growth.
 -   **SGMG\_WEIGHT:** sparse grid weights for a mix of 1D rules.
 -   **SGMG\_WRITE** writes a sparse grid rule to five files.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

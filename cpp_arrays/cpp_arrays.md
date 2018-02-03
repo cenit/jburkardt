@@ -16,18 +16,18 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CPP\_ARRAYS** is available in [a C
-version](../../c_src/c_arrays/c_arrays.html) and [a C++
-version](../../cpp_src/cpp_arrays/cpp_arrays.html).
+version](../../c_src/c_arrays/c_arrays.md) and [a C++
+version](../../master/cpp_arrays/cpp_arrays.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CPP](../../cpp_src/cpp/cpp.html), C++ programs which illustrate some
+[CPP](../../master/cpp/cpp.md), C++ programs which illustrate some
 features of the C++ language;
 
-[CPP\_INTRINSICS](../../cpp_src/cpp_intrinsics/cpp_intrinsics.html), a
+[CPP\_INTRINSICS](../../master/cpp_intrinsics/cpp_intrinsics.md), a
 C++ program which illustrates the use of intrinsic functions.
 
-[CPP\_RANDOM](../../cpp_src/cpp_random/cpp_random.html), C++ programs
+[CPP\_RANDOM](../../master/cpp_random/cpp_random.md), C++ programs
 which illustrate the use of the random number generator routines.
 
 ### Reference: {#reference align="center"}
@@ -83,7 +83,7 @@ vector. This is probably more efficient.
 -   [tensor\_example2\_output.txt](tensor_example2_output.txt), the
     output file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

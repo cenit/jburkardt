@@ -34,56 +34,56 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **WEDGE\_EXACTNESS** is available in [a C
-version](../../c_src/wedge_exactness/wedge_exactness.html) and [a C++
-version](../../cpp_src/wedge_exactness/wedge_exactness.html) and [a
-FORTRAN77 version](../../f77_src/wedge_exactness/wedge_exactness.html)
+version](../../c_src/wedge_exactness/wedge_exactness.md) and [a C++
+version](../../master/wedge_exactness/wedge_exactness.md) and [a
+FORTRAN77 version](../../f77_src/wedge_exactness/wedge_exactness.md)
 and [a FORTRAN90
-version](../../f_src/wedge_exactness/wedge_exactness.html) and [a MATLAB
-version.](../../m_src/wedge_exactness/wedge_exactness.html)
+version](../../f_src/wedge_exactness/wedge_exactness.md) and [a MATLAB
+version.](../../m_src/wedge_exactness/wedge_exactness.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CUBE\_EXACTNESS](../../cpp_src/cube_exactness/cube_exactness.html), a
+[CUBE\_EXACTNESS](../../master/cube_exactness/cube_exactness.md), a
 C++ library which investigates the polynomial exactness of quadrature
 rules over the interior of a cube in 3D.
 
-[HYPERCUBE\_EXACTNESS](../../cpp_src/hypercube_exactness/hypercube_exactness.html),
+[HYPERCUBE\_EXACTNESS](../../master/hypercube_exactness/hypercube_exactness.md),
 a C++ program which measures the monomial exactness of an M-dimensional
 quadrature rule over the interior of the unit hypercube in M dimensions.
 
-[PYRAMID\_EXACTNESS](../../cpp_src/pyramid_exactness/pyramid_exactness.html),
+[PYRAMID\_EXACTNESS](../../master/pyramid_exactness/pyramid_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of the unit pyramid in 3D.
 
-[SPHERE\_EXACTNESS](../../cpp_src/sphere_exactness/sphere_exactness.html),
+[SPHERE\_EXACTNESS](../../master/sphere_exactness/sphere_exactness.md),
 a C++ program which tests the polynomial exactness of a quadrature rule
 over the surface of the unit sphere in 3D.
 
-[SQUARE\_EXACTNESS](../../cpp_src/square_exactness/square_exactness.html),
+[SQUARE\_EXACTNESS](../../master/square_exactness/square_exactness.md),
 a C++ library which investigates the polynomial exactness of quadrature
 rules for f(x,y) over the interior of a rectangle in 2D.
 
-[TETRAHEDRON\_EXACTNESS](../../cpp_src/tetrahedron_exactness/tetrahedron_exactness.html),
+[TETRAHEDRON\_EXACTNESS](../../master/tetrahedron_exactness/tetrahedron_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of a tetrahedron in 3D.
 
-[TRIANGLE\_EXACTNESS](../../cpp_src/triangle_exactness/triangle_exactness.html),
+[TRIANGLE\_EXACTNESS](../../master/triangle_exactness/triangle_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of a triangle in 2D.
 
-[WEDGE\_FELIPPA\_RULE](../../cpp_src/wedge_felippa_rule/wedge_felippa_rule.html),
+[WEDGE\_FELIPPA\_RULE](../../master/wedge_felippa_rule/wedge_felippa_rule.md),
 a C++ library which returns quadratures rules for approximating
 integrals over the interior of the unit wedge in 3D.
 
-[WEDGE\_GRID](../../cpp_src/wedge_grid/wedge_grid.html), a C++ library
+[WEDGE\_GRID](../../master/wedge_grid/wedge_grid.md), a C++ library
 which computes a grid of points over the interior of the unit wedge in
 3D.
 
-[WEDGE\_INTEGRALS](../../cpp_src/wedge_integrals/wedge_integrals.html),
+[WEDGE\_INTEGRALS](../../master/wedge_integrals/wedge_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit wedge in 3D.
 
-[WEDGE\_MONTE\_CARLO](../../cpp_src/wedge_monte_carlo/wedge_monte_carlo.html),
+[WEDGE\_MONTE\_CARLO](../../master/wedge_monte_carlo/wedge_monte_carlo.md),
 a C++ library which uses the Monte Carlo method to estimate integrals
 over the interior of the unit wedge in 3D.
 
@@ -144,7 +144,7 @@ rule and a 2 point Legendre rule for the line.
     wedge in 3D.
 -   **WEDGE01\_VOLUME** returns the volume of the unit wedge in 3D.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

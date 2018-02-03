@@ -23,15 +23,15 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **GEGENBAUER\_CC** is available in [a C
-version](../../c_src/gegenbauer_cc/gegenbauer_cc.html) and [a C++
-version](../../cpp_src/gegenbauer_cc/gegenbauer_cc.html) and [a
-FORTRAN90 version](../../f_src/gegenbauer_cc/gegenbauer_cc.html) and [a
-MATLAB version](../../m_src/gegenbauer_cc/gegenbauer_cc.html) and [a
-Python version](../../py_src/gegenbauer_cc/gegenbauer_cc.html).
+version](../../c_src/gegenbauer_cc/gegenbauer_cc.md) and [a C++
+version](../../master/gegenbauer_cc/gegenbauer_cc.md) and [a
+FORTRAN90 version](../../f_src/gegenbauer_cc/gegenbauer_cc.md) and [a
+MATLAB version](../../m_src/gegenbauer_cc/gegenbauer_cc.md) and [a
+Python version](../../py_src/gegenbauer_cc/gegenbauer_cc.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GEGENBAUER\_POLYNOMIAL](../../cpp_src/gegenbauer_polynomial/gegenbauer_polynomial.html),
+[GEGENBAUER\_POLYNOMIAL](../../master/gegenbauer_polynomial/gegenbauer_polynomial.md),
 a C++ library which evaluates the Gegenbauer polynomial and associated
 functions.
 
@@ -71,7 +71,7 @@ functions.
 -   **RJBESL** evaluates a sequence of Bessel J functions.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

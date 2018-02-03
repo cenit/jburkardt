@@ -73,43 +73,43 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LAGRANGE\_INTERP\_ND** is available in [a C
-version](../../c_src/lagrange_interp_nd/lagrange_interp_nd.html) and [a
-C++ version](../../cpp_src/lagrange_interp_nd/lagrange_interp_nd.html)
+version](../../c_src/lagrange_interp_nd/lagrange_interp_nd.md) and [a
+C++ version](../../master/lagrange_interp_nd/lagrange_interp_nd.md)
 and [a FORTRAN77
-version](../../f77_src/lagrange_interp_nd/lagrange_interp_nd.html) and
+version](../../f77_src/lagrange_interp_nd/lagrange_interp_nd.md) and
 [a FORTRAN90
-version](../../f_src/lagrange_interp_nd/lagrange_interp_nd.html) and [a
-MATLAB version](../../m_src/lagrange_interp_nd/lagrange_interp_nd.html).
+version](../../f_src/lagrange_interp_nd/lagrange_interp_nd.md) and [a
+MATLAB version](../../m_src/lagrange_interp_nd/lagrange_interp_nd.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LAGRANGE\_INTERP\_1D](../../cpp_src/lagrange_interp_1d/lagrange_interp_1d.html),
+[LAGRANGE\_INTERP\_1D](../../master/lagrange_interp_1d/lagrange_interp_1d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data, so that p(x(i)) = y(i).
 
-[LAGRANGE\_INTERP\_2D](../../cpp_src/lagrange_interp_2d/lagrange_interp_2d.html),
+[LAGRANGE\_INTERP\_2D](../../master/lagrange_interp_2d/lagrange_interp_2d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x,y)
 which interpolates a set of data depending on a 2D argument that was
 evaluated on a product grid, so that p(x(i),y(j)) = z(i,j).
 
-[RBF\_INTERP\_ND](../../cpp_src/rbf_interp_nd/rbf_interp_nd.html), a C++
+[RBF\_INTERP\_ND](../../master/rbf_interp_nd/rbf_interp_nd.md), a C++
 library which defines and evaluates radial basis function (RBF)
 interpolants to multidimensional data.
 
-[SHEPARD\_INTERP\_ND](../../cpp_src/shepard_interp_nd/shepard_interp_nd.html),
+[SHEPARD\_INTERP\_ND](../../master/shepard_interp_nd/shepard_interp_nd.md),
 a C++ library which defines and evaluates Shepard interpolants to
 multidimensional data, based on inverse distance weighting.
 
-[SPARSE\_INTERP\_ND](../../cpp_src/sparse_interp_nd/sparse_interp_nd.html)
+[SPARSE\_INTERP\_ND](../../master/sparse_interp_nd/sparse_interp_nd.md)
 a C++ library which can be used to define a sparse interpolant to a
 function f(x) of a multidimensional argument.
 
-[SPINTERP](../../m_src/spinterp/spinterp.html), a MATLAB library which
+[SPINTERP](../../m_src/spinterp/spinterp.md), a MATLAB library which
 carries out piecewise multilinear hierarchical sparse grid
 interpolation; an earlier version of this software is ACM TOMS Algorithm
 847, by Andreas Klimke;
 
-[TEST\_INTERP\_ND](../../cpp_src/test_interp_nd/test_interp_nd.html), a
+[TEST\_INTERP\_ND](../../master/test_interp_nd/test_interp_nd.md), a
 C++ library which defines test problems for interpolation of data z(x),
 depending on an M-dimensional argument.
 
@@ -163,7 +163,7 @@ depending on an M-dimensional argument.
 -   **R8VEC\_NORM\_AFFINE** returns the affine L2 norm of an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

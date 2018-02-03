@@ -29,28 +29,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CIRCLE\_SEGMENT** is available in [a C
-version](../../c_src/circle_segment/circle_segment.html) and [a C++
-version](../../cpp_src/circle_segment/circle_segment.html) and [a
-FORTRAN77 version](../../f77_src/circle_segment/circle_segment.html) and
-[a FORTRAN90 version](../../f_src/circle_segment/circle_segment.html)
-and [a MATLAB version](../../m_src/circle_segment/circle_segment.html).
+version](../../c_src/circle_segment/circle_segment.md) and [a C++
+version](../../master/circle_segment/circle_segment.md) and [a
+FORTRAN77 version](../../f77_src/circle_segment/circle_segment.md) and
+[a FORTRAN90 version](../../f_src/circle_segment/circle_segment.md)
+and [a MATLAB version](../../m_src/circle_segment/circle_segment.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CIRCLE\_RULE](../../cpp_src/circle_rule/circle_rule.html), a C++
+[CIRCLE\_RULE](../../master/circle_rule/circle_rule.md), a C++
 library which computes quadrature rules for the unit circle in 2D, that
 is, the circumference of the circle of radius 1 and center (0,0).
 
-[GEOMETRY](../../cpp_src/geometry/geometry.html), a C++ library which
+[GEOMETRY](../../master/geometry/geometry.md), a C++ library which
 performs geometric calculations in 2, 3 and M dimensional space,
 including the computation of angles, areas, containment, distances,
 intersections, lengths, and volumes.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which defines
+[STROUD](../../master/stroud/stroud.md), a C++ library which defines
 quadrature rules for a variety of M-dimensional regions, including the
 interior of the square, cube and hypercube, the pyramid, cone and
 ellipse, the hexagon, the M-dimensional octahedron, the circle, sphere
@@ -152,7 +152,7 @@ writes out data files and gnuplot command files to create graphics:
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TRIDISOLVE** solves a tridiagonal system of linear equations.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

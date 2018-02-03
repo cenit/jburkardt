@@ -1,11 +1,11 @@
 #! /bin/bash
 #
-g++ htmlindex.cpp
+g++.mdindex.cpp
 if [ $? -ne 0 ]; then
-  echo "Errors compiling htmlindex.cpp"
+  echo "Errors compiling.mdindex.cpp"
   exit
 fi
 #
-mv a.out ~/bin/htmlindex
+mv a.out ~/bin.mdindex
 #
 echo "Normal end of execution."

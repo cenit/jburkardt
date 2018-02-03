@@ -25,23 +25,23 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PGMA\_TO\_PGMB** is available in [a C++
-version](../../cpp_src/pgma_to_pgmb/pgma_to_pgmb.html).
+version](../../master/pgma_to_pgmb/pgma_to_pgmb.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PGMA](../../data/pgma/pgma.html), a data directory which contains
+[PGMA](../../data/pgma/pgma.md), a data directory which contains
 sample ASCII PGM files.
 
-[PGMA\_IO](../../cpp_src/pgma_io/pgma_io.html), a C++ library which is
+[PGMA\_IO](../../master/pgma_io/pgma_io.md), a C++ library which is
 used by **PGMA\_TO\_PGMB** to read in the ASCII PGM file.
 
-[PGMB](../../data/pgmb/pgmb.html), a data directory which contains
+[PGMB](../../data/pgmb/pgmb.md), a data directory which contains
 sample binary PGM files.
 
-[PGMB\_IO](../../cpp_src/pgmb_io/pgmb_io.html), a C++ library which is
+[PGMB\_IO](../../master/pgmb_io/pgmb_io.md), a C++ library which is
 used by PGMA\_TO\_PGMB to write out the binary PGM file.
 
-[PGMB\_TO\_PGMA](../../cpp_src/pgmb_to_pgma/pgmb_to_pgma.html), a C++
+[PGMB\_TO\_PGMA](../../master/pgmb_to_pgma/pgmb_to_pgma.md), a C++
 program which converts a binary PGM file to ASCII PGM format.
 
 ### Reference: {#reference align="center"}
@@ -72,7 +72,7 @@ program which converts a binary PGM file to ASCII PGM format.
 -   **S\_WORD\_EXTRACT\_FIRST2** extracts the first word from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

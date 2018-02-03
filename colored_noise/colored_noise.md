@@ -34,43 +34,43 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **COLORED\_NOISE** is available in [a C
-version](../../c_src/colored_noise/colored_noise.html) and [a C++
-version](../../cpp_src/colored_noise/colored_noise.html) and [a
-FORTRAN77 version](../../f77_src/colored_noise/colored_noise.html) and
-[a FORTRAN90 version](../../f_src/colored_noise/colored_noise.html) and
-[a MATLAB version](../../m_src/colored_noise/colored_noise.html) and [a
-Python version](../../py_src/colored_noise/colored_noise.html).
+version](../../c_src/colored_noise/colored_noise.md) and [a C++
+version](../../master/colored_noise/colored_noise.md) and [a
+FORTRAN77 version](../../f77_src/colored_noise/colored_noise.md) and
+[a FORTRAN90 version](../../f_src/colored_noise/colored_noise.md) and
+[a MATLAB version](../../m_src/colored_noise/colored_noise.md) and [a
+Python version](../../py_src/colored_noise/colored_noise.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLACK\_SCHOLES](../../cpp_src/black_scholes/black_scholes.html), a C++
+[BLACK\_SCHOLES](../../master/black_scholes/black_scholes.md), a C++
 library which implements some simple approaches to the Black-Scholes
 option valuation theory, by Desmond Higham.
 
-[CORRELATION](../../cpp_src/correlation/correlation.html), a C++ library
+[CORRELATION](../../master/correlation/correlation.md), a C++ library
 which contains examples of statistical correlation functions.
 
-[ORNSTEIN\_UHLENBECK](../../cpp_src/ornstein_uhlenbeck/ornstein_uhlenbeck.html),
+[ORNSTEIN\_UHLENBECK](../../master/ornstein_uhlenbeck/ornstein_uhlenbeck.md),
 a C++ library which approximates solutions of the Ornstein-Uhlenbeck
 stochastic differential equation (SDE) using the Euler method and the
 Euler-Maruyama method.
 
-[PINK\_NOISE](../../cpp_src/pink_noise/pink_noise.html), a C++ library
+[PINK\_NOISE](../../master/pink_noise/pink_noise.md), a C++ library
 which computes a "pink noise" signal obeying a 1/f power law.
 
-[SDE](../../cpp_src/sde/sde.html), a C++ library which illustrates the
+[SDE](../../master/sde/sde.md), a C++ library which illustrates the
 properties of stochastic differential equations (SDE's), and common
 algorithms for their analysis, by Desmond Higham;
 
-[SFTPACK](../../cpp_src/sftpack/sftpack.html), a C++ library which
+[SFTPACK](../../master/sftpack/sftpack.md), a C++ library which
 implements the "slow" Fourier transform, intended as a teaching tool and
 comparison with the fast Fourier transform.
 
-[STOCHASTIC\_RK](../../cpp_src/stochastic_rk/stochastic_rk.html), a C++
+[STOCHASTIC\_RK](../../master/stochastic_rk/stochastic_rk.md), a C++
 library which applies a Runge-Kutta scheme to a stochastic differential
 equation.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of a uniform pseudorandom sequence.
 
 ### Reference: {#reference align="center"}
@@ -153,7 +153,7 @@ sequence of random numbers. This makes the effect of ALPHA very clear.
     data.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

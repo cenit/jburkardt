@@ -28,46 +28,46 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BLAS1\_C** is available in [a C
-version](../../c_src/blas1_c/blas1_c.html) and [a C++
-version](../../cpp_src/blas1_c/blas1_c.html) and [a FORTRAN77
-version](../../f77_src/blas1_c/blas1_c.html) and [a FORTRAN90
-version](../../f_src/blas1_c/blas1_c.html) and [a MATLAB
-version](../../m_src/blas1_c/blas1_c.html).
+version](../../c_src/blas1_c/blas1_c.md) and [a C++
+version](../../master/blas1_c/blas1_c.md) and [a FORTRAN77
+version](../../f77_src/blas1_c/blas1_c.md) and [a FORTRAN90
+version](../../f_src/blas1_c/blas1_c.md) and [a MATLAB
+version](../../m_src/blas1_c/blas1_c.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLAS0](../../cpp_src/blas0/blas0.html), a C++ library which contains
+[BLAS0](../../master/blas0/blas0.md), a C++ library which contains
 auxilliary functions for the Basic Linear Algebra Subprograms (BLAS).
 
-[BLAS1\_D](../../cpp_src/blas1_d/blas1_d.html), a C++ library which
+[BLAS1\_D](../../master/blas1_d/blas1_d.md), a C++ library which
 contains basic linear algebra routines for vector-vector operations,
 using double precision real arithmetic.
 
-[BLAS1\_S](../../cpp_src/blas1_s/blas1_s.html), a C++ library which
+[BLAS1\_S](../../master/blas1_s/blas1_s.md), a C++ library which
 contains basic linear algebra routines for vector-vector operations,
 using single precision real arithmetic.
 
-[BLAS1\_Z](../../cpp_src/blas1_z/blas1_z.html), a C++ library which
+[BLAS1\_Z](../../master/blas1_z/blas1_z.md), a C++ library which
 contains basic linear algebra routines for vector-vector operations,
 using double precision complex arithmetic.
 
-[BLAS2](../../cpp_src/blas2/blas2.html), a C++ library which contains
+[BLAS2](../../master/blas2/blas2.md), a C++ library which contains
 basic linear algebra subprograms (BLAS) for matrix-vector operations;
 
-[BLAS3](../../cpp_src/blas3/blas3.html), a C++ library which contains
+[BLAS3](../../master/blas3/blas3.md), a C++ library which contains
 basic linear algebra subprograms (BLAS) for matrix-matrix operations;
 
-[COMPLEX\_NUMBERS](../../cpp_src/complex_numbers/complex_numbers.html),
+[COMPLEX\_NUMBERS](../../master/complex_numbers/complex_numbers.md),
 a C++ program which demonstrates some simple features involved in the
 use of complex numbers in C programming.
 
-[GSL](../../cpp_src/gsl/gsl.html), C++ programs which illustrate the use
+[GSL](../../master/gsl/gsl.md), C++ programs which illustrate the use
 of the Gnu Scientific Library;
 
-[LINPACK](../../cpp_src/linpack/linpack.html), a C++ library which
+[LINPACK](../../master/linpack/linpack.md), a C++ library which
 solves linear systems using single precision complex arithmetic;
 
-[SUPER\_BLAS](../../c_src/super_blas/super_blas.html), a C library which
+[SUPER\_BLAS](../../c_src/super_blas/super_blas.md), a C library which
 implements some of the Basic Linear Algebra Subprograms for fast
 execution.
 
@@ -119,7 +119,7 @@ Kincaid, Fred Krogh. C++ version by John Burkardt.
 -   **SCASUM** takes the sum of the absolute values of a complex vector.
 -   **SCNRM2** returns the euclidean norm of a complex vector.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

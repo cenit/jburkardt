@@ -34,44 +34,44 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **POLYGON\_PROPERTIES** is available in [a C
-version](../../c_src/polygon_properties/polygon_properties.html) and [a
-C++ version](../../cpp_src/polygon_properties/polygon_properties.html)
+version](../../c_src/polygon_properties/polygon_properties.md) and [a
+C++ version](../../master/polygon_properties/polygon_properties.md)
 and [a FORTRAN77
-version](../../f77_src/polygon_properties/polygon_properties.html) and
+version](../../f77_src/polygon_properties/polygon_properties.md) and
 [a FORTRAN90
-version](../../f_src/polygon_properties/polygon_properties.html) and [a
-MATLAB version](../../m_src/polygon_properties/polygon_properties.html)
+version](../../f_src/polygon_properties/polygon_properties.md) and [a
+MATLAB version](../../m_src/polygon_properties/polygon_properties.md)
 and [a Python
-version](../../py_src/polygon_properties/polygon_properties.html).
+version](../../py_src/polygon_properties/polygon_properties.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GEOMETRY](../../cpp_src/geometry/geometry.html), a C++ library which
+[GEOMETRY](../../master/geometry/geometry.md), a C++ library which
 performs geometric calculations in 2, 3 and N dimensional space.
 
-[HYPERSPHERE\_PROPERTIES](../../cpp_src/hypersphere_properties/hypersphere_properties.html),
+[HYPERSPHERE\_PROPERTIES](../../master/hypersphere_properties/hypersphere_properties.md),
 a C++ library which carries out various operations for an M-dimensional
 hypersphere, including converting between Cartesian and spherical
 coordinates, stereographic projection, sampling the surface of the
 sphere, and computing the surface area and volume.
 
-[POLYGON\_INTEGRALS](../../cpp_src/polygon_integrals/polygon_integrals.html),
+[POLYGON\_INTEGRALS](../../master/polygon_integrals/polygon_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of a polygon in 2D.
 
-[POLYGON\_MONTE\_CARLO](../../cpp_src/polygon_monte_carlo/polygon_monte_carlo.html),
+[POLYGON\_MONTE\_CARLO](../../master/polygon_monte_carlo/polygon_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the interior of a polygon in 2D.
 
-[POLYGON\_TRIANGULATE](../../cpp_src/polygon_triangulate/polygon_triangulate.html),
+[POLYGON\_TRIANGULATE](../../master/polygon_triangulate/polygon_triangulate.md),
 a C++ library which triangulates a possibly nonconvex polygon, and which
 can use gnuplot to display the external edges and internal diagonals of
 the triangulation.
 
-[TETRAHEDRON\_PROPERTIES](../../cpp_src/tetrahedron_properties/tetrahedron_properties.html),
+[TETRAHEDRON\_PROPERTIES](../../master/tetrahedron_properties/tetrahedron_properties.md),
 a C++ program which computes properties of a given tetrahedron.
 
-[TRIANGLE\_PROPERTIES](../../cpp_src/triangle_properties/triangle_properties.html),
+[TRIANGLE\_PROPERTIES](../../master/triangle_properties/triangle_properties.md),
 a C++ program which computes properties of a triangle whose vertex
 coordinates are read from a file.
 
@@ -198,7 +198,7 @@ coordinates are read from a file.
 -   **TRIANGLE\_CONTAINS\_POINT\_1** finds if a point is inside a
     triangle.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

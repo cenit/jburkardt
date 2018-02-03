@@ -29,27 +29,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **KRONROD** is available in [a C
-version](../../c_src/kronrod/kronrod.html) and [a C++
-version](../../cpp_src/kronrod/kronrod.html) and [a FORTRAN77
-version](../../f77_src/kronrod/kronrod.html) and [a FORTRAN90
-version](../../f_src/kronrod/kronrod.html) and [a MATLAB
-version](../../m_src/kronrod/kronrod.html) and [a PYTHON
-version](../../py_src/kronrod/kronrod.html).
+version](../../c_src/kronrod/kronrod.md) and [a C++
+version](../../master/kronrod/kronrod.md) and [a FORTRAN77
+version](../../f77_src/kronrod/kronrod.md) and [a FORTRAN90
+version](../../f_src/kronrod/kronrod.md) and [a MATLAB
+version](../../m_src/kronrod/kronrod.md) and [a PYTHON
+version](../../py_src/kronrod/kronrod.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[INT\_EXACTNESS](../../cpp_src/int_exactness/int_exactness.html), a C++
+[INT\_EXACTNESS](../../master/int_exactness/int_exactness.md), a C++
 program which checks the polynomial exactness of a 1-dimensional
 quadrature rule for a finite interval.
 
-[PATTERSON\_RULE](../../cpp_src/patterson_rule/patterson_rule.html), a
+[PATTERSON\_RULE](../../master/patterson_rule/patterson_rule.md), a
 C++ program which computes a Gauss-Patterson quadrature rule.
 
-[QUADRATURE\_RULES\_PATTERSON](../../datasets/quadrature_rules_patterson/quadrature_rules_patterson.html),
+[QUADRATURE\_RULES\_PATTERSON](../../datasets/quadrature_rules_patterson/quadrature_rules_patterson.md),
 a dataset directory which contains Gauss-Patterson quadrature rules for
 the interval \[-1,+1\].
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for 1D domains.
 
 ### Reference: {#reference align="center"}
@@ -78,7 +78,7 @@ defines quadrature rules for 1D domains.
 -   **R8\_ABS** returns the absolute value of an R8.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

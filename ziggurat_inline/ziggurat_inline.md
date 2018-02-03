@@ -22,42 +22,42 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ZIGGURAT\_INLINE** is available in [a C
-version](../../c_src/ziggurat_inline/ziggurat_inline.html) and [a C++
-version](../../cpp_src/ziggurat_inline/ziggurat_inline.html).
+version](../../c_src/ziggurat_inline/ziggurat_inline.md) and [a C++
+version](../../master/ziggurat_inline/ziggurat_inline.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 elements of a Faure quasirandom sequence.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton quasirandom sequence.
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley quasirandom sequence.
 
-[NIEDERREITER2](../../cpp_src/niederreiter2/niederreiter2.html), a C++
+[NIEDERREITER2](../../master/niederreiter2/niederreiter2.md), a C++
 library which computes elements of a Niederreiter quasirandom sequence
 with base 2.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which computes
+[NORMAL](../../master/normal/normal.md), a C++ library which computes
 elements of a sequence of pseudorandom normally distributed values.
 
-[SOBOL](../../cpp_src/sobol/sobol.html), a C++ library which computes
+[SOBOL](../../master/sobol/sobol.md), a C++ library which computes
 elements of a Sobol quasirandom sequence.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of uniform pseudorandom sequence.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes elements of a van der Corput quasirandom
 sequence.
 
-[ZIGGURAT](../../cpp_src/ziggurat/ziggurat.html), a C++ program which
+[ZIGGURAT](../../master/ziggurat/ziggurat.md), a C++ program which
 generates points from a uniform, normal or exponential distribution,
 using the ziggurat method.
 
-[ZIGGURAT\_OPENMP](../../cpp_src/ziggurat_openmp/ziggurat_openmp.html),
+[ZIGGURAT\_OPENMP](../../master/ziggurat_openmp/ziggurat_openmp.md),
 a C++ program which demonstrates how the ZIGGURAT library can be used to
 generate random numbers in an OpenMP parallel program.
 
@@ -113,7 +113,7 @@ generate random numbers in an OpenMP parallel program.
 -   **ZIGSET** sets the seeds and creates the tables for the Ziggurat
     method.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

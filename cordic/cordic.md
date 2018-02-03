@@ -15,24 +15,24 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**CORDIC** is available in [a C version](../../c_src/cordic/cordic.html)
-and [a C++ version](../../cpp_src/cordic/cordic.html) and [a FORTRAN77
-version](../../f77_src/cordic/cordic.html) and [a FORTRAN90
-version](../../f_src/cordic/cordic.html) and [a MATLAB
-version](../../m_src/cordic/cordic.html).
+**CORDIC** is available in [a C version](../../c_src/cordic/cordic.md)
+and [a C++ version](../../master/cordic/cordic.md) and [a FORTRAN77
+version](../../f77_src/cordic/cordic.md) and [a FORTRAN90
+version](../../f_src/cordic/cordic.md) and [a MATLAB
+version](../../m_src/cordic/cordic.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FN](../../cpp_src/fn/fn.html), a C++ library which contains routines by
+[FN](../../master/fn/fn.md), a C++ library which contains routines by
 Wayne Fullerton for evaluating elementary and special functions.
 
-[POLPAK](../../cpp_src/polpak/polpak.html), a C++ library which
+[POLPAK](../../master/polpak/polpak.md), a C++ library which
 evaluates recursively defined polynomials and other special functions.
 
-[SPECFUN](../../f_src/specfun/specfun.html), a FORTRAN90 library which
+[SPECFUN](../../f_src/specfun/specfun.md), a FORTRAN90 library which
 evaluates certain special functions using fitted data.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which returns some tabulated values of various functions.
 
 ### Reference: {#reference align="center"}
@@ -112,7 +112,7 @@ library which returns some tabulated values of various functions.
 -   **TAN\_VALUES** returns some values of the tangent function.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

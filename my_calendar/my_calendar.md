@@ -37,7 +37,7 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MY\_CALENDAR** is available in [a C++
-version](../../cpp_src/my_calendar/my_calendar.html).
+version](../../master/my_calendar/my_calendar.md).
 
 ### Source Code: {#source-code align="center"}
 
@@ -58,7 +58,7 @@ version](../../cpp_src/my_calendar/my_calendar.html).
 -   **PARSE\_COMMAND\_LINE** parses the command line.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

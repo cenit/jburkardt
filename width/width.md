@@ -26,14 +26,14 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **WIDTH** is available in [a C++
-version](../../cpp_src/width/width.html).
+version](../../master/width/width.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PAGES](../../cpp_src/pages/pages.html), a C++ program which reports the
+[PAGES](../../master/pages/pages.md), a C++ program which reports the
 number of pages in a given file.
 
-[WRAP2](../../cpp_src/wrap2/wrap2.html), a C++ program which wraps long
+[WRAP2](../../master/wrap2/wrap2.md), a C++ program which wraps long
 lines in a text file, but which wraps some lines "early", so as to avoid
 breaking words.
 
@@ -47,7 +47,7 @@ breaking words.
 -   **HANDLE** reports the length of the longest line in one file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

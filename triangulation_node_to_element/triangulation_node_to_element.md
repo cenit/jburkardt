@@ -47,28 +47,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGULATION\_NODE\_TO\_ELEMENT** is available in [a C
-version](../../c_src/triangulation_node_to_element/triangulation_node_to_element.html)
+version](../../c_src/triangulation_node_to_element/triangulation_node_to_element.md)
 and [a C++
-version](../../cpp_src/triangulation_node_to_element/triangulation_node_to_element.html)
+version](../../master/triangulation_node_to_element/triangulation_node_to_element.md)
 and [a FORTRAN77
-version](../../f77_src/triangulation_node_to_element/triangulation_node_to_element.html)
+version](../../f77_src/triangulation_node_to_element/triangulation_node_to_element.md)
 and [a FORTRAN90
-version](../../f_src/triangulation_node_to_element/triangulation_node_to_element.html)
+version](../../f_src/triangulation_node_to_element/triangulation_node_to_element.md)
 and [a MATLAB
-version](../../m_src/triangulation_node_to_element/triangulation_node_to_element.html).
+version](../../m_src/triangulation_node_to_element/triangulation_node_to_element.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TRIANGULATION](../../cpp_src/triangulation/triangulation.html), a C++
+[TRIANGULATION](../../master/triangulation/triangulation.md), a C++
 library which carries out various operations on order 3 ("linear") or
 order 6 ("quadratic") triangulations.
 
-[TRIANGULATION\_L2Q](../../cpp_src/triangulation_l2q/triangulation_l2q.html),
+[TRIANGULATION\_L2Q](../../master/triangulation_l2q/triangulation_l2q.md),
 a C++ program which reads information about a 3-node (linear)
 triangulation and creates data defining a corresponding 6-node
 (quadratic) triangulation;
 
-[TRIANGULATION\_Q2L](../../cpp_src/triangulation_q2l/triangulation_q2l.html),
+[TRIANGULATION\_Q2L](../../master/triangulation_q2l/triangulation_q2l.md),
 a C++ program which reads information about a 6-node (quadratic)
 triangulation and creates data defining a corresponding 3-node (linear)
 triangulation;
@@ -115,7 +115,7 @@ triangulation;
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

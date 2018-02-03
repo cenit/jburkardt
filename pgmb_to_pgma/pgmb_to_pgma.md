@@ -25,27 +25,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PGMB\_TO\_PGMA** is available in [a C++
-version](../../cpp_src/pgmb_to_pgma/pgmb_to_pgma.html).
+version](../../master/pgmb_to_pgma/pgmb_to_pgma.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[I2\_BINARY\_TO\_ASCII](../../cpp_src/i2_binary_to_ascii/i2_binary_to_ascii.html)
+[I2\_BINARY\_TO\_ASCII](../../master/i2_binary_to_ascii/i2_binary_to_ascii.md)
 a C++ program which converts a file of short int (I2) data from binary
 to ASCII format.
 
-[PGMA](../../data/pgma/pgma.html), a data directory which contains a
+[PGMA](../../data/pgma/pgma.md), a data directory which contains a
 description and examples of the ASCII PGM format.
 
-[PGMA\_IO](../../cpp_src/pgma_io/pgma_io.html), a C++ library which
+[PGMA\_IO](../../master/pgma_io/pgma_io.md), a C++ library which
 reads and writes files in the ASCII PGM format.
 
-[PGMA\_TO\_PGMB](../../cpp_src/pgma_to_pgmb/pgma_to_pgmb.html), a C++
+[PGMA\_TO\_PGMB](../../master/pgma_to_pgmb/pgma_to_pgmb.md), a C++
 program which converts an ASCII PGM file to binary PGM format.
 
-[PGMB](../../data/pgmb/pgmb.html), a data directory which contains a
+[PGMB](../../data/pgmb/pgmb.md), a data directory which contains a
 description and examples of the binary PGM format.
 
-[PGMB\_IO](../../cpp_src/pgmb_io/pgmb_io.html), a C++ library which
+[PGMB\_IO](../../master/pgmb_io/pgmb_io.md), a C++ library which
 reads and writes files in the binary PGM format.
 
 ### Reference: {#reference align="center"}
@@ -81,7 +81,7 @@ reads and writes files in the binary PGM format.
 -   **UCVEC\_TO\_I4VEC** converts a vector of UNSIGNED CHAR's to an
     I4VEC.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

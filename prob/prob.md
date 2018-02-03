@@ -61,78 +61,78 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**PROB** is available in [a C version](../../c_src/prob/prob.html) and
-[a C++ version](../../cpp_src/prob/prob.html) and [a FORTRAN77
-version](../../f77_src/prob/prob.html) and [a FORTRAN90
-version](../../f_src/prob/prob.html) and [a MATLAB
-version](../../m_src/prob/prob.html) and [a Python
-version](../../py_src/prob/prob.html).
+**PROB** is available in [a C version](../../c_src/prob/prob.md) and
+[a C++ version](../../master/prob/prob.md) and [a FORTRAN77
+version](../../f77_src/prob/prob.md) and [a FORTRAN90
+version](../../f_src/prob/prob.md) and [a MATLAB
+version](../../m_src/prob/prob.md) and [a Python
+version](../../py_src/prob/prob.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA152](../../cpp_src/asa152/asa152.html), a C++ library which
+[ASA152](../../master/asa152/asa152.md), a C++ library which
 evaluates point and cumulative probabilities associated with the
 hypergeometric distribution; this is Applied Statistics Algorithm 152;
 
-[ASA226](../../cpp_src/asa226/asa226.html), a C++ library which
+[ASA226](../../master/asa226/asa226.md), a C++ library which
 evaluates the CDF of the noncentral Beta distribution.
 
-[ASA241](../../cpp_src/asa241/asa241.html), a C++ library which
+[ASA241](../../master/asa241/asa241.md), a C++ library which
 evaluates the percentage points of the normal distribution.
 
-[ASA243](../../cpp_src/asa243/asa243.html), a C++ library which
+[ASA243](../../master/asa243/asa243.md), a C++ library which
 evaluates the CDF of the noncentral T distribution.
 
-[ASA310](../../cpp_src/asa310/asa310.html), a C++ library which computes
+[ASA310](../../master/asa310/asa310.md), a C++ library which computes
 the CDF of the noncentral Beta distribution.
 
-[BETA\_NC](../../cpp_src/beta_nc/beta_nc.html), a C++ library which
+[BETA\_NC](../../master/beta_nc/beta_nc.md), a C++ library which
 evaluates the CDF of the noncentral Beta distribution.
 
-[CDFLIB](../../cpp_src/cdflib/cdflib.html), a C++ library which
+[CDFLIB](../../master/cdflib/cdflib.md), a C++ library which
 evaluates the cumulative density function (CDF), inverse CDF, and
 certain other inverse functions, for distributions including beta,
 binomial, chi-square, noncentral chi-square, F, noncentral F, gamma,
 negative binomial, normal, Poisson, and students T, by Barry Brown,
 James Lovato, Kathy Russell.
 
-[DISCRETE\_PDF\_SAMPLE\_2D](../../cpp_src/discrete_pdf_sample_2d/discrete_pdf_sample_2d.html),
+[DISCRETE\_PDF\_SAMPLE\_2D](../../master/discrete_pdf_sample_2d/discrete_pdf_sample_2d.md),
 a C++ program which demonstrates how to construct a Probability Density
 Function (PDF) from a table of sample data, and then to use that PDF to
 create new samples.
 
-[GSL](../../cpp_src/gsl/gsl.html), a C++ library which includes many
+[GSL](../../master/gsl/gsl.md), a C++ library which includes many
 routines for evaluating probability distributions.
 
-[LOG\_NORMAL](../../cpp_src/log_normal/log_normal.html), a C++ library
+[LOG\_NORMAL](../../master/log_normal/log_normal.md), a C++ library
 which returns quantities associated with the log normal Probability
 Distribution Function (PDF).
 
-[LOG\_NORMAL\_TRUNCATED\_AB](../../cpp_src/log_normal_truncated_ab/log_normal_truncated_ab.html),
+[LOG\_NORMAL\_TRUNCATED\_AB](../../master/log_normal_truncated_ab/log_normal_truncated_ab.md),
 a C++ library which returns quantities associated with the log normal
 Probability Distribution Function (PDF) truncated to the interval
 \[A,B\].
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which samples
+[NORMAL](../../master/normal/normal.md), a C++ library which samples
 the normal distribution.
 
-[RANDOM\_DATA](../../cpp_src/random_data/random_data.html), a C++
+[RANDOM\_DATA](../../master/random_data/random_data.md), a C++
 library which generates sample points for various probability
 distributions, spatial dimensions, and geometries;
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which contains sample values for a number of distributions.
 
-[TRUNCATED\_NORMAL](../../cpp_src/truncated_normal/truncated_normal.html),
+[TRUNCATED\_NORMAL](../../master/truncated_normal/truncated_normal.md),
 a C++ library which works with the truncated normal distribution over
 \[A,B\], or \[A,+oo) or (-oo,B\], returning the probability density
 function (PDF), the cumulative density function (CDF), the inverse CDF,
 the mean, the variance, and sample values.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 samples the uniform distribution.
 
-[ZIGGURAT](../../cpp_src/ziggurat/ziggurat.html), a C++ program which
+[ZIGGURAT](../../master/ziggurat/ziggurat.md), a C++ program which
 generates points from a uniform, normal or exponential distribution,
 using the ziggurat method.
 
@@ -307,7 +307,7 @@ using the ziggurat method.
     ISBN: 0471953334,\
     LC: QA276.M335
 37. [Michael
-    McLaughlin](http://www.geocities.com/~mikemclaughlin/math_stat/Dists/Compendium.html)\
+    McLaughlin](http://www.geocities.com/~mikemclaughlin/math_stat/Dists/Compendium.md)\
     A Compendium of Common Probability Distributions
 38. Paul Nahin,\
     Digital Dice: Computational Solutions to Practical Probability
@@ -1169,7 +1169,7 @@ using the ziggurat method.
 -   **ZIPF\_SAMPLE** samples the Zipf PDF.
 -   **ZIPF\_VARIANCE** returns the variance of the Zipf PDF.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

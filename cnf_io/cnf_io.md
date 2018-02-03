@@ -25,17 +25,17 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CNF\_IO** is available in [a C++
-version](../../cpp_src/cnf_io/cnf_io.html) and [a FORTRAN77
-version](../../f77_src/cnf_io/cnf_io.html) and [a FORTRAN90
-version.](../../f_src/cnf_io/cnf_io.html)
+version](../../master/cnf_io/cnf_io.md) and [a FORTRAN77
+version](../../f77_src/cnf_io/cnf_io.md) and [a FORTRAN90
+version.](../../f_src/cnf_io/cnf_io.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CNF](../../data/cnf/cnf.html), a data directory which describes the
+[CNF](../../data/cnf/cnf.md), a data directory which describes the
 DIMACS CNF file format for specifying instances of the satisfiability
 problem for boolean formulas in conjunctive normal form.
 
-[SATISFY](../../cpp_src/satisfy/satisfy.html), a C++ program which
+[SATISFY](../../master/satisfy/satisfy.md), a C++ program which
 demonstrates, for a particular circuit, an exhaustive search for
 solutions of the circuit satisfiability problem.
 
@@ -84,7 +84,7 @@ solutions of the circuit satisfiability problem.
 -   **S\_WORD\_EXTRACT\_FIRST** extracts the first word from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

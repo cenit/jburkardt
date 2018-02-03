@@ -50,34 +50,34 @@ version of the software, known as **CDFLIB90**.
 
 ### Languages: {#languages align="center"}
 
-**CDFLIB** is available in [a C version](../../c_src/cdflib/cdflib.html)
-and [a C++ version](../../cpp_src/cdflib/cdflib.html) and [a FORTRAN90
-version](../../f_src/cdflib/cdflib.html).
+**CDFLIB** is available in [a C version](../../c_src/cdflib/cdflib.md)
+and [a C++ version](../../master/cdflib/cdflib.md) and [a FORTRAN90
+version](../../f_src/cdflib/cdflib.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA310](../../cpp_src/asa310/asa310.html), a C++ library which computes
+[ASA310](../../master/asa310/asa310.md), a C++ library which computes
 the CDF of the noncentral Beta distribution.
 
-[BETA\_NC](../../cpp_src/beta_nc/beta_nc.html), a C++ library which
+[BETA\_NC](../../master/beta_nc/beta_nc.md), a C++ library which
 evaluates the CDF of the noncentral Beta distribution.
 
-[GSL](../../cpp_src/gsl/gsl.html), a C++ library which contains routines
+[GSL](../../master/gsl/gsl.md), a C++ library which contains routines
 for evaluating, sampling and inverting various probability
 distributions.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which contains
+[NORMAL](../../master/normal/normal.md), a C++ library which contains
 routines for sampling the normal distribution.
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which contains
+[PROB](../../master/prob/prob.md), a C++ library which contains
 routines for evaluating and inverting the normal CDF, and many other
 distributions.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which contains routines that store selected values of the normal
 CDF, and many other statistical distributions.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 contains routines for sampling the uniform distribution.
 
 ### Author: {#author align="center"}
@@ -280,7 +280,7 @@ Houston, Texas.
     distribution.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

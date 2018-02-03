@@ -49,43 +49,43 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_MAT** is available in [a C
-version](../../c_src/test_mat/test_mat.html) and [a C++
-version](../../cpp_src/test_mat/test_mat.html) and [a FORTRAN77
-version](../../f77_src/test_mat/test_mat.html) and [a FORTRAN90
-version](../../f_src/test_mat/test_mat.html) and [a MATLAB
-version](../../m_src/test_mat/test_mat.html) and [a Python
-version.](../../py_src/test_mat/test_mat.html)
+version](../../c_src/test_mat/test_mat.md) and [a C++
+version](../../master/test_mat/test_mat.md) and [a FORTRAN77
+version](../../f77_src/test_mat/test_mat.md) and [a FORTRAN90
+version](../../f_src/test_mat/test_mat.md) and [a MATLAB
+version](../../m_src/test_mat/test_mat.md) and [a Python
+version.](../../py_src/test_mat/test_mat.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CG](../../cpp_src/cg/cg.html), a C++ library which implements a simple
+[CG](../../master/cg/cg.md), a C++ library which implements a simple
 version of the conjugate gradient (CG) method for solving a system of
 linear equations of the form A\*x=b, suitable for situations in which
 the matrix A is positive definite (only real, positive eigenvalues) and
 symmetric.
 
-[CONDITION](../../cpp_src/condition/condition.html), a C++ library which
+[CONDITION](../../master/condition/condition.md), a C++ library which
 implements methods of computing or estimating the condition number of a
 matrix.
 
-[EISPACK](../../cpp_src/eispack/eispack.html), a C++ library which
+[EISPACK](../../master/eispack/eispack.md), a C++ library which
 carries out eigenvalue computations. It includes a function to compute
 the singular value decomposition (SVD) of a rectangular matrix.
 superseded by LAPACK;
 
-[JACOBI\_EIGENVALUE](../../cpp_src/jacobi_eigenvalue/jacobi_eigenvalue.html),
+[JACOBI\_EIGENVALUE](../../master/jacobi_eigenvalue/jacobi_eigenvalue.md),
 a C++ library which implements the Jacobi iteration for the iterative
 determination of the eigenvalues and eigenvectors of a real symmetric
 matrix.
 
-[LINPACK\_D](../../cpp_src/linpack_d/linpack_d.html), a C++ library
+[LINPACK\_D](../../master/linpack_d/linpack_d.md), a C++ library
 which solves linear systems using double precision real arithmetic;
 
-[TEST\_MATRIX\_EXPONENTIAL](../../cpp_src/test_matrix_exponential/test_matrix_exponential.html),
+[TEST\_MATRIX\_EXPONENTIAL](../../master/test_matrix_exponential/test_matrix_exponential.md),
 a C++ library which defines a set of test cases for computing the matrix
 exponential.
 
-[WATHEN](../../cpp_src/wathen/wathen.html), a C++ library which compares
+[WATHEN](../../master/wathen/wathen.md), a C++ library which compares
 storage schemes (full, banded, sparse triplet) and solution strategies
 (Linpack full, Linpack banded, conjugate gradient (CG)) for linear
 systems involving the Wathen matrix, which can arise when solving a
@@ -1109,7 +1109,7 @@ problem using the finite element method (FEM).
 -   **ZERO\_RIGHT** returns the right eigenvectors of the ZERO matrix.
 -   **ZIELKE** returns the ZIELKE matrix.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

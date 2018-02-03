@@ -57,26 +57,26 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOEPLITZ\_CHOLESKY** is available in [a C
-version](../../c_src/toeplitz_cholesky/toeplitz_cholesky.html) and [a
-C++ version](../../cpp_src/toeplitz_cholesky/toeplitz_cholesky.html) and
+version](../../c_src/toeplitz_cholesky/toeplitz_cholesky.md) and [a
+C++ version](../../master/toeplitz_cholesky/toeplitz_cholesky.md) and
 [a FORTRAN77
-version](../../f77_src/toeplitz_cholesky/toeplitz_cholesky.html) and [a
-FORTRAN90 version](../../f_src/toeplitz_cholesky/toeplitz_cholesky.html)
+version](../../f77_src/toeplitz_cholesky/toeplitz_cholesky.md) and [a
+FORTRAN90 version](../../f_src/toeplitz_cholesky/toeplitz_cholesky.md)
 and [a MATLAB
-version](../../m_src/toeplitz_cholesky/toeplitz_cholesky.html).
+version](../../m_src/toeplitz_cholesky/toeplitz_cholesky.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA006](../../c_src/asa006/asa006.html), a C library which computes the
+[ASA006](../../c_src/asa006/asa006.md), a C library which computes the
 Cholesky factorization of a symmetric positive definite matrix, by
 Michael Healy. This is a MATLAB version of Applied Statistics Algorithm
 6;
 
-[LINPACK\_D](../../c_src/linpack_d/linpack_d.html), a C library which
+[LINPACK\_D](../../c_src/linpack_d/linpack_d.md), a C library which
 factors and solves linear systems using double precision real
 arithmetic, by Jack Dongarra, Jim Bunch, Cleve Moler, Pete Stewart.
 
-[LINPLUS](../../c_src/linplus/linplus.html), a C library which carries
+[LINPLUS](../../c_src/linplus/linplus.md), a C library which carries
 out simple manipulations of matrices in a variety of formats, including
 matrices stored in banded, border-banded, circulant, lower triangular,
 pentadiagonal, sparse, symmetric, toeplitz, tridiagonal, upper
@@ -118,7 +118,7 @@ triangular and vandermonde formats.
 -   **TOEPLITZ\_CHOLESKY\_UPPER:** upper Cholesky factor of a Toeplitz
     matrix.
 
-You can go up one level to [the C source codes](../c_src.html).
+You can go up one level to [the C source codes](../c_src.md).
 
 ------------------------------------------------------------------------
 

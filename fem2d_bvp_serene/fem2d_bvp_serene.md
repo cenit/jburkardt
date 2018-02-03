@@ -31,28 +31,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_BVP\_SERENE** is available in [a C
-version](../../c_src/fem2d_bvp_serene/fem2d_bvp_serene.html) and [a C++
-version](../../cpp_src/fem2d_bvp_serene/fem2d_bvp_serene.html) and [a
-FORTRAN77 version](../../f77_src/fem2d_bvp_serene/fem2d_bvp_serene.html)
+version](../../c_src/fem2d_bvp_serene/fem2d_bvp_serene.md) and [a C++
+version](../../master/fem2d_bvp_serene/fem2d_bvp_serene.md) and [a
+FORTRAN77 version](../../f77_src/fem2d_bvp_serene/fem2d_bvp_serene.md)
 and [a FORTRAN90
-version](../../f_src/fem2d_bvp_serene/fem2d_bvp_serene.html) and [a
-MATLAB version](../../m_src/fem2d_bvp_serene/fem2d_bvp_serene.html).
+version](../../f_src/fem2d_bvp_serene/fem2d_bvp_serene.md) and [a
+MATLAB version](../../m_src/fem2d_bvp_serene/fem2d_bvp_serene.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D\_BVP\_LINEAR](../../cpp_src/fem2d_bvp_linear/fem2d_bvp_linear.html),
+[FEM2D\_BVP\_LINEAR](../../master/fem2d_bvp_linear/fem2d_bvp_linear.md),
 a C++ program which applies the finite element method (FEM), with
 piecewise linear elements, to a 2D boundary value problem (BVP) over a
 rectangle, and compares the computed and exact solutions with the L2 and
 seminorm errors.
 
-[FEM2D\_BVP\_QUADRATIC](../../cpp_src/fem2d_bvp_quadratic/fem2d_bvp_quadratic.html),
+[FEM2D\_BVP\_QUADRATIC](../../master/fem2d_bvp_quadratic/fem2d_bvp_quadratic.md),
 a C++ program which applies the finite element method (FEM), with
 piecewise quadratic elements, to a 2D boundary value problem (BVP) over
 a rectangle, and compares the computed and exact solutions with the L2
 and seminorm errors.
 
-[WATHEN](../../cpp_src/wathen/wathen.html), a C++ library which compares
+[WATHEN](../../master/wathen/wathen.md), a C++ library which compares
 storage schemes (full, banded, sparse triplet, sparse) and solution
 strategies (A\\x, Linpack, conjugate gradient (CG)) for linear systems
 involving the Wathen matrix, which can arise when solving a problem
@@ -95,7 +95,7 @@ using the finite element method (FEM).
 -   **R8MAT\_SOLVE2** computes the solution of an N by N linear system.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

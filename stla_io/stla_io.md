@@ -17,22 +17,22 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **STLA\_IO** is available in [a C++
-version](../../cpp_src/stla_io/stla_io.html) and [a FORTRAN90
-version](../../f_src/stla_io/stla_io.html) and [a MATLAB
-version](../../m_src/stla_io/stla_io.html).
+version](../../master/stla_io/stla_io.md) and [a FORTRAN90
+version](../../f_src/stla_io/stla_io.md) and [a MATLAB
+version](../../m_src/stla_io/stla_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[IVCON](../../cpp_src/ivcon/ivcon.html), a C++ program which can convert
+[IVCON](../../master/ivcon/ivcon.md), a C++ program which can convert
 graphics information between STLA and other formats.
 
-[IVREAD](../../f_src/ivread/ivread.html), a FORTRAN90 program which can
+[IVREAD](../../f_src/ivread/ivread.md), a FORTRAN90 program which can
 convert graphics information between STLA and other formats.
 
-[STLA](../../data/stla/stla.html), a data directory which contains some
+[STLA](../../data/stla/stla.md), a data directory which contains some
 examples of STLA files.
 
-[STLA\_DISPLAY](../../m_src/stla_display/stla_display.html), a MATLAB
+[STLA\_DISPLAY](../../m_src/stla_display/stla_display.md), a MATLAB
 program which can read an STLA file and display it on the screen.
 
 ### Reference: {#reference align="center"}
@@ -89,7 +89,7 @@ program which can read an STLA file and display it on the screen.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **WORD\_NEXT\_READ** "reads" words from a string, one at a time.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

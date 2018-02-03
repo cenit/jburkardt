@@ -29,99 +29,99 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SQUARE\_INTEGRALS** is available in [a C
-version](../../c_src/square_integrals/square_integrals.html) and [a C++
-version](../../cpp_src/square_integrals/square_integrals.html) and [a
-FORTRAN77 version](../../f77_src/square_integrals/square_integrals.html)
+version](../../c_src/square_integrals/square_integrals.md) and [a C++
+version](../../master/square_integrals/square_integrals.md) and [a
+FORTRAN77 version](../../f77_src/square_integrals/square_integrals.md)
 and [a FORTRAN90
-version](../../f_src/square_integrals/square_integrals.html) and [a
-MATLAB version](../../m_src/square_integrals/square_integrals.html) and
-[a Python version](../../py_src/square_integrals/square_integrals.html).
+version](../../f_src/square_integrals/square_integrals.md) and [a
+MATLAB version](../../m_src/square_integrals/square_integrals.md) and
+[a Python version](../../py_src/square_integrals/square_integrals.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BALL\_INTEGRALS](../../cpp_src/ball_integrals/ball_integrals.html), a
+[BALL\_INTEGRALS](../../master/ball_integrals/ball_integrals.md), a
 C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit ball in 3D.
 
-[CIRCLE\_INTEGRALS](../../cpp_src/circle_integrals/circle_integrals.html),
+[CIRCLE\_INTEGRALS](../../master/circle_integrals/circle_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the circumference of the unit circle in 2D.
 
-[CUBE\_INTEGRALS](../../cpp_src/cube_integrals/cube_integrals.html), a
+[CUBE\_INTEGRALS](../../master/cube_integrals/cube_integrals.md), a
 C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit cube in 3D.
 
-[DISK\_INTEGRALS](../../cpp_src/disk_integrals/disk_integrals.html), a
+[DISK\_INTEGRALS](../../master/disk_integrals/disk_integrals.md), a
 C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit disk in 2D.
 
-[HYPERBALL\_INTEGRALS](../../cpp_src/hyperball_integrals/hyperball_integrals.html),
+[HYPERBALL\_INTEGRALS](../../master/hyperball_integrals/hyperball_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit hyperball in M dimensions.
 
-[HYPERCUBE\_INTEGRALS](../../cpp_src/hypercube_integrals/hypercube_integrals.html),
+[HYPERCUBE\_INTEGRALS](../../master/hypercube_integrals/hypercube_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit hypercube in M dimensions.
 
-[HYPERSPHERE\_INTEGRALS](../../cpp_src/hypersphere_integrals/hypersphere_integrals.html),
+[HYPERSPHERE\_INTEGRALS](../../master/hypersphere_integrals/hypersphere_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the surface of the unit hypersphere in M dimensions.
 
-[LINE\_INTEGRALS](../../cpp_src/line_integrals/line_integrals.html), a
+[LINE\_INTEGRALS](../../master/line_integrals/line_integrals.md), a
 C++ library which returns the exact value of the integral of any
 monomial over the length of the unit line in 1D.
 
-[POLYGON\_INTEGRALS](../../cpp_src/polygon_integrals/polygon_integrals.html),
+[POLYGON\_INTEGRALS](../../master/polygon_integrals/polygon_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of a polygon in 2D.
 
-[PYRAMID\_INTEGRALS](../../cpp_src/pyramid_integrals/pyramid_integrals.html),
+[PYRAMID\_INTEGRALS](../../master/pyramid_integrals/pyramid_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit pyramid in 3D.
 
-[SIMPLEX\_INTEGRALS](../../cpp_src/simplex_integrals/simplex_integrals.html),
+[SIMPLEX\_INTEGRALS](../../master/simplex_integrals/simplex_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit simplex in M dimensions.
 
-[SPHERE\_INTEGRALS](../../cpp_src/sphere_integrals/sphere_integrals.html),
+[SPHERE\_INTEGRALS](../../master/sphere_integrals/sphere_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the surface of the unit sphere in 3D.
 
-[SQUARE\_ARBQ\_RULE](../../cpp_src/square_arbq_rule/square_arbq_rule.html),
+[SQUARE\_ARBQ\_RULE](../../master/square_arbq_rule/square_arbq_rule.md),
 a C++ library which returns quadrature rules, with exactness up to total
 degree 20, over the interior of the symmetric square in 2D, by Hong Xiao
 and Zydrunas Gimbutas.
 
-[SQUARE\_FELIPPA\_RULE](../../cpp_src/square_felippa_rule/square_felippa_rule.html),
+[SQUARE\_FELIPPA\_RULE](../../master/square_felippa_rule/square_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a square in 2D.
 
-[SQUARE\_GRID](../../cpp_src/square_grid/square_grid.html), a C++
+[SQUARE\_GRID](../../master/square_grid/square_grid.md), a C++
 library which computes a grid of points over the interior of a square in
 2D.
 
-[SQUARE\_HEX\_GRID](../../cpp_src/square_hex_grid/square_hex_grid.html),
+[SQUARE\_HEX\_GRID](../../master/square_hex_grid/square_hex_grid.md),
 a C++ library which computes a hexagonal grid of points over the
 interior of a square in 2D.
 
-[SQUARE\_MONTE\_CARLO](../../cpp_src/square_monte_carlo/square_monte_carlo.html),
+[SQUARE\_MONTE\_CARLO](../../master/square_monte_carlo/square_monte_carlo.md),
 a C++ library which uses the Monte Carlo method to estimate the integral
 of a function over the interior of the unit square in 2D.
 
-[SQUARE\_SYMQ\_RULE](../../cpp_src/square_symq_rule/square_symq_rule.html),
+[SQUARE\_SYMQ\_RULE](../../master/square_symq_rule/square_symq_rule.md),
 a C++ library which returns symmetric quadrature rules, with exactness
 up to total degree 20, over the interior of the symmetric square in 2D,
 by Hong Xiao and Zydrunas Gimbutas.
 
-[TETRAHEDRON\_INTEGRALS](../../cpp_src/tetrahedron_integrals/tetrahedron_integrals.html),
+[TETRAHEDRON\_INTEGRALS](../../master/tetrahedron_integrals/tetrahedron_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit tetrahedron in 3D.
 
-[TRIANGLE\_INTEGRALS](../../cpp_src/triangle_integrals/triangle_integrals.html),
+[TRIANGLE\_INTEGRALS](../../master/triangle_integrals/triangle_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit triangle in 2D.
 
-[WEDGE\_INTEGRALS](../../cpp_src/wedge_integrals/wedge_integrals.html),
+[WEDGE\_INTEGRALS](../../master/wedge_integrals/wedge_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit wedge in 3D.
 
@@ -148,7 +148,7 @@ monomial over the interior of the unit wedge in 3D.
 -   **SQUARE01\_SAMPLE** samples the interior of the unit square in 2D.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

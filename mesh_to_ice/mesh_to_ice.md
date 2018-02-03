@@ -26,27 +26,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MESH\_TO\_ICE** is available in [a C
-version](../../c_src/mesh_to_ice/mesh_to_ice.html) and [a C++
-version](../../cpp_src/mesh_to_ice/mesh_to_ice.html) and [a FORTRAN77
-version](../../f77_src/mesh_to_ice/mesh_to_ice.html) and [a FORTRAN90
-version](../../f_src/mesh_to_ice/mesh_to_ice.html) and [a MATLAB
-version.](../../m_src/mesh_to_ice/mesh_to_ice.html)
+version](../../c_src/mesh_to_ice/mesh_to_ice.md) and [a C++
+version](../../master/mesh_to_ice/mesh_to_ice.md) and [a FORTRAN77
+version](../../f77_src/mesh_to_ice/mesh_to_ice.md) and [a FORTRAN90
+version](../../f_src/mesh_to_ice/mesh_to_ice.md) and [a MATLAB
+version.](../../m_src/mesh_to_ice/mesh_to_ice.md)
 
 ### Related Programs: {#related-programs align="center"}
 
-[ICE\_IO](../../cpp_src/ice_io/ice_io.html), a C++ library which reads
+[ICE\_IO](../../master/ice_io/ice_io.md), a C++ library which reads
 or writes ICE datasets, using the NETCDF format.
 
-[ICE\_TO\_MESH](../../cpp_src/ice_to_mesh/ice_to_mesh.html), a C++
+[ICE\_TO\_MESH](../../master/ice_to_mesh/ice_to_mesh.md), a C++
 program which reads a NETCDF file containing an ICE dataset and rewrites
 the information as a MESH file.
 
-[MESH](../../data/mesh/mesh.html), a data directory which contains
+[MESH](../../data/mesh/mesh.md), a data directory which contains
 examples of MESH files, which can be used to define the geometry of a
 finite element mesh in 2D or 3D, using triangles, quadrilaterals,
 tetrahedrons or hexahedrons.
 
-[MESH\_IO](../../cpp_src/mesh_io/mesh_io.html), a C++ library which can
+[MESH\_IO](../../master/mesh_io/mesh_io.md), a C++ library which can
 read or write MESH files, which can be used to define the geometry of a
 finite element mesh in 2D or 3D, using triangles, quadrilaterals,
 tetrahedrons or hexahedrons.
@@ -112,7 +112,7 @@ triangles, 150,779 tetrahedrons, 50 corners, 1905 edges and 1905 ridges.
 -   **S\_TO\_R8VEC** reads an R8VEC from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

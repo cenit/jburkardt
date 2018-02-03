@@ -105,56 +105,56 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HAMMERSLEY\_ADVANCED** is available in [a C++
-version](../../cpp_src/hammersley_advanced/hammersley_advanced.html) and
+version](../../master/hammersley_advanced/hammersley_advanced.md) and
 [a FORTRAN90
-version](../../f_src/hammersley_advanced/hammersley_advanced.html) and
+version](../../f_src/hammersley_advanced/hammersley_advanced.md) and
 [a MATLAB
-version](../../m_src/hammersley_advanced/hammersley_advanced.html).
+version](../../m_src/hammersley_advanced/hammersley_advanced.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BOX\_BEHNKEN](../../cpp_src/box_behnken/box_behnken.html), a C++
+[BOX\_BEHNKEN](../../master/box_behnken/box_behnken.md), a C++
 library which computes a Box-Behnken design, that is, a set of arguments
 to sample the behavior of a function of multiple parameters;
 
-[CVT](../../cpp_src/cvt/cvt.html), a C++ library which computes points
+[CVT](../../master/cvt/cvt.md), a C++ library which computes points
 in a Centroidal Voronoi Tessellation.
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 Faure sequences.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 Halton sequences.
 
-[HAMMERSLEY\_DATASET](../../cpp_src/hammersley_dataset/hammersley_dataset.html),
+[HAMMERSLEY\_DATASET](../../master/hammersley_dataset/hammersley_dataset.md),
 a C++ program which computes Hammersley datasets.
 
-[HEX\_GRID](../../cpp_src/hex_grid/hex_grid.html), a C++ library which
+[HEX\_GRID](../../master/hex_grid/hex_grid.md), a C++ library which
 computes sets of points in a 2D hexagonal grid.
 
-[IHS](../../cpp_src/ihs/ihs.html), a C++ library which computes improved
+[IHS](../../master/ihs/ihs.md), a C++ library which computes improved
 Latin Hypercube datasets.
 
-[LATIN\_CENTER](../../cpp_src/latin_center/latin_center.html), a C++
+[LATIN\_CENTER](../../master/latin_center/latin_center.md), a C++
 library which computes Latin square data choosing the center value.
 
-[LATIN\_EDGE](../../cpp_src/latin_edge/latin_edge.html), a C++ library
+[LATIN\_EDGE](../../master/latin_edge/latin_edge.md), a C++ library
 which computes Latin square data choosing the edge value.
 
-[LATIN\_RANDOM](../../cpp_src/latin_random/latin_random.html), a C++
+[LATIN\_RANDOM](../../master/latin_random/latin_random.md), a C++
 library which computes Latin square data choosing a random value in the
 square.
 
-[NIEDERREITER2](../../cpp_src/niederreiter2/niederreiter2.html), a C++
+[NIEDERREITER2](../../master/niederreiter2/niederreiter2.md), a C++
 library which computes Niederreiter sequences with base 2.
 
-[SOBOL](../../cpp_src/sobol/sobol.html), a C++ library which computes
+[SOBOL](../../master/sobol/sobol.md), a C++ library which computes
 Sobol sequences.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes uniform random values.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes van der Corput sequences.
 
 ### Reference: {#reference align="center"}
@@ -253,7 +253,7 @@ C++ library which computes van der Corput sequences.
 -   **U3\_TO\_BALL\_UNIT\_3D** maps points from the unit box to the unit
     ball in 3D.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

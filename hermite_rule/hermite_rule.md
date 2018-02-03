@@ -57,90 +57,90 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HERMITE\_RULE** is available in [a C
-version](../../c_src/hermite_rule/hermite_rule.html) and [a C++
-version](../../cpp_src/hermite_rule/hermite_rule.html) and [a FORTRAN77
-version](../../f77_src/hermite_rule/hermite_rule.html) and [a FORTRAN90
-version](../../f_src/hermite_rule/hermite_rule.html) and [a MATLAB
-version.](../../m_src/hermite_rule/hermite_rule.html)
+version](../../c_src/hermite_rule/hermite_rule.md) and [a C++
+version](../../master/hermite_rule/hermite_rule.md) and [a FORTRAN77
+version](../../f77_src/hermite_rule/hermite_rule.md) and [a FORTRAN90
+version](../../f_src/hermite_rule/hermite_rule.md) and [a MATLAB
+version.](../../m_src/hermite_rule/hermite_rule.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CCN\_RULE](../../cpp_src/ccn_rule/ccn_rule.html), a C++ program which
+[CCN\_RULE](../../master/ccn_rule/ccn_rule.md), a C++ program which
 defines a nested Clenshaw Curtis quadrature rule.
 
-[CHEBYSHEV\_POLYNOMIAL](../../cpp_src/chebyshev_polynomial/chebyshev_polynomial.html),
+[CHEBYSHEV\_POLYNOMIAL](../../master/chebyshev_polynomial/chebyshev_polynomial.md),
 a C++ library which evaluates the Chebyshev polynomial and associated
 functions.
 
-[CHEBYSHEV1\_RULE](../../cpp_src/chebyshev1_rule/chebyshev1_rule.html),
+[CHEBYSHEV1\_RULE](../../master/chebyshev1_rule/chebyshev1_rule.md),
 a C++ program which can compute and print a Gauss-Chebyshev type 1
 quadrature rule.
 
-[CHEBYSHEV2\_RULE](../../cpp_src/chebyshev2_rule/chebyshev2_rule.html),
+[CHEBYSHEV2\_RULE](../../master/chebyshev2_rule/chebyshev2_rule.md),
 a C++ program which can compute and print a Gauss-Chebyshev type 2
 quadrature rule.
 
-[CLENSHAW\_CURTIS\_RULE](../../cpp_src/clenshaw_curtis_rule/clenshaw_curtis_rule.html),
+[CLENSHAW\_CURTIS\_RULE](../../master/clenshaw_curtis_rule/clenshaw_curtis_rule.md),
 a C++ program which defines a Clenshaw Curtis quadrature rule.
 
-[GEGENBAUER\_RULE](../../cpp_src/gegenbauer_rule/gegenbauer_rule.html),
+[GEGENBAUER\_RULE](../../master/gegenbauer_rule/gegenbauer_rule.md),
 a C++ program which can compute and print a Gauss-Gegenbauer quadrature
 rule.
 
-[GEN\_HERMITE\_RULE](../../cpp_src/gen_hermite_rule/gen_hermite_rule.html),
+[GEN\_HERMITE\_RULE](../../master/gen_hermite_rule/gen_hermite_rule.md),
 a C++ program which can compute and print a generalized Gauss-Hermite
 quadrature rule.
 
-[GEN\_LAGUERRE\_RULE](../../cpp_src/gen_laguerre_rule/gen_laguerre_rule.html),
+[GEN\_LAGUERRE\_RULE](../../master/gen_laguerre_rule/gen_laguerre_rule.md),
 a C++ program which can compute and print a generalized Gauss-Laguerre
 quadrature rule.
 
-[HERMITE\_EXACTNESS](../../cpp_src/hermite_exactness/hermite_exactness.html),
+[HERMITE\_EXACTNESS](../../master/hermite_exactness/hermite_exactness.md),
 a C++ program which tests the polynomial exactness of Gauss-Hermite
 quadrature rules for estimating the integral of a function with density
 exp(-x\^2) over the interval (-oo,+oo).
 
-[HERMITE\_TEST\_INT](../../cpp_src/hermite_test_int/hermite_test_int.html),
+[HERMITE\_TEST\_INT](../../master/hermite_test_int/hermite_test_int.md),
 a C++ library which defines test integrands for Hermite integrals with
 interval (-oo,+oo) and density exp(-x\^2).
 
-[JACOBI\_RULE](../../cpp_src/jacobi_rule/jacobi_rule.html), a C++
+[JACOBI\_RULE](../../master/jacobi_rule/jacobi_rule.md), a C++
 program which can compute and print a Gauss-Jacobi quadrature rule.
 
-[LAGUERRE\_RULE](../../cpp_src/laguerre_rule/laguerre_rule.html), a C++
+[LAGUERRE\_RULE](../../master/laguerre_rule/laguerre_rule.md), a C++
 program which can compute and print a Gauss-Laguerre quadrature rule.
 
-[LATTICE\_RULE](../../cpp_src/lattice_rule/lattice_rule.html), a C++
+[LATTICE\_RULE](../../master/lattice_rule/lattice_rule.md), a C++
 library which approximates M-dimensional integrals using lattice rules.
 
-[LEGENDRE\_RULE](../../cpp_src/legendre_rule/legendre_rule.html), a C++
+[LEGENDRE\_RULE](../../master/legendre_rule/legendre_rule.md), a C++
 program which computes a Gauss-Legendre quadrature rule.
 
-[LINE\_FELIPPA\_RULE](../../cpp_src/line_felippa_rule/line_felippa_rule.html),
+[LINE\_FELIPPA\_RULE](../../master/line_felippa_rule/line_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a line segment in 1D.
 
-[PATTERSON\_RULE](../../cpp_src/patterson_rule/patterson_rule.html), a
+[PATTERSON\_RULE](../../master/patterson_rule/patterson_rule.md), a
 C++ program which computes a Gauss-Patterson quadrature rule.
 
-[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.html),
+[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.md),
 a dataset directory which contains sets of files that define quadrature
 rules over various 1D intervals or multidimensional hypercubes.
 
-[QUADRATURE\_RULES\_HERMITE\_PHYSICIST](../../datasets/quadrature_rules_hermite_physicist/quadrature_rules_hermite_physicist.html),
+[QUADRATURE\_RULES\_HERMITE\_PHYSICIST](../../datasets/quadrature_rules_hermite_physicist/quadrature_rules_hermite_physicist.md),
 a dataset directory which contains Gauss-Hermite quadrature rules, for
 integration on the interval (-oo,+oo), with weight function exp(-x\^2).
 
-[QUADRATURE\_RULES\_HERMITE\_PROBABILIST](../../datasets/quadrature_rules_hermite_probabilist/quadrature_rules_hermite_probabilist.html),
+[QUADRATURE\_RULES\_HERMITE\_PROBABILIST](../../datasets/quadrature_rules_hermite_probabilist/quadrature_rules_hermite_probabilist.md),
 a dataset directory which contains Gauss-Hermite quadrature rules, for
 integration on the interval (-oo,+oo), with weight function
 exp(-x\^2/2).
 
-[QUADRATURE\_RULES\_HERMITE\_UNWEIGHTED](../../datasets/quadrature_rules_hermite_unweighted/quadrature_rules_hermite_unweighted.html),
+[QUADRATURE\_RULES\_HERMITE\_UNWEIGHTED](../../datasets/quadrature_rules_hermite_unweighted/quadrature_rules_hermite_unweighted.md),
 a dataset directory which contains Gauss-Hermite quadrature rules, for
 integration on the interval (-oo,+oo), with weight function 1.
 
-[TRUNCATED\_NORMAL\_RULE](../../cpp_src/truncated_normal_rule/truncated_normal_rule.html),
+[TRUNCATED\_NORMAL\_RULE](../../master/truncated_normal_rule/truncated_normal_rule.md),
 a C++ program which computes a quadrature rule for a normal probability
 density function (PDF), also called a Gaussian distribution, that has
 been truncated to \[A,+oo), (-oo,B\] or \[A,B\].
@@ -211,7 +211,7 @@ HERM\_O4 is a Hermite rule of order 4, created by the command
 -   **SGQF** computes knots and weights of a Gauss Quadrature formula.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

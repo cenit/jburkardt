@@ -74,28 +74,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **STOCHASTIC\_HEAT2D** is available in [a C
-version](../../c_src/stochastic_heat2d/stochastic_heat2d.html) and [a
-C++ version](../../cpp_src/stochastic_heat2d/stochastic_heat2d.html) and
+version](../../c_src/stochastic_heat2d/stochastic_heat2d.md) and [a
+C++ version](../../master/stochastic_heat2d/stochastic_heat2d.md) and
 [a FORTRAN77
-version](../../f77_src/stochastic_heat2d/stochastic_heat2d.html) and [a
-FORTRAN90 version](../../f_src/stochastic_heat2d/stochastic_heat2d.html)
+version](../../f77_src/stochastic_heat2d/stochastic_heat2d.md) and [a
+FORTRAN90 version](../../f_src/stochastic_heat2d/stochastic_heat2d.md)
 and [a MATLAB
-version](../../m_src/stochastic_heat2d/stochastic_heat2d.html).
+version](../../m_src/stochastic_heat2d/stochastic_heat2d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM1D\_HEAT\_STEADY](../../cpp_src/fem1d_heat_steady/fem1d_heat_steady.html),
+[FEM1D\_HEAT\_STEADY](../../master/fem1d_heat_steady/fem1d_heat_steady.md),
 a C++ program which uses the finite element method to solve the 1D Time
 Independent Heat Equations.
 
-[FEM2D\_HEAT](../../cpp_src/fem2d_heat/fem2d_heat.html), a C++ program
+[FEM2D\_HEAT](../../master/fem2d_heat/fem2d_heat.md), a C++ program
 which solves the 2D time dependent heat equation on the unit square.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[HEATED\_PLATE](../../cpp_src/heated_plate/heated_plate.html), a C++
+[HEATED\_PLATE](../../master/heated_plate/heated_plate.md), a C++
 program which solves the steady state heat equation in a 2D rectangular
 region, and is intended as a starting point for a parallel version.
 
@@ -148,7 +148,7 @@ region, and is intended as a starting point for a parallel version.
 -   **STOCHASTIC\_HEAT2D** solves the steady 2D heat equation.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

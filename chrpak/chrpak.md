@@ -39,21 +39,21 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CAESAR](../../cpp_src/caesar/caesar.html), a C++ library which can
+[CAESAR](../../master/caesar/caesar.md), a C++ library which can
 apply a Caesar Shift Cipher to a string of text.
 
-[ROT13](../../cpp_src/rot13/rot13.html), a C++ library which can
+[ROT13](../../master/rot13/rot13.md), a C++ library which can
 encipher a string using the ROT13 cipher for letters, and the ROT5
 cipher for digits.
 
 ### Languages: {#languages align="center"}
 
-**CHRPAK** is available in [a C version](../../c_src/chrpak/chrpak.html)
-and [a C++ version](../../cpp_src/chrpak/chrpak.html) and [a FORTRAN77
-version](../../f77_src/chrpak/chrpak.html) and [a FORTRAN90
-version](../../f_src/chrpak/chrpak.html) and [a MATLAB
-version](../../m_src/chrpak/chrpak.html) and [a Python
-version](../../py_src/chrpak/chrpak.html).
+**CHRPAK** is available in [a C version](../../c_src/chrpak/chrpak.md)
+and [a C++ version](../../master/chrpak/chrpak.md) and [a FORTRAN77
+version](../../f77_src/chrpak/chrpak.md) and [a FORTRAN90
+version](../../f_src/chrpak/chrpak.md) and [a MATLAB
+version](../../m_src/chrpak/chrpak.md) and [a Python
+version](../../py_src/chrpak/chrpak.md).
 
 ### Source Code: {#source-code align="center"}
 
@@ -233,7 +233,7 @@ version](../../py_src/chrpak/chrpak.html).
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **WORD\_NEXT\_READ** "reads" words from a string, one at a time.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

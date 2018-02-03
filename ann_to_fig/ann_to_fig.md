@@ -51,18 +51,18 @@ format file *file.fig*.
 ### Languages: {#languages align="center"}
 
 **ANN\_TO\_FIG** is available in [a C++
-version](../../cpp_src/ann_to_fig/ann_to_fig.html).
+version](../../master/ann_to_fig/ann_to_fig.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ANN](../../cpp_src/ann/ann.html), a C++ library which rapidly
+[ANN](../../master/ann/ann.md), a C++ library which rapidly
 approximates the nearest neighbor of a point.
 
-[ANN\_TEST](../../cpp_src/ann_test/ann_test.html), a C++ program which
+[ANN\_TEST](../../master/ann_test/ann_test.md), a C++ program which
 uses the ANN library, and carries out approximate nearest neighbor
 computations.
 
-[FIG](../../data/fig/fig.html), a data directory which contains examples
+[FIG](../../data/fig/fig.md), a data directory which contains examples
 and a description of the FIG format.
 
 ### Author: {#author align="center"}
@@ -102,7 +102,7 @@ David Mount, Sunil Arya.
                     fig2dev -L png test3.fig > test3.png
                   
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

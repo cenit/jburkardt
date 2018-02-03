@@ -30,48 +30,48 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM\_TO\_GMSH** is available in [a C
-version](../../c_src/fem_to_gmsh/fem_to_gmsh.html) and [a C++
-version](../../cpp_src/fem_to_gmsh/fem_to_gmsh.html) and [a FORTRAN77
-version](../../f77_src/fem_to_gmsh/fem_to_gmsh.html) and [a FORTRAN90
-version](../../f_src/fem_to_gmsh/fem_to_gmsh.html) and [a MATLAB
-version](../../m_src/fem_to_gmsh/fem_to_gmsh.html).
+version](../../c_src/fem_to_gmsh/fem_to_gmsh.md) and [a C++
+version](../../master/fem_to_gmsh/fem_to_gmsh.md) and [a FORTRAN77
+version](../../f77_src/fem_to_gmsh/fem_to_gmsh.md) and [a FORTRAN90
+version](../../f_src/fem_to_gmsh/fem_to_gmsh.md) and [a MATLAB
+version](../../m_src/fem_to_gmsh/fem_to_gmsh.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DOLFIN-CONVERT](../../py_src/dolfin-convert/dolfin-convert.html), a
+[DOLFIN-CONVERT](../../py_src/dolfin-convert/dolfin-convert.md), a
 Python program which can convert mesh file from Gmsh, MEDIT, METIS or
 SCOTCH format to an XML format suitable for use by DOLFIN or FENICS, by
 Anders Logg.
 
-[FEM\_TO\_MEDIT](../../cpp_src/fem_to_medit/fem_to_medit.html), a C++
+[FEM\_TO\_MEDIT](../../master/fem_to_medit/fem_to_medit.md), a C++
 program which reads a pair of FEM files defining node coordinates and
 elements, and creates a corresponding MEDIT mesh file.
 
-[FEM\_TO\_TRIANGLE](../../cpp_src/fem_to_triangle/fem_to_triangle.html),
+[FEM\_TO\_TRIANGLE](../../master/fem_to_triangle/fem_to_triangle.md),
 a C++ program which reads FEM files defining a 2D mesh of triangles,
 namely a file of node coordinates and a file of elements defined by node
 indices, and creates a corresponding pair of node and element files for
 use by Jonathan Shewchuk's triangle program.
 
-[FEM\_TO\_XML](../../cpp_src/fem_to_xml/fem_to_xml.html), a C++ program
+[FEM\_TO\_XML](../../master/fem_to_xml/fem_to_xml.md), a C++ program
 which reads FEM files defining a 1D, 2D or 3D mesh, namely a file of
 node coordinates and a file of elements defined by node indices, and
 creates a corresponding XML file for input to DOLFIN or FENICS.
 
-[GMSH](../../examples/gmsh/gmsh.html), examples which illustrate the use
+[GMSH](../../examples/gmsh/gmsh.md), examples which illustrate the use
 of the Gmsh program, a 3D mesh generator for the finite element method
 (FEM).
 
-[GMSH\_IO](../../cpp_src/gmsh_io/gmsh_io.html), a C++ library which can
+[GMSH\_IO](../../master/gmsh_io/gmsh_io.md), a C++ library which can
 read or write some of the files created by the Gmsh program for 1D, 2D
 or 3D meshes used by the finite element method (FEM).
 
-[GMSH\_TO\_FEM](../../cpp_src/gmsh_to_fem/gmsh_to_fem.html), a C++
+[GMSH\_TO\_FEM](../../master/gmsh_to_fem/gmsh_to_fem.md), a C++
 program which reads a mesh data file created by the GMSH program and
 writes a pair of node and element files that correspond to the FEM
 format.
 
-[MSH](../../data/msh/msh.html), a data directory of examples of MSH
+[MSH](../../data/msh/msh.md), a data directory of examples of MSH
 files, the native 3D mesh format used by Gmsh.
 
 ### Reference: {#reference align="center"}
@@ -145,7 +145,7 @@ converted into a Gmsh msh file describing the same triangulation.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

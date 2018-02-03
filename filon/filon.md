@@ -14,15 +14,15 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**FILON** is available in [a C version](../../c_src/filon/filon.html)
-and [a C++ version](../../cpp_src/filon/filon.html) and [a FORTRAN77
-version](../../f77_src/filon/filon.html) and [a FORTRAN90
-version](../../f_src/filon/filon.html) and [a MATLAB
-version](../../m_src/filon/filon.html).
+**FILON** is available in [a C version](../../c_src/filon/filon.md)
+and [a C++ version](../../master/filon/filon.md) and [a FORTRAN77
+version](../../f77_src/filon/filon.md) and [a FORTRAN90
+version](../../f_src/filon/filon.md) and [a MATLAB
+version](../../m_src/filon/filon.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for 1D domains.
 
 ### Reference: {#reference align="center"}
@@ -62,7 +62,7 @@ defines quadrature rules for 1D domains.
     factor.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -23,34 +23,34 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages {#languages align="center"}
 
 **LATINIZE** is available in [a C
-version](../../c_src/latinize/latinize.html) and [a C++
-version](../../cpp_src/latinize/latinize.html) and [a FORTRAN77
-version](../../f77_src/latinize/latinize.html) and [a FORTRAN90
-version](../../f_src/latinize/latinize.html) and [a MATLAB
-version](../../m_src/latinize/latinize.html).
+version](../../c_src/latinize/latinize.md) and [a C++
+version](../../master/latinize/latinize.md) and [a FORTRAN77
+version](../../f77_src/latinize/latinize.md) and [a FORTRAN90
+version](../../f_src/latinize/latinize.md) and [a MATLAB
+version](../../m_src/latinize/latinize.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BOX\_BEHNKEN](../../cpp_src/box_behnken/box_behnken.html), a C++
+[BOX\_BEHNKEN](../../master/box_behnken/box_behnken.md), a C++
 library which computes a Box-Behnken design, that is, a set of arguments
 to sample the behavior of a function of multiple parameters;
 
-[LATIN\_CENTER](../../cpp_src/latin_center/latin_center.html), a C++
+[LATIN\_CENTER](../../master/latin_center/latin_center.md), a C++
 library which computes Latin Square datasets by choosing the center of
 each square.
 
-[LATIN\_EDGE](../../cpp_src/latin_edge/latin_edge.html), a C++ library
+[LATIN\_EDGE](../../master/latin_edge/latin_edge.md), a C++ library
 which computes Latin Square datasets by choosing the edge of each
 square.
 
-[LATIN\_RANDOM](../../cpp_src/latin_random/latin_random.html), a C++
+[LATIN\_RANDOM](../../master/latin_random/latin_random.md), a C++
 library which computes Latin Square datasets by choosing a random point
 of each square.
 
-[TABLE](../../data/table/table.html), a data format which is used to
+[TABLE](../../data/table/table.md), a data format which is used to
 store the input and output files used by the program.
 
-[TABLE\_LATINIZE](../../cpp_src/table_latinize/table_latinize.html), a
+[TABLE\_LATINIZE](../../master/table_latinize/table_latinize.md), a
 C++ program which allows the name of the data file to be specified on
 the command line.
 
@@ -82,11 +82,11 @@ the command line.
 -   [cvt\_02\_00010.txt](cvt_02_00010.txt), the original set of 10
     points in 2D.
 -   [cvt\_02\_00010.png](cvt_02_00010.png), a
-    [PNG](../../data/png/png.html) image of the points.
+    [PNG](../../data/png/png.md) image of the points.
 -   [cvt\_02\_00010.latin.txt](cvt_02_00010.latin.txt), the latinized
     version of the dataset.
 -   [cvt\_02\_00010.latin.png](cvt_02_00010.latin.png), a
-    [PNG](../../data/png/png.html) image of the latinized points.
+    [PNG](../../data/png/png.md) image of the latinized points.
 
 **CVT\_03\_00007** is a set of 7 CVT points in 3D:
 
@@ -136,7 +136,7 @@ the command line.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -22,23 +22,23 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PPMB\_TO\_BMP** is available in [a C++
-version](../../cpp_src/ppmb_to_bmp/ppmb_to_bmp.html).
+version](../../master/ppmb_to_bmp/ppmb_to_bmp.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BMP](../../data/bmp/bmp.html), a data directory which contains a
+[BMP](../../data/bmp/bmp.md), a data directory which contains a
 description and examples of BMP files.
 
-[BMP\_TO\_PPMB](../../cpp_src/bmp_to_ppmb/bmp_to_ppmb.html), a C++
+[BMP\_TO\_PPMB](../../master/bmp_to_ppmb/bmp_to_ppmb.md), a C++
 program which converts BMP files to PPMB files.
 
-[BMP\_IO](../../cpp_src/bmp_io/bmp_io.html), a C++ library which
+[BMP\_IO](../../master/bmp_io/bmp_io.md), a C++ library which
 contains many routines required by **PPMA\_TO\_BMP**.
 
-[PPMB](../../data/ppmb/ppmb.html), a data directory which contains a
+[PPMB](../../data/ppmb/ppmb.md), a data directory which contains a
 description and examples of PPMB files.
 
-[PPMB\_IO](../../cpp_src/ppmb_io/ppmb_io.html), a C++ library which
+[PPMB\_IO](../../master/ppmb_io/ppmb_io.md), a C++ library which
 contains many routines required by **PPMB\_TO\_BMP**.
 
 ### Reference: {#reference align="center"}
@@ -62,7 +62,7 @@ contains many routines required by **PPMB\_TO\_BMP**.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **UCMAT\_VERT\_FLIP** swaps rows of a UCMAT, to flip it vertically.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

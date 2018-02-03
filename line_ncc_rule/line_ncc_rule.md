@@ -17,48 +17,48 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LINE\_NCC\_RULE** is available in [a C
-version](../../c_src/line_ncc_rule/line_ncc_rule.html) and [a C++
-version](../../cpp_src/line_ncc_rule/line_ncc_rule.html) and [a
-FORTRAN77 version](../../f77_src/line_ncc_rule/line_ncc_rule.html) and
-[a FORTRAN90 version](../../f_src/line_ncc_rule/line_ncc_rule.html) and
-[a MATLAB version](../../m_src/line_ncc_rule/line_ncc_rule.html).
+version](../../c_src/line_ncc_rule/line_ncc_rule.md) and [a C++
+version](../../master/line_ncc_rule/line_ncc_rule.md) and [a
+FORTRAN77 version](../../f77_src/line_ncc_rule/line_ncc_rule.md) and
+[a FORTRAN90 version](../../f_src/line_ncc_rule/line_ncc_rule.md) and
+[a MATLAB version](../../m_src/line_ncc_rule/line_ncc_rule.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINE\_FEKETE\_RULE](../../cpp_src/line_fekete_rule/line_fekete_rule.html),
+[LINE\_FEKETE\_RULE](../../master/line_fekete_rule/line_fekete_rule.md),
 a C++ library which approximates the location of Fekete points in an
 interval \[A,B\]. A family of sets of Fekete points, indexed by size N,
 represents an excellent choice for defining a polynomial interpolant.
 
-[LINE\_FELIPPA\_RULE](../../cpp_src/line_felippa_rule/line_felippa_rule.html),
+[LINE\_FELIPPA\_RULE](../../master/line_felippa_rule/line_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a line segment in 1D.
 
-[LINE\_GRID](../../cpp_src/line_grid/line_grid.html), a C++ library
+[LINE\_GRID](../../master/line_grid/line_grid.md), a C++ library
 which computes a grid of points over the interior of a line segment in
 1D.
 
-[LINE\_INTEGRALS](../../cpp_src/line_integrals/line_integrals.html), a
+[LINE\_INTEGRALS](../../master/line_integrals/line_integrals.md), a
 C++ library which returns the exact value of the integral of any
 monomial over the length of the unit line in 1D.
 
-[LINE\_MONTE\_CARLO](../../cpp_src/line_monte_carlo/line_monte_carlo.html),
+[LINE\_MONTE\_CARLO](../../master/line_monte_carlo/line_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the length of the unit line in 1D;
 
-[LINE\_NCO\_RULE](../../cpp_src/line_nco_rule/line_nco_rule.html), a C++
+[LINE\_NCO\_RULE](../../master/line_nco_rule/line_nco_rule.md), a C++
 library which defines a Newton Cotes Open (NCO) rule using equally
 spaced points over the interior of a line segment in 1D.
 
-[TRIANGLE\_FEKETE\_RULE](../../cpp_src/triangle_fekete_rule/triangle_fekete_rule.html),
+[TRIANGLE\_FEKETE\_RULE](../../master/triangle_fekete_rule/triangle_fekete_rule.md),
 a C++ library which defines Fekete rules for interpolation or quadrature
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_FELIPPA\_RULE](../../cpp_src/triangle_felippa_rule/triangle_felippa_rule.html),
+[TRIANGLE\_FELIPPA\_RULE](../../master/triangle_felippa_rule/triangle_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a triangle in 2D.
 
-[WEDGE\_FELIPPA\_RULE](../../cpp_src/wedge_felippa_rule/wedge_felippa_rule.html),
+[WEDGE\_FELIPPA\_RULE](../../master/wedge_felippa_rule/wedge_felippa_rule.md),
 a C++ library which returns quadratures rules for approximating
 integrals over the interior of the unit wedge in 3D.
 
@@ -90,7 +90,7 @@ integrals over the interior of the unit wedge in 3D.
 -   **R8VEC\_LINSPACE** creates a vector of linearly spaced values.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

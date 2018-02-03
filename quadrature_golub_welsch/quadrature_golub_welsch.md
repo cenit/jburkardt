@@ -17,34 +17,34 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUADRATURE\_GOLUB\_WELSCH** is available in [a C
-version](../../c_src/quadrature_golub_welsch/quadrature_golub_welsch.html)
+version](../../c_src/quadrature_golub_welsch/quadrature_golub_welsch.md)
 and [a C++
-version](../../cpp_src/quadrature_golub_welsch/quadrature_golub_welsch.html)
+version](../../master/quadrature_golub_welsch/quadrature_golub_welsch.md)
 and [a FORTRAN77
-version](../../f77_src/quadrature_golub_welsch/quadrature_golub_welsch.html)
+version](../../f77_src/quadrature_golub_welsch/quadrature_golub_welsch.md)
 and [a FORTRAN90
-version](../../f_src/quadrature_golub_welsch/quadrature_golub_welsch.html)
+version](../../f_src/quadrature_golub_welsch/quadrature_golub_welsch.md)
 and [a MATLAB
-version](../../m_src/quadrature_golub_welsch/quadrature_golub_welsch.html).
+version](../../m_src/quadrature_golub_welsch/quadrature_golub_welsch.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CLENSHAW\_CURTIS\_RULE](../../cpp_src/clenshaw_curtis_rule/clenshaw_curtis_rule.html),
+[CLENSHAW\_CURTIS\_RULE](../../master/clenshaw_curtis_rule/clenshaw_curtis_rule.md),
 a C++ program which defines a Clenshaw Curtis quadrature rule.
 
-[QUADRATURE\_LEAST\_SQUARES](../../cpp_src/quadrature_least_squares/quadrature_least_squares.html),
+[QUADRATURE\_LEAST\_SQUARES](../../master/quadrature_least_squares/quadrature_least_squares.md),
 a C++ library which computes weights for "sub-interpolatory" quadrature
 rules, that is, it estimates integrals by integrating a polynomial that
 approximates the function data in a least squares sense.
 
-[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../cpp_src/quadrature_weights_vandermonde/quadrature_weights_vandermonde.html),
+[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../master/quadrature_weights_vandermonde/quadrature_weights_vandermonde.md),
 a C++ library which determines the weights of a quadrature rule using
 the Vandermonde matrix.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for 1-dimensional domains.
 
-[TOMS655](../../cpp_src/toms655/toms655.html), a C++ library which
+[TOMS655](../../master/toms655/toms655.md), a C++ library which
 computes the weights for interpolatory quadrature rule;\
 this library is commonly called **IQPACK**;\
 this is a C version of ACM TOMS algorithm 655.
@@ -87,7 +87,7 @@ this is a C version of ACM TOMS algorithm 655.
 -   **SGQF** computes knots and weights of a Gauss Quadrature formula.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

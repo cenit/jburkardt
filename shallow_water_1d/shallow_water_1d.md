@@ -16,28 +16,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SHALLOW\_WATER\_1D** is available in [a C
-version](../../c_src/shallow_water_1d/shallow_water_1d.html) and [a C++
-version](../../cpp_src/shallow_water_1d/shallow_water_1d.html) and [a
-FORTRAN90 version](../../f_src/shallow_water_1d/shallow_water_1d.html)
+version](../../c_src/shallow_water_1d/shallow_water_1d.md) and [a C++
+version](../../master/shallow_water_1d/shallow_water_1d.md) and [a
+FORTRAN90 version](../../f_src/shallow_water_1d/shallow_water_1d.md)
 and [a MATLAB
-version](../../m_src/shallow_water_1d/shallow_water_1d.html) and [a
-Python version](../../py_src/shallow_water_1d/shallow_water_1d.html).
+version](../../m_src/shallow_water_1d/shallow_water_1d.md) and [a
+Python version](../../py_src/shallow_water_1d/shallow_water_1d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[SHALLOW\_WATER\_1D\_DISPLAY](../../m_src/shallow_water_1d_display/shallow_water_1d_display.html),
+[SHALLOW\_WATER\_1D\_DISPLAY](../../m_src/shallow_water_1d_display/shallow_water_1d_display.md),
 a MATLAB program which can display a solution of the shallow water
 equations in 1D, generally as computed by the program
 shallow\_water\_1d.
 
-[SHALLOW\_WATER\_2D](../../m_src/shallow_water_2d/shallow_water_2d.html),
+[SHALLOW\_WATER\_2D](../../m_src/shallow_water_2d/shallow_water_2d.md),
 a MATLAB program which solves the 2D shallow water equations.
 
 ### Reference: {#reference align="center"}
 
 1.  Cleve Moler,\
     Experiments with MATLAB,\
-    <http://www.mathworks.com/moler/exm/index.html>
+    <http://www.mathworks.com/moler/exm/index.md>
 
 ### Source Code: {#source-code align="center"}
 
@@ -64,7 +64,7 @@ The program was run with the default settings.
 -   **R8VEC\_WRITE** writes an R8VEC file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

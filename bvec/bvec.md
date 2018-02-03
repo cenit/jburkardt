@@ -14,16 +14,16 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**BVEC** is available in [a C version](../../c_src/bvec/bvec.html) and
-[a C++ version](../../cpp_src/bvec/bvec.html) and [a FORTRAN77
-version](../../f77_src/bvec/bvec.html) and [a FORTRAN90
-version](../../f_src/bvec/bvec.html) and [a MATLAB
-version](../../m_src/bvec/bvec.html) and [a Python
-version](../../py_src/bvec/bvec.html).
+**BVEC** is available in [a C version](../../c_src/bvec/bvec.md) and
+[a C++ version](../../master/bvec/bvec.md) and [a FORTRAN77
+version](../../f77_src/bvec/bvec.md) and [a FORTRAN90
+version](../../f_src/bvec/bvec.md) and [a MATLAB
+version](../../m_src/bvec/bvec.md) and [a Python
+version](../../py_src/bvec/bvec.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[UBVEC](../../cpp_src/ubvec/ubvec.html), a C++ library which
+[UBVEC](../../master/ubvec/ubvec.md), a C++ library which
 demonstrates how unsigned binary vectors, strings of 0's and 1's, can
 represent nonnegative integers or subsets or other mathematical objects,
 for which various arithmetic and logical operations can be defined.
@@ -60,7 +60,7 @@ for which various arithmetic and logical operations can be defined.
 -   **I4\_UNIFORM\_AB** returns a scaled pseudorandom I4.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

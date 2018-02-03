@@ -26,7 +26,7 @@ int main ( )
 //
 //  Location:
 //
-//    http://people.sc.fsu.edu/~jburkardt/cpp_src/navier_stokes_3d_exact/ns3de_prb.cpp
+//    http://people.sc.fsu.edu/~jburkardt/master/navier_stokes_3d_exact/ns3de_prb.cpp
 //
 //  Licensing:
 //

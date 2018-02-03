@@ -31,15 +31,15 @@ distance.
 
 ### Languages: {#languages align="center"}
 
-**ANN** is available in [a C++ version](../../cpp_src/ann/ann.html).
+**ANN** is available in [a C++ version](../../master/ann/ann.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ANN\_TEST](../../cpp_src/ann_test/ann_test.html), a C++ program which
+[ANN\_TEST](../../master/ann_test/ann_test.md), a C++ program which
 can be used with the ANN library to perform approximate nearest neighbor
 calculations.
 
-[ANN\_TO\_FIG](../../cpp_src/ann_to_fig/ann_to_fig.html), a C++ program
+[ANN\_TO\_FIG](../../master/ann_to_fig/ann_to_fig.md), a C++ program
 which can convert the record of a search carried out by ANN\_TEST into a
 graphical image in the FIG format.
 
@@ -108,7 +108,7 @@ graphical image in the FIG format.
 -   [query.pts](query.pts), a query file which can be used by the sample
     application.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

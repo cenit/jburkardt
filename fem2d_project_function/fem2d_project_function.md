@@ -44,53 +44,53 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_PROJECT\_FUNCTION** is available in [a C++
-version](../../cpp_src/fem2d_project_function/fem2d_project_function.html)
+version](../../master/fem2d_project_function/fem2d_project_function.md)
 and [a FORTRAN90
-version](../../f_src/fem2d_project_function/fem2d_project_function.html)
+version](../../f_src/fem2d_project_function/fem2d_project_function.md)
 and [a MATLAB
-version](../../m_src/fem2d_project_function/fem2d_project_function.html).
+version](../../m_src/fem2d_project_function/fem2d_project_function.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM1D\_PROJECT](../../cpp_src/fem1d_project/fem1d_project.html), a C++
+[FEM1D\_PROJECT](../../master/fem1d_project/fem1d_project.md), a C++
 program which projects data into a finite element space, including the
 least squares approximation of data, or the projection of a finite
 element solution from one mesh to another.
 
-[FEM2D](../../data/fem2d/fem2d.html), a data directory which contains
+[FEM2D](../../data/fem2d/fem2d.md), a data directory which contains
 examples of 2D FEM files, three text files that describe a 2D finite
 element geometry;
 
-[FEM2D\_HEAT](../../cpp_src/fem2d_heat/fem2d_heat.html), a C++ program
+[FEM2D\_HEAT](../../master/fem2d_heat/fem2d_heat.md), a C++ program
 which solves the time dependent heat equation in the unit square.
 
-[FEM2D\_PACK](../../cpp_src/fem2d_pack/fem2d_pack.html), a C++ library
+[FEM2D\_PACK](../../master/fem2d_pack/fem2d_pack.md), a C++ library
 which includes utitlies for 2D finite element calculations.
 
-[FEM2D\_POISSON](../../cpp_src/fem2d_poisson/fem2d_poisson.html), a C++
+[FEM2D\_POISSON](../../master/fem2d_poisson/fem2d_poisson.md), a C++
 program which solves the 2D Poisson equation on a rectangle, using the
 finite element method, and piecewise quadratic triangular elements.
 
-[FEM2D\_PROJECT](../../cpp_src/fem2d_project/fem2d_project.html), a C++
+[FEM2D\_PROJECT](../../master/fem2d_project/fem2d_project.md), a C++
 program which projects a function F(X,Y), given as a data, into a given
 finite element space of piecewise linear triangular elements.
 
-[FEM2D\_SAMPLE](../../cpp_src/fem2d_sample/fem2d_sample.html), a C++
+[FEM2D\_SAMPLE](../../master/fem2d_sample/fem2d_sample.md), a C++
 library which evaluates a finite element function defined on an order 3
 or order 6 triangulation.
 
-[HOT\_PIPE](../../m_src/hot_pipe/hot_pipe.html), a MATLAB program which
+[HOT\_PIPE](../../m_src/hot_pipe/hot_pipe.md), a MATLAB program which
 uses FEM\_50\_HEAT to solve the heat equation for a pipe model.
 
-[HOT\_POINT](../../m_src/hot_point/hot_point.html), a MATLAB program
+[HOT\_POINT](../../m_src/hot_point/hot_point.md), a MATLAB program
 which uses **FEM\_50\_HEAT** to solve the heat equation for a 2D region
 with a hot point.
 
-[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.html),
+[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.md),
 a data directory which contains a description and examples of how an
 order 3 (linear) triangulation is defined by a node and element file.
 
-[TRIANGULATION\_ORDER3\_CONTOUR](../../m_src/triangulation_order3_contour/triangulation_order3_contour.html),
+[TRIANGULATION\_ORDER3\_CONTOUR](../../m_src/triangulation_order3_contour/triangulation_order3_contour.md),
 a MATLAB program which makes contour plot of data defined on an order 3
 triangulation.
 
@@ -130,7 +130,7 @@ triangulation.
 -   **EXACT** calculates the exact solution.
 -   **R8GE\_FS** factors and solves a R8GE system.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

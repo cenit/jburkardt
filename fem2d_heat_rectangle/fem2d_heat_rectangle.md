@@ -76,15 +76,15 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_HEAT\_RECTANGLE** is available in [a C++
-version](../../cpp_src/fem2d_heat_rectangle/fem2d_heat_rectangle.html)
+version](../../master/fem2d_heat_rectangle/fem2d_heat_rectangle.md)
 and [a FORTRAN90
-version](../../f_src/fem2d_heat_rectangle/fem2d_heat_rectangle.html) and
+version](../../f_src/fem2d_heat_rectangle/fem2d_heat_rectangle.md) and
 [a MATLAB
-version](../../m_src/fem2d_heat_rectangle/fem2d_heat_rectangle.html).
+version](../../m_src/fem2d_heat_rectangle/fem2d_heat_rectangle.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D\_HEAT](../../cpp_src/fem2d_heat/fem2d_heat.html), a C++ program
+[FEM2D\_HEAT](../../master/fem2d_heat/fem2d_heat.md), a C++ program
 which solves the time dependent heat equation on an arbitrary
 triangulated region in 2D.
 
@@ -230,7 +230,7 @@ the sequence of solutions:
     pointset.
 -   **XY\_SET** sets the XY coordinates of the nodes.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

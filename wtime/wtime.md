@@ -47,19 +47,19 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**WTIME** is available in [a C version](../../c_src/wtime/wtime.html)
-and [a C++ version](../../cpp_src/wtime/wtime.html) and [a FORTRAN77
-version](../../f77_src/wtime/wtime.html) and [a FORTRAN90
-version](../../f_src/wtime/wtime.html) and [a MATLAB
-version](../../m_src/wtime/wtime.html) and [a PYTHON
-version](../../py_src/wtime/wtime.html).
+**WTIME** is available in [a C version](../../c_src/wtime/wtime.md)
+and [a C++ version](../../master/wtime/wtime.md) and [a FORTRAN77
+version](../../f77_src/wtime/wtime.md) and [a FORTRAN90
+version](../../f_src/wtime/wtime.md) and [a MATLAB
+version](../../m_src/wtime/wtime.md) and [a PYTHON
+version](../../py_src/wtime/wtime.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TIMER](../../cpp_src/timer/timer.html), a C++ program which shows how
+[TIMER](../../master/timer/timer.md), a C++ program which shows how
 to compute the elapsed CPU time inside a program.
 
-[TIMESTAMP](../../cpp_src/timestamp/timestamp.html), a C++ library which
+[TIMESTAMP](../../master/timestamp/timestamp.md), a C++ library which
 displays the current wall clock time.
 
 ### Source Code: {#source-code align="center"}
@@ -76,7 +76,7 @@ displays the current wall clock time.
 
 -   **WTIME** returns a reading of the wall clock time.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

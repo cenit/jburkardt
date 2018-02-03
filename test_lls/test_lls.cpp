@@ -590,7 +590,7 @@ double *p02_a ( int m, int n )
 //    SIAM, 2004,
 //    ISBN13: 978-0-898716-60-3,
 //    LC: QA297.M625,
-//    ebook: http://www.mathworks.com/moler/chapters.html
+//    ebook: http://www.mathworks.com/moler/chapters.md
 //
 //  Parameters:
 //
@@ -784,7 +784,7 @@ double *p03_a ( int m, int n )
 //    SIAM, 2004,
 //    ISBN13: 978-0-898716-60-3,
 //    LC: QA297.M625,
-//    ebook: http://www.mathworks.com/moler/chapters.html
+//    ebook: http://www.mathworks.com/moler/chapters.md
 //
 //  Parameters:
 //

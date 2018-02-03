@@ -13,7 +13,7 @@ on these regions as well.
 The original, true, correct version of ACM TOMS Algorithm 886 is
 available through ACM:
 [http://www.acm.org/pubs/calgo](http://www.acm.org/pubs/calgo/) or
-NETLIB: <http://www.netlib.org/toms/index.html>.
+NETLIB: <http://www.netlib.org/toms/index.md>.
 
 ### Licensing: {#licensing align="center"}
 
@@ -23,44 +23,44 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS886** is available in [a C
-version](../../c_src/toms886/toms886.html) and [a C++
-version](../../cpp_src/toms886/toms886.html) and [a FORTRAN77
-version](../../f77_src/toms886/toms886.html) and [a FORTRAN90
-version](../../f_src/toms886/toms886.html) and [a MATLAB
-version](../../m_src/toms886/toms886.html).
+version](../../c_src/toms886/toms886.md) and [a C++
+version](../../master/toms886/toms886.md) and [a FORTRAN77
+version](../../f77_src/toms886/toms886.md) and [a FORTRAN90
+version](../../f_src/toms886/toms886.md) and [a MATLAB
+version](../../m_src/toms886/toms886.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LAGRANGE\_INTERP\_2D](../../cpp_src/lagrange_interp_2d/lagrange_interp_2d.html),
+[LAGRANGE\_INTERP\_2D](../../master/lagrange_interp_2d/lagrange_interp_2d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x,y)
 which interpolates a set of data depending on a 2D argument that was
 evaluated on a product grid, so that p(x(i),y(j)) = z(i,j).
 
-[PWL\_INTERP\_2D](../../cpp_src/pwl_interp_2d/pwl_interp_2d.html), a C++
+[PWL\_INTERP\_2D](../../master/pwl_interp_2d/pwl_interp_2d.md), a C++
 library which evaluates a piecewise linear interpolant to data defined
 on a regular 2D grid.
 
-[PWL\_INTERP\_2D\_SCATTERED](../../cpp_src/pwl_interp_2d_scattered/pwl_interp_2d_scattered.html),
+[PWL\_INTERP\_2D\_SCATTERED](../../master/pwl_interp_2d_scattered/pwl_interp_2d_scattered.md),
 a C++ library which evaluates a piecewise linear interpolant to data
 which is available at an irregularly arranged set of points.
 
-[RBF\_INTERP\_2D](../../cpp_src/rbf_interp_2d/rbf_interp_2d.html), a C++
+[RBF\_INTERP\_2D](../../master/rbf_interp_2d/rbf_interp_2d.md), a C++
 library which defines and evaluates radial basis function (RBF)
 interpolants to 2D data.
 
-[SHEPARD\_INTERP\_2D](../../cpp_src/shepard_interp_2d/shepard_interp_2d.html),
+[SHEPARD\_INTERP\_2D](../../master/shepard_interp_2d/shepard_interp_2d.md),
 a C++ library which defines and evaluates Shepard interpolants to
 scattered 2D data, based on inverse distance weighting.
 
-[TEST\_INTERP\_2D](../../cpp_src/test_interp_2d/test_interp_2d.html), a
+[TEST\_INTERP\_2D](../../master/test_interp_2d/test_interp_2d.md), a
 C++ library which defines test problems for interpolation of regular or
 scattered data z(x,y), depending on a 2D argument.
 
-[TRIANGLE\_INTERPOLATE](../../cpp_src/triangle_interpolate/triangle_interpolate.html),
+[TRIANGLE\_INTERPOLATE](../../master/triangle_interpolate/triangle_interpolate.md),
 a C++ library which shows how vertex data can be interpolated at any
 point in the interior of a triangle.
 
-[VANDERMONDE\_INTERP\_2D](../../cpp_src/vandermonde_interp_2d/vandermonde_interp_2d.html),
+[VANDERMONDE\_INTERP\_2D](../../master/vandermonde_interp_2d/vandermonde_interp_2d.md),
 a C++ library which finds a polynomial interpolant to data z(x,y) of a
 2D argument by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix.
@@ -119,7 +119,7 @@ TRIANGLE applies the procedure to a triangle.
 -   **R8VEC\_DOT\_PRODUCT** finds the dot product of a pair of R8VEC's.
 -   **TIMESTAMP** prints out the current YMDHMS date as a timestamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

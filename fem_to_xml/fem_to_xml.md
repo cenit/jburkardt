@@ -28,54 +28,54 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM\_TO\_XML** is available in [a C
-version](../../c_src/fem_to_xml/fem_to_xml.html) and [a C++
-version](../../cpp_src/fem_to_xml/fem_to_xml.html) and [a FORTRAN77
-version](../../f77_src/fem_to_xml/fem_to_xml.html) and [a FORTRAN90
-version](../../f_src/fem_to_xml/fem_to_xml.html) and [a MATLAB
-version](../../m_src/fem_to_xml/fem_to_xml.html) and [a Python
-version](../../py_src/fem_to_xml/fem_to_xml.html).
+version](../../c_src/fem_to_xml/fem_to_xml.md) and [a C++
+version](../../master/fem_to_xml/fem_to_xml.md) and [a FORTRAN77
+version](../../f77_src/fem_to_xml/fem_to_xml.md) and [a FORTRAN90
+version](../../f_src/fem_to_xml/fem_to_xml.md) and [a MATLAB
+version](../../m_src/fem_to_xml/fem_to_xml.md) and [a Python
+version](../../py_src/fem_to_xml/fem_to_xml.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DOLFIN-CONVERT](../../py_src/dolfin-convert/dolfin-convert.html), a
+[DOLFIN-CONVERT](../../py_src/dolfin-convert/dolfin-convert.md), a
 Python program which can convert mesh file from Gmsh, MEDIT, METIS or
 SCOTCH format to an XML format suitable for use by DOLFIN or FENICS, by
 Anders Logg.
 
-[FEM\_TO\_GMSH](../../cpp_src/fem_to_gmsh/fem_to_gmsh.html), a C++
+[FEM\_TO\_GMSH](../../master/fem_to_gmsh/fem_to_gmsh.md), a C++
 program which reads FEM files definining a 1D, 2D or 3D mesh, namely a
 file of node coordinates and a file of elements defined by node indices,
 and creates a Gmsh mesh file.
 
-[FEM\_TO\_MEDIT](../../cpp_src/fem_to_medit/fem_to_medit.html), a C++
+[FEM\_TO\_MEDIT](../../master/fem_to_medit/fem_to_medit.md), a C++
 program which reads a pair of FEM files defining node coordinates and
 elements, and creates a corresponding MEDIT mesh file.
 
-[FEM\_TO\_TRIANGLE](../../cpp_src/fem_to_triangle/fem_to_triangle.html),
+[FEM\_TO\_TRIANGLE](../../master/fem_to_triangle/fem_to_triangle.md),
 a C++ program which reads FEM files defining a 2D mesh of triangles,
 namely a file of node coordinates and a file of elements defined by node
 indices, and creates a corresponding pair of node and element files for
 use by Jonathan Shewchuk's triangle program.
 
-[FENICS](../../examples/fenics/fenics.html), programs which illustrate
+[FENICS](../../examples/fenics/fenics.md), programs which illustrate
 the use of a collection of free software with an extensive list of
 features for automated, efficient solution of differential equations.
 
-[MITCHELL\_FENICS](../../examples/mitchell_fenics/mitchell_fenics.html),
+[MITCHELL\_FENICS](../../examples/mitchell_fenics/mitchell_fenics.md),
 examples which illustrate the implementation of the Mitchell 2D elliptic
 partial differential equation (PDE) test problems using FENICS.
 
-[TET\_MESH](../../cpp_src/tet_mesh/tet_mesh.html), a C++ library which
+[TET\_MESH](../../master/tet_mesh/tet_mesh.md), a C++ library which
 carries out various operations on tetrahedral meshes.
 
-[TRIANGULATION](../../cpp_src/triangulation/triangulation.html), a C++
+[TRIANGULATION](../../master/triangulation/triangulation.md), a C++
 library which performs various operations on order 3 (linear) or order 6
 (quadratic) triangulations.
 
-[XML](../../data/xml/xml.html), a data directory which contains examples
+[XML](../../data/xml/xml.md), a data directory which contains examples
 of XML files, a standard, general datafile format.
 
-[XML\_TO\_FEM](../../py_src/xml_to_fem/xml_to_fem.html), a Python
+[XML\_TO\_FEM](../../py_src/xml_to_fem/xml_to_fem.md), a Python
 program which reads an XML file created by FENICS or DOLFIN, describing
 a mesh in 1D, 2D, or 3D, and creates corresponding FEM files, namely, a
 file of node coordinates, and a file of element connectivities.
@@ -169,7 +169,7 @@ and 4 columns of squares, each then split into two 3-node triangles.
 -   **XML\_WRITE** writes the triangulation data as a DOLFIN XML mesh
     file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -27,39 +27,39 @@ I don't care what you do with this code.
 ### Languages: {#languages align="center"}
 
 **SUBSET\_SUM** is available in [a C
-version](../../c_src/subset_sum/subset_sum.html) and [a C++
-version](../../cpp_src/subset_sum/subset_sum.html) and [a FORTRAN90
-version](../../f_src/subset_sum/subset_sum.html) and [a MATLAB
-version](../../m_src/subset_sum/subset_sum.html) and [a Python
-version](../../py_src/subset_sum/subset_sum.html).
+version](../../c_src/subset_sum/subset_sum.md) and [a C++
+version](../../master/subset_sum/subset_sum.md) and [a FORTRAN90
+version](../../f_src/subset_sum/subset_sum.md) and [a MATLAB
+version](../../m_src/subset_sum/subset_sum.md) and [a Python
+version](../../py_src/subset_sum/subset_sum.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CHANGE\_MAKING](../../cpp_src/change_making/change_making.html), a C++
+[CHANGE\_MAKING](../../master/change_making/change_making.md), a C++
 library which considers the change making problem, in which a given sum
 is to be formed using coins of various denominations.
 
-[COMBO](../../cpp_src/combo/combo.html), a C++ library which includes
+[COMBO](../../master/combo/combo.md), a C++ library which includes
 many combinatorial routines.
 
-[KNAPSACK\_01](../../cpp_src/knapsack_01/knapsack_01.html), a C++
+[KNAPSACK\_01](../../master/knapsack_01/knapsack_01.md), a C++
 library which uses brute force to solve small versions of the 0/1
 knapsack problem;
 
-[PARTITION\_PROBLEM](../../cpp_src/partition_problem/partition_problem.html),
+[PARTITION\_PROBLEM](../../master/partition_problem/partition_problem.md),
 a C++ library which seeks solutions of the partition problem, splitting
 a set of integers into two subsets with equal sum.
 
-[SATISFY](../../cpp_src/satisfy/satisfy.html), a C++ program which
+[SATISFY](../../master/satisfy/satisfy.md), a C++ program which
 demonstrates, for a particular circuit, an exhaustive search for
 solutions of the circuit satisfiability problem.
 
-[SUBSET\_SUM](../../datasets/subset_sum/subset_sum.html), a dataset
+[SUBSET\_SUM](../../datasets/subset_sum/subset_sum.md), a dataset
 directory which contains examples of the subset sum problem, in which a
 set of numbers is given, and is desired to find at least one subset that
 sums to a given target value.
 
-[TSP\_BRUTE](../../cpp_src/tsp_brute/tsp_brute.html), a C++ program
+[TSP\_BRUTE](../../master/tsp_brute/tsp_brute.md), a C++ program
 which reads a file of city-to-city distances and solves the traveling
 salesperson problem, using brute force.
 
@@ -118,7 +118,7 @@ salesperson problem, using brute force.
     table list.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

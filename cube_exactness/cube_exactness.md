@@ -49,46 +49,46 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CUBE\_EXACTNESS** is available in [a C
-version](../../c_src/cube_exactness/cube_exactness.html) and [a C++
-version](../../cpp_src/cube_exactness/cube_exactness.html) and [a
-FORTRAN77 version](../../f77_src/cube_exactness/cube_exactness.html) and
-[a FORTRAN90 version](../../f_src/cube_exactness/cube_exactness.html)
-and [a MATLAB version](../../m_src/cube_exactness/cube_exactness.html).
+version](../../c_src/cube_exactness/cube_exactness.md) and [a C++
+version](../../master/cube_exactness/cube_exactness.md) and [a
+FORTRAN77 version](../../f77_src/cube_exactness/cube_exactness.md) and
+[a FORTRAN90 version](../../f_src/cube_exactness/cube_exactness.md)
+and [a MATLAB version](../../m_src/cube_exactness/cube_exactness.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CUBE\_FELIPPA\_RULE](../../cpp_src/cube_felippa_rule/cube_felippa_rule.html),
+[CUBE\_FELIPPA\_RULE](../../master/cube_felippa_rule/cube_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a cube in 3D.
 
-[CUBE\_GRID](../../cpp_src/cube_grid/cube_grid.html), a C++ library
+[CUBE\_GRID](../../master/cube_grid/cube_grid.md), a C++ library
 which computes a grid of points over the interior of a cube in 3D.
 
-[HYPERCUBE\_EXACTNESS](../../cpp_src/hypercube_exactness/hypercube_exactness.html),
+[HYPERCUBE\_EXACTNESS](../../master/hypercube_exactness/hypercube_exactness.md),
 a C++ program which measures the monomial exactness of an M-dimensional
 quadrature rule over the interior of the unit hypercube in M dimensions.
 
-[PYRAMID\_EXACTNESS](../../cpp_src/pyramid_exactness/pyramid_exactness.html),
+[PYRAMID\_EXACTNESS](../../master/pyramid_exactness/pyramid_exactness.md),
 a C++ program which investigates the monomial exactness of a quadrature
 rule over the interior of a pyramid in 3D.
 
-[SPHERE\_EXACTNESS](../../cpp_src/sphere_exactness/sphere_exactness.html),
+[SPHERE\_EXACTNESS](../../master/sphere_exactness/sphere_exactness.md),
 a C++ program which tests the monomial exactness of a quadrature rule on
 the surface of the unit sphere in 3D.
 
-[SQUARE\_EXACTNESS](../../cpp_src/square_exactness/square_exactness.html),
+[SQUARE\_EXACTNESS](../../master/square_exactness/square_exactness.md),
 a C++ library which investigates the polynomial exactness of quadrature
 rules for f(x,y) over the interior of a rectangle in 2D.
 
-[TETRAHEDRON\_EXACTNESS](../../cpp_src/tetrahedron_exactness/tetrahedron_exactness.html),
+[TETRAHEDRON\_EXACTNESS](../../master/tetrahedron_exactness/tetrahedron_exactness.md),
 a C++ program which investigates the monomial exactness of a quadrature
 rule over the interior of a tetrahedron in 3D.
 
-[TRIANGLE\_EXACTNESS](../../cpp_src/triangle_exactness/triangle_exactness.html),
+[TRIANGLE\_EXACTNESS](../../master/triangle_exactness/triangle_exactness.md),
 a C++ program which investigates the monomial exactness quadrature rule
 over the interior of a triangle in 2D.
 
-[WEDGE\_EXACTNESS](../../cpp_src/wedge_exactness/wedge_exactness.html),
+[WEDGE\_EXACTNESS](../../master/wedge_exactness/wedge_exactness.md),
 a C++ program which investigates the monomial exactness of a quadrature
 rule over the interior of the unit wedge in 3D.
 
@@ -121,7 +121,7 @@ rule over the interior of the unit wedge in 3D.
     monomial.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

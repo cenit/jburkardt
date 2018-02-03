@@ -78,19 +78,19 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_POISSON\_RECTANGLE** is available in [a C
-version](../../c_src/fem2d_poisson_rectangle/fem2d_poisson_rectangle.html)
+version](../../c_src/fem2d_poisson_rectangle/fem2d_poisson_rectangle.md)
 and [a C++
-version](../../cpp_src/fem2d_poisson_rectangle/fem2d_poisson_rectangle.html)
+version](../../master/fem2d_poisson_rectangle/fem2d_poisson_rectangle.md)
 and [a FORTRAN77
-version](../../f77_src/fem2d_poisson_rectangle/fem2d_poisson_rectangle.html)
+version](../../f77_src/fem2d_poisson_rectangle/fem2d_poisson_rectangle.md)
 and [a FORTRAN90
-version](../../f_src/fem2d_poisson_rectangle/fem2d_poisson_rectangle.html)
+version](../../f_src/fem2d_poisson_rectangle/fem2d_poisson_rectangle.md)
 and [a MATLAB
-version](../../m_src/fem2d_poisson_rectangle/fem2d_poisson_rectangle.html).
+version](../../m_src/fem2d_poisson_rectangle/fem2d_poisson_rectangle.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D\_POISSON\_RECTANGLE\_LINEAR](../../cpp_src/fem2d_poisson_rectangle_linear/fem2d_poisson_rectangle_linear.html),
+[FEM2D\_POISSON\_RECTANGLE\_LINEAR](../../master/fem2d_poisson_rectangle_linear/fem2d_poisson_rectangle_linear.md),
 a C++ program which solves the 2D Poisson equation on a rectangle, using
 the finite element method, and piecewise linear triangular elements.
 
@@ -178,7 +178,7 @@ the finite element method, and piecewise linear triangular elements.
     pointset.
 -   **XY\_SET** sets the XY coordinates of the nodes.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

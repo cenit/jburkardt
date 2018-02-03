@@ -63,43 +63,43 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PIECEWISE\_LINEAR\_PRODUCT\_INTEGRAL** is available in [a C
-version](../../c_src/piecewise_linear_product_integral/piecewise_linear_product_integral.html)
+version](../../c_src/piecewise_linear_product_integral/piecewise_linear_product_integral.md)
 and [a C++
-version](../../cpp_src/piecewise_linear_product_integral/piecewise_linear_product_integral.html)
+version](../../master/piecewise_linear_product_integral/piecewise_linear_product_integral.md)
 and [a FORTRAN77
-version](../../f77_src/piecewise_linear_product_integral/piecewise_linear_product_integral.html)
+version](../../f77_src/piecewise_linear_product_integral/piecewise_linear_product_integral.md)
 and [a FORTRAN90
-version](../../f_src/piecewise_linear_product_integral/piecewise_linear_product_integral.html)
+version](../../f_src/piecewise_linear_product_integral/piecewise_linear_product_integral.md)
 and [a MATLAB
-version](../../m_src/piecewise_linear_product_integral/piecewise_linear_product_integral.html).
+version](../../m_src/piecewise_linear_product_integral/piecewise_linear_product_integral.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM](../../data/fem/fem.html), a data directory which contains a
+[FEM](../../data/fem/fem.md), a data directory which contains a
 description and examples of files that describe a finite element model.
 
-[FEM1D](../../cpp_src/fem1d/fem1d.html), a C++ program which applies the
+[FEM1D](../../master/fem1d/fem1d.md), a C++ program which applies the
 finite element method to a 1D linear two point boundary value problem.
 
-[FEM1D\_ADAPTIVE](../../cpp_src/fem1d_adaptive/fem1d_adaptive.html), a
+[FEM1D\_ADAPTIVE](../../master/fem1d_adaptive/fem1d_adaptive.md), a
 C++ program which applies the finite element method to a 1D linear two
 point boundary value problem using adaptive refinement to improve the
 solution.
 
-[FEM1D\_NONLINEAR](../../cpp_src/fem1d_nonlinear/fem1d_nonlinear.html),
+[FEM1D\_NONLINEAR](../../master/fem1d_nonlinear/fem1d_nonlinear.md),
 a C++ program which applies the finite element method to a 1D nonlinear
 two point boundary value problem.
 
-[FEM1D\_PMETHOD](../../cpp_src/fem1d_pmethod/fem1d_pmethod.html), a C++
+[FEM1D\_PMETHOD](../../master/fem1d_pmethod/fem1d_pmethod.md), a C++
 program which applies the p-method version of the finite element method
 to a linear two point boundary value problem in a 1D region.
 
-[FEM1D\_PROJECT](../../cpp_src/fem1d_project/fem1d_project.html), a C++
+[FEM1D\_PROJECT](../../master/fem1d_project/fem1d_project.md), a C++
 program which projects data into a finite element space, including the
 least squares approximation of data, or the projection of a finite
 element solution from one mesh to another.
 
-[FEM1D\_SAMPLE](../../cpp_src/fem1d_sample/fem1d_sample.html), a C++
+[FEM1D\_SAMPLE](../../master/fem1d_sample/fem1d_sample.md), a C++
 program which samples a scalar or vector finite element function of one
 variable, defined by FEM files, returning interpolated values at the
 sample points.
@@ -151,7 +151,7 @@ sample points.
     value.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

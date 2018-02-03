@@ -51,76 +51,76 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**LCVT** is available in [a C++ version](../../cpp_src/lcvt/lcvt.html)
-and [a FORTRAN90 version](../../f_src/lcvt/lcvt.html) and [a MATLAB
-version](../../m_src/lcvt/lcvt.html)
+**LCVT** is available in [a C++ version](../../master/lcvt/lcvt.md)
+and [a FORTRAN90 version](../../f_src/lcvt/lcvt.md) and [a MATLAB
+version](../../m_src/lcvt/lcvt.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BOX\_BEHNKEN](../../cpp_src/box_behnken/box_behnken.html), a C++
+[BOX\_BEHNKEN](../../master/box_behnken/box_behnken.md), a C++
 library which computes a Box-Behnken design, that is, a set of arguments
 to sample the behavior of a function of multiple parameters;
 
-[CVT](../../cpp_src/cvt/cvt.html), a C++ library which computes a
+[CVT](../../master/cvt/cvt.md), a C++ library which computes a
 Centroidal Voronoi Tessellation.
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 elements of a Faure quasirandom sequence.
 
-[GRID](../../cpp_src/grid/grid.html), a C++ library which computes
+[GRID](../../master/grid/grid.md), a C++ library which computes
 elements of a grid dataset.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton quasirandom sequence.
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley quasirandom sequence.
 
-[HEX\_GRID](../../cpp_src/hex_grid/hex_grid.html), a C++ library which
+[HEX\_GRID](../../master/hex_grid/hex_grid.md), a C++ library which
 computes elements of a hexagonal grid dataset.
 
-[HEX\_GRID\_ANGLE](../../f_src/hex_grid_angle/hex_grid_angle.html), a
+[HEX\_GRID\_ANGLE](../../f_src/hex_grid_angle/hex_grid_angle.md), a
 FORTRAN90 library which computes elements of an angled hexagonal grid
 dataset.
 
-[IHS](../../cpp_src/ihs/ihs.html), a C++ library which computes elements
+[IHS](../../master/ihs/ihs.md), a C++ library which computes elements
 of an improved distributed Latin hypercube dataset.
 
-[LATIN\_CENTER](../../cpp_src/latin_center/latin_center.html), a C++
+[LATIN\_CENTER](../../master/latin_center/latin_center.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 center points.
 
-[LATIN\_EDGE](../../cpp_src/latin_edge/latin_edge.html), a C++ library
+[LATIN\_EDGE](../../master/latin_edge/latin_edge.md), a C++ library
 which computes elements of a Latin Hypercube dataset, choosing edge
 points.
 
-[LATIN\_RANDOM](../../cpp_src/latin_random/latin_random.html), a C++
+[LATIN\_RANDOM](../../master/latin_random/latin_random.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 points at random.
 
-[LATINIZE](../../cpp_src/latinize/latinize.html), a C++ program which
+[LATINIZE](../../master/latinize/latinize.md), a C++ program which
 "latinizes" a dataset.
 
-[LCVT](../../datasets/lcvt/lcvt.html), a dataset directory which
+[LCVT](../../datasets/lcvt/lcvt.md), a dataset directory which
 contains a collection of sample LCVT datasets.
 
-[LCVT\_DATASET](../../cpp_src/lcvt_dataset/lcvt_dataset.html), a C++
+[LCVT\_DATASET](../../master/lcvt_dataset/lcvt_dataset.md), a C++
 program which creates an LCVT dataset.
 
-[NIEDERREITER2](../../cpp_src/niederreiter2/niederreiter2.html), a C++
+[NIEDERREITER2](../../master/niederreiter2/niederreiter2.md), a C++
 library which computes elements of a Niederreiter quasirandom sequence
 with base 2.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which computes
+[NORMAL](../../master/normal/normal.md), a C++ library which computes
 elements of a normal pseudorandom sequence.
 
-[SOBOL](../../cpp_src/sobol/sobol.html), a C++ library which computes
+[SOBOL](../../master/sobol/sobol.md), a C++ library which computes
 elements of a Sobol quasirandom sequence.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of a uniform pseudorandom sequence.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes elements of a van der Corput quasirandom
 sequence.
 
@@ -215,7 +215,7 @@ sequence.
 -   **TUPLE\_NEXT\_FAST** computes the next element of a tuple space,
     "fast".
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

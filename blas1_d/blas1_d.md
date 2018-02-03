@@ -29,43 +29,43 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BLAS1\_D** is available in [a C
-version](../../c_src/blas1_d/blas1_d.html) and [a C++
-version](../../cpp_src/blas1_d/blas1_d.html) and [a FORTRAN77
-version](../../f77_src/blas1_d/blas1_d.html) and [a FORTRAN90
-version](../../f_src/blas1_d/blas1_d.html) and [a MATLAB
-version](../../m_src/blas1_d/blas1_d.html) and [a Python
-version](../../py_src/blas1_d/blas1_d.html).
+version](../../c_src/blas1_d/blas1_d.md) and [a C++
+version](../../master/blas1_d/blas1_d.md) and [a FORTRAN77
+version](../../f77_src/blas1_d/blas1_d.md) and [a FORTRAN90
+version](../../f_src/blas1_d/blas1_d.md) and [a MATLAB
+version](../../m_src/blas1_d/blas1_d.md) and [a Python
+version](../../py_src/blas1_d/blas1_d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLAS0](../../cpp_src/blas0/blas0.html), a C++ library which contains
+[BLAS0](../../master/blas0/blas0.md), a C++ library which contains
 auxilliary functions for the Basic Linear Algebra Subprograms (BLAS).
 
-[BLAS1\_C](../../cpp_src/blas1_c/blas1_c.html), a C++ library which
+[BLAS1\_C](../../master/blas1_c/blas1_c.md), a C++ library which
 contains basic linear algebra routines for vector-vector operations,
 using single precision complex arithmetic.
 
-[BLAS1\_S](../../cpp_src/blas1_s/blas1_s.html), a C++ library which
+[BLAS1\_S](../../master/blas1_s/blas1_s.md), a C++ library which
 contains basic linear algebra routines for vector-vector operations,
 using single precision real arithmetic.
 
-[BLAS1\_Z](../../cpp_src/blas1_z/blas1_z.html), a C++ library which
+[BLAS1\_Z](../../master/blas1_z/blas1_z.md), a C++ library which
 contains basic linear algebra routines for vector-vector operations,
 using double precision complex arithmetic.
 
-[BLAS2](../../cpp_src/blas2/blas2.html), a C++ library which contains
+[BLAS2](../../master/blas2/blas2.md), a C++ library which contains
 basic linear algebra subprograms (BLAS) for matrix-vector operations;
 
-[BLAS3](../../cpp_src/blas3/blas3.html), a C++ library which contains
+[BLAS3](../../master/blas3/blas3.md), a C++ library which contains
 basic linear algebra subprograms (BLAS) for matrix-matrix operations;
 
-[GSL](../../cpp_src/gsl/gsl.html), C++ programs which illustrate the use
+[GSL](../../master/gsl/gsl.md), C++ programs which illustrate the use
 of the Gnu Scientific Library;
 
-[LINPACK\_C](../../cpp_src/linpack_c/linpack_c.html), a C++ library
+[LINPACK\_C](../../master/linpack_c/linpack_c.md), a C++ library
 which solves linear systems using single precision complex arithmetic;
 
-[SUPER\_BLAS](../../c_src/super_blas/super_blas.html), a C library which
+[SUPER\_BLAS](../../c_src/super_blas/super_blas.md), a C library which
 implements some of the Basic Linear Algebra Subprograms for fast
 execution.
 
@@ -115,7 +115,7 @@ Kincaid, Fred Krogh. C++ version by John Burkardt.
 -   **IDAMAX** finds the index of the double vector element of maximum
     absolute value.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

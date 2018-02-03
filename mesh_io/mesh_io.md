@@ -16,28 +16,28 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MESH\_IO** is available in [a C
-version](../../c_src/mesh_io/mesh_io.html) and [a C++
-version](../../cpp_src/mesh_io/mesh_io.html) and [a FORTRAN77
-version](../../f77_src/mesh_io/mesh_io.html) and [a FORTRAN90
-version](../../f_src/mesh_io/mesh_io.html) and [a MATLAB
-version](../../m_src/mesh_io/mesh_io.html).
+version](../../c_src/mesh_io/mesh_io.md) and [a C++
+version](../../master/mesh_io/mesh_io.md) and [a FORTRAN77
+version](../../f77_src/mesh_io/mesh_io.md) and [a FORTRAN90
+version](../../f_src/mesh_io/mesh_io.md) and [a MATLAB
+version](../../m_src/mesh_io/mesh_io.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[ICE\_TO\_MESH](../../cpp_src/ice_to_mesh/ice_to_mesh.html), a C++
+[ICE\_TO\_MESH](../../master/ice_to_mesh/ice_to_mesh.md), a C++
 program which reads a NETCDF file containing an ICE dataset and rewrites
 the information as a MESH file.
 
-[MESH](../../data/mesh/mesh.html), a data directory which contains
+[MESH](../../data/mesh/mesh.md), a data directory which contains
 examples of MESH files, which can be used to define the geometry of a
 finite element mesh in 2D or 3D, using triangles, quadrilaterals,
 tetrahedrons or hexahedrons.
 
-[MESH\_TO\_ICE](../../cpp_src/mesh_to_ice/mesh_to_ice.html), a C++
+[MESH\_TO\_ICE](../../master/mesh_to_ice/mesh_to_ice.md), a C++
 program which reads the ICE dataset information from a MESH files and
 rewrites it to a NETCDF file.
 
-[TRIANGLE\_TO\_MESH](../../cpp_src/triangle_to_mesh/triangle_to_mesh.html),
+[TRIANGLE\_TO\_MESH](../../master/triangle_to_mesh/triangle_to_mesh.md),
 a C++ program which reads the NODE and ELE files created by TRIANGLE to
 describe a triangular mesh, and writes a corresponding MESH file for
 input to MEDIT.
@@ -92,7 +92,7 @@ input to MEDIT.
 -   **S\_TO\_R8VEC** reads an R8VEC from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

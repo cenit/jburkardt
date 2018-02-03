@@ -30,33 +30,33 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGULATION\_SVG** is available in [a C
-version](../../c_src/triangulation_svg/triangulation_svg.html) and [a
-C++ version](../../cpp_src/triangulation_svg/triangulation_svg.html) and
+version](../../c_src/triangulation_svg/triangulation_svg.md) and [a
+C++ version](../../master/triangulation_svg/triangulation_svg.md) and
 [a FORTRAN77
-version](../../f77_src/triangulation_svg/triangulation_svg.html) and [a
-FORTRAN90 version](../../f_src/triangulation_svg/triangulation_svg.html)
+version](../../f77_src/triangulation_svg/triangulation_svg.md) and [a
+FORTRAN90 version](../../f_src/triangulation_svg/triangulation_svg.md)
 and [a MATLAB
-version](../../m_src/triangulation_svg/triangulation_svg.html).
+version](../../m_src/triangulation_svg/triangulation_svg.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TRIANGLE\_SVG](../../cpp_src/triangle_svg/triangle_svg.html), a C++
+[TRIANGLE\_SVG](../../master/triangle_svg/triangle_svg.md), a C++
 library which uses Scalable Vector Graphics (SVG) to plot a triangle and
 any number of points, to illustrate quadrature rules and sampling
 techniques.
 
-[TRIANGULATION](../../cpp_src/triangulation/triangulation.html), a C++
+[TRIANGULATION](../../master/triangulation/triangulation.md), a C++
 library which carries out various operations on order 3 ("linear") or
 order 6 ("quadratic") triangulations.
 
-[TRIANGULATION\_NODE\_TO\_ELEMENT](../../cpp_src/triangulation_node_to_element/triangulation_node_to_element.html),
+[TRIANGULATION\_NODE\_TO\_ELEMENT](../../master/triangulation_node_to_element/triangulation_node_to_element.md),
 a C++ program which reads files describing a set of nodes, their
 triangulation, and the value of one or more quantities at each node, and
 outputs a file that averages the quantities for each element. This
 operation in effect creates an "order1" finite element model of the
 data.
 
-[TRIANGULATION\_PLOT](../../cpp_src/triangulation_plot/triangulation_plot.html),
+[TRIANGULATION\_PLOT](../../master/triangulation_plot/triangulation_plot.md),
 a C++ program which plots the nodes and elements of a triangulation as a
 PostScript (PS) file;
 
@@ -117,7 +117,7 @@ PostScript (PS) file;
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TRIANGULATION\_PLOT** plots a triangulation in SVG format.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

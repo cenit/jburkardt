@@ -1,6 +1,6 @@
 total 82
 -rw-r--r--    1 burkardt faculty      7301 Jun  6 17:32 gmon.out
--rw-r--r--    1 burkardt faculty      3105 Jun  6 17:11 gprof.html
+-rw-r--r--    1 burkardt faculty      3105 Jun  6 17:11 gprof.md
 -rwxr--r--    1 burkardt faculty     44946 Jun  6 17:32 linpack_bench
 -rw-r--r--    1 burkardt faculty     23564 Jun  6 17:11 linpack_bench.C
 -rwxr--r--    1 burkardt faculty       687 Jun  6 17:32 linpack_bench_gprof.csh

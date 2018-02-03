@@ -14,25 +14,25 @@ Lambert's W function W(X) satisfies the equation
 
 The text of many ACM TOMS algorithms is available online through ACM:
 [http://www.acm.org/pubs/calgo](http://www.acm.org/pubs/calgo/) or
-NETLIB: <http://www.netlib.org/toms/index.html>.
+NETLIB: <http://www.netlib.org/toms/index.md>.
 
 ### Languages: {#languages align="center"}
 
 **TOMS443** is available in [a C
-version](../../c_src/toms443/toms443.html) and [a C++
-version](../../cpp_src/toms443/toms443.html) and [a FORTRAN77
-version](../../f77_src/toms443/toms443.html) and [a FORTRAN90
-version](../../f_src/toms443/toms443.html) and [a MATLAB
-version](../../m_src/toms443/toms443.html).
+version](../../c_src/toms443/toms443.md) and [a C++
+version](../../master/toms443/toms443.md) and [a FORTRAN77
+version](../../f77_src/toms443/toms443.md) and [a FORTRAN90
+version](../../f_src/toms443/toms443.md) and [a MATLAB
+version](../../m_src/toms443/toms443.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which contains routines which return sample values of various
 functions, including the modified beta function, and the logarithm of
 the gamma function.
 
-[TOMS743](../../cpp_src/toms743/toms743.html), a C++ library which
+[TOMS743](../../master/toms743/toms743.md), a C++ library which
 evaluates Lambert's W function. This is a version of ACM TOMS algorithm
 743, by Barry, Barry and Culligan-Hensley.
 
@@ -65,7 +65,7 @@ evaluates Lambert's W function. This is a version of ACM TOMS algorithm
 -   **WEW\_B** evaluates Lambert's W function using code appropriate for
     a computer with precision of about 3.0E-07.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -21,27 +21,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PPMA\_IO** is available in [a C
-version](../../c_src/ppma_io/ppma_io.html) and [a C++
-version](../../cpp_src/ppma_io/ppma_io.html) and [a FORTRAN77
-version](../../f77_src/ppma_io/ppma_io.html) and [a FORTRAN90
-version](../../f_src/ppma_io/ppma_io.html) and [a MATLAB
-version](../../m_src/ppma_io/ppma_io.html).
+version](../../c_src/ppma_io/ppma_io.md) and [a C++
+version](../../master/ppma_io/ppma_io.md) and [a FORTRAN77
+version](../../f77_src/ppma_io/ppma_io.md) and [a FORTRAN90
+version](../../f_src/ppma_io/ppma_io.md) and [a MATLAB
+version](../../m_src/ppma_io/ppma_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MANDELBROT](../../cpp_src/mandelbrot/mandelbrot.html), a C++ program
+[MANDELBROT](../../master/mandelbrot/mandelbrot.md), a C++ program
 which generates an ASCII Portable Pixel Map (PPM) image of the
 Mandelbrot fractal set;
 
-[PBMA\_IO](../../cpp_src/pbma_io/pbma_io.html), a C++ library which
+[PBMA\_IO](../../master/pbma_io/pbma_io.md), a C++ library which
 handles the Portable Bit Map format.
 
-[PGMA\_IO](../../cpp_src/pgma_io/pgma_io.html), a C++ library which
+[PGMA\_IO](../../master/pgma_io/pgma_io.md), a C++ library which
 handles the Portable Gray Map format.
 
 ### Reference: {#reference align="center"}
 
-1.  [the PPMA Data page](../../data/ppma/ppma.html).
+1.  [the PPMA Data page](../../data/ppma/ppma.md).
 2.  [the NETPBM homepage](http://netpbm.sourceforge.net/).
 
 ### Source Code: {#source-code align="center"}
@@ -83,7 +83,7 @@ handles the Portable Gray Map format.
 -   **PPMA\_WRITE\_TEST** tests the ASCII portable pixel map write
     routines.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

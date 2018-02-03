@@ -19,32 +19,32 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HYPERSPHERE\_PROPERTIES** is available in [a C
-version](../../c_src/hypersphere_properties/hypersphere_properties.html)
+version](../../c_src/hypersphere_properties/hypersphere_properties.md)
 and [a C++
-version](../../cpp_src/hypersphere_properties/hypersphere_properties.html)
+version](../../master/hypersphere_properties/hypersphere_properties.md)
 and [a FORTRAN77
-version](../../f77_src/hypersphere_properties/hypersphere_properties.html)
+version](../../f77_src/hypersphere_properties/hypersphere_properties.md)
 and [a FORTRAN90
-version](../../f_src/hypersphere_properties/hypersphere_properties.html)
+version](../../f_src/hypersphere_properties/hypersphere_properties.md)
 and [a MATLAB
-version.](../../m_src/hypersphere_properties/hypersphere_properties.html)
+version.](../../m_src/hypersphere_properties/hypersphere_properties.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GEOMETRY](../../cpp_src/geometry/geometry.html), a C++ library which
+[GEOMETRY](../../master/geometry/geometry.md), a C++ library which
 performs geometric calculations in 2, 3 and M dimensional space.
 
-[HYPERSPHERE\_MONTE\_CARLO](../../cpp_src/hypersphere_monte_carlo/hypersphere_monte_carlo.html),
+[HYPERSPHERE\_MONTE\_CARLO](../../master/hypersphere_monte_carlo/hypersphere_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function on the surface of the unit sphere in M
 dimensions;
 
-[RANDOM\_DATA](../../cpp_src/random_data/random_data.html), a C++
+[RANDOM\_DATA](../../master/random_data/random_data.md), a C++
 library which generates sample points for various probability
 distributions, spatial dimensions, and geometries, including the
 M-dimensional cube, ellipsoid, simplex and sphere.
 
-[SPHERE\_STEREOGRAPH](../../cpp_src/sphere_stereograph/sphere_stereograph.html),
+[SPHERE\_STEREOGRAPH](../../master/sphere_stereograph/sphere_stereograph.md),
 a C++ library which computes the stereographic mapping between points on
 the unit sphere and points on the plane Z = 1; a generalized mapping is
 also available
@@ -102,7 +102,7 @@ also available
     points.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

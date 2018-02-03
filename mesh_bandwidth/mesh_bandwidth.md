@@ -53,38 +53,38 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MESH\_BANDWIDTH** is available in [a C
-version](../../c_src/mesh_bandwidth/mesh_bandwidth.html) and [a C++
-version](../../cpp_src/mesh_bandwidth/mesh_bandwidth.html) and [a
-FORTRAN77 version](../../f77_src/mesh_bandwidth/mesh_bandwidth.html) and
-[a FORTRAN90 version](../../f_src/mesh_bandwidth/mesh_bandwidth.html)
-and [a MATLAB version](../../m_src/mesh_bandwidth/mesh_bandwidth.html).
+version](../../c_src/mesh_bandwidth/mesh_bandwidth.md) and [a C++
+version](../../master/mesh_bandwidth/mesh_bandwidth.md) and [a
+FORTRAN77 version](../../f77_src/mesh_bandwidth/mesh_bandwidth.md) and
+[a FORTRAN90 version](../../f_src/mesh_bandwidth/mesh_bandwidth.md)
+and [a MATLAB version](../../m_src/mesh_bandwidth/mesh_bandwidth.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TABLE\_DELAUNAY](../../cpp_src/table_delaunay/table_delaunay.html), a
+[TABLE\_DELAUNAY](../../master/table_delaunay/table_delaunay.md), a
 C++ program which triangulates a set of nodes whose coordinates are
 stored in a file.
 
-[TET\_MESH\_RCM](../../cpp_src/tet_mesh_rcm/tet_mesh_rcm.html), a C++
+[TET\_MESH\_RCM](../../master/tet_mesh_rcm/tet_mesh_rcm.md), a C++
 program which applies the reverse Cuthill-McKee reordering to a
 tetrahedral mesh of nodes in 3D.
 
-[TRIANGLE](../../c_src/triangle/triangle.html), a C program which
+[TRIANGLE](../../c_src/triangle/triangle.md), a C program which
 computes a triangulation of a geometric region.
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.html),
+[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.md),
 a directory which contains a description and examples of order 3
 triangulations.
 
-[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.html),
+[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.md),
 a directory which contains a description and examples of order 6
 triangulations.
 
-[TRIANGULATION\_PLOT](../../cpp_src/triangulation_plot/triangulation_plot.html),
+[TRIANGULATION\_PLOT](../../master/triangulation_plot/triangulation_plot.md),
 a C++ program which reads data defining a triangulation and creates a
 PostScript image of the nodes and triangles.
 
@@ -153,7 +153,7 @@ Some sample mesh files include:
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

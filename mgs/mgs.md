@@ -29,15 +29,15 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**MGS** is available in [a C version](../../c_src/mgs/mgs.html) and [a
-C++ version](../../cpp_src/mgs/mgs.html) and [a FORTRAN77
-version](../../f77_src/mgs/mgs.html) and [a FORTRAN90
-version](../../f_src/mgs/mgs.html) and [a MATLAB
-version](../../m_src/mgs/mgs.html).
+**MGS** is available in [a C version](../../c_src/mgs/mgs.md) and [a
+C++ version](../../master/mgs/mgs.md) and [a FORTRAN77
+version](../../f77_src/mgs/mgs.md) and [a FORTRAN90
+version](../../f_src/mgs/mgs.md) and [a MATLAB
+version](../../m_src/mgs/mgs.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PIG\_LATIN](../../c_src/pig_latin/pig_latin.html), a C program which
+[PIG\_LATIN](../../c_src/pig_latin/pig_latin.md), a C program which
 converts its input to Pig Latin; a winner of the International
 Obfuscated C Code Competition in the "Most Humorous" category, by Don
 Dodson.
@@ -64,7 +64,7 @@ Diane O'Leary.
 -   [mgs\_prb.cpp](mgs_prb.cpp), a set of tests for MGS.
 -   [mgs\_prb\_output.txt](mgs_prb_output.txt), the output file.
 
-You can go up one level to [the C source codes](../c_src.html).
+You can go up one level to [the C source codes](../c_src.md).
 
 ------------------------------------------------------------------------
 

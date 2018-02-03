@@ -46,70 +46,70 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SOBOL** is available in [a C++
-version](../../cpp_src/sobol/sobol.html) and [a FORTRAN90
-version](../../f_src/sobol/sobol.html) and [a MATLAB
-version](../../m_src/sobol/sobol.html) and [a Python
-version](../../py_src/sobol/sobol.html)
+version](../../master/sobol/sobol.md) and [a FORTRAN90
+version](../../f_src/sobol/sobol.md) and [a MATLAB
+version](../../m_src/sobol/sobol.md) and [a Python
+version](../../py_src/sobol/sobol.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BOX\_BEHNKEN](../../cpp_src/box_behnken/box_behnken.html), a C++
+[BOX\_BEHNKEN](../../master/box_behnken/box_behnken.md), a C++
 library which computes a Box-Behnken design, that is, a set of arguments
 to sample the behavior of a function of multiple parameters;
 
-[CVT](../../cpp_src/cvt/cvt.html), a C++ library which computes points
+[CVT](../../master/cvt/cvt.md), a C++ library which computes points
 in a Centroidal Voronoi Tessellation.
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 Faure sequences.
 
-[GRID](../../cpp_src/grid/grid.html), a C++ library which computes
+[GRID](../../master/grid/grid.md), a C++ library which computes
 points on a grid.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton Quasi Monte Carlo (QMC) sequence, using a simple
 interface.
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley Quasi Monte Carlo (QMC)
 sequence, using a simple interface.
 
-[HEX\_GRID](../../cpp_src/hex_grid/hex_grid.html), a C++ library which
+[HEX\_GRID](../../master/hex_grid/hex_grid.md), a C++ library which
 computes sets of points in a 2D hexagonal grid.
 
-[IHS](../../cpp_src/ihs/ihs.html), a C++ library which computes improved
+[IHS](../../master/ihs/ihs.md), a C++ library which computes improved
 Latin Hypercube datasets.
 
-[LATIN\_CENTER](../../cpp_src/latin_center/latin_center.html), a C++
+[LATIN\_CENTER](../../master/latin_center/latin_center.md), a C++
 library which computes Latin square data choosing the center value.
 
-[LATIN\_EDGE](../../cpp_src/latin_edge/latin_edge.html), a C++ library
+[LATIN\_EDGE](../../master/latin_edge/latin_edge.md), a C++ library
 which computes Latin square data choosing the edge value.
 
-[LATIN\_RANDOM](../../cpp_src/latin_random/latin_random.html), a C++
+[LATIN\_RANDOM](../../master/latin_random/latin_random.md), a C++
 library which computes Latin square data choosing a random value in the
 square.
 
-[NIEDERREITER2](../../cpp_src/niederreiter2/niederreiter2.html), a C++
+[NIEDERREITER2](../../master/niederreiter2/niederreiter2.md), a C++
 library which computes Niederreiter sequences with base 2.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which computes
+[NORMAL](../../master/normal/normal.md), a C++ library which computes
 elements of a sequence of pseudorandom normally distributed values.
 
-[SOBOL\_DATASET](../../cpp_src/sobol_dataset/sobol_dataset.html), a C++
+[SOBOL\_DATASET](../../master/sobol_dataset/sobol_dataset.md), a C++
 program which computes a Sobol quasirandom sequence and writes it to a
 file.
 
-[TOMS647](../../f_src/toms647/toms647.html) a FORTRAN90 library which
+[TOMS647](../../f_src/toms647/toms647.md) a FORTRAN90 library which
 evaluates Faure, Halton and Sobol sequences.
 
-[TOMS659](../../f77_src/toms659/toms659.html) a FORTRAN77 library which
+[TOMS659](../../f77_src/toms659/toms659.md) a FORTRAN77 library which
 evaluates Sobol sequences.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes uniform random values.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes a van der Corput sequences.
 
 ### Author: {#author align="center"}
@@ -210,7 +210,7 @@ Original FORTRAN77 version by Bennett Fox; C++ version by John Burkardt.
 -   **TAU\_SOBOL** defines favorable starting seeds for Sobol sequences.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

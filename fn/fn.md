@@ -25,7 +25,7 @@ arguments. For example, the sine function can be calculated by the
 functions **C4\_SIN**, **R4\_SIN** or **R8\_SIN**.
 
 The original, true, correct version of FN is available through NETLIB:
-<http://www.netlib.org/fn/index.html>.
+<http://www.netlib.org/fn/index.md>.
 
 ### Licensing: {#licensing align="center"}
 
@@ -35,58 +35,58 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**FN** is available in [a C version](../../c_src/fn/fn.html) and [a C++
-version](../../cpp_src/fn/fn.html) and [a FORTRAN77
-version](../../f77_src/fn/fn.html) and [a FORTRAN90
-version](../../f_src/fn/fn.html) and [a MATLAB
-version](../../m_src/fn/fn.html) and [a Python
-version](../../py_src/fn/fn.html).
+**FN** is available in [a C version](../../c_src/fn/fn.md) and [a C++
+version](../../master/fn/fn.md) and [a FORTRAN77
+version](../../f77_src/fn/fn.md) and [a FORTRAN90
+version](../../f_src/fn/fn.md) and [a MATLAB
+version](../../m_src/fn/fn.md) and [a Python
+version](../../py_src/fn/fn.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BESSELJ](../../cpp_src/besselj/besselj.html), a C++ library which
+[BESSELJ](../../master/besselj/besselj.md), a C++ library which
 evaluates Bessel J functions of noninteger order.
 
-[C4LIB](../../cpp_src/c4lib/c4lib.html), a C++ library which implements
+[C4LIB](../../master/c4lib/c4lib.md), a C++ library which implements
 certain elementary functions for "C4" or single precision complex
 variables using the C++ "complex " datatype.
 
-[C8LIB](../../cpp_src/c8lib/c8lib.html), a C++ library which implements
+[C8LIB](../../master/c8lib/c8lib.md), a C++ library which implements
 certain elementary functions for "C8" or double precision complex
 variables using the C++ "complex " datatype.
 
-[CHEBYSHEV\_SERIES](../../cpp_src/chebyshev_series/chebyshev_series.html),
+[CHEBYSHEV\_SERIES](../../master/chebyshev_series/chebyshev_series.md),
 a C++ library which can evaluate a Chebyshev series approximating a
 function f(x), while efficiently computing one, two or three derivatives
 of the series, which approximate f'(x), f''(x), and f'''(x).
 
-[CLAUSEN](../../cpp_src/clausen/clausen.html), a C++ library which
+[CLAUSEN](../../master/clausen/clausen.md), a C++ library which
 evaluates a Chebyshev interpolant to the Clausen function Cl2(x).
 
-[CORDIC](../../cpp_src/cordic/cordic.html), a C++ library which uses the
+[CORDIC](../../master/cordic/cordic.md), a C++ library which uses the
 CORDIC method to compute certain elementary functions.
 
-[G++\_INTRINSICS](../../cpp_src/g++_intrinsics/g++_intrinsics.html), a
+[G++\_INTRINSICS](../../master/g++_intrinsics/g++_intrinsics.md), a
 C++ program which tests or demonstrates some of the intrinsic functions
 provided by the G++ compiler.
 
-[LEGENDRE\_POLYNOMIAL](../../cpp_src/legendre_polynomial/legendre_polynomial.html),
+[LEGENDRE\_POLYNOMIAL](../../master/legendre_polynomial/legendre_polynomial.md),
 a C++ library which evaluates the Legendre polynomial and associated
 functions.
 
-[MACHAR](../../cpp_src/machar/machar.html), a C++ library which computes
+[MACHAR](../../master/machar/machar.md), a C++ library which computes
 the appropriate values of machine constants for a given machine.
 
-[MACHINE](../../cpp_src/machine/machine.html), a C++ library which
+[MACHINE](../../master/machine/machine.md), a C++ library which
 stores the appropriate values of machine constants for a given machine.
 
-[R4LIB](../../cpp_src/r4lib/r4lib.html), a C++ library which contains
+[R4LIB](../../master/r4lib/r4lib.md), a C++ library which contains
 many utility routines, using "R4" or "single precision real" arithmetic.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines, using "R8" or "double precision real" arithmetic.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which supplies test values of various mathematical functions.
 
 ### Reference: {#reference align="center"}
@@ -407,7 +407,7 @@ library which supplies test values of various mathematical functions.
 -   **R8\_TANH** evaluates the hyperbolic tangent of an R8 argument.
 -   **R8\_UPAK** unpacks an R8 into a mantissa and exponent.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

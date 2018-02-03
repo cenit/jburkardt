@@ -20,42 +20,42 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LAGRANGE\_APPROX\_1D** is available in [a C
-version](../../c_src/lagrange_approx_1d/lagrange_approx_1d.html) and [a
-C++ version](../../cpp_src/lagrange_approx_1d/lagrange_approx_1d.html)
+version](../../c_src/lagrange_approx_1d/lagrange_approx_1d.md) and [a
+C++ version](../../master/lagrange_approx_1d/lagrange_approx_1d.md)
 and [a FORTRAN77
-version](../../f77_src/lagrange_approx_1d/lagrange_approx_1d.html) and
+version](../../f77_src/lagrange_approx_1d/lagrange_approx_1d.md) and
 [a FORTRAN90
-version](../../f_src/lagrange_approx_1d/lagrange_approx_1d.html) and [a
-MATLAB version](../../m_src/lagrange_approx_1d/lagrange_approx_1d.html).
+version](../../f_src/lagrange_approx_1d/lagrange_approx_1d.md) and [a
+MATLAB version](../../m_src/lagrange_approx_1d/lagrange_approx_1d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LAGRANGE\_INTERP\_1D](../../cpp_src/lagrange_interp_1d/lagrange_interp_1d.html),
+[LAGRANGE\_INTERP\_1D](../../master/lagrange_interp_1d/lagrange_interp_1d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data, so that p(x(i)) = y(i).
 
-[PWL\_APPROX\_1D](../../cpp_src/pwl_approx_1d/pwl_approx_1d.html), a C++
+[PWL\_APPROX\_1D](../../master/pwl_approx_1d/pwl_approx_1d.md), a C++
 library which approximates a set of data using a piecewise linear
 function.
 
-[QR\_SOLVE](../../cpp_src/qr_solve/qr_solve.html), a C++ library which
+[QR\_SOLVE](../../master/qr_solve/qr_solve.md), a C++ library which
 computes the least squares solution of a linear system A\*x=b.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[SPLINE](../../cpp_src/spline/spline.html), a C++ library which
+[SPLINE](../../master/spline/spline.md), a C++ library which
 constructs and evaluates spline interpolants and approximants.
 
-[TEST\_APPROX](../../cpp_src/test_approx/test_approx.html), a C++
+[TEST\_APPROX](../../master/test_approx/test_approx.md), a C++
 library which defines test problems for approximation, provided as a set
 of (x,y) data.
 
-[TEST\_INTERP\_1D](../../cpp_src/test_interp_1d/test_interp_1d.html), a
+[TEST\_INTERP\_1D](../../master/test_interp_1d/test_interp_1d.md), a
 C++ library which defines test problems for interpolation of data y(x),
 depending on a 2D argument.
 
-[VANDERMONDE\_APPROX\_1D](../../cpp_src/vandermonde_approx_1d/vandermonde_approx_1d.html),
+[VANDERMONDE\_APPROX\_1D](../../master/vandermonde_approx_1d/vandermonde_approx_1d.md),
 a C++ library which finds a polynomial approximant to data of a 1D
 argument by setting up and solving an overdetermined linear system for
 the polynomial coefficients, involving the Vandermonde matrix.
@@ -97,7 +97,7 @@ the polynomial coefficients, involving the Vandermonde matrix.
     degree M.
 -   **LAGRANGE\_BASIS\_1D** evaluates the Lagrange basis polynomials.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -17,7 +17,7 @@ where the suggested value of the multiplier A is 5\^13 = 1220703125.
 This scheme generates 2\^44 numbers before repeating.
 
 The web site for the NAS Parallel Benchmarks is
-<http://www.nas.nasa.gov/Resources/Software/npb.html>.
+<http://www.nas.nasa.gov/Resources/Software/npb.md>.
 
 ### Licensing: {#licensing align="center"}
 
@@ -27,37 +27,37 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**RANDLC** is available in [a C version](../../c_src/randlc/randlc.html)
-and [a C++ version](../../cpp_src/randlc/randlc.html) and [a FORTRAN77
-version](../../f77_src/randlc/randlc.html) and [a FORTRAN90
-version](../../f_src/randlc/randlc.html) and [a MATLAB
-version](../../m_src/randlc/randlc.html) and [a Python
-version](../../py_src/randlc/randlc.html).
+**RANDLC** is available in [a C version](../../c_src/randlc/randlc.md)
+and [a C++ version](../../master/randlc/randlc.md) and [a FORTRAN77
+version](../../f77_src/randlc/randlc.md) and [a FORTRAN90
+version](../../f_src/randlc/randlc.md) and [a MATLAB
+version](../../m_src/randlc/randlc.md) and [a Python
+version](../../py_src/randlc/randlc.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA183](../../cpp_src/asa183/asa183.html), a C++ library which
+[ASA183](../../master/asa183/asa183.md), a C++ library which
 implements the Wichman-Hill pseudorandom number generator.
 
-[CPP\_RANDOM](../../cpp_src/cpp_random/cpp_random.html), C++ programs
+[CPP\_RANDOM](../../master/cpp_random/cpp_random.md), C++ programs
 which illustrate the use of the C++ random number generator routines.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which computes
+[NORMAL](../../master/normal/normal.md), a C++ library which computes
 a sequence of pseudorandom normally distributed values.
 
-[RANLIB](../../cpp_src/ranlib/ranlib.html), a C++ library which produces
+[RANLIB](../../master/ranlib/ranlib.md), a C++ library which produces
 random samples from Probability Density Functions (PDF's), including
 Beta, Chi-square Exponential, F, Gamma, Multivariate normal, Noncentral
 chi-square, Noncentral F, Univariate normal, random permutations, Real
 uniform, Binomial, Negative Binomial, Multinomial, Poisson and Integer
 uniform, by Barry Brown and James Lovato.
 
-[RNGLIB](../../cpp_src/rnglib/rnglib.html), a C++ library which
+[RNGLIB](../../master/rnglib/rnglib.md), a C++ library which
 implements a random number generator (RNG) with splitting facilities,
 allowing multiple independent streams to be computed, by L'Ecuyer and
 Cote.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of a pseudorandom sequence.
 
 ### Reference: {#reference align="center"}
@@ -93,7 +93,7 @@ computes elements of a pseudorandom sequence.
     sequence.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

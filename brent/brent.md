@@ -26,39 +26,39 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**BRENT** is available in [a C version](../../c_src/brent/brent.html)
-and [a C++ version](../../cpp_src/brent/brent.html) and [a FORTRAN77
-version](../../f77_src/brent/brent.html) and [a FORTRAN90
-version](../../f_src/brent/brent.html) and [a MATLAB
-version](../../m_src/brent/brent.html).
+**BRENT** is available in [a C version](../../c_src/brent/brent.md)
+and [a C++ version](../../master/brent/brent.md) and [a FORTRAN77
+version](../../f77_src/brent/brent.md) and [a FORTRAN90
+version](../../f_src/brent/brent.md) and [a MATLAB
+version](../../m_src/brent/brent.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA047](../../cpp_src/asa047/asa047.html), a C++ library which
+[ASA047](../../master/asa047/asa047.md), a C++ library which
 minimizes a scalar function of several variables using the Nelder-Mead
 algorithm.
 
-[BISECTION\_RC](../../cpp_src/bisection_rc/bisection_rc.html), a C++
+[BISECTION\_RC](../../master/bisection_rc/bisection_rc.md), a C++
 library which seeks a solution to the equation F(X)=0 using bisection
 within a user-supplied change of sign interval \[A,B\]. The procedure is
 written using reverse communication (RC).
 
-[COMPASS\_SEARCH](../../cpp_src/compass_search/compass_search.html), a
+[COMPASS\_SEARCH](../../master/compass_search/compass_search.md), a
 C++ library which seeks the minimizer of a scalar function of several
 variables using compass search, a direct search algorithm that does not
 use derivatives.
 
-[GSL](../../cpp_src/gsl/gsl.html), a C++ library which includes
+[GSL](../../master/gsl/gsl.md), a C++ library which includes
 rootfinding routines.
 
-[TEST\_ZERO](../../cpp_src/test_zero/test_zero.html), a C++ library
+[TEST\_ZERO](../../master/test_zero/test_zero.md), a C++ library
 which defines some test functions for which zeroes can be sought.
 
-[TOMS178](../../cpp_src/toms178/toms178.html), a C++ library which
+[TOMS178](../../master/toms178/toms178.md), a C++ library which
 optimizes a scalar functional of multiple variables using the
 Hooke-Jeeves method.
 
-[ZERO\_RC](../../cpp_src/zero_rc/zero_rc.html), a C++ library which
+[ZERO\_RC](../../master/zero_rc/zero_rc.md), a C++ library which
 seeks solutions of a scalar nonlinear equation f(x) = 0 using reverse
 communication (RC).
 
@@ -101,7 +101,7 @@ Burkardt; Modifications by John Denker.
 -   **ZERO\_RC** seeks the root of a function F(X) in an interval
     \[A,B\].
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

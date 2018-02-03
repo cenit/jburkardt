@@ -65,27 +65,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MPAS\_DRAW** is available in [a C++
-version](../../cpp_src/mpas_draw/mpas_draw.html).
+version](../../master/mpas_draw/mpas_draw.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[MPAS\_GRID\_DISPLAY](../../m_src/mpas_grid_display/mpas_grid_display.html),
+[MPAS\_GRID\_DISPLAY](../../m_src/mpas_grid_display/mpas_grid_display.md),
 MATLAB programs which can read an MPAS NETCDF grid file and display the
 primary polygonal mesh or the dual triangular mesh.
 
-[MPAS\_GRID\_DISPLAY\_OPENGL](../../cpp_src/mpas_grid_display_opengl/mpas_grid_display_opengl.html),
+[MPAS\_GRID\_DISPLAY\_OPENGL](../../master/mpas_grid_display_opengl/mpas_grid_display_opengl.md),
 C++ programs which can read an MPAS NETCDF grid file and display the
 primary polygonal mesh or the dual triangular mesh, using OpenGL.
 
-[NETCDF](../../data/netcdf/netcdf.html), a data directory which contains
+[NETCDF](../../data/netcdf/netcdf.md), a data directory which contains
 examples of NETCDF files, a format for the interchange of scientific
 data.
 
-[NETCDF\_MPAS](../../data/netcdf_mpas/netcdf_mpas.html), a data
+[NETCDF\_MPAS](../../data/netcdf_mpas/netcdf_mpas.md), a data
 directory which contains examples of MPAS grid data stored as NETCDF
 files.
 
-[NETCDF\_MPAS](../../cpp_src/netcdf_mpas/netcdf_mpas.html), a C++
+[NETCDF\_MPAS](../../master/netcdf_mpas/netcdf_mpas.md), a C++
 library which reads MPAS grid data stored as NETCDF files.
 
 ### Author: {#author align="center"}
@@ -135,7 +135,7 @@ Doug Jacobsen, John Burkardt, Geoff Womeldorff.
     grid file for a mesh on the sphere, using 2562 nodes, 5120 vertices,
     7680 edges. A variable mesh density was used.
 
-You can go up one level to [the MATLAB source codes](../m_src.html).
+You can go up one level to [the MATLAB source codes](../m_src.md).
 
 ------------------------------------------------------------------------
 

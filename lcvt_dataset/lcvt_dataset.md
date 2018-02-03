@@ -101,64 +101,64 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LCVT\_DATASET** is available in [a C++
-version](../../cpp_src/lcvt_dataset/lcvt_dataset.html) and [a FORTRAN90
-version](../../f_src/lcvt_dataset/lcvt_dataset.html) and [a MATLAB
-version.](../../m_src/lcvt_dataset/lcvt_dataset.html)
+version](../../master/lcvt_dataset/lcvt_dataset.md) and [a FORTRAN90
+version](../../f_src/lcvt_dataset/lcvt_dataset.md) and [a MATLAB
+version.](../../m_src/lcvt_dataset/lcvt_dataset.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CVT](../../cpp_src/cvt/cvt.html), a C++ library which can compute a CVT
+[CVT](../../master/cvt/cvt.md), a C++ library which can compute a CVT
 (Centroidal Voronoi Tessellation).
 
-[CVT\_DATASET](../../cpp_src/cvt_dataset/cvt_dataset.html), a C++
+[CVT\_DATASET](../../master/cvt_dataset/cvt_dataset.md), a C++
 program which can create a CVT dataset (Centroidal Voronoi
 Tessellation).
 
-[FAURE\_DATASET](../../cpp_src/faure_dataset/faure_dataset.html), a C++
+[FAURE\_DATASET](../../master/faure_dataset/faure_dataset.md), a C++
 program which creates a Faure quasirandom dataset;
 
-[GRID\_DATASET](../../cpp_src/grid_dataset/grid_dataset.html), a C++
+[GRID\_DATASET](../../master/grid_dataset/grid_dataset.md), a C++
 program which creates a grid sequence and writes it to a file.
 
-[LATIN\_CENTER\_DATASET](../../cpp_src/latin_center_dataset/latin_center_dataset.html),
+[LATIN\_CENTER\_DATASET](../../master/latin_center_dataset/latin_center_dataset.md),
 a C++ program which creates a Latin Center Hypercube dataset;
 
-[LATIN\_EDGE\_DATASET](../../cpp_src/latin_edge_dataset/latin_edge_dataset.html),
+[LATIN\_EDGE\_DATASET](../../master/latin_edge_dataset/latin_edge_dataset.md),
 a C++ program which creates a Latin Edge Hypercube dataset;
 
-[LATIN\_RANDOM\_DATASET](../../cpp_src/latin_random_dataset/latin_random_dataset.html),
+[LATIN\_RANDOM\_DATASET](../../master/latin_random_dataset/latin_random_dataset.md),
 a C++ program which creates a Latin Random Hypercube dataset;
 
-[LCVT](../../cpp_src/lcvt/lcvt.html), a C++ library which is used by
+[LCVT](../../master/lcvt/lcvt.md), a C++ library which is used by
 **LCVT\_DATASET**; a compiled copy of that library must be available to
 build the program.
 
-[LCVT](../../datasets/lcvt/lcvt.html), a dataset directory which
+[LCVT](../../datasets/lcvt/lcvt.md), a dataset directory which
 contains a collection of sample LCVT datasets created by
 **LCVT\_DATASET**.
 
-[NIEDERREITER2\_DATASET](../../cpp_src/niederreiter2_dataset/niederreiter2_dataset.html),
+[NIEDERREITER2\_DATASET](../../master/niederreiter2_dataset/niederreiter2_dataset.md),
 a C++ program which creates a Niederreiter quasirandom dataset with base
 2;
 
-[NORMAL\_DATASET](../../cpp_src/normal_dataset/normal_dataset.html), a
+[NORMAL\_DATASET](../../master/normal_dataset/normal_dataset.md), a
 C++ program which generates a dataset of multivariate normal
 pseudorandom values and writes them to a file.
 
-[SOBOL\_DATASET](../../cpp_src/sobol_dataset/sobol_dataset.html), a C++
+[SOBOL\_DATASET](../../master/sobol_dataset/sobol_dataset.md), a C++
 program which computes a Sobol quasirandom sequence and writes it to a
 file.
 
-[TABLE\_LATINIZE](../../cpp_src/table_latinize/table_latinize.html), a
+[TABLE\_LATINIZE](../../master/table_latinize/table_latinize.md), a
 C++ program which can read a **TABLE file** of points and "latinize" the
 points, that is, "gently" rearranging them so that they are regularly
 spaced in every coordinate direction.
 
-[UNIFORM\_DATASET](../../cpp_src/uniform_dataset/uniform_dataset.html),
+[UNIFORM\_DATASET](../../master/uniform_dataset/uniform_dataset.md),
 a C++ program which generates a dataset of uniform pseudorandom values
 and writes them to a file.
 
-[VAN\_DER\_CORPUT\_DATASET](../../cpp_src/van_der_corput_dataset/van_der_corput_dataset.html),
+[VAN\_DER\_CORPUT\_DATASET](../../master/van_der_corput_dataset/van_der_corput_dataset.md),
 a C++ program which creates a van der Corput quasirandom sequence and
 writes it to a file.
 
@@ -207,7 +207,7 @@ using UNIFORM initialization and sampling, and 10,000 sample points:
 -   [lcvt01\_output.txt](lcvt01_output.txt), printed output.
 -   [lcvt01.txt](lcvt01.txt), the LCVT dataset.
 -   [lcvt01.png](lcvt01.png), a PNG image of the LCVT dataset, created
-    by [PLOT\_POINTS](../../g_src/plot_points/plot_points.html).
+    by [PLOT\_POINTS](../../g_src/plot_points/plot_points.md).
 
 **Example 2** is a dataset of N=85 points with spatial dimension M=2,
 using RANDOM initialization and sampling, and 250,000 sample points, 10
@@ -216,9 +216,9 @@ CVT iterations and 2 Latinization iterations:
 -   [lcvt02\_input.txt](lcvt02_input.txt), input commands.
 -   [lcvt02\_output.txt](lcvt02_output.txt), printed output.
 -   [lcvt02.txt](lcvt02.txt), the LCVT dataset.
--   [lcvt02.png](lcvt02.png), a [PNG](../../png/png.html) image of the
+-   [lcvt02.png](lcvt02.png), a [PNG](../../png/png.md) image of the
     LCVT dataset, created by
-    [PLOT\_POINTS](../../g_src/plot_points/plot_points.html).
+    [PLOT\_POINTS](../../g_src/plot_points/plot_points.md).
 
 **Example 3** is a dataset of N=200 points with spatial dimension M=7,
 using UNIFORM initialization and sampling, and 20,000 sample points, 5
@@ -228,21 +228,21 @@ CVT iterations and 2 Latinization iterations:
 -   [lcvt03\_output.txt](lcvt03_output.txt), printed output.
 -   [lcvt03.txt](lcvt03.txt), the LCVT dataset.
 -   [lcvt03\_page1.png](lcvt03_page1.png), "page 1" of a
-    [PNG](../../png/png.html) image of pairs of coordinates of the LCVT
+    [PNG](../../png/png.md) image of pairs of coordinates of the LCVT
     dataset, created by
-    [TABLE\_TOP](../../f_src/table_top/table_top.html).
+    [TABLE\_TOP](../../f_src/table_top/table_top.md).
 -   [lcvt03\_page2.png](lcvt03_page2.png), "page 2" of a
-    [PNG](../../png/png.html) image of pairs of coordinates of the LCVT
+    [PNG](../../png/png.md) image of pairs of coordinates of the LCVT
     dataset, created by
-    [TABLE\_TOP](../../f_src/table_top/table_top.html).
+    [TABLE\_TOP](../../f_src/table_top/table_top.md).
 -   [lcvt03\_page3.png](lcvt03_page3.png), "page 3" of a
-    [PNG](../../png/png.html) image of pairs of coordinates of the LCVT
+    [PNG](../../png/png.md) image of pairs of coordinates of the LCVT
     dataset, created by
-    [TABLE\_TOP](../../f_src/table_top/table_top.html).
+    [TABLE\_TOP](../../f_src/table_top/table_top.md).
 -   [lcvt03\_page4.png](lcvt03_page4.png), "page 4" of a
-    [PNG](../../png/png.html) image of pairs of coordinates of the LCVT
+    [PNG](../../png/png.md) image of pairs of coordinates of the LCVT
     dataset, created by
-    [TABLE\_TOP](../../f_src/table_top/table_top.html).
+    [TABLE\_TOP](../../f_src/table_top/table_top.md).
 
 ### List of Routines: {#list-of-routines align="center"}
 
@@ -276,7 +276,7 @@ CVT iterations and 2 Latinization iterations:
 -   **TUPLE\_NEXT\_FAST** computes the next element of a tuple space,
     "fast".
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

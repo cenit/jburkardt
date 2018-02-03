@@ -42,40 +42,40 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **STOCHASTIC\_DIFFUSION** is available in [a C
-version](../../c_src/stochastic_diffusion/stochastic_diffusion.html) and
+version](../../c_src/stochastic_diffusion/stochastic_diffusion.md) and
 [a C++
-version](../../cpp_src/stochastic_diffusion/stochastic_diffusion.html)
+version](../../master/stochastic_diffusion/stochastic_diffusion.md)
 and [a FORTRAN77
-version](../../f77_src/stochastic_diffusion/stochastic_diffusion.html)
+version](../../f77_src/stochastic_diffusion/stochastic_diffusion.md)
 and [a FORTRAN90
-version](../../f_src/stochastic_diffusion/stochastic_diffusion.html) and
+version](../../f_src/stochastic_diffusion/stochastic_diffusion.md) and
 [a MATLAB
-version](../../m_src/stochastic_diffusion/stochastic_diffusion.html).
+version](../../m_src/stochastic_diffusion/stochastic_diffusion.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLACK\_SCHOLES](../../cpp_src/black_scholes/black_scholes.html), a C++
+[BLACK\_SCHOLES](../../master/black_scholes/black_scholes.md), a C++
 library which implements some simple approaches to the Black-Scholes
 option valuation theory;
 
-[CORRELATION](../../cpp_src/correlation/correlation.html), a C++ library
+[CORRELATION](../../master/correlation/correlation.md), a C++ library
 which contains examples of statistical correlation functions.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[ORNSTEIN\_UHLENBECK](../../cpp_src/ornstein_uhlenbeck/ornstein_uhlenbeck.html),
+[ORNSTEIN\_UHLENBECK](../../master/ornstein_uhlenbeck/ornstein_uhlenbeck.md),
 a C++ library which approximates solutions of the Ornstein-Uhlenbeck
 stochastic differential equation (SDE) using the Euler method and the
 Euler-Maruyama method.
 
-[PCE\_ODE\_HERMITE](../../cpp_src/pce_ode_hermite/pce_ode_hermite.html),
+[PCE\_ODE\_HERMITE](../../master/pce_ode_hermite/pce_ode_hermite.md),
 a C++ program which sets up a simple scalar ODE for exponential decay
 with an uncertain decay rate, using a polynomial chaos expansion in
 terms of Hermite polynomials.
 
-[SDE](../../cpp_src/sde/sde.html), a C++ library which illustrates the
+[SDE](../../master/sde/sde.md), a C++ library which illustrates the
 properties of stochastic differential equations, and common algorithms
 for their analysis, by Desmond Higham;
 
@@ -166,7 +166,7 @@ by GNUPLOT to create graphic images.
 -   **THETA\_SOLVE** solves a pair of transcendental equations.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -15,118 +15,118 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**R8UT** is available in [a C version](../../c_src/r8ut/r8ut.html) and
-[a C++ version](../../cpp_src/r8ut/r8ut.html) and [a FORTRAN90
-version](../../f_src/r8ut/r8ut.html) and [a MATLAB
-version](../../m_src/r8ut/r8ut.html) and [a Python
-version](../../py_src/r8ut/r8ut.html)
+**R8UT** is available in [a C version](../../c_src/r8ut/r8ut.md) and
+[a C++ version](../../master/r8ut/r8ut.md) and [a FORTRAN90
+version](../../f_src/r8ut/r8ut.md) and [a MATLAB
+version](../../m_src/r8ut/r8ut.md) and [a Python
+version](../../py_src/r8ut/r8ut.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[R83](../../cpp_src/r83/r83.html), a C++ library which contains linear
+[R83](../../master/r83/r83.md), a C++ library which contains linear
 algebra routines for R83 matrices (real, 64 bit, tridiagonal 3xN
 format).
 
-[R83S](../../cpp_src/r83s/r83s.html), a C++ library which contains
+[R83S](../../master/r83s/r83s.md), a C++ library which contains
 linear algebra routines for R83S matrices (real, 64 bit, tridiagonal
 scalar format).
 
-[R83V](../../cpp_src/r83v/r83v.html), a C++ library which contains
+[R83V](../../master/r83v/r83v.md), a C++ library which contains
 linear algebra routines for R83V matrices (real, 64 bit, tridiagonal
 three vector format).
 
-[R85](../../cpp_src/r85/r85.html), a C++ library which contains linear
+[R85](../../master/r85/r85.md), a C++ library which contains linear
 algebra routines for R85 matrices (real, 64 bit, pentadiagonal format).
 
-[R8BB](../../cpp_src/r8bb/r8bb.html), a C++ library which contains
+[R8BB](../../master/r8bb/r8bb.md), a C++ library which contains
 linear algebra routines for R8BB matrices (real, 64 bit, border banded
 format).
 
-[R8BLT](../../cpp_src/r8blt/r8blt.html), a C++ library which contains
+[R8BLT](../../master/r8blt/r8blt.md), a C++ library which contains
 linear algebra routines for R8BLT matrices (real, 64 bit, band lower
 triangular format).
 
-[R8BTO](../../cpp_src/r8bto/r8bto.html), a C++ library which contains
+[R8BTO](../../master/r8bto/r8bto.md), a C++ library which contains
 linear algebra routines for R8BTO matrices (real, 64 bit, block Toeplitz
 format).
 
-[R8BUT](../../cpp_src/r8but/r8but.html), a C++ library which contains
+[R8BUT](../../master/r8but/r8but.md), a C++ library which contains
 linear algebra routines for R8BUT matrices (real, 64 bit, band upper
 triangular format).
 
-[R8CB](../../cpp_src/r8cb/r8cb.html), a C++ library which contains
+[R8CB](../../master/r8cb/r8cb.md), a C++ library which contains
 linear algebra routines for R8CB matrices (real, 64 bit, Compressed Band
 format).
 
-[R8CBB](../../cpp_src/r8cbb/r8cbb.html), a C++ library which contains
+[R8CBB](../../master/r8cbb/r8cbb.md), a C++ library which contains
 linear algebra routines for R8CBB matrices (real, 64 bit, Compressed
 Border Banded format).
 
-[R8CC](../../cpp_src/r8cc/r8cc.html), a C++ library which contains
+[R8CC](../../master/r8cc/r8cc.md), a C++ library which contains
 linear algebra routines for R8CC matrices (real, 64 bit, Compressed
 Column (Colptr,Row,Value) format).
 
-[R8GD](../../cpp_src/r8gd/r8gd.html), a C++ library which contains
+[R8GD](../../master/r8gd/r8gd.md), a C++ library which contains
 linear algebra routines for R8GD matrices (real, 64 bit, general
 diagonal format).
 
-[R8GE](../../cpp_src/r8ge/r8ge.html), a C++ library which contains
+[R8GE](../../master/r8ge/r8ge.md), a C++ library which contains
 linear algebra routines for R8GE matrices (real, 64 bit, General
 format).
 
-[R8LT](../../cpp_src/r8lt/r8lt.html), a C++ library which contains
+[R8LT](../../master/r8lt/r8lt.md), a C++ library which contains
 linear algebra routines for R8LT matrices (real, 64 bit, lower
 triangular format).
 
-[R8LTT](../../cpp_src/r8ltt/r8ltt.html), a C++ library which contains
+[R8LTT](../../master/r8ltt/r8ltt.md), a C++ library which contains
 linear algebra routines for R8LTT matrices (real, 64 bit, lower
 triangular Toeplitz format).
 
-[R8NCF](../../cpp_src/r8ncf/r8ncf.html), a C++ library which contains
+[R8NCF](../../master/r8ncf/r8ncf.md), a C++ library which contains
 linear algebra routines for R8NCF matrices (real, 64 bit, nonsymmetric
 coordinate format).
 
-[R8PBL](../../cpp_src/r8pbl/r8pbl.html), a C++ library which contains
+[R8PBL](../../master/r8pbl/r8pbl.md), a C++ library which contains
 linear algebra routines for R8PBL matrices (real, 64 bit, positive
 definite symmetric band lower format).
 
-[R8PO](../../cpp_src/r8po/r8po.html), a C++ library which contains
+[R8PO](../../master/r8po/r8po.md), a C++ library which contains
 linear algebra routines for R8PO matrices (real, 64 bit, positive
 definite symmetric format).
 
-[R8RI](../../cpp_src/r8ri/r8ri.html), a C++ library which contains
+[R8RI](../../master/r8ri/r8ri.md), a C++ library which contains
 linear algebra routines for R8RI matrices (real, 64 bit, row indexed
 format).
 
-[R8S3](../../cpp_src/r8s3/r8s3.html), a C++ library which contains
+[R8S3](../../master/r8s3/r8s3.md), a C++ library which contains
 linear algebra routines for R8S3 matrices (real, 64 bit, SLAP Triad
 (I,J,AIJ) format).
 
-[R8SD](../../cpp_src/r8sd/r8sd.html), a C++ library which contains
+[R8SD](../../master/r8sd/r8sd.md), a C++ library which contains
 linear algebra routines for R8SD matrices (real, 64 bit, symmetric
 diagonal format).
 
-[R8SP](../../cpp_src/r8sp/r8sp.html), a C++ library which contains
+[R8SP](../../master/r8sp/r8sp.md), a C++ library which contains
 linear algebra routines for R8SP matrices (real, 64 bit, SLAP Triad
 (I,J,AIJ) format).
 
-[R8SS](../../cpp_src/r8ss/r8ss.html), a C++ library which carries out
+[R8SS](../../master/r8ss/r8ss.md), a C++ library which carries out
 linear algebra operations for R8SS matrices (real, 64 bit, symmetric
 skyline format).
 
-[R8STO](../../cpp_src/r8sto/r8sto.html), a C++ library which contains
+[R8STO](../../master/r8sto/r8sto.md), a C++ library which contains
 linear algebra routines for R8STO matrices (real, 64 bit, symmetric
 Toeplitz N format).
 
-[R8TO](../../cpp_src/r8to/r8to.html), a C++ library which contains
+[R8TO](../../master/r8to/r8to.md), a C++ library which contains
 linear algebra routines for R8TO matrices (real, 64 bit, Toeplitz 2\*N-1
 format).
 
-[R8UTT](../../cpp_src/r8utt/r8utt.html), a C++ library which contains
+[R8UTT](../../master/r8utt/r8utt.md), a C++ library which contains
 linear algebra routines for R8UTT matrices (real, 64 bit, upper
 triangular Toeplitz format).
 
-[R8VM](../../cpp_src/r8vm/r8vm.html), a C++ library which contains
+[R8VM](../../master/r8vm/r8vm.md), a C++ library which contains
 linear algebra routines for R8VM matrices (real, 64 bit, Vandermonde
 format).
 
@@ -167,7 +167,7 @@ format).
 -   **R8VEC\_UNIFORM\_01** returns a unit pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

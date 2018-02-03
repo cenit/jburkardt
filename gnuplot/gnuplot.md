@@ -56,150 +56,150 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **GNUPLOT** is available in [a non-language specific
-version](../../examples/gnuplot/gnuplot.html) and [a C
-version](../../c_src/gnuplot/gnuplot.html) and [a C++
-version](../../cpp_src/gnuplot/gnuplot.html) and [a FORTRAN77
-version](../../f77_src/gnuplot/gnuplot.html) and [a FORTRAN90
-version](../../f_src/gnuplot/gnuplot.html) and [a MATLAB
-version](../../m_src/gnuplot/gnuplot.html).
+version](../../examples/gnuplot/gnuplot.md) and [a C
+version](../../c_src/gnuplot/gnuplot.md) and [a C++
+version](../../master/gnuplot/gnuplot.md) and [a FORTRAN77
+version](../../f77_src/gnuplot/gnuplot.md) and [a FORTRAN90
+version](../../f_src/gnuplot/gnuplot.md) and [a MATLAB
+version](../../m_src/gnuplot/gnuplot.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ANALEMMA](../../cpp_src/analemma/analemma.html), a C++ program which
+[ANALEMMA](../../master/analemma/analemma.md), a C++ program which
 evaluates the equation of time, a formula for the difference between the
 uniform 24 hour day and the actual position of the sun, creating data
 that can be plotted by gnuplot, based on a program by Brian Tung.
 
-[BROWNIAN\_MOTION\_SIMULATION](../../cpp_src/brownian_motion_simulation/brownian_motion_simulation.html),
+[BROWNIAN\_MOTION\_SIMULATION](../../master/brownian_motion_simulation/brownian_motion_simulation.md),
 a C++ library which simulates Brownian motion in an M-dimensional
 region, creating graphics files that can be displayed with gnuplot.
 
-[DISK\_GRID](../../cpp_src/disk_grid/disk_grid.html), a C++ library
+[DISK\_GRID](../../master/disk_grid/disk_grid.md), a C++ library
 which computes grid points that lie inside a disk of user specified
 radius and center in 2D, using GNUPLOT to create an image of the grid.
 
-[DISLIN](../../cpp_src/dislin/dislin.html), C++ programs which
+[DISLIN](../../master/dislin/dislin.md), C++ programs which
 illustrate the use of DISLIN, a scientific graphics package, by Helmut
 Michels.
 
-[EDGE](../../cpp_src/edge/edge.html), a C++ library which defines some
+[EDGE](../../master/edge/edge.md), a C++ library which defines some
 test functions in 1D, 2D and 3D for the detection of edges or
 discontinuities. It uses GNUPLOT to display the jumps in curves and
 surfaces.
 
-[FAIR\_DICE\_SIMULATION](../../cpp_src/fair_dice_simulation/fair_dice_simulation.html),
+[FAIR\_DICE\_SIMULATION](../../master/fair_dice_simulation/fair_dice_simulation.md),
 a C++ program which simulates N games in which two fair dice are thrown
 and summed, creating graphics files for processing by gnuplot.
 
-[FD1D\_ADVECTION\_FTCS](../../cpp_src/fd1d_advection_ftcs/fd1d_advection_ftcs.html),
+[FD1D\_ADVECTION\_FTCS](../../master/fd1d_advection_ftcs/fd1d_advection_ftcs.md),
 a C++ program which applies the finite difference method (FDM) to solve
 the time-dependent advection equation ut = - c \* ux in one spatial
 dimension, with a constant velocity, using the forward time, centered
 space (FTCS) difference method, writing graphics files for processing by
 gnuplot.
 
-[FD1D\_ADVECTION\_LAX](../../cpp_src/fd1d_advection_lax/fd1d_advection_lax.html),
+[FD1D\_ADVECTION\_LAX](../../master/fd1d_advection_lax/fd1d_advection_lax.md),
 a C++ program which applies the finite difference method (FDM) to solve
 the time-dependent advection equation ut = - c \* ux in one spatial
 dimension, with a constant velocity, using the Lax method to treat the
 time derivative, writing graphics files for processing by gnuplot.
 
-[FD1D\_ADVECTION\_LAX\_WENDROFF](../../cpp_src/fd1d_advection_lax_wendroff/fd1d_advection_lax_wendroff.html),
+[FD1D\_ADVECTION\_LAX\_WENDROFF](../../master/fd1d_advection_lax_wendroff/fd1d_advection_lax_wendroff.md),
 a C++ program which applies the finite difference method (FDM) to solve
 the time-dependent advection equation ut = - c \* ux in one spatial
 dimension, with a constant velocity, using the Lax-Wendroff method to
 treat the time derivative, writing graphics files for processing by
 gnuplot.
 
-[GNUPLOT\_I\_EXAMPLES](../../cpp_src/gnuplot_i_examples/gnuplot_i_examples.html),
+[GNUPLOT\_I\_EXAMPLES](../../master/gnuplot_i_examples/gnuplot_i_examples.md),
 C++ programs which demonstrate the use of the GNUPLOT\_I library for
 interactive runtime gnuplot graphics.
 
-[HIGH\_CARD\_SIMULATION](../../cpp_src/high_card_simulation/high_card_simulation.html),
+[HIGH\_CARD\_SIMULATION](../../master/high_card_simulation/high_card_simulation.md),
 a C++ program which simulates a situation in which you see the cards in
 a deck one by one, and must select the one you think is the highest and
 stop; the program uses GNUPLOT for graphics.
 
-[ISING\_2D\_SIMULATION](../../cpp_src/ising_2d_simulation/ising_2d_simulation.html),
+[ISING\_2D\_SIMULATION](../../master/ising_2d_simulation/ising_2d_simulation.md),
 a C++ program which carries out a Monte Carlo simulation of an Ising
 model, a 2D array of positive and negative charges, each of which is
 likely to flip to be in agreement with neighbors, using gnuplot to make
 images of the initial and final configurations.
 
-[LEBESGUE](../../cpp_src/lebesgue/lebesgue.html), a C++ library which is
+[LEBESGUE](../../master/lebesgue/lebesgue.md), a C++ library which is
 given a set of nodes in 1D, and plots the Lebesgue function, and
 estimates the Lebesgue constant, which measures the maximum magnitude of
 the potential error of Lagrange polynomial interpolation, and which uses
 gnuplot to make plots of the Lebesgue function.
 
-[LOBATTO\_POLYNOMIAL](../../cpp_src/lobatto_polynomial/lobatto_polynomial.html),
+[LOBATTO\_POLYNOMIAL](../../master/lobatto_polynomial/lobatto_polynomial.md),
 a C++ library which evaluates Lobatto polynomials, similar to Legendre
 polynomials except that they are zero at both endpoints.
 
-[LORENZ\_ODE](../../cpp_src/lorenz_ode/lorenz_ode.html), a C++ program
+[LORENZ\_ODE](../../master/lorenz_ode/lorenz_ode.md), a C++ program
 which approximates solutions to the Lorenz system, creating output files
 that can be displayed by Gnuplot.
 
-[NACA](../../cpp_src/naca/naca.html), a C++ library which can take the
+[NACA](../../master/naca/naca.md), a C++ library which can take the
 parameters of certain NACA airfoils and return the coordinates of a
 sequence of points that outline the wing shape. The data can be
 displayed with gnuplot.
 
-[NEAREST\_INTERP\_1D](../../cpp_src/nearest_interp_1d/nearest_interp_1d.html),
+[NEAREST\_INTERP\_1D](../../master/nearest_interp_1d/nearest_interp_1d.md),
 a C++ library which interpolates a set of data using a piecewise
 constant interpolant defined by the nearest neighbor criterion, creating
 graphics files for processing by gnuplot.
 
-[ORNSTEIN\_UHLENBECK](../../cpp_src/ornstein_uhlenbeck/ornstein_uhlenbeck.html),
+[ORNSTEIN\_UHLENBECK](../../master/ornstein_uhlenbeck/ornstein_uhlenbeck.md),
 a C++ library which approximates solutions of the Ornstein-Uhlenbeck
 stochastic ordinary differential equation (SODE) using the Euler method
 and the Euler-Maruyama method, and creating graphics files for
 processing by gnuplot.
 
-[POISSON\_SIMULATION](../../cpp_src/poisson_simulation/poisson_simulation.html),
+[POISSON\_SIMULATION](../../master/poisson_simulation/poisson_simulation.md),
 a C++ library which simulates a Poisson process in which events randomly
 occur with an average waiting time of Lambda, creating output for
 graphics by gnuplot.
 
-[PWL\_INTERP\_1D](../../cpp_src/pwl_interp_1d/pwl_interp_1d.html), a C++
+[PWL\_INTERP\_1D](../../master/pwl_interp_1d/pwl_interp_1d.md), a C++
 library which interpolates a set of data using a piecewise linear
 function, creating graphics files for processing by gnuplot.
 
-[SDE](../../cpp_src/sde/sde.html), a C++ library which illustrates
+[SDE](../../master/sde/sde.md), a C++ library which illustrates
 properties of stochastic ordinary differential equations (SODE's), and
 common algorithms for their analysis, including the Euler method, the
 Euler-Maruyama method, and the Milstein method, making graphics files
 for processing and display by gnuplot, by Desmond Higham;
 
-[SPIRAL\_DATA](../../cpp_src/spiral_data/spiral_data.html), a C++
+[SPIRAL\_DATA](../../master/spiral_data/spiral_data.md), a C++
 program which computes a velocity vector field that satisfies the
 continuity equation, writing the data to a file that can be plotted by
 gnuplot.
 
-[SPRING\_ODE2](../../cpp_src/spring_ode2/spring_ode2.html), a C++
+[SPRING\_ODE2](../../master/spring_ode2/spring_ode2.md), a C++
 program which shows how gnuplot graphics can be used to illustrate a
 solution of the ordinary differential equation (ODE) that describes the
 motion of a weight attached to a spring.
 
-[STOCHASTIC\_DIFFUSION](../../cpp_src/stochastic_diffusion/stochastic_diffusion.html),
+[STOCHASTIC\_DIFFUSION](../../master/stochastic_diffusion/stochastic_diffusion.md),
 a C++ library which implements several versions of a stochastic
 diffusivity coefficient, and displays sample results using gnuplot.
 
-[STOCHASTIC\_HEAT2D](../../cpp_src/stochastic_heat2d/stochastic_heat2d.html),
+[STOCHASTIC\_HEAT2D](../../master/stochastic_heat2d/stochastic_heat2d.md),
 a C++ program which implements a finite difference method (FDM) for the
 steady (time independent) 2D heat equation, with a stochastic heat
 diffusivity coefficient, using gnuplot to illustrate the results.
 
-[STRING\_SIMULATION](../../cpp_src/string_simulation/string_simulation.html),
+[STRING\_SIMULATION](../../master/string_simulation/string_simulation.md),
 a C++ program which simulates the behavior of a vibrating string,
 creating files that can be displayed by gnuplot.
 
-[SVD\_SNOWFALL](../../cpp_src/svd_snowfall/svd_snowfall.html), a C++
+[SVD\_SNOWFALL](../../master/svd_snowfall/svd_snowfall.md), a C++
 library which reads a file containing historical snowfall data and
 analyzes the data with the Singular Value Decomposition (SVD), and plots
 created by gnuplot.
 
-[VANDERMONDE\_INTERP\_1D](../../cpp_src/vandermonde_interp_1d/vandermonde_interp_1d.html),
+[VANDERMONDE\_INTERP\_1D](../../master/vandermonde_interp_1d/vandermonde_interp_1d.md),
 a C++ library which finds a polynomial interpolant to data y(x) of a 1D
 argument, by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix, creating graphics files
@@ -257,7 +257,7 @@ times.
     can create an image from the data file.
 -   [string.png](string.png), an image of the data.
 
-You can go up one level to [the C++ directory](../cpp_src.html).
+You can go up one level to [the C++ directory](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

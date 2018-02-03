@@ -16,59 +16,59 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LIFE\_SERIAL** is available in [a C
-version](../../c_src/life_serial/life_serial.html) and [a C++
-version](../../cpp_src/life_serial/life_serial.html) and [a FORTRAN77
-version](../../f77_src/life_serial/life_serial.html) and [a FORTRAN90
-version](../../f_src/life_serial/life_serial.html) and [a MATLAB
-version](../../m_src/life_serial/life_serial.html).
+version](../../c_src/life_serial/life_serial.md) and [a C++
+version](../../master/life_serial/life_serial.md) and [a FORTRAN77
+version](../../f77_src/life_serial/life_serial.md) and [a FORTRAN90
+version](../../f_src/life_serial/life_serial.md) and [a MATLAB
+version](../../m_src/life_serial/life_serial.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CIRCLE\_GRID\_DISPLAY](../../m_src/circle_grid_display/circle_grid_display.html),
+[CIRCLE\_GRID\_DISPLAY](../../m_src/circle_grid_display/circle_grid_display.md),
 a MATLAB program which reads a matrix of integers, and draws a
 corresponding grid of circles filled with color.
 
-[FFT\_SERIAL](../../cpp_src/fft_serial/fft_serial.html), a C++ program
+[FFT\_SERIAL](../../master/fft_serial/fft_serial.md), a C++ program
 which demonstrates the computation of a Fast Fourier Transform (FFT),
 and is intended as a starting point for implementing a parallel version.
 
-[FIRE\_SERIAL](../../cpp_src/fire_serial/fire_serial.html), a C++
+[FIRE\_SERIAL](../../master/fire_serial/fire_serial.md), a C++
 program which simulates a forest fire over a rectangular array of trees,
 starting at a single random location. It is intended as a starting point
 for the development of a parallel version.
 
-[LIFE\_OPENGL](../../cpp_src/life_opengl/life_opengl.html), a C++
+[LIFE\_OPENGL](../../master/life_opengl/life_opengl.md), a C++
 program which uses OpenGL to display the evolution of John Conway's Game
 of Life, by Simon Green.
 
-[MXM\_SERIAL](../../cpp_src/mxm_serial/mxm_serial.html), a C++ program
+[MXM\_SERIAL](../../master/mxm_serial/mxm_serial.md), a C++ program
 which sets up a matrix multiplication problem A=B\*C, intended as a
 starting point for implementing a parallel version.
 
-[POISSON\_SERIAL](../../cpp_src/poisson_serial/poisson_serial.html), a
+[POISSON\_SERIAL](../../master/poisson_serial/poisson_serial.md), a
 C++ program which computes an approximate solution to the Poisson
 equation in a rectangle, intended as the starting point for the creation
 of a parallel version.
 
-[PRIME\_SERIAL](../../cpp_src/prime_serial/prime_serial.html), a C++
+[PRIME\_SERIAL](../../master/prime_serial/prime_serial.md), a C++
 program which counts the number of primes between 1 and N, intended as a
 starting point for the creation of a parallel version.
 
-[QUAD\_SERIAL](../../cpp_src/quad_serial/quad_serial.html), a C++
+[QUAD\_SERIAL](../../master/quad_serial/quad_serial.md), a C++
 program which approximates an integral using a quadrature rule, and is
 intended as a starting point for parallelization exercises.
 
-[QUAD2D\_SERIAL](../../cpp_src/quad2d_serial/quad2d_serial.html), a C++
+[QUAD2D\_SERIAL](../../master/quad2d_serial/quad2d_serial.md), a C++
 program which approximates an integral over a 2D region using a product
 quadrature rule, and is intended as a starting point for parallelization
 exercises.
 
-[SEARCH\_SERIAL](../../cpp_src/search_serial/search_serial.html), a C++
+[SEARCH\_SERIAL](../../master/search_serial/search_serial.md), a C++
 program which searches integers between A and B for a value J such that
 F(J) = C, intended as a starting point for the creation of a parallel
 version.
 
-[SUBSET\_SUM\_SERIAL](../../cpp_src/subset_sum_serial/subset_sum_serial.html),
+[SUBSET\_SUM\_SERIAL](../../master/subset_sum_serial/subset_sum_serial.md),
 a C++ program which seeks solutions of the subset sum problem, in which
 it is desired to find a subset of a set of integers which has a given
 sum; this version of the program is intended as a starting point for a
@@ -117,7 +117,7 @@ Executing the program produces a series of text files containing 0's and
 -   **R8\_UNIFORM\_01** returns a pseudorandom R8 scaled to \[0,1\].
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

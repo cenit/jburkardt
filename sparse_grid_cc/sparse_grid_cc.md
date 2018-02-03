@@ -119,58 +119,58 @@ under the [GNU LGPL](gnu_lgpl.txt) license.
 ### Languages: {#languages align="center"}
 
 **SPARSE\_GRID\_CC** is available in [a C
-version](../../c_src/sparse_grid_cc/sparse_grid_cc.html) and [a C++
-version](../../cpp_src/sparse_grid_cc/sparse_grid_cc.html) and [a
-FORTRAN77 version](../../f77_src/sparse_grid_cc/sparse_grid_cc.html) and
-[a FORTRAN90 version](../../f_src/sparse_grid_cc/sparse_grid_cc.html)
-and [a MATLAB version.](../../m_src/sparse_grid_cc/sparse_grid_cc.html)
+version](../../c_src/sparse_grid_cc/sparse_grid_cc.md) and [a C++
+version](../../master/sparse_grid_cc/sparse_grid_cc.md) and [a
+FORTRAN77 version](../../f77_src/sparse_grid_cc/sparse_grid_cc.md) and
+[a FORTRAN90 version](../../f_src/sparse_grid_cc/sparse_grid_cc.md)
+and [a MATLAB version.](../../m_src/sparse_grid_cc/sparse_grid_cc.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CC\_DISPLAY](../../m_src/cc_display/cc_display.html), a MATLAB library
+[CC\_DISPLAY](../../m_src/cc_display/cc_display.md), a MATLAB library
 which can compute and display Clenshaw Curtis grids in two dimensions,
 as well as sparse grids formed from sums of Clenshaw Curtis grids.
 
-[SGMG](../../cpp_src/sgmg/sgmg.html), a C++ library which creates a
+[SGMG](../../master/sgmg/sgmg.md), a C++ library which creates a
 sparse grid dataset based on a mixed set of 1D factor rules, and
 experiments with the use of a linear growth rate for the quadrature
 rules.
 
-[SGMGA](../../cpp_src/sgmga/sgmga.html), a C++ library which creates
+[SGMGA](../../master/sgmga/sgmga.md), a C++ library which creates
 sparse grids based on a mixture of 1D quadrature rules, allowing
 anisotropic weights for each dimension.
 
-[SMOLPACK](../../c_src/smolpack/smolpack.html), a C library which
+[SMOLPACK](../../c_src/smolpack/smolpack.md), a C library which
 implements Novak and Ritter's method for estimating the integral of a
 function over a multidimensional hypercube using sparse grids.
 
-[SPARSE\_GRID\_CC](../../datasets/sparse_grid_cc/sparse_grid_cc.html), a
+[SPARSE\_GRID\_CC](../../datasets/sparse_grid_cc/sparse_grid_cc.md), a
 dataset directory which contains the abscissas of sparse grids based on
 a Clenshaw Curtis rule.
 
-[SPARSE\_GRID\_CC\_DATASET](../../cpp_src/sparse_grid_cc_dataset/sparse_grid_cc_dataset.html),
+[SPARSE\_GRID\_CC\_DATASET](../../master/sparse_grid_cc_dataset/sparse_grid_cc_dataset.md),
 a C++ program which creates a sparse grid dataset based on
 Clenshaw-Curtis rules.
 
-[SPARSE\_GRID\_GL](../../cpp_src/sparse_grid_gl/sparse_grid_gl.html), a
+[SPARSE\_GRID\_GL](../../master/sparse_grid_gl/sparse_grid_gl.md), a
 C++ library which computes a sparse grid based on Gauss-Legendre rules.
 
-[SPARSE\_GRID\_HERMITE](../../cpp_src/sparse_grid_hermite/sparse_grid_hermite.html),
+[SPARSE\_GRID\_HERMITE](../../master/sparse_grid_hermite/sparse_grid_hermite.md),
 a C++ library which computes a sparse grid based on Gauss-Hermite rules.
 
-[SPARSE\_GRID\_LAGUERRE](../../cpp_src/sparse_grid_laguerre/sparse_grid_laguerre.html),
+[SPARSE\_GRID\_LAGUERRE](../../master/sparse_grid_laguerre/sparse_grid_laguerre.md),
 a C++ library which computes a sparse grid based on Gauss-Laguerre
 rules.
 
-[SPARSE\_GRID\_MIXED](../../cpp_src/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../master/sparse_grid_mixed/sparse_grid_mixed.md),
 a C++ library which constructs a sparse grid using different rules in
 each spatial dimension.
 
-[SPARSE\_GRID\_OPEN](../../cpp_src/sparse_grid_open/sparse_grid_open.html),
+[SPARSE\_GRID\_OPEN](../../master/sparse_grid_open/sparse_grid_open.md),
 a C++ library which creates sparse grids based on open rules (Fejer 2,
 Gauss-Patterson, Newton-Cotes-Open).
 
-[TOMS847](../../m_src/toms847/toms847.html), a MATLAB program which uses
+[TOMS847](../../m_src/toms847/toms847.md), a MATLAB program which uses
 sparse grids to carry out multilinear hierarchical interpolation. It is
 commonly known as SPINTERP, and is by Andreas Klimke.
 
@@ -270,7 +270,7 @@ commonly known as SPINTERP, and is by Andreas Klimke.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **VEC\_COLEX\_NEXT2** generates vectors in colex order.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

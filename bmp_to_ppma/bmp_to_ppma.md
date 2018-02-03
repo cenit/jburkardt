@@ -22,24 +22,24 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BMP\_TO\_PPMA** is available in [a C++
-version](../../cpp_src/bmp_to_ppma/bmp_to_ppma.html).
+version](../../master/bmp_to_ppma/bmp_to_ppma.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BMP](../../data/bmp/bmp.html), a file directory which contains a
+[BMP](../../data/bmp/bmp.md), a file directory which contains a
 description and examples of BMP files.
 
-[BMP\_IO](../../cpp_src/bmp_io/bmp_io.html), a C++ library which reads
+[BMP\_IO](../../master/bmp_io/bmp_io.md), a C++ library which reads
 or writes BMP graphics files.
 
-[PPMA](../../data/ppma/ppma.html), a file directory which contains a
+[PPMA](../../data/ppma/ppma.md), a file directory which contains a
 description and examples of ASCII Portable Pixel Map (PPM) files.
 
-[PPMA\_TO\_BMP](../../cpp_src/ppma_to_bmp/ppma_to_bmp.html), a C++
+[PPMA\_TO\_BMP](../../master/ppma_to_bmp/ppma_to_bmp.md), a C++
 program which converts ASCII Portable Pixel Map (PPM) files to BMP
 files.
 
-[PPMA\_IO](../../cpp_src/ppma_io/ppma_io.html), a C++ library which
+[PPMA\_IO](../../master/ppma_io/ppma_io.md), a C++ library which
 reads or writes Portable Pixel Map (PPM) files.
 
 ### Reference: {#reference align="center"}
@@ -63,7 +63,7 @@ reads or writes Portable Pixel Map (PPM) files.
 -   **UCMAT\_TO\_I4MAT** converts a UCMAT to an I4MAT.
 -   **UCMAT\_VERT\_FLIP** swaps rows of a UCMAT, to flip it vertically.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

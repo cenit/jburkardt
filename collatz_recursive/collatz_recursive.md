@@ -32,15 +32,15 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **COLLATZ\_RECURSIVE** is available in [a C
-version](../../c_src/collatz_recursive/collatz_recursive.html) and [a
-C++ version](../../cpp_src/collatz_recursive/collatz_recursive.html) and
+version](../../c_src/collatz_recursive/collatz_recursive.md) and [a
+C++ version](../../master/collatz_recursive/collatz_recursive.md) and
 [a FORTRAN90
-version](../../f_src/collatz_recursive/collatz_recursive.html) and [a
-MATLAB version](../../m_src/collatz_recursive/collatz_recursive.html).
+version](../../f_src/collatz_recursive/collatz_recursive.md) and [a
+MATLAB version](../../m_src/collatz_recursive/collatz_recursive.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[POLPAK](../../cpp_src/polpak/polpak.html), a C++ library which
+[POLPAK](../../master/polpak/polpak.md), a C++ library which
 evaluates a variety of mathematical functions, including Chebyshev,
 Gegenbauer, Hermite, Jacobi, Laguerre, Legendre polynomials, and the
 Collatz sequence.
@@ -73,7 +73,7 @@ Collatz sequence.
     sequence.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

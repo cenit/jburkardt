@@ -94,62 +94,62 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SANDIA\_RULES** is available in [a C
-version](../../c_src/sandia_rules/sandia_rules.html) and [a C++
-version](../../cpp_src/sandia_rules/sandia_rules.html) and [a FORTRAN90
-version](../../f_src/sandia_rules/sandia_rules.html) and [a MATLAB
-version.](../../m_src/sandia_rules/sandia_rules.html)
+version](../../c_src/sandia_rules/sandia_rules.md) and [a C++
+version](../../master/sandia_rules/sandia_rules.md) and [a FORTRAN90
+version](../../f_src/sandia_rules/sandia_rules.md) and [a MATLAB
+version.](../../m_src/sandia_rules/sandia_rules.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CHEBYSHEV1\_RULE](../../cpp_src/chebyshev1_rule/chebyshev1_rule.html),
+[CHEBYSHEV1\_RULE](../../master/chebyshev1_rule/chebyshev1_rule.md),
 a C++ program which can compute and print a Gauss-Chebyshev type 1
 quadrature rule.
 
-[CHEBYSHEV2\_RULE](../../cpp_src/chebyshev2_rule/chebyshev2_rule.html),
+[CHEBYSHEV2\_RULE](../../master/chebyshev2_rule/chebyshev2_rule.md),
 a C++ program which can compute and print a Gauss-Chebyshev type 2
 quadrature rule.
 
-[GEGENBAUER\_RULE](../../cpp_src/gegenbauer_rule/gegenbauer_rule.html),
+[GEGENBAUER\_RULE](../../master/gegenbauer_rule/gegenbauer_rule.md),
 a C++ program which can compute and print a Gauss-Gegenbauer quadrature
 rule.
 
-[GEN\_HERMITE\_RULE](../../cpp_src/gen_hermite_rule/gen_hermite_rule.html),
+[GEN\_HERMITE\_RULE](../../master/gen_hermite_rule/gen_hermite_rule.md),
 a C++ program which can compute and print a generalized Gauss-Hermite
 quadrature rule.
 
-[GEN\_LAGUERRE\_RULE](../../cpp_src/gen_laguerre_rule/gen_laguerre_rule.html),
+[GEN\_LAGUERRE\_RULE](../../master/gen_laguerre_rule/gen_laguerre_rule.md),
 a C++ program which can compute and print a generalized Gauss-Laguerre
 quadrature rule.
 
-[HERMITE\_RULE](../../cpp_src/hermite_rule/hermite_rule.html), a C++
+[HERMITE\_RULE](../../master/hermite_rule/hermite_rule.md), a C++
 program which can compute and print a Gauss-Hermite quadrature rule.
 
-[JACOBI\_RULE](../../cpp_src/jacobi_rule/jacobi_rule.html), a C++
+[JACOBI\_RULE](../../master/jacobi_rule/jacobi_rule.md), a C++
 program which can compute and print a Gauss-Jacobi quadrature rule.
 
-[LAGUERRE\_RULE](../../cpp_src/laguerre_rule/laguerre_rule.html), a C++
+[LAGUERRE\_RULE](../../master/laguerre_rule/laguerre_rule.md), a C++
 program which can compute and print a Gauss-Laguerre quadrature rule.
 
-[LEGENDRE\_RULE](../../cpp_src/legendre_rule/legendre_rule.html), a C++
+[LEGENDRE\_RULE](../../master/legendre_rule/legendre_rule.md), a C++
 program which can compute and print a Gauss-Legendre quadrature rule.
 
-[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.html),
+[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.md),
 a dataset directory which contains sets of files that define quadrature
 rules over various 1D intervals or multidimensional hypercubes.
 
-[QUADRATURE\_RULES\_LEGENDRE](../../datasets/quadrature_rules_legendre/quadrature_rules_legendre.html),
+[QUADRATURE\_RULES\_LEGENDRE](../../datasets/quadrature_rules_legendre/quadrature_rules_legendre.md),
 a dataset directory which contains triples of files defining standard
 Gauss-Legendre quadrature rules.
 
-[SANDIA\_RULES2](../../cpp_src/sandia_rules2/sandia_rules2.html), a C++
+[SANDIA\_RULES2](../../master/sandia_rules2/sandia_rules2.md), a C++
 library which contains a very small selection of functions which serve
 as an interface between SANDIA\_SGMG or SANDIA\_SGMGA and SANDIA\_RULES.
 
-[SGMGA](../../cpp_src/sgmga/sgmga.html), a C++ library which creates
+[SGMGA](../../master/sgmga/sgmga.md), a C++ library which creates
 sparse grids based on a mixture of 1D quadrature rules, allowing
 anisotropic weights for each dimension.
 
-[SPARSE\_GRID\_MIXED](../../cpp_src/sparse_grid_mixed/sparse_grid_mixed.html),
+[SPARSE\_GRID\_MIXED](../../master/sparse_grid_mixed/sparse_grid_mixed.md),
 a C++ library which creates a sparse grid dataset based on a mixed set
 of 1D factor rules.
 
@@ -611,7 +611,7 @@ of 1D factor rules.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **VEC\_COLEX\_NEXT3** generates vectors in colex order.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

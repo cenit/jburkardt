@@ -28,26 +28,26 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MATRIX\_EXPONENTIAL** is available in [a C
-version](../../c_src/matrix_exponential/matrix_exponential.html) and [a
-C++ version](../../cpp_src/matrix_exponential/matrix_exponential.html)
+version](../../c_src/matrix_exponential/matrix_exponential.md) and [a
+C++ version](../../master/matrix_exponential/matrix_exponential.md)
 and [a FORTRAN77
-version](../../f77_src/matrix_exponential/matrix_exponential.html) and
+version](../../f77_src/matrix_exponential/matrix_exponential.md) and
 [a FORTRAN90
-version](../../f_src/matrix_exponential/matrix_exponential.html) and [a
-MATLAB version](../../m_src/matrix_exponential/matrix_exponential.html).
+version](../../f_src/matrix_exponential/matrix_exponential.md) and [a
+MATLAB version](../../m_src/matrix_exponential/matrix_exponential.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[EXPOKIT](../../f77_src/expokit/expokit.html), a FORTRAN77 library which
+[EXPOKIT](../../f77_src/expokit/expokit.md), a FORTRAN77 library which
 solves various forms of the matrix exponential problem, by Roger Sidje.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices.
 
-[TEST\_MATRIX\_EXPONENTIAL](../../cpp_src/test_matrix_exponential/test_matrix_exponential.html),
+[TEST\_MATRIX\_EXPONENTIAL](../../master/test_matrix_exponential/test_matrix_exponential.md),
 a C++ library which defines a set of test cases for computing the matrix
 exponential.
 
@@ -98,7 +98,7 @@ exponential.
 -   **R8MAT\_EXPM3** approximates the matrix exponential using an
     eigenvalue approach.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -37,19 +37,19 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FILE\_NAME\_SEQUENCE** is available in [a C
-version](../../c_src/file_name_sequence/file_name_sequence.html) and [a
-C++ version](../../cpp_src/file_name_sequence/file_name_sequence.html)
+version](../../c_src/file_name_sequence/file_name_sequence.md) and [a
+C++ version](../../master/file_name_sequence/file_name_sequence.md)
 and [a FORTRAN77
-version](../../f77_src/file_name_sequence/file_name_sequence.html) and
+version](../../f77_src/file_name_sequence/file_name_sequence.md) and
 [a FORTRAN90
-version](../../f_src/file_name_sequence/file_name_sequence.html) and [a
-MATLAB version](../../m_src/file_name_sequence/file_name_sequence.html)
+version](../../f_src/file_name_sequence/file_name_sequence.md) and [a
+MATLAB version](../../m_src/file_name_sequence/file_name_sequence.md)
 and [a Python
-version](../../py_src/file_name_sequence/file_name_sequence.html).
+version](../../py_src/file_name_sequence/file_name_sequence.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FILUM](../../cpp_src/filum/filum.html), a C++ library which can work
+[FILUM](../../master/filum/filum.md), a C++ library which can work
 with information in text files.
 
 ### Source Code: {#source-code align="center"}
@@ -71,7 +71,7 @@ with information in text files.
     nonblank.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -39,59 +39,59 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **JACOBI\_POLYNOMIAL** is available in [a C
-version](../../c_src/jacobi_polynomial/jacobi_polynomial.html) and [a
-C++ version](../../cpp_src/jacobi_polynomial/jacobi_polynomial.html) and
+version](../../c_src/jacobi_polynomial/jacobi_polynomial.md) and [a
+C++ version](../../master/jacobi_polynomial/jacobi_polynomial.md) and
 [a FORTRAN77
-version](../../f77_src/jacobi_polynomial/jacobi_polynomial.html) and [a
-FORTRAN90 version](../../f_src/jacobi_polynomial/jacobi_polynomial.html)
+version](../../f77_src/jacobi_polynomial/jacobi_polynomial.md) and [a
+FORTRAN90 version](../../f_src/jacobi_polynomial/jacobi_polynomial.md)
 and [a MATLAB
-version](../../m_src/jacobi_polynomial/jacobi_polynomial.html).
+version](../../m_src/jacobi_polynomial/jacobi_polynomial.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[CHEBYSHEV\_POLYNOMIAL](../../cpp_src/chebyshev_polynomial/chebyshev_polynomial.html),
+[CHEBYSHEV\_POLYNOMIAL](../../master/chebyshev_polynomial/chebyshev_polynomial.md),
 a C++ library which considers the Chebyshev polynomials T(i,x), U(i,x),
 V(i,x) and W(i,x). Functions are provided to evaluate the polynomials,
 determine their zeros, produce their polynomial coefficients, produce
 related quadrature rules, project other functions onto these polynomial
 bases, and integrate double and triple products of the polynomials.
 
-[GEGENBAUER\_POLYNOMIAL](../../cpp_src/gegenbauer_polynomial/gegenbauer_polynomial.html),
+[GEGENBAUER\_POLYNOMIAL](../../master/gegenbauer_polynomial/gegenbauer_polynomial.md),
 a C++ library which evaluates the Gegenbauer polynomial and associated
 functions.
 
-[HERMITE\_POLYNOMIAL](../../cpp_src/hermite_polynomial/hermite_polynomial.html),
+[HERMITE\_POLYNOMIAL](../../master/hermite_polynomial/hermite_polynomial.md),
 a C++ library which evaluates the physicist's Hermite polynomial, the
 probabilist's Hermite polynomial, the Hermite function, and related
 functions.
 
-[JACOBI\_RULE](../../cpp_src/jacobi_rule/jacobi_rule.html), a C++
+[JACOBI\_RULE](../../master/jacobi_rule/jacobi_rule.md), a C++
 program which can compute and print a Gauss-Jacobi quadrature rule.
 
-[LAGUERRE\_POLYNOMIAL](../../cpp_src/laguerre_polynomial/laguerre_polynomial.html),
+[LAGUERRE\_POLYNOMIAL](../../master/laguerre_polynomial/laguerre_polynomial.md),
 a C++ library which evaluates the Laguerre polynomial, the generalized
 Laguerre polynomials, and the Laguerre function.
 
-[LEGENDRE\_POLYNOMIAL](../../cpp_src/legendre_polynomial/legendre_polynomial.html),
+[LEGENDRE\_POLYNOMIAL](../../master/legendre_polynomial/legendre_polynomial.md),
 a C++ library which evaluates the Legendre polynomial and associated
 functions.
 
-[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../cpp_src/legendre_shifted_polynomial/legendre_shifted_polynomial.html),
+[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../master/legendre_shifted_polynomial/legendre_shifted_polynomial.md),
 a C++ library which evaluates the shifted Legendre polynomial, with
 domain \[0,1\].
 
-[LOBATTO\_POLYNOMIAL](../../cpp_src/lobatto_polynomial/lobatto_polynomial.html),
+[LOBATTO\_POLYNOMIAL](../../master/lobatto_polynomial/lobatto_polynomial.md),
 a C++ library which evaluates Lobatto polynomials, similar to Legendre
 polynomials except that they are zero at both endpoints.
 
-[POLPAK](../../cpp_src/polpak/polpak.html), a C++ library which
+[POLPAK](../../master/polpak/polpak.md), a C++ library which
 evaluates a variety of mathematical functions.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which supplies test values of various mathematical functions.
 
 ### Reference: {#reference align="center"}
@@ -150,7 +150,7 @@ library which supplies test values of various mathematical functions.
 -   **R8VEC2\_PRINT** prints an R8VEC2.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

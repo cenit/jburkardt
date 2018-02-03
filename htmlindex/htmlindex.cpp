@@ -70,7 +70,7 @@ int main ( int argc, char *argv[] )
 //
 //  Usage:
 //
-//    htmlindex program.f90 > program.html
+//   .mdindex program.f90 > program.md
 //
 {
   int C = 1;
@@ -447,7 +447,7 @@ void handle_c ( string file_name, string s1, string s2 )
 //
 //  Write the header.
 //
-  cout << "<html>\n";
+  cout << ".md>\n";
   cout << "\n";
   cout << "  <head>\n";
   cout << "    <title>\n";
@@ -488,7 +488,7 @@ void handle_c ( string file_name, string s1, string s2 )
   cout << "\n";
   cout << "    <p>\n";
   cout << "      <b>" << s2 << "</b> is available in\n";
-  cout << "      <a href = \"../../c_src/" << s1 << "/" << s1 << ".html\">a C version</a>.\n";
+  cout << "      <a href = \"../../c_src/" << s1 << "/" << s1 << ".md\">a C version</a>.\n";
   cout << "    </p>\n";
   cout << "\n";
   cout << "    <h3 align = \"center\">\n";
@@ -644,7 +644,7 @@ void handle_c ( string file_name, string s1, string s2 )
   cout << "    </p>\n";
   cout << "\n";
   cout << "    <p>\n";
-  cout << "      You can go up one level to <a href = \"../c_src.html\">\n";
+  cout << "      You can go up one level to <a href = \"../c_src.md\">\n";
   cout << "      the C source codes</a>.\n";
   cout << "    </p>\n";
   cout << "\n";
@@ -660,7 +660,7 @@ void handle_c ( string file_name, string s1, string s2 )
   cout << "\n";
   cout << "  <!-- Initial HTML skeleton created by HTMLINDEX. -->\n";
   cout << "\n";
-  cout << "</html>\n";
+  cout << "<.md>\n";
 //
 //  Close the file.
 //
@@ -721,7 +721,7 @@ void handle_cc ( string file_name, string s1, string s2 )
 //
 //  Write the header.
 //
-  cout << "<html>\n";
+  cout << ".md>\n";
   cout << "\n";
   cout << "  <head>\n";
   cout << "    <title>\n";
@@ -762,7 +762,7 @@ void handle_cc ( string file_name, string s1, string s2 )
   cout << "\n";
   cout << "    <p>\n";
   cout << "      <b>" << s2 << "</b> is available in\n";
-  cout << "      <a href = \"../../cpp_src/" << s1 << "/" << s1 << ".html\">a C++ version</a>.\n";
+  cout << "      <a href = \"../../master/" << s1 << "/" << s1 << ".md\">a C++ version</a>.\n";
   cout << "    </p>\n";
   cout << "\n";
   cout << "    <h3 align = \"center\">\n";
@@ -918,7 +918,7 @@ void handle_cc ( string file_name, string s1, string s2 )
   cout << "    </p>\n";
   cout << "\n";
   cout << "    <p>\n";
-  cout << "      You can go up one level to <a href = \"../cpp_src.html\">\n";
+  cout << "      You can go up one level to <a href = \"../cpp_src.md\">\n";
   cout << "      the C++ source codes</a>.\n";
   cout << "    </p>\n";
   cout << "\n";
@@ -934,7 +934,7 @@ void handle_cc ( string file_name, string s1, string s2 )
   cout << "\n";
   cout << "  <!-- Initial HTML skeleton created by HTMLINDEX. -->\n";
   cout << "\n";
-  cout << "</html>\n";
+  cout << "<.md>\n";
 //
 //  Close the file.
 //
@@ -992,7 +992,7 @@ void handle_f77 ( string file_name, string s1, string s2 )
 //
 //  Write the header.
 //
-  cout << "<html>\n";
+  cout << ".md>\n";
   cout << "\n";
   cout << "  <head>\n";
   cout << "    <title>\n";
@@ -1031,7 +1031,7 @@ void handle_f77 ( string file_name, string s1, string s2 )
   cout << "\n";
   cout << "    <p>\n";
   cout << "      <b>" << s2 << "</b> is available in\n";
-  cout << "      <a href = \"../../f77_src/" << s1 << "/" << s1 << ".html\">a FORTRAN77 version</a>.\n";
+  cout << "      <a href = \"../../f77_src/" << s1 << "/" << s1 << ".md\">a FORTRAN77 version</a>.\n";
   cout << "    </p>\n";
   cout << "\n";
   cout << "    <h3 align = \"center\">\n";
@@ -1172,7 +1172,7 @@ void handle_f77 ( string file_name, string s1, string s2 )
   cout << "    </p>\n";
   cout << "\n";
   cout << "    <p>\n";
-  cout << "      You can go up one level to <a href = \"../f77_src.html\">\n";
+  cout << "      You can go up one level to <a href = \"../f77_src.md\">\n";
   cout << "      the FORTRAN77 source codes</a>.\n";
   cout << "    </p>\n";
   cout << "\n";
@@ -1188,7 +1188,7 @@ void handle_f77 ( string file_name, string s1, string s2 )
   cout << "\n";
   cout << "  <!-- Initial HTML skeleton created by HTMLINDEX. -->\n";
   cout << "\n";
-  cout << "</html>\n";
+  cout << "<.md>\n";
 //
 //  Close the file.
 //
@@ -1246,7 +1246,7 @@ void handle_f90 ( string file_name, string s1, string s2 )
 //
 //  Write the header.
 //
-  cout << "<html>\n";
+  cout << ".md>\n";
   cout << "\n";
   cout << "  <head>\n";
   cout << "    <title>\n";
@@ -1285,7 +1285,7 @@ void handle_f90 ( string file_name, string s1, string s2 )
   cout << "\n";
   cout << "    <p>\n";
   cout << "      <b>" << s2 << "</b> is available in\n";
-  cout << "      <a href = \"../../f_src/" << s1 << "/" << s1 << ".html\">a FORTRAN90 version</a>.\n";
+  cout << "      <a href = \"../../f_src/" << s1 << "/" << s1 << ".md\">a FORTRAN90 version</a>.\n";
   cout << "    </p>\n";
   cout << "\n";
   cout << "    <h3 align = \"center\">\n";
@@ -1425,7 +1425,7 @@ void handle_f90 ( string file_name, string s1, string s2 )
   cout << "    </p>\n";
   cout << "\n";
   cout << "    <p>\n";
-  cout << "      You can go up one level to <a href = \"../f_src.html\">\n";
+  cout << "      You can go up one level to <a href = \"../f_src.md\">\n";
   cout << "      the FORTRAN90 source codes</a>.\n";
   cout << "    </p>\n";
   cout << "\n";
@@ -1441,7 +1441,7 @@ void handle_f90 ( string file_name, string s1, string s2 )
   cout << "\n";
   cout << "  <!-- Initial HTML skeleton created by HTMLINDEX. -->\n";
   cout << "\n";
-  cout << "</html>\n";
+  cout << "<.md>\n";
 //
 //  Close the file.
 //
@@ -1499,7 +1499,7 @@ void handle_m ( string file_name, string s1, string s2 )
 //
 //  Write the header.
 //
-  cout << "<html>\n";
+  cout << ".md>\n";
   cout << "\n";
   cout << "  <head>\n";
   cout << "    <title>\n";
@@ -1538,7 +1538,7 @@ void handle_m ( string file_name, string s1, string s2 )
   cout << "\n";
   cout << "    <p>\n";
   cout << "      <b>" << s2 << "</b> is available in\n";
-  cout << "      <a href = \"../../m_src/" << s1 << "/" << s1 << ".html\">a Matlab version</a>.\n";
+  cout << "      <a href = \"../../m_src/" << s1 << "/" << s1 << ".md\">a Matlab version</a>.\n";
   cout << "\n";
   cout << "    <h3 align = \"center\">\n";
   cout << "      Related Software and Data:\n";
@@ -1659,7 +1659,7 @@ void handle_m ( string file_name, string s1, string s2 )
   cout << "    </p>\n";
   cout << "\n";
   cout << "    <p>\n";
-  cout << "      You can go up one level to <a href = \"../m_src.html\">\n";
+  cout << "      You can go up one level to <a href = \"../m_src.md\">\n";
   cout << "      the MATLAB source codes</a>.\n";
   cout << "    </p>\n";
   cout << "\n";
@@ -1675,7 +1675,7 @@ void handle_m ( string file_name, string s1, string s2 )
   cout << "\n";
   cout << "  <!-- Initial HTML skeleton created by HTMLINDEX. -->\n";
   cout << "\n";
-  cout << "</html>\n";
+  cout << "<.md>\n";
 //
 //  Close the file.
 //

@@ -1,4 +1,4 @@
-<html>
+.md>
 
   <head>
     <title>
@@ -40,7 +40,7 @@
 
     <p>
       <b>FEM1D_PROJECT</b> is available in
-      <a href = "../../cpp_src/fem1d_project/fem1d_project.html">a C++ version</a>.
+      <a href = "../../master/fem1d_project/fem1d_project.md">a C++ version</a>.
     </p>
 
     <h3 align = "center">
@@ -190,7 +190,7 @@
     </p>
 
     <p>
-      You can go up one level to <a href = "../cpp_src.html">
+      You can go up one level to <a href = "../cpp_src.md">
       the C++ source codes</a>.
     </p>
 
@@ -206,4 +206,4 @@
 
   <!-- Initial HTML skeleton created by HTMLINDEX. -->
 
-</html>
+<.md>

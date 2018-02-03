@@ -34,36 +34,36 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **COMPASS\_SEARCH** is available in [a C
-version](../../c_src/compass_search/compass_search.html) and [a C++
-version](../../cpp_src/compass_search/compass_search.html) and [a
-FORTRAN77 version](../../f77_src/compass_search/compass_search.html) and
-[a FORTRAN90 version](../../f_src/compass_search/compass_search.html)
-and [a MATLAB version](../../m_src/compass_search/compass_search.html)
-and [a Python version](../../py_src/compass_search/compass_search.html).
+version](../../c_src/compass_search/compass_search.md) and [a C++
+version](../../master/compass_search/compass_search.md) and [a
+FORTRAN77 version](../../f77_src/compass_search/compass_search.md) and
+[a FORTRAN90 version](../../f_src/compass_search/compass_search.md)
+and [a MATLAB version](../../m_src/compass_search/compass_search.md)
+and [a Python version](../../py_src/compass_search/compass_search.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA047](../../cpp_src/asa047/asa047.html), a C++ library which
+[ASA047](../../master/asa047/asa047.md), a C++ library which
 minimizes a scalar function of several variables using the Nelder-Mead
 algorithm.
 
-[ENTRUST](../../m_src/entrust/entrust.html), a MATLAB program which
+[ENTRUST](../../m_src/entrust/entrust.md), a MATLAB program which
 minimizes a scalar function of several variables using trust-region
 methods.
 
-[NELDER\_MEAD](../../m_src/nelder_mead/nelder_mead.html), a MATLAB
+[NELDER\_MEAD](../../m_src/nelder_mead/nelder_mead.md), a MATLAB
 program which minimizes a scalar function of several variables using the
 Nelder-Mead algorithm.
 
-[PRAXIS](../../f_src/praxis/praxis.html), a FORTRAN90 library which
+[PRAXIS](../../f_src/praxis/praxis.md), a FORTRAN90 library which
 implements the principal axis method of Richard Brent for minimization
 of a function without the use of derivatives.
 
-[TEST\_OPT](../../cpp_src/test_opt/test_opt.html), a C++ library which
+[TEST\_OPT](../../master/test_opt/test_opt.md), a C++ library which
 defines test problems requiring the minimization of a scalar function of
 several variables.
 
-[TOMS178](../../cpp_src/toms178/toms178.html), a C++ library which
+[TOMS178](../../master/toms178/toms178.md), a C++ library which
 optimizes a scalar functional of multiple variables using the
 Hooke-Jeeves method.
 
@@ -145,7 +145,7 @@ John Burkardt
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

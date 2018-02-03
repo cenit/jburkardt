@@ -20,65 +20,65 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUAD\_MPI** is available in [a C
-version](../../c_src/quad_mpi/quad_mpi.html) and [a C++
-version](../../cpp_src/quad_mpi/quad_mpi.html) and [a FORTRAN90
-version](../../f_src/quad_mpi/quad_mpi.html) and [a FORTRAN77
-version](../../f77_src/quad_mpi/quad_mpi.html) and [a PYTHON
-version](../../py_src/quad_mpi/quad_mpi.html).
+version](../../c_src/quad_mpi/quad_mpi.md) and [a C++
+version](../../master/quad_mpi/quad_mpi.md) and [a FORTRAN90
+version](../../f_src/quad_mpi/quad_mpi.md) and [a FORTRAN77
+version](../../f77_src/quad_mpi/quad_mpi.md) and [a PYTHON
+version](../../py_src/quad_mpi/quad_mpi.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[COMMUNICATOR\_MPI](../../cpp_src/communicator_mpi/communicator_mpi.html),
+[COMMUNICATOR\_MPI](../../master/communicator_mpi/communicator_mpi.md),
 a C++ program which creates new communicators involving a subset of
 initial set of MPI processes in the default communicator
 MPI\_COMM\_WORLD.
 
-[HEAT\_MPI](../../cpp_src/heat_mpi/heat_mpi.html), a C++ program which
+[HEAT\_MPI](../../master/heat_mpi/heat_mpi.md), a C++ program which
 solves the 1D Time Dependent Heat Equation using MPI.
 
-[HELLO\_MPI](../../cpp_src/hello_mpi/hello_mpi.html), a C++ program
+[HELLO\_MPI](../../master/hello_mpi/hello_mpi.md), a C++ program
 which prints out "Hello, world!" using the MPI parallel programming
 environment.
 
-[MPI](../../cpp_src/mpi/mpi.html), C++ programs which illustrate the use
+[MPI](../../master/mpi/mpi.md), C++ programs which illustrate the use
 of the MPI application program interface for carrying out parallel
 computatioins in a distributed memory environment.
 
-[MULTITASK\_MPI](../../cpp_src/multitask_mpi/multitask_mpi.html), a C++
+[MULTITASK\_MPI](../../master/multitask_mpi/multitask_mpi.md), a C++
 program which demonstrates how to "multitask", that is, to execute
 several unrelated and distinct tasks simultaneously, using MPI for
 parallel execution.
 
-[PRIME\_MPI](../../cpp_src/prime_mpi/prime_mpi.html), a C++ program
+[PRIME\_MPI](../../master/prime_mpi/prime_mpi.md), a C++ program
 which counts the number of primes between 1 and N, using MPI for
 parallel execution.
 
-[QUAD\_OPENMP](../../cpp_src/quad_openmp/quad_openmp.html), a C++
+[QUAD\_OPENMP](../../master/quad_openmp/quad_openmp.md), a C++
 program which approximates an integral using a quadrature rule, and
 carries out the computation in parallel using OpenMP.
 
-[QUAD\_SERIAL](../../cpp_src/quad_serial/quad_serial.html), a C++
+[QUAD\_SERIAL](../../master/quad_serial/quad_serial.md), a C++
 program which approximates an integral using a quadrature rule, and is
 intended as a starting point for parallelization exercises.
 
-[RANDOM\_MPI](../../cpp_src/random_mpi/random_mpi.html), a C++ program
+[RANDOM\_MPI](../../master/random_mpi/random_mpi.md), a C++ program
 which demonstrates one way to generate the same sequence of random
 numbers for both sequential execution and parallel execution under MPI.
 
-[RING\_MPI](../../cpp_src/ring_mpi/ring_mpi.html), a C++ program which
+[RING\_MPI](../../master/ring_mpi/ring_mpi.md), a C++ program which
 uses the MPI parallel programming environment, and measures the time
 necessary to copy a set of data around a ring of processes.
 
-[SATISFY\_MPI](../../cpp_src/satisfy_mpi/satisfy_mpi.html), a C++
+[SATISFY\_MPI](../../master/satisfy_mpi/satisfy_mpi.md), a C++
 program which demonstrates, for a particular circuit, an exhaustive
 search for solutions of the circuit satisfiability problem, using MPI to
 carry out the calculation in parallel.
 
-[SEARCH\_MPI](../../cpp_src/search_mpi/search_mpi.html), a C++ program
+[SEARCH\_MPI](../../master/search_mpi/search_mpi.md), a C++ program
 which searches integers between A and B for a value J such that F(J) =
 C, using MPI for parallel execution.
 
-[WAVE\_MPI](../../cpp_src/wave_mpi/wave_mpi.html), a C++ program which
+[WAVE\_MPI](../../master/wave_mpi/wave_mpi.md), a C++ program which
 uses finite differences and MPI to estimate a solution to the wave
 equation.
 
@@ -160,7 +160,7 @@ system has multiple cores.
 
 -   [quad\_local\_output.txt](quad_local_output.txt), the output file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

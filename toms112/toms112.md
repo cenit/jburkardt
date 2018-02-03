@@ -15,29 +15,29 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS112** is available in [a C
-version](../../c_src/toms112/toms112.html) and [a C++
-version](../../cpp_src/toms112/toms112.html) and [a FORTRAN90
-version](../../f_src/toms112/toms112.html) and [a MATLAB
-version](../../m_src/toms112/toms112.html) and [a Python
-version](../../py_src/toms112/toms112.html).
+version](../../c_src/toms112/toms112.md) and [a C++
+version](../../master/toms112/toms112.md) and [a FORTRAN90
+version](../../f_src/toms112/toms112.md) and [a MATLAB
+version](../../m_src/toms112/toms112.md) and [a Python
+version](../../py_src/toms112/toms112.md).
 
 ### Related Software and Data: {#related-software-and-data align="center"}
 
-[GEOMETRY](../../cpp_src/geometry/geometry.html), a C++7 library which
+[GEOMETRY](../../master/geometry/geometry.md), a C++7 library which
 performs geometric calculations in 2, 3 and N dimensional space.
 
-[POLYGON\_MONTE\_CARLO](../../cpp_src/polygon_monte_carlo/polygon_monte_carlo.html),
+[POLYGON\_MONTE\_CARLO](../../master/polygon_monte_carlo/polygon_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the interior of a polygon in 2D.
 
-[POLYGON\_PROPERTIES](../../cpp_src/polygon_properties/polygon_properties.html),
+[POLYGON\_PROPERTIES](../../master/polygon_properties/polygon_properties.md),
 a C++ library which computes properties of an arbitrary polygon in the
 plane, defined by a sequence of vertices, including interior angles,
 area, centroid, containment of a point, convexity, diameter, distance to
 a point, inradius, lattice area, nearest point in set, outradius,
 uniform sampling.
 
-[POLYGON\_TRIANGULATE](../../cpp_src/polygon_triangulate/polygon_triangulate.html),
+[POLYGON\_TRIANGULATE](../../master/polygon_triangulate/polygon_triangulate.md),
 a C++ library which triangulates a possibly nonconvex polygon, and which
 can use gnuplot to display the external edges and internal diagonals of
 the triangulation.
@@ -65,7 +65,7 @@ the triangulation.
 -   **R8VEC2\_PRINT** prints an R8VEC2.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

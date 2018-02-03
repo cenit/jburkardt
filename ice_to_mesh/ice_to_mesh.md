@@ -26,39 +26,39 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ICE\_TO\_MESH** is available in [a C
-version](../../c_src/ice_to_mesh/ice_to_mesh.html) and [a C++
-version](../../cpp_src/ice_to_mesh/ice_to_mesh.html) and [a FORTRAN77
-version](../../f77_src/ice_to_mesh/ice_to_mesh.html) and [a FORTRAN90
-version](../../f_src/ice_to_mesh/ice_to_mesh.html) and [a MATLAB
-version](../../m_src/ice_to_mesh/ice_to_mesh.html).
+version](../../c_src/ice_to_mesh/ice_to_mesh.md) and [a C++
+version](../../master/ice_to_mesh/ice_to_mesh.md) and [a FORTRAN77
+version](../../f77_src/ice_to_mesh/ice_to_mesh.md) and [a FORTRAN90
+version](../../f_src/ice_to_mesh/ice_to_mesh.md) and [a MATLAB
+version](../../m_src/ice_to_mesh/ice_to_mesh.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[FEM\_TO\_MESH](../../cpp_src/fem_to_mesh/fem_to_mesh.html), a C++
+[FEM\_TO\_MESH](../../master/fem_to_mesh/fem_to_mesh.md), a C++
 program which reads a pair of FEM files defining node coordinates and
 elements, and creates a corresponding MESH file.
 
-[ICE](../../data/ice/ice.html), a data directory which contains examples
+[ICE](../../data/ice/ice.md), a data directory which contains examples
 of ICE files, which store icesheet grid datasets in the NETCDF format.
 
-[ICE\_IO](../../cpp_src/ice_io/ice_io.html), a C++ library which reads
+[ICE\_IO](../../master/ice_io/ice_io.md), a C++ library which reads
 or writes ICE datasets, using the NETCDF format.
 
-[MESH](../../data/mesh/mesh.html), a data directory which contains
+[MESH](../../data/mesh/mesh.md), a data directory which contains
 examples of MESH files, which can be used to define the geometry of a
 finite element mesh in 2D or 3D, using triangles, quadrilaterals,
 tetrahedrons or hexahedrons.
 
-[MESH\_IO](../../cpp_src/mesh_io/mesh_io.html), a C++ library which can
+[MESH\_IO](../../master/mesh_io/mesh_io.md), a C++ library which can
 read or write MESH files, which can be used to define the geometry of a
 finite element mesh in 2D or 3D, using triangles, quadrilaterals,
 tetrahedrons or hexahedrons.
 
-[MESH\_TO\_ICE](../../cpp_src/mesh_to_ice/mesh_to_ice.html), a C++
+[MESH\_TO\_ICE](../../master/mesh_to_ice/mesh_to_ice.md), a C++
 program which reads a MESH file containing an ICE dataset and rewrites
 the information as a NETCDF file.
 
-[TRIANGLE\_TO\_MESH](../../cpp_src/triangle_to_mesh/triangle_to_mesh.html),
+[TRIANGLE\_TO\_MESH](../../master/triangle_to_mesh/triangle_to_mesh.md),
 a C++ program which reads the NODE and ELE files created by TRIANGLE to
 describe a triangular mesh, and writes a corresponding MESH file for
 input to MEDIT.
@@ -108,7 +108,7 @@ triangles, 150,779 tetrahedrons, 50 corners, 1905 edges and 1905 ridges.
 -   **SIZE\_READ** reads ICE sizes from a NETCDF file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

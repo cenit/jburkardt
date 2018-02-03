@@ -63,20 +63,20 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **C8\_COMPLEX\_LIB** is available in [a C
-version](../../c_src/c8_complex_lib/c8_complex_lib.html) and [a C++
-version](../../cpp_src/c8_complex_lib/c8_complex_lib.html).
+version](../../c_src/c8_complex_lib/c8_complex_lib.md) and [a C++
+version](../../master/c8_complex_lib/c8_complex_lib.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[C4\_COMPLEX\_LIB](../../cpp_src/c4_complex_lib/c4_complex_lib.html), a
+[C4\_COMPLEX\_LIB](../../master/c4_complex_lib/c4_complex_lib.md), a
 C++ library which defines a class called c4\_complex for complex numbers
 with single precision components.
 
-[C8LIB](../../cpp_src/c8lib/c8lib.html), a C++ library which implements
+[C8LIB](../../master/c8lib/c8lib.md), a C++ library which implements
 certain elementary functions for "C8" or double precision complex
 variables using the C++ "complex " datatype.
 
-[CPP](../../cpp_src/cpp/cpp.html), C++ programs which includes an
+[CPP](../../master/cpp/cpp.md), C++ programs which includes an
 example of the declaration and use of complex variables.
 
 ### Reference: {#reference align="center"}
@@ -98,7 +98,7 @@ example of the declaration and use of complex variables.
 -   [c8\_complex\_lib\_prb\_output.txt](c8_complex_lib_prb_output.txt),
     the output file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

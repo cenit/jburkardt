@@ -32492,7 +32492,7 @@ void soccer_shape_3d ( int point_num, int face_num, int face_order_max,
 //
 //  Reference:
 //
-//    http://mathworld.wolfram.com/TruncatedIcosahedron.html
+//    http://mathworld.wolfram.com/TruncatedIcosahedron.md
 //
 //  Parameters:
 //
@@ -32651,7 +32651,7 @@ void soccer_size_3d ( int *point_num, int *edge_num, int *face_num,
 //
 //  Reference:
 //
-//    http://polyhedra.wolfram.com/uniform/u25.html
+//    http://polyhedra.wolfram.com/uniform/u25.md
 //
 //  Parameters:
 //
@@ -36668,7 +36668,7 @@ double sphere01_polygon_area_karney ( int n, double lat[], double lon[] )
 //    Charles Karney,
 //    GeographicLib,
 //    September 2010
-//    http://geographiclib.sf.net/html/geodesic.html#geodarea
+//    http://geographiclib.sf.net.md/geodesic.md#geodarea
 //
 //    Isaac Todhunter,
 //    Section 103, equation 2,
@@ -36679,7 +36679,7 @@ double sphere01_polygon_area_karney ( int n, double lat[], double lon[] )
 //    This routine gives the area for spherical polygons which do not include a
 //    pole.  A solution of this problem for ellipsoidal polygons which include
 //    a pole is provided by the Planimeter utility of GeographicLib; see
-//    http://geographiclib.sf.net/html/utilities.html#planimeter
+//    http://geographiclib.sf.net.md/utilities.md#planimeter
 //
 //  Parameters:
 //

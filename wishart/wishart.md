@@ -37,32 +37,32 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **WISHART** is available in [a C
-version](../../c_src/wishart/wishart.html) and [a C++
-version](../../cpp_src/wishart/wishart.html) and [a FORTRAN77
-version](../../f77_src/wishart/wishart.html) and [a FORTRAN90
-version](../../f_src/wishart/wishart.html) and [a MATLAB
-version](../../m_src/wishart/wishart.html).
+version](../../c_src/wishart/wishart.md) and [a C++
+version](../../master/wishart/wishart.md) and [a FORTRAN77
+version](../../f77_src/wishart/wishart.md) and [a FORTRAN90
+version](../../f_src/wishart/wishart.md) and [a MATLAB
+version](../../m_src/wishart/wishart.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA053](../../cpp_src/asa053/asa053.html), a C++ library which produces
+[ASA053](../../master/asa053/asa053.md), a C++ library which produces
 sample matrices from the Wishart distribution, by William Smith and
 Ronald Hocking. This is a version of Applied Statistics Algorithm 53.
 
-[PDFLIB](../../cpp_src/pdflib/pdflib.html), a C++ library which
+[PDFLIB](../../master/pdflib/pdflib.md), a C++ library which
 evaluates Probability Density Functions (PDF's) and produces random
 samples from them, including beta, binomial, chi, exponential, gamma,
 inverse chi, inverse gamma, multinomial, normal, scaled inverse chi, and
 uniform.
 
-[RANLIB](../../cpp_src/ranlib/ranlib.html), a C++ library which produces
+[RANLIB](../../master/ranlib/ranlib.md), a C++ library which produces
 random samples from Probability Density Functions (PDF's), including
 Beta, Chi-square Exponential, F, Gamma, Multivariate normal, Noncentral
 chi-square, Noncentral F, Univariate normal, random permutations, Real
 uniform, Binomial, Negative Binomial, Multinomial, Poisson and Integer
 uniform, by Barry Brown and James Lovato.
 
-[RNGLIB](../../cpp_src/rnglib/rnglib.html), a C++ library which
+[RNGLIB](../../master/rnglib/rnglib.md), a C++ library which
 implements a random number generator (RNG) with splitting facilities,
 allowing multiple independent streams to be computed, by L'Ecuyer and
 Cote.
@@ -114,7 +114,7 @@ Cote.
 -   **WISHART\_SAMPLE** samples the Wishart distribution.
 -   **WISHART\_UNIT\_SAMPLE** samples the unit Wishart distribution.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

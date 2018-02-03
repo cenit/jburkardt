@@ -9,7 +9,7 @@ Gamma function.
 
 The text of many ACM TOMS algorithms is available online through ACM:
 [http://www.acm.org/pubs/calgo](http://www.acm.org/pubs/calgo/) or
-NETLIB: <http://www.netlib.org/toms/index.html>.
+NETLIB: <http://www.netlib.org/toms/index.md>.
 
 ### Licensing: {#licensing align="center"}
 
@@ -20,31 +20,31 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS291** is available in [a C
-version](../../c_src/toms291/toms291.html) and [a C++
-version](../../cpp_src/toms291/toms291.html) and [a FORTRAN77
-version](../../f77_src/toms291/toms291.html) and [a FORTRAN90
-version](../../f_src/toms291/toms291.html) and [a MATLAB
-version](../../m_src/toms291/toms291.html).
+version](../../c_src/toms291/toms291.md) and [a C++
+version](../../master/toms291/toms291.md) and [a FORTRAN77
+version](../../f77_src/toms291/toms291.md) and [a FORTRAN90
+version](../../f_src/toms291/toms291.md) and [a MATLAB
+version](../../m_src/toms291/toms291.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA245](../../cpp_src/asa245/asa245.html), a C++ library which
+[ASA245](../../master/asa245/asa245.md), a C++ library which
 evaluates the logarithm of the Gamma function.
 
-[GSL](../../cpp_src/gsl/gsl.html), a C++ library which evaluates many
+[GSL](../../master/gsl/gsl.md), a C++ library which evaluates many
 special functions, including the logarithm of the Gamma function.
 
-[POLPAK](../../cpp_src/polpak/polpak.html), a C++ library which
+[POLPAK](../../master/polpak/polpak.md), a C++ library which
 evaluates a variety of special functions.
 
-[SPECFUN](../../f77_src/specfun/specfun.html), a FORTRAN77 library which
+[SPECFUN](../../f77_src/specfun/specfun.md), a FORTRAN77 library which
 evaluates a variety of special functions.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which tabulates several values of a variety of special
 functions.
 
-[TOMS708](../../f_src/toms708/toms708.html), a FORTRAN90 library which
+[TOMS708](../../f_src/toms708/toms708.md), a FORTRAN90 library which
 evaluates several special functions, including the logarithm of the
 Gamma function.
 
@@ -72,7 +72,7 @@ Gamma function.
     function.
 -   **TIMESTAMP** prints out the current YMDHMS date as a timestamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

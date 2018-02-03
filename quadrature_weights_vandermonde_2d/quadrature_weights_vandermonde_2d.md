@@ -54,45 +54,45 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUADRATURE\_WEIGHTS\_VANDERMONDE\_2D** is available in [a C
-version](../../c_src/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.html)
+version](../../c_src/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.md)
 and [a C++
-version](../../cpp_src/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.html)
+version](../../master/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.md)
 and [a FORTRAN77
-version](../../f77_src/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.html)
+version](../../f77_src/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.md)
 and [a FORTRAN90
-version](../../f_src/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.html)
+version](../../f_src/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.md)
 and [a MATLAB
-version](../../m_src/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.html).
+version](../../m_src/quadrature_weights_vandermonde_2d/quadrature_weights_vandermonde_2d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[EXACTNESS\_2D](../../cpp_src/exactness_2d/exactness_2d.html), a C++
+[EXACTNESS\_2D](../../master/exactness_2d/exactness_2d.md), a C++
 library which investigates the exactness of 2D quadrature rules that
 estimate the integral of a function f(x,y) over a 2D domain.
 
-[QUADRATURE\_LEAST\_SQUARES](../../cpp_src/quadrature_least_squares/quadrature_least_squares.html),
+[QUADRATURE\_LEAST\_SQUARES](../../master/quadrature_least_squares/quadrature_least_squares.md),
 a C++ library which computes weights for "sub-interpolatory" quadrature
 rules, that is, it estimates integrals by integrating a polynomial that
 approximates the function data in a least squares sense.
 
-[QUADRATURE\_GOLUB\_WELSCH](../../cpp_src/quadrature_golub_welsch/quadrature_golub_welsch.html),
+[QUADRATURE\_GOLUB\_WELSCH](../../master/quadrature_golub_welsch/quadrature_golub_welsch.md),
 a C++ library which computes the points and weights of a Gaussian
 quadrature rule using the Golub-Welsch procedure, assuming that the
 points have been specified.
 
-[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../cpp_src/quadrature_weights_vandermonde/quadrature_weights_vandermonde.html),
+[QUADRATURE\_WEIGHTS\_VANDERMONDE](../../master/quadrature_weights_vandermonde/quadrature_weights_vandermonde.md),
 a C++ library which computes the weights of a 1D quadrature rule using
 the Vandermonde matrix, assuming that the points have been specified.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for 1-dimensional domains.
 
-[TOMS655](../../cpp_src/toms655/toms655.html), a C++ library which
+[TOMS655](../../master/toms655/toms655.md), a C++ library which
 computes the weights for interpolatory quadrature rule;\
 this library is commonly called **IQPACK**;\
 this is a FORTRAN90 version of ACM TOMS algorithm 655.
 
-[VANDERMONDE](../../cpp_src/vandermonde/vandermonde.html), a C++ library
+[VANDERMONDE](../../master/vandermonde/vandermonde.md), a C++ library
 which carries out certain operations associated with the Vandermonde
 matrix.
 
@@ -140,7 +140,7 @@ matrix.
 -   **R8VEC\_ZERO\_NEW** creates and zeroes an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

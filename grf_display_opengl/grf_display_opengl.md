@@ -25,58 +25,58 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **GRF\_DISPLAY\_OPENGL** is available in [a C++
-version](../../cpp_src/grf_display_opengl/grf_display_opengl.html).
+version](../../master/grf_display_opengl/grf_display_opengl.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[GRAFFITI](../../datasets/graffiti/graffiti.html), a dataset directory
+[GRAFFITI](../../datasets/graffiti/graffiti.md), a dataset directory
 which contains 195 abstract graphs, with adjacency and embedding
 information, stored in the GRF format.
 
-[GRAPH\_REPRESENTATION](../../data/graph_representation/graph_representation.html),
+[GRAPH\_REPRESENTATION](../../data/graph_representation/graph_representation.md),
 a data directory of examples of ways of representing abstract
 mathematical graphs
 
-[GRF](../../data/grf/grf.html), a data directory which contains a
+[GRF](../../data/grf/grf.md), a data directory which contains a
 description of the GRF format and some examples.
 
-[GRF\_DISPLAY](../../m_src/grf_display/grf_display.html), a MATLAB
+[GRF\_DISPLAY](../../m_src/grf_display/grf_display.md), a MATLAB
 program which reads a GRF file and displays a plot in the MATLAB
 graphics window.
 
-[GRF\_IO](../../cpp_src/grf_io/grf_io.html), a C++ library which reads
+[GRF\_IO](../../master/grf_io/grf_io.md), a C++ library which reads
 or writes a GRF file;
 
-[GRF\_TO\_EPS](../../f_src/grf_to_eps/grf_to_eps.html), a FORTRAN90
+[GRF\_TO\_EPS](../../f_src/grf_to_eps/grf_to_eps.md), a FORTRAN90
 program which can make an encapsulated PostScript image of a GRF file.
 
-[GRF\_TO\_XYL](../../f_src/grf_to_xyl/grf_to_xyl.html), a FORTRAN90
+[GRF\_TO\_XYL](../../f_src/grf_to_xyl/grf_to_xyl.md), a FORTRAN90
 program which converts information describing the adjacency and
 embedding of an abstract graph from GRF to XYL format.
 
-[PLOT\_POINTS](../../f_src/plot_points/plot_points.html), a FORTRAN90
+[PLOT\_POINTS](../../f_src/plot_points/plot_points.md), a FORTRAN90
 program which reads a file of point coordinates and makes a PostScript
 image of them.
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[XYL](../../data/xyl/xyl.html), a data directory which contains some
+[XYL](../../data/xyl/xyl.md), a data directory which contains some
 examples of the XYL format for 2D points and lines.
 
-[XY\_DISPLAY\_OPENGL](../../cpp_src/xy_display_opengl/xy_display_opengl.html),
+[XY\_DISPLAY\_OPENGL](../../master/xy_display_opengl/xy_display_opengl.md),
 a C++ program which reads an XY file of 2D point coordinates, and
 displays an image of those points using OpenGL.
 
-[XYF\_DISPLAY\_OPENGL](../../cpp_src/xyf_display_opengl/xyf_display_opengl.html),
+[XYF\_DISPLAY\_OPENGL](../../master/xyf_display_opengl/xyf_display_opengl.md),
 a C++ program which reads XYF information defining points and faces in
 2D, and displays an image using OpenGL.
 
-[XYL\_DISPLAY\_OPENGL](../../cpp_src/xyl_display_opengl/xyl_display_opengl.html),
+[XYL\_DISPLAY\_OPENGL](../../master/xyl_display_opengl/xyl_display_opengl.md),
 a C++ program which reads XYL information defining points and lines in
 2D, and displays an image using OpenGL.
 
@@ -148,7 +148,7 @@ a C++ program which reads XYL information defining points and lines in
 -   **XYL\_DATA\_PRINT** prints the data of an XYL file.
 -   **XYL\_HEADER\_PRINT** prints the header of an XYL file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

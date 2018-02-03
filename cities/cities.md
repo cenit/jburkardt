@@ -32,62 +32,62 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CITIES** is available in [a C++
-version](../../cpp_src/cities/cities.html) and [a FORTRAN90
-version](../../f_src/cities/cities.html) and [a MATLAB
-version.](../../m_src/cities/cities.html)
+version](../../master/cities/cities.md) and [a FORTRAN90
+version](../../f_src/cities/cities.md) and [a MATLAB
+version.](../../m_src/cities/cities.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA058](../../cpp_src/asa058/asa058.html), a C++ library which contains
+[ASA058](../../master/asa058/asa058.md), a C++ library which contains
 the original text of the Sparks clustering algorithm.
 
-[ASA136](../../cpp_src/asa136/asa136.html), a C++ library which
+[ASA136](../../master/asa136/asa136.md), a C++ library which
 implements the K-Means algorithm.
 
-[CITIES](../../datasets/cities/cities.html), a dataset directory which
+[CITIES](../../datasets/cities/cities.md), a dataset directory which
 contains a number of city distance datasets.
 
-[DISTANCE\_TO\_POSITION](../../f_src/distance_to_position/distance_to_position.html),
+[DISTANCE\_TO\_POSITION](../../f_src/distance_to_position/distance_to_position.md),
 a FORTRAN90 program which estimates the positions of cities based on a
 city-to-city distance table.
 
-[DISTANCE\_TO\_POSITION\_SPHERE](../../m_src/distance_to_position_sphere/distance_to_position_sphere.html),
+[DISTANCE\_TO\_POSITION\_SPHERE](../../m_src/distance_to_position_sphere/distance_to_position_sphere.md),
 a MATLAB program which estimates the positions of cities on a sphere
 (such as the earth) based on a city-to-city distance table.
 
-[FLOYD](../../cpp_src/floyd/floyd.html), a C++ library which implements
+[FLOYD](../../master/floyd/floyd.md), a C++ library which implements
 Floyd's algorithm for finding the shortest distance between pairs of
 nodes on a directed graph.
 
-[KMEANS](../../cpp_src/kmeans/kmeans.html), a C++ library which treats
+[KMEANS](../../master/kmeans/kmeans.md), a C++ library which treats
 the K-means problem of grouping a discrete set of N points into K
 clusters.
 
-[LAU\_NP](../../f_src/lau_np/lau_np.html), a FORTRAN90 library which
+[LAU\_NP](../../f_src/lau_np/lau_np.md), a FORTRAN90 library which
 includes heuristic approaches to certain NP-complete problems, including
 the traveling salesman problem, the K-center problem and the K-median
 problem.
 
-[POINT\_MERGE](../../cpp_src/point_merge/point_merge.html), a C++
+[POINT\_MERGE](../../master/point_merge/point_merge.md), a C++
 library which considers N points in M dimensional space, and counts or
 indexes the unique or "tolerably unique" items.
 
-[SPAETH](../../f_src/spaeth/spaeth.html), a FORTRAN90 library which can
+[SPAETH](../../f_src/spaeth/spaeth.md), a FORTRAN90 library which can
 cluster data according to various principles.
 
-[SPAETH](../../datasets/spaeth/spaeth.html), a dataset collection which
+[SPAETH](../../datasets/spaeth/spaeth.md), a dataset collection which
 contains a set of test data.
 
-[SPAETH2](../../f_src/spaeth2/spaeth2.html), a FORTRAN90 library which
+[SPAETH2](../../f_src/spaeth2/spaeth2.md), a FORTRAN90 library which
 can cluster data according to various principles.
 
-[SPAETH2](../../datasets/spaeth2/spaeth2.html), a dataset collection
+[SPAETH2](../../datasets/spaeth2/spaeth2.md), a dataset collection
 which contains a set of test data.
 
-[TOMS456](../../f77_src/toms456/toms456.html), a FORTRAN77 library which
+[TOMS456](../../f77_src/toms456/toms456.md), a FORTRAN77 library which
 solves the routing problem, connecting some nodes in a network.
 
-[TSP](../../datasets/tsp/tsp.html), a dataset directory which contains
+[TSP](../../datasets/tsp/tsp.md), a dataset directory which contains
 test data for the traveling salesperson problem;
 
 ### Reference: {#reference align="center"}
@@ -228,7 +228,7 @@ test data for the traveling salesperson problem;
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **WORD\_NEXT\_READ** "reads" words from a string, one at a time.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

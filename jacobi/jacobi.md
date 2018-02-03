@@ -18,23 +18,23 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**JACOBI** is available in [a C version](../../c_src/jacobi/jacobi.html)
-and [a C++ version](../../cpp_src/jacobi/jacobi.html) and [a FORTRAN77
-version](../../f77_src/jacobi/jacobi.html) and [a FORTRAN90
-version](../../f_src/jacobi/jacobi.html) and [a MATLAB
-version](../../m_src/jacobi/jacobi.html).
+**JACOBI** is available in [a C version](../../c_src/jacobi/jacobi.md)
+and [a C++ version](../../master/jacobi/jacobi.md) and [a FORTRAN77
+version](../../f77_src/jacobi/jacobi.md) and [a FORTRAN90
+version](../../f_src/jacobi/jacobi.md) and [a MATLAB
+version](../../m_src/jacobi/jacobi.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CG\_RC](../../cpp_src/cg_rc/cg_rc.html), a C++ library which implements
+[CG\_RC](../../master/cg_rc/cg_rc.md), a C++ library which implements
 the conjugate gradient method for solving a positive definite sparse
 linear system A\*x=b, using reverse communication.
 
-[GNUPLOT\_I](../../c_src/gnuplot_i/gnuplot_i.html), a C library which
+[GNUPLOT\_I](../../c_src/gnuplot_i/gnuplot_i.md), a C library which
 allows an executing C, C++, FORTRAN77 or FORTRAN90 program to interact
 with the GNUPLOT graphics program, by Nicholas Devillard.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices.
 
 ### Reference: {#reference align="center"}
@@ -69,7 +69,7 @@ defines test matrices.
     difference of R8VEC's.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

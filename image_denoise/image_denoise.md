@@ -51,23 +51,23 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **IMAGE\_DENOISE** is available in [a C
-version](../../c_src/image_denoise/image_denoise.html) and [a C++
-version](../../cpp_src/image_denoise/image_denoise.html) and [a
-FORTRAN77 version](../../f77_src/image_denoise/image_denoise.html) and
-[a FORTRAN90 version](../../f_src/image_denoise/image_denoise.html) and
-[a MATLAB version](../../m_src/image_denoise/image_denoise.html).
+version](../../c_src/image_denoise/image_denoise.md) and [a C++
+version](../../master/image_denoise/image_denoise.md) and [a
+FORTRAN77 version](../../f77_src/image_denoise/image_denoise.md) and
+[a FORTRAN90 version](../../f_src/image_denoise/image_denoise.md) and
+[a MATLAB version](../../m_src/image_denoise/image_denoise.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[IMAGE\_COMPONENTS](../../cpp_src/image_components/image_components.html),
+[IMAGE\_COMPONENTS](../../master/image_components/image_components.md),
 a C++ library which seeks the connected "nonzero" or "nonblack"
 components or "segments" of an image or integer vector, array or 3D
 block.
 
-[IMAGE\_EDGE](../../cpp_src/image_edge/image_edge.html), a C++ library
+[IMAGE\_EDGE](../../master/image_edge/image_edge.md), a C++ library
 which demonstrates a simple procedure for edge detection in images.
 
-[PGMA\_IO](../../cpp_src/pgma_io/pgma_io.html), a C++ library which
+[PGMA\_IO](../../master/pgma_io/pgma_io.md), a C++ library which
 handles the ASCII Portable Gray Map (PGM) format.
 
 ### Reference: {#reference align="center"}
@@ -128,7 +128,7 @@ pepper noise has been added.
 -   **PGMA\_WRITE\_HEADER** writes the header of an ASCII PGM file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -35,23 +35,23 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BMP\_IO** is available in [a C++
-version](../../cpp_src/bmp_io/bmp_io.html).
+version](../../master/bmp_io/bmp_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BMP](../../data/bmp/bmp.html), a data directory which contains example
+[BMP](../../data/bmp/bmp.md), a data directory which contains example
 BMP files.
 
-[BMP\_TO\_PPMA](../../cpp_src/bmp_to_ppma/bmp_to_ppma.html), a C++
+[BMP\_TO\_PPMA](../../master/bmp_to_ppma/bmp_to_ppma.md), a C++
 program which converts BMP files to ASCII PPM format.
 
-[BMP\_TO\_PPMB](../../cpp_src/bmp_to_ppmb/bmp_to_ppmb.html), a C++
+[BMP\_TO\_PPMB](../../master/bmp_to_ppmb/bmp_to_ppmb.md), a C++
 program which converts BMP files to binary PPM format.
 
-[PPMA\_TO\_BMP](../../cpp_src/ppma_to_bmp/ppma_to_bmp.html), a C++
+[PPMA\_TO\_BMP](../../master/ppma_to_bmp/ppma_to_bmp.md), a C++
 program which converts ASCII PPM files to BMP format.
 
-[PPMB\_TO\_BMP](../../cpp_src/ppmb_to_bmp/ppmb_to_bmp.html), a C++
+[PPMB\_TO\_BMP](../../master/ppmb_to_bmp/ppmb_to_bmp.md), a C++
 program which converts binary PPM files to BMP format.
 
 ### Reference: {#reference align="center"}
@@ -120,7 +120,7 @@ program which converts binary PPM files to BMP format.
 -   **U\_SHORT\_INT\_READ** reads an unsigned short int from a file.
 -   **U\_SHORT\_INT\_WRITE** writes an unsigned short int to a file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

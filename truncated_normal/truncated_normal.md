@@ -171,43 +171,43 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRUNCATED\_NORMAL** is available in [a C
-version](../../c_src/truncated_normal/truncated_normal.html) and [a C++
-version](../../cpp_src/truncated_normal/truncated_normal.html) and [a
-FORTRAN77 version](../../f77_src/truncated_normal/truncated_normal.html)
+version](../../c_src/truncated_normal/truncated_normal.md) and [a C++
+version](../../master/truncated_normal/truncated_normal.md) and [a
+FORTRAN77 version](../../f77_src/truncated_normal/truncated_normal.md)
 and [a FORTRAN90
-version](../../f_src/truncated_normal/truncated_normal.html) and [a
+version](../../f_src/truncated_normal/truncated_normal.md) and [a
 MATHEMATICA
-version](../../math_src/truncated_normal/truncated_normal.html) and [a
-MATLAB version](../../m_src/truncated_normal/truncated_normal.html) and
-[a Python version](../../py_src/truncated_normal/truncated_normal.html).
+version](../../math_src/truncated_normal/truncated_normal.md) and [a
+MATLAB version](../../m_src/truncated_normal/truncated_normal.md) and
+[a Python version](../../py_src/truncated_normal/truncated_normal.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LOG\_NORMAL\_TRUNCATED\_AB](../../cpp_src/log_normal_truncated_ab/log_normal_truncated_ab.html),
+[LOG\_NORMAL\_TRUNCATED\_AB](../../master/log_normal_truncated_ab/log_normal_truncated_ab.md),
 a C++ library which returns quantities associated with the log normal
 Probability Distribution Function (PDF) truncated to the interval
 \[A,B\].
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which samples
+[NORMAL](../../master/normal/normal.md), a C++ library which samples
 the normal distribution.
 
-[PDFLIB](../../cpp_src/pdflib/pdflib.html), a C++ library which
+[PDFLIB](../../master/pdflib/pdflib.md), a C++ library which
 evaluates Probability Density Functions (PDF's) and produces random
 samples from them, including beta, binomial, chi, exponential, gamma,
 inverse chi, inverse gamma, multinomial, normal, scaled inverse chi, and
 uniform.
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which evaluates
+[PROB](../../master/prob/prob.md), a C++ library which evaluates
 Probability Density Functions (PDF's) and Cumulative Density Functions
 (CDF's), means, variances, and samples for a variety of standard
 probability distributions.
 
-[TRUNCATED\_NORMAL\_RULE](../../cpp_src/truncated_normal_rule/truncated_normal_rule.html),
+[TRUNCATED\_NORMAL\_RULE](../../master/truncated_normal_rule/truncated_normal_rule.md),
 a C++ program which computes a quadrature rule for a normal probability
 density function (PDF), also called a Gaussian distribution, that has
 been truncated to \[A,+oo), (-oo,B\] or \[A,B\].
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 samples the uniform distribution.
 
 ### Reference: {#reference align="center"}
@@ -320,7 +320,7 @@ samples the uniform distribution.
 -   **TRUNCATED\_NORMAL\_B\_VARIANCE:** variance of the upper truncated
     Normal PDF.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

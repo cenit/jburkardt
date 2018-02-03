@@ -16,19 +16,19 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**UBVEC** is available in [a C version](../../c_src/ubvec/ubvec.html)
-and [a C++ version](../../cpp_src/ubvec/ubvec.html) and [a FORTRAN90
-version](../../f_src/ubvec/ubvec.html) and [a MATLAB
-version](../../m_src/ubvec/ubvec.html) and [a Python
-version](../../py_src/ubvec/ubvec.html).
+**UBVEC** is available in [a C version](../../c_src/ubvec/ubvec.md)
+and [a C++ version](../../master/ubvec/ubvec.md) and [a FORTRAN90
+version](../../f_src/ubvec/ubvec.md) and [a MATLAB
+version](../../m_src/ubvec/ubvec.md) and [a Python
+version](../../py_src/ubvec/ubvec.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BVEC](../../cpp_src/bvec/bvec.html), a C++ library which demonstrates
+[BVEC](../../master/bvec/bvec.md), a C++ library which demonstrates
 how signed integers can be stored as binary vectors, and arithmetic can
 be performed on them.
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which
+[SUBSET](../../master/subset/subset.md), a C++ library which
 enumerates, generates, randomizes, ranks and unranks combinatorial
 objects including combinations, compositions, Gray codes, index sets,
 partitions, permutations, polynomials, subsets, and Young tables.
@@ -79,7 +79,7 @@ Backtracking routines are included to solve some combinatorial problems.
     integer.
 -   **UI4\_UNRANK\_GRAY** unranks a Gray code.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

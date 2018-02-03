@@ -1,4 +1,4 @@
-<html>
+.md>
 
   <head>
     <title>
@@ -40,7 +40,7 @@
 
     <p>
       <b>CONDITION</b> is available in
-      <a href = "../../cpp_src/condition/condition.html">a C++ version</a>.
+      <a href = "../../master/condition/condition.md">a C++ version</a>.
     </p>
 
     <h3 align = "center">
@@ -163,7 +163,7 @@
     </p>
 
     <p>
-      You can go up one level to <a href = "../cpp_src.html">
+      You can go up one level to <a href = "../cpp_src.md">
       the C++ source codes</a>.
     </p>
 
@@ -179,4 +179,4 @@
 
   <!-- Initial HTML skeleton created by HTMLINDEX. -->
 
-</html>
+<.md>

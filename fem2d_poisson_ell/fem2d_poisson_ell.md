@@ -21,14 +21,14 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_POISSON\_ELL** is available in [a C++
-version](../../cpp_src/fem2d_poisson_ell/fem2d_poisson_ell.html) and [a
-FORTRAN90 version](../../f_src/fem2d_poisson_ell/fem2d_poisson_ell.html)
+version](../../master/fem2d_poisson_ell/fem2d_poisson_ell.md) and [a
+FORTRAN90 version](../../f_src/fem2d_poisson_ell/fem2d_poisson_ell.md)
 and [a MATLAB
-version](../../m_src/fem2d_poisson_ell/fem2d_poisson_ell.html).
+version](../../m_src/fem2d_poisson_ell/fem2d_poisson_ell.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D\_POISSON](../../cpp_src/fem2d_poisson/fem2d_poisson.html), a C++
+[FEM2D\_POISSON](../../master/fem2d_poisson/fem2d_poisson.md), a C++
 program which applies the finite element method to a 2D Poisson problem,
 with user input.
 
@@ -47,7 +47,7 @@ with user input.
 -   [ell\_solution.txt](ell_solution.txt), a text file containing the
     solution U at each node (X,Y);
 
-You can go up one level to [the C++ source code page](../cpp_src.html).
+You can go up one level to [the C++ source code page](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

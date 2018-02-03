@@ -31,69 +31,69 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CIRCLE\_RULE** is available in [a C
-version](../../c_src/circle_rule/circle_rule.html) and [a C++
-version](../../cpp_src/circle_rule/circle_rule.html) and [a FORTRAN77
-version](../../f77_src/circle_rule/circle_rule.html) and [a FORTRAN90
-version](../../f_src/circle_rule/circle_rule.html) and [a MATLAB
-version](../../m_src/circle_rule/circle_rule.html).
+version](../../c_src/circle_rule/circle_rule.md) and [a C++
+version](../../master/circle_rule/circle_rule.md) and [a FORTRAN77
+version](../../f77_src/circle_rule/circle_rule.md) and [a FORTRAN90
+version](../../f_src/circle_rule/circle_rule.md) and [a MATLAB
+version](../../m_src/circle_rule/circle_rule.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CIRCLE\_ARC\_GRID](../../cpp_src/circle_arc_grid/circle_arc_grid.html),
+[CIRCLE\_ARC\_GRID](../../master/circle_arc_grid/circle_arc_grid.md),
 a C++ program which computes points equally spaced along a circular arc;
 
-[CIRCLE\_INTEGRALS](../../cpp_src/circle_integrals/circle_integrals.html),
+[CIRCLE\_INTEGRALS](../../master/circle_integrals/circle_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the circumference of the unit circle in 2D.
 
-[CIRCLE\_MONTE\_CARLO](../../cpp_src/circle_monte_carlo/circle_monte_carlo.html),
+[CIRCLE\_MONTE\_CARLO](../../master/circle_monte_carlo/circle_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function on the circumference of the unit circle in 2D;
 
-[CUBE\_FELIPPA\_RULE](../../cpp_src/cube_felippa_rule/cube_felippa_rule.html),
+[CUBE\_FELIPPA\_RULE](../../master/cube_felippa_rule/cube_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a cube in 3D.
 
-[DISK\_RULE](../../cpp_src/disk_rule/disk_rule.html), a C++ library
+[DISK\_RULE](../../master/disk_rule/disk_rule.md), a C++ library
 which computes quadrature rules over the interior of the unit disk in
 2D.
 
-[PYRAMID\_FELIPPA\_RULE](../../cpp_src/pyramid_felippa_rule/pyramid_felippa_rule.html),
+[PYRAMID\_FELIPPA\_RULE](../../master/pyramid_felippa_rule/pyramid_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a pyramid in 3D.
 
-[PYRAMID\_RULE](../../cpp_src/pyramid_rule/pyramid_rule.html), a C++
+[PYRAMID\_RULE](../../master/pyramid_rule/pyramid_rule.md), a C++
 program which computes a quadrature rule over the interior of the unit
 pyramid in 3D.
 
-[SPHERE\_LEBEDEV\_RULE](../../cpp_src/sphere_lebedev_rule/sphere_lebedev_rule.html),
+[SPHERE\_LEBEDEV\_RULE](../../master/sphere_lebedev_rule/sphere_lebedev_rule.md),
 a C++ library which computes Lebedev quadrature rules on the surface of
 the unit sphere in 3D.
 
-[SQUARE\_FELIPPA\_RULE](../../cpp_src/square_felippa_rule/square_felippa_rule.html),
+[SQUARE\_FELIPPA\_RULE](../../master/square_felippa_rule/square_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a square in 2D.
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which defines
+[STROUD](../../master/stroud/stroud.md), a C++ library which defines
 quadrature rules for a variety of M-dimensional regions, including the
 interior of the square, cube and hypercube, the pyramid, cone and
 ellipse, the hexagon, the M-dimensional octahedron, the circle, sphere
 and hypersphere, the triangle, tetrahedron and simplex, and the surface
 of the circle, sphere and hypersphere.
 
-[TETRAHEDRON\_FELIPPA\_RULE](../../cpp_src/tetrahedron_felippa_rule/tetrahedron_felippa_rule.html),
+[TETRAHEDRON\_FELIPPA\_RULE](../../master/tetrahedron_felippa_rule/tetrahedron_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a tetrahedron in 3D.
 
-[TRIANGLE\_FEKETE\_RULE](../../cpp_src/triangle_fekete_rule/triangle_fekete_rule.html),
+[TRIANGLE\_FEKETE\_RULE](../../master/triangle_fekete_rule/triangle_fekete_rule.md),
 a C++ library which defines Fekete rules for interpolation or quadrature
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_FELIPPA\_RULE](../../cpp_src/triangle_felippa_rule/triangle_felippa_rule.html),
+[TRIANGLE\_FELIPPA\_RULE](../../master/triangle_felippa_rule/triangle_felippa_rule.md),
 a C++ library which returns Felippa's quadratures rules for
 approximating integrals over the interior of a triangle in 2D.
 
-[WEDGE\_FELIPPA\_RULE](../../cpp_src/wedge_felippa_rule/wedge_felippa_rule.html),
+[WEDGE\_FELIPPA\_RULE](../../master/wedge_felippa_rule/wedge_felippa_rule.md),
 a C++ library which returns quadratures rules for approximating
 integrals over the interior of the unit wedge in 3D.
 
@@ -126,7 +126,7 @@ integrals over the interior of the unit wedge in 3D.
 -   **R8\_GAMMA** evaluates Gamma(X) for a real argument.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

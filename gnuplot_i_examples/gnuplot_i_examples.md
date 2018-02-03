@@ -17,15 +17,15 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **GNUPLOT\_I\_EXAMPLES** is available in [a C
-version](../../c_src/gnuplot_i_examples/gnuplot_i_examples.html) and [a
-C++ version](../../cpp_src/gnuplot_i_examples/gnuplot_i_examples.html).
+version](../../c_src/gnuplot_i_examples/gnuplot_i_examples.md) and [a
+C++ version](../../master/gnuplot_i_examples/gnuplot_i_examples.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GNUPLOT](../../examples/gnuplot/gnuplot.html), examples which
+[GNUPLOT](../../examples/gnuplot/gnuplot.md), examples which
 illustrate the use of the GNUPLOT graphics program.
 
-[GNUPLOT\_I](../../c_src/gnuplot_i/gnuplot_i.html), a C library which
+[GNUPLOT\_I](../../c_src/gnuplot_i/gnuplot_i.md), a C library which
 allows an executing C, C++, FORTRAN77 or FORTRAN90 program to interact
 with the GNUPLOT graphics program, by Nicholas Devillard.
 
@@ -55,7 +55,7 @@ Nicholas Devillard
 
 -   [example.cpp](example.cpp) is the source code;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

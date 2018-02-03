@@ -15,42 +15,42 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**C4LIB** is available in [a C version](../../c_src/c4lib/c4lib.html)
-and [a C++ version](../../cpp_src/c4lib/c4lib.html) and [a FORTRAN77
-version](../../f77_src/c4lib/c4lib.html) and [a FORTRAN90
-version](../../f_src/c4lib/c4lib.html) and [a MATLAB
-version](../../m_src/c4lib/c4lib.html) and [a Python
-version](../../py_src/c4lib/c4lib.html).
+**C4LIB** is available in [a C version](../../c_src/c4lib/c4lib.md)
+and [a C++ version](../../master/c4lib/c4lib.md) and [a FORTRAN77
+version](../../f77_src/c4lib/c4lib.md) and [a FORTRAN90
+version](../../f_src/c4lib/c4lib.md) and [a MATLAB
+version](../../m_src/c4lib/c4lib.md) and [a Python
+version](../../py_src/c4lib/c4lib.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[C4\_COMPLEX\_LIB](../../cpp_src/c4_complex_lib/c4_complex_lib.html), a
+[C4\_COMPLEX\_LIB](../../master/c4_complex_lib/c4_complex_lib.md), a
 C++ library which defines a class called c4\_complex for complex numbers
 with single precision components.
 
-[C8LIB](../../cpp_src/c8lib/c8lib.html), a C++ library which implements
+[C8LIB](../../master/c8lib/c8lib.md), a C++ library which implements
 certain elementary functions for "C8" or double precision complex
 variables;
 
-[COMPLEX\_NUMBERS](../../cpp_src/complex_numbers/complex_numbers.html),
+[COMPLEX\_NUMBERS](../../master/complex_numbers/complex_numbers.md),
 a C++ program which demonstrates some simple features involved in the
 use of complex numbers in C programming.
 
-[I4LIB](../../cpp_src/i4lib/i4lib.html), a C++ library which contains
+[I4LIB](../../master/i4lib/i4lib.md), a C++ library which contains
 many utility routines, using "I4" or "single precision integer"
 arithmetic.
 
-[I8LIB](../../cpp_src/i8lib/i8lib.html), a C++ library which contains
+[I8LIB](../../master/i8lib/i8lib.md), a C++ library which contains
 many utility routines, using "I8" or "double precision integer"
 arithmetic.
 
-[L4LIB](../../cpp_src/l4lib/l4lib.html), a C++ library which contains
+[L4LIB](../../master/l4lib/l4lib.md), a C++ library which contains
 many utility routines, using one byte logical (L4) variables.
 
-[R4LIB](../../cpp_src/r4lib/r4lib.html), a C++ library which contains
+[R4LIB](../../master/r4lib/r4lib.md), a C++ library which contains
 many utility routines, using "R4" or "single precision real" arithmetic.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines, using "R8" or "double precision real" arithmetic.
 
 ### Source Code: {#source-code align="center"}
@@ -167,7 +167,7 @@ many utility routines, using "R8" or "double precision real" arithmetic.
     ascending order.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -72,61 +72,61 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **XYZ\_IO** is available in [a C++
-version](../../cpp_src/xyz_io/xyz_io.html) and [a FORTRAN90
-version](../../f_src/xyz_io/xyz_io.html) and [a MATLAB
-version](../../m_src/xyz_io/xyz_io.html).
+version](../../master/xyz_io/xyz_io.md) and [a FORTRAN90
+version](../../f_src/xyz_io/xyz_io.md) and [a MATLAB
+version](../../m_src/xyz_io/xyz_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[IVREAD](../../f_src/ivread/ivread.html), a FORTRAN90 program which can
+[IVREAD](../../f_src/ivread/ivread.md), a FORTRAN90 program which can
 convert graphics information between various 3D formats, including the
 XYZ format.
 
-[PDB\_TO\_XYZ](../../f_src/pdb_to_xyz/pdb_to_xyz.html), a FORTRAN90
+[PDB\_TO\_XYZ](../../f_src/pdb_to_xyz/pdb_to_xyz.md), a FORTRAN90
 program which reads the ATOM records from a PDB file, and writes the
 atomic coordinates to an XYZ file.
 
-[STRIPACK\_INTERACTIVE](../../f_src/stripack_interactive/stripack_interactive.html),
+[STRIPACK\_INTERACTIVE](../../f_src/stripack_interactive/stripack_interactive.md),
 a FORTRAN90 program which reads an XYZ file of 3D points on the unit
 sphere, computes the Delaunay triangulation, and writes it to a file.
 
-[XY](../../data/xy/xy.html), a data directory which contains examples of
+[XY](../../data/xy/xy.md), a data directory which contains examples of
 XY files, a simple 2D graphics point and line format;
 
-[XYZ](../../data/xyz/xyz.html), a data directory which contains examples
+[XYZ](../../data/xyz/xyz.md), a data directory which contains examples
 of XYZ files, a simple 3D graphics point and line format;
 
-[XYZ\_DISPLAY](../../m_src/xyz_display/xyz_display.html), a MATLAB
+[XYZ\_DISPLAY](../../m_src/xyz_display/xyz_display.md), a MATLAB
 program which reads XYZ information defining points in 3D, and displays
 an image in the MATLAB graphics window.
 
-[XYZ\_DISPLAY\_OPENGL](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html),
+[XYZ\_DISPLAY\_OPENGL](../../master/xyz_display_opengl/xyz_display_opengl.md),
 a C++ program which reads an XYZ file of 3D point coordinates, and
 displays an image of those points using OpenGL.
 
-[XYZ\_TO\_PDB](../../f_src/xyz_to_pdb/xyz_to_pdb.html), a FORTRAN90
+[XYZ\_TO\_PDB](../../f_src/xyz_to_pdb/xyz_to_pdb.md), a FORTRAN90
 program which reads a set of XYZ spatial coordinates, and rewrites them
 as ATOM records in a PDB file.
 
-[XYZF](../../data/xyzf/xyzf.html), a data directory which contains
+[XYZF](../../data/xyzf/xyzf.md), a data directory which contains
 examples of XYZF files, a simple 3D graphics point and face format;
 
-[XYZF\_DISPLAY](../../m_src/xyzf_display/xyzf_display.html), a MATLAB
+[XYZF\_DISPLAY](../../m_src/xyzf_display/xyzf_display.md), a MATLAB
 program which reads XYZF information defining points and faces in 3D,
 and displays an image in a MATLAB graphics window.
 
-[XYZF\_DISPLAY\_OPENGL](../../cpp_src/xyzf_display_opengl/xyzf_display_opengl.html),
+[XYZF\_DISPLAY\_OPENGL](../../master/xyzf_display_opengl/xyzf_display_opengl.md),
 a C++ program which reads XYZF information defining 3D points and faces
 and displays an image using OpenGL.
 
-[XYZL](../../data/xyzl/xyzl.html), a data directory which contains
+[XYZL](../../data/xyzl/xyzl.md), a data directory which contains
 examples of XYZL files, a simple 3D graphics point and line format;
 
-[XYZL\_DISPLAY](../../m_src/xyzl_display/xyzl_display.html), a MATLAB
+[XYZL\_DISPLAY](../../m_src/xyzl_display/xyzl_display.md), a MATLAB
 program which reads XYZL information defining points and lines in 3D,
 and displays an image in a MATLAB graphics window.
 
-[XYZL\_DISPLAY\_OPENGL](../../cpp_src/xyzl_display_opengl/xyzl_display_opengl.html),
+[XYZL\_DISPLAY\_OPENGL](../../master/xyzl_display_opengl/xyzl_display_opengl.md),
 a C++ program which reads XYZL information defining 3D points and lines
 and displays an image using OpenGL.
 
@@ -200,7 +200,7 @@ and displays an image using OpenGL.
 -   **XYZL\_HEADER\_WRITE** writes the header of an XYZL file.
 -   **XYZL\_WRITE** writes the header and data for an XYZL file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -21,7 +21,7 @@ double *fem1d_bvp_linear ( int n, double a ( double x ), double c ( double x ),
 //
 //  Location:
 //
-//    http://people.sc.fsu.edu/~jburkardt/cpp_src/fem1d_bvp_linear/fem1d_bvp_linear.cpp
+//    http://people.sc.fsu.edu/~jburkardt/master/fem1d_bvp_linear/fem1d_bvp_linear.cpp
 //
 //  Discussion:
 //

@@ -36,34 +36,34 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PCE\_ODE\_HERMITE** is available in [a C
-version](../../c_src/pce_ode_hermite/pce_ode_hermite.html) and [a C++
-version](../../cpp_src/pce_ode_hermite/pce_ode_hermite.html) and [a
-FORTRAN77 version](../../f77_src/pce_ode_hermite/pce_ode_hermite.html)
+version](../../c_src/pce_ode_hermite/pce_ode_hermite.md) and [a C++
+version](../../master/pce_ode_hermite/pce_ode_hermite.md) and [a
+FORTRAN77 version](../../f77_src/pce_ode_hermite/pce_ode_hermite.md)
 and [a FORTRAN90
-version](../../f_src/pce_ode_hermite/pce_ode_hermite.html) and [a MATLAB
-version](../../m_src/pce_ode_hermite/pce_ode_hermite.html).
+version](../../f_src/pce_ode_hermite/pce_ode_hermite.md) and [a MATLAB
+version](../../m_src/pce_ode_hermite/pce_ode_hermite.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLACK\_SCHOLES](../../cpp_src/black_scholes/black_scholes.html), a C++
+[BLACK\_SCHOLES](../../master/black_scholes/black_scholes.md), a C++
 library which implements some simple approaches to the Black-Scholes
 option valuation theory, by Desmond Higham.
 
-[HERMITE\_POLYNOMIAL](../../cpp_src/hermite_polynomial/hermite_polynomial.html),
+[HERMITE\_POLYNOMIAL](../../master/hermite_polynomial/hermite_polynomial.md),
 a C++ library which evaluates the physicist's Hermite polynomial, the
 probabilist's Hermite polynomial, the Hermite function, and related
 functions.
 
-[PCE\_BURGERS](../../cpp_src/pce_burgers/pce_burgers.html), a C++
+[PCE\_BURGERS](../../master/pce_burgers/pce_burgers.md), a C++
 program which defines and solves a version of the time-dependent viscous
 Burgers equation, with uncertain viscosity, using a polynomial chaos
 expansion in terms of Hermite polynomials, by Gianluca Iaccarino.
 
-[SDE](../../cpp_src/sde/sde.html), a C++ library which illustrates the
+[SDE](../../master/sde/sde.md), a C++ library which illustrates the
 properties of stochastic differential equations (SDE's), and common
 algorithms for their analysis, by Desmond Higham;
 
-[STOCHASTIC\_RK](../../cpp_src/stochastic_rk/stochastic_rk.html), a C++
+[STOCHASTIC\_RK](../../master/stochastic_rk/stochastic_rk.md), a C++
 library which applies a Runge Kutta (RK) scheme to a stochastic
 differential equation.
 
@@ -105,7 +105,7 @@ differential equation.
 -   **R8\_FACTORIAL** computes the factorial of N.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

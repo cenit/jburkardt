@@ -63,34 +63,34 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_APPROX** is available in [a C
-version](../../c_src/test_approx/test_approx.html) and [a C++
-version](../../cpp_src/test_approx/test_approx.html) and [a FORTRAN77
-version](../../f77_src/test_approx/test_approx.html) and [a FORTRAN90
-version](../../f_src/test_approx/test_approx.html) and [a MATLAB
-version](../../m_src/test_approx/test_approx.html).
+version](../../c_src/test_approx/test_approx.md) and [a C++
+version](../../master/test_approx/test_approx.md) and [a FORTRAN77
+version](../../f77_src/test_approx/test_approx.md) and [a FORTRAN90
+version](../../f_src/test_approx/test_approx.md) and [a MATLAB
+version](../../m_src/test_approx/test_approx.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[CHEBYSHEV](../../cpp_src/chebyshev/chebyshev.html), a C++ library which
+[CHEBYSHEV](../../master/chebyshev/chebyshev.md), a C++ library which
 computes the Chebyshev interpolant/approximant to a given function over
 an interval.
 
-[DIVDIF](../../cpp_src/divdif/divdif.html), a C++ library which includes
+[DIVDIF](../../master/divdif/divdif.md), a C++ library which includes
 many routines to construct and evaluate divided difference interpolants.
 
-[SPLINE](../../cpp_src/spline/spline.html), a C++ library which includes
+[SPLINE](../../master/spline/spline.md), a C++ library which includes
 many routines to construct and evaluate spline interpolants and
 approximants.
 
-[TEST\_APPROX](../../datasets/test_approx/test_approx.html), a dataset
+[TEST\_APPROX](../../datasets/test_approx/test_approx.md), a dataset
 directory which contains sets of data (x,y) for which an approximating
 formula is desired.
 
-[TEST\_INTERP\_1D](../../cpp_src/test_interp_1d/test_interp_1d.html), a
+[TEST\_INTERP\_1D](../../master/test_interp_1d/test_interp_1d.md), a
 C++ library which defines test problems for interpolation of data y(x),
 depending on a 1D argument.
 
@@ -225,7 +225,7 @@ data set 7.
 -   **R8VEC2\_PRINT** prints an R8VEC2.
 -   **R8VEC2\_WRITE** writes an R8VEC2 file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

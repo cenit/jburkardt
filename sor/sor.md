@@ -16,16 +16,16 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**SOR** is available in [a C++ version](../../cpp_src/sor/sor.html) and
-[a MATLAB version](../../m_src/sor/sor.html).
+**SOR** is available in [a C++ version](../../master/sor/sor.md) and
+[a MATLAB version](../../m_src/sor/sor.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[JACOBI](../../cpp_src/jacobi/jacobi.html), a C++ library which
+[JACOBI](../../master/jacobi/jacobi.md), a C++ library which
 implements the Jacobi iteration for solving symmetric positive definite
 systems of linear equations.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices.
 
 ### Reference: {#reference align="center"}
@@ -57,7 +57,7 @@ defines test matrices.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

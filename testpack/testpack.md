@@ -39,45 +39,45 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TESTPACK** is available in [a C
-version](../../c_src/testpack/testpack.html) and [a C++
-version](../../cpp_src/testpack/testpack.html) and [a FORTRAN77
-version](../../f77_src/testpack/testpack.html) and [a FORTRAN90
-version](../../f_src/testpack/testpack.html) and [a MATLAB
-version](../../m_src/testpack/testpack.html).
+version](../../c_src/testpack/testpack.md) and [a C++
+version](../../master/testpack/testpack.md) and [a FORTRAN77
+version](../../f77_src/testpack/testpack.md) and [a FORTRAN90
+version](../../f_src/testpack/testpack.md) and [a MATLAB
+version](../../m_src/testpack/testpack.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.html), a
+[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.md), a
 FORTRAN90 program which tests the suitability of a set of N points for
 use in an equal-weight quadrature rule over the M-dimensional unit
 hypercube.
 
-[INTLIB](../../f_src/intlib/intlib.html), a FORTRAN90 library which
+[INTLIB](../../f_src/intlib/intlib.md), a FORTRAN90 library which
 estimates the integral of a function over a one-dimensional interval.
 
-[NINTLIB](../../cpp_src/nintlib/nintlib.html), a C++ library which
+[NINTLIB](../../master/nintlib/nintlib.md), a C++ library which
 estimates the integral of a function over a one-dimensional interval.
 
-[PRODUCT\_RULE](../../cpp_src/product_rule/product_rule.html), a C++
+[PRODUCT\_RULE](../../master/product_rule/product_rule.md), a C++
 program which can create a multidimensional quadrature rule as a product
 of one dimensional rules.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines a variety of (mostly 1-dimensional) quadrature rules.
 
-[SMOLPACK](../../c_src/smolpack/smolpack.html), a C library which uses
+[SMOLPACK](../../c_src/smolpack/smolpack.md), a C library which uses
 the Genz test functions to demonstrate quadrature in multiple dimensions
 using a sparse grid.
 
-[SPINTERP](../../m_src/spinterp/spinterp.html), a MATLAB library which
+[SPINTERP](../../m_src/spinterp/spinterp.md), a MATLAB library which
 uses the Genz test functions to demonstrate multilinear interpolation on
 a sparse grid.
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which defines
+[STROUD](../../master/stroud/stroud.md), a C++ library which defines
 a variety of quadrature rules over various "interesting" geometric
 shapes.
 
-[TEST\_NINT](../../cpp_src/test_nint/test_nint.html), a C++ library
+[TEST\_NINT](../../master/test_nint/test_nint.md), a C++ library
 which can be used to test N-dimensional quadrature routines.
 
 ### Reference: {#reference align="center"}
@@ -137,7 +137,7 @@ which can be used to test N-dimensional quadrature routines.
 -   **TUPLE\_NEXT** computes the next element of a tuple space.
 -   **VALINT** computes the exact integrals of the test functions.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

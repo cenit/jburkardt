@@ -82,56 +82,56 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages {#languages align="center"}
 
 **GEGENBAUER\_EXACTNESS** is available in [a C++
-version](../../cpp_src/gegenbauer_exactness/gegenbauer_exactness.html)
+version](../../master/gegenbauer_exactness/gegenbauer_exactness.md)
 and [a FORTRAN90
-version](../../f_src/gegenbauer_exactness/gegenbauer_exactness.html) and
+version](../../f_src/gegenbauer_exactness/gegenbauer_exactness.md) and
 [a MATLAB
-version](../../m_src/gegenbauer_exactness/gegenbauer_exactness.html)
+version](../../m_src/gegenbauer_exactness/gegenbauer_exactness.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GEGENBAUER\_CC](../../cpp_src/gegenbauer_cc/gegenbauer_cc.html), a C++
+[GEGENBAUER\_CC](../../master/gegenbauer_cc/gegenbauer_cc.md), a C++
 library which estimates the Gegenbauer weighted integral of a function
 f(x) using a Clenshaw-Curtis approach.
 
-[GEGENBAUER\_RULE](../../cpp_src/gegenbauer_rule/gegenbauer_rule.html),
+[GEGENBAUER\_RULE](../../master/gegenbauer_rule/gegenbauer_rule.md),
 a C++ program which can generate a Gauss-Gegenbauer quadrature rule on
 request.
 
-[HERMITE\_EXACTNESS](../../cpp_src/hermite_exactness/hermite_exactness.html),
+[HERMITE\_EXACTNESS](../../master/hermite_exactness/hermite_exactness.md),
 a C++ program which tests the polynomial exactness of Gauss-Hermite
 quadrature rules.
 
-[INT\_EXACTNESS](../../cpp_src/int_exactness/int_exactness.html), a C++
+[INT\_EXACTNESS](../../master/int_exactness/int_exactness.md), a C++
 program which tests the polynomial exactness of a quadrature rule for a
 finite interval.
 
-[INT\_EXACTNESS\_CHEBYSHEV1](../../cpp_src/int_exactness_chebyshev1/int_exactness_chebyshev1.html),
+[INT\_EXACTNESS\_CHEBYSHEV1](../../master/int_exactness_chebyshev1/int_exactness_chebyshev1.md),
 a C++ program which tests the polynomial exactness of Gauss-Chebyshev
 type 1 quadrature rules.
 
-[INT\_EXACTNESS\_CHEBYSHEV2](../../cpp_src/int_exactness_chebyshev2/int_exactness_chebyshev2.html),
+[INT\_EXACTNESS\_CHEBYSHEV2](../../master/int_exactness_chebyshev2/int_exactness_chebyshev2.md),
 a C++ program which tests the polynomial exactness of Gauss-Chebyshev
 type 2 quadrature rules.
 
-[INT\_EXACTNESS\_GEN\_HERMITE](../../cpp_src/int_exactness_gen_hermite/int_exactness_gen_hermite.html),
+[INT\_EXACTNESS\_GEN\_HERMITE](../../master/int_exactness_gen_hermite/int_exactness_gen_hermite.md),
 a C++ program which tests the polynomial exactness of generalized
 Gauss-Hermite quadrature rules.
 
-[INT\_EXACTNESS\_GEN\_LAGUERRE](../../cpp_src/int_exactness_gen_laguerre/int_exactness_gen_laguerre.html),
+[INT\_EXACTNESS\_GEN\_LAGUERRE](../../master/int_exactness_gen_laguerre/int_exactness_gen_laguerre.md),
 a C++ program which tests the polynomial exactness of generalized
 Gauss-Laguerre quadrature rules.
 
-[INT\_EXACTNESS\_JACOBI](../../cpp_src/int_exactness_jacobi/int_exactness_jacobi.html),
+[INT\_EXACTNESS\_JACOBI](../../master/int_exactness_jacobi/int_exactness_jacobi.md),
 a C++ program which tests the polynomial exactness of Gauss-Jacobi
 quadrature rules.
 
-[LAGUERRE\_EXACTNESS](../../cpp_src/laguerre_exactness/laguerre_exactness.html),
+[LAGUERRE\_EXACTNESS](../../master/laguerre_exactness/laguerre_exactness.md),
 a C++ program which tests the polynomial exactness of Gauss-Laguerre
 quadrature rules for integration over \[0,+oo) with density function
 exp(-x).
 
-[LEGENDRE\_EXACTNESS](../../cpp_src/legendre_exactness/legendre_exactness.html),
+[LEGENDRE\_EXACTNESS](../../master/legendre_exactness/legendre_exactness.md),
 a C++ program which tests the monomial exactness of quadrature rules for
 the Legendre problem of integrating a function with density 1 over the
 interval \[-1,+1\].
@@ -253,7 +253,7 @@ interval \[-1,+1\].
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TIMESTRING** returns the current YMDHMS date as a string.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

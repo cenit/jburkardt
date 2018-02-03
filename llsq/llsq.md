@@ -16,27 +16,27 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**LLSQ** is available in [a C version](../../c_src/llsq/llsq.html) and
-[a C++ version](../../cpp_src/llsq/llsq.html) and [a FORTRAN77
-version](../../f77_src/llsq/llsq.html) and [a FORTRAN90
-version](../../f_src/llsq/llsq.html) and [a MATLAB
-version](../../m_src/llsq/llsq.html) and [a Python
-version](../../py_src/llsq/llsq.html).
+**LLSQ** is available in [a C version](../../c_src/llsq/llsq.md) and
+[a C++ version](../../master/llsq/llsq.md) and [a FORTRAN77
+version](../../f77_src/llsq/llsq.md) and [a FORTRAN90
+version](../../f_src/llsq/llsq.md) and [a MATLAB
+version](../../m_src/llsq/llsq.md) and [a Python
+version](../../py_src/llsq/llsq.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MINPACK](../../cpp_src/minpack/minpack.html), a C++ library which
+[MINPACK](../../master/minpack/minpack.md), a C++ library which
 solves systems of nonlinear equations, or the least squares minimization
 of the residual of a set of linear or nonlinear equations.
 
-[QR\_SOLVE](../../cpp_src/qr_solve/qr_solve.html), a C++ library which
+[QR\_SOLVE](../../master/qr_solve/qr_solve.md), a C++ library which
 computes the least squares solution of a linear system A\*x=b.
 
-[TEST\_APPROX](../../cpp_src/test_approx/test_approx.html), a C++
+[TEST\_APPROX](../../master/test_approx/test_approx.md), a C++
 library which defines test problems for approximation, provided as a set
 of (x,y) data.
 
-[TEST\_LLS](../../cpp_src/test_lls/test_lls.html), a C++ library which
+[TEST\_LLS](../../master/test_lls/test_lls.md), a C++ library which
 implements linear least squares test problems of the form A\*x=b.
 
 ### Reference: {#reference align="center"}
@@ -63,7 +63,7 @@ implements linear least squares test problems of the form A\*x=b.
     data.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

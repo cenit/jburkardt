@@ -52,21 +52,21 @@ the prompt.
 ### Languages: {#languages align="center"}
 
 **ANAGRAM** is available in [a C++
-version](../../cpp_src/anagram/anagram.html).
+version](../../master/anagram/anagram.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PUZZLES](../../f_src/puzzles/puzzles.html), FORTRAN90 programs which
+[PUZZLES](../../f_src/puzzles/puzzles.md), FORTRAN90 programs which
 were used to solve various puzzles.
 
-[SUBANAGRAM](../../f_src/subanagram/subanagram.html), a FORTRAN90
+[SUBANAGRAM](../../f_src/subanagram/subanagram.md), a FORTRAN90
 program which finds words which are anagrams formed from some of the
 letters of a given master word.
 
-[WORDS](../../datasets/words/words.html), a dataset directory which
+[WORDS](../../datasets/words/words.md), a dataset directory which
 contains lists of words;
 
-[WORDSNAKE](../../f_src/wordsnake/wordsnake.html), a FORTRAN90 program
+[WORDSNAKE](../../f_src/wordsnake/wordsnake.md), a FORTRAN90 program
 which rearranges a list of words so that they have maximum overlap;
 
 ### Author: {#author align="center"}
@@ -97,7 +97,7 @@ James Cherry.
 -   **SEARCH** ??
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

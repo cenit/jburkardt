@@ -21,19 +21,19 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**EDGE** is available in [a C version](../../c_src/edge/edge.html) and
-[a C++ version](../../cpp_src/edge/edge.html) and [a FORTRAN77
-version](../../f77_src/edge/edge.html) and [a FORTRAN90
-version](../../f_src/edge/edge.html) and [a MATLAB
-version](../../m_src/edge/edge.html).
+**EDGE** is available in [a C version](../../c_src/edge/edge.md) and
+[a C++ version](../../master/edge/edge.md) and [a FORTRAN77
+version](../../f77_src/edge/edge.md) and [a FORTRAN90
+version](../../f_src/edge/edge.md) and [a MATLAB
+version](../../m_src/edge/edge.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[IMAGE\_EDGE](../../cpp_src/image_edge/image_edge.html), a C++ library
+[IMAGE\_EDGE](../../master/image_edge/image_edge.md), a C++ library
 which demonstrates a simple procedure for edge detection in images.
 
 ### Reference: {#reference align="center"}
@@ -159,7 +159,7 @@ which demonstrates a simple procedure for edge detection in images.
 -   **R8VEC\_UNIFORM\_AB\_NEW** returns a scaled pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

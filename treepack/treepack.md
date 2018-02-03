@@ -52,24 +52,24 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TREEPACK** is available in [a C
-version](../../c_src/treepack/treepack.html) and [a C++
-version](../../cpp_src/treepack/treepack.html) and [a FORTRAN77
-version](../../f77_src/treepack/treepack.html) and [a FORTRAN90
-version](../../f_src/treepack/treepack.html) and [a MATLAB
-version](../../m_src/treepack/treepack.html).
+version](../../c_src/treepack/treepack.md) and [a C++
+version](../../master/treepack/treepack.md) and [a FORTRAN77
+version](../../f77_src/treepack/treepack.md) and [a FORTRAN90
+version](../../f_src/treepack/treepack.md) and [a MATLAB
+version](../../m_src/treepack/treepack.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[COMBO](../../cpp_src/combo/combo.html), a C++ library which includes
+[COMBO](../../master/combo/combo.md), a C++ library which includes
 routines for ranking, unranking, enumerating and randomly selecting
 balanced sequences, cycles, graphs, Gray codes, subsets, partitions,
 permutations, restricted growth functions, Pruefer codes and trees.
 
-[GRAPH\_REPRESENTATION](../../data/graph_representation/graph_representation.html),
+[GRAPH\_REPRESENTATION](../../data/graph_representation/graph_representation.md),
 a data directory which contains examples of ways of representing
 abstract mathematical graphs
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which
+[SUBSET](../../master/subset/subset.md), a C++ library which
 generates, ranks and unranks various combinatorial objects.
 
 ### Reference: {#reference align="center"}
@@ -175,7 +175,7 @@ generates, ranks and unranks various combinatorial objects.
 -   **VEC\_RANDOM** selects a random N-vector of integers modulo a given
     base.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -39,32 +39,32 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**WATHEN** is available in [a C version](../../c_src/wathen/wathen.html)
-and [a C++ version](../../cpp_src/wathen/wathen.html) and [a FORTRAN77
-version](../../f77_src/wathen/wathen.html) and [a FORTRAN90
-version](../../f_src/wathen/wathen.html) and [a MATLAB
-version](../../m_src/wathen/wathen.html) and [a Python
-version](../../py_src/wathen/wathen.html).
+**WATHEN** is available in [a C version](../../c_src/wathen/wathen.md)
+and [a C++ version](../../master/wathen/wathen.md) and [a FORTRAN77
+version](../../f77_src/wathen/wathen.md) and [a FORTRAN90
+version](../../f_src/wathen/wathen.md) and [a MATLAB
+version](../../m_src/wathen/wathen.md) and [a Python
+version](../../py_src/wathen/wathen.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CG](../../cpp_src/cg/cg.html), a C++ library which implements a simple
+[CG](../../master/cg/cg.md), a C++ library which implements a simple
 version of the conjugate gradient (CG) method for solving a system of
 linear equations of the form A\*x=b, suitable for situations in which
 the matrix A is positive definite (only real, positive eigenvalues) and
 symmetric.
 
-[LINPACK\_D](../../cpp_src/linpack_d/linpack_d.html), a C++ library
+[LINPACK\_D](../../master/linpack_d/linpack_d.md), a C++ library
 which factors and solves linear systems using double precision real
 arithmetic, by Jack Dongarra, Jim Bunch, Cleve Moler, Pete Stewart.
 
-[SPARSE\_DISPLAY](../../cpp_src/sparse_display/sparse_display.html), a
+[SPARSE\_DISPLAY](../../master/sparse_display/sparse_display.md), a
 C++ library which can read information defining a matrix of numbers and
 display the sparsity pattern or location of the nonzero elements using
 gnuplot. This operation is already available in the built-in MATLAB
 "spy" command.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices for which some of the determinant, eigenvalues,
 inverse, null vectors, P\*L\*U factorization or linear system solution
 are already known, including the Vandermonde and Wathen matrix.
@@ -123,7 +123,7 @@ are already known, including the Vandermonde and Wathen matrix.
 -   **WATHEN\_ST\_SIZE:** Size of Wathen matrix stored in sparse triplet
     format.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

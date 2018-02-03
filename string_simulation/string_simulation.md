@@ -17,25 +17,25 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **STRING\_SIMULATION** is available in [a C
-version](../../c_src/string_simulation/string_simulation.html) and [a
-C++ version](../../cpp_src/string_simulation/string_simulation.html) and
+version](../../c_src/string_simulation/string_simulation.md) and [a
+C++ version](../../master/string_simulation/string_simulation.md) and
 [a FORTRAN77
-version](../../f77_src/string_simulation/string_simulation.html) and [a
-FORTRAN90 version](../../f_src/string_simulation/string_simulation.html)
+version](../../f77_src/string_simulation/string_simulation.md) and [a
+FORTRAN90 version](../../f_src/string_simulation/string_simulation.md)
 and [a MATLAB
-version](../../m_src/string_simulation/string_simulation.html).
+version](../../m_src/string_simulation/string_simulation.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FD1D\_WAVE](../../cpp_src/fd1d_wave/fd1d_wave.html), a C++ program
+[FD1D\_WAVE](../../master/fd1d_wave/fd1d_wave.md), a C++ program
 which applies the finite difference method to solve a version of the
 wave equation in one spatial dimension.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[HIGH\_CARD\_SIMULATION](../../cpp_src/high_card_simulation/high_card_simulation.html),
+[HIGH\_CARD\_SIMULATION](../../master/high_card_simulation/high_card_simulation.md),
 a C++ program which simulates a situation in which you see the cards in
 a deck one by one, and must select the one you think is the highest and
 stop; the program uses GNUPLOT for graphics.
@@ -71,7 +71,7 @@ stop; the program uses GNUPLOT for graphics.
 -   **G** supplies the initial time derivative.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

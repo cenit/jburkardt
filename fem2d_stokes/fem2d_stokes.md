@@ -256,21 +256,21 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_STOKES** is available in [a C++
-version](../../cpp_src/fem2d_stokes/fem2d_stokes.html) and [a FORTRAN90
-version](../../f_src/fem2d_stokes/fem2d_stokes.html) and [a MATLAB
-version](../../m_src/fem2d_stokes/fem2d_stokes.html).
+version](../../master/fem2d_stokes/fem2d_stokes.md) and [a FORTRAN90
+version](../../f_src/fem2d_stokes/fem2d_stokes.md) and [a MATLAB
+version](../../m_src/fem2d_stokes/fem2d_stokes.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D\_STOKES\_CAVITY](../../cpp_src/fem2d_stokes_cavity/fem2d_stokes_cavity.html),
+[FEM2D\_STOKES\_CAVITY](../../master/fem2d_stokes_cavity/fem2d_stokes_cavity.md),
 a C++ library which contains the user-supplied routines necessary to run
 **fem2d\_stokes** on the "cavity" problem.
 
-[FEM2D\_STOKES\_CHANNEL](../../cpp_src/fem2d_stokes_channel/fem2d_stokes_channel.html).
+[FEM2D\_STOKES\_CHANNEL](../../master/fem2d_stokes_channel/fem2d_stokes_channel.md).
 a C++ library which contains the user-supplied routines necessary to run
 **fem2d\_stokes** on the "channel" problem.
 
-[FEM2D\_STOKES\_INOUT](../../cpp_src/fem2d_stokes_inout/fem2d_stokes_inout.html).
+[FEM2D\_STOKES\_INOUT](../../master/fem2d_stokes_inout/fem2d_stokes_inout.md).
 a C++ library which contains the user-supplied routines necessary to run
 **fem2d\_stokes** on the "inout" problem.
 
@@ -368,7 +368,7 @@ a C++ library which contains the user-supplied routines necessary to run
     set of nodes.
 -   **VELOCITY6\_WRITE** writes the velocities to a file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

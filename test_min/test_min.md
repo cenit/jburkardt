@@ -60,16 +60,16 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_MIN** is available in [a C
-version](../../c_src/test_min/test_min.html) and [a C++
-version](../../cpp_src/test_min/test_min.html) and [a FORTRAN77
-version](../../f77_src/test_min/test_min.html) and [a FORTRAN90
-version](../../f_src/test_min/test_min.html) and [a MATLAB
-version](../../m_src/test_min/test_min.html) and [a Python
-version](../../py_src/test_min/test_min.html).
+version](../../c_src/test_min/test_min.md) and [a C++
+version](../../master/test_min/test_min.md) and [a FORTRAN77
+version](../../f77_src/test_min/test_min.md) and [a FORTRAN90
+version](../../f_src/test_min/test_min.md) and [a MATLAB
+version](../../m_src/test_min/test_min.md) and [a Python
+version](../../py_src/test_min/test_min.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BRENT](../../cpp_src/brent/brent.html), a C++ library which contains
+[BRENT](../../master/brent/brent.md), a C++ library which contains
 Richard Brent's routines for finding the zero, local minimizer, or
 global minimizer of a scalar function of a scalar argument, without the
 use of derivative information.
@@ -238,7 +238,7 @@ use of derivative information.
 -   **R8\_SIGN** returns the sign of an R8.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

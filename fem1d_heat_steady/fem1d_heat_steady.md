@@ -58,50 +58,50 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM1D\_HEAT\_STEADY** is available in [a C
-version](../../c_src/fem1d_heat_steady/fem1d_heat_steady.html) and [a
-C++ version](../../cpp_src/fem1d_heat_steady/fem1d_heat_steady.html) and
+version](../../c_src/fem1d_heat_steady/fem1d_heat_steady.md) and [a
+C++ version](../../master/fem1d_heat_steady/fem1d_heat_steady.md) and
 [a FORTRAN77
-version](../../f77_src/fem1d_heat_steady/fem1d_heat_steady.html) and [a
-FORTRAN90 version](../../f_src/fem1d_heat_steady/fem1d_heat_steady.html)
+version](../../f77_src/fem1d_heat_steady/fem1d_heat_steady.md) and [a
+FORTRAN90 version](../../f_src/fem1d_heat_steady/fem1d_heat_steady.md)
 and [a MATLAB
-version](../../m_src/fem1d_heat_steady/fem1d_heat_steady.html).
+version](../../m_src/fem1d_heat_steady/fem1d_heat_steady.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FD1D\_HEAT\_STEADY](../../cpp_src/fd1d_heat_steady/fd1d_heat_steady.html),
+[FD1D\_HEAT\_STEADY](../../master/fd1d_heat_steady/fd1d_heat_steady.md),
 a C++ program which applies the finite difference method to the steady
 state heat equation in one spatial dimension.
 
-[FEM1D](../../data/fem1d/fem1d.html), a data directory which contains
+[FEM1D](../../data/fem1d/fem1d.md), a data directory which contains
 examples of 1D FEM files, three text files that describe a 1D finite
 element model;
 
-[FEM1D](../../cpp_src/fem1d/fem1d.html), a C++ program which applies the
+[FEM1D](../../master/fem1d/fem1d.md), a C++ program which applies the
 finite element method to a linear two point boundary value problem in a
 1D region.
 
-[FEM1D\_ADAPTIVE](../../cpp_src/fem1d_adaptive/fem1d_adaptive.html), a
+[FEM1D\_ADAPTIVE](../../master/fem1d_adaptive/fem1d_adaptive.md), a
 C++ program which applies the finite element method to a linear two
 point boundary value problem in a 1D region, using adaptive refinement
 to improve the solution.
 
-[FEM1D\_BVP\_LINEAR](../../cpp_src/fem1d_bvp_linear/fem1d_bvp_linear.html),
+[FEM1D\_BVP\_LINEAR](../../master/fem1d_bvp_linear/fem1d_bvp_linear.md),
 a C++ program which applies the finite element method to a linear two
 point boundary value problem in a 1D region, using piecewise linear
 elements.
 
-[FEM1D\_NONLINEAR](../../cpp_src/fem1d_nonlinear/fem1d_nonlinear.html),
+[FEM1D\_NONLINEAR](../../master/fem1d_nonlinear/fem1d_nonlinear.md),
 a C++ program which applies the finite element method to a nonlinear two
 point boundary value problem in a 1D region.
 
-[FEM1D\_PACK](../../cpp_src/fem1d_pack/fem1d_pack.html), a C++ library
+[FEM1D\_PACK](../../master/fem1d_pack/fem1d_pack.md), a C++ library
 which contains utilities for 1D finite element calculations.
 
-[FEM1D\_PMETHOD](../../cpp_src/fem1d_pmethod/fem1d_pmethod.html), a C++
+[FEM1D\_PMETHOD](../../master/fem1d_pmethod/fem1d_pmethod.md), a C++
 program which applies the p-method version of the finite element method
 to a linear two point boundary value problem in a 1D region.
 
-[STOCHASTIC\_HEAT2D](../../cpp_src/stochastic_heat2d/stochastic_heat2d.html),
+[STOCHASTIC\_HEAT2D](../../master/stochastic_heat2d/stochastic_heat2d.md),
 a C++ program which implements a finite difference method (FDM) for the
 steady (time independent) 2D heat equation, with a stochastic heat
 diffusivity coefficient, using gnuplot to illustrate the results.
@@ -159,7 +159,7 @@ diffusivity coefficient, using gnuplot to illustrate the results.
 -   **R8VEC\_ZERO\_NEW** creates and zeroes an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

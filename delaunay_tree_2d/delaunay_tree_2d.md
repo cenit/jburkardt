@@ -37,34 +37,34 @@ write out the information defining the triangulation.
 ### Languages: {#languages align="center"}
 
 **DELAUNAY\_TREE\_2D** is available in [a C++
-version](../../cpp_src/delaunay_tree_2d/delaunay_tree_2d.html).
+version](../../master/delaunay_tree_2d/delaunay_tree_2d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DELAUNAY\_LMAP\_2D](../../f_src/delaunay_lmap_2d/delaunay_lmap_2d.html),
+[DELAUNAY\_LMAP\_2D](../../f_src/delaunay_lmap_2d/delaunay_lmap_2d.md),
 a FORTRAN90 program which reads in a pointset and a linear map and
 writes out the Delaunay triangulation for the linearly transformed data.
 
-[GEOMPACK](../../cpp_src/geompack/geompack.html), a C++ library which
+[GEOMPACK](../../master/geompack/geompack.md), a C++ library which
 computes the Delaunay triangulation or Voronoi diagram.
 
-[STRIPACK](../../f_src/stripack/stripack.html), a FORTRAN90 library
+[STRIPACK](../../f_src/stripack/stripack.md), a FORTRAN90 library
 which can compute the Delaunay triangulation of a set of points on a
 sphere.
 
-[TABLE\_DELAUNAY](../../cpp_src/table_delaunay/table_delaunay.html), a
+[TABLE\_DELAUNAY](../../master/table_delaunay/table_delaunay.md), a
 C++ program which reads a file of 2d point coordinates and computes the
 Delaunay triangulation.
 
-[TABLE\_VORONOI](../../cpp_src/table_voronoi/table_voronoi.html), a C++
+[TABLE\_VORONOI](../../master/table_voronoi/table_voronoi.md), a C++
 program which can compute information about the Voronoi diagram of a set
 of points stored in a file.
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[TRIPACK](../../f_src/tripack/tripack.html), a FORTRAN90 library which
+[TRIPACK](../../f_src/tripack/tripack.md), a FORTRAN90 library which
 can compute the Delaunay triangulation of a set of points.
 
 ### Author: {#author align="center"}
@@ -73,7 +73,7 @@ Olivier Devillers
 
 ### Reference: {#reference align="center"}
 
-1.  <http://www-sop.inria.fr/prisme/logiciel/index.html.en> a software
+1.  <http://www-sop.inria.fr/prisme/logiciel/index.md.en> a software
     download site at INRIA.
 2.  Franz Aurenhammer,\
     Voronoi diagrams - a study of a fundamental geometric data
@@ -115,7 +115,7 @@ both X and Y to lie between 0 and 612:
 -   [devillers\_scaled.txt](diamond_scaled.txt), the rescaled point
     coordinates;
 -   [diamond\_02\_00009.png](diamond_02_00009.png), a
-    [PNG](../../data/png/png.html) image of the file created by the
+    [PNG](../../data/png/png.md) image of the file created by the
     program from the input data;
 
 ### List of Routines: {#list-of-routines align="center"}
@@ -147,7 +147,7 @@ both X and Y to lie between 0 and 612:
     Delaunay\_tree.
 -   **MAIN** is the main program for delaunay\_tree\_2d.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -16,13 +16,13 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**BINS** is available in [a C++ version](../../cpp_src/bins/bins.html)
-and [a FORTRAN77 version](../../f77_src/bins/bins.html) and [a FORTRAN90
-version](../../f_src/bins/bins.html).
+**BINS** is available in [a C++ version](../../master/bins/bins.md)
+and [a FORTRAN77 version](../../f77_src/bins/bins.md) and [a FORTRAN90
+version](../../f_src/bins/bins.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[SUBPAK](../../cpp_src/subpak/subpak.html), a C++ library which contains
+[SUBPAK](../../master/subpak/subpak.md), a C++ library which contains
 many routines for sorting and searching data.
 
 ### Reference: {#reference align="center"}
@@ -160,7 +160,7 @@ many routines for sorting and searching data.
 -   **TUPLE\_NEXT2** computes the next element of an integer tuple
     space.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

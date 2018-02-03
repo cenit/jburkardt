@@ -21,46 +21,46 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGLE\_INTERPOLATE** is available in [a C
-version](../../c_src/triangle_interpolate/triangle_interpolate.html) and
+version](../../c_src/triangle_interpolate/triangle_interpolate.md) and
 [a C++
-version](../../cpp_src/triangle_interpolate/triangle_interpolate.html)
+version](../../master/triangle_interpolate/triangle_interpolate.md)
 and [a FORTRAN90
-version](../../f_src/triangle_interpolate/triangle_interpolate.html) and
+version](../../f_src/triangle_interpolate/triangle_interpolate.md) and
 [a MATLAB
-version](../../m_src/triangle_interpolate/triangle_interpolate.html) and
+version](../../m_src/triangle_interpolate/triangle_interpolate.md) and
 [a Python
-version](../../py_src/triangle_interpolate/triangle_interpolate.html).
+version](../../py_src/triangle_interpolate/triangle_interpolate.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM\_BASIS](../../cpp_src/fem_basis/fem_basis.html), a C++ library
+[FEM\_BASIS](../../master/fem_basis/fem_basis.md), a C++ library
 which can define basis functions for the finite element method (FEM) for
 any degree in an M-dimensional simplex (1D interval, 2D triangle, 3D
 tetrahedron, and higher dimensional generalizations.)
 
-[GEOMETRY](../../cpp_src/geometry/geometry.html), a C++ library which
+[GEOMETRY](../../master/geometry/geometry.md), a C++ library which
 performs geometric calculations in 2, 3 and N dimensional space.
 
-[TOMS886](../../cpp_src/toms886/toms886.html), a C++ library which
+[TOMS886](../../master/toms886/toms886.md), a C++ library which
 defines the Padua points for interpolation in a 2D region, including the
 rectangle, triangle, and ellipse, by Marco Caliari, Stefano de Marchi,
 Marco Vianello. This is a version of ACM TOMS algorithm 886.
 
-[TRIANGLE\_ANALYZE](../../cpp_src/triangle_analyze/triangle_analyze.html),
+[TRIANGLE\_ANALYZE](../../master/triangle_analyze/triangle_analyze.md),
 a C++ program which reads a triangle defined in a file, and uses the
 triangle\_properties() library to compute angles, area, centroid,
 circumcircle, edge lengths, incircle, orientation, orthocenter, and
 quality.
 
-[TRIANGLE\_FEKETE\_RULE](../../cpp_src/triangle_fekete_rule/triangle_fekete_rule.html),
+[TRIANGLE\_FEKETE\_RULE](../../master/triangle_fekete_rule/triangle_fekete_rule.md),
 a C++ library which defines Fekete rules for quadrature or interpolation
 over the interior of a triangle in 2D.
 
-[TRIANGLE\_GRID](../../cpp_src/triangle_grid/triangle_grid.html), a C++
+[TRIANGLE\_GRID](../../master/triangle_grid/triangle_grid.md), a C++
 library which computes a grid of points over the interior of a triangle
 in 2D.
 
-[TRIANGLE\_PROPERTIES](../../cpp_src/triangle_properties/triangle_properties.html),
+[TRIANGLE\_PROPERTIES](../../master/triangle_properties/triangle_properties.md),
 a C++ library which can compute properties, including angles, area,
 centroid, circumcircle, edge lengths, incircle, orientation,
 orthocenter, and quality, of a triangle in 2D.
@@ -88,7 +88,7 @@ orthocenter, and quality, of a triangle in 2D.
     triangle's vertices.
 -   **UNIFORM\_IN\_TRIANGLE\_MAP1** maps uniform points into a triangle.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -58,27 +58,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FD2D\_HEAT\_STEADY** is available in [a C
-version](../../c_src/fd2d_heat_steady/fd2d_heat_steady.html) and [a C++
-version](../../cpp_src/fd2d_heat_steady/fd2d_heat_steady.html) and [a
-FORTRAN77 version](../../f77_src/fd2d_heat_steady/fd2d_heat_steady.html)
+version](../../c_src/fd2d_heat_steady/fd2d_heat_steady.md) and [a C++
+version](../../master/fd2d_heat_steady/fd2d_heat_steady.md) and [a
+FORTRAN77 version](../../f77_src/fd2d_heat_steady/fd2d_heat_steady.md)
 and [a FORTRAN90
-version](../../f_src/fd2d_heat_steady/fd2d_heat_steady.html) and [a
-MATLAB version](../../m_src/fd2d_heat_steady/fd2d_heat_steady.html).
+version](../../f_src/fd2d_heat_steady/fd2d_heat_steady.md) and [a
+MATLAB version](../../m_src/fd2d_heat_steady/fd2d_heat_steady.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FD1D\_HEAT\_STEADY](../../cpp_src/fd1d_heat_steady/fd1d_heat_steady.html),
+[FD1D\_HEAT\_STEADY](../../master/fd1d_heat_steady/fd1d_heat_steady.md),
 a C++ program which uses the finite difference method to solve the 1D
 Time Independent Heat Equations.
 
-[FEM1D\_HEAT\_STEADY](../../cpp_src/fem1d_heat_steady/fem1d_heat_steady.html),
+[FEM1D\_HEAT\_STEADY](../../master/fem1d_heat_steady/fem1d_heat_steady.md),
 a C++ program which uses the finite element method to solve the 1D Time
 Independent Heat Equations.
 
-[FEM2D\_HEAT](../../cpp_src/fem2d_heat/fem2d_heat.html), a C++ program
+[FEM2D\_HEAT](../../master/fem2d_heat/fem2d_heat.md), a C++ program
 which solves the 2D time dependent heat equation on the unit square.
 
-[HEATED\_PLATE](../../cpp_src/heated_plate/heated_plate.html), a C++
+[HEATED\_PLATE](../../master/heated_plate/heated_plate.md), a C++
 program which solves the steady state heat equation in a 2D rectangular
 region, and is intended as a starting point for a parallel version.
 
@@ -109,7 +109,7 @@ region, and is intended as a starting point for a parallel version.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

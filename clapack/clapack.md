@@ -182,41 +182,41 @@ is licensed under a different arrangement.
 ### Languages: {#languages align="center"}
 
 The examples for **CLAPACK** are available in [a C
-version](../../c_src/clapack/clapack.html) and [a C++
-version](../../cpp_src/clapack/clapack.html).
+version](../../c_src/clapack/clapack.md) and [a C++
+version](../../master/clapack/clapack.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLAS1\_C](../../cpp_src/blas1_c/blas1_c.html), a C++ library which
+[BLAS1\_C](../../master/blas1_c/blas1_c.md), a C++ library which
 contains basic linear algebra subprograms (BLAS) for vector-vector
 operations, using single precision complex arithmetic, by Charles
 Lawson, Richard Hanson, David Kincaid, Fred Krogh.
 
-[BLAS1\_D](../../cpp_src/blas1_d/blas1_d.html), a C++ library which
+[BLAS1\_D](../../master/blas1_d/blas1_d.md), a C++ library which
 contains basic linear algebra subprograms (BLAS) for vector-vector
 operations, using double precision real arithmetic, by Charles Lawson,
 Richard Hanson, David Kincaid, Fred Krogh.
 
-[BLAS1\_S](../../cpp_src/blas1_s/blas1_s.html), a C++ library which
+[BLAS1\_S](../../master/blas1_s/blas1_s.md), a C++ library which
 contains basic linear algebra subprograms (BLAS) for vector-vector
 operations, using single precision real arithmetic, by Charles Lawson,
 Richard Hanson, David Kincaid, Fred Krogh.
 
-[BLAS1\_Z](../../cpp_src/blas1_z/blas1_z.html), a C++ library which
+[BLAS1\_Z](../../master/blas1_z/blas1_z.md), a C++ library which
 contains basic linear algebra subprograms (BLAS) for vector-vector
 operations, using double precision complex arithmetic, by Charles
 Lawson, Richard Hanson, David Kincaid, Fred Krogh.
 
-[CLAPACK\_SC](../../cpp_src/clapack_sc/clapack_sc.html), C++ programs
+[CLAPACK\_SC](../../master/clapack_sc/clapack_sc.md), C++ programs
 which illustrate the use of the CLAPACK library, a C translation of the
 FORTRAN77 BLAS and LAPACK linear algebra libraries, including single and
 double precision, real and complex arithmetic, as customized for the FSU
 Department of Scientific Computing.
 
-[LINPACK\_D](../../cpp_src/linpack_d/linpack_d.html), a C++ library
+[LINPACK\_D](../../master/linpack_d/linpack_d.md), a C++ library
 which solves linear systems using double precision real arithmetic;
 
-[LINPACK\_S](../../cpp_src/linpack_s/linpack_s.html), a C++ library
+[LINPACK\_S](../../master/linpack_s/linpack_s.md), a C++ library
 which solves linear systems using single precision real arithmetic;
 
 ### Reference: {#reference align="center"}
@@ -255,7 +255,7 @@ the matrix data to the form that CLAPACK needs.
 -   [clapack\_prb3\_output.txt](clapack_prb3_output.txt), the output
     file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

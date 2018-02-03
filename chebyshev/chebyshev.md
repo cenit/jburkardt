@@ -37,59 +37,59 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CHEBYSHEV** is available in [a C
-version](../../c_src/chebyshev/chebyshev.html) and [a C++
-version](../../cpp_src/chebyshev/chebyshev.html) and [a FORTRAN77
-version](../../f77_src/chebyshev/chebyshev.html) and [a FORTRAN90
-version](../../f_src/chebyshev/chebyshev.html) and [a MATLAB
-version](../../m_src/chebyshev/chebyshev.html).
+version](../../c_src/chebyshev/chebyshev.md) and [a C++
+version](../../master/chebyshev/chebyshev.md) and [a FORTRAN77
+version](../../f77_src/chebyshev/chebyshev.md) and [a FORTRAN90
+version](../../f_src/chebyshev/chebyshev.md) and [a MATLAB
+version](../../m_src/chebyshev/chebyshev.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[CHEBYSHEV\_POLYNOMIAL](../../cpp_src/chebyshev_polynomial/chebyshev_polynomial.html),
+[CHEBYSHEV\_POLYNOMIAL](../../master/chebyshev_polynomial/chebyshev_polynomial.md),
 a C++ library which evaluates the Chebyshev polynomial and associated
 functions.
 
-[CHEBYSHEV\_SERIES](../../cpp_src/chebyshev_series/chebyshev_series.html),
+[CHEBYSHEV\_SERIES](../../master/chebyshev_series/chebyshev_series.md),
 a C++ library which can evaluate a Chebyshev series approximating a
 function f(x), while efficiently computing one, two or three derivatives
 of the series, which approximate f'(x), f''(x), and f'''(x).
 
-[CLAUSEN](../../cpp_src/clausen/clausen.html), a C++ library which
+[CLAUSEN](../../master/clausen/clausen.md), a C++ library which
 evaluates a Chebyshev interpolant to the Clausen function Cl2(x).
 
-[DIVDIF](../../cpp_src/divdif/divdif.html), a C++ library which computes
+[DIVDIF](../../master/divdif/divdif.md), a C++ library which computes
 interpolants by divided differences.
 
-[HERMITE](../../cpp_src/hermite/hermite.html), a C++ library which
+[HERMITE](../../master/hermite/hermite.md), a C++ library which
 computes the Hermite interpolant, a polynomial that matches function
 values and derivatives.
 
-[HERMITE\_CUBIC](../../cpp_src/hermite_cubic/hermite_cubic.html), a C++
+[HERMITE\_CUBIC](../../master/hermite_cubic/hermite_cubic.md), a C++
 library which can compute the value, derivatives or integral of a
 Hermite cubic polynomial, or manipulate an interpolating function made
 up of piecewise Hermite cubic polynomials.
 
-[LAGRANGE\_INTERP\_1D](../../cpp_src/lagrange_interp_1d/lagrange_interp_1d.html),
+[LAGRANGE\_INTERP\_1D](../../master/lagrange_interp_1d/lagrange_interp_1d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data, so that p(x(i)) = y(i).
 
-[RBF\_INTERP](../../cpp_src/rbf_interp/rbf_interp.html), a C++ library
+[RBF\_INTERP](../../master/rbf_interp/rbf_interp.md), a C++ library
 which defines and evaluates radial basis function (RBF) interpolants to
 multidimensional data.
 
-[SPLINE](../../cpp_src/spline/spline.html), a C++ library which includes
+[SPLINE](../../master/spline/spline.md), a C++ library which includes
 many routines to construct and evaluate spline interpolants and
 approximants.
 
-[TEST\_APPROX](../../cpp_src/test_approx/test_approx.html), a C++
+[TEST\_APPROX](../../master/test_approx/test_approx.md), a C++
 library which defines test problems for approximation, provided as a set
 of (x,y) data.
 
-[TEST\_INTERP\_1D](../../cpp_src/test_interp_1d/test_interp_1d.html), a
+[TEST\_INTERP\_1D](../../master/test_interp_1d/test_interp_1d.md), a
 C++ library which defines test problems for interpolation of data y(x),
 depending on a 1D argument.
 
@@ -131,7 +131,7 @@ depending on a 1D argument.
     T(N)(X).
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

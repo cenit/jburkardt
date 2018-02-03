@@ -33,7 +33,7 @@ int main ( )
 //
 //  Location:
 //
-//    http://people.sc.fsu.edu/~jburkardt/cpp_src/stokes_2d_exact/s2de_prb.cpp
+//    http://people.sc.fsu.edu/~jburkardt/master/stokes_2d_exact/s2de_prb.cpp
 //
 //  Licensing:
 //

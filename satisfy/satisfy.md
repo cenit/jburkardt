@@ -43,53 +43,53 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SATISFY** is available in [a C
-version](../../c_src/satisfy/satisfy.html) and [a C++
-version](../../cpp_src/satisfy/satisfy.html) and [a FORTRAN77
-version](../../f77_src/satisfy/satisfy.html) and [a FORTRAN90
-version](../../f_src/satisfy/satisfy.html) and [a MATLAB
-version](../../m_src/satisfy/satisfy.html) and [a Python
-version](../../py_src/satisfy/satisfy.html).
+version](../../c_src/satisfy/satisfy.md) and [a C++
+version](../../master/satisfy/satisfy.md) and [a FORTRAN77
+version](../../f77_src/satisfy/satisfy.md) and [a FORTRAN90
+version](../../f_src/satisfy/satisfy.md) and [a MATLAB
+version](../../m_src/satisfy/satisfy.md) and [a Python
+version](../../py_src/satisfy/satisfy.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CHANGE\_MAKING](../../cpp_src/change_making/change_making.html), a C++
+[CHANGE\_MAKING](../../master/change_making/change_making.md), a C++
 library which considers the change making problem, in which a given sum
 is to be formed using coins of various denominations.
 
-[CNF](../../data/cnf/cnf.html), a data directory which describes the
+[CNF](../../data/cnf/cnf.md), a data directory which describes the
 DIMACS CNF file format for defining instances of the satisfy problem for
 boolean formulas in conjunctive normal form.
 
-[COMBO](../../cpp_src/combo/combo.html), a C++ library which includes
+[COMBO](../../master/combo/combo.md), a C++ library which includes
 many combinatorial routines.
 
-[KNAPSACK\_01](../../cpp_src/knapsack_01/knapsack_01.html), a C++
+[KNAPSACK\_01](../../master/knapsack_01/knapsack_01.md), a C++
 library which uses brute force to solve small versions of the 0/1
 knapsack problem;
 
-[PARTITION\_PROBLEM](../../cpp_src/partition_problem/partition_problem.html),
+[PARTITION\_PROBLEM](../../master/partition_problem/partition_problem.md),
 a C++ library which seeks solutions of the partition problem, splitting
 a set of integers into two subsets with equal sum.
 
-[SATISFY\_MPI](../../cpp_src/satisfy_mpi/satisfy_mpi.html), a C++
+[SATISFY\_MPI](../../master/satisfy_mpi/satisfy_mpi.md), a C++
 program which demonstrates, for a particular circuit, an exhaustive
 search for solutions of the circuit satisfy problem, using MPI to carry
 out the calculation in parallel.
 
-[SATISFY\_OPENMP](../../cpp_src/satisfy_openmp/satisfy_openmp.html), a
+[SATISFY\_OPENMP](../../master/satisfy_openmp/satisfy_openmp.md), a
 C++ program which solves the circuit satisfy problem using the OpenMP
 parallel programming system.
 
-[SEARCH\_SERIAL](../../cpp_src/search_serial/search_serial.html), a C++
+[SEARCH\_SERIAL](../../master/search_serial/search_serial.md), a C++
 program which searches the integers from A to B for a value J such that
 F(J) = C. this version of the program is intended as a starting point
 for a parallel approach.
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which
+[SUBSET](../../master/subset/subset.md), a C++ library which
 enumerates combinations, partitions, subsets, index sets, and other
 combinatorial objects.
 
-[TSP\_BRUTE](../../cpp_src/tsp_brute/tsp_brute.html), a C++ program
+[TSP\_BRUTE](../../master/tsp_brute/tsp_brute.md), a C++ program
 which reads a file of city-to-city distances and solves the traveling
 salesperson problem, using brute force.
 
@@ -124,7 +124,7 @@ salesperson problem, using brute force.
     set.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

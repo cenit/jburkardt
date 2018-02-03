@@ -37,16 +37,16 @@ I don't care what you do with this code.
 ### Languages: {#languages align="center"}
 
 **CONTINUED\_FRACTION** is available in [a C
-version](../../c_src/continued_fraction/continued_fraction.html) and [a
-C++ version](../../cpp_src/continued_fraction/continued_fraction.html)
+version](../../c_src/continued_fraction/continued_fraction.md) and [a
+C++ version](../../master/continued_fraction/continued_fraction.md)
 and [a FORTRAN90
-version](../../f_src/continued_fraction/continued_fraction.html) and [a
+version](../../f_src/continued_fraction/continued_fraction.md) and [a
 MATLAB
-version](../../m_src/continued_fraction/continued_fraction.html)..
+version](../../m_src/continued_fraction/continued_fraction.md)..
 
 ### Related Software and Data: {#related-software-and-data align="center"}
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which
+[SUBSET](../../master/subset/subset.md), a C++ library which
 enumerates, generates, randomizes, ranks and unranks combinatorial
 objects including combinations, compositions, Gray codes, index sets,
 partitions, permutations, polynomials, subsets, and Young tables.
@@ -100,7 +100,7 @@ Some routines for continued fractions are included.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

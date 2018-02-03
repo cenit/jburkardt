@@ -47,46 +47,46 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CHANGE\_MAKING** is available in [a C
-version](../../c_src/change_making/change_making.html) and [a C++
-version](../../cpp_src/change_making/change_making.html) and [a
-FORTRAN90 version](../../f_src/change_making/change_making.html) and [a
-FORTRAN77 version](../../f77_src/change_making/change_making.html) and
-[a MATLAB version.](../../m_src/change_making/change_making.html)
+version](../../c_src/change_making/change_making.md) and [a C++
+version](../../master/change_making/change_making.md) and [a
+FORTRAN90 version](../../f_src/change_making/change_making.md) and [a
+FORTRAN77 version](../../f77_src/change_making/change_making.md) and
+[a MATLAB version.](../../m_src/change_making/change_making.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CHANGE\_MAKING](../../datasets/change_making/change_making.html), a
+[CHANGE\_MAKING](../../datasets/change_making/change_making.md), a
 dataset directory which contains test data for the change making
 problem;
 
-[COMBINATION\_LOCK](../../cpp_src/combination_lock/combination_lock.html),
+[COMBINATION\_LOCK](../../master/combination_lock/combination_lock.md),
 a C++ program which simulates the process of determining the secret
 combination of a lock.
 
-[COMBO](../../cpp_src/combo/combo.html), a C++ library which includes
+[COMBO](../../master/combo/combo.md), a C++ library which includes
 many combinatorial routines.
 
-[KNAPSACK\_01](../../cpp_src/knapsack_01/knapsack_01.html), a C++
+[KNAPSACK\_01](../../master/knapsack_01/knapsack_01.md), a C++
 library which uses brute force to solve small versions of the 0/1
 knapsack problem;
 
-[PARTITION\_PROBLEM](../../cpp_src/partition_problem/partition_problem.html),
+[PARTITION\_PROBLEM](../../master/partition_problem/partition_problem.md),
 a C++ library which seeks solutions of the partition problem, splitting
 a set of integers into two subsets with equal sum.
 
-[SATISFY](../../cpp_src/satisfy/satisfy.html), a C++ program which
+[SATISFY](../../master/satisfy/satisfy.md), a C++ program which
 demonstrates, for a particular circuit, an exhaustive search for
 solutions of the circuit satisfiability problem.
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which
+[SUBSET](../../master/subset/subset.md), a C++ library which
 enumerates, generates, ranks and unranks combinatorial objects including
 combinations, partitions, subsets, index sets, and trees.
 
-[SUBSET\_SUM](../../cpp_src/subset_sum/subset_sum.html), a C++ library
+[SUBSET\_SUM](../../master/subset_sum/subset_sum.md), a C++ library
 which seeks solutions of the subset sum problem, in which it is desired
 to find a subset of a set of integers which has a given sum.
 
-[TSP\_BRUTE](../../cpp_src/tsp_brute/tsp_brute.html), a C++ program
+[TSP\_BRUTE](../../master/tsp_brute/tsp_brute.md), a C++ program
 which reads a file of city-to-city distances and solves the traveling
 salesperson problem, using brute force.
 
@@ -107,7 +107,7 @@ salesperson problem, using brute force.
 -   **CHANGE\_MAKING\_LIST** solves the change making problem.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -35,20 +35,20 @@ This code may freely be copied, modified, and used for any purpose.
 ### Languages: {#languages align="center"}
 
 **MINPACK** is available in [a C++
-version](../../cpp_src/minpack/minpack.html) and [a FORTRAN90
-version](../../f_src/minpack/minpack.html).
+version](../../master/minpack/minpack.md) and [a FORTRAN90
+version](../../f_src/minpack/minpack.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LLSQ](../../cpp_src/llsq/llsq.html), a C++ library which solves the
+[LLSQ](../../master/llsq/llsq.md), a C++ library which solves the
 simple linear least squares problem of finding the formula of a straight
 line y=a\*x+b which minimizes the root-mean-square error to a set of N
 data points.
 
-[QR\_SOLVE](../../cpp_src/qr_solve/qr_solve.html), a C++ library which
+[QR\_SOLVE](../../master/qr_solve/qr_solve.md), a C++ library which
 computes the least squares solution of a linear system A\*x=b.
 
-[TEST\_LS](../../cpp_src/test_ls/test_ls.html), a C++ library which
+[TEST\_LS](../../master/test_ls/test_ls.md), a C++ library which
 implements linear least squares test problems of the form A\*x=b.
 
 ### Reference: {#reference align="center"}
@@ -99,7 +99,7 @@ implements linear least squares test problems of the form A\*x=b.
 -   **R8\_UNIFORM\_01** returns a unit pseudorandom R8.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

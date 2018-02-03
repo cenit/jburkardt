@@ -34,7 +34,7 @@ rules, including
 The original, true, correct version of ACM TOMS Algorithm 655 is
 available through ACM:
 [http://www.acm.org/pubs/calgo](http://www.acm.org/pubs/calgo/) or
-NETLIB: <http://www.netlib.org/toms/index.html>.
+NETLIB: <http://www.netlib.org/toms/index.md>.
 
 ### Licensing: {#licensing align="center"}
 
@@ -45,52 +45,52 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS655** is available in [a C
-version](../../c_src/toms655/toms655.html) and [a C++
-version](../../cpp_src/toms655/toms655.html) and [a FORTRAN77
-version](../../f77_src/toms655/toms655.html) and [a FORTRAN90
-version](../../f_src/toms655/toms655.html) and [a MATLAB
-version](../../m_src/toms655/toms655.html).
+version](../../c_src/toms655/toms655.md) and [a C++
+version](../../master/toms655/toms655.md) and [a FORTRAN77
+version](../../f77_src/toms655/toms655.md) and [a FORTRAN90
+version](../../f_src/toms655/toms655.md) and [a MATLAB
+version](../../m_src/toms655/toms655.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CHEBYSHEV1\_RULE](../../cpp_src/chebyshev1_rule/chebyshev1_rule.html),
+[CHEBYSHEV1\_RULE](../../master/chebyshev1_rule/chebyshev1_rule.md),
 a C++ program which can compute and print a Gauss-Chebyshev type 1
 quadrature rule.
 
-[CHEBYSHEV2\_RULE](../../cpp_src/chebyshev2_rule/chebyshev2_rule.html),
+[CHEBYSHEV2\_RULE](../../master/chebyshev2_rule/chebyshev2_rule.md),
 a C++ program which can compute and print a Gauss-Chebyshev type 2
 quadrature rule.
 
-[GEGENBAUER\_RULE](../../cpp_src/gegenbauer_rule/gegenbauer_rule.html),
+[GEGENBAUER\_RULE](../../master/gegenbauer_rule/gegenbauer_rule.md),
 a C++ program which can compute and print a Gauss-Gegenbauer quadrature
 rule.
 
-[GEN\_HERMITE\_RULE](../../cpp_src/gen_hermite_rule/gen_hermite_rule.html),
+[GEN\_HERMITE\_RULE](../../master/gen_hermite_rule/gen_hermite_rule.md),
 a C++ program which can compute and print a generalized Gauss-Hermite
 quadrature rule.
 
-[GEN\_LAGUERRE\_RULE](../../cpp_src/gen_laguerre_rule/gen_laguerre_rule.html),
+[GEN\_LAGUERRE\_RULE](../../master/gen_laguerre_rule/gen_laguerre_rule.md),
 a C++ program which can compute and print a generalized Gauss-Laguerre
 quadrature rule.
 
-[HERMITE\_RULE](../../cpp_src/hermite_rule/hermite_rule.html), a C++
+[HERMITE\_RULE](../../master/hermite_rule/hermite_rule.md), a C++
 program which computes a Gauss-Hermite quadrature rule.
 
-[JACOBI\_RULE](../../cpp_src/jacobi_rule/jacobi_rule.html), a C++
+[JACOBI\_RULE](../../master/jacobi_rule/jacobi_rule.md), a C++
 program which can compute and print a Gauss-Jacobi quadrature rule.
 
-[LAGUERRE\_RULE](../../cpp_src/laguerre_rule/laguerre_rule.html), a C++
+[LAGUERRE\_RULE](../../master/laguerre_rule/laguerre_rule.md), a C++
 program which can compute and print a Gauss-Laguerre quadrature rule.
 
-[LEGENDRE\_RULE](../../cpp_src/legendre_rule/legendre_rule.html), a C++
+[LEGENDRE\_RULE](../../master/legendre_rule/legendre_rule.md), a C++
 program which computes a Gauss-Legendre quadrature rule.
 
-[QUADMOM](../../cpp_src/quadmom/quadmom.html), a C++ library which
+[QUADMOM](../../master/quadmom/quadmom.md), a C++ library which
 computes a Gaussian quadrature rule for a weight function rho(x) based
 on the Golub-Welsch procedure that only requires knowledge of the
 moments of rho(x).
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html) a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md) a C++ library which
 contains information about quadrature rules, both as tabulated values,
 and as computational procedures.
 
@@ -172,7 +172,7 @@ and as computational procedures.
 -   **WM** evaluates the first M moments of classical weight functions.
 -   **WTFN** evaluates the classical weight functions at given points.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

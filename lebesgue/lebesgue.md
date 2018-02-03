@@ -42,23 +42,23 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LEBESGUE** is available in [a C
-version](../../c_src/lebesgue/lebesgue.html) and [a C++
-version](../../cpp_src/lebesgue/lebesgue.html) and [a FORTRAN77
-version](../../f77_src/lebesgue/lebesgue.html) and [a FORTRAN90
-version](../../f_src/lebesgue/lebesgue.html) and [a MATLAB
-version](../../m_src/lebesgue/lebesgue.html) and [a Python
-version](../../py_src/lebesgue/lebesgue.html).
+version](../../c_src/lebesgue/lebesgue.md) and [a C++
+version](../../master/lebesgue/lebesgue.md) and [a FORTRAN77
+version](../../f77_src/lebesgue/lebesgue.md) and [a FORTRAN90
+version](../../f_src/lebesgue/lebesgue.md) and [a MATLAB
+version](../../m_src/lebesgue/lebesgue.md) and [a Python
+version](../../py_src/lebesgue/lebesgue.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
-[INTERP](../../cpp_src/interp/interp.html), a C++ library which can be
+[INTERP](../../master/interp/interp.md), a C++ library which can be
 used for parameterizing and interpolating data;
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines quadrature rules for approximating an integral over a 1D domain.
 
 ### Reference: {#reference align="center"}
@@ -113,7 +113,7 @@ sizes of the point sets.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

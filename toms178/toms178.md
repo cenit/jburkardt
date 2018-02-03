@@ -32,25 +32,25 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TOMS178** is available in [a C
-version](../../c_src/toms178/toms178.html) and [a C++
-version](../../cpp_src/toms178/toms178.html) and [a FORTRAN77
-version](../../f77_src/toms178/toms178.html) and [a FORTRAN90
-version](../../f_src/toms178/toms178.html) and [a MATLAB
-version](../../m_src/toms178/toms178.html) and [a Python
-version](../../py_src/toms178/toms178.html).
+version](../../c_src/toms178/toms178.md) and [a C++
+version](../../master/toms178/toms178.md) and [a FORTRAN77
+version](../../f77_src/toms178/toms178.md) and [a FORTRAN90
+version](../../f_src/toms178/toms178.md) and [a MATLAB
+version](../../m_src/toms178/toms178.md) and [a Python
+version](../../py_src/toms178/toms178.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA047](../../cpp_src/asa047/asa047.html), a C++ library which
+[ASA047](../../master/asa047/asa047.md), a C++ library which
 minimizes a scalar function of several variables using the Nelder-Mead
 algorithm.
 
-[COMPASS\_SEARCH](../../cpp_src/compass_search/compass_search.html), a
+[COMPASS\_SEARCH](../../master/compass_search/compass_search.md), a
 C++ library which seeks the minimizer of a scalar function of several
 variables using compass search, a direct search algorithm that does not
 use derivatives.
 
-[MINPACK](../../cpp_src/minpack/minpack.html), a C++ library which
+[MINPACK](../../master/minpack/minpack.md), a C++ library which
 solves systems of nonlinear equations, or the least squares minimization
 of the residual of a set of linear or nonlinear equations.
 
@@ -96,7 +96,7 @@ Original Algol version by Arthur Kaupe; C++ version by John Burkardt.
 -   **R8\_ABS** returns the absolute value of an R8.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

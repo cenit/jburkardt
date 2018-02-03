@@ -30,50 +30,50 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FD1D\_BURGERS\_LAX** is available in [a C
-version](../../c_src/fd1d_burgers_lax/fd1d_burgers_lax.html) and [a C++
-version](../../cpp_src/fd1d_burgers_lax/fd1d_burgers_lax.html) and [a
-FORTRAN77 version](../../f77_src/fd1d_burgers_lax/fd1d_burgers_lax.html)
+version](../../c_src/fd1d_burgers_lax/fd1d_burgers_lax.md) and [a C++
+version](../../master/fd1d_burgers_lax/fd1d_burgers_lax.md) and [a
+FORTRAN77 version](../../f77_src/fd1d_burgers_lax/fd1d_burgers_lax.md)
 and [a FORTRAN90
-version](../../f_src/fd1d_burgers_lax/fd1d_burgers_lax.html) and [a
-MATLAB version](../../m_src/fd1d_burgers_lax/fd1d_burgers_lax.html).
+version](../../f_src/fd1d_burgers_lax/fd1d_burgers_lax.md) and [a
+MATLAB version](../../m_src/fd1d_burgers_lax/fd1d_burgers_lax.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BURGERS](../../datasets/burgers/burgers.html), a dataset directory
+[BURGERS](../../datasets/burgers/burgers.md), a dataset directory
 which contains some solutions to the viscous Burgers equation.
 
-[BURGERS\_SOLUTION](../../cpp_src/burgers_solution/burgers_solution.html),
+[BURGERS\_SOLUTION](../../master/burgers_solution/burgers_solution.md),
 a C++ library which evaluates an exact solution of the time-dependent 1D
 viscous Burgers equation.
 
-[FD1D\_ADVECTION\_LAX](../../cpp_src/fd1d_advection_lax/fd1d_advection_lax.html),
+[FD1D\_ADVECTION\_LAX](../../master/fd1d_advection_lax/fd1d_advection_lax.md),
 a C++ program which applies the finite difference method to solve the
 time-dependent advection equation ut = - c \* ux in one spatial
 dimension, with a constant velocity, using the Lax method to treat the
 time derivative.
 
-[FD1D\_BURGERS\_LEAP](../../cpp_src/fd1d_burgers_leap/fd1d_burgers_leap.html),
+[FD1D\_BURGERS\_LEAP](../../master/fd1d_burgers_leap/fd1d_burgers_leap.md),
 a C++ program which applies the finite difference method and the
 leapfrog approach to solve the non-viscous time-dependent Burgers
 equation in one spatial dimension.
 
-[FD1D\_BVP](../../cpp_src/fd1d_bvp/fd1d_bvp.html), a C++ program which
+[FD1D\_BVP](../../master/fd1d_bvp/fd1d_bvp.md), a C++ program which
 applies the finite difference method to a two point boundary value
 problem in one spatial dimension.
 
-[FD1D\_HEAT\_EXPLICIT](../../cpp_src/fd1d_heat_explicit/fd1d_heat_explicit.html),
+[FD1D\_HEAT\_EXPLICIT](../../master/fd1d_heat_explicit/fd1d_heat_explicit.md),
 a C++ program which uses the finite difference method and explicit time
 stepping to solve the time dependent heat equation in 1D.
 
-[FD1D\_HEAT\_IMPLICIT](../../cpp_src/fd1d_heat_implicit/fd1d_heat_implicit.html),
+[FD1D\_HEAT\_IMPLICIT](../../master/fd1d_heat_implicit/fd1d_heat_implicit.md),
 a C++ program which uses the finite difference method and implicit time
 stepping to solve the time dependent heat equation in 1D.
 
-[FD1D\_HEAT\_STEADY](../../cpp_src/fd1d_heat_steady/fd1d_heat_steady.html),
+[FD1D\_HEAT\_STEADY](../../master/fd1d_heat_steady/fd1d_heat_steady.md),
 a C++ program which uses the finite difference method to solve the
 steady (time independent) heat equation in 1D.
 
-[FD1D\_WAVE](../../cpp_src/fd1d_wave/fd1d_wave.html), a C++ program
+[FD1D\_WAVE](../../master/fd1d_wave/fd1d_wave.md), a C++ program
 which applies the finite difference method to solve the time-dependent
 wave equation utt = c \* uxx in one spatial dimension.
 
@@ -106,7 +106,7 @@ wave equation utt = c \* uxx in one spatial dimension.
 -   **U\_B** sets the boundary condition for U at B.
 -   **U\_INIT** sets the initial condition for U.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

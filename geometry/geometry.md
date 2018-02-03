@@ -30,48 +30,48 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **GEOMETRY** is available in [a C
-version](../../c_src/geometry/geometry.html) and [a C++
-version](../../cpp_src/geometry/geometry.html) and [a FORTRAN90
-version](../../f_src/geometry/geometry.html) and [a MATLAB
-version](../../m_src/geometry/geometry.html) and [a Python
-version](../../py_src/geometry/geometry.html).
+version](../../c_src/geometry/geometry.md) and [a C++
+version](../../master/geometry/geometry.md) and [a FORTRAN90
+version](../../f_src/geometry/geometry.md) and [a MATLAB
+version](../../m_src/geometry/geometry.md) and [a Python
+version](../../py_src/geometry/geometry.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[GEOMPACK](../../cpp_src/geompack/geompack.html), a C++ library which
+[GEOMPACK](../../master/geompack/geompack.md), a C++ library which
 computes the Delaunay triangulation and Voronoi diagram of 2D data.
 
-[POLYGON\_MOMENTS](../../cpp_src/polygon_moments/polygon_moments.html),
+[POLYGON\_MOMENTS](../../master/polygon_moments/polygon_moments.md),
 a C++ library which computes arbitrary moments of a polygon.
 
-[TABLE\_DELAUNAY](../../cpp_src/table_delaunay/table_delaunay.html), a
+[TABLE\_DELAUNAY](../../master/table_delaunay/table_delaunay.md), a
 C++ program which reads a file of 2d point coordinates and computes the
 Delaunay triangulation.
 
-[TET\_MESH](../../cpp_src/tet_mesh/tet_mesh.html), a C++ library which
+[TET\_MESH](../../master/tet_mesh/tet_mesh.md), a C++ library which
 defines and analyzes tetrahedral meshes.
 
-[TETRAHEDRON\_PROPERTIES](../../cpp_src/tetrahedron_properties/tetrahedron_properties.html),
+[TETRAHEDRON\_PROPERTIES](../../master/tetrahedron_properties/tetrahedron_properties.md),
 a C++ program which computes properties of a tetrahedron whose vertex
 coordinates are read from a file.
 
-[TETRAHEDRONS](../../datasets/tetrahedrons/tetrahedrons.html), a dataset
+[TETRAHEDRONS](../../datasets/tetrahedrons/tetrahedrons.md), a dataset
 directory which contains examples of tetrahedrons;
 
-[TRIANGLES](../../datasets/triangles/triangles.html), a dataset
+[TRIANGLES](../../datasets/triangles/triangles.md), a dataset
 directory which contains examples of triangles;
 
-[TRIANGULATE](../../c_src/triangulate/triangulate.html), a C program
+[TRIANGULATE](../../c_src/triangulate/triangulate.md), a C program
 which triangulates a (possibly nonconvex) polygon.
 
-[TRIANGULATION](../../cpp_src/triangulation/triangulation.html), a C++
+[TRIANGULATION](../../master/triangulation/triangulation.md), a C++
 library which defines and analyzes triangulations.
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[TRIANGULATION\_TRIANGLE\_NEIGHBORS](../../cpp_src/triangulation_triangle_neighbors/triangulation_triangle_neighbors.html),
+[TRIANGULATION\_TRIANGLE\_NEIGHBORS](../../master/triangulation_triangle_neighbors/triangulation_triangle_neighbors.md),
 a C++ program which reads data defining a triangulation, determines the
 neighboring triangles of each triangle, and writes that information to a
 file.
@@ -1188,7 +1188,7 @@ file.
 -   **XYZ\_TO\_RTP** converts (X,Y,Z) to (R,Theta,Phi) coordinates.
 -   **XYZ\_TO\_TP** converts (X,Y,Z) to (Theta,Phi) coordinates.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -49,24 +49,24 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LORENZ\_ODE** is available in [a C
-version](../../c_src/lorenz_ode/lorenz_ode.html) and [a C++
-version](../../cpp_src/lorenz_ode/lorenz_ode.html) and [a FORTRAN77
-version](../../f77_src/lorenz_ode/lorenz_ode.html) and [a FORTRAN90
-version](../../f_src/lorenz_ode/lorenz_ode.html) and [a MATLAB
-version](../../m_src/lorenz_ode/lorenz_ode.html) and [a Python
-version](../../py_src/lorenz_ode/lorenz_ode.html).
+version](../../c_src/lorenz_ode/lorenz_ode.md) and [a C++
+version](../../master/lorenz_ode/lorenz_ode.md) and [a FORTRAN77
+version](../../f77_src/lorenz_ode/lorenz_ode.md) and [a FORTRAN90
+version](../../f_src/lorenz_ode/lorenz_ode.md) and [a MATLAB
+version](../../m_src/lorenz_ode/lorenz_ode.md) and [a Python
+version](../../py_src/lorenz_ode/lorenz_ode.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate the use of the gnuplot graphics program.
 
-[GRAPHICS\_EXAMPLES\_GNUPLOT](../../examples/graphics_examples_gnuplot/graphics_examples_gnuplot.html),
+[GRAPHICS\_EXAMPLES\_GNUPLOT](../../examples/graphics_examples_gnuplot/graphics_examples_gnuplot.md),
 gnuplot scripts which illustrate how various kinds of data can be
 displayed and analyzed graphically using the interactive executable
 graphics program GNUPLOT.
 
-[SPRING\_ODE2](../../cpp_src/spring_ode2/spring_ode2.html), a C++
+[SPRING\_ODE2](../../master/spring_ode2/spring_ode2.md), a C++
 program which shows how gnuplot graphics can be used to illustrate a
 solution of the ordinary differential equation (ODE) that describes the
 motion of a weight attached to a spring.
@@ -101,7 +101,7 @@ motion of a weight attached to a spring.
 -   **RK4VEC** takes one Runge-Kutta step for a vector ODE.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -57,75 +57,75 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LEGENDRE\_RULE\_FAST** is available in [a C
-version](../../c_src/legendre_rule_fast/legendre_rule_fast.html) and [a
-C++ version](../../cpp_src/legendre_rule_fast/legendre_rule_fast.html)
+version](../../c_src/legendre_rule_fast/legendre_rule_fast.md) and [a
+C++ version](../../master/legendre_rule_fast/legendre_rule_fast.md)
 and [a FORTRAN77
-version](../../f77_src/legendre_rule_fast/legendre_rule_fast.html) and
+version](../../f77_src/legendre_rule_fast/legendre_rule_fast.md) and
 [a FORTRAN90
-version](../../f_src/legendre_rule_fast/legendre_rule_fast.html) and [a
-MATLAB version](../../m_src/legendre_rule_fast/legendre_rule_fast.html).
+version](../../f_src/legendre_rule_fast/legendre_rule_fast.md) and [a
+MATLAB version](../../m_src/legendre_rule_fast/legendre_rule_fast.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CHEBYSHEV1\_RULE](../../cpp_src/chebyshev1_rule/chebyshev1_rule.html),
+[CHEBYSHEV1\_RULE](../../master/chebyshev1_rule/chebyshev1_rule.md),
 a C++ program which can compute and print a Gauss-Chebyshev type 1
 quadrature rule.
 
-[CHEBYSHEV2\_RULE](../../cpp_src/chebyshev2_rule/chebyshev2_rule.html),
+[CHEBYSHEV2\_RULE](../../master/chebyshev2_rule/chebyshev2_rule.md),
 is a C++ program which can compute and print a Gauss-Chebyshev type 2
 quadrature rule.
 
-[CLENSHAW\_CURTIS\_RULE](../../cpp_src/clenshaw_curtis_rule/clenshaw_curtis_rule.html)
+[CLENSHAW\_CURTIS\_RULE](../../master/clenshaw_curtis_rule/clenshaw_curtis_rule.md)
 is a C++ program which defines a Clenshaw Curtis quadrature rule.
 
-[GEGENBAUER\_RULE](../../cpp_src/gegenbauer_rule/gegenbauer_rule.html),
+[GEGENBAUER\_RULE](../../master/gegenbauer_rule/gegenbauer_rule.md),
 a C++ program which can compute and print a Gauss-Gegenbauer quadrature
 rule.
 
-[GEN\_HERMITE\_RULE](../../cpp_src/gen_hermite_rule/gen_hermite_rule.html),
+[GEN\_HERMITE\_RULE](../../master/gen_hermite_rule/gen_hermite_rule.md),
 a C++ program which can compute and print a generalized Gauss-Hermite
 quadrature rule.
 
-[GEN\_LAGUERRE\_RULE](../../cpp_src/gen_laguerre_rule/gen_laguerre_rule.html),
+[GEN\_LAGUERRE\_RULE](../../master/gen_laguerre_rule/gen_laguerre_rule.md),
 a C++ program which can compute and print a generalized Gauss-Laguerre
 quadrature rule.
 
-[HERMITE\_RULE](../../cpp_src/hermite_rule/hermite_rule.html), a C++
+[HERMITE\_RULE](../../master/hermite_rule/hermite_rule.md), a C++
 program which can compute and print a Gauss-Hermite quadrature rule.
 
-[INT\_EXACTNESS\_LEGENDRE](../../cpp_src/int_exactness_legendre/int_exactness_legendre.html),
+[INT\_EXACTNESS\_LEGENDRE](../../master/int_exactness_legendre/int_exactness_legendre.md),
 a C++ program which checks the polynomial exactness of a Gauss-Legendre
 quadrature rule.
 
-[JACOBI\_RULE](../../cpp_src/jacobi_rule/jacobi_rule.html), a C++
+[JACOBI\_RULE](../../master/jacobi_rule/jacobi_rule.md), a C++
 program which can compute and print a Gauss-Jacobi quadrature rule.
 
-[LAGUERRE\_RULE](../../cpp_src/laguerre_rule/laguerre_rule.html), a C++
+[LAGUERRE\_RULE](../../master/laguerre_rule/laguerre_rule.md), a C++
 program which can compute and print a Gauss-Laguerre quadrature rule.
 
-[LEGENDRE\_RULE](../../cpp_src/legendre_rule/legendre_rule.html), is a
+[LEGENDRE\_RULE](../../master/legendre_rule/legendre_rule.md), is a
 C++ program which can compute and print a Gauss-Legendre quadrature
 rule.
 
-[PATTERSON\_RULE](../../cpp_src/patterson_rule/patterson_rule.html), is
+[PATTERSON\_RULE](../../master/patterson_rule/patterson_rule.md), is
 a C++ program which computes a Gauss-Patterson quadrature rule.
 
-[PRODUCT\_RULE](../../cpp_src/product_rule/product_rule.html), a C++
+[PRODUCT\_RULE](../../master/product_rule/product_rule.md), a C++
 program which constructs a product rule from 1D factor rules.
 
-[QUADRATURE\_RULES\_LEGENDRE](../../datasets/quadrature_rules_legendre/quadrature_rules_legendre.html),
+[QUADRATURE\_RULES\_LEGENDRE](../../datasets/quadrature_rules_legendre/quadrature_rules_legendre.md),
 a dataset directory which contains triples of files defining standard
 Gauss-Legendre quadrature rules.
 
-[QUADRULE](../../cpp_src/quadrule/quadrule.html), a C++ library which
+[QUADRULE](../../master/quadrule/quadrule.md), a C++ library which
 defines 1-dimensional quadrature rules.
 
-[SANDIA\_RULES](../../cpp_src/sandia_rules/sandia_rules.html), a C++
+[SANDIA\_RULES](../../master/sandia_rules/sandia_rules.md), a C++
 library which produces 1D quadrature rules of Chebyshev, Clenshaw
 Curtis, Fejer 2, Gegenbauer, generalized Hermite, generalized Laguerre,
 Hermite, Jacobi, Laguerre, Legendre and Patterson types.
 
-[TANH\_SINH\_RULE](../../cpp_src/tanh_sinh_rule/tanh_sinh_rule.html), a
+[TANH\_SINH\_RULE](../../master/tanh_sinh_rule/tanh_sinh_rule.md), a
 C++ program which computes and writes out a tanh-sinh quadrature rule of
 given order.
 
@@ -171,7 +171,7 @@ The following files were created by the command **legendre\_rule\_fast
 -   **TS\_MULT** evaluates a polynomial.
 -   **WTIME** estimates the elapsed wall clock time.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

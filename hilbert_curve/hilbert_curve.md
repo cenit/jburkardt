@@ -35,13 +35,13 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HILBERT\_CURVE** is available in [a C
-version](../../c_src/hilbert_curve/hilbert_curve.html) and [a C++
-version](../../cpp_src/hilbert_curve/hilbert_curve.html) and [a
-FORTRAN90 version](../../f_src/hilbert_curve/hilbert_curve.html).
+version](../../c_src/hilbert_curve/hilbert_curve.md) and [a C++
+version](../../master/hilbert_curve/hilbert_curve.md) and [a
+FORTRAN90 version](../../f_src/hilbert_curve/hilbert_curve.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MANDELBROT](../../cpp_src/mandelbrot/mandelbrot.html), a C++ program
+[MANDELBROT](../../master/mandelbrot/mandelbrot.md), a C++ program
 which generates an ASCII Portable Pixel Map (PPM) image of the
 Mandelbrot fractal set;
 
@@ -73,7 +73,7 @@ Mandelbrot fractal set;
 -   **ROT** rotates and flips a quadrant appropriately
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

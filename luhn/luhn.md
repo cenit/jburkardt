@@ -15,23 +15,23 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**LUHN** is available in [a C version](../../c_src/luhn/luhn.html) and
-[a C++ version](../../cpp_src/luhn/luhn.html) and [a FORTRAN90
-version](../../f_src/luhn/luhn.html) and [a MATLAB
-version](../../m_src/luhn/luhn.html) and [a Python
-version.](../../py_src/luhn/luhn.html)
+**LUHN** is available in [a C version](../../c_src/luhn/luhn.md) and
+[a C++ version](../../master/luhn/luhn.md) and [a FORTRAN90
+version](../../f_src/luhn/luhn.md) and [a MATLAB
+version](../../m_src/luhn/luhn.md) and [a Python
+version.](../../py_src/luhn/luhn.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BANK](../../cpp_src/bank/bank.html), a C++ library which can compute
+[BANK](../../master/bank/bank.md), a C++ library which can compute
 the check digit associated with a US Bank Routing Number check digit, or
 it can report whether a 9-digit code is actually valid.
 
-[ISBN](../../cpp_src/isbn/isbn.html), a C++ library which can determine
+[ISBN](../../master/isbn/isbn.md), a C++ library which can determine
 the check digit for an International Standard Book Number or report
 whether a given ISBN is valid.
 
-[UPC](../../cpp_src/upc/upc.html), a C++ library which can determine the
+[UPC](../../master/upc/upc.md), a C++ library which can determine the
 check digit for a Uniform Product Code (UPC) or report whether a given
 UPC is valid.
 
@@ -59,7 +59,7 @@ UPC is valid.
 -   **S\_TO\_DIGITS** extracts N digits from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -39,60 +39,60 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LIGHTS\_OUT\_OPENGL** is available in [a C
-version](../../c_src/lights_out_opengl/lights_out_opengl.html) and [a
-C++ version](../../cpp_src/lights_out_opengl/lights_out_opengl.html).
+version](../../c_src/lights_out_opengl/lights_out_opengl.md) and [a
+C++ version](../../master/lights_out_opengl/lights_out_opengl.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CAUSTIC\_OPENGL](../../cpp_src/caustic_opengl/caustic_opengl.html), a
+[CAUSTIC\_OPENGL](../../master/caustic_opengl/caustic_opengl.md), a
 C++ program which computes a caustic curve and displays it using OpenGL.
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[FLOOD\_OPENGL](../../c_src/flood_opengl/flood_opengl.html), a C program
+[FLOOD\_OPENGL](../../c_src/flood_opengl/flood_opengl.md), a C program
 which uses OpenGL to allow the user to select regions of a 2D image and
 flood them with color, by Art Wetzel.
 
-[LIFE\_OPENGL](../../c_src/life_opengl/life_opengl.html), a C program
+[LIFE\_OPENGL](../../c_src/life_opengl/life_opengl.md), a C program
 which uses OpenGL to display the evolution of John Conway's "Game of
 Life", by Simon Green.
 
-[LISSAJOUS\_OPENGL](../../cpp_src/lissajous_opengl/lissajous_opengl.html),
+[LISSAJOUS\_OPENGL](../../master/lissajous_opengl/lissajous_opengl.md),
 a C++ program which computes a Lissajous figure and displays it using
 OpenGL.
 
-[OPENGL](../../cpp_src/opengl/opengl.html), C++ programs which
+[OPENGL](../../master/opengl/opengl.md), C++ programs which
 illustrate the use of the OpenGL graphics library;
 
-[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../cpp_src/polygonal_surface_display_opengl/polygonal_surface_display_opengl.html),
+[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../master/polygonal_surface_display_opengl/polygonal_surface_display_opengl.md),
 a C++ program which displays a surface in 3D described as a set of
 polygons, using OpenGL.
 
-[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../cpp_src/rotating_cube_display_opengl/rotating_cube_display_opengl.html),
+[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../master/rotating_cube_display_opengl/rotating_cube_display_opengl.md),
 a C++ program which displays a rotating color cube in 3D, using OpenGL;
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[XYF\_DISPLAY\_OPENGL](../../cpp_src/xyf_display_opengl/xyf_display_opengl.html),
+[XYF\_DISPLAY\_OPENGL](../../master/xyf_display_opengl/xyf_display_opengl.md),
 a C++ program which reads XYF information defining points and faces in
 2D, and displays an image using OpenGL.
 
-[XYZ\_DISPLAY\_OPENGL](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html),
+[XYZ\_DISPLAY\_OPENGL](../../master/xyz_display_opengl/xyz_display_opengl.md),
 a C++ program which reads an XYZ file of 3D point coordinates, and
 displays an image of those points using OpenGL.
 
-[XYZF\_DISPLAY\_OPENGL](../../cpp_src/xyzf_display_opengl/xyzf_display_opengl.html),
+[XYZF\_DISPLAY\_OPENGL](../../master/xyzf_display_opengl/xyzf_display_opengl.md),
 a C++ program which reads XYZF information defining points and faces in
 3D, and displays an image in a MATLAB graphics window.
 
-[XYZL\_DISPLAY\_OPENGL](../../cpp_src/xyzl_display_opengl/xyzl_display_opengl.html),
+[XYZL\_DISPLAY\_OPENGL](../../master/xyzl_display_opengl/xyzl_display_opengl.md),
 a C++ program which reads XYZL information defining points and lines in
 3D, and displays an image in a MATLAB graphics window.
 
@@ -141,7 +141,7 @@ a C++ program which reads XYZL information defining points and lines in
     pressed.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

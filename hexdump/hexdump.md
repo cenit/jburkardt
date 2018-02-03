@@ -48,7 +48,7 @@ which occurred on some machines if the byte value 0xFF was encountered,
 ### Languages: {#languages align="center"}
 
 **HEXDUMP** is available in [a C++
-version](../../cpp_src/hexdump/hexdump.html).
+version](../../master/hexdump/hexdump.md).
 
 ### Reference: {#reference align="center"}
 
@@ -76,7 +76,7 @@ version](../../cpp_src/hexdump/hexdump.html).
 -   **HANDLE** creates a hexdump for a single file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -38,62 +38,62 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SATISFY\_MPI** is available in [a C
-version](../../c_src/satisfy_mpi/satisfy_mpi.html) and [a C++
-version](../../cpp_src/satisfy_mpi/satisfy_mpi.html) and [a FORTRAN77
-version](../../f77_src/satisfy_mpi/satisfy_mpi.html) and [a FORTRAN90
-version](../../f_src/satisfy_mpi/satisfy_mpi.html).
+version](../../c_src/satisfy_mpi/satisfy_mpi.md) and [a C++
+version](../../master/satisfy_mpi/satisfy_mpi.md) and [a FORTRAN77
+version](../../f77_src/satisfy_mpi/satisfy_mpi.md) and [a FORTRAN90
+version](../../f_src/satisfy_mpi/satisfy_mpi.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CNF](../../data/cnf/cnf.html), a data directory which describes the
+[CNF](../../data/cnf/cnf.md), a data directory which describes the
 DIMACS CNF file format for defining instances of the satisfy problem in
 for boolean formulas in conjunctive normal form.
 
-[COMMUNICATOR\_MPI](../../cpp_src/communicator_mpi/communicator_mpi.html),
+[COMMUNICATOR\_MPI](../../master/communicator_mpi/communicator_mpi.md),
 a C++ program which creates new communicators involving a subset of
 initial set of MPI processes in the default communicator
 MPI\_COMM\_WORLD.
 
-[HEAT\_MPI](../../cpp_src/heat_mpi/heat_mpi.html), a C++ program which
+[HEAT\_MPI](../../master/heat_mpi/heat_mpi.md), a C++ program which
 solves the 1D Time Dependent Heat Equation using MPI.
 
-[HELLO\_MPI](../../cpp_src/hello_mpi/hello_mpi.html), a C++ program
+[HELLO\_MPI](../../master/hello_mpi/hello_mpi.md), a C++ program
 which prints out "Hello, world!" using the MPI parallel programming
 environment.
 
-[MPI](../../cpp_src/mpi/mpi.html), C++ programs which illustrate the use
+[MPI](../../master/mpi/mpi.md), C++ programs which illustrate the use
 of the MPI application program interface for carrying out parallel
 computatioins in a distributed memory environment.
 
-[MULTITASK\_MPI](../../cpp_src/multitask_mpi/multitask_mpi.html), a C++
+[MULTITASK\_MPI](../../master/multitask_mpi/multitask_mpi.md), a C++
 program which demonstrates how to multitask, that is, to execute several
 unrelated and distinct tasks simultaneously, using MPI for parallel
 execution.
 
-[QUAD\_MPI](../../cpp_src/quad_mpi/quad_mpi.html), a C++ program which
+[QUAD\_MPI](../../master/quad_mpi/quad_mpi.md), a C++ program which
 approximates an integral using a quadrature rule, and carries out the
 computation in parallel using MPI.
 
-[RANDOM\_MPI](../../cpp_src/random_mpi/random_mpi.html), a C++ program
+[RANDOM\_MPI](../../master/random_mpi/random_mpi.md), a C++ program
 which demonstrates one way to generate the same sequence of random
 numbers for both sequential execution and parallel execution under MPI.
 
-[RING\_MPI](../../cpp_src/ring_mpi/ring_mpi.html), a C++ program which
+[RING\_MPI](../../master/ring_mpi/ring_mpi.md), a C++ program which
 uses the MPI parallel programming environment, and measures the time
 necessary to copy a set of data around a ring of processes.
 
-[SATISFY](../../cpp_src/satisfy/satisfy.html), a C++ program which
+[SATISFY](../../master/satisfy/satisfy.md), a C++ program which
 solves the circuit satisfy problem.
 
-[SATISFY\_OPENMP](../../cpp_src/satisfy_openmp/satisfy_openmp.html), a
+[SATISFY\_OPENMP](../../master/satisfy_openmp/satisfy_openmp.md), a
 C++ program which solves the circuit satisfy problem using the OpenMP
 parallel programming system.
 
-[SEARCH\_MPI](../../cpp_src/search_mpi/search_mpi.html), a C++ program
+[SEARCH\_MPI](../../master/search_mpi/search_mpi.md), a C++ program
 which searches integers between A and B for a value J such that F(J) =
 C, using MPI for parallel execution.
 
-[WAVE\_MPI](../../cpp_src/wave_mpi/wave_mpi.html), a C++ program which
+[WAVE\_MPI](../../master/wave_mpi/wave_mpi.md), a C++ program which
 uses finite differences and MPI to estimate a solution to the wave
 equation.
 
@@ -127,7 +127,7 @@ System X cluster.
 -   [satisfy\_sysx\_output.txt](satisfy_sysx_output.txt), the output
     file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

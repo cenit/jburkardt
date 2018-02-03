@@ -65,38 +65,38 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **POINT\_MERGE** is available in [a C
-version](../../c_src/point_merge/point_merge.html) and [a C++
-version](../../cpp_src/point_merge/point_merge.html) and [a FORTRAN77
-version](../../f77_src/point_merge/point_merge.html) and [a FORTRAN90
-version](../../f_src/point_merge/point_merge.html) and [a MATLAB
-version](../../m_src/point_merge/point_merge.html).
+version](../../c_src/point_merge/point_merge.md) and [a C++
+version](../../master/point_merge/point_merge.md) and [a FORTRAN77
+version](../../f77_src/point_merge/point_merge.md) and [a FORTRAN90
+version](../../f_src/point_merge/point_merge.md) and [a MATLAB
+version](../../m_src/point_merge/point_merge.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ANN](../../cpp_src/ann/ann.html), a C++ library which computes
+[ANN](../../master/ann/ann.md), a C++ library which computes
 Approximate Nearest Neighbors, by David Mount, Sunil Arya;
 
-[ANN\_TEST](../../cpp_src/ann_test/ann_test.html), a C++ program which
-uses [ann](ann/ann.html) to approximate the nearest neighbors of a set
+[ANN\_TEST](../../master/ann_test/ann_test.md), a C++ program which
+uses [ann](ann/ann.md) to approximate the nearest neighbors of a set
 of points stored in a file;
 
-[CITIES](../../datasets/cities/cities.html), a dataset directory which
+[CITIES](../../datasets/cities/cities.md), a dataset directory which
 contains sets of information about cities and the distances between
 them;
 
-[CITIES](../../f_src/cities/cities.html), a FORTRAN90 library which
+[CITIES](../../f_src/cities/cities.md), a FORTRAN90 library which
 handles various problems associated with a set of "cities" on a map.
 
-[KMEANS](../../f_src/kmeans/kmeans.html), a FORTRAN90 library which
+[KMEANS](../../f_src/kmeans/kmeans.md), a FORTRAN90 library which
 contains several different algorithms for the K-Means problem.
 
-[SPAETH](../../f_src/spaeth/spaeth.html), a FORTRAN90 library which can
+[SPAETH](../../f_src/spaeth/spaeth.md), a FORTRAN90 library which can
 cluster data according to various principles.
 
-[SPAETH2](../../f_src/spaeth2/spaeth2.html), a FORTRAN90 library which
+[SPAETH2](../../f_src/spaeth2/spaeth2.md), a FORTRAN90 library which
 can cluster data according to various principles.
 
-[TABLE\_MERGE](../../f_src/table_merge/table_merge.html), a FORTRAN90
+[TABLE\_MERGE](../../f_src/table_merge/table_merge.md), a FORTRAN90
 program which reads a file of N points in M dimensions, removes
 duplicates or points that are closer than some tolerance, and writes the
 reduced set of points to a file.
@@ -146,7 +146,7 @@ reduced set of points to a file.
 -   **R8VEC\_UNIFORM\_01\_NEW** returns a new unit pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

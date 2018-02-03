@@ -64,57 +64,57 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_INTERP** is available in [a C
-version](../../c_src/test_interp/test_interp.html) and [a C++
-version](../../cpp_src/test_interp/test_interp.html) and [a FORTRAN77
-version](../../f77_src/test_interp/test_interp.html) and [a FORTRAN90
-version](../../f_src/test_interp/test_interp.html) and [a MATLAB
-version](../../m_src/test_interp/test_interp.html) and [a Python
-version](../../py_src/test_interp/test_interp.html).
+version](../../c_src/test_interp/test_interp.md) and [a C++
+version](../../master/test_interp/test_interp.md) and [a FORTRAN77
+version](../../f77_src/test_interp/test_interp.md) and [a FORTRAN90
+version](../../f_src/test_interp/test_interp.md) and [a MATLAB
+version](../../m_src/test_interp/test_interp.md) and [a Python
+version](../../py_src/test_interp/test_interp.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DIVDIF](../../cpp_src/divdif/divdif.html), a C++ library which includes
+[DIVDIF](../../master/divdif/divdif.md), a C++ library which includes
 many routines to construct and evaluate divided difference interpolants.
 
-[HERMITE](../../cpp_src/hermite/hermite.html), a C++ library which
+[HERMITE](../../master/hermite/hermite.md), a C++ library which
 computes the Hermite interpolant, a polynomial that matches function
 values and derivatives.
 
-[INTERPOLATION](../../datasets/interpolation/interpolation.html), a
+[INTERPOLATION](../../datasets/interpolation/interpolation.md), a
 dataset directory which contains datasets to be interpolated.
 
-[LAGRANGE\_INTERP\_1D](../../cpp_src/lagrange_interp_1d/lagrange_interp_1d.html),
+[LAGRANGE\_INTERP\_1D](../../master/lagrange_interp_1d/lagrange_interp_1d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data, so that p(x(i)) = y(i).
 
-[NEAREST\_INTERP\_1D](../../cpp_src/nearest_interp_1d/nearest_interp_1d.html),
+[NEAREST\_INTERP\_1D](../../master/nearest_interp_1d/nearest_interp_1d.md),
 a C++ library which interpolates a set of data using a piecewise
 constant interpolant defined by the nearest neighbor criterion.
 
-[NEWTON\_INTERP\_1D](../../cpp_src/newton_interp_1d/newton_interp_1d.html),
+[NEWTON\_INTERP\_1D](../../master/newton_interp_1d/newton_interp_1d.md),
 a C++ library which finds a polynomial interpolant to data using Newton
 divided differences.
 
-[PWL\_INTERP\_1D](../../cpp_src/pwl_interp_1d/pwl_interp_1d.html), a C++
+[PWL\_INTERP\_1D](../../master/pwl_interp_1d/pwl_interp_1d.md), a C++
 library which interpolates a set of data using a piecewise linear
 function.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[RBF\_INTERP](../../cpp_src/rbf_interp/rbf_interp.html), a C++ library
+[RBF\_INTERP](../../master/rbf_interp/rbf_interp.md), a C++ library
 which defines and evaluates radial basis function (RBF) interpolants to
 multidimensional data.
 
-[SPLINE](../../cpp_src/spline/spline.html), a C++ library which includes
+[SPLINE](../../master/spline/spline.md), a C++ library which includes
 many routines to construct and evaluate spline interpolants and
 approximants.
 
-[TEST\_APPROX](../../cpp_src/test_approx/test_approx.html), a C++
+[TEST\_APPROX](../../master/test_approx/test_approx.md), a C++
 library which defines test problems for approximation, provided as a set
 of (x,y) data.
 
-[TEST\_INTERP\_ND](../../cpp_src/test_interp_nd/test_interp_nd.html), a
+[TEST\_INTERP\_ND](../../master/test_interp_nd/test_interp_nd.md), a
 C++ library which defines test problems for interpolation of data z(x),
 depending on an M-dimensional argument.
 
@@ -199,7 +199,7 @@ depending on an M-dimensional argument.
 -   **P08\_DIM\_NUM** returns the spatial dimension for problem 08.
 -   **P08\_STORY** prints the "story" for problem 08.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

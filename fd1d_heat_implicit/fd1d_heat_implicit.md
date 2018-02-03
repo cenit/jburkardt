@@ -61,59 +61,59 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FD1D\_HEAT\_IMPLICIT** is available in [a C
-version](../../c_src/fd1d_heat_implicit/fd1d_heat_implicit.html) and [a
-C++ version](../../cpp_src/fd1d_heat_implicit/fd1d_heat_implicit.html)
+version](../../c_src/fd1d_heat_implicit/fd1d_heat_implicit.md) and [a
+C++ version](../../master/fd1d_heat_implicit/fd1d_heat_implicit.md)
 and [a FORTRAN77
-version](../../f77_src/fd1d_heat_implicit/fd1d_heat_implicit.html) and
+version](../../f77_src/fd1d_heat_implicit/fd1d_heat_implicit.md) and
 [a FORTRAN90
-version](../../f_src/fd1d_heat_implicit/fd1d_heat_implicit.html) and [a
-MATLAB version](../../m_src/fd1d_heat_implicit/fd1d_heat_implicit.html)
+version](../../f_src/fd1d_heat_implicit/fd1d_heat_implicit.md) and [a
+MATLAB version](../../m_src/fd1d_heat_implicit/fd1d_heat_implicit.md)
 and [a Python
-version](../../py_src/fd1d_heat_implicit/fd1d_heat_implicit.html).
+version](../../py_src/fd1d_heat_implicit/fd1d_heat_implicit.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FD1D\_BURGERS\_LAX](../../cpp_src/fd1d_burgers_lax/fd1d_burgers_lax.html),
+[FD1D\_BURGERS\_LAX](../../master/fd1d_burgers_lax/fd1d_burgers_lax.md),
 a C++ program which applies the finite difference method and the
 Lax-Wendroff method to solve the non-viscous time-dependent Burgers
 equation in one spatial dimension.
 
-[FD1D\_BURGERS\_LEAP](../../cpp_src/fd1d_burgers_leap/fd1d_burgers_leap.html),
+[FD1D\_BURGERS\_LEAP](../../master/fd1d_burgers_leap/fd1d_burgers_leap.md),
 a C++ program which applies the finite difference method and the
 leapfrog approach to solve the non-viscous time-dependent Burgers
 equation in one spatial dimension.
 
-[FD1D\_BVP](../../cpp_src/fd1d_bvp/fd1d_bvp.html), a C++ program which
+[FD1D\_BVP](../../master/fd1d_bvp/fd1d_bvp.md), a C++ program which
 applies the finite difference method to a two point boundary value
 problem in one spatial dimension.
 
-[FD1D\_HEAT\_EXPLICIT](../../cpp_src/fd1d_heat_explicit/fd1d_heat_explicit.html),
+[FD1D\_HEAT\_EXPLICIT](../../master/fd1d_heat_explicit/fd1d_heat_explicit.md),
 a C++ program which uses the finite difference method to solve the time
 dependent heat equation in 1D, using an explicit time step method.
 
-[FD1D\_HEAT\_STEADY](../../cpp_src/fd1d_heat_steady/fd1d_heat_steady.html),
+[FD1D\_HEAT\_STEADY](../../master/fd1d_heat_steady/fd1d_heat_steady.md),
 a C++ program which uses the finite difference method to solve the
 steady (time independent) heat equation in 1D.
 
-[FD1D\_WAVE](../../cpp_src/fd1d_wave/fd1d_wave.html), a C++ program
+[FD1D\_WAVE](../../master/fd1d_wave/fd1d_wave.md), a C++ program
 which applies the finite difference method to solve the time-dependent
 wave equation utt = c \* uxx in one spatial dimension.
 
-[FEM\_50\_HEAT](../../m_src/fem_50_heat/fem_50_heat.html), a MATLAB
+[FEM\_50\_HEAT](../../m_src/fem_50_heat/fem_50_heat.md), a MATLAB
 program which applies the finite element method to solve the 2D heat
 equation.
 
-[FEM1D](../../cpp_src/fem1d/fem1d.html), a C++ program which applies the
+[FEM1D](../../master/fem1d/fem1d.md), a C++ program which applies the
 finite element method, with piecewise linear basis functions, to a
 linear two point boundary value problem;
 
-[FEM2D\_HEAT](../../cpp_src/fem2d_heat/fem2d_heat.html), a C++ program
+[FEM2D\_HEAT](../../master/fem2d_heat/fem2d_heat.md), a C++ program
 which applies the finite element method to solve the 2D heat equation.
 
-[HOT\_PIPE](../../m_src/hot_pipe/hot_pipe.html), a MATLAB program which
+[HOT\_PIPE](../../m_src/hot_pipe/hot_pipe.md), a MATLAB program which
 uses FEM\_50\_HEAT to solve a heat problem in a pipe.
 
-[HOT\_POINT](../../m_src/hot_point/hot_point.html), a MATLAB program
+[HOT\_POINT](../../m_src/hot_point/hot_point.md), a MATLAB program
 which uses **FEM\_50\_HEAT** to solve a heat problem with a point
 source.
 
@@ -160,7 +160,7 @@ source.
 -   **UB** returns the Dirichlet boundary condition at the right
     endpoint.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

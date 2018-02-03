@@ -56,7 +56,7 @@ int main ( int argc, char *argv[] )
 //
 //    Cleve Moler,
 //    Experiments with MATLAB,
-//    ebook: http://www.mathworks.com/moler/exm/index.html
+//    ebook: http://www.mathworks.com/moler/exm/index.md
 //
 {
   cout << "\n";
@@ -117,7 +117,7 @@ void display ( )
 //
 //    Cleve Moler,
 //    Experiments with MATLAB,
-//    ebook: http://www.mathworks.com/moler/exm/index.html
+//    ebook: http://www.mathworks.com/moler/exm/index.md
 //
 {
   int i;

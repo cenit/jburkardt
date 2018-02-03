@@ -16,15 +16,15 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**DIFFER** is available in [a C version](../../c_src/differ/differ.html)
-and [a C++ version](../../cpp_src/differ/differ.html) and [a FORTRAN77
-version](../../f77_src/differ/differ.html) and [a FORTRAN90
-version](../../f_src/differ/differ.html) and [a MATLAB
-version](../../m_src/differ/differ.html).
+**DIFFER** is available in [a C version](../../c_src/differ/differ.md)
+and [a C++ version](../../master/differ/differ.md) and [a FORTRAN77
+version](../../f77_src/differ/differ.md) and [a FORTRAN90
+version](../../f_src/differ/differ.md) and [a MATLAB
+version](../../m_src/differ/differ.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DIVDIF](../../cpp_src/divdif/divdif.html), a C++ library which uses
+[DIVDIF](../../master/divdif/divdif.md), a C++ library which uses
 divided differences to compute the polynomial interpolant to a given set
 of data.
 
@@ -76,7 +76,7 @@ of data.
 -   **R8VM\_SL\_NEW** solves a R8VM system.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

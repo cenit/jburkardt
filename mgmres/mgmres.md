@@ -33,53 +33,53 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**MGMRES** is available in [a C version](../../c_src/mgmres/mgmres.html)
-and [a C++ version](../../cpp_src/mgmres/mgmres.html) and [a FORTRAN77
-version](../../f77_src/mgmres/mgmres.html) and [a FORTRAN90
-version](../../f_src/mgmres/mgmres.html) and [a MATLAB
-version.](../../m_src/mgmres/mgmres.html)
+**MGMRES** is available in [a C version](../../c_src/mgmres/mgmres.md)
+and [a C++ version](../../master/mgmres/mgmres.md) and [a FORTRAN77
+version](../../f77_src/mgmres/mgmres.md) and [a FORTRAN90
+version](../../f_src/mgmres/mgmres.md) and [a MATLAB
+version.](../../m_src/mgmres/mgmres.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CC](../../data/cc/cc.html), a data directory which contains examples of
+[CC](../../data/cc/cc.md), a data directory which contains examples of
 the Compressed Column (CC) sparse matrix file format;
 
-[CG\_RC](../../cpp_src/cg_rc/cg_rc.html), a C++ library which implements
+[CG\_RC](../../master/cg_rc/cg_rc.md), a C++ library which implements
 the conjugate gradient method for solving a positive definite sparse
 linear system A\*x=b, using reverse communication.
 
-[CR](../../data/cr/cr.html), a data directory which contains examples of
+[CR](../../data/cr/cr.md), a data directory which contains examples of
 the Compressed Row (CR) sparse matrix file format;
 
-[CSPARSE](../../c_src/csparse/csparse.html), a C library which
+[CSPARSE](../../c_src/csparse/csparse.md), a C library which
 implements iterative methods for solving linear systems.
 
-[FEM2D\_POISSON\_SPARSE](../../cpp_src/fem2d_poisson_sparse/fem2d_poisson_sparse.html),
+[FEM2D\_POISSON\_SPARSE](../../master/fem2d_poisson_sparse/fem2d_poisson_sparse.md),
 a C++ program which solves the steady Poisson equation on a 2D
 triangulated region. The program uses a copy of MGMRES to solve the
 linear system.
 
-[HBSMC](../../datasets/hbsmc/hbsmc.html), a dataset directory which
+[HBSMC](../../datasets/hbsmc/hbsmc.md), a dataset directory which
 contains a collection of large sparse matrices stored in the
 Harwell-Boeing format.
 
-[LINPACK](../../cpp_src/linpack/linpack.html), a C++ library which
+[LINPACK](../../master/linpack/linpack.md), a C++ library which
 carries out direct methods for solving linear systems.
 
-[MM](../../data/mm/mm.html), a data directory which contains a
+[MM](../../data/mm/mm.md), a data directory which contains a
 description and examples of the Matrix Market format for storing
 matrices.
 
-[ST](../../data/st/st.html), a data directory which contains a
+[ST](../../data/st/st.md), a data directory which contains a
 description and examples of the ST format for storing sparse matrices,
 which are used by the C and C++ versions of MGMRES.
 
-[SUPERLU](../../cpp_src/superlu/superlu.html), C++ programs which
+[SUPERLU](../../master/superlu/superlu.md), C++ programs which
 illustrate how a C++ program can call the SUPERLU library, (which is
 written in C), which applies a fast direct solution method to solve
 sparse linear systems, by James Demmel, John Gilbert, and Xiaoye Li.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices.
 
 ### Author: {#author align="center"}
@@ -143,7 +143,7 @@ South Carolina; C++ version by John Burkardt.
 -   **REARRANGE\_CR** sorts a sparse compressed row matrix.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

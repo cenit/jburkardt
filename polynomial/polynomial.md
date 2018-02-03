@@ -49,40 +49,40 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **POLYNOMIAL** is available in [a C
-version](../../c_src/polynomial/polynomial.html) and [a C++
-version](../../cpp_src/polynomial/polynomial.html) and [a FORTRAN77
-version](../../f77_src/polynomial/polynomial.html) and [a FORTRAN90
-version](../../f_src/polynomial/polynomial.html) and [a MATLAB
-version](../../m_src/polynomial/polynomial.html) and [a Python
-version](../../py_src/polynomial/polynomial.html).
+version](../../c_src/polynomial/polynomial.md) and [a C++
+version](../../master/polynomial/polynomial.md) and [a FORTRAN77
+version](../../f77_src/polynomial/polynomial.md) and [a FORTRAN90
+version](../../f_src/polynomial/polynomial.md) and [a MATLAB
+version](../../m_src/polynomial/polynomial.md) and [a Python
+version](../../py_src/polynomial/polynomial.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[COMBO](../../cpp_src/combo/combo.html), a C++ library which includes
+[COMBO](../../master/combo/combo.md), a C++ library which includes
 routines for ranking, unranking, enumerating and randomly selecting
 balanced sequences, cycles, graphs, Gray codes, subsets, partitions,
 permutations, restricted growth functions, Pruefer codes and trees.
 
-[HERMITE\_PRODUCT\_POLYNOMIAL](../../cpp_src/hermite_product_polynomial/hermite_product_polynomial.html),
+[HERMITE\_PRODUCT\_POLYNOMIAL](../../master/hermite_product_polynomial/hermite_product_polynomial.md),
 a C++ library which defines Hermite product polynomials, creating a
 multivariate polynomial as the product of univariate Hermite
 polynomials.
 
-[LEGENDRE\_PRODUCT\_POLYNOMIAL](../../cpp_src/legendre_product_polynomial/legendre_product_polynomial.html),
+[LEGENDRE\_PRODUCT\_POLYNOMIAL](../../master/legendre_product_polynomial/legendre_product_polynomial.md),
 a C++ library which defines Legendre product polynomials, creating a
 multivariate polynomial as the product of univariate Legendre
 polynomials.
 
-[MONOMIAL](../../cpp_src/monomial/monomial.html), a C++ library which
+[MONOMIAL](../../master/monomial/monomial.md), a C++ library which
 enumerates, lists, ranks, unranks and randomizes multivariate monomials
 in a space of M dimensions, with total degree less than N, equal to N,
 or lying within a given range.
 
-[SET\_THEORY](../../cpp_src/set_theory/set_theory.html), a C++ library
+[SET\_THEORY](../../master/set_theory/set_theory.md), a C++ library
 which demonstrates MATLAB commands that implement various set theoretic
 operations.
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which
+[SUBSET](../../master/subset/subset.md), a C++ library which
 enumerates, generates, ranks and unranks combinatorial objects including
 combinations, compositions, Gray codes, index sets, partitions,
 permutations, subsets, and Young tables.
@@ -133,7 +133,7 @@ permutations, subsets, and Young tables.
 -   **R8VEC\_PERMUTE** permutes an R8VEC in place.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

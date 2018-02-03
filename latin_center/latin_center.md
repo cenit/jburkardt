@@ -30,66 +30,66 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LATIN\_CENTER** is available in [a C++
-version](../../cpp_src/latin_center/latin_center.html) and [a FORTRAN90
-version](../../f_src/latin_center/latin_center.html) and [a MATLAB
-version.](../../m_src/latin_center/latin_center.html)
+version](../../master/latin_center/latin_center.md) and [a FORTRAN90
+version](../../f_src/latin_center/latin_center.md) and [a MATLAB
+version.](../../m_src/latin_center/latin_center.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BOX\_BEHNKEN](../../cpp_src/box_behnken/box_behnken.html), a C++
+[BOX\_BEHNKEN](../../master/box_behnken/box_behnken.md), a C++
 library which computes a Box-Behnken design, that is, a set of arguments
 to sample the behavior of a function of multiple parameters;
 
-[CVT](../../cpp_src/cvt/cvt.html), a C++ library which computes points
+[CVT](../../master/cvt/cvt.md), a C++ library which computes points
 in a Centroidal Voronoi Tessellation.
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 Faure sequences.
 
-[GRID](../../cpp_src/grid/grid.html), a C++ library which computes
+[GRID](../../master/grid/grid.md), a C++ library which computes
 points on a grid.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton Quasi Monte Carlo (QMC) sequence, using a simple
 interface.
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley Quasi Monte Carlo (QMC)
 sequence, using a simple interface.
 
-[HEX\_GRID](../../cpp_src/hex_grid/hex_grid.html), a C++ library which
+[HEX\_GRID](../../master/hex_grid/hex_grid.md), a C++ library which
 computes sets of points in a 2D hexagonal grid.
 
-[IHS](../../cpp_src/ihs/ihs.html), a C++ library which computes improved
+[IHS](../../master/ihs/ihs.md), a C++ library which computes improved
 Latin Hypercube datasets.
 
-[LATIN\_CENTER\_DATASET](../../cpp_src/latin_center_dataset/latin_center_dataset.html),
+[LATIN\_CENTER\_DATASET](../../master/latin_center_dataset/latin_center_dataset.md),
 a C++ program which creates a Latin Center Hypercube dataset;
 
-[LATIN\_COVER](../../cpp_src/latin_cover/latin_cover.html), a C++
+[LATIN\_COVER](../../master/latin_cover/latin_cover.md), a C++
 library which produces N Latin squares which cover an NxN square, or NxN
 Latin cubes which cover an NxNxN cube.
 
-[LATIN\_EDGE](../../cpp_src/latin_edge/latin_edge.html), a C++ library
+[LATIN\_EDGE](../../master/latin_edge/latin_edge.md), a C++ library
 which computes Latin square data choosing the edge value.
 
-[LATIN\_RANDOM](../../cpp_src/latin_random/latin_random.html), a C++
+[LATIN\_RANDOM](../../master/latin_random/latin_random.md), a C++
 library which computes Latin square data choosing a random value in the
 square.
 
-[NIEDERREITER2](../../cpp_src/niederreiter2/niederreiter2.html), a C++
+[NIEDERREITER2](../../master/niederreiter2/niederreiter2.md), a C++
 library which computes Niederreiter sequences with base 2.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which computes
+[NORMAL](../../master/normal/normal.md), a C++ library which computes
 elements of a sequence of pseudorandom normally distributed values.
 
-[SOBOL](../../cpp_src/sobol/sobol.html), a C++ library which computes
+[SOBOL](../../master/sobol/sobol.md), a C++ library which computes
 Sobol sequences.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes uniform random values.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes van der Corput sequences.
 
 ### Reference: {#reference align="center"}
@@ -144,7 +144,7 @@ C++ library which computes van der Corput sequences.
 -   **R4\_NINT** returns the nearest integer to an R4.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

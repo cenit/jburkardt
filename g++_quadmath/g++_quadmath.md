@@ -36,19 +36,19 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages {#languages align="center"}
 
 Versions of the **QUADMATH** examples are available in [a C
-version](../../c_src/gcc_quadmath/gcc_quadmath.html) and [a C++
-version](../../cpp_src/g++_quadmath/g++_quadmath.html) and [a FORTRAN77
-version](../../f77_src/gfortran_quadmath/gfortran_quadmath.html) and [a
+version](../../c_src/gcc_quadmath/gcc_quadmath.md) and [a C++
+version](../../master/g++_quadmath/g++_quadmath.md) and [a FORTRAN77
+version](../../f77_src/gfortran_quadmath/gfortran_quadmath.md) and [a
 FORTRAN90
-version](../../f_src/gfortran_quadmath/gfortran_quadmath.html).
+version](../../f_src/gfortran_quadmath/gfortran_quadmath.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[G++\_INTRINSICS](../../cpp_src/g++_intrinsics/g++_intrinsics.html), a
+[G++\_INTRINSICS](../../master/g++_intrinsics/g++_intrinsics.md), a
 C++ program which illustrates the use of intrinsic functions provided by
 the Gnu G++ compiler for C++.
 
-[G95\_QUADMATH](../../f_src/g95_quadmath/g95_quadmath.html), a FORTRAN90
+[G95\_QUADMATH](../../f_src/g95_quadmath/g95_quadmath.md), a FORTRAN90
 program which illustrates the use of quadruple precision real arithmetic
 provided on some systems by the G95 compiler for FORTRAN.
 
@@ -74,7 +74,7 @@ provided on some systems by the G95 compiler for FORTRAN.
 -   [g++\_quadmath\_output.txt](g++_quadmath_output.txt), the output
     file;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

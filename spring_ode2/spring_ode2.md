@@ -49,27 +49,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPRING\_ODE2** is available in [a C
-version](../../c_src/spring_ode2/spring_ode2.html) and [a C++
-version](../../cpp_src/spring_ode2/spring_ode2.html) and [a FORTRAN77
-version](../../f77_src/spring_ode2/spring_ode2.html) and [a FORTRAN90
-version](../../f_src/spring_ode2/spring_ode2.html) and [a MATLAB
-version](../../m_src/spring_ode2/spring_ode2.html).
+version](../../c_src/spring_ode2/spring_ode2.md) and [a C++
+version](../../master/spring_ode2/spring_ode2.md) and [a FORTRAN77
+version](../../f77_src/spring_ode2/spring_ode2.md) and [a FORTRAN90
+version](../../f_src/spring_ode2/spring_ode2.md) and [a MATLAB
+version](../../m_src/spring_ode2/spring_ode2.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate the use of the gnuplot graphics program.
 
-[LORENZ\_ODE](../../cpp_src/lorenz_ode/lorenz_ode.html), a C++ program
+[LORENZ\_ODE](../../master/lorenz_ode/lorenz_ode.md), a C++ program
 which approximates solutions to the Lorenz system, creating output files
 that can be displayed by Gnuplot.
 
-[GRAPHICS\_EXAMPLES\_GNUPLOT](../../examples/graphics_examples_gnuplot/graphics_examples_gnuplot.html),
+[GRAPHICS\_EXAMPLES\_GNUPLOT](../../examples/graphics_examples_gnuplot/graphics_examples_gnuplot.md),
 gnuplot scripts which illustrate how various kinds of data can be
 displayed and analyzed graphically using the interactive executable
 graphics program GNUPLOT.
 
-[SPRING\_ODE](../../cpp_src/spring_ode/spring_ode.html), a C++ program
+[SPRING\_ODE](../../master/spring_ode/spring_ode.md), a C++ program
 which shows how line printer graphics can be used to make a crude
 illustration of a solution of the ordinary differential equation (ODE)
 that describes the motion of a weight attached to a spring.
@@ -95,7 +95,7 @@ that describes the motion of a weight attached to a spring.
 -   **MAIN** is the main program for SPRING\_ODE2.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

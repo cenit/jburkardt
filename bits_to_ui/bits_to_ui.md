@@ -27,11 +27,11 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BITS\_TO\_UI** is available in [a C++
-version](../../cpp_src/bits_to_ui/bits_to_ui.html).
+version](../../master/bits_to_ui/bits_to_ui.md).
 
 ### Related Programs and Data: {#related-programs-and-data align="center"}
 
-[ASCII\_TO\_MRI](../../c_src/ascii_to_mri/ascii_to_mri.html), a C
+[ASCII\_TO\_MRI](../../c_src/ascii_to_mri/ascii_to_mri.md), a C
 program which restores magnetic resonance imaging (MRI) data to its
 original binary format, having been previously converted to an ASCII
 text file.
@@ -53,7 +53,7 @@ text file.
 -   **HANDLE** processes a given input file to an output file.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

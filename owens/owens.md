@@ -14,25 +14,25 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**OWENS** is available in [a C version](../../c_src/owens/owens.html)
-and [a C++ version](../../cpp_src/owens/owens.html) and [a FORTRAN90
-version](../../f_src/owens/owens.html) and [a MATLAB
-version](../../m_src/owens/owens.html) and [a Python
-version.](../../py_src/owens/owens.html)
+**OWENS** is available in [a C version](../../c_src/owens/owens.md)
+and [a C++ version](../../master/owens/owens.md) and [a FORTRAN90
+version](../../f_src/owens/owens.md) and [a MATLAB
+version](../../m_src/owens/owens.md) and [a Python
+version.](../../py_src/owens/owens.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA005](../../cpp_src/asa005/asa005.html), a C++ library which
+[ASA005](../../master/asa005/asa005.md), a C++ library which
 evaluates the CDF of the noncentral T distribution, and uses Owen's T
 function.
 
-[ASA076](../../cpp_src/asa076/asa076.html), a C++ library which
+[ASA076](../../master/asa076/asa076.md), a C++ library which
 evaluates Owen's T function.
 
-[ASA243](../../cpp_src/asa243/asa243.html), a C++ library which
+[ASA243](../../master/asa243/asa243.md), a C++ library which
 evaluates the CDF of the noncentral T distribution.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which includes selected values of many special functions.
 
 ### Reference: {#reference align="center"}
@@ -75,7 +75,7 @@ library which includes selected values of many special functions.
 -   **ZNORM1** evaluates the normal CDF from -oo to Z.
 -   **ZNORM2** evaluates the normal CDF from Z to +oo.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

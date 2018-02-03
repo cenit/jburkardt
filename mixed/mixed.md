@@ -39,29 +39,29 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MIXED** language programming examples are available in [a C
-version](../../c_src/mixed/mixed.html) and [a C++
-version](../../cpp_src/mixed/mixed.html) and [a FORTRAN77
-version](../../f77_src/mixed/mixed.html) and [a FORTRAN90
-version](../../f_src/mixed/mixed.html)
+version](../../c_src/mixed/mixed.md) and [a C++
+version](../../master/mixed/mixed.md) and [a FORTRAN77
+version](../../f77_src/mixed/mixed.md) and [a FORTRAN90
+version](../../f_src/mixed/mixed.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[C++\_CALLS\_C](../../cpp_src/c++_calls_c/c++_calls_c.html), C++
+[C++\_CALLS\_C](../../master/c++_calls_c/c++_calls_c.md), C++
 programs which call a C function.
 
-[C++\_CALLS\_F77](../../cpp_src/c++_calls_f77/c++_calls_f77.html), C++
+[C++\_CALLS\_F77](../../master/c++_calls_f77/c++_calls_f77.md), C++
 programs which illustrate how a C++ main program can call a FORTRAN77
 subroutine.
 
-[C++\_CALLS\_F90](../../cpp_src/c++_calls_f90/c++_calls_f90.html), C++
+[C++\_CALLS\_F90](../../master/c++_calls_f90/c++_calls_f90.md), C++
 programs which illustrate how a C++ main program can call a FORTRAN90
 subroutine.
 
-[F77\_CALLS\_C++](../../f77_src/f77_calls_c++/f77_calls_c++.html),
+[F77\_CALLS\_C++](../../f77_src/f77_calls_c++/f77_calls_c++.md),
 FORTRAN77 programs which illustrate how a FORTRAN77 program can call a
 C++ function.
 
-[F90\_CALLS\_C++](../../f_src/f90_calls_c++/f90_calls_c++.html),
+[F90\_CALLS\_C++](../../f_src/f90_calls_c++/f90_calls_c++.md),
 FORTRAN90 examples which illustrates how a FORTRAN90 program can call a
 C++ function.
 
@@ -94,7 +94,7 @@ for the C code. Files you may copy include:
 -   [ex1\_g++\_gcc\_output.txt](ex1_g++_gcc_output.txt), the output
     file;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

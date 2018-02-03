@@ -27,51 +27,51 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGLE\_TO\_XML** is available in [a C
-version](../../c_src/triangle_to_xml/triangle_to_xml.html) and [a C++
-version](../../cpp_src/triangle_to_xml/triangle_to_xml.html) and [a
-FORTRAN77 version](../../f77_src/triangle_to_xml/triangle_to_xml.html)
+version](../../c_src/triangle_to_xml/triangle_to_xml.md) and [a C++
+version](../../master/triangle_to_xml/triangle_to_xml.md) and [a
+FORTRAN77 version](../../f77_src/triangle_to_xml/triangle_to_xml.md)
 and [a FORTRAN90
-version](../../f_src/triangle_to_xml/triangle_to_xml.html) and [a MATLAB
-version](../../m_src/triangle_to_xml/triangle_to_xml.html).
+version](../../f_src/triangle_to_xml/triangle_to_xml.md) and [a MATLAB
+version](../../m_src/triangle_to_xml/triangle_to_xml.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM\_TO\_XML](../../cpp_src/fem_to_xml/fem_to_xml.html), a C++ program
+[FEM\_TO\_XML](../../master/fem_to_xml/fem_to_xml.md), a C++ program
 which reads FEM files defining a 1D, 2D or 3D mesh, namely a file of
 node coordinates and a file of elements defined by node indices, and
 creates a corresponding XML file for input to DOLFIN or FENICS.
 
-[FENICS](../../examples/fenics/fenics.html), examples which illustrate
+[FENICS](../../examples/fenics/fenics.md), examples which illustrate
 the use of FENICS, a collection of free software with an extensive list
 of features for automated, efficient solution of partial differential
 equations (PDE's).
 
-[SHOWME](../../c_src/showme/showme.html), a C program which can display
+[SHOWME](../../c_src/showme/showme.md), a C program which can display
 the POLY files uses as input to TRIANGLE, and the output files that
 define meshes and other objects.
 
-[TRIANGLE](../../c_src/triangle/triangle.html), a C program which
+[TRIANGLE](../../c_src/triangle/triangle.md), a C program which
 computes Voronoi diagrams and Delaunay triangulations, and creates and
 manipulates files that can be displayed by SHOWME.
 
-[TRIANGLE\_FILES](../../data/triangle_files/triangle_files.html), a data
+[TRIANGLE\_FILES](../../data/triangle_files/triangle_files.md), a data
 directory of examples of files used by the triangle and showme programs.
 
-[TRIANGLE\_IO](../../cpp_src/triangle_io/triangle_io.html), a C++
+[TRIANGLE\_IO](../../master/triangle_io/triangle_io.md), a C++
 library which can read or write node and element files created by the
 TRIANGLE program.
 
-[TRIANGLE\_TO\_FEM](../../cpp_src/triangle_to_fem/triangle_to_fem.html),
+[TRIANGLE\_TO\_FEM](../../master/triangle_to_fem/triangle_to_fem.md),
 a C++ program which reads the NODE and ELE files created by triangle()
 to describe a triangular mesh, and writes two simple "mesh" format
 files, listing node coordinates and element connectivity.
 
-[TRIANGLE\_TO\_MEDIT](../../cpp_src/triangle_to_medit/triangle_to_medit.html),
+[TRIANGLE\_TO\_MEDIT](../../master/triangle_to_medit/triangle_to_medit.md),
 a C++ program which reads the NODE and ELE files created by triangle()
 to describe a triangular mesh, and writes a corresponding MESH file for
 input to medit().
 
-[XML](../../data/xml/xml.html), a data directory which contains examples
+[XML](../../data/xml/xml.md), a data directory which contains examples
 of XML files, a standard, general datafile format.
 
 ### Source Code: {#source-code align="center"}
@@ -99,7 +99,7 @@ of XML files, a standard, general datafile format.
     node file.
 -   **XML\_MESH2D\_WRITE** writes a 2D mesh as a DOLFIN XML file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

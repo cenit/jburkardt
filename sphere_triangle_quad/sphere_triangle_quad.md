@@ -32,53 +32,53 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPHERE\_TRIANGLE\_QUAD** is available in [a C
-version](../../c_src/sphere_triangle_quad/sphere_triangle_quad.html) and
+version](../../c_src/sphere_triangle_quad/sphere_triangle_quad.md) and
 [a C++
-version](../../cpp_src/sphere_triangle_quad/sphere_triangle_quad.html)
+version](../../master/sphere_triangle_quad/sphere_triangle_quad.md)
 and [a FORTRAN77
-version](../../f77_src/sphere_triangle_quad/sphere_triangle_quad.html)
+version](../../f77_src/sphere_triangle_quad/sphere_triangle_quad.md)
 and [a FORTRAN90
-version](../../f_src/sphere_triangle_quad/sphere_triangle_quad.html) and
+version](../../f_src/sphere_triangle_quad/sphere_triangle_quad.md) and
 [a MATLAB
-version](../../m_src/sphere_triangle_quad/sphere_triangle_quad.html).
+version](../../m_src/sphere_triangle_quad/sphere_triangle_quad.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[RANDOM\_DATA](../../cpp_src/random_data/random_data.html), a C++
+[RANDOM\_DATA](../../master/random_data/random_data.md), a C++
 library which generates sample points for various probability
 distributions, spatial dimensions, and geometries;
 
-[SPHERE\_EXACTNESS](../../cpp_src/sphere_exactness/sphere_exactness.html),
+[SPHERE\_EXACTNESS](../../master/sphere_exactness/sphere_exactness.md),
 a C++ program which tests the polynomial exactness of a quadrature rule
 for the unit sphere;
 
-[SPHERE\_GRID](../../cpp_src/sphere_grid/sphere_grid.html), a C++
+[SPHERE\_GRID](../../master/sphere_grid/sphere_grid.md), a C++
 library which provides a number of ways of generating grids of points,
 or of points and lines, or of points and lines and faces, over the unit
 sphere.
 
-[SPHERE\_LEBEDEV\_RULE](../../cpp_src/sphere_lebedev_rule/sphere_lebedev_rule.html),
+[SPHERE\_LEBEDEV\_RULE](../../master/sphere_lebedev_rule/sphere_lebedev_rule.md),
 a C++ library which computes Lebedev quadrature rules for the unit
 sphere;
 
-[SPHERE\_MONTE\_CARLO](../../cpp_src/sphere_monte_carlo/sphere_monte_carlo.html),
+[SPHERE\_MONTE\_CARLO](../../master/sphere_monte_carlo/sphere_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the surface of the sphere in 3D;
 
-[SPHERE\_QUAD](../../cpp_src/sphere_quad/sphere_quad.html), a C++
+[SPHERE\_QUAD](../../master/sphere_quad/sphere_quad.md), a C++
 library which approximates an integral over the surface of the unit
 sphere by applying a triangulation to the surface;
 
-[SPHERE\_TRIANGLE\_MONTE\_CARLO](../../cpp_src/sphere_triangle_monte_carlo/sphere_triangle_monte_carlo.html),
+[SPHERE\_TRIANGLE\_MONTE\_CARLO](../../master/sphere_triangle_monte_carlo/sphere_triangle_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over a spherical triangle on the surface of the
 unit sphere in 3D;
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which
+[STROUD](../../master/stroud/stroud.md), a C++ library which
 approximates the integral of a function on the surface or in the
 interior of a variety of geometric shapes.
 
-[XYZ\_DISPLAY\_OPENGL](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html)
+[XYZ\_DISPLAY\_OPENGL](../../master/xyz_display_opengl/xyz_display_opengl.md)
 a C++ program which reads XYZ information defining points in 3D, and
 displays an image using OpenGL.
 
@@ -161,7 +161,7 @@ displays an image using OpenGL.
     triangle on unit sphere.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -1,6 +1,6 @@
 Location:
 
-  http://people.sc.fsu.edu/~jburkardt/cpp_src/clapack_sc/clapack_sc.txt
+  http://people.sc.fsu.edu/~jburkardt/master/clapack_sc/clapack_sc.txt
 
 Using CLAPACK to solve Linear Algebra Problems in C or C++
 (as installed at FSU Department of Scientific Computing)
@@ -64,5 +64,5 @@ preceding their names).  Vectors and matrices are passed in the usual way.
 
   ./a.out
 
-See also: http://people.sc.fsu.edu/~jburkardt/cpp_src/clapack_sc/clapack_sc.html
+See also: http://people.sc.fsu.edu/~jburkardt/master/clapack_sc/clapack_sc.md
 

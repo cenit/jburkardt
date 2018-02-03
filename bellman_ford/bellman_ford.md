@@ -18,24 +18,24 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BELLMAN\_FORD** is available in [a C
-version](../../c_src/bellman_ford/bellman_ford.html) and [a C++
-version](../../cpp_src/bellman_ford/bellman_ford.html) and [a FORTRAN77
-version](../../f77_src/bellman_ford/bellman_ford.html) and [a FORTRAN90
-version](../../f_src/bellman_ford/bellman_ford.html) and [a MATLAB
-version](../../m_src/bellman_ford/bellman_ford.html) and [a Python
-version](../../py_src/bellman_ford/bellman_ford.html).
+version](../../c_src/bellman_ford/bellman_ford.md) and [a C++
+version](../../master/bellman_ford/bellman_ford.md) and [a FORTRAN77
+version](../../f77_src/bellman_ford/bellman_ford.md) and [a FORTRAN90
+version](../../f_src/bellman_ford/bellman_ford.md) and [a MATLAB
+version](../../m_src/bellman_ford/bellman_ford.md) and [a Python
+version](../../py_src/bellman_ford/bellman_ford.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DIJKSTRA](../../cpp_src/dijkstra/dijkstra.html), a C++ library which
+[DIJKSTRA](../../master/dijkstra/dijkstra.md), a C++ library which
 implements a simple version of Dijkstra's minimum distance algorithm for
 graphs.
 
-[FLOYD](../../cpp_src/floyd/floyd.html), a C++ library which implements
+[FLOYD](../../master/floyd/floyd.md), a C++ library which implements
 Floyd's algorithm for finding the shortest distance between pairs of
 nodes on a directed graph.
 
-[TOMS097](../../cpp_src/toms097/toms097.html), a C++ library which
+[TOMS097](../../master/toms097/toms097.md), a C++ library which
 computes the distance between all pairs of nodes in a directed graph
 with weighted edges, using Floyd's algorithm.
 
@@ -72,7 +72,7 @@ with weighted edges, using Floyd's algorithm.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

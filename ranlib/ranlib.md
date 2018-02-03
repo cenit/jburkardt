@@ -49,65 +49,65 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**RANLIB** is available in [a C version](../../c_src/ranlib/ranlib.html)
-and [a C++ version](../../cpp_src/ranlib/ranlib.html) and [a FORTRAN77
-version](../../f77_src/ranlib/ranlib.html) and [a FORTRAN90
-version](../../f_src/ranlib/ranlib.html) and [a MATLAB
-version](../../m_src/ranlib/ranlib.html).
+**RANLIB** is available in [a C version](../../c_src/ranlib/ranlib.md)
+and [a C++ version](../../master/ranlib/ranlib.md) and [a FORTRAN77
+version](../../f77_src/ranlib/ranlib.md) and [a FORTRAN90
+version](../../f_src/ranlib/ranlib.md) and [a MATLAB
+version](../../m_src/ranlib/ranlib.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA183](../../cpp_src/asa183/asa183.html), a C++ library which
+[ASA183](../../master/asa183/asa183.md), a C++ library which
 implements a random number generator (RNG), by Wichman and Hill. This is
 a C++ version of Applied Statistics Algorithm 183.
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 elements of a Faure quasirandom sequence.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton quasirandom sequence.
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley quasirandom sequence.
 
-[NIEDERREITER2](../../cpp_src/niederreiter2/niederreiter2.html), a C++
+[NIEDERREITER2](../../master/niederreiter2/niederreiter2.md), a C++
 library which computes elements of a Niederreiter quasirandom sequence
 with base 2.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which computes
+[NORMAL](../../master/normal/normal.md), a C++ library which computes
 elements of a sequence of pseudorandom normally distributed values.
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which evaluates,
+[PROB](../../master/prob/prob.md), a C++ library which evaluates,
 samples and inverts a number of Probability Density Functions (PDF's).
 
-[RAND48](../../cpp_src/rand48/rand48.html), a C++ program which
+[RAND48](../../master/rand48/rand48.md), a C++ program which
 demonstrates the use of the rand48 family of random number generators
 (RNG's) available in the C/C++ standard library.
 
-[RANDLC](../../cpp_src/randlc/randlc.html), a C++ library which
+[RANDLC](../../master/randlc/randlc.md), a C++ library which
 implements a random number generator (RNG) used by the NAS Benchmark
 programs.
 
-[RANDOM\_SORTED](../../cpp_src/random_sorted/random_sorted.html), a C++
+[RANDOM\_SORTED](../../master/random_sorted/random_sorted.md), a C++
 library which generates vectors of random values which are already
 sorted.
 
-[RNGLIB](../../cpp_src/rnglib/rnglib.html), a C++ library which
+[RNGLIB](../../master/rnglib/rnglib.md), a C++ library which
 implements a random number generator (RNG) with splitting facilities,
 allowing multiple independent streams to be computed, by L'Ecuyer and
 Cote.
 
-[SOBOL](../../cpp_src/sobol/sobol.html), a C++ library which computes
+[SOBOL](../../master/sobol/sobol.md), a C++ library which computes
 elements of a Sobol quasirandom sequence.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of a pseudorandom uniform sequence.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes elements of a van der Corput quasirandom
 sequence.
 
-[WALKER\_SAMPLE](../../cpp_src/walker_sample/walker_sample.html), a C++
+[WALKER\_SAMPLE](../../master/walker_sample/walker_sample.md), a C++
 library which efficiently samples a discrete probability vector using
 Walker sampling.
 
@@ -212,7 +212,7 @@ John Burkardt.
 -   **STATS** computes statistics for a given array.
 -   **TRSTAT** returns the mean and variance for distributions.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

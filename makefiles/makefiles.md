@@ -87,10 +87,10 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MAKEFILES** is available in [a C
-version](../../c_src/makefiles/makefiles.html), [a C++
-version](../../cpp_src/makefiles/makefiles.html) and [a FORTRAN77
-version](../../f77_src/makefiles/makefiles.html) and [a FORTRAN90
-version](../../f_src/makefiles/makefiles.html).
+version](../../c_src/makefiles/makefiles.md), [a C++
+version](../../master/makefiles/makefiles.md) and [a FORTRAN77
+version](../../f77_src/makefiles/makefiles.md) and [a FORTRAN90
+version](../../f_src/makefiles/makefiles.md).
 
 ### Reference: {#reference align="center"}
 
@@ -105,9 +105,9 @@ version](../../f_src/makefiles/makefiles.html).
 
 ### Examples and Tests: {#examples-and-tests align="center"}
 
--   [a simple C++ example](cpp_simple/cpp_simple.html)
+-   [a simple C++ example](cpp_simple/cpp_simple.md)
 
-You can go up one level to [the C++ page](../cpp_src.html).
+You can go up one level to [the C++ page](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

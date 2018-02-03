@@ -35,18 +35,18 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SCVT\_MPI** is available in [a C++
-version](../../cpp_src/divdif/divdif.html).
+version](../../master/divdif/divdif.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BOOST](../../cpp_src/boost/boost.html), C++ programs which demonstrate
+[BOOST](../../master/boost/boost.md), C++ programs which demonstrate
 the use of the Boost libraries;
 
-[MPI](../../cpp_src/mpi/mpi.html), C++ programs which illustrate the use
+[MPI](../../master/mpi/mpi.md), C++ programs which illustrate the use
 of the MPI application program interface for carrying out parallel
 computations in a distributed memory environment.
 
-[TRIANGLE](../../c_src/triangle/triangle.html), a C program which
+[TRIANGLE](../../c_src/triangle/triangle.md), a C program which
 computes a triangulation of a geometric region, by Jonathan Shewchuk.
 
 ### Reference: {#reference align="center"}
@@ -71,7 +71,7 @@ computes a triangulation of a geometric region, by Jonathan Shewchuk.
 
 ### Examples and Tests: {#examples-and-tests align="center"}
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -16,46 +16,46 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BETA\_NC** is available in [a C
-version](../../c_src/beta_nc/beta_nc.html) and [a C++
-version](../../cpp_src/beta_nc/beta_nc.html) and [a FORTRAN77
-version](../../f77_src/beta_nc/beta_nc.html) and [a FORTRAN90
-version](../../f_src/beta_nc/beta_nc.html) and [a MATLAB
-version](../../m_src/beta_nc/beta_nc.html).
+version](../../c_src/beta_nc/beta_nc.md) and [a C++
+version](../../master/beta_nc/beta_nc.md) and [a FORTRAN77
+version](../../f77_src/beta_nc/beta_nc.md) and [a FORTRAN90
+version](../../f_src/beta_nc/beta_nc.md) and [a MATLAB
+version](../../m_src/beta_nc/beta_nc.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA063](../../cpp_src/asa063/asa063.html), a C++ library which
+[ASA063](../../master/asa063/asa063.md), a C++ library which
 evaluates the incomplete Beta function.
 
-[ASA109](../../cpp_src/asa109/asa109.html), a C++ library which inverts
+[ASA109](../../master/asa109/asa109.md), a C++ library which inverts
 the incomplete Beta function.
 
-[ASA226](../../cpp_src/asa226/asa226.html), a C++ library which computes
+[ASA226](../../master/asa226/asa226.md), a C++ library which computes
 the CDF of the noncentral Beta distribution.
 
-[ASA310](../../cpp_src/asa310/asa310.html), a C++ library which computes
+[ASA310](../../master/asa310/asa310.md), a C++ library which computes
 the CDF of the noncentral Beta distribution.
 
-[CDFLIB](../../cpp_src/cdflib/cdflib.html), a C++ library which
+[CDFLIB](../../master/cdflib/cdflib.md), a C++ library which
 evaluates the cumulative density function (CDF), inverse CDF, and
 certain other inverse functions, for distributions including beta,
 binomial, chi-square, noncentral chi-square, F, noncentral F, gamma,
 negative binomial, normal, Poisson, and students T, by Barry Brown,
 James Lovato, Kathy Russell.
 
-[GSL](../../cpp_src/gsl/gsl.html), a C++ library which includes many
+[GSL](../../master/gsl/gsl.md), a C++ library which includes many
 routines for evaluating probability distributions.
 
-[PROB](../../cpp_src/prob/prob.html), a C++ library which evaluates and
+[PROB](../../master/prob/prob.md), a C++ library which evaluates and
 inverts a number of probabilistic distributions.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which contains sample values for a number of distributions.
 
-[TOMS179](../../cpp_src/toms179/toms179.html), a C++ library which
+[TOMS179](../../master/toms179/toms179.md), a C++ library which
 evaluates the incomplete Beta function.
 
-[TOMS708](../../f_src/toms708/toms708.html), a FORTRAN90 library which
+[TOMS708](../../f_src/toms708/toms708.md), a FORTRAN90 library which
 evaluates the incomplete Beta function.
 
 ### Reference: {#reference align="center"}
@@ -86,7 +86,7 @@ evaluates the incomplete Beta function.
 -   **BETAIN** computes the incomplete Beta function ratio.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

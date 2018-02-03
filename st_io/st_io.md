@@ -15,30 +15,30 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**ST\_IO** is available in [a C version](../../c_src/st_io/st_io.html)
-and [a C++ version](../../cpp_src/st_io/st_io.html) and [a FORTRAN90
-version](../../f_src/st_io/st_io.html) and [a FORTRAN77
-version](../../f77_src/st_io/st_io.html) and [a MATLAB
-version](../../m_src/st_io/st_io.html).
+**ST\_IO** is available in [a C version](../../c_src/st_io/st_io.md)
+and [a C++ version](../../master/st_io/st_io.md) and [a FORTRAN90
+version](../../f_src/st_io/st_io.md) and [a FORTRAN77
+version](../../f77_src/st_io/st_io.md) and [a MATLAB
+version](../../m_src/st_io/st_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CC\_IO](../../cpp_src/cc_io/cc_io.html), a C++ library which reads and
+[CC\_IO](../../master/cc_io/cc_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Compressed Column (CC)
 format.
 
-[CC\_TO\_ST](../../cpp_src/cc_to_st/cc_to_st.html), a C++ library which
+[CC\_TO\_ST](../../master/cc_to_st/cc_to_st.md), a C++ library which
 converts a sparse matrix from compressed column (CC) to sparse triple
 (ST) format.
 
-[HB\_IO](../../cpp_src/hb_io/hb_io.html), a C++ library which reads and
+[HB\_IO](../../master/hb_io/hb_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Harwell Boeing (HB) format
 for sparse matrices.
 
-[ST](../../data/st/st.html), the format which is used for the input to
+[ST](../../data/st/st.md), the format which is used for the input to
 this program.
 
-[ST\_TO\_CC](../../cpp_src/st_to_cc/st_to_cc.html), a C++ library which
+[ST\_TO\_CC](../../master/st_to_cc/st_to_cc.md), a C++ library which
 converts sparse matrix data from Sparse Triplet (ST) format to
 Compressed Column (CC) format.
 
@@ -70,7 +70,7 @@ Compressed Column (CC) format.
 -   **ST\_TRANSPOSE** transposes an ST matrix.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

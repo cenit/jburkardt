@@ -65,33 +65,33 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **UMFPACK** is available in [a C
-version](../../c_src/umfpack/umfpack.html) and [a C++
-version](../../cpp_src/umfpack/umfpack.html) and [a FORTRAN90
-version](../../f_src/umfpack/umfpack.html) and [a FORTRAN77
-version](../../f77_src/umfpack/umfpack.html) and [a MATLAB
-version](../../m_src/umfpack/umfpack.html).
+version](../../c_src/umfpack/umfpack.md) and [a C++
+version](../../master/umfpack/umfpack.md) and [a FORTRAN90
+version](../../f_src/umfpack/umfpack.md) and [a FORTRAN77
+version](../../f77_src/umfpack/umfpack.md) and [a MATLAB
+version](../../m_src/umfpack/umfpack.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CC](../../data/cc/cc.html), a data directory which contains examples of
+[CC](../../data/cc/cc.md), a data directory which contains examples of
 the compressed column (CC) sparse matrix format;
 
-[CG\_RC](../../cpp_src/cg_rc/cg_rc.html), a C++ library which implements
+[CG\_RC](../../master/cg_rc/cg_rc.md), a C++ library which implements
 the conjugate gradient method for solving a positive definite sparse
 linear system A\*x=b, using reverse communication.
 
-[HB\_IO](../../cpp_src/hb_io/hb_io.html), a C++ library which reads and
+[HB\_IO](../../master/hb_io/hb_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Harwell Boeing (HB) format
 for sparse matrices.
 
-[MGMRES](../../cpp_src/mgmres/mgmres.html), a C++ library which applies
+[MGMRES](../../master/mgmres/mgmres.md), a C++ library which applies
 the restarted Generalized Minimum Residual (GMRES) algorithm to solve a
 sparse linear system, by Lili Ju.
 
-[ST\_IO](../../cpp_src/st_io/st_io.html), a C++ library which reads and
+[ST\_IO](../../master/st_io/st_io.md), a C++ library which reads and
 writes sparse linear systems stored in the Sparse Triplet (ST) format.
 
-[SUPERLU](../../cpp_src/superlu/superlu.html), C++ programs which
+[SUPERLU](../../master/superlu/superlu.md), C++ programs which
 illustrate the usage of the SUPERLU library, which applies a fast direct
 solution method to solve sparse linear systems, by James Demmel, John
 Gilbert, and Xiaoye Li.
@@ -143,7 +143,7 @@ linear system.
 -   [west\_icc.txt](west_icc.txt), a file containing the row indices of
     the nonzero matrix values.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

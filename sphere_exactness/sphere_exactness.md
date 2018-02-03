@@ -74,70 +74,70 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SPHERE\_EXACTNESS** is available in [a C
-version](../../c_src/sphere_exactness/sphere_exactness.html) and [a C++
-version](../../cpp_src/sphere_exactness/sphere_exactness.html) and [a
-FORTRAN77 version](../../f77_src/sphere_exactness/sphere_exactness.html)
+version](../../c_src/sphere_exactness/sphere_exactness.md) and [a C++
+version](../../master/sphere_exactness/sphere_exactness.md) and [a
+FORTRAN77 version](../../f77_src/sphere_exactness/sphere_exactness.md)
 and [a FORTRAN90
-version](../../f_src/sphere_exactness/sphere_exactness.html) and [a
-MATLAB version](../../m_src/sphere_exactness/sphere_exactness.html).
+version](../../f_src/sphere_exactness/sphere_exactness.md) and [a
+MATLAB version](../../m_src/sphere_exactness/sphere_exactness.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CUBE\_EXACTNESS](../../cpp_src/cube_exactness/cube_exactness.html), a
+[CUBE\_EXACTNESS](../../master/cube_exactness/cube_exactness.md), a
 C++ library which investigates the polynomial exactness of quadrature
 rules over the interior of a cube in 3D.
 
-[HYPERCUBE\_EXACTNESS](../../cpp_src/hypercube_exactness/hypercube_exactness.html),
+[HYPERCUBE\_EXACTNESS](../../master/hypercube_exactness/hypercube_exactness.md),
 a C++ program which measures the monomial exactness of an M-dimensional
 quadrature rule over the interior of the unit hypercube in M dimensions.
 
-[PYRAMID\_EXACTNESS](../../cpp_src/pyramid_exactness/pyramid_exactness.html),
+[PYRAMID\_EXACTNESS](../../master/pyramid_exactness/pyramid_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of the unit pyramid in 3D.
 
-[SPHERE\_DESIGN\_RULE](../../datasets/sphere_design_rule/sphere_design_rule.html),
+[SPHERE\_DESIGN\_RULE](../../datasets/sphere_design_rule/sphere_design_rule.md),
 a dataset directory which contains files defining point sets on the
 surface of the unit sphere, known as "designs", which can be useful for
 estimating integrals on the surface, among other uses.
 
-[SPHERE\_DESIGN\_RULE](../../f_src/sphere_design_rule/sphere_design_rule.html),
+[SPHERE\_DESIGN\_RULE](../../f_src/sphere_design_rule/sphere_design_rule.md),
 a FORTRAN90 library which returns point sets on the surface of the unit
 sphere, known as "designs", which can be useful for estimating integrals
 on the surface, among other uses.
 
-[SPHERE\_LEBEDEV\_RULE](../../datasets/sphere_lebedev_rule/sphere_lebedev_rule.html),
+[SPHERE\_LEBEDEV\_RULE](../../datasets/sphere_lebedev_rule/sphere_lebedev_rule.md),
 a dataset directory which contains sets of Lebedev points on a unit
 sphere, which can be used for quadrature rules of a known precision;
 
-[SPHERE\_LEBEDEV\_RULE](../../cpp_src/sphere_lebedev_rule/sphere_lebedev_rule.html),
+[SPHERE\_LEBEDEV\_RULE](../../master/sphere_lebedev_rule/sphere_lebedev_rule.md),
 a C++ library which computes Lebedev quadrature rules for the unit
 sphere;
 
-[SPHERE\_MONTE\_CARLO](../../cpp_src/sphere_monte_carlo/sphere_monte_carlo.html),
+[SPHERE\_MONTE\_CARLO](../../master/sphere_monte_carlo/sphere_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate the
 integral of a function over the surface of the unit sphere in 3D;
 
-[SPHERE\_QUAD](../../cpp_src/sphere_quad/sphere_quad.html), a C++
+[SPHERE\_QUAD](../../master/sphere_quad/sphere_quad.md), a C++
 library which approximates an integral over the surface of the unit
 sphere by applying a triangulation to the surface;
 
-[SPHERE\_TRIANGLE\_QUAD](../../cpp_src/sphere_triangle_quad/sphere_triangle_quad.html),
+[SPHERE\_TRIANGLE\_QUAD](../../master/sphere_triangle_quad/sphere_triangle_quad.md),
 a C++ library which estimates the integral of a function over a
 spherical triangle.
 
-[SQUARE\_EXACTNESS](../../cpp_src/square_exactness/square_exactness.html),
+[SQUARE\_EXACTNESS](../../master/square_exactness/square_exactness.md),
 a C++ library which investigates the polynomial exactness of quadrature
 rules for f(x,y) over the interior of a rectangle in 2D.
 
-[TETRAHEDRON\_EXACTNESS](../../cpp_src/tetrahedron_exactness/tetrahedron_exactness.html),
+[TETRAHEDRON\_EXACTNESS](../../master/tetrahedron_exactness/tetrahedron_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of a tetrahedron in 3D.
 
-[TRIANGLE\_EXACTNESS](../../cpp_src/triangle_exactness/triangle_exactness.html),
+[TRIANGLE\_EXACTNESS](../../master/triangle_exactness/triangle_exactness.md),
 a C++ program which investigates the polynomial exactness of a
 quadrature rule over the interior of a triangle in 2D.
 
-[WEDGE\_EXACTNESS](../../cpp_src/wedge_exactness/wedge_exactness.html),
+[WEDGE\_EXACTNESS](../../master/wedge_exactness/wedge_exactness.md),
 a C++ program which investigates the monomial exactness of a quadrature
 rule over the interior of the unit wedge in 3D.
 
@@ -214,7 +214,7 @@ and phi are specified in degrees. are used.
     sphere.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

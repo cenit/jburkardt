@@ -31,29 +31,29 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_MATRIX\_EXPONENTIAL** is available in [a C
-version](../../c_src/test_matrix_exponential/test_matrix_exponential.html)
+version](../../c_src/test_matrix_exponential/test_matrix_exponential.md)
 and [a C++
-version](../../cpp_src/test_matrix_exponential/test_matrix_exponential.html)
+version](../../master/test_matrix_exponential/test_matrix_exponential.md)
 and [a FORTRAN77
-version](../../f77_src/test_matrix_exponential/test_matrix_exponential.html)
+version](../../f77_src/test_matrix_exponential/test_matrix_exponential.md)
 and [a FORTRAN90
-version](../../f_src/test_matrix_exponential/test_matrix_exponential.html)
+version](../../f_src/test_matrix_exponential/test_matrix_exponential.md)
 and [a MATLAB
-version](../../m_src/test_matrix_exponential/test_matrix_exponential.html).
+version](../../m_src/test_matrix_exponential/test_matrix_exponential.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[EXPOKIT](../../f77_src/expokit/expokit.html), a FORTRAN77 library which
+[EXPOKIT](../../f77_src/expokit/expokit.md), a FORTRAN77 library which
 solves various forms of the matrix exponential problem, by Roger Sidje.
 
-[MATRIX\_EXPONENTIAL](../../cpp_src/matrix_exponential/matrix_exponential.html),
+[MATRIX\_EXPONENTIAL](../../master/matrix_exponential/matrix_exponential.md),
 a C++ library which demonstrates some simple approaches to the problem
 of computing the exponential of a matrix.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices.
 
 ### Reference: {#reference align="center"}
@@ -114,7 +114,7 @@ defines test matrices.
 -   **R8MAT\_EXP\_STORY** prints explanatory text for each real problem.
 -   **R8MAT\_EXP\_TEST\_NUM** returns the number of real tests.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

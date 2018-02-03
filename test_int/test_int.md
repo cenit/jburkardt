@@ -58,22 +58,22 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_INT** is available in [a C
-version](../../c_src/test_int/test_int.html) and [a C++
-version](../../cpp_src/test_int/test_int.html) and [a FORTRAN77
-version](../../f77_src/test_int/test_int.html) and [a FORTRAN90
-version](../../f_src/test_int/test_int.html) and [a MATLAB
-version](../../m_src/test_int/test_int.html).
+version](../../c_src/test_int/test_int.md) and [a C++
+version](../../master/test_int/test_int.md) and [a FORTRAN77
+version](../../f77_src/test_int/test_int.md) and [a FORTRAN90
+version](../../f_src/test_int/test_int.md) and [a MATLAB
+version](../../m_src/test_int/test_int.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[TEST\_INT\_2D](../../cpp_src/test_int_2d/test_int_2d.html), a C++
+[TEST\_INT\_2D](../../master/test_int_2d/test_int_2d.md), a C++
 library which defines test integrands for 2D quadrature rules.
 
-[TEST\_INT\_HERMITE](../../cpp_src/test_int_hermite/test_int_hermite.html),
+[TEST\_INT\_HERMITE](../../master/test_int_hermite/test_int_hermite.md),
 a C++ library which defines some test integration problems over infinite
 intervals.
 
-[TEST\_INT\_LAGUERRE](../../cpp_src/test_int_laguerre/test_int_laguerre.html),
+[TEST\_INT\_LAGUERRE](../../master/test_int_laguerre/test_int_laguerre.md),
 a C++ library which defines test integrands for integration over
 \[ALPHA,+Infinity).
 
@@ -429,7 +429,7 @@ a C++ library which defines test integrands for integration over
 -   **S\_EQI** reports whether two strings are equal, ignoring case.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

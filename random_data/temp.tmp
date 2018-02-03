@@ -1,4 +1,4 @@
-<html>
+.md>
 
   <head>
     <title>
@@ -40,7 +40,7 @@
 
     <p>
       <b>RANDOM_DATA</b> is available in
-      <a href = "../../cpp_src/random_data/random_data.html">a C++ version</a>.
+      <a href = "../../master/random_data/random_data.md">a C++ version</a>.
     </p>
 
     <h3 align = "center">
@@ -412,7 +412,7 @@
     </p>
 
     <p>
-      You can go up one level to <a href = "../cpp_src.html">
+      You can go up one level to <a href = "../cpp_src.md">
       the C++ source codes</a>.
     </p>
 
@@ -428,4 +428,4 @@
 
   <!-- Initial HTML skeleton created by HTMLINDEX. -->
 
-</html>
+<.md>

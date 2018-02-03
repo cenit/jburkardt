@@ -19,33 +19,33 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**RKF45** is available in [a C version](../../c_src/rkf45/rkf45.html)
-and [a C++ version](../../cpp_src/rkf45/rkf45.html) and [a FORTRAN77
-version](../../f77_src/rkf45/rkf45.html) and [a FORTRAN90
-version](../../f_src/rkf45/rkf45.html) and [a MATLAB
-version](../../m_src/rkf45/rkf45.html) and [a PYTHON
-version](../../py_src/rkf45/rkf45.html).
+**RKF45** is available in [a C version](../../c_src/rkf45/rkf45.md)
+and [a C++ version](../../master/rkf45/rkf45.md) and [a FORTRAN77
+version](../../f77_src/rkf45/rkf45.md) and [a FORTRAN90
+version](../../f_src/rkf45/rkf45.md) and [a MATLAB
+version](../../m_src/rkf45/rkf45.md) and [a PYTHON
+version](../../py_src/rkf45/rkf45.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GSL](../../cpp_src/gsl/gsl.html), a C++ library which includes routines
+[GSL](../../master/gsl/gsl.md), a C++ library which includes routines
 for solving differential equations.
 
-[NMS](../../f_src/nms/nms.html), a FORTRAN90 library which includes the
+[NMS](../../f_src/nms/nms.md), a FORTRAN90 library which includes the
 DDRIV package of ODE solvers.
 
-[ODE](../../cpp_src/ode/ode.html), a C++ library which solves a system
+[ODE](../../master/ode/ode.md), a C++ library which solves a system
 of ordinary differential equations, by Shampine and Gordon.
 
-[ODEPACK](../../f77_src/odepack/odepack.html), a FORTRAN77 library which
+[ODEPACK](../../f77_src/odepack/odepack.md), a FORTRAN77 library which
 contains nine ODE solvers, including LSODE, LSODES, LSODA, LSODAR,
 LSODPK, LSODKR, LSODI, LSOIBT, and LSODIS, by Alan Hindmarsh.
 
-[RK4](../../cpp_src/rk4/rk4.html), a C++ library which applies the
+[RK4](../../master/rk4/rk4.md), a C++ library which applies the
 fourth order Runge-Kutta algorithm to estimate the solution of an
 ordinary differential equation at the next time step.
 
-[TEST\_ODE](../../f_src/test_ode/test_ode.html), a FORTRAN90 library
+[TEST\_ODE](../../f_src/test_ode/test_ode.md), a FORTRAN90 library
 which contains routines which define some test problems for ODE solvers.
 
 ### Reference: {#reference align="center"}
@@ -100,7 +100,7 @@ derivative routine.
 -   **R8\_SIGN** returns the sign of a real number.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -33,40 +33,40 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**ROT13** is available in [a C version](../../c_src/julian/julian.html)
-and [a C++ version](../../cpp_src/julian/julian.html) and [a FORTRAN90
-version](../../f_src/julian/julian.html) and [a MATLAB
-version](../../m_src/julian/julian.html) and [a Python
-version](../../py_src/julian/julian.html).
+**ROT13** is available in [a C version](../../c_src/julian/julian.md)
+and [a C++ version](../../master/julian/julian.md) and [a FORTRAN90
+version](../../f_src/julian/julian.md) and [a MATLAB
+version](../../m_src/julian/julian.md) and [a Python
+version](../../py_src/julian/julian.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CAESAR](../../cpp_src/caesar/caesar.html), a C++ library which can
+[CAESAR](../../master/caesar/caesar.md), a C++ library which can
 apply a Caesar Shift Cipher to a string of text.
 
-[CR2LF](../../cpp_src/cr2lf/cr2lf.html), a C++ program which reads a
+[CR2LF](../../master/cr2lf/cr2lf.md), a C++ program which reads a
 text file and replaces carriage returns by line feeds.
 
-[CRRM](../../cpp_src/crrm/crrm.html), a C++ program which reads a text
+[CRRM](../../master/crrm/crrm.md), a C++ program which reads a text
 file and writes a copy which has no carriage returns.
 
-[DEBLANK](../../cpp_src/deblank/deblank.html), a C++ program which makes
+[DEBLANK](../../master/deblank/deblank.md), a C++ program which makes
 a copy of a text file in which blank lines have been removed.
 
-[DECOMMENT](../../cpp_src/decomment/decomment.html), a C++ program which
+[DECOMMENT](../../master/decomment/decomment.md), a C++ program which
 makes a copy of a text file which contains no "comment" lines (that
 begin with "\#").
 
-[FILUM](../../cpp_src/filum/filum.html), a C++ library which performs
+[FILUM](../../master/filum/filum.md), a C++ library which performs
 various operations on files.
 
-[REWORD](../../cpp_src/reword/reword.html), a C++ program which makes a
+[REWORD](../../master/reword/reword.md), a C++ program which makes a
 copy of a file in which each line has the same number of "words".
 
-[UNCONTROL](../../cpp_src/uncontrol/uncontrol.html), a C++ program which
+[UNCONTROL](../../master/uncontrol/uncontrol.md), a C++ program which
 makes a copy of a text file which contains no control characters.
 
-[WRAP](../../cpp_src/wrap/wrap.html), a C++ program which makes a copy
+[WRAP](../../master/wrap/wrap.md), a C++ program which makes a copy
 of a text file in which long lines have been wrapped.
 
 ### Source Code: {#source-code align="center"}
@@ -87,7 +87,7 @@ of a text file in which long lines have been wrapped.
     by 13 positions.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

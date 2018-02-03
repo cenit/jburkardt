@@ -32,82 +32,82 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**GRID** is available in [a C version](../../c_src/grid/grid.html) and
-[a C++ version](../../cpp_src/grid/grid.html) and [a FORTRAN90
-version](../../f_src/grid/grid.html) and [a MATLAB
-version](../../m_src/grid/grid.html) and [a Python
-version](../../py_src/grid/grid.html).
+**GRID** is available in [a C version](../../c_src/grid/grid.md) and
+[a C++ version](../../master/grid/grid.md) and [a FORTRAN90
+version](../../f_src/grid/grid.md) and [a MATLAB
+version](../../m_src/grid/grid.md) and [a Python
+version](../../py_src/grid/grid.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BOX\_BEHNKEN](../../cpp_src/box_behnken/box_behnken.html), a C++
+[BOX\_BEHNKEN](../../master/box_behnken/box_behnken.md), a C++
 library which computes a Box-Behnken design, that is, a set of arguments
 to sample the behavior of a function of multiple parameters;
 
-[CLENSHAW\_CURTIS\_RULE](../../cpp_src/clenshaw_curtis_rule/clenshaw_curtis_rule.html),
+[CLENSHAW\_CURTIS\_RULE](../../master/clenshaw_curtis_rule/clenshaw_curtis_rule.md),
 a C++ library which defines a multiple dimension Clenshaw Curtis
 quadrature rule.
 
-[CVT](../../cpp_src/cvt/cvt.html), a C++ library which computes elements
+[CVT](../../master/cvt/cvt.md), a C++ library which computes elements
 of a Centroidal Voronoi Tessellation.
 
-[DISK\_GRID](../../cpp_src/disk_grid/disk_grid.html), a C++ library
+[DISK\_GRID](../../master/disk_grid/disk_grid.md), a C++ library
 which computes grid points that lie inside a disk of user specified
 radius and center in 2D, using GNUPLOT to create an image of the grid.
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 elements of a Faure quasirandom sequence.
 
-[GRID\_DATASET](../../cpp_src/grid_dataset/grid_dataset.html), a C++
+[GRID\_DATASET](../../master/grid_dataset/grid_dataset.md), a C++
 program which creates a grid sequence and writes it to a file.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton quasirandom sequence.
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley quasirandom sequence.
 
-[HEX\_GRID](../../cpp_src/hex_grid/hex_grid.html), a C++ library which
+[HEX\_GRID](../../master/hex_grid/hex_grid.md), a C++ library which
 computes elements of a hexagonal grid dataset.
 
-[IHS](../../cpp_src/ihs/ihs.html), a C++ library which computes elements
+[IHS](../../master/ihs/ihs.md), a C++ library which computes elements
 of an improved distributed Latin hypercube dataset.
 
-[LATIN\_CENTER](../../cpp_src/latin_center/latin_center.html), a C++
+[LATIN\_CENTER](../../master/latin_center/latin_center.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 center points.
 
-[LATIN\_EDGE](../../cpp_src/latin_edge/latin_edge.html), a C++ library
+[LATIN\_EDGE](../../master/latin_edge/latin_edge.md), a C++ library
 which computes elements of a Latin Hypercube dataset, choosing edge
 points.
 
-[LATIN\_RANDOM](../../cpp_src/latin_random/latin_random.html), a C++
+[LATIN\_RANDOM](../../master/latin_random/latin_random.md), a C++
 library which computes elements of a Latin Hypercube dataset, choosing
 points at random.
 
-[LCVT](../../cpp_src/lcvt/lcvt.html), a C++ library which computes a
+[LCVT](../../master/lcvt/lcvt.md), a C++ library which computes a
 latinized Centroidal Voronoi Tessellation.
 
-[NIEDERREITER](../../cpp_src/niederreiter/niederreiter.html), a C++
+[NIEDERREITER](../../master/niederreiter/niederreiter.md), a C++
 library which computes elements of a Niederreiter quasirandom sequence
 \[arbitrary base\].
 
-[SIMPLEX\_GRID](../../cpp_src/simplex_grid/simplex_grid.html), a C++
+[SIMPLEX\_GRID](../../master/simplex_grid/simplex_grid.md), a C++
 library which generates a regular grid of points over the interior of an
 arbitrary simplex in M dimensions.
 
-[SOBOL](../../cpp_src/sobol/sobol.html), a C++ library which computes
+[SOBOL](../../master/sobol/sobol.md), a C++ library which computes
 elements of a Sobol quasirandom sequence.
 
-[SPHERE\_GRID](../../cpp_src/sphere_grid/sphere_grid.html), a C++
+[SPHERE\_GRID](../../master/sphere_grid/sphere_grid.md), a C++
 library which provides a number of ways of generating grids of points,
 or of points and lines, or of points and lines and faces, on the surface
 of the unit sphere in 3D.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes uniform random values.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes van der Corput sequences.
 
 ### Source Code: {#source-code align="center"}
@@ -143,7 +143,7 @@ C++ library which computes van der Corput sequences.
 -   **TUPLE\_NEXT\_FAST** computes the next element of a tuple space,
     "fast".
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

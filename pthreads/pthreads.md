@@ -16,15 +16,15 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PTHREADS** is available in [a C
-version](../../c_src/pthreads/pthreads.html) and [a C++
-version](../../cpp_src/pthreads/pthreads.html).
+version](../../c_src/pthreads/pthreads.md) and [a C++
+version](../../master/pthreads/pthreads.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MPI](../../c_src/mpi/mpi.html), C programs which illustrate the use of
+[MPI](../../c_src/mpi/mpi.md), C programs which illustrate the use of
 the MPI parallel programming interface for distributed memory systems.
 
-[OPENMP](../../c_src/openmp/openmp.html), C programs which illustrate
+[OPENMP](../../c_src/openmp/openmp.md), C programs which illustrate
 the use of the OpenMP application program interface for carrying out
 parallel computatioins in a shared memory environment.
 
@@ -53,7 +53,7 @@ of two vectors could be computed.
 -   [dot\_product.cpp](dot_product.cpp), the program.
 -   [dot\_product\_output.txt](dot_product_output.txt), the output file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

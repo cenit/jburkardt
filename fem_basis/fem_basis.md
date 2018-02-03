@@ -120,22 +120,22 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM\_BASIS** is available in [a C
-version](../../c_src/fem_basis/fem_basis.html) and [a C++
-version](../../cpp_src/fem_basis/fem_basis.html) and [a FORTRAN77
-version](../../f77_src/fem_basis/fem_basis.html) and [a FORTRAN90
-version](../../f_src/fem_basis/fem_basis.html) and [a MATLAB
-version](../../m_src/fem_basis/fem_basis.html) and and [a Python
-version](../../py_src/fem_basis/fem_basis.html).
+version](../../c_src/fem_basis/fem_basis.md) and [a C++
+version](../../master/fem_basis/fem_basis.md) and [a FORTRAN77
+version](../../f77_src/fem_basis/fem_basis.md) and [a FORTRAN90
+version](../../f_src/fem_basis/fem_basis.md) and [a MATLAB
+version](../../m_src/fem_basis/fem_basis.md) and and [a Python
+version](../../py_src/fem_basis/fem_basis.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM2D\_PACK](../../cpp_src/fem2d_pack/fem2d_pack.html), a C++ library
+[FEM2D\_PACK](../../master/fem2d_pack/fem2d_pack.md), a C++ library
 which contains utilities for finite element calculations.
 
-[FEM3D\_PACK](../../cpp_src/fem3d_pack/fem3d_pack.html), a C++ library
+[FEM3D\_PACK](../../master/fem3d_pack/fem3d_pack.md), a C++ library
 which contains utilities for 3D finite element calculations.
 
-[TRIANGLE\_INTERPOLATE](../../cpp_src/triangle_interpolate/triangle_interpolate.html),
+[TRIANGLE\_INTERPOLATE](../../master/triangle_interpolate/triangle_interpolate.md),
 a C++ library which shows how vertex data can be interpolated at any
 point in the interior of a triangle.
 
@@ -182,7 +182,7 @@ point in the interior of a triangle.
 -   **R8VEC\_SUM** returns the sum of an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

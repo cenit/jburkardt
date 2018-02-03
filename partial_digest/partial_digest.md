@@ -70,18 +70,18 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PARTIAL\_DIGEST** is available in [a C
-version](../../c_src/partial_digest/partial_digest.html) and [a C++
-version](../../cpp_src/partial_digest/partial_digest.html) and [a
-FORTRAN90 version](../../f_src/partial_digest/partial_digest.html) and
-[a MATLAB version](../../m_src/partial_digest/partial_digest.html) and
-[a Python version](../../py_src/partial_digest/partial_digest.html).
+version](../../c_src/partial_digest/partial_digest.md) and [a C++
+version](../../master/partial_digest/partial_digest.md) and [a
+FORTRAN90 version](../../f_src/partial_digest/partial_digest.md) and
+[a MATLAB version](../../m_src/partial_digest/partial_digest.md) and
+[a Python version](../../py_src/partial_digest/partial_digest.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[SUBSET](../../cpp_src/subset/subset.html), a C++ library which carries
+[SUBSET](../../master/subset/subset.md), a C++ library which carries
 out various combinatorial computations.
 
-[TEST\_PARTIAL\_DIGEST](../../cpp_src/test_partial_digest/test_partial_digest.html),
+[TEST\_PARTIAL\_DIGEST](../../master/test_partial_digest/test_partial_digest.md),
 a C++ library which generates versions of the partial digest problem.
 
 ### Reference: {#reference align="center"}
@@ -118,7 +118,7 @@ a C++ library which generates versions of the partial digest problem.
 -   **PARTIAL\_DIGEST\_RECUR\_TEST01** tests PARTIAL\_DIGEST\_RECUR.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

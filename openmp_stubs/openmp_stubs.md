@@ -22,68 +22,68 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **OPENMP\_STUBS** is available in [a C
-version](../../c_src/openmp_stubs/openmp_stubs.html) and [a C++
-version](../../cpp_src/openmp_stubs/openmp_stubs.html) and [a FORTRAN77
-version](../../f77_src/openmp_stubs/openmp_stubs.html) and [a FORTRAN90
-version](../../f_src/openmp_stubs/openmp_stubs.html).
+version](../../c_src/openmp_stubs/openmp_stubs.md) and [a C++
+version](../../master/openmp_stubs/openmp_stubs.md) and [a FORTRAN77
+version](../../f77_src/openmp_stubs/openmp_stubs.md) and [a FORTRAN90
+version](../../f_src/openmp_stubs/openmp_stubs.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[DIJKSTRA\_OPENMP](../../cpp_src/dijkstra_openmp/dijkstra_openmp.html),
+[DIJKSTRA\_OPENMP](../../master/dijkstra_openmp/dijkstra_openmp.md),
 a C++ program which uses OpenMP to parallelize a simple example of
 Dijkstra's minimum distance algorithm for graphs.
 
-[FFT\_OPENMP](../../cpp_src/fft_openmp/fft_openmp.html), a C++ program
+[FFT\_OPENMP](../../master/fft_openmp/fft_openmp.md), a C++ program
 which demonstrates the computation of a Fast Fourier Transform in
 parallel, using OpenMP.
 
-[HEATED\_PLATE\_OPENMP](../../cpp_src/heated_plate_openmp/heated_plate_openmp.html),
+[HEATED\_PLATE\_OPENMP](../../master/heated_plate_openmp/heated_plate_openmp.md),
 a C++ program which solves the steady (time independent) heat equation
 in a 2D rectangular region, using OpenMP to run in parallel.
 
-[HELLO\_OPENMP](../../cpp_src/hello_openmp/hello_openmp.html), a C++
+[HELLO\_OPENMP](../../master/hello_openmp/hello_openmp.md), a C++
 program which prints out "Hello, world!" using the OpenMP parallel
 programming environment.
 
-[MD\_OPENMP](../../cpp_src/md_openmp/md_openmp.html), a C++ program
+[MD\_OPENMP](../../master/md_openmp/md_openmp.md), a C++ program
 which carries out a molecular dynamics simulation using OpenMP.
 
-[MULTITASK\_OPENMP](../../cpp_src/multitask_openmp/multitask_openmp.html),
+[MULTITASK\_OPENMP](../../master/multitask_openmp/multitask_openmp.md),
 a C++ program which demonstrates how to "multitask", that is, to execute
 several unrelated and distinct tasks simultaneously, using OpenMP for
 parallel execution.
 
-[MXM\_OPENMP](../../cpp_src/mxv_openmp/mxv_openmp.html), a C++ program
+[MXM\_OPENMP](../../master/mxv_openmp/mxv_openmp.md), a C++ program
 which computes a dense matrix product C=A\*B, using OpenMP for parallel
 execution.
 
-[OPENMP](../../cpp_src/openmp/openmp.html), C++ programs which
+[OPENMP](../../master/openmp/openmp.md), C++ programs which
 illustrate the use of OpenMP directives and function calls to solve
 problems in parallel.
 
-[PRIME\_OPENMP](../../cpp_src/prime_openmp/prime_openmp.html), a C++
+[PRIME\_OPENMP](../../master/prime_openmp/prime_openmp.md), a C++
 program which counts the number of primes between 1 and N, using OpenMP
 for parallel execution.
 
-[QUAD\_OPENMP](../../cpp_src/quad_openmp/quad_openmp.html), a C++
+[QUAD\_OPENMP](../../master/quad_openmp/quad_openmp.md), a C++
 program which approximates an integral using a quadrature rule, and
 carries out the computation in parallel using OpenMP.
 
-[SATISFY\_OPENMP](../../cpp_src/satisfy_openmp/satisfy_openmp.html), a
+[SATISFY\_OPENMP](../../master/satisfy_openmp/satisfy_openmp.md), a
 C++ program which demonstrates, for a particular circuit, an exhaustive
 search for solutions of the circuit satisfiability problem, using OpenMP
 for parallel execution.
 
-[SCHEDULE\_OPENMP](../../cpp_src/schedule_openmp/schedule_openmp.html),
+[SCHEDULE\_OPENMP](../../master/schedule_openmp/schedule_openmp.md),
 a C++ program which demonstrates the default, static, and dynamic
 methods of "scheduling" loop iterations in OpenMP to avoid work
 imbalance.
 
-[SGEFA\_OPENMP](../../cpp_src/sgefa_openmp/sgefa_openmp.html), a C++
+[SGEFA\_OPENMP](../../master/sgefa_openmp/sgefa_openmp.md), a C++
 program which reimplements the SGEFA/SGESL linear algebra routines from
 LINPACK for use with OpenMP.
 
-[ZIGGURAT\_OPENMP](../../cpp_src/ziggurat_openmp/ziggurat_openmp.html),
+[ZIGGURAT\_OPENMP](../../master/ziggurat_openmp/ziggurat_openmp.md),
 a C++ program which demonstrates how the ZIGGURAT library can be used to
 generate random numbers in an OpenMP parallel program.
 
@@ -123,20 +123,20 @@ don't run well (fast) - it's just remarkable that they run at all.**
 **COMPUTE\_PI** shows how information can be shared. Several processors
 need to compute pieces of a sum that will approximate pi.
 
--   [compute\_pi.cpp](../../cpp_src/openmp/compute_pi.cpp), the source
+-   [compute\_pi.cpp](../../master/openmp/compute_pi.cpp), the source
     code;
 -   [compute\_pi\_output.txt](compute_pi_output.txt), the output file;
 
 **HELLO** is a very simple program which calls an OpenMP subroutine to
 set the number of threads, and then has each thread say hello;
 
--   [hello.cpp](../../cpp_src/openmp/hello.cpp), the source code;
+-   [hello.cpp](../../master/openmp/hello.cpp), the source code;
 -   [hello\_output.txt](hello_output.txt), the output file;
 
 **HELMHOLTZ** is a program that solves the Helmholtz equation on a
 rectangular grid, using Jacobi iteration with overrelaxation;
 
--   [helmholtz.cpp](../../cpp_src/helmholtz.cpp), the source code;
+-   [helmholtz.cpp](../../master/helmholtz.cpp), the source code;
 -   [helmholtz\_output.txt](helmholtz_output.txt), the output file;
 
 ### List of Routines: {#list-of-routines align="center"}
@@ -175,7 +175,7 @@ anyway. They do just enough to let a program run in sequential mode.**
 -   **OMP\_UNSET\_LOCK** unsets a simple lock.
 -   **OMP\_UNSET\_NEST\_LOCK** unsets a nestable lock.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -16,15 +16,15 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**NACA** is available in [a C version](../../c_src/naca/naca.html) and
-[a C++ version](../../cpp_src/naca/naca.html) and [a FORTRAN77
-version](../../f77_src/naca/naca.html) and [a FORTRAN90
-version](../../f_src/naca/naca.html) and [a MATLAB
-version](../../m_src/naca/naca.html).
+**NACA** is available in [a C version](../../c_src/naca/naca.md) and
+[a C++ version](../../master/naca/naca.md) and [a FORTRAN77
+version](../../f77_src/naca/naca.md) and [a FORTRAN90
+version](../../f_src/naca/naca.md) and [a MATLAB
+version](../../m_src/naca/naca.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
@@ -67,7 +67,7 @@ gnuplot can create plots of the program results.
 -   **R8VEC\_MIN** returns the minimum value of an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

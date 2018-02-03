@@ -54,59 +54,59 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FD1D\_ADVECTION\_FTCS** is available in [a C
-version](../../c_src/fd1d_advection_ftcs/fd1d_advection_ftcs.html) and
+version](../../c_src/fd1d_advection_ftcs/fd1d_advection_ftcs.md) and
 [a C++
-version](../../cpp_src/fd1d_advection_ftcs/fd1d_advection_ftcs.html) and
+version](../../master/fd1d_advection_ftcs/fd1d_advection_ftcs.md) and
 [a FORTRAN77
-version](../../f77_src/fd1d_advection_ftcs/fd1d_advection_ftcs.html) and
+version](../../f77_src/fd1d_advection_ftcs/fd1d_advection_ftcs.md) and
 [a FORTRAN90
-version](../../f_src/fd1d_advection_ftcs/fd1d_advection_ftcs.html) and
+version](../../f_src/fd1d_advection_ftcs/fd1d_advection_ftcs.md) and
 [a MATLAB
-version](../../m_src/fd1d_advection_ftcs/fd1d_advection_ftcs.html).
+version](../../m_src/fd1d_advection_ftcs/fd1d_advection_ftcs.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FD1D\_ADVECTION\_LAX](../../cpp_src/fd1d_advection_lax/fd1d_advection_lax.html),
+[FD1D\_ADVECTION\_LAX](../../master/fd1d_advection_lax/fd1d_advection_lax.md),
 a C++ program which applies the finite difference method to solve the
 time-dependent advection equation ut = - c \* ux in one spatial
 dimension, with a constant velocity, using the Lax method to treat the
 time derivative.
 
-[FD1D\_BURGERS\_LAX](../../cpp_src/fd1d_burgers_lax/fd1d_burgers_lax.html),
+[FD1D\_BURGERS\_LAX](../../master/fd1d_burgers_lax/fd1d_burgers_lax.md),
 a C++ program which applies the finite difference method and the
 Lax-Wendroff method to solve the non-viscous time-dependent Burgers
 equation in one spatial dimension.
 
-[FD1D\_BURGERS\_LEAP](../../cpp_src/fd1d_burgers_leap/fd1d_burgers_leap.html),
+[FD1D\_BURGERS\_LEAP](../../master/fd1d_burgers_leap/fd1d_burgers_leap.md),
 a C++ program which applies the finite difference method and the
 leapfrog approach to solve the non-viscous time-dependent Burgers
 equation in one spatial dimension.
 
-[FD1D\_BVP](../../cpp_src/fd1d_bvp/fd1d_bvp.html), a C++ program which
+[FD1D\_BVP](../../master/fd1d_bvp/fd1d_bvp.md), a C++ program which
 applies the finite difference method to a two point boundary value
 problem in one spatial dimension.
 
-[FD1D\_HEAT\_EXPLICIT](../../cpp_src/fd1d_heat_explicit/fd1d_heat_explicit.html),
+[FD1D\_HEAT\_EXPLICIT](../../master/fd1d_heat_explicit/fd1d_heat_explicit.md),
 a C++ program which uses the finite difference method and explicit time
 stepping to solve the time dependent heat equation in 1D.
 
-[FD1D\_HEAT\_IMPLICIT](../../cpp_src/fd1d_heat_implicit/fd1d_heat_implicit.html),
+[FD1D\_HEAT\_IMPLICIT](../../master/fd1d_heat_implicit/fd1d_heat_implicit.md),
 a C++ program which uses the finite difference method and implicit time
 stepping to solve the time dependent heat equation in 1D.
 
-[FD1D\_HEAT\_STEADY](../../cpp_src/fd1d_heat_steady/fd1d_heat_steady.html),
+[FD1D\_HEAT\_STEADY](../../master/fd1d_heat_steady/fd1d_heat_steady.md),
 a C++ program which uses the finite difference method to solve the
 steady (time independent) heat equation in 1D.
 
-[FD1D\_PREDATOR\_PREY](../../cpp_src/fd1d_predator_prey/fd1d_predator_prey.html),
+[FD1D\_PREDATOR\_PREY](../../master/fd1d_predator_prey/fd1d_predator_prey.md),
 a C++ program which implements a finite difference algorithm for
 predator-prey system with spatial variation in 1D.
 
-[FD1D\_WAVE](../../cpp_src/fd1d_wave/fd1d_wave.html), a C++ program
+[FD1D\_WAVE](../../master/fd1d_wave/fd1d_wave.md), a C++ program
 which applies the finite difference method to solve the time-dependent
 wave equation utt = c \* uxx in one spatial dimension.
 
-[GNUPLOT](../../cpp_src/gnuplot/gnuplot.html), C++ programs which
+[GNUPLOT](../../master/gnuplot/gnuplot.md), C++ programs which
 illustrate how a program can write data and command files so that
 gnuplot can create plots of the program results.
 
@@ -154,7 +154,7 @@ created by the command
 -   **R8VEC\_LINSPACE** creates a vector of linearly spaced values.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

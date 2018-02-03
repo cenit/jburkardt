@@ -38,10 +38,10 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM2D\_HEAT\_SQUARE** is available in [a C++
-version](../../cpp_src/fem2d_heat_square/fem2d_heat_square.html) and [a
-FORTRAN90 version](../../f_src/fem2d_heat_square/fem2d_heat_square.html)
+version](../../master/fem2d_heat_square/fem2d_heat_square.md) and [a
+FORTRAN90 version](../../f_src/fem2d_heat_square/fem2d_heat_square.md)
 and [a MATLAB
-version](../../m_src/fem2d_heat_square/fem2d_heat_square.html).
+version](../../m_src/fem2d_heat_square/fem2d_heat_square.md).
 
 ### Source Code: {#source-code align="center"}
 
@@ -86,7 +86,7 @@ the sequence of solutions:
 -   [u0009.png](u0009.png), the solution U at time step 9;
 -   [u0010.png](u0010.png), the solution U at time step 10;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

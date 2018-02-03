@@ -112,44 +112,44 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SVD\_BASIS** is available in [a C++
-version](../../cpp_src/svd_basis/svd_basis.html) and [a FORTRAN90
-version](../../f_src/svd_basis/svd_basis.html) and [a MATLAB
-version](../../m_src/svd_basis/svd_basis.html).
+version](../../master/svd_basis/svd_basis.md) and [a FORTRAN90
+version](../../f_src/svd_basis/svd_basis.md) and [a MATLAB
+version](../../m_src/svd_basis/svd_basis.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BLAS1](../../cpp_src/blas1/blas1.html), a C++ library which contains an
+[BLAS1](../../master/blas1/blas1.md), a C++ library which contains an
 implementation of the Level 1 Basic Linear Algebra Subprograms, which
 are used by this program. To build a copy of **SVD\_BASIS** requires
 access to a compiled copy of the **BLAS1** library.
 
-[BRAIN\_SENSOR\_POD](../../m_src/brain_sensor_pod/brain_sensor_pod.html),
+[BRAIN\_SENSOR\_POD](../../m_src/brain_sensor_pod/brain_sensor_pod.md),
 a MATLAB program which applies the method of Proper Orthogonal
 Decomposition to seek underlying patterns in sets of 40 sensor readings
 of brain activity.
 
-[BURGERS](../../datasets/burgers/burgers.html), a dataset directory
+[BURGERS](../../datasets/burgers/burgers.md), a dataset directory
 which contains a set of 40 successive solutions to the Burgers equation.
 This data can be analyzed using **SVD\_BASIS**.
 
-[LINPACK](../../cpp_src/linpack/linpack.html), a C++ library which
+[LINPACK](../../master/linpack/linpack.md), a C++ library which
 supplies the routine DSVDC, needed by this program. To build a copy of
 **SVD\_BASIS** requires access to a compiled copy of the **LINPACK**
 library.
 
-[SVD\_BASIS\_WEIGHT](../../f_src/svd_basis_weight/svd_basis_weight.html),
+[SVD\_BASIS\_WEIGHT](../../f_src/svd_basis_weight/svd_basis_weight.md),
 a FORTRAN90 program which is similar to SVD\_BASIS, but which allows the
 user to assign weights to each data vector.
 
-[SVD\_DEMO](../../cpp_src/svd_demo/svd_demo.html), a C++ program which
+[SVD\_DEMO](../../master/svd_demo/svd_demo.md), a C++ program which
 demonstrates the singular value decomposition for a simple example.
 
-[SVD\_SNOWFALL](../../cpp_src/svd_snowfall/svd_snowfall.html), a C++
+[SVD\_SNOWFALL](../../master/svd_snowfall/svd_snowfall.md), a C++
 library which reads a file containing historical snowfall data and
 analyzes the data with the Singular Value Decomposition (SVD), and plots
 created by GNUPLOT.
 
-[SVD\_TRUNCATED](../../cpp_src/svd_truncated/svd_truncated.html), a C++
+[SVD\_TRUNCATED](../../master/svd_truncated/svd_truncated.md), a C++
 program which demonstrates the computation of the reduced or truncated
 Singular Value Decomposition (SVD) that is useful for cases when one
 dimension of the matrix is much smaller than the other.
@@ -227,7 +227,7 @@ dimension of the matrix is much smaller than the other.
 -   **SINGULAR\_VECTORS** computes the desired singular values.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

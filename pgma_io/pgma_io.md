@@ -21,32 +21,32 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PGMA\_IO** is available in [a C
-version](../../c_src/pgma_io/pgma_io.html) and [a C++
-version](../../cpp_src/pgma_io/pgma_io.html) and [a FORTRAN77
-version](../../f77_src/pgma_io/pgma_io.html) and [a FORTRAN90
-version](../../f_src/pgma_io/pgma_io.html) and [a MATLAB
-version](../../m_src/pgma_io/pgma_io.html).
+version](../../c_src/pgma_io/pgma_io.md) and [a C++
+version](../../master/pgma_io/pgma_io.md) and [a FORTRAN77
+version](../../f77_src/pgma_io/pgma_io.md) and [a FORTRAN90
+version](../../f_src/pgma_io/pgma_io.md) and [a MATLAB
+version](../../m_src/pgma_io/pgma_io.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[PBMA\_IO](../../cpp_src/pbma_io/pbma_io.html), a C++ library which
+[PBMA\_IO](../../master/pbma_io/pbma_io.md), a C++ library which
 handles the ASCII Portable Bit Map (PBM) format.
 
-[PGMA](../../data/pgma/pgma.html), a data directory which contains
+[PGMA](../../data/pgma/pgma.md), a data directory which contains
 examples of ASCII Portable Gray Map (PGM) files.
 
-[PGMA\_TO\_PGMB](../../cpp_src/pgma_to_pgmb/pgma_to_pgmb.html), a C++
+[PGMA\_TO\_PGMB](../../master/pgma_to_pgmb/pgma_to_pgmb.md), a C++
 program which converts an ASCII Portable Gray Map (PGM) file to a binary
 PGM file.
 
-[PGMB\_IO](../../cpp_src/pgmb_io/pgmb_io.html), a C++ library which
+[PGMB\_IO](../../master/pgmb_io/pgmb_io.md), a C++ library which
 handles the binary Portable Gray Map (PGM) format.
 
-[PGMB\_TO\_PGMA](../../cpp_src/pgmb_to_pgma/pgmb_to_pgma.html), a C++
+[PGMB\_TO\_PGMA](../../master/pgmb_to_pgma/pgmb_to_pgma.md), a C++
 program which converts a binary Portable Gray Map (PGM) file to an ASCII
 PGM file.
 
-[PPMA\_IO](../../cpp_src/ppma_io/ppma_io.html), a C++ library which
+[PPMA\_IO](../../master/ppma_io/ppma_io.md), a C++ library which
 handles the ASCII Portable Pixel Map (PPM) format.
 
 ### Reference: {#reference align="center"}
@@ -88,7 +88,7 @@ handles the ASCII Portable Pixel Map (PPM) format.
 -   **PGMA\_WRITE\_TEST** tests the ASCII portable gray map write
     routines.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

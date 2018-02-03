@@ -64,67 +64,67 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **UNIFORM** is available in [a C
-version](../../c_src/uniform/uniform.html) and [a C++
-version](../../cpp_src/uniform/uniform.html) and [a FORTRAN77
-version](../../f77_src/uniform/uniform.html) and [a FORTRAN90
-version](../../f_src/uniform/uniform.html) and [a Mathematica
-version](../../math_src/uniform/uniform.html) and [a MATLAB
-version](../../m_src/uniform/uniform.html) and [a Python
-version](../../py_src/uniform/uniform.html).
+version](../../c_src/uniform/uniform.md) and [a C++
+version](../../master/uniform/uniform.md) and [a FORTRAN77
+version](../../f77_src/uniform/uniform.md) and [a FORTRAN90
+version](../../f_src/uniform/uniform.md) and [a Mathematica
+version](../../math_src/uniform/uniform.md) and [a MATLAB
+version](../../m_src/uniform/uniform.md) and [a Python
+version](../../py_src/uniform/uniform.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA183](../../cpp_src/asa183/asa183.html), a C++ library which
+[ASA183](../../master/asa183/asa183.md), a C++ library which
 implements the Wichman-Hill random number generator (RNG).
 
-[BOX\_BEHNKEN](../../cpp_src/box_behnken/box_behnken.html), a C++
+[BOX\_BEHNKEN](../../master/box_behnken/box_behnken.md), a C++
 library which computes a Box-Behnken design, that is, a set of arguments
 to sample the behavior of a function of multiple parameters;
 
-[CPP\_RANDOM](../../cpp_src/cpp_random/cpp_random.html), C++ programs
+[CPP\_RANDOM](../../master/cpp_random/cpp_random.md), C++ programs
 which illustrate the use of the C++ random number generator routines.
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 elements of a Faure quasirandom sequence.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton Quasi Monte Carlo (QMC) sequence, using a simple
 interface.
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley Quasi Monte Carlo (QMC)
 sequence, using a simple interface.
 
-[NIEDERREITER2](../../cpp_src/niederreiter2/niederreiter2.html), a C++
+[NIEDERREITER2](../../master/niederreiter2/niederreiter2.md), a C++
 library which computes elements of a Niederreiter sequence using base 2.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which computes
+[NORMAL](../../master/normal/normal.md), a C++ library which computes
 elements of a sequence of pseudorandom normally distributed values.
 
-[RANDLC](../../cpp_src/randlc/randlc.html), a C++ library which
+[RANDLC](../../master/randlc/randlc.md), a C++ library which
 generates a sequence of pseudorandom numbers, used by the NAS Benchmark
 programs.
 
-[RANDOM\_SORTED](../../cpp_src/random_sorted/random_sorted.html), a C++
+[RANDOM\_SORTED](../../master/random_sorted/random_sorted.md), a C++
 library which generates vectors of random values which are already
 sorted.
 
-[RANLIB](../../cpp_src/ranlib/ranlib.html), a C++ library which produces
+[RANLIB](../../master/ranlib/ranlib.md), a C++ library which produces
 random samples from Probability Density Functions (PDF's), including
 Beta, Chi-square Exponential, F, Gamma, Multivariate normal, Noncentral
 chi-square, Noncentral F, Univariate normal, random permutations, Real
 uniform, Binomial, Negative Binomial, Multinomial, Poisson and Integer
 uniform, by Barry Brown and James Lovato.
 
-[RNGLIB](../../cpp_src/rnglib/rnglib.html), a C++ library which
+[RNGLIB](../../master/rnglib/rnglib.md), a C++ library which
 implements a random number generator (RNG) with splitting facilities,
 allowing multiple independent streams to be computed, by L'Ecuyer and
 Cote.
 
-[SOBOL](../../cpp_src/sobol/sobol.html), a C++ library which computes
+[SOBOL](../../master/sobol/sobol.md), a C++ library which computes
 elements of a Sobol quasirandom sequence.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes elements of a 1D van der Corput sequence.
 
 ### Reference: {#reference align="center"}
@@ -266,7 +266,7 @@ C++ library which computes elements of a 1D van der Corput sequence.
 -   **R8VEC\_UNIFORM\_01\_NEW** returns a new unit pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

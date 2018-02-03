@@ -32,70 +32,70 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **XYL\_DISPLAY\_OPENGL** is available in [a C++
-version](../../cpp_src/xyl_display_opengl/xyl_display_opengl.html).
+version](../../master/xyl_display_opengl/xyl_display_opengl.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BOX\_PLOT](../../m_src/box_plot/box_plot.html), a MATLAB program which
+[BOX\_PLOT](../../m_src/box_plot/box_plot.md), a MATLAB program which
 can color in specified entries of a checkerboard, corresponding to pairs
 of integer data.
 
-[CAUSTIC\_OPENGL](../../cpp_src/caustic_opengl/caustic_opengl.html), a
+[CAUSTIC\_OPENGL](../../master/caustic_opengl/caustic_opengl.md), a
 C++ program which computes a caustic curve and displays it using OpenGL.
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[FLOOD\_OPENGL](../../c_src/flood_opengl/flood_opengl.html), a C program
+[FLOOD\_OPENGL](../../c_src/flood_opengl/flood_opengl.md), a C program
 which allows a user to select a region and flood it with color, using
 OpenGL, by Art Wetzel.
 
-[LIFE\_OPENGL](../../c_src/life_opengl/life_opengl.html), a C program
+[LIFE\_OPENGL](../../c_src/life_opengl/life_opengl.md), a C program
 which plays John Conway's "Game of Life", using OpenGL to display the
 results.
 
-[LISSAJOUS\_OPENGL](../../cpp_src/lissajous_opengl/lissajous_opengl.html),
+[LISSAJOUS\_OPENGL](../../master/lissajous_opengl/lissajous_opengl.md),
 a C++ program which computes a Lissajous figure and displays it using
 OpenGL.
 
-[OPENGL](../../cpp_src/opengl/opengl.html), C++ programs which
+[OPENGL](../../master/opengl/opengl.md), C++ programs which
 illustrate the use of the OpenGL graphics library;
 
-[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../cpp_src/polygonal_surface_display_opengl/polygonal_surface_display_opengl.html),
+[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../master/polygonal_surface_display_opengl/polygonal_surface_display_opengl.md),
 a C++ program which displays a surface in 3D described as a set of
 polygons, using OpenGL.
 
-[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../cpp_src/rotating_cube_display_opengl/rotating_cube_display_opengl.html),
+[ROTATING\_CUBE\_DISPLAY\_OPENGL](../../master/rotating_cube_display_opengl/rotating_cube_display_opengl.md),
 a C++ program which displays a rotating color cube in 3D, using OpenGL;
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[TABLE\_DELAUNAY](../../f_src/table_delaunay/table_delaunay.html), a
+[TABLE\_DELAUNAY](../../f_src/table_delaunay/table_delaunay.md), a
 FORTRAN90 program which computes the Delaunay triangulation of a set of
 points.
 
-[TABLE\_VORONOI](../../cpp_src/table_voronoi/table_voronoi.html), a C++
+[TABLE\_VORONOI](../../master/table_voronoi/table_voronoi.md), a C++
 program which computes information about the Voronoi diagram of the
 points.
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[XYL](../../data/xyl/xyl.html), a data directory which contains some
+[XYL](../../data/xyl/xyl.md), a data directory which contains some
 examples of the XYL format for 2D points and lines.
 
-[XY\_DISPLAY\_OPENGL](../../cpp_src/xy_display_opengl/xy_display_opengl.html),
+[XY\_DISPLAY\_OPENGL](../../master/xy_display_opengl/xy_display_opengl.md),
 a C++ program which reads an XY file of 2D point coordinates, and
 displays an image of those points using OpenGL.
 
-[XYF\_DISPLAY\_OPENGL](../../cpp_src/xyf_display_opengl/xyf_display_opengl.html),
+[XYF\_DISPLAY\_OPENGL](../../master/xyf_display_opengl/xyf_display_opengl.md),
 a C++ program which reads XYF information defining points and faces in
 2D, and displays an image using OpenGL.
 
-[XYL\_DISPLAY](../../m_src/xyl_display/xyl_display.html), a MATLAB
+[XYL\_DISPLAY](../../m_src/xyl_display/xyl_display.md), a MATLAB
 program which reads XYL information defining points and lines in 2D, and
 displays an image in a MATLAB graphics window.
 
@@ -166,7 +166,7 @@ displays an image in a MATLAB graphics window.
 -   **XYL\_HEADER\_READ** determines the number of line items in an XYL
     file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

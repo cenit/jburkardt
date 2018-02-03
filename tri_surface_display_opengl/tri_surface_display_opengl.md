@@ -35,62 +35,62 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRI\_SURFACE\_DISPLAY\_OPENGL** is available in [a C++
-version](../../cpp_src/tri_surface_display_opengl/tri_surface_display_opengl.html).
+version](../../master/tri_surface_display_opengl/tri_surface_display_opengl.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FERN\_OPENGL](../../cpp_src/fern_opengl/fern_opengl.html), a C++
+[FERN\_OPENGL](../../master/fern_opengl/fern_opengl.md), a C++
 program which uses OpenGL to display the Barnsley fractal fern.
 
-[OPENGL](../../cpp_src/opengl/opengl.html), C++ programs which
+[OPENGL](../../master/opengl/opengl.md), C++ programs which
 illustrate the use of the OpenGL graphics library;
 
-[POLYGONAL\_SURFACE\_DISPLAY](../../m_src/polygonal_surface_display/polygonal_surface_display.html),
+[POLYGONAL\_SURFACE\_DISPLAY](../../m_src/polygonal_surface_display/polygonal_surface_display.md),
 a MATLAB program which displays a surface in 3D described as a set of
 polygons.
 
-[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../cpp_src/polygonal_surface_display_opengl/polygonal_surface_display_opengl.html),
+[POLYGONAL\_SURFACE\_DISPLAY\_OPENGL](../../master/polygonal_surface_display_opengl/polygonal_surface_display_opengl.md),
 a C++ program which displays a surface in 3D described as a set of
 polygons, using OpenGL.
 
-[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../cpp_src/sphere_xyz_display_opengl/sphere_xyz_display_opengl.html),
+[SPHERE\_XYZ\_DISPLAY\_OPENGL](../../master/sphere_xyz_display_opengl/sphere_xyz_display_opengl.md),
 a C++ program which reads XYZ information defining points in 3D, and
 displays a unit sphere and the points, using OpenGL.
 
-[TET\_MESH\_BOUNDARY](../../f_src/tet_mesh_boundary/tet_mesh_boundary.html),
+[TET\_MESH\_BOUNDARY](../../f_src/tet_mesh_boundary/tet_mesh_boundary.md),
 a FORTRAN90 program which returns the nodes and faces of the boundary of
 a tetrahedral mesh, which themselves form a 3D triangular mesh or
 "TRI\_SURFACE".
 
-[TET\_MESH\_DISPLAY\_OPENGL](../../cpp_src/tet_mesh_display_opengl/tet_mesh_display_opengl.html),
+[TET\_MESH\_DISPLAY\_OPENGL](../../master/tet_mesh_display_opengl/tet_mesh_display_opengl.md),
 a C++ program which reads files defining a tet mesh and displays an
 image using Open GL.
 
-[TRI\_SURFACE](../../data/tri_surface/tri_surface.html), a data
+[TRI\_SURFACE](../../data/tri_surface/tri_surface.md), a data
 directory which contains examples of TRI\_SURFACE files, a 3D surface
 described by a collection of triangles.
 
-[TRI\_SURFACE\_DISPLAY](../../m_src/tri_surface_display/tri_surface_display.html),
+[TRI\_SURFACE\_DISPLAY](../../m_src/tri_surface_display/tri_surface_display.md),
 a MATLAB program which displays the 3D graphics information in a
 TRI\_SURFACE file;
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[TRIANGULATION\_ORDER1\_DISPLAY](../../m_src/triangulation_order1_display/triangulation_order1_display.html),
+[TRIANGULATION\_ORDER1\_DISPLAY](../../m_src/triangulation_order1_display/triangulation_order1_display.md),
 a MATLAB program which reads files defining a piecewise constant
 triangulation of data, and displays a corresponding 3D surface.
 
-[XY\_DISPLAY\_OPENGL](../../cpp_src/xy_display_opengl/xy_display_opengl.html),
+[XY\_DISPLAY\_OPENGL](../../master/xy_display_opengl/xy_display_opengl.md),
 a C++ program which reads an XY file of 2D point coordinates, and
 displays an image of those points using OpenGL.
 
-[XYL\_DISPLAY\_OPENGL](../../cpp_src/xyl_display_opengl/xyl_display_opengl.html),
+[XYL\_DISPLAY\_OPENGL](../../master/xyl_display_opengl/xyl_display_opengl.md),
 a C++ program which reads XYL information defining points and lines in
 2D, and displays an image using OpenGL.
 
-[XYZ\_DISPLAY\_OPENGL](../../cpp_src/xyz_display_opengl/xyz_display_opengl.html),
+[XYZ\_DISPLAY\_OPENGL](../../master/xyz_display_opengl/xyz_display_opengl.md),
 a C++ program which reads an XYZ file of 3D point coordinates, and
 displays an image of those points using OpenGL.
 
@@ -156,7 +156,7 @@ triangular patches.
     picture.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

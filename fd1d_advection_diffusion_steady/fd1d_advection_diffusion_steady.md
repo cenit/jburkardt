@@ -51,31 +51,31 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FD1D\_ADVECTION\_DIFFUSION\_STEADY** is available in [a C
-version](../../c_src/fd1d_advection_diffusion_steady/fd1d_advection_diffusion_steady.html)
+version](../../c_src/fd1d_advection_diffusion_steady/fd1d_advection_diffusion_steady.md)
 and [a C++
-version](../../cpp_src/fd1d_advection_diffusion_steady/fd1d_advection_diffusion_steady.html)
+version](../../master/fd1d_advection_diffusion_steady/fd1d_advection_diffusion_steady.md)
 and [a FORTRAN77
-version](../../f77_src/fd1d_advection_diffusion_steady/fd1d_advection_diffusion_steady.html)
+version](../../f77_src/fd1d_advection_diffusion_steady/fd1d_advection_diffusion_steady.md)
 and [a FORTRAN90
-version](../../f_src/fd1d_advection_diffusion_steady/fd1d_advection_diffusion_steady.html)
+version](../../f_src/fd1d_advection_diffusion_steady/fd1d_advection_diffusion_steady.md)
 and [a MATLAB
-version](../../m_src/fd1d_advection_diffusion_steady/fd1d_advection_diffusion_steady.html).
+version](../../m_src/fd1d_advection_diffusion_steady/fd1d_advection_diffusion_steady.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FD1D\_ADVECTION\_FTCS](../../cpp_src/fd1d_advection_ftcs/fd1d_advection_ftcs.html),
+[FD1D\_ADVECTION\_FTCS](../../master/fd1d_advection_ftcs/fd1d_advection_ftcs.md),
 a C++ program which applies the finite difference method to solve the
 time-dependent advection equation ut = - c \* ux in one spatial
 dimension, with a constant velocity, using the forward time, centered
 space (FTCS) difference method.
 
-[FD1D\_ADVECTION\_LAX](../../cpp_src/fd1d_advection_lax/fd1d_advection_lax.html),
+[FD1D\_ADVECTION\_LAX](../../master/fd1d_advection_lax/fd1d_advection_lax.md),
 a C++ program which applies the finite difference method to solve the
 time-dependent advection equation ut = - c \* ux in one spatial
 dimension, with a constant velocity, using the Lax method to treat the
 time derivative.
 
-[FD1D\_ADVECTION\_LAX\_WENDROFF](../../cpp_src/fd1d_advection_lax_wendroff/fd1d_advection_lax_wendroff.html),
+[FD1D\_ADVECTION\_LAX\_WENDROFF](../../master/fd1d_advection_lax_wendroff/fd1d_advection_lax_wendroff.md),
 a C++ program which applies the finite difference method to solve the
 time-dependent advection equation ut = - c \* ux in one spatial
 dimension, with a constant velocity, using the Lax-Wendroff method to
@@ -113,7 +113,7 @@ treat the time derivative.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **TRISOLVE** factors and solves a tridiagonal system.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

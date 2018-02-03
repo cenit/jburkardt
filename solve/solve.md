@@ -62,35 +62,35 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**SOLVE** is available in [a C version](../../c_src/solve/solve.html)
-and [a C++ version](../../cpp_src/solve/solve.html) and [a FORTRAN77
-version](../../f77_src/solve/solve.html) and [a FORTRAN90
-version](../../f_src/solve/solve.html) and [a MATLAB
-version](../../m_src/solve/solve.html).
+**SOLVE** is available in [a C version](../../c_src/solve/solve.md)
+and [a C++ version](../../master/solve/solve.md) and [a FORTRAN77
+version](../../f77_src/solve/solve.md) and [a FORTRAN90
+version](../../f_src/solve/solve.md) and [a MATLAB
+version](../../m_src/solve/solve.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ALLOCATABLE\_ARRAY](../../cpp_src/allocatable_array/allocatable_array.html),
+[ALLOCATABLE\_ARRAY](../../master/allocatable_array/allocatable_array.md),
 a C++ program which demonstrates how a C++ function can declare a
 pointer to an array, call a function, which can then allocate it and
 fill it with data, and then return the allocated and initialized array
 to the calling function through the argument list.
 
-[CPP\_ARRAYS](../../cpp_src/cpp_arrays/cpp_arrays.html), C++ programs
+[CPP\_ARRAYS](../../master/cpp_arrays/cpp_arrays.md), C++ programs
 which illustrate the use of vectors, matrices and tensors.
 
-[LINPACK](../../cpp_src/linpack/linpack.html), a C++ library which
+[LINPACK](../../master/linpack/linpack.md), a C++ library which
 solves linear systems for a variety of matrix storage schemes, real or
 complex arithmetic, and single or double precision. It includes a
 routine for computing the singular value decomposition (SVD) of a
 rectangular matrix. The original version of this library is by Jack
 Dongarra, Jim Bunch, Cleve Moler, Pete Stewart.
 
-[QR\_SOLVE](../../cpp_src/qr_solve/qr_solve.html), a C++ library which
+[QR\_SOLVE](../../master/qr_solve/qr_solve.md), a C++ library which
 computes the linear least squares (LLS) solution of a rectangular linear
 system A\*x=b.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
 ### Source Code: {#source-code align="center"}
@@ -116,7 +116,7 @@ many utility routines using double precision real (R8) arithmetic.
 -   **R8VEC\_PRINT** prints an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

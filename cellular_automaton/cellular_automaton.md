@@ -40,17 +40,17 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CELLULAR\_AUTOMATON** is available in [a C
-version](../../c_src/cellular_automaton/cellular_automaton.html) and [a
-C++ version](../../cpp_src/cellular_automaton/cellular_automaton.html)
+version](../../c_src/cellular_automaton/cellular_automaton.md) and [a
+C++ version](../../master/cellular_automaton/cellular_automaton.md)
 and [a FORTRAN77
-version](../../f77_src/cellular_automaton/cellular_automaton.html) and
+version](../../f77_src/cellular_automaton/cellular_automaton.md) and
 [a FORTRAN90
-version](../../f_src/cellular_automaton/cellular_automaton.html) and [a
-MATLAB version](../../m_src/cellular_automaton/cellular_automaton.html).
+version](../../f_src/cellular_automaton/cellular_automaton.md) and [a
+MATLAB version](../../m_src/cellular_automaton/cellular_automaton.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LIFE\_OPENGL](../../cpp_src/life_opengl/life_opengl.html), a C++
+[LIFE\_OPENGL](../../master/life_opengl/life_opengl.md), a C++
 program which uses OpenGL to display the evolution of John Conway's Game
 of Life, by Simon Green.
 
@@ -76,7 +76,7 @@ of Life, by Simon Green.
 -   **MAIN** is the main program for CELLULAR\_AUTOMATON.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

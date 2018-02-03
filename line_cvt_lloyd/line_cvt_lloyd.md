@@ -28,19 +28,19 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LINE\_CVT\_LLOYD** is available in [a C
-version](../../c_src/cvt_1d_lloyd/cvt_1d_lloyd.html) and [a C++
-version](../../cpp_src/cvt_1d_lloyd/cvt_1d_lloyd.html) and [a FORTRAN77
-version](../../f77_src/cvt_1d_lloyd/cvt_1d_lloyd.html) and [a FORTRAN90
-version](../../f_src/cvt_1d_lloyd/cvt_1d_lloyd.html) and [a MATLAB
-version](../../m_src/cvt_1d_lloyd/cvt_1d_lloyd.html).
+version](../../c_src/cvt_1d_lloyd/cvt_1d_lloyd.md) and [a C++
+version](../../master/cvt_1d_lloyd/cvt_1d_lloyd.md) and [a FORTRAN77
+version](../../f77_src/cvt_1d_lloyd/cvt_1d_lloyd.md) and [a FORTRAN90
+version](../../f_src/cvt_1d_lloyd/cvt_1d_lloyd.md) and [a MATLAB
+version](../../m_src/cvt_1d_lloyd/cvt_1d_lloyd.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINE\_FELIPPA\_RULE](../../cpp_src/line_felippa_rule/line_felippa_rule.html),
+[LINE\_FELIPPA\_RULE](../../master/line_felippa_rule/line_felippa_rule.md),
 a C++ library which returns the points and weights of a Felippa
 quadrature rule over the interior of a line segment in 1D.
 
-[LINE\_GRID](../../cpp_src/line_grid/line_grid.html), a C++ library
+[LINE\_GRID](../../master/line_grid/line_grid.md), a C++ library
 which computes a grid of points over the interior of a line segment in
 1D.
 
@@ -170,7 +170,7 @@ starting values.
 -   **R8VEC\_UNIFORM\_AB** returns a scaled pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C source codes](../c_src.html).
+You can go up one level to [the C source codes](../c_src.md).
 
 ------------------------------------------------------------------------
 

@@ -34,29 +34,29 @@ acknowledge its source.
 ### Languages: {#languages align="center"}
 
 **CALENDAR\_RD** is available in [a C++
-version](../../cpp_src/calendar_rd/calendar_rd.html).
+version](../../master/calendar_rd/calendar_rd.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ANALEMMA](../../cpp_src/analemma/analemma.html), a C++ program which
+[ANALEMMA](../../master/analemma/analemma.md), a C++ program which
 evaluates the equation of time, a formula for the difference between the
 uniform 24 hour day and the actual position of the sun, by Brian Tung.
 
-[CALENDAR\_NYT](../../f_src/calendar_nyt/calendar_nyt.html), a FORTRAN90
+[CALENDAR\_NYT](../../f_src/calendar_nyt/calendar_nyt.md), a FORTRAN90
 library which shows the correspondence between dates and the New York
 Times volume and issue number;
 
-[CALPAK](../../cpp_src/calpak/calpak.html), a C++ library which converts
+[CALPAK](../../master/calpak/calpak.md), a C++ library which converts
 between dates as computed on various calendars.
 
-[DATES](../../datasets/dates/dates.html), a dataset directory which
+[DATES](../../datasets/dates/dates.md), a dataset directory which
 contains lists of dates in various calendar systems.
 
-[DOOMSDAY](../../cpp_src/doomsday/doomsday.html), a C++ library which is
+[DOOMSDAY](../../master/doomsday/doomsday.md), a C++ library which is
 given the year, month and day of a date, and uses John Conway's doomsday
 algorithm to determine the corresponding day of the week.
 
-[WEEKDAY](../../cpp_src/weekday/weekday.html), a C++ library which
+[WEEKDAY](../../master/weekday/weekday.md), a C++ library which
 determines the day of the week for a given day.
 
 ### Author: {#author align="center"}
@@ -88,7 +88,7 @@ Edward Reingold, Nachum Dershowitz.
 -   [calendar\_rd\_input.txt](calendar_rd_input.txt), the input file.
 -   [calendar\_rd\_output.txt](calendar_rd_output.txt), the output file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

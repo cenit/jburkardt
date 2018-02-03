@@ -40,63 +40,63 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **QUADRATURE\_TEST\_2D** is available in [a C++
-version](../../cpp_src/quadrature_test_2d/quadrature_test_2d.html) and
+version](../../master/quadrature_test_2d/quadrature_test_2d.md) and
 [a FORTRAN90
-version](../../f_src/quadrature_test_2d/quadrature_test_2d.html) and [a
-MATLAB version](../../m_src/quadrature_test_2d/quadrature_test_2d.html).
+version](../../f_src/quadrature_test_2d/quadrature_test_2d.md) and [a
+MATLAB version](../../m_src/quadrature_test_2d/quadrature_test_2d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[GSL](../../cpp_src/gsl/gsl.html), a C++ library which includes routines
+[GSL](../../master/gsl/gsl.md), a C++ library which includes routines
 for estimating multidimensional integrals.
 
-[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.html), a
+[INTEGRAL\_TEST](../../f_src/integral_test/integral_test.md), a
 FORTRAN90 program which uses test integrals to evaluate sets of
 quadrature points.
 
-[NINT\_EXACTNESS](../../cpp_src/nint_exactness/nint_exactness.html), a
+[NINT\_EXACTNESS](../../master/nint_exactness/nint_exactness.md), a
 C++ program which demonstrates how to measure the polynomial exactness
 of a multidimensional quadrature rule.
 
-[NINTLIB](../../cpp_src/nintlib/nintlib.html), a C++ library which
+[NINTLIB](../../master/nintlib/nintlib.md), a C++ library which
 numerically estimates integrals in multiple dimensions.
 
-[PRODUCT\_RULE](../../cpp_src/product_rule/product_rule.html), a C++
+[PRODUCT\_RULE](../../master/product_rule/product_rule.md), a C++
 program which creates a multidimensional quadrature rule as a product of
 one dimensional rules.
 
-[PRODUCT\_RULE\_GL](../../datasets/product_rule_gl/product_rule_gl.html),
+[PRODUCT\_RULE\_GL](../../datasets/product_rule_gl/product_rule_gl.md),
 a dataset directory which contains multidimensional quadrature rules
 formed as products of 1D Gauss-Legendre rules.
 
-[PRODUCT\_RULE\_TANH\_SINH](../../datasets/product_rule_tanh_sinh/product_rule_tanh_sinh.html),
+[PRODUCT\_RULE\_TANH\_SINH](../../datasets/product_rule_tanh_sinh/product_rule_tanh_sinh.md),
 a dataset directory which contains multidimensional quadrature rules
 formed as products of 1D tanh-sinh rules.
 
-[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.html),
+[QUADRATURE\_RULES](../../datasets/quadrature_rules/quadrature_rules.md),
 a dataset directory which contains a description and examples of
 quadrature rules defined by a set of "X", "W" and "R" files.
 
-[QUADRATURE\_TEST](../../cpp_src/quadrature_test/quadrature_test.html),
+[QUADRATURE\_TEST](../../master/quadrature_test/quadrature_test.md),
 a C++ program which reads files defining a quadrature rule, and applies
 them to all the test integrals defined by **TEST\_NINT**.
 
-[SPARSE\_GRID\_TANH\_SINH](../../datasets/sparse_grid_tanh_sinh/sparse_grid_tanh_sinh.html),
+[SPARSE\_GRID\_TANH\_SINH](../../datasets/sparse_grid_tanh_sinh/sparse_grid_tanh_sinh.md),
 a dataset directory which contains multidimensional Smolyak sparse grids
 based on a 1D tanh-sinh rule;
 
-[STROUD](../../cpp_src/stroud/stroud.html), a C++ library which contains
+[STROUD](../../master/stroud/stroud.md), a C++ library which contains
 quadrature rules for a variety of unusual areas, surfaces and volumes in
 2D, 3D and N-dimensions.
 
-[TEST\_INT\_2D](../../cpp_src/test_int_2d/test_int_2d.html), a C++
+[TEST\_INT\_2D](../../master/test_int_2d/test_int_2d.md), a C++
 library which defines test integrands for 2D quadrature rules.
 
-[TEST\_NINT](../../cpp_src/test_nint/test_nint.html), a C++ library
+[TEST\_NINT](../../master/test_nint/test_nint.md), a C++ library
 which defines a set of integrand functions to be used for testing
 multidimensional quadrature rules and routines.
 
-[TESTPACK](../../cpp_src/testpack/testpack.html), a C++ library which
+[TESTPACK](../../master/testpack/testpack.md), a C++ library which
 defines a set of integrands used to test multidimensional quadrature.
 
 ### Source Code: {#source-code align="center"}
@@ -108,7 +108,7 @@ defines a set of integrands used to test multidimensional quadrature.
 **PRODUCT\_RULE\_GL** is a family of Gauss\_Legendre product rules which
 includes 2D rules of orders 1x1, 2x2, 4x4, 8x8, 16x16 and 32x32.
 
--   [product\_rule\_gl.html](../../datasets/product_rule_gl/product_rule_gl.html),
+-   [product\_rule\_gl.md](../../datasets/product_rule_gl/product_rule_gl.md),
     describes the Gauss-Legendre product rules.
 -   [product\_rule\_gl\_output](product_rule_gl_output.txt), the output
     from running the test on the 2D rules.
@@ -117,7 +117,7 @@ includes 2D rules of orders 1x1, 2x2, 4x4, 8x8, 16x16 and 32x32.
 which includes 2D rules of orders 1x1, 3x3, 7x7, 15x15, 31x31, 63x63,
 and 127x127 points.
 
--   [product\_rule\_tanh\_sinh.html](../../datasets/product_rule_tanh_sinh/product_rule_tanh_sinh.html),
+-   [product\_rule\_tanh\_sinh.md](../../datasets/product_rule_tanh_sinh/product_rule_tanh_sinh.md),
     describes the tanh-sinh product rules.
 -   [product\_rule\_tanh\_sinh\_output](product_rule_tanh_sinh_output.txt),
     the output from running the test on the 2D rules.
@@ -127,7 +127,7 @@ which includes rules of order 1, 5, 13, 29, 65, 145, 321, 705. 1537,
 3329 and 7169 points. *These rules have problems with many of the test
 integrands, which have endpoint singularities.*
 
--   [sparse\_grid\_cc.html](../../datasets/sparse_grid_cc/sparse_grid_cc.html),
+-   [sparse\_grid\_cc.md](../../datasets/sparse_grid_cc/sparse_grid_cc.md),
     describes the Clenshaw Curtis sparse grid rules.
 -   [sparse\_grid\_cc\_output](sparse_grid_cc_output.txt), the output
     from running the test on the 2D rules.
@@ -135,7 +135,7 @@ integrands, which have endpoint singularities.*
 **SPARSE\_GRID\_F2** is a family of Fejer Type 2 sparse grid rules which
 includes rules of order 1, 5, 17, 49, 129, 321, 769, and 1793 points.
 
--   [sparse\_grid\_f2.html](../../datasets/sparse_grid_f2/sparse_grid_f2.html),
+-   [sparse\_grid\_f2.md](../../datasets/sparse_grid_f2/sparse_grid_f2.md),
     describes the Fejer Type 2 sparse grid rules.
 -   [sparse\_grid\_f2\_output](sparse_grid_f2_output.txt), the output
     from running the test on the 2D rules.
@@ -145,7 +145,7 @@ which includes rules of order 1, 5, 17, 49, 129, 321, and 769 points.
 *These rules do a terrible job, which reflects the instability of the
 Newton Cotes rules.*
 
--   [sparse\_grid\_nco.html](../../datasets/sparse_grid_nco/sparse_grid_nco.html),
+-   [sparse\_grid\_nco.md](../../datasets/sparse_grid_nco/sparse_grid_nco.md),
     describes the Newton Cotes Open sparse grid rules.
 -   [sparse\_grid\_nco\_output](sparse_grid_nco_output.txt), the output
     from running the test on the 2D rules.
@@ -154,7 +154,7 @@ Newton Cotes rules.*
 which includes rules of order 1, 5, 17, 49, 129, 321, 769, 1793 and 4097
 points.
 
--   [sparse\_grid\_tanh\_sinh.html](../../datasets/sparse_grid_tanh_sinh/sparse_grid_tanh_sinh.html),
+-   [sparse\_grid\_tanh\_sinh.md](../../datasets/sparse_grid_tanh_sinh/sparse_grid_tanh_sinh.md),
     describes the tanh-sinh sparse grid rules.
 -   [sparse\_grid\_tanh\_sinh\_output](sparse_grid_tanh_sinh_output.txt),
     the output from running the test on the 2D rules.
@@ -177,7 +177,7 @@ points.
 -   **S\_TO\_R8VEC** reads an R8VEC from a string.
 -   **S\_WORD\_COUNT** counts the number of "words" in a string.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

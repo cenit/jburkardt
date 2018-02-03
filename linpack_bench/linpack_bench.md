@@ -57,37 +57,37 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **LINPACK\_BENCH** is available in [a C
-version](../../c_src/linpack_bench/linpack_bench.html) and [a C++
-version](../../cpp_src/linpack_bench/linpack_bench.html) and [a
-FORTRAN77 version](../../f77_src/linpack_bench/linpack_bench.html) and
-[a FORTRAN90 version](../../f_src/linpack_bench/linpack_bench.html) and
-[a JAVA version](../../j_src/linpack_bench/linpack_bench.html) and [a
-MATLAB version](../../m_src/linpack_bench/linpack_bench.html).
+version](../../c_src/linpack_bench/linpack_bench.md) and [a C++
+version](../../master/linpack_bench/linpack_bench.md) and [a
+FORTRAN77 version](../../f77_src/linpack_bench/linpack_bench.md) and
+[a FORTRAN90 version](../../f_src/linpack_bench/linpack_bench.md) and
+[a JAVA version](../../j_src/linpack_bench/linpack_bench.md) and [a
+MATLAB version](../../m_src/linpack_bench/linpack_bench.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LINPACK\_D](../../cpp_src/linpack_d/linpack_d.html), a C++ library
+[LINPACK\_D](../../master/linpack_d/linpack_d.md), a C++ library
 which solves linear systems using double precision real arithmetic;
 
-[MATMUL](../../f_src/matmul/matmul.html), a FORTRAN90 program which is
+[MATMUL](../../f_src/matmul/matmul.md), a FORTRAN90 program which is
 an interactive matrix multiplication benchmark program.
 
-[MDBNCH](../../f77_src/mdbnch/mdbnch.html), a FORTRAN77 program which is
+[MDBNCH](../../f77_src/mdbnch/mdbnch.md), a FORTRAN77 program which is
 a benchmark code for a molecular dynamics calculation.
 
-[MEMORY\_TEST](../../cpp_src/memory_test/memory_test.html), a C++
+[MEMORY\_TEST](../../master/memory_test/memory_test.md), a C++
 program which declares and uses a sequence of larger and larger vectors,
 to see how big a vector can be used on a given machine and compiler.
 
-[MXM](../../cpp_src/mxm/mxm.html), a C++ program which sets up a matrix
+[MXM](../../master/mxm/mxm.md), a C++ program which sets up a matrix
 multiplication problem A=B\*C of arbitrary size, and compares the time
 required for IJK, IKJ, JIK, JKI, KIJ and KJI orderings of the loops.
 
-[SUM\_MILLION](../../cpp_src/sum_million/sum_million.html), a C++
+[SUM\_MILLION](../../master/sum_million/sum_million.md), a C++
 program which sums the integers from 1 to 1,000,000, as a demonstration
 of how to rate a computer's speed;
 
-[TIMER](../../cpp_src/timer/timer.html), a C++ library which
+[TIMER](../../master/timer/timer.md), a C++ library which
 demonstrates how to measure CPU time or elapsed time.
 
 ### Reference: {#reference align="center"}
@@ -154,7 +154,7 @@ Here are the routines for the double precision version of the program:
 -   **R8MAT\_GEN** generates a random R8MAT..
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

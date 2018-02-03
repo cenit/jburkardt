@@ -31,42 +31,42 @@ distributed under [the GNU LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **FEM\_TO\_TRIANGLE** is available in [a C
-version](../../c_src/fem_to_triangle/fem_to_triangle.html) and [a C++
-version](../../cpp_src/fem_to_triangle/fem_to_triangle.html) and [a
-FORTRAN77 version](../../f77_src/fem_to_triangle/fem_to_triangle.html)
+version](../../c_src/fem_to_triangle/fem_to_triangle.md) and [a C++
+version](../../master/fem_to_triangle/fem_to_triangle.md) and [a
+FORTRAN77 version](../../f77_src/fem_to_triangle/fem_to_triangle.md)
 and [a FORTRAN90
-version](../../f_src/fem_to_triangle/fem_to_triangle.html) and [a MATLAB
-version](../../m_src/fem_to_triangle/fem_to_triangle.html).
+version](../../f_src/fem_to_triangle/fem_to_triangle.md) and [a MATLAB
+version](../../m_src/fem_to_triangle/fem_to_triangle.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FEM\_IO](../../c_src/fem_io/fem_io.html), a C library which reads or
+[FEM\_IO](../../c_src/fem_io/fem_io.md), a C library which reads or
 writes node, element and data files defining a model associated with the
 finite element method (FEM).
 
-[FEM\_TO\_GMSH](../../c_src/fem_to_gmsh/fem_to_gmsh.html), a C program
+[FEM\_TO\_GMSH](../../c_src/fem_to_gmsh/fem_to_gmsh.md), a C program
 which reads FEM files definining a 1D, 2D or 3D mesh, namely a file of
 node coordinates and a file of elements defined by node indices, and
 creates a Gmsh mesh file.
 
-[FEM\_TO\_MEDIT](../../c_src/fem_to_medit/fem_to_medit.html), a C
+[FEM\_TO\_MEDIT](../../c_src/fem_to_medit/fem_to_medit.md), a C
 program which reads a pair of FEM files defining node coordinates and
 elements, and creates a corresponding MEDIT mesh file.
 
-[FEM\_TO\_XML](../../c_src/fem_to_xml/fem_to_xml.html), a C program
+[FEM\_TO\_XML](../../c_src/fem_to_xml/fem_to_xml.md), a C program
 which reads FEM files defining a 1D, 2D or 3D mesh, namely a file of
 node coordinates and a file of elements defined by node indices, and
 creates a corresponding XML file for input to DOLFIN or FENICS.
 
-[FEM2D](../../data/fem2d/fem2d.html), a data directory which contains
+[FEM2D](../../data/fem2d/fem2d.md), a data directory which contains
 examples of 2D FEM files, text files that describe a 2D geometry and
 node values associated with the finite element method (FEM);
 
-[TRIANGLE\_FILES](../../data/triangle_files/triangle_files.html), a data
+[TRIANGLE\_FILES](../../data/triangle_files/triangle_files.md), a data
 directory which contains examples of files used by the triangle() and
 showme() programs.
 
-[TRIANGLE\_IO](../../c_src/triangle_io/triangle_io.html), a C library
+[TRIANGLE\_IO](../../c_src/triangle_io/triangle_io.md), a C library
 which can read or write some of the files created by Jonathan Shewchuk's
 triangle() program.
 
@@ -115,7 +115,7 @@ triangle() program.
 -   **TRIANGLE\_ELEMENT\_WRITE** writes a TRIANGLE ".ele" file.
 -   **TRIANGLE\_NODE\_WRITE** writes a TRIANGLE ".node" file.
 
-You can go up one level to [the C source codes](../c_src.html).
+You can go up one level to [the C source codes](../c_src.md).
 
 ------------------------------------------------------------------------
 

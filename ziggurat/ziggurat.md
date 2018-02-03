@@ -27,59 +27,59 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **ZIGGURAT** is available in [a C
-version](../../c_src/ziggurat/ziggurat.html) and [a C++
-version](../../cpp_src/ziggurat/ziggurat.html) and [a FORTRAN77
-version](../../f77_src/ziggurat/ziggurat.html) and [a FORTRAN90
-version](../../f_src/ziggurat/ziggurat.html) and [a MATLAB
-version](../../m_src/ziggurat/ziggurat.html).
+version](../../c_src/ziggurat/ziggurat.md) and [a C++
+version](../../master/ziggurat/ziggurat.md) and [a FORTRAN77
+version](../../f77_src/ziggurat/ziggurat.md) and [a FORTRAN90
+version](../../f_src/ziggurat/ziggurat.md) and [a MATLAB
+version](../../m_src/ziggurat/ziggurat.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FAURE](../../cpp_src/faure/faure.html), a C++ library which computes
+[FAURE](../../master/faure/faure.md), a C++ library which computes
 elements of a Faure quasirandom sequence.
 
-[HALTON](../../cpp_src/halton/halton.html), a C++ library which computes
+[HALTON](../../master/halton/halton.md), a C++ library which computes
 elements of a Halton quasirandom sequence.
 
-[HAMMERSLEY](../../cpp_src/hammersley/hammersley.html), a C++ library
+[HAMMERSLEY](../../master/hammersley/hammersley.md), a C++ library
 which computes elements of a Hammersley quasirandom sequence.
 
-[IHS](../../cpp_src/ihs/ihs.html), a C++ library which computes elements
+[IHS](../../master/ihs/ihs.md), a C++ library which computes elements
 of an improved distributed Latin hypercube dataset.
 
-[NIEDERREITER2](../../cpp_src/niederreiter2/niederreiter2.html), a C++
+[NIEDERREITER2](../../master/niederreiter2/niederreiter2.md), a C++
 library which computes elements of a Niederreiter quasirandom sequence
 with base 2.
 
-[NORMAL](../../cpp_src/normal/normal.html), a C++ library which computes
+[NORMAL](../../master/normal/normal.md), a C++ library which computes
 elements of a sequence of pseudorandom normally distributed values.
 
-[RBOX](../../c_src/rbox/rbox.html), a C program which generates a set of
+[RBOX](../../c_src/rbox/rbox.md), a C program which generates a set of
 points in a region, selected at random according to a given
 distribution.
 
-[RNGLIB](../../cpp_src/rnglib/rnglib.html), a C++ library which
+[RNGLIB](../../master/rnglib/rnglib.md), a C++ library which
 implements a random number generator (RNG) with splitting facilities,
 allowing multiple independent streams to be computed, by L'Ecuyer and
 Cote.
 
-[SOBOL](../../cpp_src/sobol/sobol.html), a C++ library which computes
+[SOBOL](../../master/sobol/sobol.md), a C++ library which computes
 elements of a Sobol quasirandom sequence.
 
-[UNIFORM](../../cpp_src/uniform/uniform.html), a C++ library which
+[UNIFORM](../../master/uniform/uniform.md), a C++ library which
 computes elements of uniform pseudorandom sequence.
 
-[VAN\_DER\_CORPUT](../../cpp_src/van_der_corput/van_der_corput.html), a
+[VAN\_DER\_CORPUT](../../master/van_der_corput/van_der_corput.md), a
 C++ library which computes elements of a van der Corput quasirandom
 sequence.
 
-[ZIGGURAT\_INLINE](../../cpp_src/ziggurat_inline/ziggurat_inline.html),
+[ZIGGURAT\_INLINE](../../master/ziggurat_inline/ziggurat_inline.md),
 a C++ library which implements uniform, normal and exponential random
 number generators (RNG's) using the ziggurat method, by Marsaglia and
 Tsang. In this version, the underlying generators are implemented
 inline, for increased speed.
 
-[ZIGGURAT\_OPENMP](../../cpp_src/ziggurat_openmp/ziggurat_openmp.html),
+[ZIGGURAT\_OPENMP](../../master/ziggurat_openmp/ziggurat_openmp.md),
 a C++ program which demonstrates how the ZIGGURAT library can be used to
 generate random numbers in an OpenMP parallel program.
 
@@ -128,7 +128,7 @@ George Marsaglia, Wai Wan Tsang.
 -   **SHR3\_SEEDED** evaluates the SHR3 generator for integers.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

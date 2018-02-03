@@ -56,29 +56,29 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **DIJKSTRA** is available in [a C
-version](../../c_src/dijkstra/dijkstra.html) and [a C++
-version](../../cpp_src/dijkstra/dijkstra.html) and [a FORTRAN77
-version](../../f77_src/dijkstra/dijkstra.html) and [a FORTRAN90
-version](../../f_src/dijkstra/dijkstra.html) and [a MATLAB
-version](../../m_src/dijkstra/dijkstra.html) and [a Python
-version](../../py_src/dijkstra/dijkstra.html)
+version](../../c_src/dijkstra/dijkstra.md) and [a C++
+version](../../master/dijkstra/dijkstra.md) and [a FORTRAN77
+version](../../f77_src/dijkstra/dijkstra.md) and [a FORTRAN90
+version](../../f_src/dijkstra/dijkstra.md) and [a MATLAB
+version](../../m_src/dijkstra/dijkstra.md) and [a Python
+version](../../py_src/dijkstra/dijkstra.md)
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BELLMAN\_FORD](../../cpp_src/bellman_ford/bellman_ford.html), a C++
+[BELLMAN\_FORD](../../master/bellman_ford/bellman_ford.md), a C++
 library which implements the Bellman-Ford algorithm for finding the
 shortest distance from a given node to all other nodes in a directed
 graph whose edges have been assigned real-valued lengths.
 
-[DIJKSTRA\_OPENMP](../../cpp_src/dijkstra_openmp/dijkstra_openmp.html),
+[DIJKSTRA\_OPENMP](../../master/dijkstra_openmp/dijkstra_openmp.md),
 a C++ program which uses OpenMP to parallelize a simple example of
 Dijkstra's minimum distance algorithm for graphs.
 
-[FLOYD](../../cpp_src/floyd/floyd.html), a C++ library which implements
+[FLOYD](../../master/floyd/floyd.md), a C++ library which implements
 Floyd's algorithm for finding the shortest distance between pairs of
 nodes on a directed graph.
 
-[TOMS097](../../cpp_src/toms097/toms097.html), a C++ library which
+[TOMS097](../../master/toms097/toms097.md), a C++ library which
 computes the distance between all pairs of nodes in a directed graph
 with weighted edges, using Floyd's algorithm.
 
@@ -106,7 +106,7 @@ with weighted edges, using Floyd's algorithm.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 -   **UPDATE\_MIND** updates the minimum distance vector.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

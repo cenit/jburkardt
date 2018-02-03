@@ -86,70 +86,70 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HEATED\_PLATE** is available in [a C
-version](../../c_src/heated_plate/heated_plate.html) and [a C++
-version](../../cpp_src/heated_plate/heated_plate.html) and [a FORTRAN77
-version](../../f77_src/heated_plate/heated_plate.html) and [a FORTRAN90
-version](../../f_src/heated_plate/heated_plate.html) and [a MATLAB
-version](../../m_src/heated_plate/heated_plate.html).
+version](../../c_src/heated_plate/heated_plate.md) and [a C++
+version](../../master/heated_plate/heated_plate.md) and [a FORTRAN77
+version](../../f77_src/heated_plate/heated_plate.md) and [a FORTRAN90
+version](../../f_src/heated_plate/heated_plate.md) and [a MATLAB
+version](../../m_src/heated_plate/heated_plate.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[FD2D\_HEAT\_STEADY](../../cpp_src/fd2d_heat_steady/fd2d_heat_steady.html),
+[FD2D\_HEAT\_STEADY](../../master/fd2d_heat_steady/fd2d_heat_steady.md),
 a C++ program which uses the finite difference method (FDM) to solve the
 steady (time independent) heat equation in 2D.
 
-[FD1D\_PLOT](../../m_src/fd1d_plot/fd1d_plot.html), a MATLAB program
+[FD1D\_PLOT](../../m_src/fd1d_plot/fd1d_plot.md), a MATLAB program
 which plots the output from the FD1D program;
 
-[FEM\_50\_HEAT](../../m_src/fem_50_heat/fem_50_heat.html), a MATLAB
+[FEM\_50\_HEAT](../../m_src/fem_50_heat/fem_50_heat.md), a MATLAB
 program which implements a finite element calculation specifically for
 the heat equation.
 
-[FEM1D\_HEAT](../../m_src/fem1d_heat/fem1d_heat.html), a MATLAB program
+[FEM1D\_HEAT](../../m_src/fem1d_heat/fem1d_heat.md), a MATLAB program
 which uses the finite element method to solve the 1D Time Dependent Heat
 Equations.
 
-[FEM2D\_HEAT](../../cpp_src/fem2d_heat/fem2d_heat.html), a C++ program
+[FEM2D\_HEAT](../../master/fem2d_heat/fem2d_heat.md), a C++ program
 which solves the 2D time dependent heat equation on the unit square.
 
-[GRID\_TO\_BMP](../../cpp_src/grid_to_bmp/grid_to_bmp.html), a C++
+[GRID\_TO\_BMP](../../master/grid_to_bmp/grid_to_bmp.md), a C++
 program which reads a text file of data on a rectangular grid and
 creates a BMP file containing a color image of the data.
 
-[HEAT\_MPI](../../cpp_src/heat_mpi/heat_mpi.html), a C++ program which
+[HEAT\_MPI](../../master/heat_mpi/heat_mpi.md), a C++ program which
 solves the 1D Time Dependent Heat Equation using MPI.
 
-[HEATED\_PLATE\_OPENMP](../../cpp_src/heated_plate_openmp/heated_plate_openmp.html),
+[HEATED\_PLATE\_OPENMP](../../master/heated_plate_openmp/heated_plate_openmp.md),
 a C++ program which solves the steady (time independent) heat equation
 in a 2D rectangular region, using OpenMP to run in parallel.
 
-[MD](../../cpp_src/md/md.html), a C++ program which carries out a
+[MD](../../master/md/md.md), a C++ program which carries out a
 molecular dynamics simulation, and is intended as a starting point for
 implementing an OpenMP parallel version.
 
-[MXM\_SERIAL](../../cpp_src/mxm_serial/mxm_serial.html), a C++ program
+[MXM\_SERIAL](../../master/mxm_serial/mxm_serial.md), a C++ program
 which sets up a matrix multiplication problem A=B\*C, intended as a
 starting point for implementing a parallel version.
 
-[POISSON\_SERIAL](../../cpp_src/poisson_serial/poisson_serial.html), a
+[POISSON\_SERIAL](../../master/poisson_serial/poisson_serial.md), a
 C++ program which computes an approximate solution to the Poisson
 equation in a rectangle, and is intended as the starting point for the
 creation of a parallel version.
 
-[PRIME\_SERIAL](../../cpp_src/prime_serial/prime_serial.html), a C++
+[PRIME\_SERIAL](../../master/prime_serial/prime_serial.md), a C++
 program which counts the number of primes between 1 and N, intended as a
 starting point for the creation of a parallel version.
 
-[QUAD\_SERIAL](../../cpp_src/quad_serial/quad_serial.html), a C++
+[QUAD\_SERIAL](../../master/quad_serial/quad_serial.md), a C++
 program which approximates an integral using a quadrature rule, and is
 intended as a starting point for parallelization exercises.
 
-[SEARCH\_SERIAL](../../cpp_src/search_serial/search_serial.html), a C++
+[SEARCH\_SERIAL](../../master/search_serial/search_serial.md), a C++
 program which searches the integers from A to B for a value J such that
 F(J) = C. this version of the program is intended as a starting point
 for a parallel approach.
 
-[STOCHASTIC\_HEAT2D](../../cpp_src/stochastic_heat2d/stochastic_heat2d.html),
+[STOCHASTIC\_HEAT2D](../../master/stochastic_heat2d/stochastic_heat2d.md),
 a C++ program which implements a finite difference method (FDM) for the
 steady (time independent) 2D heat equation, with a stochastic heat
 diffusivity coefficient, using gnuplot to illustrate the results.
@@ -176,12 +176,12 @@ files from two runs.
 -   [output\_100x500.txt](output_100x500.txt) the output from a run on a
     100x500 grid.
 -   [sol\_100x500.txt](sol_100x500.txt) the solution on a 100x500 grid.
--   [sol\_100x500.png](../../cpp_src/grid_to_bmp/sol_100x500.png) a PNG
+-   [sol\_100x500.png](../../master/grid_to_bmp/sol_100x500.png) a PNG
     image of the solution on a 100x500 grid.
 -   [output\_500x500.txt](output_500x500.txt) the output from a run on a
     500x500 grid.
 -   [sol\_500x500.txt](sol_500x500.txt) the solution on a 500x500 grid.
--   [sol\_500x500.png](../../cpp_src/grid_to_bmp/sol_500x500.png) a PNG
+-   [sol\_500x500.png](../../master/grid_to_bmp/sol_500x500.png) a PNG
     image of the solution on a 500x500 grid.
 
 ### List of Routines: {#list-of-routines align="center"}
@@ -189,7 +189,7 @@ files from two runs.
 -   **MAIN** is the main program for HEATED\_PLATE.
 -   **CPU\_TIME** returns the current reading on the CPU clock.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

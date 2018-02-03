@@ -48,97 +48,97 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HERMITE\_POLYNOMIAL** is available in [a C
-version](../../c_src/hermite_polynomial/hermite_polynomial.html) and [a
-C++ version](../../cpp_src/hermite_polynomial/hermite_polynomial.html)
+version](../../c_src/hermite_polynomial/hermite_polynomial.md) and [a
+C++ version](../../master/hermite_polynomial/hermite_polynomial.md)
 and [a FORTRAN77
-version](../../f77_src/hermite_polynomial/hermite_polynomial.html) and
+version](../../f77_src/hermite_polynomial/hermite_polynomial.md) and
 [a FORTRAN90
-version](../../f_src/hermite_polynomial/hermite_polynomial.html) and [a
-MATLAB version](../../m_src/hermite_polynomial/hermite_polynomial.html).
+version](../../f_src/hermite_polynomial/hermite_polynomial.md) and [a
+MATLAB version](../../m_src/hermite_polynomial/hermite_polynomial.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BERNSTEIN\_POLYNOMIAL](../../cpp_src/bernstein_polynomial/bernstein_polynomial.html),
+[BERNSTEIN\_POLYNOMIAL](../../master/bernstein_polynomial/bernstein_polynomial.md),
 a C++ library which evaluates the Bernstein polynomials, useful for
 uniform approximation of functions;
 
-[CHEBYSHEV\_POLYOMIAL](../../cpp_src/chebyshev_polynomial/chebyshev_polynomial.html),
+[CHEBYSHEV\_POLYOMIAL](../../master/chebyshev_polynomial/chebyshev_polynomial.md),
 a C++ library which considers the Chebyshev polynomials T(i,x), U(i,x),
 V(i,x) and W(i,x). Functions are provided to evaluate the polynomials,
 determine their zeros, produce their polynomial coefficients, produce
 related quadrature rules, project other functions onto these polynomial
 bases, and integrate double and triple products of the polynomials.
 
-[GEGENBAUER\_POLYNOMIAL](../../cpp_src/gegenbauer_polynomial/gegenbauer_polynomial.html),
+[GEGENBAUER\_POLYNOMIAL](../../master/gegenbauer_polynomial/gegenbauer_polynomial.md),
 a C++ library which evaluates the Gegenbauer polynomial and associated
 functions.
 
-[GEN\_HERMITE\_RULE](../../cpp_src/gen_hermite_rule/gen_hermite_rule.html),
+[GEN\_HERMITE\_RULE](../../master/gen_hermite_rule/gen_hermite_rule.md),
 a C++ program which can compute and print a generalized Gauss-Hermite
 quadrature rule.
 
-[HERMITE\_PRODUCT\_POLYNOMIAL](../../cpp_src/hermite_product_polynomial/hermite_product_polynomial.html),
+[HERMITE\_PRODUCT\_POLYNOMIAL](../../master/hermite_product_polynomial/hermite_product_polynomial.md),
 a C++ library which defines Hermite product polynomials, creating a
 multivariate polynomial as the product of univariate Hermite
 polynomials.
 
-[HERMITE\_RULE](../../cpp_src/hermite_rule/hermite_rule.html), a C++
+[HERMITE\_RULE](../../master/hermite_rule/hermite_rule.md), a C++
 program which can compute and print a Gauss-Hermite quadrature rule.
 
-[HERMITE\_TEST\_INT](../../cpp_src/hermite_test_int/hermite_test_int.html),
+[HERMITE\_TEST\_INT](../../master/hermite_test_int/hermite_test_int.md),
 a C++ library which defines test integrands for Hermite integrals with
 interval (-oo,+oo) and density exp(-x\^2).
 
-[JACOBI\_POLYNOMIAL](../../cpp_src/jacobi_polynomial/jacobi_polynomial.html),
+[JACOBI\_POLYNOMIAL](../../master/jacobi_polynomial/jacobi_polynomial.md),
 a C++ library which evaluates the Jacobi polynomial and associated
 functions.
 
-[LAGUERRE\_POLYNOMIAL](../../cpp_src/laguerre_polynomial/laguerre_polynomial.html),
+[LAGUERRE\_POLYNOMIAL](../../master/laguerre_polynomial/laguerre_polynomial.md),
 a C++ library which evaluates the Laguerre polynomial, the generalized
 Laguerre polynomials, and the Laguerre function.
 
-[LEGENDRE\_POLYNOMIAL](../../cpp_src/legendre_polynomial/legendre_polynomial.html),
+[LEGENDRE\_POLYNOMIAL](../../master/legendre_polynomial/legendre_polynomial.md),
 a C++ library which evaluates the Legendre polynomial and associated
 functions.
 
-[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../cpp_src/legendre_shifted_polynomial/legendre_shifted_polynomial.html),
+[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../master/legendre_shifted_polynomial/legendre_shifted_polynomial.md),
 a C++ library which evaluates the shifted Legendre polynomial, with
 domain \[0,1\].
 
-[JACOBI\_POLYNOMIAL](../../cpp_src/jacobi_polynomial/jacobi_polynomial.html),
+[JACOBI\_POLYNOMIAL](../../master/jacobi_polynomial/jacobi_polynomial.md),
 a C++ library which evaluates the Jacobi polynomial and associated
 functions.
 
-[LAGUERRE\_POLYNOMIAL](../../cpp_src/laguerre_polynomial/laguerre_polynomial.html),
+[LAGUERRE\_POLYNOMIAL](../../master/laguerre_polynomial/laguerre_polynomial.md),
 a C++ library which evaluates the Laguerre polynomial, the generalized
 Laguerre polynomial, and the Laguerre function.
 
-[LEGENDRE\_POLYNOMIAL](../../cpp_src/legendre_polynomial/legendre_polynomial.html),
+[LEGENDRE\_POLYNOMIAL](../../master/legendre_polynomial/legendre_polynomial.md),
 a C++ library which evaluates the Legendre polynomial and associated
 functions.
 
-[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../cpp_src/legendre_shifted_polynomial/legendre_shifted_polynomial.html),
+[LEGENDRE\_SHIFTED\_POLYNOMIAL](../../master/legendre_shifted_polynomial/legendre_shifted_polynomial.md),
 a C++ library which evaluates the shifted Legendre polynomial, with
 domain \[0,1\].
 
-[LOBATTO\_POLYNOMIAL](../../cpp_src/lobatto_polynomial/lobatto_polynomial.html),
+[LOBATTO\_POLYNOMIAL](../../master/lobatto_polynomial/lobatto_polynomial.md),
 a C++ library which evaluates Lobatto polynomials, similar to Legendre
 polynomials except that they are zero at both endpoints.
 
-[PCE\_BURGERS](../../cpp_src/pce_burgers/pce_burgers.html), a C++
+[PCE\_BURGERS](../../master/pce_burgers/pce_burgers.md), a C++
 program which defines and solves a version of the time-dependent viscous
 Burgers equation, with uncertain viscosity, using a polynomial chaos
 expansion in terms of Hermite polynomials, by Gianluca Iaccarino.
 
-[PCE\_ODE\_HERMITE](../../cpp_src/pce_ode_hermite/pce_ode_hermite.html),
+[PCE\_ODE\_HERMITE](../../master/pce_ode_hermite/pce_ode_hermite.md),
 a C++ program which sets up a simple scalar ODE for exponential decay
 with an uncertain decay rate, using a polynomial chaos expansion in
 terms of Hermite polynomials.
 
-[POLPAK](../../cpp_src/polpak/polpak.html), a C++ library which
+[POLPAK](../../master/polpak/polpak.md), a C++ library which
 evaluates a variety of mathematical functions.
 
-[TEST\_VALUES](../../cpp_src/test_values/test_values.html), a C++
+[TEST\_VALUES](../../master/test_values/test_values.md), a C++
 library which supplies test values of various mathematical functions.
 
 ### Reference: {#reference align="center"}
@@ -223,7 +223,7 @@ library which supplies test values of various mathematical functions.
 -   **R8VEC2\_PRINT** prints an R8VEC2.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

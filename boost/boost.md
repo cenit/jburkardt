@@ -22,7 +22,7 @@ under [the Gnu LGPL license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **BOOST** is available in [a C++
-version](../../cpp_src/boost/boost.html).
+version](../../master/boost/boost.md).
 
 ### Reference: {#reference align="center"}
 
@@ -45,7 +45,7 @@ subject lines, assuming the input file is a mail message.
 -   [boost\_example2\_output.txt](boost_example2_output.txt), the output
     file.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

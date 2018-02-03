@@ -30,15 +30,15 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **MINESWEEPER** is available in [a C++
-version](../../cpp_src/minesweeper/minesweeper.html).
+version](../../master/minesweeper/minesweeper.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[LIFE\_OPENGL](../../cpp_src/life_opengl/life_opengl.html), a C++
+[LIFE\_OPENGL](../../master/life_opengl/life_opengl.md), a C++
 program which uses OpenGL to display the evolution of John Conway's
 "Game of Life".
 
-[LIGHTS\_OUT\_OPENGL](../../cpp_src/lights_out_opengl/lights_out_opengl.html),
+[LIGHTS\_OUT\_OPENGL](../../master/lights_out_opengl/lights_out_opengl.md),
 a C++ program which sets up a "Lights Out" game and allows the user to
 solve it, using the OpenGL graphics window.
 
@@ -75,7 +75,7 @@ Detelina Stoyanova
 -   **OPENSAFE** is called whenever a square with no neighboring mines
     is cleared.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

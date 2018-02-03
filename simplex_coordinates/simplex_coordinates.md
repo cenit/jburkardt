@@ -42,40 +42,40 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **SIMPLEX\_COORDINATES** is available in [a C
-version](../../c_src/simplex_coordinates/simplex_coordinates.html) and
+version](../../c_src/simplex_coordinates/simplex_coordinates.md) and
 [a C++
-version](../../cpp_src/simplex_coordinates/simplex_coordinates.html) and
+version](../../master/simplex_coordinates/simplex_coordinates.md) and
 [a FORTRAN77
-version](../../f77_src/simplex_coordinates/simplex_coordinates.html) and
+version](../../f77_src/simplex_coordinates/simplex_coordinates.md) and
 [a FORTRAN90
-version](../../f_src/simplex_coordinates/simplex_coordinates.html) and
+version](../../f_src/simplex_coordinates/simplex_coordinates.md) and
 [a MATLAB
-version](../../m_src/simplex_coordinates/simplex_coordinates.html) and
+version](../../m_src/simplex_coordinates/simplex_coordinates.md) and
 [a Python
-version](../../py_src/simplex_coordinates/simplex_coordinates.html).
+version](../../py_src/simplex_coordinates/simplex_coordinates.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[ASA299](../../cpp_src/asa299/asa299.html), a C++ library which computes
+[ASA299](../../master/asa299/asa299.md), a C++ library which computes
 the lattice points in an M-dimensional simplex; this is Applied
 Statistics Algorithm 299;
 
-[GEOMETRY](../../cpp_src/geometry/geometry.html), a C++ library which
+[GEOMETRY](../../master/geometry/geometry.md), a C++ library which
 performs geometric calculations in 2, 3 and M-dimensional space.
 
-[RANDOM\_DATA](../../cpp_src/random_data/random_data.html), a C++
+[RANDOM\_DATA](../../master/random_data/random_data.md), a C++
 library which generates sample points for various probability
 distributions, spatial dimensions, and geometries, including the
 M-dimensional simplex.
 
-[SIMPACK](../../f77_src/simpack/simpack.html), a FORTRAN77 library which
+[SIMPACK](../../f77_src/simpack/simpack.md), a FORTRAN77 library which
 approximates the integral of a function over an M-dimensional simplex.
 
-[SIMPLEX\_GM\_RULE](../../cpp_src/simplex_gm_rule/simplex_gm_rule.html),
+[SIMPLEX\_GM\_RULE](../../master/simplex_gm_rule/simplex_gm_rule.md),
 a C++ library which defines Grundmann-Moeller rules for quadrature over
 a triangle, tetrahedron, or general M-dimensional simplex.
 
-[SIMPLEX\_GRID](../../cpp_src/simplex_grid/simplex_grid.html), a C++
+[SIMPLEX\_GRID](../../master/simplex_grid/simplex_grid.md), a C++
 library which generates a regular grid of points over the interior of an
 arbitrary simplex in M dimensions.
 
@@ -107,7 +107,7 @@ arbitrary simplex in M dimensions.
 -   **SIMPLEX\_VOLUME** computes the volume of a simplex.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

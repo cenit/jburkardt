@@ -40,40 +40,40 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CYCLIC\_REDUCTION** is available in [a C
-version](../../c_src/cyclic_reduction/cyclic_reduction.html) and [a C++
-version](../../cpp_src/cyclic_reduction/cyclic_reduction.html) and [a
-FORTRAN77 version](../../f77_src/cyclic_reduction/cyclic_reduction.html)
+version](../../c_src/cyclic_reduction/cyclic_reduction.md) and [a C++
+version](../../master/cyclic_reduction/cyclic_reduction.md) and [a
+FORTRAN77 version](../../f77_src/cyclic_reduction/cyclic_reduction.md)
 and [a FORTRAN90
-version](../../f_src/cyclic_reduction/cyclic_reduction.html) and [a
-MATLAB version](../../m_src/cyclic_reduction/cyclic_reduction.html).
+version](../../f_src/cyclic_reduction/cyclic_reduction.md) and [a
+MATLAB version](../../m_src/cyclic_reduction/cyclic_reduction.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[CSPARSE](../../c_src/csparse/csparse.html), a C library which carries
+[CSPARSE](../../c_src/csparse/csparse.md), a C library which carries
 out the direct solution of sparse linear systems.
 
-[DLAP](../../f_src/dlap/dlap.html), a FORTRAN90 library which carries
+[DLAP](../../f_src/dlap/dlap.md), a FORTRAN90 library which carries
 out the iterative solution of sparse linear systems.
 
-[LAPACK\_EXAMPLES](../../f77_src/lapack_examples/lapack_examples.html),
+[LAPACK\_EXAMPLES](../../f77_src/lapack_examples/lapack_examples.md),
 a FORTRAN77 program which demonstrates the use of the LAPACK linear
 algebra library.
 
-[LINPACK\_D](../../c_src/linpack_d/linpack_d.html), a C library which
+[LINPACK\_D](../../c_src/linpack_d/linpack_d.md), a C library which
 factors and solves systems of linear equations in a variety of formats
 and arithmetic types.
 
-[LINPLUS](../../cpp_src/linplus/linplus.html), a C++ library which
+[LINPLUS](../../master/linplus/linplus.md), a C++ library which
 carries out simple manipulations of matrices in a variety of formats.
 
-[MGMRES](../../c_src/mgmres/mgmres.html), a C library which applies the
+[MGMRES](../../c_src/mgmres/mgmres.md), a C library which applies the
 restarted GMRES algorithm to solve a sparse linear system.
 
-[SUPER\_LU](../../c_src/super_lu/super_lu.html), a C library which
+[SUPER\_LU](../../c_src/super_lu/super_lu.md), a C library which
 implements some very fast direct solvers for systems of sparse linear
 equations.
 
-[TEST\_MAT](../../cpp_src/test_mat/test_mat.html), a C++ library which
+[TEST\_MAT](../../master/test_mat/test_mat.md), a C++ library which
 defines test matrices, some of which have known determinants,
 eigenvalues and eigenvectors, inverses and so on.
 
@@ -122,7 +122,7 @@ eigenvalues and eigenvectors, inverses and so on.
 -   **R8VEC\_PRINT\_SOME** prints "some" of an R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

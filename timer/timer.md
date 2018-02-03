@@ -68,31 +68,31 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**TIMER** is available in [a C version](../../c_src/timer/timer.html)
-and [a C++ version](../../cpp_src/timer/timer.html) and [a FORTRAN77
-version](../../f77_src/timer/timer.html) and [a FORTRAN90
-version](../../f_src/timer/timer.html) and [a MATLAB
-version](../../m_src/timer/timer.html) and [a PYTHON
-version](../../py_src/timer/timer.html).
+**TIMER** is available in [a C version](../../c_src/timer/timer.md)
+and [a C++ version](../../master/timer/timer.md) and [a FORTRAN77
+version](../../f77_src/timer/timer.md) and [a FORTRAN90
+version](../../f_src/timer/timer.md) and [a MATLAB
+version](../../m_src/timer/timer.md) and [a PYTHON
+version](../../py_src/timer/timer.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[MPI](../../cpp_src/mpi/mpi.html), C++ programs which illustrate the use
+[MPI](../../master/mpi/mpi.md), C++ programs which illustrate the use
 of the MPI application program interface for carrying out parallel
 computations in a distributed memory environment.
 
-[OPENMP](../../cpp_src/openmp/openmp.html), C++ programs which
+[OPENMP](../../master/openmp/openmp.md), C++ programs which
 illustrate the use of the OpenMP application program interface for
 carrying out parallel computations in a shared memory environment.
 
-[SUM\_MILLION](../../cpp_src/sum_million/sum_million.html), a C++
+[SUM\_MILLION](../../master/sum_million/sum_million.md), a C++
 program which sums the integers from 1 to 1,000,000, as a demonstration
 of how to rate a computer's speed;
 
-[TIMESTAMP](../../cpp_src/timestamp/timestamp.html), a C++ library which
+[TIMESTAMP](../../master/timestamp/timestamp.md), a C++ library which
 can display the current wall clock time.
 
-[WTIME](../../cpp_src/wtime/wtime.html), a C++ library which returns a
+[WTIME](../../master/wtime/wtime.md), a C++ library which returns a
 reading of the wall clock time in seconds.
 
 ### Examples and Tests: {#examples-and-tests align="center"}
@@ -120,7 +120,7 @@ are no more accurate than one second, however:
 -   [timer\_time.cpp](timer_time.cpp), the test;
 -   [timer\_time.txt](timer_time.txt), output from the test;
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

@@ -109,44 +109,44 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **HERMITE\_TEST\_INT** is available in [a C
-version](../../c_src/hermite_test_int/hermite_test_int.html) and [a C++
-version](../../cpp_src/hermite_test_int/hermite_test_int.html) and [a
-FORTRAN77 version](../../f77_src/hermite_test_int/hermite_test_int.html)
+version](../../c_src/hermite_test_int/hermite_test_int.md) and [a C++
+version](../../master/hermite_test_int/hermite_test_int.md) and [a
+FORTRAN77 version](../../f77_src/hermite_test_int/hermite_test_int.md)
 and [a FORTRAN90
-version](../../f_src/hermite_test_int/hermite_test_int.html) and [a
-MATLAB version](../../m_src/hermite_test_int/hermite_test_int.html).
+version](../../f_src/hermite_test_int/hermite_test_int.md) and [a
+MATLAB version](../../m_src/hermite_test_int/hermite_test_int.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[HERMITE\_EXACTNESS](../../cpp_src/hermite_exactness/hermite_exactness.html),
+[HERMITE\_EXACTNESS](../../master/hermite_exactness/hermite_exactness.md),
 a C++ program which tests the polynomial exactness of Gauss-Hermite
 quadrature rules.
 
-[HERMITE\_RULE](../../cpp_src/hermite_rule/hermite_rule.html), a C++
+[HERMITE\_RULE](../../master/hermite_rule/hermite_rule.md), a C++
 program which can compute and print a Gauss-Hermite quadrature rule.
 
-[LAGUERRE\_TEST\_INT](../../cpp_src/laguerre_test_int/laguerre_test_int.html),
+[LAGUERRE\_TEST\_INT](../../master/laguerre_test_int/laguerre_test_int.md),
 a C++ library which defines test integrands for quadrature rules for
 estimating the integral of a function with density exp(-x) over the
 interval \[0,+oo).
 
-[QUADRATURE\_RULES\_HERMITE\_PHYSICIST](../../datasets/quadrature_rules_hermite_physicist/quadrature_rules_hermite_physicist.html),
+[QUADRATURE\_RULES\_HERMITE\_PHYSICIST](../../datasets/quadrature_rules_hermite_physicist/quadrature_rules_hermite_physicist.md),
 a dataset directory which contains Gauss-Hermite quadrature rules, for
 integration on the interval (-oo,+oo), with weight function exp(-x\^2).
 
-[QUADRATURE\_RULES\_HERMITE\_PROBABILIST](../../datasets/quadrature_rules_hermite_probabilist/quadrature_rules_hermite_probabilist.html),
+[QUADRATURE\_RULES\_HERMITE\_PROBABILIST](../../datasets/quadrature_rules_hermite_probabilist/quadrature_rules_hermite_probabilist.md),
 a dataset directory which contains Gauss-Hermite quadrature rules, for
 integration on the interval (-oo,+oo), with weight function
 exp(-x\^2/2).
 
-[QUADRATURE\_RULES\_HERMITE\_UNWEIGHTED](../../datasets/quadrature_rules_hermite_unweighted/quadrature_rules_hermite_unweighted.html),
+[QUADRATURE\_RULES\_HERMITE\_UNWEIGHTED](../../datasets/quadrature_rules_hermite_unweighted/quadrature_rules_hermite_unweighted.md),
 a dataset directory which contains Gauss-Hermite quadrature rules, for
 integration on the interval (-oo,+oo), with weight function 1.
 
-[TEST\_INT](../../cpp_src/test_int/test_int.html), a C++ library which
+[TEST\_INT](../../master/test_int/test_int.md), a C++ library which
 defines test integrands for 1D quadrature rules.
 
-[TEST\_INT\_2D](../../cpp_src/test_int_2d/test_int_2d.html), a C++
+[TEST\_INT\_2D](../../master/test_int_2d/test_int_2d.md), a C++
 library which defines test integrands for 2D quadrature rules.
 
 ### Reference: {#reference align="center"}
@@ -254,7 +254,7 @@ library which defines test integrands for 2D quadrature rules.
 -   **R8VEC\_UNIFORM\_01\_NEW** returns a new unit pseudorandom R8VEC.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

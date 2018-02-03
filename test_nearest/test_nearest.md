@@ -44,18 +44,18 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TEST\_NEAREST** is available in [a C
-version](../../c_src/test_nearest/test_nearest.html) and [a C++
-version](../../cpp_src/test_nearest/test_nearest.html) and [a FORTRAN77
-version](../../f77_src/test_nearest/test_nearest.html) and [a FORTRAN90
-version](../../f_src/test_nearest/test_nearest.html) and [a MATLAB
-version](../../m_src/test_nearest/test_nearest.html).
+version](../../c_src/test_nearest/test_nearest.md) and [a C++
+version](../../master/test_nearest/test_nearest.md) and [a FORTRAN77
+version](../../f77_src/test_nearest/test_nearest.md) and [a FORTRAN90
+version](../../f_src/test_nearest/test_nearest.md) and [a MATLAB
+version](../../m_src/test_nearest/test_nearest.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[CVT](../../cpp_src/cvt/cvt.html), a C++ library which computes elements
+[CVT](../../master/cvt/cvt.md), a C++ library which computes elements
 of a Centroidal Voronoi Tessellation (CVT).
 
-[NEAREST\_INTERP\_1D](../../cpp_src/nearest_interp_1d/nearest_interp_1d.html),
+[NEAREST\_INTERP\_1D](../../master/nearest_interp_1d/nearest_interp_1d.md),
 a C++ library which interpolates a set of data using a piecewise
 constant interpolant defined by the nearest neighbor criterion.
 
@@ -92,7 +92,7 @@ constant interpolant defined by the nearest neighbor criterion.
     numbers.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

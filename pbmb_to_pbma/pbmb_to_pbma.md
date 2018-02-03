@@ -25,27 +25,27 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PBMB\_TO\_PBMA** is available in [a C++
-version](../../cpp_src/pbmb_to_pbma/pbmb_to_pbma.html).
+version](../../master/pbmb_to_pbma/pbmb_to_pbma.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[I2\_BINARY\_TO\_ASCII](../../cpp_src/i2_binary_to_ascii/i2_binary_to_ascii.html)
+[I2\_BINARY\_TO\_ASCII](../../master/i2_binary_to_ascii/i2_binary_to_ascii.md)
 a C++ program which converts a file of short int (I2) data from binary
 to ASCII format.
 
-[PBMA](../../data/pbma/pbma.html), a data directory which contains a
+[PBMA](../../data/pbma/pbma.md), a data directory which contains a
 description and examples of the ASCII PBM format.
 
-[PBMA\_IO](../../cpp_src/pbma_io/pBma_io.html), a C++ library which
+[PBMA\_IO](../../master/pbma_io/pBma_io.md), a C++ library which
 reads and writes files in the ASCII PBM format.
 
-[PBMA\_TO\_PBMB](../../cpp_src/pbma_to_pbmb/pbma_to_pbmb.html), a C++
+[PBMA\_TO\_PBMB](../../master/pbma_to_pbmb/pbma_to_pbmb.md), a C++
 program which converts an ASCII PBM file to binary PBM format.
 
-[PBMB](../../data/pbmb/pbmb.html), a data directory which contains a
+[PBMB](../../data/pbmb/pbmb.md), a data directory which contains a
 description and examples of the binary PBM format.
 
-[PBMB\_IO](../../cpp_src/pbmb_io/pbmb_io.html), a C++ library which
+[PBMB\_IO](../../master/pbmb_io/pbmb_io.md), a C++ library which
 reads and writes files in the binary PBM format.
 
 ### Reference: {#reference align="center"}
@@ -79,7 +79,7 @@ reads and writes files in the binary PBM format.
 -   **S\_WORD\_EXTRACT\_FIRST** extracts the first word from a string.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

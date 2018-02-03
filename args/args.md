@@ -25,13 +25,13 @@ license.](../../txt/gnu_lgpl.txt)
 
 ### Languages: {#languages align="center"}
 
-**ARGS** is available in [a C version](../../c_src/args/args.html) and
-[a C++ version](../../cpp_src/args/args.html) and [a FORTRAN77
-version](../../f77_src/args/args.html) and [a FORTRAN90
-version](../../f_src/args/args.html) and [a JAVA
-version](../../java_src/args/args.html) and [a MATLAB
-version](../../m_src/args/args.html) and [a Python
-version](../../py_src/args/args.html).
+**ARGS** is available in [a C version](../../c_src/args/args.md) and
+[a C++ version](../../master/args/args.md) and [a FORTRAN77
+version](../../f77_src/args/args.md) and [a FORTRAN90
+version](../../f_src/args/args.md) and [a JAVA
+version](../../java_src/args/args.md) and [a MATLAB
+version](../../m_src/args/args.md) and [a Python
+version](../../py_src/args/args.md).
 
 ### Source Code: {#source-code align="center"}
 
@@ -52,7 +52,7 @@ which is a STRING, can be converted to an INTEGER, using the function
 -   [prime\_sum\_output.txt](prime_sum_output.txt), the result of the
     command "prime\_sum 1000 &gt; prime\_sum\_output.txt";
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

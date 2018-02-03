@@ -20,87 +20,87 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **CHEBYSHEV\_INTERP\_1D** is available in [a C
-version](../../c_src/chebyshev_interp_1d/chebyshev_interp_1d.html) and
+version](../../c_src/chebyshev_interp_1d/chebyshev_interp_1d.md) and
 [a C++
-version](../../cpp_src/chebyshev_interp_1d/chebyshev_interp_1d.html) and
+version](../../master/chebyshev_interp_1d/chebyshev_interp_1d.md) and
 [a FORTRAN77
-version](../../f77_src/chebyshev_interp_1d/chebyshev_interp_1d.html) and
+version](../../f77_src/chebyshev_interp_1d/chebyshev_interp_1d.md) and
 [a FORTRAN90
-version](../../f_src/chebyshev_interp_1d/chebyshev_interp_1d.html) and
+version](../../f_src/chebyshev_interp_1d/chebyshev_interp_1d.md) and
 [a MATLAB
-version](../../m_src/chebyshev_interp_1d/chebyshev_interp_1d.html).
+version](../../m_src/chebyshev_interp_1d/chebyshev_interp_1d.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BARYCENTRIC\_INTERP\_1D](../../cpp_src/barycentric_interp_1d/barycentric_interp_1d.html),
+[BARYCENTRIC\_INTERP\_1D](../../master/barycentric_interp_1d/barycentric_interp_1d.md),
 a C++ library which defines and evaluates the barycentric Lagrange
 polynomial p(x) which interpolates a set of data, so that p(x(i)) =
 y(i). The barycentric approach means that very high degree polynomials
 can safely be used.
 
-[CHEBYSHEV](../../cpp_src/chebyshev/chebyshev.html), a C++ library which
+[CHEBYSHEV](../../master/chebyshev/chebyshev.md), a C++ library which
 computes the Chebyshev interpolant/approximant to a given function over
 an interval.
 
-[CHEBYSHEV\_SERIES](../../cpp_src/chebyshev_series/chebyshev_series.html),
+[CHEBYSHEV\_SERIES](../../master/chebyshev_series/chebyshev_series.md),
 a C++ library which can evaluate a Chebyshev series approximating a
 function f(x), while efficiently computing one, two or three derivatives
 of the series, which approximate f'(x), f''(x), and f'''(x), by Manfred
 Zimmer.
 
-[CLAUSEN](../../cpp_src/clausen/clausen.html), a C++ library which
+[CLAUSEN](../../master/clausen/clausen.md), a C++ library which
 evaluates a Chebyshev interpolant to the Clausen function Cl2(x).
 
-[DIVDIF](../../cpp_src/divdif/divdif.html), a C++ library which uses
+[DIVDIF](../../master/divdif/divdif.md), a C++ library which uses
 divided differences to compute the polynomial interpolant to a given set
 of data.
 
-[HERMITE](../../cpp_src/hermite/hermite.html), a C++ library which
+[HERMITE](../../master/hermite/hermite.md), a C++ library which
 computes the Hermite interpolant, a polynomial that matches function
 values and derivatives.
 
-[LAGRANGE\_INTERP\_1D](../../cpp_src/lagrange_interp_1d/lagrange_interp_1d.html),
+[LAGRANGE\_INTERP\_1D](../../master/lagrange_interp_1d/lagrange_interp_1d.md),
 a C++ library which defines and evaluates the Lagrange polynomial p(x)
 which interpolates a set of data, so that p(x(i)) = y(i).
 
-[NEAREST\_INTERP\_1D](../../cpp_src/nearest_interp_1d/nearest_interp_1d.html),
+[NEAREST\_INTERP\_1D](../../master/nearest_interp_1d/nearest_interp_1d.md),
 a C++ library which interpolates a set of data using a piecewise
 constant interpolant defined by the nearest neighbor criterion.
 
-[NEWTON\_INTERP\_1D](../../cpp_src/newton_interp_1d/newton_interp_1d.html),
+[NEWTON\_INTERP\_1D](../../master/newton_interp_1d/newton_interp_1d.md),
 a C++ library which finds a polynomial interpolant to data using Newton
 divided differences.
 
-[PWL\_INTERP\_1D](../../cpp_src/pwl_interp_1d/pwl_interp_1d.html), a C++
+[PWL\_INTERP\_1D](../../master/pwl_interp_1d/pwl_interp_1d.md), a C++
 library which interpolates a set of data using a piecewise linear
 interpolant.
 
-[QR\_SOLVE](../../cpp_src/qr_solve/qr_solve.html), a C++ library which
+[QR\_SOLVE](../../master/qr_solve/qr_solve.md), a C++ library which
 computes the least squares solution of a linear system A\*x=b.
 
-[R8LIB](../../cpp_src/r8lib/r8lib.html), a C++ library which contains
+[R8LIB](../../master/r8lib/r8lib.md), a C++ library which contains
 many utility routines using double precision real (R8) arithmetic.
 
-[RBF\_INTERP\_1D](../../cpp_src/rbf_interp_1d/rbf_interp_1d.html), a C++
+[RBF\_INTERP\_1D](../../master/rbf_interp_1d/rbf_interp_1d.md), a C++
 library which defines and evaluates radial basis function (RBF)
 interpolants to 1D data.
 
-[SHEPARD\_INTERP\_1D](../../cpp_src/shepard_interp_1d/shepard_interp_1d.html),
+[SHEPARD\_INTERP\_1D](../../master/shepard_interp_1d/shepard_interp_1d.md),
 a C++ library which defines and evaluates Shepard interpolants to 1D
 data, based on inverse distance weighting.
 
-[SPLINE](../../cpp_src/spline/spline.html), a C++ library which
+[SPLINE](../../master/spline/spline.md), a C++ library which
 constructs and evaluates spline interpolants and approximants.
 
-[TEST\_INTERP](../../cpp_src/test_interp/test_interp.html), a C++
+[TEST\_INTERP](../../master/test_interp/test_interp.md), a C++
 library which defines a number of test problems for interpolation,
 provided as a set of (x,y) data.
 
-[TEST\_INTERP\_1D](../../cpp_src/test_interp_1d/test_interp_1d.html), a
+[TEST\_INTERP\_1D](../../master/test_interp_1d/test_interp_1d.md), a
 C++ library which defines test problems for interpolation of data y(x),
 depending on a 2D argument.
 
-[VANDERMONDE\_INTERP\_1D](../../c_src/vandermonde_interp_1d/vandermonde_interp_1d.html),
+[VANDERMONDE\_INTERP\_1D](../../c_src/vandermonde_interp_1d/vandermonde_interp_1d.md),
 a C library which finds a polynomial interpolant to data y(x) of a 1D
 argument, by setting up and solving a linear system for the polynomial
 coefficients, involving the Vandermonde matrix.
@@ -146,7 +146,7 @@ coefficients, involving the Vandermonde matrix.
 -   **CHEBYSHEV\_VALUE\_1D** evaluates a Chebyshev interpolant, given
     its coefficients.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

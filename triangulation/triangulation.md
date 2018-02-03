@@ -41,102 +41,102 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **TRIANGULATION** is available in [a C
-version](../../c_src/triangulation/triangulation.html) and [a C++
-version](../../cpp_src/triangulation/triangulation.html) and [a
-FORTRAN77 version](../../f77_src/triangulation/triangulation.html) and
-[a FORTRAN90 version](../../f_src/triangulation/triangulation.html) and
-[a MATLAB version](../../m_src/triangulation/triangulation.html).
+version](../../c_src/triangulation/triangulation.md) and [a C++
+version](../../master/triangulation/triangulation.md) and [a
+FORTRAN77 version](../../f77_src/triangulation/triangulation.md) and
+[a FORTRAN90 version](../../f_src/triangulation/triangulation.md) and
+[a MATLAB version](../../m_src/triangulation/triangulation.md).
 
 ### Related Programs: {#related-programs align="center"}
 
-[MESH\_TO\_XML](../../cpp_src/mesh_to_xml/mesh_to_xml.html), a C++
+[MESH\_TO\_XML](../../master/mesh_to_xml/mesh_to_xml.md), a C++
 program which reads information defining a 1D, 2D or 3D mesh, namely a
 file of node coordinates and a file of elements defined by node indices,
 and creates a corresponding XML file for input to DOLFIN or FENICS.
 
-[TABLE\_DELAUNAY](../../cpp_src/table_delaunay/table_delaunay.html), a
+[TABLE\_DELAUNAY](../../master/table_delaunay/table_delaunay.md), a
 C++ program which reads a file of 2d point coordinates and computes the
 Delaunay triangulation.
 
-[TRIANGLE](../../c_src/triangle/triangle.html), a C program which
+[TRIANGLE](../../c_src/triangle/triangle.md), a C program which
 computes a triangulation of a geometric region.
 
-[TRIANGULATION\_BOUNDARY\_NODES](../../cpp_src/triangulation_boundary_nodes/triangulation_boundary_nodes.html),
+[TRIANGULATION\_BOUNDARY\_NODES](../../master/triangulation_boundary_nodes/triangulation_boundary_nodes.md),
 a C++ program which reads data defining a triangulation, determines
 which nodes lie on the boundary, and writes their coordinates to a file.
 
-[TRIANGULATION\_CORNER](../../cpp_src/triangulation_corner/triangulation_corner.html),
+[TRIANGULATION\_CORNER](../../master/triangulation_corner/triangulation_corner.md),
 a C++ program which patches triangulations so that no triangle has two
 sides on the boundary.
 
-[TRIANGULATION\_DELAUNAY\_DISCREPANCY](../../cpp_src/triangulation_delaunay_discrepancy/triangulation_delaunay_discrepancy.html),
+[TRIANGULATION\_DELAUNAY\_DISCREPANCY](../../master/triangulation_delaunay_discrepancy/triangulation_delaunay_discrepancy.md),
 a C++ program which measures the amount by which a triangulation fails
 the local Delaunay test;
 
-[TRIANGULATION\_DISPLAY\_OPENGL](../../cpp_src/triangulation_display_opengl/triangulation_display_opengl.html),
+[TRIANGULATION\_DISPLAY\_OPENGL](../../master/triangulation_display_opengl/triangulation_display_opengl.md),
 a C++ program which reads files defining a triangulation and displays an
 image using Open GL.
 
-[TRIANGULATION\_HISTOGRAM](../../cpp_src/triangulation_histogram/triangulation_histogram.html),
+[TRIANGULATION\_HISTOGRAM](../../master/triangulation_histogram/triangulation_histogram.md),
 a C++ program which computes histograms of data over a triangulation.
 
-[TRIANGULATION\_L2Q](../../cpp_src/triangulation_l2q/triangulation_l2q.html),
+[TRIANGULATION\_L2Q](../../master/triangulation_l2q/triangulation_l2q.md),
 a C++ program which reads data defining a 3-node triangulation and
 generates midside nodes and writes out the corresponding 6-node
 triangulation.
 
-[TRIANGULATION\_MASK](../../cpp_src/triangulation_mask/triangulation_mask.html),
+[TRIANGULATION\_MASK](../../master/triangulation_mask/triangulation_mask.md),
 a C++ program, which takes an existing triangulation and deletes
 triangles and their corresponding nodes as requested by the user.
 
-[TRIANGULATION\_NODE\_TO\_ELEMENT](../../cpp_src/triangulation_node_to_element/triangulation_node_to_element.html),
+[TRIANGULATION\_NODE\_TO\_ELEMENT](../../master/triangulation_node_to_element/triangulation_node_to_element.md),
 a C++ program which reads files describing a set of nodes, their
 triangulation, and the value of one or more quantities at each node, and
 outputs a file that averages the quantities for each element. This
 operation in effect creates an "order1" finite element model of the
 data.
 
-[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.html),
+[TRIANGULATION\_ORDER3](../../data/triangulation_order3/triangulation_order3.md),
 a directory which contains a description and examples of order 3
 triangulations.
 
-[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.html),
+[TRIANGULATION\_ORDER6](../../data/triangulation_order6/triangulation_order6.md),
 a directory which contains a description and examples of order 6
 triangulations.
 
-[TRIANGULATION\_ORIENT](../../cpp_src/triangulation_orient/triangulation_orient.html),
+[TRIANGULATION\_ORIENT](../../master/triangulation_orient/triangulation_orient.md),
 a C++ program which reads data defining a triangulation, makes sure that
 every triangle has positive orientation, and if not, writes a corrected
 triangle file.
 
-[TRIANGULATION\_PLOT](../../cpp_src/triangulation_plot/triangulation_plot.html),
+[TRIANGULATION\_PLOT](../../master/triangulation_plot/triangulation_plot.md),
 a C++ program which reads data defining a triangulation and creates a
 PostScript image of the nodes and triangles.
 
-[TRIANGULATION\_Q2L](../../cpp_src/triangulation_q2l/triangulation_q2l.html),
+[TRIANGULATION\_Q2L](../../master/triangulation_q2l/triangulation_q2l.md),
 a C++ program which reads data defining a 6-node triangulation, and
 subdivides each triangle into 4 3-node triangles, writing the resulting
 triangulation to a file.
 
-[TRIANGULATION\_QUAD](../../cpp_src/triangulation_quad/triangulation_quad.html),
+[TRIANGULATION\_QUAD](../../master/triangulation_quad/triangulation_quad.md),
 a C++ program which estimates the integral of a function over a
 triangulated region.
 
-[TRIANGULATION\_QUALITY](../../cpp_src/triangulation_quality/triangulation_quality.html),
+[TRIANGULATION\_QUALITY](../../master/triangulation_quality/triangulation_quality.md),
 a C++ program which reads data defining a triangulation and computes a
 number of quality measures.
 
-[TRIANGULATION\_RCM](../../cpp_src/triangulation_rcm/triangulation_rcm.html),
+[TRIANGULATION\_RCM](../../master/triangulation_rcm/triangulation_rcm.md),
 a C++ program which reads data defining a triangulation, determines an
 ordering of the nodes that will reduce the bandwidth of the adjacency
 matrix, and writes the new triangulation information to a file.
 
-[TRIANGULATION\_REFINE](../../cpp_src/triangulation_refine/triangulation_refine.html),
+[TRIANGULATION\_REFINE](../../master/triangulation_refine/triangulation_refine.md),
 a C++ program which reads data defining a triangulation, replaces each
 triangle by four congruent smaller ones, and writes the new
 triangulation information to a file.
 
-[TRIANGULATION\_TRIANGLE\_NEIGHBORS](../../cpp_src/triangulation_triangle_neighbors/triangulation_triangle_neighbors.html),
+[TRIANGULATION\_TRIANGLE\_NEIGHBORS](../../master/triangulation_triangle_neighbors/triangulation_triangle_neighbors.md),
 a C++ program which reads data defining a triangulation, determines the
 neighboring triangles of each triangle, and writes that information to a
 file.
@@ -202,10 +202,10 @@ file.
 -   [triangulation\_order3\_plot.png](triangulation_order3_plot.png), a
     PNG image of an order 3 triangulation.
 -   [triangulation\_order3\_plot2.png](triangulation_order3_plot2.png),
-    a [PNG](../../data/png/png.html) image of a second order 3
+    a [PNG](../../data/png/png.md) image of a second order 3
     triangulation.
 -   [triangulation\_order6\_plot.png](triangulation_order6_plot.png), a
-    [PNG](../../data/png/png.html) image of an order 6 triangulation.
+    [PNG](../../data/png/png.md) image of an order 6 triangulation.
 
 ### List of Routines: {#list-of-routines align="center"}
 
@@ -404,7 +404,7 @@ file.
 -   **VORONOI\_POLYGON\_VERTICES\_2D** computes the vertices of a
     Voronoi polygon.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 

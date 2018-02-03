@@ -29,99 +29,99 @@ license.](../../txt/gnu_lgpl.txt)
 ### Languages: {#languages align="center"}
 
 **PYRAMID\_GRID** is available in [a C
-version](../../c_src/pyramid_grid/pyramid_grid.html) and [a C++
-version](../../cpp_src/pyramid_grid/pyramid_grid.html) and [a FORTRAN77
-version](../../f77_src/pyramid_grid/pyramid_grid.html) and [a FORTRAN90
-version](../../f_src/pyramid_grid/pyramid_grid.html) and [a MATLAB
-version](../../m_src/pyramid_grid/pyramid_grid.html) and [a Python
-version](../../py_src/pyramid_grid/pyramid_grid.html).
+version](../../c_src/pyramid_grid/pyramid_grid.md) and [a C++
+version](../../master/pyramid_grid/pyramid_grid.md) and [a FORTRAN77
+version](../../f77_src/pyramid_grid/pyramid_grid.md) and [a FORTRAN90
+version](../../f_src/pyramid_grid/pyramid_grid.md) and [a MATLAB
+version](../../m_src/pyramid_grid/pyramid_grid.md) and [a Python
+version](../../py_src/pyramid_grid/pyramid_grid.md).
 
 ### Related Data and Programs: {#related-data-and-programs align="center"}
 
-[BALL\_GRID](../../cpp_src/ball_grid/ball_grid.html), a C++ library
+[BALL\_GRID](../../master/ball_grid/ball_grid.md), a C++ library
 which computes a grid of points over the interior of a ball in 3D.
 
-[CIRCLE\_ARC\_GRID](../../cpp_src/circle_arc_grid/circle_arc_grid.html),
+[CIRCLE\_ARC\_GRID](../../master/circle_arc_grid/circle_arc_grid.md),
 a C++ program which computes a grid of points over the length of a
 circular arc in 2D;
 
-[CUBE\_GRID](../../cpp_src/cube_grid/cube_grid.html), a C++ library
+[CUBE\_GRID](../../master/cube_grid/cube_grid.md), a C++ library
 which computes a grid of points over the interior of a cube in 3D.
 
-[DISK\_GRID](../../cpp_src/disk_grid/disk_grid.html), a C++ library
+[DISK\_GRID](../../master/disk_grid/disk_grid.md), a C++ library
 which computes a grid of points over the interior of a disk in 2D.
 
-[ELLIPSE\_GRID](../../cpp_src/ellipse_grid/ellipse_grid.html), a C++
+[ELLIPSE\_GRID](../../master/ellipse_grid/ellipse_grid.md), a C++
 library which computes a grid of points over the interior of an ellipse
 in 2D.
 
-[ELLIPSOID\_GRID](../../cpp_src/ellipsoid_grid/ellipsoid_grid.html), a
+[ELLIPSOID\_GRID](../../master/ellipsoid_grid/ellipsoid_grid.md), a
 C++ library which computes grid points over the interior of an ellipsoid
 in 3D.
 
-[HYPERCUBE\_GRID](../../cpp_src/hypercube_grid/hypercube_grid.html), a
+[HYPERCUBE\_GRID](../../master/hypercube_grid/hypercube_grid.md), a
 C++ library which computes a grid of points over the interior of a
 hypercube in M dimensions.
 
-[LINE\_GRID](../../cpp_src/line_grid/line_grid.html), a C++ library
+[LINE\_GRID](../../master/line_grid/line_grid.md), a C++ library
 which computes a grid of points over the interior of a line segment in
 1D.
 
-[POLYGON\_GRID](../../cpp_src/polygon_grid/polygon_grid.html), a C++
+[POLYGON\_GRID](../../master/polygon_grid/polygon_grid.md), a C++
 library which generates a grid of points over the interior of a polygon
 in 2D.
 
-[PYRAMID\_EXACTNESS](../../cpp_src/pyramid_exactness/pyramid_exactness.html),
+[PYRAMID\_EXACTNESS](../../master/pyramid_exactness/pyramid_exactness.md),
 a C++ program which investigates the monomial exactness of a quadrature
 rule for the pyramid.
 
-[PYRAMID\_INTEGRALS](../../cpp_src/pyramid_integrals/pyramid_integrals.html),
+[PYRAMID\_INTEGRALS](../../master/pyramid_integrals/pyramid_integrals.md),
 a C++ library which returns the exact value of the integral of any
 monomial over the interior of the unit pyramid in 3D.
 
-[PYRAMID\_MONTE\_CARLO](../../cpp_src/pyramid_monte_carlo/pyramid_monte_carlo.html),
+[PYRAMID\_MONTE\_CARLO](../../master/pyramid_monte_carlo/pyramid_monte_carlo.md),
 a C++ library which applies a Monte Carlo method to estimate integrals
 of a function over the interior of the unit pyramid in 3D;
 
-[PYRAMID\_RULE](../../cpp_src/pyramid_rule/pyramid_rule.html), a C++
+[PYRAMID\_RULE](../../master/pyramid_rule/pyramid_rule.md), a C++
 program which computes a quadrature rule over the interior of the unit
 pyramid in 3D;
 
-[SIMPLEX\_GRID](../../cpp_src/simplex_grid/simplex_grid.html), a C++
+[SIMPLEX\_GRID](../../master/simplex_grid/simplex_grid.md), a C++
 library which generates a regular grid of points over the interior of an
 arbitrary simplex in M dimensions.
 
-[SPHERE\_FIBONACCI\_GRID](../../cpp_src/sphere_fibonacci_grid/sphere_fibonacci_grid.html),
+[SPHERE\_FIBONACCI\_GRID](../../master/sphere_fibonacci_grid/sphere_fibonacci_grid.md),
 a C++ library which uses a Fibonacci spiral to create a grid of points
 on the surface of the unit sphere in 3D.
 
-[SPHERE\_GRID](../../cpp_src/sphere_grid/sphere_grid.html), a C++
+[SPHERE\_GRID](../../master/sphere_grid/sphere_grid.md), a C++
 library which provides a number of ways of generating grids of points,
 or of points and lines, or of points and lines and faces, on the surface
 of the unit sphere in 3D.
 
-[SPHERE\_LLQ\_GRID](../../cpp_src/sphere_llq_grid/sphere_llq_grid.html),
+[SPHERE\_LLQ\_GRID](../../master/sphere_llq_grid/sphere_llq_grid.md),
 a C++ library which uses longitudes and latitudes to create grids of
 points, lines, and quadrilaterals on the surface of the unit sphere in
 3D.
 
-[SPHERE\_LLT\_GRID](../../cpp_src/sphere_llt_grid/sphere_llt_grid.html),
+[SPHERE\_LLT\_GRID](../../master/sphere_llt_grid/sphere_llt_grid.md),
 a C++ library which uses longitudes and latitudes to create grids of
 points, lines, and triangles on the surface of the unit sphere in 3D.
 
-[SQUARE\_GRID](../../cpp_src/square_grid/square_grid.html), a C++
+[SQUARE\_GRID](../../master/square_grid/square_grid.md), a C++
 library which computes a grid of points over the interior of a square in
 2D.
 
-[TETRAHEDRON\_GRID](../../cpp_src/tetrahedron_grid/tetrahedron_grid.html),
+[TETRAHEDRON\_GRID](../../master/tetrahedron_grid/tetrahedron_grid.md),
 a C++ library which computes a grid of points over the interior of a
 tetrahedron in 3D.
 
-[TRIANGLE\_GRID](../../cpp_src/triangle_grid/triangle_grid.html), a C++
+[TRIANGLE\_GRID](../../master/triangle_grid/triangle_grid.md), a C++
 library which computes a grid of points over the interior of a triangle
 in 2D.
 
-[WEDGE\_GRID](../../cpp_src/wedge_grid/wedge_grid.html), a C++ library
+[WEDGE\_GRID](../../master/wedge_grid/wedge_grid.md), a C++ library
 which computes a grid of points over the interior of the unit wedge in
 3D.
 
@@ -162,7 +162,7 @@ unit pyramid.
     transposed.
 -   **TIMESTAMP** prints the current YMDHMS date as a time stamp.
 
-You can go up one level to [the C++ source codes](../cpp_src.html).
+You can go up one level to [the C++ source codes](../cpp_src.md).
 
 ------------------------------------------------------------------------
 
